@@ -1,0 +1,28 @@
+Background format :
+
+[tileset1 offset][tileset 2 offset][palette offset][palette][tileset 1][tileset 2]
+
+Tileset 1 offset : relative offset of tileset 1 data, from current position. Always $0026 in practice, as following data is always the same size (2 offsets and 1 palette).
+Tileset 2 offset : relative offset of tileset 2 data, from current position.
+Palette offset : relative offset of background palette. Always $0002 in practice, as the palette is always stored just next to the offset, apparently.
+Palette : standard 16-color palette
+Tilesets 1 and 2 : graphics data using the stack compression algorithm.
+
+Theoretically, data can be stored in any order, but in practice they're always stored in following order : palette, tileset 1, tileset 2. 
+Hence the fixed values for 1st and 3rd offsets.
+
+Tile layout : 
+384 tiles in 4*4 blocks with blocks arranged in 4*3 screen halves
+
+ 1  5  9 13 49 53                  193 197
+ 2  6 10 14 50  .                  194   .
+ 3  7 11 15 51  .                  195   .
+ 4  8 12 16 52  .                  196   .
+17 21 25 29  
+18 22 26 30
+19 23 27 31
+20 24 28 32
+33 37 41 45                  . 189                    . 381
+34 38 42 46                  . 190                    . 382
+35 39 43 47                  . 191                    . 383
+36 40 44 48                188 192                  380 384

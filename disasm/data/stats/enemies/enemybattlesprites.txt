@@ -1,0 +1,4 @@
+
+For each enemy, a 2-byte entry :
+
+[Battle sprite index][Palette index]

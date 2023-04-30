@@ -1,0 +1,442 @@
+$0000 - nextSingleText - Display next single text line
+Displays textbox with next line from current text cursor, and then hides textbox and optional portrait.
+2 params : 
+- byte : portrait options : 0=default left display, bit 7($80)=right display, bit 6($40)=Horizontal Flip, $FF=hide currently displayed portrait
+- byte : entity index
+
+$0001 - nextSingleTextVar - Display next single line with name parameters
+Same as above with name index parameters. 
+Not used anywhere in the whole game.
+4 params :
+- byte : portrait options (see command 0)
+- byte : entity index
+- word : name index 1
+- word : name index 2
+
+$0002 - nextText - Display next text line
+Displays textbox with next line from current text cursor, and doesn't hide textbox and optional portrait in order to display more text lines.
+2 params : 
+- byte : portrait options (see command 0)
+- byte : entity index
+
+$0003 - nextTextVar - Display next line with name parameters
+Same as above with name index parameters. 
+Not used anywhere in the whole game.
+5 params :
+- byte : portrait options (see command 0)
+- byte : entity index
+- word : name index 1
+- word : name index 2
+
+$0004 - textCursor - Initialize text cursor
+Initializes cursor to point to next text line to read. Doesn't display textbox, only sets the cursor.
+1 param :
+- word : line index
+
+$0005 - playSound - Play sound
+Sends parameter value to the sound driver to play either a music, an SFX or a sound command (stop, fade out ...)
+1 param :
+- word : sound index/command. Refer to disasm\sf2enums.asm for music/sfx constant values.
+
+$0007 - warp - Execute warp map event
+Warps player to given destination.
+4 params :
+- byte : Dest map
+- byte : Dest X
+- byte : Dest Y
+- byte : Dest Facing
+
+$0008 - join - Character joins Force
+Trigger the event by displaying join text, playing music, updating Force member list.
+1 param :
+- word : character index
+Character IDs are from 00-1D (Bowie-Claude).
+Harcoded special case : value $80 is used for Sarah + Chester who join simultaneously.
+
+$0009 - hideText - Hide textbox and optional portait.
+Used in conjunction with "nextText" and "nextTextVar" commands, or after a textbox was left open by ASM code (TRAP #5 calls).
+No params.
+
+$000A - executeSubroutine - Execute a given piece of ASM code
+Powerful for ASM hackers, anything is possible with that command.
+1 param :
+- long : subroutine absolute offset, which in our case has to be represented by the subroutine's name, as the assembler will compute its actual address during build.
+
+$000B - jump - Jump to another cutscene address
+Simple "go to" command.
+1 param :
+- long : next command absolute address, same as above, has to use a name to point to.
+
+$000C - jumpIfFlagSet - Jump if flag is set
+Conditional command.
+2 params :
+- word : flag index.
+- long : as above with jump, named target address
+
+$000D - jumpIfFlagClear - Jump if flag clear
+Same as above
+
+$000E - jumpIfDefeatedByLastAttack - Jump if character defeated by last attack
+2 params : 
+- word : character index
+- long : named target
+
+$000F - jumpIfDead - Jump if character dead
+Same as above
+
+$0010 - setF - Set flag
+word : flag index
+
+$0010 - clearF - Clear flag
+Same as above
+
+$0011 - yesNo - Display "yes/no" choice
+Sets flag $59 value for following conditionnal jump.
+No params.
+
+$0012 - menu - Execute contextual menu
+1 param :
+- word : 0 = church, 1 = shop, 2 = blacksmith
+
+$0013 - setStoryFlag - Set story-specific flag
+The flag map contains an array of "story flags" which are set for every story step to save. 
+These flags have their own command to help use them without having to do the math (they start from flag position $190).
+1 param :
+- word : story flag index (= absolute flag index - $190)
+
+$0014 - customActscript - Apply custom actscript to entity
+Next commands are actually an entity actscript to apply to an entity (= a map sprite). 
+Should be used only for actscripts which won't be used anywhere else in the game. 
+Otherwise, use the "setAcscript" command by pointing to a externally declared actscript.
+2 params :
+- byte : entity index
+- byte : $FF if we have to wait for the end of execution of custom actscript, or 0 otherwise to continue cutscene immediately.
+Easier macros created : 
+- customActscript which doesn't wait for the end of actscript
+- and customActscriptWait, which does.
+Only 1 param, naturally.
+
+$0015 - setActscript - Apply actscript to entity
+Applies an existing actscript declared anywhere else in the game's code, and which can be re-used in any cutscene.
+3 params :
+- byte : entity index
+- byte : wait execution end or no (see above)
+- long : actscript named address.
+Easier macros created : 
+- setActscript which doesn't wait for the end of actscript
+- and setActscriptWait, which does.
+Only 2 params, naturally.
+
+$0016 - waitIdle - Wait for entity to stop before continuing cutscene execution
+1 param :
+- word : entity index
+
+$0017 - setPosFlash - Set entity position, direction, and make it flash
+Disappearance effect used when Hawel dies, and when the boat is dismantled.
+4 params :
+- byte : entity index
+- byte : map X
+- byte : map Y
+- byte : direction
+
+$0018 - entityFlashWhite - Make entity flash white
+2 params :
+- word : entity index
+- word : duration in frames
+
+$0019 - setPos - Set entity position and direction
+4 params :
+- byte : entity index
+- byte : map X
+- byte : map Y
+- byte : direction
+
+$001A - setSprite - Set entity sprite
+2 params :
+- word : entity index
+- word : sprite index
+
+$001B - startEntity - Start entity animation
+1 param :
+- word : entity index
+
+$001C - stopEntity - Stop entity animation
+1 param :
+- word : entity index
+
+$001D - showPortrait - Show portrait
+Show portrait only with no textbox.
+Entity portrait is determined from the entity dialog definition table (sprite -> portrait, text sound)
+Used in final scene with Princess Ellis being unconscious.
+2 params :
+- byte : portrait options : 0=default left display, bit 7($80)=right display, bit 6($40)=Horizontal Flip
+- byte : entity index
+
+$001E - hidePortrait - Hide portrait
+Nuff said.
+
+$001F - allyDefeated
+Doesn't seem to be used.
+1 param :
+- word : ally index
+
+$0020 - updateDefeatedAllies
+Dead allies list is generated based on whether or not an ally's X Pos currently equals -1.
+Doesn't seem to be used.
+
+$0021 - reviveAlly - Revive Force member
+1 param :
+- word : ally index
+Doesn't seem to be used.
+
+$0022 - animEntityFX - Animate entity with specific effect
+2 params :
+- word : entity index
+- word : 0/1 = scan down/up, 2/3 = wipe out/in, 4/5 = slide out/in, 6/7 = mosaic out/in
+
+$0023 - setFacing - Set entity facing
+2 params :
+- byte : entity index
+- byte : facing
+
+$0024 - setCameraEntity - Set which entity is followed by camera
+Value $FFFF to stop following entity.
+1 param :
+- word : entity index
+
+$0025 - cloneEntity - Clone entity
+2 params :
+- word : source entity index
+- word : target entity index
+
+$0026 - nod - Make entity nod
+- word : entity index
+
+$0027 - headshake - Make entity shake head
+- word : entity index
+
+$0028 - moveNextToPlayer - Make entity move next to player's entity
+2 params :
+- word : entity index
+- word : player side
+
+$0029 - setDest - Set entity destination
+3 params :
+- word : entity index
+- word : dest X
+- word : dest Y
+
+$002A - shiver - Make entity shiver
+- word : entity index
+
+$002B - newEntity
+5 params :
+- word : Entity Index
+- byte : X
+- byte : Y
+- byte : Facing
+- byte : Sprite
+
+$002C - followEntity - Make an entity follow another one
+params :
+- word : following entity index
+- word : followed entity index
+- word : following position
+
+$002D - entityActions - Apply entity action sequence
+This command can be followed by one or several action commands, until the "endMove" command ($8080).
+params :
+- byte : entity index
+- byte : if !=0, wait until entity idle
+- 2 repeatable bytes : action type, and action parameter.
+Easier macros created : 
+- entityActions which doesn't wait for the end of actscript
+- and entityActionsWait, which does.
+Only 1 param, naturally.
+
+$002E - hide - Hide entity
+Stop displaying entity, usually when it has left the display area after the end of a cutscene.
+params :
+- word : entity index
+
+$002F - fly - Give ability to fly
+Only used for Skreech joins cutscene.
+Sets entity property $11 to $FFFF.
+params :
+- word : Entity index
+- word : Value $FFFF then 0
+
+$0030 - removeShadow - Remove entity's shadow
+Graphic FX on sprite to remove black pixels from the bottom of entity sprite.
+params :
+- word : entity index
+
+$0031 - moveEntityAboveAnother - Move entity above entity
+Doesn't seem to be used.
+params :
+- word : entity index to move
+- word : target entity index 
+
+$0032 - setCamDest - Set camera destination
+params :
+- word : Destination X
+- word : Destination Y
+
+$0033 - setQuake - Set quake amplitude
+params :
+- word : quake amplitude in pixels
+
+$0034 - setBlocks - COPY BLOCKS FROM A PLACE TO ANOTHER
+params :
+- Byte : Source X
+- Byte : Source Y
+- Byte : Source Width
+- Byte : Source Height
+- Byte : Destination X
+- Byte : Destination Y
+
+$0035 - setBlocksVar
+Only used in Parmecia/Granseal Path
+Only difference with command 34/setBlocks is that it doesn't set RAM offset 0xFFA82D bits 0 and 1.
+params :
+- Byte : Source X
+- Byte : Source Y
+- Byte : Source Width
+- Byte : Source Height
+- Byte : Destination X
+- Byte : Destination Y
+
+$0036 - resetMap
+Simple reloading without moving the camera.
+No params.
+
+$0037 - loadMapFadeIn - Load map and fade in
+params :
+- word : Map index
+- word : Camera initial X
+- word : Camera initial Y
+
+$0039 - fadeInB - Fade in from black
+
+$003A - fadeOutB - Fade out to black
+
+$003B - slowFadeInB - Slow fade in from black
+
+$003C - slowFadeOutB - Slow fade out to black
+
+$003D - tintMap
+Make the map flash. Used for storm and cutscenes with Cameela/Geshp/Oddeye.
+
+$003E - flickerOnce
+Mostly used in conjunction with tintMap command for Cameela/Geshp/Oddeye cutscenes.
+
+$003F - mapFadeOutToWhite
+
+$0040 - mapFadeInFromWhite
+
+$0041 - flashScreenWhite - Make the whole display flash white
+params :
+- word : duration
+
+$0042 - loadMapEntities - Initialize entities
+params :
+  - long : entity data named address
+Entity data format : 
+  First 3-byte entry for main entity (hero) :
+    - X
+    - Y
+    - Facing
+  Next entries : 
+    - X
+    - Y
+    - Facing
+    - Sprite
+    - Actscript
+  Data ends with $FFFF.
+
+$0043 - roofEvent - EXECUTE MAP ROOF EVENT
+params :
+- word : Event X
+- word : Event Y
+
+$0044 - reloadEntities
+params :
+- word : entity data named address (data format : see command $42)
+
+$0045 - cameraSpeed - SET CAMERA SPEED
+params :
+- word : speed value (default=$20)
+
+$0046 - reloadMap
+Reload map and set camera.
+params :
+- word : Camera init X
+- word : Camera init Y
+
+$0047 - stepEvent - EXECUTE MAP STEP EVENT
+params :
+- word : Event X
+- word : Event Y
+
+$0048 - mapLoad - Load a map
+Do not display the map yet (for textboxes to appear first like the "one year later" moment)
+params :
+- word : Map index
+- word : Camera initial X
+- word : Camera initial Y
+
+$0049 - loadEntitiesFromMapSetup
+Loads entities from current map setup.
+Main entity (hero) is loaded from parameters.
+params :
+- word : Main entity X
+- word : Main entity Y
+- word : Main entity Facing
+
+$004A - fadeInFromBlackHalf - Half fade in from black
+No params
+
+$004B - fadeOutToBlackHalf - Half fade out to black
+Maybe used for night time ? To check in intro cutscenes
+No params
+
+$0050 - setSize - SET SPRITE SIZE 
+Set sprite size in pixels
+params :
+- word : entity index
+- word : size value in pixels (24/$18 pixels by default, also max value)
+
+$0051 - joinBatParty - ALLY JOINS BATTLE PARTY
+Automatically removes another member if necessary, preferrably a currently defeated one, or else simply the last one.
+params :
+- word : Ally index
+
+$0052 - faceEntity - MAKE AN ENTITY FACE ANOTHER ONE
+Helpful dynamic behaviour for cutscenes triggered while followers may have any position and facing.
+params :
+- word : Entity index
+- word : Entity to face
+
+$0053 - setPriority - SET ENTITY DISPLAY PRIORITY
+params :
+- word : Entity index
+- word : Priority value (0 or $FFFF)
+
+$0054 - joinForceAI - JOIN FORCE WITH AI CONTROL FLAG
+params :
+- word : Ally index
+- word : Join value ($FFFF = AI-controlled, then 0=user-controlled)
+
+$0055 - resetForceBattleStats - RESET FORCE STATS
+All Force members get their HP, MP and status reset to max.
+
+$0056 - addNewFollower - ADD NEW FOLLOWER
+params :
+- word : Entity index
+
+$80xx - csWait  - Wait for the time given in parameter.
+1 param : 
+- word : number of frames to wait. (60 frames per second)
+
+$FFFF - csc_end - Cutscene end
+Stop parsing commands.

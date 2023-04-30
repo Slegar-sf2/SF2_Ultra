@@ -1,0 +1,6 @@
+
+For each character, a 9-byte entry :
+
+[Base Class][Battlesprite Index][Palette Index]
+[Promotion Class][Battlesprite Index][Palette Index]
+[Special Promotion Class][Battlesprite Index][Palette Index]

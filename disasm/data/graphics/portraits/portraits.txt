@@ -1,0 +1,14 @@
+Portrait Format :
+
+[Eye tile entry number][Eye tile entries][Mouth tile entry number][Mouth tile entries][palette][tiles]
+
+- Eye/mouth tile entry number : numeric word value
+- Eye/mouth tile entries : 4 bytes per entry
+		- byte 0 : portrait tile X
+		- byte 1 : portrait tile Y
+		- byte 2 : alternative tile X
+		- byte 3 : alternative Y
+	Coordinates start from the upper left corner of portrait.
+	
+- palette : classic 32-byte palette
+- tiles : stack-compressed tiles

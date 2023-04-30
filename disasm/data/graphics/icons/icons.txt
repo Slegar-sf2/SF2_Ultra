@@ -1,0 +1,22 @@
+Uncompressed graphics.
+
+4 bits per pixel (color index from usual MD 16-color palette)
+
+Pixel Layout :
+8x8 pixels per tile.
+1  2  3  4  5  6  7  8 
+9 10 11 12 13 14 15 16
+17 ...
+
+
+
+          ... 62 63 64
+
+Layout :
+2x3 tiles (16x24 pixels) with tiles ordered per row.
+
+Displayed      Stored
+ tiles         tiles
+  1 2
+  3 4      -> 1 2 3 4 5 6
+  5 6

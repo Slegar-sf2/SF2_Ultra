@@ -1,0 +1,166 @@
+Songs are stored in 32KB banks ($8000) accessed by Z80 from the ROM.
+The music bank starts with a pointer table of $20 entries, each entry being
+the offset of a song in the bank.
+This pointer table is usually at the very beginning of the bank, but some games use the same bank
+to store other data like YM instruments, so the pointer table can be somewhere further in the bank.
+So yeah, you can have up to $20 songs in the same 32KB bank.
+
+In Shining Force II, music banks are found at ROM offsets 0x1F0000 and 0x1F8000.
+
+
+MUSIC DATA LAYOUT : 
+
+byte 0 : 	Always $00. If not, then instead of loading a music, load SFX of index byte 0. So yeah, always 0, really.
+byte 1 : 	$00 if music uses Channel 6 in DAC mode, $01 if not.
+byte 2 :	Always $00. I guess it could have been used as the second byte needed for YM Timer value if Timer A was used instead of B.
+byte 3 : 	YM Timer B value. This defines the tempo of the music.
+bytes $04-$17 :	Pointer Table of 10 entries, each entry being the data to parse for each respective Channel.
+
+The following bytes are the actual data to parse for each channel :
+- for YM Channels 1,2,3,4,5, follow the "YM commands" description 
+- for YM Channel 6, follow "YM Channel 6 DAC commands" if music uses DAC mode, or else follow "YM commands" like other YM Channels
+- for PSG Tone Channels 1,2,3, follow "PSG Tone commands"
+- for PSG Noise Channel, follow "PSG Noise commands"
+
+Note : This music format described below is actually also used for SFX data !
+
+
+YM commands : 
+
+FF xx xx	now, parse data from offset xxxx
+
+FF xx 00	Only for YM Channels 1,2,3 : set new operation xx (play music/sfx xx, fade out ...)
+
+FF 00 00	no more data to parse, mute channel
+
+FE xx		Set Next Instrument xx
+
+FD 0x		Set Output Level x and reload instrument
+
+FC xx		Set Key Release or Pitch Slides :
+		- if xx < 80, release notes key at (note length - xx)
+		- if xx = 80, key is never released, even between different notes.
+		- if 80<xx<FF, make slides between notes. xx bits 6-0 = slide speed. The higher the value, the quicker the slide.
+		- if xx = FF, stop pitch slides.
+
+FB xy		Load Vibrato x, triggered at Note Length 2*y
+
+FA xx		Set Stereo :
+		- xx bit 7 : 1 for LEFT output ON, 0 for OFF
+		- xx bit 6 : 1 for RIGHT output ON, 0 for OFF
+
+F9 xy		Note/Frequency Shifting :
+		- bit 7 : note shift up (0) or down (1)
+		- bits 6-5-4 : add value * 2 to note frequencies, to shift them slightly. 	
+		- nibble y : shift notes by y notes up/down depending on bit 7
+
+F8 		Loop Command, more details below
+
+F0 xx		Set Note Length xx and Play Silence for that length
+
+70		Play Silence for Note Length
+
+Any other parsed byte is considered as a New Note to Play :
+
+xx (yy)		- Play Note xx bits 6-0. The YM note table contains $54 entries, so note index range : $00-$53. 
+		- if bit 7 is set, then Set New Note Length yy
+
+
+YM Channel 6 DAC commands :
+
+FF xx xx	now, parse data from offset xxxx
+
+FF 00 00	no more data to parse, mute channel
+
+FC xx		- if bit 7 = 1, ignore play length : samples are played until they end or until another sample is played.
+		- else, stop sample play at (sample play length - xx)
+
+FA xx		Set Stereo :
+		- xx bit 7 : 1 for LEFT output ON, 0 for OFF
+		- xx bit 6 : 1 for RIGHT output ON, 0 for OFF
+
+F8 		Loop Command, more details below
+
+F0 xx		Set Sample Play Length xx and Play Silence for that length
+
+70		Play Silence for Sample Play Length
+
+Any other parse byte is considered as a New Sample to Play :
+
+xx (yy)		- Play Sample xx bits 6-0.
+		- if bit 7 is set, then Set New Sample Play Length yy
+
+
+PSG Tone commands :
+
+FF xx xx	now, parse data from offset xxxx
+
+FF 00 00	no more data to parse, mute channel
+
+FD xy		Load PSG Instrument x at total level y
+
+FC xx		Set Key Release :
+		- bits 6-0 : key release value. Key is released at (note length - key release value).
+		- bit 7 : if bit 7 is set to 1, then never release key.
+
+FB xy		Load Vibrato x, triggered at Note Length 2*y
+
+FA xx		set YM Timer value with xx
+
+F9 xy		Note/Frequency Shifting :
+		- bit 7 : note shift up (0) or down (1)
+		- bits 6-5-4 : add value * 2 to note frequencies, to shift them slightly. 	
+		- nibble y : shift notes by y notes up/down depending on bit 7
+
+F8 		Loop Command, more details below
+
+F0 xx		Set New Note Length xx and Wait xx before parsing anything else.
+
+70		Do Nothing for note length.
+
+Any other parsed byte is considered as a New Noise to Play :
+
+xx (yy)		- Play Note xx bits 6-0. The PSG note table contains $40 entries, so note index range : $00-$3F. 
+		- if bit 7 is set, then Set New Note Length yy
+
+
+PSG Noise commands :
+
+FF xx xx	now, parse data from offset xxxx
+
+FF 00 00	no more data to parse, mute channel
+
+FD xy		Load PSG Instrument x at total level y
+
+FC xx		Set Key Release :
+		- bits 6-0 : key release value. Key is released at (note length - key release value).
+		- bit 7 : if bit 7 is set to 1, then never release key.
+
+F8 		Loop Command, more details below
+
+F0 xx		Set New Note Length xx and Wait xx before parsing anything else.
+
+70		Do Nothing for note length.
+
+Any other parsed byte is considered as a New Noise to Play :
+
+xx (yy)		- Play Noise for note length. Bit 2 is feedback, bits 1-0 are frequency. More details in Genesis Technical Overview.
+		- if bit 7 is set, then Set New Note Length yy
+		
+		
+LOOP COMMANDS :
+
+Type A : Infinite loop
+F8 00 		Loop Start
+F8 A1		Loop End : Go back to Loop Start.
+
+Type B : Repeat with voltas (different ending sections)
+F8 20		Repeat Start
+F8 A0		Repeat End : Go back to Repeat Start. Used before Section 2/3 Starts.
+F8 40		Section 1 Start : Play section once, and then skip to Section 2 next times.
+F8 60		Section 2 Start : Play section once, and then skip to Section 3 next times.
+F8 80		Section 3 start : No skip for this section, will be played everytime it's reached.
+
+Type C : Loop with counter
+F8 Cx/Dx	Loop Start, to repeat x+1 times (x value on 5 bits, max value $1F+1=32 times)
+F8 E0		Loop End
