@@ -678,7 +678,10 @@ ProcessMapTransition:
                 conditionalLongAddr movea.l, p_pt_MapTilesets, a0
                 clr.w   d0
                 move.b  (a5)+,d0
-                blt.s   loc_25E8
+				
+                cmpi.b  #$FF,d0
+                beq.s  loc_25E8
+				
                 lsl.w   #2,d0
                 movea.l (a0,d0.w),a0
                 lea     ($2000).w,a1
@@ -692,7 +695,10 @@ loc_25E8:
                 conditionalLongAddr movea.l, p_pt_MapTilesets, a0
                 clr.w   d0
                 move.b  (a5)+,d0
-                blt.s   loc_260E
+				
+                cmpi.b  #$FF,d0
+                beq.s   loc_260E
+				
                 lsl.w   #2,d0
                 movea.l (a0,d0.w),a0
                 lea     ($4000).w,a1
@@ -705,7 +711,10 @@ loc_260E:
                 conditionalLongAddr movea.l, p_pt_MapTilesets, a0
                 clr.w   d0
                 move.b  (a5)+,d0
-                blt.s   loc_2632
+				
+                cmpi.b  #$FF,d0
+                beq.s   loc_2632
+				
                 lsl.w   #2,d0
                 movea.l (a0,d0.w),a0
                 lea     ($5000).w,a1
@@ -1085,7 +1094,9 @@ LoadMapTilesets:
                 conditionalLongAddr movea.l, p_pt_MapTilesets, a0
                 clr.w   d0
                 move.b  (a5)+,d0
-                blt.s   @CheckTileset2
+				
+                cmpi.b  #$FF,d0
+                beq.s   @CheckTileset2
                 
                 lsl.w   #2,d0
                 movea.l (a0,d0.w),a0
@@ -1096,7 +1107,9 @@ LoadMapTilesets:
                 conditionalLongAddr movea.l, p_pt_MapTilesets, a0
                 clr.w   d0
                 move.b  (a5)+,d0
-                blt.s   @CheckTileset3
+				
+                cmpi.b  #$FF,d0
+                beq.s   @CheckTileset3
                 
                 lsl.w   #2,d0
                 movea.l (a0,d0.w),a0
@@ -1107,7 +1120,9 @@ LoadMapTilesets:
                 conditionalLongAddr movea.l, p_pt_MapTilesets, a0
                 clr.w   d0
                 move.b  (a5)+,d0
-                blt.s   @CheckTileset4
+				
+                cmpi.b  #$FF,d0
+                beq.s   @CheckTileset4
                 
                 lsl.w   #2,d0
                 movea.l (a0,d0.w),a0
@@ -1118,7 +1133,9 @@ LoadMapTilesets:
                 conditionalLongAddr movea.l, p_pt_MapTilesets, a0
                 clr.w   d0
                 move.b  (a5)+,d0
-                blt.s   @CheckTileset5
+				
+                cmpi.b  #$FF,d0
+                beq.s   @CheckTileset5
                 
                 lsl.w   #2,d0
                 movea.l (a0,d0.w),a0
@@ -1129,7 +1146,9 @@ LoadMapTilesets:
                 conditionalLongAddr movea.l, p_pt_MapTilesets, a0
                 clr.w   d0
                 move.b  (a5)+,d0
-                blt.s   @Done
+				
+				cmpi.b  #$FF,d0
+                beq.s    @Done
                 
                 lsl.w   #2,d0
                 movea.l (a0,d0.w),a0
