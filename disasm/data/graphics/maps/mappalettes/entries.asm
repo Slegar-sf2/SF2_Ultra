@@ -21,6 +21,7 @@ pt_MapPalettes: dc.l MapPalette00
 				dc.l MapPalette17
 				dc.l MapPalette18
 				dc.l MapPalette19
+				dc.l MapPalette20
 MapPalette00:   incbin "data/graphics/maps/mappalettes/mappalette00.bin"
 MapPalette01:   incbin "data/graphics/maps/mappalettes/mappalette01.bin"
 MapPalette02:   incbin "data/graphics/maps/mappalettes/mappalette02.bin"
@@ -41,3 +42,4 @@ MapPalette16:   incbin "data/graphics/maps/mappalettes/mappalette16.bin"
 MapPalette17:   incbin "data/graphics/maps/mappalettes/mappalette17.bin"
 MapPalette18:   incbin "data/graphics/maps/mappalettes/mappalette18.bin"
 MapPalette19:   incbin "data/graphics/maps/mappalettes/mappalette19.bin"
+MapPalette20:   incbin "data/graphics/maps/mappalettes/mappalette20.bin"
