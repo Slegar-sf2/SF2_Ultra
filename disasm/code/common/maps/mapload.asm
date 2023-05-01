@@ -678,10 +678,7 @@ ProcessMapTransition:
                 conditionalLongAddr movea.l, p_pt_MapTilesets, a0
                 clr.w   d0
                 move.b  (a5)+,d0
-				
-                cmpi.b  #$FF,d0
-                beq.s  loc_25E8
-				
+                blt.s   loc_25E8
                 lsl.w   #2,d0
                 movea.l (a0,d0.w),a0
                 lea     ($2000).w,a1
@@ -695,10 +692,7 @@ loc_25E8:
                 conditionalLongAddr movea.l, p_pt_MapTilesets, a0
                 clr.w   d0
                 move.b  (a5)+,d0
-				
-                cmpi.b  #$FF,d0
-                beq.s   loc_260E
-				
+                blt.s   loc_260E
                 lsl.w   #2,d0
                 movea.l (a0,d0.w),a0
                 lea     ($4000).w,a1
@@ -711,10 +705,7 @@ loc_260E:
                 conditionalLongAddr movea.l, p_pt_MapTilesets, a0
                 clr.w   d0
                 move.b  (a5)+,d0
-				
-                cmpi.b  #$FF,d0
-                beq.s   loc_2632
-				
+                blt.s   loc_2632
                 lsl.w   #2,d0
                 movea.l (a0,d0.w),a0
                 lea     ($5000).w,a1
@@ -1094,7 +1085,6 @@ LoadMapTilesets:
                 conditionalLongAddr movea.l, p_pt_MapTilesets, a0
                 clr.w   d0
                 move.b  (a5)+,d0
-				
                 cmpi.b  #$FF,d0
                 beq.s   @CheckTileset2
                 
@@ -1107,7 +1097,6 @@ LoadMapTilesets:
                 conditionalLongAddr movea.l, p_pt_MapTilesets, a0
                 clr.w   d0
                 move.b  (a5)+,d0
-				
                 cmpi.b  #$FF,d0
                 beq.s   @CheckTileset3
                 
@@ -1120,7 +1109,6 @@ LoadMapTilesets:
                 conditionalLongAddr movea.l, p_pt_MapTilesets, a0
                 clr.w   d0
                 move.b  (a5)+,d0
-				
                 cmpi.b  #$FF,d0
                 beq.s   @CheckTileset4
                 
@@ -1133,7 +1121,6 @@ LoadMapTilesets:
                 conditionalLongAddr movea.l, p_pt_MapTilesets, a0
                 clr.w   d0
                 move.b  (a5)+,d0
-				
                 cmpi.b  #$FF,d0
                 beq.s   @CheckTileset5
                 
@@ -1146,9 +1133,8 @@ LoadMapTilesets:
                 conditionalLongAddr movea.l, p_pt_MapTilesets, a0
                 clr.w   d0
                 move.b  (a5)+,d0
-				
-				cmpi.b  #$FF,d0
-                beq.s    @Done
+                cmpi.b  #$FF,d0
+                beq.s   @Done
                 
                 lsl.w   #2,d0
                 movea.l (a0,d0.w),a0
@@ -1210,8 +1196,8 @@ loc_2ACC:
                 move.w  #CRAM_PALETTE_SIZE,d7
                 bsr.w   CopyBytes       
                 clr.w   (PALETTE_1_BASE).l
-                tst.b   (a5)+
-                blt.s   loc_2B1C
+                cmpi.b  #$FF,(a5)+
+                beq.s   loc_2B1C
                 lea     (FF3000_MAP_TILESET_1).l,a0
                 lea     ($2000).w,a1
                 move.w  #$800,d0
@@ -1219,8 +1205,8 @@ loc_2ACC:
                 bsr.w   ApplyImmediateVramDma
 loc_2B1C:
                 
-                tst.b   (a5)+
-                blt.s   loc_2B34
+                cmpi.b  #$FF,(a5)+
+                beq.s   loc_2B34
                 lea     (FF6802_LOADING_SPACE).l,a0
                 lea     ($3000).w,a1
                 move.w  #$800,d0
@@ -1228,8 +1214,8 @@ loc_2B1C:
                 bsr.w   ApplyImmediateVramDma
 loc_2B34:
                 
-                tst.b   (a5)+
-                blt.s   loc_2B4C
+                cmpi.b  #$FF,(a5)+
+                beq.s   loc_2B4C
                 lea     (FF0000_RAM_START).l,a0
                 lea     ($4000).w,a1
                 move.w  #$800,d0
@@ -1237,8 +1223,8 @@ loc_2B34:
                 bsr.w   ApplyImmediateVramDma
 loc_2B4C:
                 
-                tst.b   (a5)+
-                blt.s   loc_2B64
+                cmpi.b  #$FF,(a5)+
+                beq.s   loc_2B64
                 lea     (FF1000_MAP_TILESET_4).l,a0
                 lea     ($5000).w,a1
                 move.w  #$800,d0
@@ -1248,8 +1234,8 @@ loc_2B60:
                 bsr.w   ApplyImmediateVramDma
 loc_2B64:
                 
-                tst.b   (a5)+
-                blt.s   loc_2B7C        
+                cmpi.b  #$FF,(a5)+
+                beq.s   loc_2B7C        
                 lea     (FF2000_LOADING_SPACE).l,a0
                 lea     ($6000).w,a1
                 move.w  #$800,d0
