@@ -49,5 +49,5 @@ BattleMapCoordinates:
                 battleMapCoords 59, 0, 0, 28, 38, 255, 255
                 battleMapCoords 24, 0, 0, 18, 32, 255, 255
                 battleMapCoords 5, 0, 0, 32, 44, 255, 255
-                battleMapCoords 19, 0, 0, 35, 15, 255, 255
+                battleMapCoords 82, 0, 0, 18, 32, 255, 255
                 battleMapCoords 40, 0, 10, 26, 22, 255, 255
