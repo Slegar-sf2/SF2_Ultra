@@ -1744,7 +1744,7 @@ Map81:          include "data\maps\entries\map81\00-tilesets.asm"    ;
                 dc.l Map81s6_WarpEvents
                 dc.l Map81s7_ChestItems
                 dc.l Map81s8_OtherItems
-                dc.l $FFFFFFFF
+                dc.l Map81s9_Animations
 Map81s2_Areas:  include "data\maps\entries\map81\2-areas.asm"    ; 
 Map81s3_FlagEvents:include "data\maps\entries\map81\3-flag-events.asm"    ; 
 Map81s4_StepEvents:include "data\maps\entries\map81\4-step-events.asm"    ; 
@@ -1754,6 +1754,7 @@ Map81s7_ChestItems:include "data\maps\entries\map81\7-chest-items.asm"    ;
 Map81s8_OtherItems:include "data\maps\entries\map81\8-other-items.asm"    ; 
 Map81s0_Blocks: incbin "data/maps/entries/map81/0-blocks.bin"
 Map81s1_Layout: incbin "data/maps/entries/map81/1-layout.bin"
+Map81s9_Animations:include "data\maps\entries\map81\9-animations.asm"    ; 
 Map82:          include "data\maps\entries\map82\00-tilesets.asm"    ; 
                 dc.l Map82s0_Blocks
                 dc.l Map82s1_Layout
