@@ -14,11 +14,11 @@
                 mWarp 14, 16
                   warpNoScroll
                   warpMap    255
-                  warpDest   54, 2
-                  warpFacing RIGHT
-                mWarp 54, 2
+                  warpDest   53, 4
+                  warpFacing LEFT
+                mWarp 53, 4
                   warpNoScroll
                   warpMap    255
                   warpDest   14, 16
-                  warpFacing lEFT
+                  warpFacing LEFT
                 endWord

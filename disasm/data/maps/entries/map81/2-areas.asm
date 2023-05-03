@@ -13,8 +13,8 @@
                     mainLayerType    0
                     areaDefaultMusic 8
                 
-                    mainLayerStart      50, 0
-                    mainLayerEnd        55, 5
+                    mainLayerStart      46, 0
+                    mainLayerEnd        56, 9
                     scndLayerFgndStart  0, 0
                     scndLayerBgndStart  0, 0
                     mainLayerParallax   256, 256
