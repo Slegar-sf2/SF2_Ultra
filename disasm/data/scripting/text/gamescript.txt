@@ -480,7 +480,7 @@
 01DF=Come back again!{N}See ya!{W1}
 01E0=Sir Astral is in the{N}basement, but he looks{N}
 01E1=strange today.{W1}
-01E2=Hooo...I'm sleepy.{N}{NAME;3} must be sleeping{N}soundly about now.{W1}
+01E2=Hooo...I'm sleepy.{N}{NAME;30} must be sleeping{N}soundly about now.{W1}
 01E3=Hurry to school!{N}Sir Astral and {NAME;1} must{N}be waiting.{W1}
 01E4=He thinks of you as his own{N}grandson.{W2}
 01E5=Sometimes he may badger{N}you, but that's because he{N}loves you.{W1}
@@ -510,13 +510,13 @@
 01FD=(Cough!)  Be good in the{N}castle, OK?{W1}
 01FE=Good morning {LEADER}!{N}You woke up late this{N}morning.{W2}
 01FF=Did the storm wake you up?{W2}
-0200=Hi, {LEADER}!{N}How are you?{W2}
+0200=Hello, {LEADER}!{N}How are you?{W2}
 0201=Mmm...aahh...{N}Oh, yeah!  It must be....{N}No, it's not a....{W1}
 0202=By the way, {LEADER},{N}what did you think of the{N}storm last night?{W2}
 0203=Did you feel something evil,{N}or anything?{W2}
 0204=No, nothing?!{N}Perhaps it was just my{N}imagination.  Sorry.{W1}
 0205=Is everybody here?{N}OK, let's start.{W2}
-0206=Where is {NAME;3}?{N}Overslept again?  Oh, well.{N}I can't wait for him.{W2}
+0206=Where is {NAME;30}?{N}Overslept again?  Oh, well.{N}I can't wait for him.{W2}
 0207=Where did I leave off{N}yesterday?{W1}
 0208=Sir Astral!{W1}
 0209=The Minister would like you{N}to come to the castle!{W1}
@@ -528,8 +528,8 @@
 020F=But, I think it must be{N}something else!{N}He was acting so strange!{W1}
 0210=Hey, {NAME;2}!{N}Let's go to the castle.{W1}
 0211=We can't, {NAME;1}!{N}We're just kids.{N}They won't let us in.{W1}
-0212=Never mind that.{N}I have a plan!{W1}
-0213={LEADER}, maybe we can{N}meet the Princess!{N}Are you going with us?{W1}
+0212=Never mind that.{N}I have a plan!{W1} 
+0213={LEADER},maybe we can {N}meet the Princess!{N}Are you going with us?{W1}
 0214=No?  Really?{N}Then I'm not going either!{W2}
 0215=But, if you change your{N}mind, let me know right{N}away!{W1}
 0216={LEADER}, so you decided{N}to go?{W1}
@@ -2190,7 +2190,7 @@
 088D=So they are.   They look{N}like good kids.{W1}
 088E=You must have a special{N}reason to have them here,{N}right?{W1}
 088F=Um...{D1}I didn't mean for...{W1}
-0890=Astral glares at {LEADER}.{W1}
+0890=Astral glares at {NAME;1}.{W1}
 0891=(Cough){N}You said the door of the{N}Ancient Tower is open.{W2}{N}There must be a connection{N}between the open door and{N}the King's sickness.{W1}
 0892=I called them here to help{N}me investigate the tower.{W1}
 0893=Now, pupils.  Follow me.{W1}
@@ -4263,5 +4263,6 @@
 10A6=Hey!{D2}
 10A7=Stay away from me!{D2}
 10A8=Somebody...HELP!{D2}
-10A9=Aughhhh!!!{D2}
+10A9=Aughhhh!!!!!!!!!!!!!!!!{D2}
 10AA=(Sigh)....{D2}
+10AB=Hi!{N}Have you seen BLACK GAMES {N}the YouTube channel ?{D2}
