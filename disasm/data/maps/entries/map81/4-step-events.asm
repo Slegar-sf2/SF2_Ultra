@@ -30,5 +30,4 @@
 ;                  sbcSource 57, 0
 ;                  sbcSize   1, 1
 ;                  sbcDest   38, 6
-
                 endWord
