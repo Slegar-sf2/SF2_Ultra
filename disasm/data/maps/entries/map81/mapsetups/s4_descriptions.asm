@@ -7,4 +7,4 @@
 
 ms_map81_AreaDescriptions:
 
-                msDescEnd
+                 rts
