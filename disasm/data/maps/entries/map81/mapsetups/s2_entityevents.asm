@@ -5,6 +5,9 @@ ms_map81_EntityEvents:
                 msEntityEvent 128, DOWN, Map81_EntityEvent1-ms_map81_EntityEvents
 				msEntityEvent 129, RIGHT, Map81_EntityEvent2-ms_map81_EntityEvents
 				msEntityEvent 130, UP, Map81_EntityEvent3-ms_map81_EntityEvents
+				msEntityEvent 131, DOWN, Map81_EntityEvent4-ms_map81_EntityEvents
+				msEntityEvent 132, LEFT, Map81_EntityEvent5-ms_map81_EntityEvents
+				msEntityEvent 133, RIGHT, Map81_EntityEvent6-ms_map81_EntityEvents
                 msDefaultEntityEvent Map81_DefaultEntityEvent-ms_map81_EntityEvents
 				
 ; =============== S U B R O U T I N E =======================================
@@ -41,7 +44,38 @@ Map81_EntityEvent3:
                 txt     4267
                 rts
 
-    ; End of function Map81_EntityEvent2
+    ; End of function Map81_EntityEvent3
 
 
-; =============== S U B R O U T I N E =======================================					
+; =============== S U B R O U T I N E =======================================
+
+
+Map81_EntityEvent4:
+                
+                jsr     j_ChurchMenuActions
+                rts
+
+    ; End of function Map81_EntityEvent5
+
+
+; =============== S U B R O U T I N E =======================================
+Map81_EntityEvent5:
+                
+                 
+                txt     817             
+                rts
+
+    ; End of function Map81_EntityEvent5
+
+
+; =============== S U B R O U T I N E =======================================
+Map81_EntityEvent6:
+                
+                 
+                txt     818             
+                rts
+
+    ; End of function Map81_EntityEvent5
+
+
+; =============== S U B R O U T I N E =======================================
