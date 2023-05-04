@@ -161,9 +161,9 @@ tbl_AllyBattlesprites:
                 
                 ; Additional entries to be defined with force members expansion patch
             if (STANDARD_BUILD&EXPANDED_FORCE_MEMBERS=1)
-; 30: 
-                allyBattleSprAndPlt RDBN, SDMN, 0
-                allyBattleSprAndPlt NONE, NONE, 0
+; 30: SHADE
+                allyBattleSprAndPlt ACHR, 32, 0
+                allyBattleSprAndPlt SNIP, 33, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 31: 
