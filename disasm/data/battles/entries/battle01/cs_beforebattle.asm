@@ -83,15 +83,56 @@ bbcs_01:        textCursor 2292
                 entityActionsWait 134
                  moveLeft 1
                 endActions
+				entityActionsWait 128
+                 moveRight 1
+                endActions
+                entityActionsWait 134
+                 moveRight 1
+                endActions
+                
+                entityActionsWait 128
+                 moveLeft 1
+                endActions
+                entityActionsWait 134
+                 moveLeft 1
+                endActions
+				entityActionsWait 128
+                 moveRight 1
+                endActions
+				entityActionsWait 134
+                 moveRight 1
+                endActions
+				entityActionsWait 128
+                 moveLeft 1
+                endActions
+                entityActionsWait 134
+                 moveLeft 1
+                endActions
+				
+				entityFlashWhite 128,$12
+                playSound SFX_SPELL_CAST
+                playSound SFX_PRISM_LASER_CUTSCENE_FIRING
+                setQuake 2
+                csWait 60
+                setQuake 0
+                customActscriptWait 128
+                 ac_setSpeed 48,48      ;   
+                 ac_jump eas_Idle       ;   
+                ac_end
+				
+				entityActionsWait 128
+                 moveRight 1
+                endActions
+				
                 nextSingleText $0,134   ; "I won't let you pass.{N}You shall not harm the King!{W1}"
                 shiver 128
                 csWait 30
                 shiver 128
-                setPos 129,7,4,DOWN
-                setPos 130,7,4,DOWN
-                setPos 131,7,4,DOWN
-                setPos 132,7,4,DOWN
-                setPos 133,7,4,DOWN
+                setPos 129,8,4,DOWN
+                setPos 130,8,4,DOWN
+                setPos 131,8,4,DOWN
+                setPos 132,8,4,DOWN
+                setPos 133,8,4,DOWN
                 setActscriptWait 129,eas_DeactivateAutoFacing
                 setActscriptWait 130,eas_DeactivateAutoFacing
                 setActscriptWait 131,eas_DeactivateAutoFacing
@@ -101,17 +142,17 @@ bbcs_01:        textCursor 2292
                  moveUp 1
                 endActions
                 entityActions 130
-                 moveLeft 1
+                 moveLeft 2
                 endActions
                 entityActions 131
-                 moveRight 2
+                 moveRight 1
                 endActions
                 entityActions 132
                  moveDown 5
                 endActions
                 entityActions 133
                  moveDown 5
-				 moveRight 1
+				 moveLeft 1
                 endActions
                 shiver 128
                 csWait 30
