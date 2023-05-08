@@ -37,7 +37,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 0: OOZE
                 spellPower REGULAR
                 level    0
-                maxHp    12
+                maxHp    13
                 maxMp    0
                 baseAtt  9
                 baseDef  6
@@ -62,7 +62,7 @@ tbl_EnemyDefs:
                 unknownByte 1           ; 1: HUGE RAT
                 spellPower REGULAR
                 level    0
-                maxHp    8
+                maxHp    10
                 maxMp    0
                 baseAtt  12
                 baseDef  9

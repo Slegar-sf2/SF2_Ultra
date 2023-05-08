@@ -22,7 +22,7 @@ tbl_AllyMapSprites:
 ; 2: Chester
                 mapSprite CHESTER_BASE
                 mapSprite CHESTER_PROMO
-                mapSprite CHESTER_SPECIAL
+                mapSprite DEFAULT
                 
 ; 3: Jaha
                 mapSprite JAHA_BASE
@@ -162,7 +162,7 @@ tbl_AllyMapSprites:
             if (EXPANDED_FORCE_MEMBERS=1)
 ; 30: SHADE
                 mapSprite SHADE_BASE       
-                mapSprite DEFAULT
+                mapSprite SHADE_PROMO
                 mapSprite DEFAULT
                 
 ; 31: 

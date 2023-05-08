@@ -24,30 +24,37 @@ cs_4A994:       playSound MUSIC_MAIN_THEME
                 setCameraEntity 129
                 nextSingleText $0,128   ; "He's lying down!  Why?{N}What happened?{W1}"
                 playSound MUSIC_ENEMY_ATTACK
-                setCamDest 2,10
-                setPos 131,8,13,DOWN
+                setCameraEntity 130
+				setPos 130,20,24,DOWN
+                flashScreenWhite $1E
+                setPos 131,19,26,LEFT
                 csWait 20
-                setPos 132,12,25,DOWN
+                setPos 132,21,26,LEFT
                 csWait 20
-                setPos 133,15,17,DOWN
+                setPos 133,20,27,UP
                 csWait 30
-                setPos 130,1,23,DOWN
+                				
                 nextSingleText $C0,130  ; "Hee, hee!  More strangers{N}have arrived!{W1}"
+				setFacing 130,LEFT 
                 nextSingleText $C0,130  ; "You!  Did you hurt him?{W1}"
+
                 nextText $C0,130        ; "This is my territory.{N}I protect it.{W2}"
                 nextSingleText $C0,130  ; "You come here to save him?{N}Ha!{W1}"
-                setFacing 130,UP
+                
+
                 nextSingleText $C0,130  ; "Everybody, attack!{W1}"
+								
                 setActscript 131,eas_Jump
                 setActscript 132,eas_Jump
-                setActscriptWait 133,eas_Jump
+                setActscript 133,eas_Jump
                 csc_end
+				
 ce_4AA14:       mainEntity 4,10,RIGHT
-                entity 1,24,RIGHT,MAPSPRITE_WORKER,eas_Init
+                entity 2,24,RIGHT,MAPSPRITE_WORKER,eas_Init
                 entity 1,25,RIGHT,ALLY_SARAH,eas_Init
                 entity 1,26,RIGHT,ALLY_JAHA,eas_Init
                 entity 1,27,RIGHT,ALLY_KAZIN,eas_Init
-                entity 2,24,RIGHT,ALLY_CHESTER,eas_Init
+                entity 1,24,RIGHT,ALLY_CHESTER,eas_Init
                 entity 2,25,RIGHT,ALLY_KIWI,eas_Init
                 entity 20,26,DOWN,MAPSPRITE_WORKER,eas_Init
                 entity 63,63,DOWN,MAPSPRITE_WITCH,eas_Init

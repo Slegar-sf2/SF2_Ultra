@@ -4,10 +4,17 @@
 ms_map81_EntityEvents:
                 msEntityEvent 128, DOWN, Map81_EntityEvent1-ms_map81_EntityEvents
 				msEntityEvent 129, RIGHT, Map81_EntityEvent2-ms_map81_EntityEvents
-				msEntityEvent 130, UP, Map81_EntityEvent3-ms_map81_EntityEvents
+				msEntityEvent 130, DOWN, Map81_EntityEvent3-ms_map81_EntityEvents
 				msEntityEvent 131, DOWN, Map81_EntityEvent4-ms_map81_EntityEvents
 				msEntityEvent 132, LEFT, Map81_EntityEvent5-ms_map81_EntityEvents
 				msEntityEvent 133, RIGHT, Map81_EntityEvent6-ms_map81_EntityEvents
+				msEntityEvent 134, UP, Map81_EntityEvent7-ms_map81_EntityEvents
+				msEntityEvent 135, RIGHT, Map81_EntityEvent8-ms_map81_EntityEvents
+				msEntityEvent 136, DOWN, Map81_EntityEvent9-ms_map81_EntityEvents
+				msEntityEvent 137, DOWN, Map81_EntityEvent10-ms_map81_EntityEvents
+				msEntityEvent 138, DOWN, Map81_EntityEvent11-ms_map81_EntityEvents
+				msEntityEvent 139, DOWN, Map81_EntityEvent12-ms_map81_EntityEvents
+				msEntityEvent 140, UP, Map81_EntityEvent13-ms_map81_EntityEvents
                 msDefaultEntityEvent Map81_DefaultEntityEvent-ms_map81_EntityEvents
 				
 ; =============== S U B R O U T I N E =======================================
@@ -19,15 +26,6 @@ Map81_EntityEvent1:
                 rts
 ; =============== S U B R O U T I N E =======================================
 				
-Map81_DefaultEntityEvent:
-                move.b  #$F,((CURRENT_SHOP_INDEX-$1000000)).w
-                jsr     j_ShopMenuActions
-                
-                rts
-				
-; =============== S U B R O U T I N E =======================================
-
-
 Map81_EntityEvent2:
                 
                  
@@ -62,7 +60,7 @@ Map81_EntityEvent4:
 Map81_EntityEvent5:
                 
                  
-                txt     817             
+                txt      4268          
                 rts
 
     ; End of function Map81_EntityEvent5
@@ -72,10 +70,87 @@ Map81_EntityEvent5:
 Map81_EntityEvent6:
                 
                  
-                txt     818             
+                txt        4268          
                 rts
 
     ; End of function Map81_EntityEvent5
 
 
+; =============== S U B R O U T I N E =======================================
+Map81_EntityEvent7:
+                
+                 
+                txt        4269          
+                rts
+
+    ; End of function Map81_EntityEvent5
+
+
+; =============== S U B R O U T I N E =======================================
+Map81_EntityEvent8:
+                
+                 
+                txt        4270          
+                rts
+
+    ; End of function Map81_EntityEvent5
+
+
+; =============== S U B R O U T I N E =======================================
+Map81_EntityEvent9:
+                
+                 
+                txt        4271          
+                rts
+
+    ; End of function Map81_EntityEvent5
+
+
+; =============== S U B R O U T I N E =======================================
+Map81_EntityEvent10:
+                
+                 
+                txt        4272          
+                rts
+
+    ; End of function Map81_EntityEvent5
+
+
+; =============== S U B R O U T I N E =======================================
+Map81_EntityEvent11:
+                
+                 
+                txt        4273        
+                rts
+
+    ; End of function Map81_EntityEvent5
+
+
+; =============== S U B R O U T I N E =======================================
+Map81_EntityEvent12:
+                
+                 
+                txt        4274      
+                rts
+
+    ; End of function Map81_EntityEvent5
+
+
+; =============== S U B R O U T I N E =======================================
+Map81_EntityEvent13:
+                
+                 
+                txt        4275      
+                rts
+
+    ; End of function Map81_EntityEvent5
+
+
+; =============== S U B R O U T I N E =======================================
+Map81_DefaultEntityEvent:
+                move.b  #$F,((CURRENT_SHOP_INDEX-$1000000)).w
+                jsr     j_ShopMenuActions
+                
+                rts
+				
 ; =============== S U B R O U T I N E =======================================

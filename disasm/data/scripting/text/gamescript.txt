@@ -4265,4 +4265,12 @@
 10A8=Somebody...HELP!{D2}
 10A9=Aughhhh!!!!!!!!!!!!!!!!{D2}
 10AA=(Sigh)....{D2}
-10AB=Hi!{N}Have you seen BLACK GAMES {N}the YouTube channel ?{D2}
+10AB=Hi!{N}Have you seen BLACK GAMES {N}the YouTube channel ?{W1}
+10AC=This is Guardiana town {W1}
+10AD=Good morning {NAME;0} !{W1}
+10AE=Are you from GRANSEAL?{D1}{N}we always welcome guests{W1}
+10AF=Who taught you to fight {N}like this?{W1}
+10B0=Crazy people don't{N}know they're crazy{N} - that's why they're crazy{W1}
+10B1=Start doing everything you {N}can do - and even what you can even dream of.{N}In courage, genius,strength{N}and magic.{W1}
+10B2=Don't disturb me, I'm busy !!
+10B3=hello strangers{W1}
