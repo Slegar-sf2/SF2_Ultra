@@ -167,9 +167,9 @@ tbl_AllyDialogProperties:
                 
             if (EXPANDED_FORCE_MEMBERS=1)
 ; 30: 
-                allyPortraitAndSfx BOWIE_BASE, DIALOG_BLEEP_5
-                allyPortraitAndSfx BOWIE_BASE, DIALOG_BLEEP_5
-                allyPortraitAndSfx BOWIE_BASE, DIALOG_BLEEP_5
+                allyPortraitAndSfx SHADE, DIALOG_BLEEP_5
+                allyPortraitAndSfx SHADE, DIALOG_BLEEP_5
+                allyPortraitAndSfx SHADE, DIALOG_BLEEP_5
                 
 ; 31: 
                 allyPortraitAndSfx BOWIE_BASE, DIALOG_BLEEP_5

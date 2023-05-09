@@ -25,6 +25,10 @@ pt_Weaponsprites:
                 dc.l Weaponsprite20
                 dc.l Weaponsprite21
                 dc.l Weaponsprite22
+				dc.l Weaponsprite23
+				dc.l Weaponsprite24
+				dc.l Weaponsprite25
+				dc.l Weaponsprite26
 Weaponsprite00: incbin "data/graphics/battles/weapons/weaponsprite00.bin"
 Weaponsprite01: incbin "data/graphics/battles/weapons/weaponsprite01.bin"
 Weaponsprite02: incbin "data/graphics/battles/weapons/weaponsprite02.bin"
@@ -48,3 +52,7 @@ Weaponsprite19: incbin "data/graphics/battles/weapons/weaponsprite19.bin"
 Weaponsprite20: incbin "data/graphics/battles/weapons/weaponsprite20.bin"
 Weaponsprite21: incbin "data/graphics/battles/weapons/weaponsprite21.bin"
 Weaponsprite22: incbin "data/graphics/battles/weapons/weaponsprite22.bin"
+Weaponsprite23: incbin "data/graphics/battles/weapons/weaponsprite23.bin"
+Weaponsprite24: incbin "data/graphics/battles/weapons/weaponsprite24.bin"
+Weaponsprite25: incbin "data/graphics/battles/weapons/weaponsprite25.bin"
+Weaponsprite26: incbin "data/graphics/battles/weapons/weaponsprite26.bin"

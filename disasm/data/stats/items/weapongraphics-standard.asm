@@ -17,13 +17,13 @@ tbl_WeaponGraphics:
 ; Note: Constant names ("enums"), shorthands (defined by macro), and numerical indexes are interchangeable.
                 
                 weaponGraphics SHORT_AXE, SHORT_AXE, SHORT_AXE                  ; 33: Short Axe
-                weaponGraphics HAND_AXE, SHORT_AXE, SHORT_AXE                   ; 34: Hand Axe
+                weaponGraphics HAND_AXE, 23, 0                                  ; 34: Hand Axe
                 weaponGraphics MIDDLE_AXE, MIDDLE_AXE, MIDDLE_AXE               ; 35: Middle Axe
-                weaponGraphics POWER_AXE, MIDDLE_AXE, MIDDLE_AXE                ; 36: Power Axe
-                weaponGraphics BATTLE_AXE, MIDDLE_AXE, MIDDLE_AXE               ; 37: Battle Axe
+                weaponGraphics POWER_AXE, MIDDLE_AXE, 30                        ; 36: Power Axe
+                weaponGraphics BATTLE_AXE, 24, 0                                ; 37: Battle Axe
                 weaponGraphics LARGE_AXE, LARGE_AXE, LARGE_AXE                  ; 38: Large Axe
-                weaponGraphics GREAT_AXE, LARGE_AXE, LARGE_AXE                  ; 39: Great Axe
-                weaponGraphics HEAT_AXE, LARGE_AXE, HEAT_AXE                    ; 40: Heat Axe
+                weaponGraphics GREAT_AXE, LARGE_AXE, 30                         ; 39: Great Axe
+                weaponGraphics HEAT_AXE, 25, 1                                  ; 40: Heat Axe
                 weaponGraphics ATLAS_AXE, MITHRIL_AXE, ATLAS_AXE                ; 41: Atlas Axe
                 weaponGraphics GROUND_AXE, MITHRIL_AXE, GROUND_AXE              ; 42: Ground Axe
                 weaponGraphics RUNE_AXE, MITHRIL_AXE, RUNE_AXE                  ; 43: Rune Axe
@@ -82,6 +82,7 @@ tbl_WeaponGraphics:
                 weaponGraphics KATANA, KATANA, KATANA                           ; 107: Katana
                 weaponGraphics NINJA_KATANA, KATANA, KATANA                     ; 108: Ninja Katana
                 weaponGraphics GISARME, KATANA, KATANA                          ; 109: Gisarme
-                
+                weaponGraphics BATON, 26, 22                                    ; 163: Baton
+				
                 tableEnd.b
 

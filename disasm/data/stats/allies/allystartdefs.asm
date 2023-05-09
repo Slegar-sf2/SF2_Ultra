@@ -40,7 +40,7 @@ tbl_AllyStartDefs:
                 startClass WARR         ; 3: JAHA
                 startLevel 1
                 startItems &
-                    SHORT_AXE|EQUIPPED, &
+                    BATON|EQUIPPED, &
                     MEDICAL_HERB, &
                     NOTHING, &
                     NOTHING

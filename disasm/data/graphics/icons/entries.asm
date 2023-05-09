@@ -179,6 +179,7 @@ Icon159:        incbin "data/graphics/icons/icon159.bin"
 Icon160:        incbin "data/graphics/icons/icon160.bin"
 Icon161:        incbin "data/graphics/icons/icon161.bin"
 Icon162:        incbin "data/graphics/icons/icon162.bin"
+Icon163:        incbin "data/graphics/icons/icon163.bin"
             if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
               rept 30
                 incbin "data/graphics/icons/icon145.bin"

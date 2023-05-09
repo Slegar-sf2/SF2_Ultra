@@ -1820,14 +1820,14 @@ tbl_ItemDefs:
                              NONE, 0, &
                              NONE, 0
                 
-                ; 163: 
-                equipFlags   NONE
+                ; 163: Baton
+                equipFlags   WARR|GLDT|BRN|RDBN
                 equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
+                range        1, 1
+                price        120
+                itemType     WEAPON
                 useSpell     NOTHING
-                equipEffects NONE, 0, &
+                equipEffects INCREASE_ATT, 3, &
                              NONE, 0, &
                              NONE, 0
                 
