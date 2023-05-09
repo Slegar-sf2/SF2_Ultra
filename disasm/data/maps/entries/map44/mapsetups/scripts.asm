@@ -106,7 +106,8 @@ Map21_DefaultZoneEvent:
                 csWait 90
                 setQuake 0
                 csWait 120
-                warp MAP_OVERWORLD_NEW_GRANSEAL_SHORE,26,13,RIGHT
+                warp 82,9,21,UP
+				setFlg  446
                 clearF 640              ; Set after the end of battle 7's long sequence, cleared at docks?
                 csc_end
 

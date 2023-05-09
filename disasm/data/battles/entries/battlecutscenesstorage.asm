@@ -56,4 +56,4 @@
                 include "data\battles\entries\battle42\cs_afterbattle.asm"    ; Cutscene after battle 42
                 include "data\battles\entries\battle43\cs_battleend.asm"    ; Enemy defeated cutscene for battle 43
                 include "data\battles\entries\battle43\cs_afterbattle.asm"    ; Cutscene after battle 43
-                include "data\battles\entries\battle00\cs_afterbattle.asm"    ; Cutscene after battle 0
+				include "data\battles\entries\battle46\cs_afterbattle.asm"    ; Cutscene after battle 46

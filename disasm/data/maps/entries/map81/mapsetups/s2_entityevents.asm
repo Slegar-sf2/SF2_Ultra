@@ -9,7 +9,7 @@ ms_map81_EntityEvents:
 				msEntityEvent 132, LEFT, Map81_EntityEvent5-ms_map81_EntityEvents
 				msEntityEvent 133, RIGHT, Map81_EntityEvent6-ms_map81_EntityEvents
 				msEntityEvent 134, UP, Map81_EntityEvent7-ms_map81_EntityEvents
-				msEntityEvent 135, RIGHT, Map81_EntityEvent8-ms_map81_EntityEvents
+				msEntityEvent 135, DOWN, Map81_EntityEvent8-ms_map81_EntityEvents
 				msEntityEvent 136, DOWN, Map81_EntityEvent9-ms_map81_EntityEvents
 				msEntityEvent 137, DOWN, Map81_EntityEvent10-ms_map81_EntityEvents
 				msEntityEvent 138, DOWN, Map81_EntityEvent11-ms_map81_EntityEvents

@@ -50,3 +50,4 @@ rpt_EnemyDefeatedCutscenes:
                 dc.w (ms_Empty-rpt_EnemyDefeatedCutscenes) & $FFFF
                 dc.w (ms_Empty-rpt_EnemyDefeatedCutscenes) & $FFFF
                 dc.w (ms_Empty-rpt_EnemyDefeatedCutscenes) & $FFFF
+				dc.w (ms_Empty-rpt_EnemyDefeatedCutscenes) & $FFFF
