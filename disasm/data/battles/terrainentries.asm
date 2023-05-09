@@ -6,8 +6,7 @@ pt_BattleTerrainData:
                 dc.l BattleTerrain01
                 dc.l BattleTerrain02
                 dc.l BattleTerrain03
-                dc.l BattleTerrain03
-				dc.l BattleTerrain04
+                dc.l BattleTerrain04
                 dc.l BattleTerrain05
                 dc.l BattleTerrain06
                 dc.l BattleTerrain07
