@@ -107,7 +107,6 @@ Map21_DefaultZoneEvent:
                 setQuake 0
                 csWait 120
                 warp 82,9,21,UP
-				setFlg  446
                 clearF 640              ; Set after the end of battle 7's long sequence, cleared at docks?
                 csc_end
 
