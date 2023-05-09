@@ -12,6 +12,7 @@ ms_map44_flag507_EntityEvents:
                 msEntityEvent 138, UP, Map44_1FB_EntityEvent7-ms_map44_flag507_EntityEvents
                 msEntityEvent 139, UP, Map44_1FB_EntityEvent8-ms_map44_flag507_EntityEvents
                 msEntityEvent 140, UP, Map44_1FB_EntityEvent9-ms_map44_flag507_EntityEvents
+				msEntityEvent 141, UP, Map44_1FB_EntityEvent10-ms_map44_flag507_EntityEvents
                 msDefaultEntityEvent Map44_DefaultEntityEvent-ms_map44_flag507_EntityEvents
 
 ; =============== S U B R O U T I N E =======================================
@@ -249,6 +250,15 @@ Map44_1FB_EntityEvent9:
 
 ; =============== S U B R O U T I N E =======================================
 
+Map44_1fb_entityevent10:
+                
+                jsr     j_ChurchMenuActions
+                rts 
+                
+    ; End of function Map44_261_EntityEvent
+	
+	
+; =============== S U B R O U T I N E =======================================	
 
 Map44_DefaultEntityEvent:
                 

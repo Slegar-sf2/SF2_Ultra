@@ -108,6 +108,7 @@ Map21_DefaultZoneEvent:
                 csWait 120
                 warp 82,9,21,UP
                 clearF 640              ; Set after the end of battle 7's long sequence, cleared at docks?
+				setStoryFlag 46
                 csc_end
 
 ; =============== S U B R O U T I N E =======================================

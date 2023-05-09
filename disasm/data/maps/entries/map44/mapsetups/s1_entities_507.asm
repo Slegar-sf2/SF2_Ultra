@@ -15,4 +15,5 @@ ms_map44_flag507_Entities:
                 msFixedEntity 10, 14, RIGHT, MAPSPRITE_MAN3, eas_Init
                 msFixedEntity 8, 23, DOWN, MAPSPRITE_SOLDIER1, eas_Init
                 msFixedEntity 14, 23, DOWN, MAPSPRITE_SOLDIER1, eas_Init
+				msFixedEntity 11, 12, DOWN, MAPSPRITE_PRIEST,eas_Init
                 msEntitiesEnd

@@ -87,10 +87,10 @@ tbl_EnemyDefs:
                 unknownByte 2           ; 2: GALAM SOLDIER
                 spellPower REGULAR
                 level    2
-                maxHp    11
+                maxHp    18
                 maxMp    0
-                baseAtt  10
-                baseDef  11
+                baseAtt  12
+                baseDef  12
                 baseAgi  8
                 baseMov  5
                 baseResistance NONE
@@ -112,10 +112,10 @@ tbl_EnemyDefs:
                 unknownByte 3           ; 3: GALAM KNIGHT
                 spellPower REGULAR
                 level    3
-                maxHp    17
+                maxHp    20
                 maxMp    0
-                baseAtt  14
-                baseDef  12
+                baseAtt  16
+                baseDef  14
                 baseAgi  12
                 baseMov  7
                 baseResistance NONE
@@ -1039,7 +1039,7 @@ tbl_EnemyDefs:
                 level    1
                 maxHp    15
                 maxMp    4
-                baseAtt  13
+                baseAtt  14
                 baseDef  8
                 baseAgi  8
                 baseMov  6
