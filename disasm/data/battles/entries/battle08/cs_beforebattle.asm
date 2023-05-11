@@ -56,6 +56,7 @@ ce_4AA14:       mainEntity 4,10,RIGHT
                 entity 1,27,RIGHT,ALLY_KAZIN,eas_Init
                 entity 1,24,RIGHT,ALLY_CHESTER,eas_Init
                 entity 2,25,RIGHT,ALLY_KIWI,eas_Init
+				entity 2,26,RIGHT,ALLY_SHADE,eas_Init
                 entity 20,26,DOWN,MAPSPRITE_WORKER,eas_Init
                 entity 63,63,DOWN,MAPSPRITE_WITCH,eas_Init
                 entity 63,63,DOWN,MAPSPRITE_GOBLIN,eas_Init

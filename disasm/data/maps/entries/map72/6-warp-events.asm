@@ -18,13 +18,13 @@
                   warpFacing UP
                 mWarp 58, 49
                   warpNoScroll
-                  warpMap    MAP_CAVERNS_OF_DARKNESS
-                  warpDest   15, 26
+                  warpMap    83
+                  warpDest   21, 20
                   warpFacing UP
                 mWarp 56, 45
                   warpNoScroll
-                  warpMap    MAP_CAVERNS_OF_DARKNESS
-                  warpDest   3, 11
+                  warpMap    83
+                  warpDest   4, 7
                   warpFacing UP
                 mWarp 43, 46
                   warpNoScroll
