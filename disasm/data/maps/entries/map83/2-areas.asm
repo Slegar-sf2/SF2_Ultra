@@ -3,11 +3,11 @@
                     mainLayerStart      0, 0
                     mainLayerEnd        26, 22
                     scndLayerFgndStart  0, 0
-                    scndLayerBgndStart  0, 0
+                    scndLayerBgndStart  28, 33
                     mainLayerParallax   256, 256
                     scndLayerParallax   256, 256
                     mainLayerAutoscroll 0, 0
-                    scndLayerAutoscroll 0, 0
-                    mainLayerType    0
-                    areaDefaultMusic 41
+                    scndLayerAutoscroll 128, 128
+                    mainLayerType    255
+                    areaDefaultMusic 34
                 endWord
