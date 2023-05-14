@@ -1,5 +1,5 @@
 
-                mapAnimation 127, 32
-                  mapAnimEntry 1, 1, $102, 20
-                  mapAnimEntry 2, 1, $102, 20
+                mapAnimation 139, 96
+                  mapAnimEntry 0, 39, 768, 20
+                  mapAnimEntry 48, 39, 768, 20
                 endWord
