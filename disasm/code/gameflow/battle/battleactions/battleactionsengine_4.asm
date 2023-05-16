@@ -35,12 +35,12 @@ CalculateHealingExp:
                 jsr     GetMaxHp
                 tst.w   d1
                 beq.w   @Skip           ; safety measure to prevent division by 0
-                move.w  #25,d5
+                move.w  #15,d5
                 mulu.w  d6,d5
                 divu.w  d1,d5
                 cmpi.w  #10,d5
                 bcc.s   @Add
-                moveq   #10,d5
+                moveq   #3,d5
 @Add:
                 
                 bsr.w   AddExpAndApplyHealingCap
@@ -190,6 +190,9 @@ GetKillExp:
                 beq.w   @Done
                 moveq   #10,d5
                 cmpi.b  #6,d1
+                beq.w   @Done
+				moveq   #5,d5
+                cmpi.b  #7,d1
                 beq.w   @Done
                 moveq   #0,d5
 @Done:

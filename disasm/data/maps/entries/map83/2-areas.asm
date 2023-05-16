@@ -3,7 +3,7 @@
                     mainLayerStart      0, 0
                     mainLayerEnd        26, 22
                     scndLayerFgndStart  0, 0
-                    scndLayerBgndStart  28, 33
+                    scndLayerBgndStart  0, 24
                     mainLayerParallax   256, 256
                     scndLayerParallax   256, 256
                     mainLayerAutoscroll 0, 0
