@@ -1373,7 +1373,8 @@ MUSIC_MITHRIL_DIGGERS: equ $25
 MUSIC_CASTLE: equ $26
 MUSIC_HEADQUARTERS: equ $27
 MUSIC_MITULA_SHRINE: equ $28
-MUSIC_ENDING: equ $29
+MUSIC_TOWN_SF1: equ $29
+MUSIC_SLAGAR: equ $30
 
 ; ---------------------------------------------------------------------------
 

@@ -16,7 +16,7 @@
 		dw Music_39
 		dw Music_40
 		dw Music_41
-		dw Music_64
+		dw Music_42
 		dw Music_64
 		dw Music_64
 		dw Music_64
@@ -48,4 +48,5 @@
 		include "music39.asm"		; Music 39
 		include "music40.asm"		; Music 40
 		include "music41.asm"		; Music 41
+		include "music42.asm"		; Music 42
 		include "music64.asm"		; Music 64

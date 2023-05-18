@@ -11,9 +11,10 @@
         align
         include "data\graphics\battles\tech\battlescenetransition\entries.asm"  ; Battlescene transition tiles
         align
-        include "data\graphics\battles\grounds\entries.asm"                     ; Battlescene Grounds
+        include "data\graphics\battles\grounds\entries.asm"                 ; Battlescene Grounds
         align
-        include "data\graphics\battles\spells\entries.asm"                      ; Spell Graphics
+        include "data\graphics\battles\spells\entries.asm"		            ; Spell Graphics
+		
         alignIfExtendedSsf $400000
         objIfExtendedSsf $200000
         include "data\graphics\battles\battlesprites\enemies\entries.asm"   ; Enemy battlesprites
@@ -22,6 +23,7 @@
         align
         include "data\graphics\battles\weapons\entries.asm"                 ; Battlescene Weapons
         align
+		
         include "data\graphics\battles\weapons\palettes\entries.asm"        ; Battlescene Weapon Palettes
         objendIfExtendedSsf
         alignIfExtendedSsf $600000, $400000
