@@ -1,7 +1,39 @@
 
 ; 
-                sbc 5, 13
-                  sbcSource 0, 50
+                sbc 4, 13
+                  sbcSource 0, 61
                   sbcSize   1, 1
-                  sbcDest   5, 13
+                  sbcDest   4, 13
+                sbc 14, 12
+                  sbcSource 0, 61
+                  sbcSize   1, 1
+                  sbcDest   14, 12
+                sbc 26, 16
+                  sbcSource 0, 61
+                  sbcSize   1, 1
+                  sbcDest   26, 16
+                sbc 1, 31
+                  sbcSource 1, 61
+                  sbcSize   1, 1
+                  sbcDest   1, 31
+                sbc 17, 29
+                  sbcSource 1, 61
+                  sbcSize   1, 1
+                  sbcDest   17, 29
+                sbc 25, 29
+                  sbcSource 1, 61
+                  sbcSize   1, 1
+                  sbcDest   25, 29
+                sbc 2, 43
+                  sbcSource 1, 61
+                  sbcSize   1, 1
+                  sbcDest   2, 43
+                sbc 11, 42
+                  sbcSource 1, 61
+                  sbcSize   1, 1
+                  sbcDest   11, 42
+                sbc 25, 13
+                  sbcSource 0, 61
+                  sbcSize   1, 1
+                  sbcDest   25, 13
                 endWord

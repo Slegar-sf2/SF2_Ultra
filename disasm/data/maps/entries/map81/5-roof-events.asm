@@ -17,10 +17,10 @@
                   slbcSource 255, 255
                   slbcSize   10, 6
                   slbcDest   22, 48
-				slbc 32, 15
+                slbc 32, 15
                   slbcSource 255, 255
                   slbcSize   6, 6
-                  slbcDest   30, 39  
+                  slbcDest   30, 39
                 slbc 33, 15
                   slbcSource 255, 255
                   slbcSize   6, 6
