@@ -1827,7 +1827,7 @@ Map85:          include "data\maps\entries\map85\00-tilesets.asm"    ;
                 dc.l Map85s6_WarpEvents
                 dc.l Map85s7_ChestItems
                 dc.l Map85s8_OtherItems
-                dc.l $FFFFFFFF
+                dc.l Map85s9_Animations
 Map85s2_Areas:  include "data\maps\entries\map85\2-areas.asm"    ; 
 Map85s3_FlagEvents:include "data\maps\entries\map85\3-flag-events.asm"    ; 
 Map85s4_StepEvents:include "data\maps\entries\map85\4-step-events.asm"    ; 
@@ -1837,4 +1837,4 @@ Map85s7_ChestItems:include "data\maps\entries\map85\7-chest-items.asm"    ;
 Map85s8_OtherItems:include "data\maps\entries\map85\8-other-items.asm"    ; 
 Map85s0_Blocks: incbin "data/maps/entries/map85/0-blocks.bin"
 Map85s1_Layout: incbin "data/maps/entries/map85/1-layout.bin"
-;Map85s9_Animations:include "data\maps\entries\map85\9-animations.asm"    ;
+Map85s9_Animations:include "data\maps\entries\map85\9-animations.asm"    ;
