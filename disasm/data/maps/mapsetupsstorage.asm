@@ -725,3 +725,10 @@
                 include "data\maps\entries\map81\mapsetups\s4_descriptions.asm"    ; 
                 include "data\maps\entries\map81\mapsetups\s5_itemevents.asm"    ; 
                 include "data\maps\entries\map81\mapsetups\s6_initfunction.asm"    ; 
+				include "data\maps\entries\map85\mapsetups\pointertable.asm"    ; 
+                include "data\maps\entries\map85\mapsetups\s1_entities.asm"    ; 
+                include "data\maps\entries\map85\mapsetups\s2_entityevents.asm"    ; 
+                include "data\maps\entries\map85\mapsetups\s3_zoneevents.asm"    ; 
+                include "data\maps\entries\map85\mapsetups\s4_descriptions.asm"    ; 
+                include "data\maps\entries\map85\mapsetups\s5_itemevents.asm"    ; 
+                include "data\maps\entries\map85\mapsetups\s6_initfunction.asm"    ; 

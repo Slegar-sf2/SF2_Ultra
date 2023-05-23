@@ -13,7 +13,7 @@
                     areaDefaultMusic 41
                 
                     mainLayerStart      10, 48
-                    mainLayerEnd        20, 57
+                    mainLayerEnd        20, 56
                     scndLayerFgndStart  0, 0
                     scndLayerBgndStart  0, 0
                     mainLayerParallax   256, 256
@@ -24,7 +24,7 @@
                     areaDefaultMusic 41
                 
                     mainLayerStart      21, 48
-                    mainLayerEnd        30, 57
+                    mainLayerEnd        30, 56
                     scndLayerFgndStart  0, 0
                     scndLayerBgndStart  0, 0
                     mainLayerParallax   256, 256
@@ -34,8 +34,8 @@
                     mainLayerType    0
                     areaDefaultMusic 41
                 
-                    mainLayerStart      0, 48
-                    mainLayerEnd        9, 57
+                    mainLayerStart      32, 48
+                    mainLayerEnd        41, 56
                     scndLayerFgndStart  0, 0
                     scndLayerBgndStart  0, 0
                     mainLayerParallax   256, 256

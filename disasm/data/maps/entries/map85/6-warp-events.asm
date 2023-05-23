@@ -9,20 +9,17 @@
                   warpNoScroll
                   warpMap    255
                   warpDest   12, 37
-                  warpFacing LEFT 
-				  
+                  warpFacing LEFT
                 mWarp 18, 5
                   warpNoScroll
                   warpMap    255
-                  warpDest   7, 52
+                  warpDest   39, 52
                   warpFacing LEFT
-                mWarp 7, 52
+                mWarp 39, 52
                   warpNoScroll
                   warpMap    255
                   warpDest   18, 5
                   warpFacing LEFT
-				
-				  
                 mWarp 27, 14
                   warpNoScroll
                   warpMap    255
