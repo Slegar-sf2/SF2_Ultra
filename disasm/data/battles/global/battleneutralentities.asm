@@ -3,7 +3,7 @@
 ; 0x448C4..0x4497A : Battle entities which are not force members or enemies
 tbl_BattleNeutralEntities:
                 dc.w BATTLE_INSIDE_ANCIENT_TOWER ; [Battle][X][Y][Facing][Sprite][ActScript]
-                dc.b 7
+                dc.b 8
                 dc.b 4
                 dc.b DOWN
                 dc.b MAPSPRITE_MIST_DEMON
@@ -42,8 +42,8 @@ tbl_BattleNeutralEntities:
                 dc.l eas_Standing
                 dc.w $FFFF
                 dc.w BATTLE_NORTH_CLIFF
-                dc.b 13
-                dc.b 2
+                dc.b 20
+                dc.b 26
                 dc.b DOWN
                 dc.b MAPSPRITE_WORKER
                 dc.l eas_LyingLeft
