@@ -59,4 +59,5 @@ tbl_DebugModeAvailableMaps:
                 dc.b MAP_OVERWORLD_GRANS_NORTH_SHORE
                 dc.b MAP_ZEON_ARENA
                 dc.b MAP_OVERWORLD_NEW_GRANSEAL_SHORE
+				
                 dc.b MAP_NONE

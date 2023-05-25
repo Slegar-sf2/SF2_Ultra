@@ -1,5 +1,20 @@
 
 ; 
+                mWarp 5, 47
+                  warpNoScroll
+                  warpMap    71
+                  warpDest   57, 60
+                  warpFacing DOWN
+                mWarp 0, 15
+                  warpNoScroll
+                  warpMap    71
+                  warpDest   55, 58
+                  warpFacing LEFT
+                mWarp 0, 33
+                  warpNoScroll
+                  warpMap    71
+                  warpDest   55, 58
+                  warpFacing LEFT
                 mWarp 12, 37
                   warpNoScroll
                   warpMap    255

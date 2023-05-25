@@ -27,12 +27,7 @@
                   warpDest   24, 30
                   warpFacing LEFT
                 mWarp 255, 63
-                  warpScroll DOWN
-                  warpMap    MAP_OVERWORLD_AROUND_PACALON
-                  warpDest   255, 1
-                  warpFacing DOWN
-                mWarp 255, 63
-                  warpScroll DOWN
+                  warpNoScroll
                   warpMap    MAP_OVERWORLD_AROUND_PACALON
                   warpDest   255, 1
                   warpFacing DOWN

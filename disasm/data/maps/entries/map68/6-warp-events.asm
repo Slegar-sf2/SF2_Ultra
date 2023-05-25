@@ -27,7 +27,7 @@
                   warpDest   62, 255
                   warpFacing LEFT
                 mWarp 63, 255
-                  warpScroll RIGHT
+                  warpNoScroll
                   warpMap    MAP_OVERWORLD_PATH_TO_RIBBLE
                   warpDest   1, 255
                   warpFacing RIGHT

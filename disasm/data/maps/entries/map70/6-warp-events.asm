@@ -7,12 +7,12 @@
                   warpDest   6, 18
                   warpFacing UP
                 mWarp 0, 255
-                  warpScroll LEFT
+                  warpNoScroll
                   warpMap    MAP_OVERWORLD_PATH_TO_RIBBLE
                   warpDest   62, 255
                   warpFacing LEFT
                 mWarp 255, 0
-                  warpScroll UP
+                  warpNoScroll
                   warpMap    MAP_OVERWORLD_AROUND_PACALON
                   warpDest   255, 62
                   warpFacing UP

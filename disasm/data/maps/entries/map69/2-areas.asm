@@ -13,4 +13,3 @@
                     mainLayerType    254
                     areaDefaultMusic 1
                 endWord
-				
