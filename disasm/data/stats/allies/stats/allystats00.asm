@@ -22,12 +22,12 @@ AllyStats00:
                 
                 forClass  SDMN
                 hpGrowth  9, 50, LINEAR
-                mpGrowth  8, 16, EARLY
+                mpGrowth  98, 16, EARLY
                 attGrowth 6, 40, LINEAR
                 defGrowth 6, 38, LINEAR
                 agiGrowth 4, 32, EARLY
                 spellList &
-                    1, EGRESS, &
+                    1, NEPTUN, &
                     1, BOLT, &
                     28, BOLT|LV2, &
                     42, BOLT|LV3, &
