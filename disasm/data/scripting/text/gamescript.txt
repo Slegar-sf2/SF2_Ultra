@@ -672,7 +672,7 @@
 029F=I can't believe it!{W2}{N}The Galam Army went into{N}the castle with Mr. {NAME;28}{N}in the lead.{W1}
 02A0=See, see!{N}Galam soldiers destroyed{N}the cages!{W2}{N}The strange animals ran{N}away!{W1}
 02A1={LEADER}, are you{N}alright?{W2}{N}Please do not go into{N}the castle, {LEADER}.{W1}
-02A2=(Shiver)...ooouu....{W1}
+02A2= let's go!{W1}
 02A3={CLEAR}He is shivering.{N}Will you name him?
 02A4={LEADER} named him{N}{NAME;6} and beckoned.{W1}
 02A5=Oooo!  Ooooo!{W1}

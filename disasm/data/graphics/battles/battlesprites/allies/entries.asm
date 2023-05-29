@@ -39,6 +39,7 @@ pt_AllyBattlesprites:
 				dc.l AllyBattleSprite34
 				dc.l AllyBattleSprite35
 				dc.l AllyBattleSprite36
+				dc.l AllyBattleSprite37
 				
 AllyBattlesprite00:
                 incbin "data/graphics/battles/battlesprites/allies/allybattlesprite00.bin"
@@ -113,4 +114,6 @@ AllyBattleSprite34:
 AllyBattleSprite35:
                 incbin "data/graphics/battles/battlesprites/allies/allybattlesprite35.bin"
 AllyBattleSprite36:
-                incbin "data/graphics/battles/battlesprites/allies/allybattlesprite36.bin"				
+                incbin "data/graphics/battles/battlesprites/allies/allybattlesprite36.bin"
+AllyBattleSprite37:
+                incbin "data/graphics/battles/battlesprites/allies/allybattlesprite37.bin"				

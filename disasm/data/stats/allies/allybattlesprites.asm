@@ -40,8 +40,8 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 6: NATASHA
-                allyBattleSprAndPlt TORT, TORT, 0
-                allyBattleSprAndPlt MNST, MNST, 0
+                allyBattleSprAndPlt MAGE, 36, 2
+                allyBattleSprAndPlt WIZ, 37, 2
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 7: PETER

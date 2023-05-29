@@ -22,7 +22,7 @@ ms_map3_flag609_Entities:
                 msWalkingEntity 47, 24, DOWN, MAPSPRITE_MAN2, 47, 24, 2
                 msWalkingEntity 25, 22, DOWN, MAPSPRITE_BEASTMAN1, 25, 22, 1
                 msWalkingEntity 26, 22, DOWN, MAPSPRITE_BEASTMAN2, 26, 22, 1
-                msWalkingEntity 27, 22, DOWN, ALLY_NATASHA, 27, 22, 1
+                msWalkingEntity 27, 22, DOWN, MAPSPRITE_BEASTMAN1, 27, 22, 1
                 msFixedEntity 32, 11, DOWN, MAPSPRITE_PRIEST, eas_Init
                 msWalkingEntity 29, 7, DOWN, MAPSPRITE_MAN2, 29, 7, 1
                 msWalkingEntity 18, 14, DOWN, MAPSPRITE_BOY, 18, 14, 1
