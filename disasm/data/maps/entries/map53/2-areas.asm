@@ -7,9 +7,12 @@
                     scndLayerFgndStart  0, 0
                     scndLayerBgndStart  28, 0					
                     mainLayerParallax   256, 256
-                    scndLayerParallax   128, 128
+                    scndLayerParallax   192, 128
                     mainLayerAutoscroll 0, 0
-                    scndLayerAutoscroll -50, -80
+                    scndLayerAutoscroll 0, -36
                     mainLayerType    255
                     areaDefaultMusic 33
+					
+					
+					
                 endWord
