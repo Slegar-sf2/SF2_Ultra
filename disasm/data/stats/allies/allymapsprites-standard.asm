@@ -39,9 +39,9 @@ tbl_AllyMapSprites:
                 mapSprite SLADE_PROMO
                 mapSprite DEFAULT
                 
-; 6: Kiwi
-                mapSprite KIWI_BASE
-                mapSprite KIWI_PROMO
+; 6: NATASHA
+                mapSprite NATASHA_BASE
+                mapSprite NATASHA_PROMO
                 mapSprite DEFAULT
                 
 ; 7: Peter
@@ -89,10 +89,10 @@ tbl_AllyMapSprites:
                 mapSprite KARNA_PROMO
                 mapSprite KARNA_SPECIAL
                 
-; 16: Randolf
-                mapSprite RANDOLF_BASE
-                mapSprite RANDOLF_PROMO
-                mapSprite RANDOLF_SPECIAL
+; 16: RUCE
+                mapSprite RUCE_BASE
+                mapSprite RUCE_PROMO
+                mapSprite RUCE_SPECIAL
                 
 ; 17: Tyrin
                 mapSprite TYRIN_BASE

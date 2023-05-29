@@ -77,7 +77,7 @@ sub_493EC:
                 allyDefeated ALLY_PETER
                 allyDefeated ALLY_SARAH
                 allyDefeated ALLY_CHESTER
-                allyDefeated ALLY_KIWI
+                allyDefeated ALLY_NATASHA
                 reviveAlly 128
                 reviveAlly 150
                 allyDefeated ALLY_JAHA
@@ -86,9 +86,9 @@ sub_493EC:
                 setCameraEntity 65535
                 entityFlashWhite ALLY_BOWIE,$28
                 hide ALLY_BOWIE
-                setPos ALLY_KIWI,13,23,DOWN
-                entityFlashWhite ALLY_KIWI,$28
-                animEntityFX ALLY_KIWI,7
+                setPos ALLY_NATASHA,13,23,DOWN
+                entityFlashWhite ALLY_NATASHA,$28
+                animEntityFX ALLY_NATASHA,7
                 playSound MUSIC_PROMOTED_ATTACK_LOOP
                 csc_end
 DebuggingScript:incbin "data/scripting/map/debuggingscript.bin" ; Unused cutscene with parsing mistake here and below, letting it unformatted.

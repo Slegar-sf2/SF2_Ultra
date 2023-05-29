@@ -17,11 +17,3 @@ AllyStats16:    forClass  WARR
                 agiGrowth 21, 52, EARLY
                 spellList 
                 
-                forClass  BRN
-                hpGrowth  33, 89, LINEAR
-                mpGrowth  0, 0, NONE
-                attGrowth 30, 53, LINEAR
-                defGrowth 33, 94, LINEAR
-                agiGrowth 21, 57, EARLY
-                spellList 
-                

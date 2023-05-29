@@ -554,7 +554,7 @@ cs_5B466:       textCursor 1932
                 setPos FOLLOWER_B,16,22,UP
                 setPos 130,16,23,UP
                 hide ALLY_ERIC
-                hide ALLY_RANDOLF
+                hide ALLY_RUCE
                 hide ALLY_TYRIN
                 hide ALLY_KARNA
                 setCameraEntity 129

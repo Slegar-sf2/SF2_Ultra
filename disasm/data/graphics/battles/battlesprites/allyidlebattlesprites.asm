@@ -8,7 +8,7 @@ tbl_AllyBattlespriteIdleAnimate:
 ; Syntax        allyBattleSprite [ALLYBATTLESPRITE_]enum (or index)
                 
                 allyBattleSprite PRST
-                allyBattleSprite MAGE
+                
                 allyBattleSprite SORC_MALE
                 allyBattleSprite WIZ
                 allyBattleSprite GLM

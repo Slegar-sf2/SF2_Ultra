@@ -149,7 +149,7 @@ Map3_1FA_EntityEvent13:
 Map3_1FA_EntityEvent15:
                 
                  
-                chkFlg  6               ; Kiwi joined
+                chkFlg  6               ; NATASHA joined
                 bne.s   return_512B8
                 txt     674             ; "(Shiver)...ooouu....{W1}"
                 clsTxt
@@ -161,7 +161,7 @@ Map3_1FA_EntityEvent15:
                 clsTxt
                 tst.w   d0
                 bne.s   return_512B8
-                move.w  #ALLY_KIWI,d0
+                move.w  #ALLY_NATASHA,d0
                 jsr     j_NameAlly
                 txt     676             ; "{LEADER} named him{N}{NAME;6} and beckoned.{W1}"
                 clsTxt
@@ -177,10 +177,10 @@ return_512B8:
 
     ; End of function Map3_1FA_EntityEvent15
 
-cs_512BA:       setFacing ALLY_KIWI,DOWN
-                setActscriptWait ALLY_KIWI,eas_Jump
-                setActscriptWait ALLY_KIWI,eas_Jump
-                setActscriptWait ALLY_KIWI,eas_Jump
-                join ALLY_KIWI
-                addNewFollower ALLY_KIWI
+cs_512BA:       setFacing ALLY_NATASHA,DOWN
+                setActscriptWait ALLY_NATASHA,eas_Jump
+                setActscriptWait ALLY_NATASHA,eas_Jump
+                setActscriptWait ALLY_NATASHA,eas_Jump
+                join ALLY_NATASHA
+                addNewFollower ALLY_NATASHA
                 csc_end

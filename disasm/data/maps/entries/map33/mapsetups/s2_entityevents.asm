@@ -242,7 +242,7 @@ cs_5A8CA:       textCursor 1907
                 csc_end
 cs_5A8E6:       join ALLY_ERIC
                 setF 787                ; Set after one of Creed's Mansion Force Members joins
-                setActscript ALLY_RANDOLF,eas_TwirlShrinkDisappear
+                setActscript ALLY_RUCE,eas_TwirlShrinkDisappear
                 setActscript ALLY_TYRIN,eas_TwirlShrinkDisappear
                 setActscriptWait ALLY_KARNA,eas_TwirlShrinkDisappear
                 addNewFollower ALLY_ERIC
@@ -259,29 +259,29 @@ cs_5A92A:       join ALLY_ERIC
                 addNewFollower ALLY_ERIC
                 csc_end
 cs_5A93A:       textCursor 1910
-                nextText $0,ALLY_RANDOLF ; "Hee, hee...I'm not only a{N}dwarf, I'm {NAME;16}.{W2}"
-                nextText $0,ALLY_RANDOLF ; "I'm known as the strongest{N}warrior of my people.{W1}"
+                nextText $0,ALLY_RUCE ; "Hee, hee...I'm not only a{N}dwarf, I'm {NAME;16}.{W2}"
+                nextText $0,ALLY_RUCE ; "I'm known as the strongest{N}warrior of my people.{W1}"
                 yesNo
                 jumpIfFlagSet 89,cs_5A956 ; YES/NO prompt answer
-                nextSingleText $0,ALLY_RANDOLF ; "Tut!  OK, I have a{N}comfortable life here.{W1}"
+                nextSingleText $0,ALLY_RUCE ; "Tut!  OK, I have a{N}comfortable life here.{W1}"
                 csc_end
-cs_5A956:       join ALLY_RANDOLF
+cs_5A956:       join ALLY_RUCE
                 setF 787                ; Set after one of Creed's Mansion Force Members joins
                 setActscript ALLY_ERIC,eas_TwirlShrinkDisappear
                 setActscript ALLY_TYRIN,eas_TwirlShrinkDisappear
                 setActscriptWait ALLY_KARNA,eas_TwirlShrinkDisappear
-                addNewFollower ALLY_RANDOLF
+                addNewFollower ALLY_RUCE
                 csc_end
 cs_5A97E:       textCursor 1923
-                nextText $0,ALLY_RANDOLF ; "I was surprised to find I{N}had returned to my original{N}size!{W2}"
-                nextText $0,ALLY_RANDOLF ; "What should I do now?{N}I can go anywhere...{N}maybe...with you?{W1}"
+                nextText $0,ALLY_RUCE ; "I was surprised to find I{N}had returned to my original{N}size!{W2}"
+                nextText $0,ALLY_RUCE ; "What should I do now?{N}I can go anywhere...{N}maybe...with you?{W1}"
                 yesNo
                 jumpIfFlagSet 89,cs_5A99A ; YES/NO prompt answer
-                nextSingleText $0,ALLY_RANDOLF ; "Fine!  I'll stay in this{N}mansion then.{W1}"
+                nextSingleText $0,ALLY_RUCE ; "Fine!  I'll stay in this{N}mansion then.{W1}"
                 csc_end
-cs_5A99A:       join ALLY_RANDOLF
+cs_5A99A:       join ALLY_RUCE
                 setF 787                ; Set after one of Creed's Mansion Force Members joins
-                addNewFollower ALLY_RANDOLF
+                addNewFollower ALLY_RUCE
                 csc_end
 cs_5A9AA:       textCursor 1913
                 nextText $0,ALLY_TYRIN  ; "I'm {NAME;17}, a mage.{N}I studied magic in Ponpei.{W2}"
@@ -293,7 +293,7 @@ cs_5A9AA:       textCursor 1913
 cs_5A9C6:       join ALLY_TYRIN
                 setF 787                ; Set after one of Creed's Mansion Force Members joins
                 setActscript ALLY_ERIC,eas_TwirlShrinkDisappear
-                setActscript ALLY_RANDOLF,eas_TwirlShrinkDisappear
+                setActscript ALLY_RUCE,eas_TwirlShrinkDisappear
                 setActscriptWait ALLY_KARNA,eas_TwirlShrinkDisappear
                 addNewFollower ALLY_TYRIN
                 csc_end
@@ -318,7 +318,7 @@ cs_5AA1A:       textCursor 1916
 cs_5AA36:       join ALLY_KARNA
                 setF 787                ; Set after one of Creed's Mansion Force Members joins
                 setActscript ALLY_ERIC,eas_TwirlShrinkDisappear
-                setActscript ALLY_RANDOLF,eas_TwirlShrinkDisappear
+                setActscript ALLY_RUCE,eas_TwirlShrinkDisappear
                 setActscriptWait ALLY_TYRIN,eas_TwirlShrinkDisappear
                 addNewFollower ALLY_KARNA
                 csc_end

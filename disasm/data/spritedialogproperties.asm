@@ -71,12 +71,12 @@ tbl_SpriteDialogProperties:
                 portrait  SLADE_PROMO
                 speechSfx DIALOG_BLEEP_6
                 
-                mapSprite KIWI_BASE
-                portrait  KIWI_BASE
+                mapSprite NATASHA_BASE
+                portrait  NATASHA_BASE
                 speechSfx DIALOG_BLEEP_1
                 
-                mapSprite KIWI_PROMO
-                portrait  KIWI_BASE
+                mapSprite NATASHA_PROMO
+                portrait  NATASHA_BASE
                 speechSfx DIALOG_BLEEP_7
                 
                 mapSprite PETER_BASE
@@ -163,16 +163,16 @@ tbl_SpriteDialogProperties:
                 portrait  KARNA
                 speechSfx DIALOG_BLEEP_5
                 
-                mapSprite RANDOLF_BASE
-                portrait  RANDOLF
+                mapSprite RUCE_BASE
+                portrait  RUCE
                 speechSfx DIALOG_BLEEP_6
                 
-                mapSprite RANDOLF_PROMO
-                portrait  RANDOLF
+                mapSprite RUCE_PROMO
+                portrait  RUCE
                 speechSfx DIALOG_BLEEP_6
                 
-                mapSprite RANDOLF_SPECIAL
-                portrait  RANDOLF
+                mapSprite RUCE_SPECIAL
+                portrait  RUCE
                 speechSfx DIALOG_BLEEP_6
                 
                 mapSprite TYRIN_BASE

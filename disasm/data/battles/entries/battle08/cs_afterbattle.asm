@@ -12,8 +12,8 @@ abcs_battle08:  textCursor 2468
                  ac_updateSprite        ;   
                  ac_jump eas_Idle       ;   
                 ac_end
-                jumpIfFlagSet 6,cs_4AAB6 ; Kiwi joined
-                setPos ALLY_KIWI,63,63,DOWN
+                jumpIfFlagSet 6,cs_4AAB6 ; NATASHA joined
+                setPos ALLY_NATASHA,63,63,DOWN
 cs_4AAB6:       fadeInB
                 nextSingleText $0,128   ; "Oh, my...hey!{N}Are you OK?!{W1}"
                 setFacing 128,LEFT
@@ -63,7 +63,7 @@ cs_4AAB6:       fadeInB
                 nextSingleText $C0,129  ; "Look at that!{N}The tunnel is blocked by{N}a rockslide.{W1}"
                 setFacing 129,RIGHT
                 csWait 20
-                setFacing ALLY_KIWI,RIGHT
+                setFacing ALLY_NATASHA,RIGHT
                 setCamDest 22,32
                 csWait 30
                 setCamDest 8,32
@@ -86,6 +86,6 @@ ce_4ABBE:       mainEntity 14,37,UP
                 entity 12,35,UP,ALLY_JAHA,eas_Init
                 entity 15,36,UP,ALLY_KAZIN,eas_Init
                 entity 16,35,UP,ALLY_CHESTER,eas_Init
-                entity 16,34,LEFT,ALLY_KIWI,eas_Init
+                entity 16,34,LEFT,ALLY_NATASHA,eas_Init
                 entity 14,34,DOWN,MAPSPRITE_WORKER,eas_Init
                 dc.w $FFFF

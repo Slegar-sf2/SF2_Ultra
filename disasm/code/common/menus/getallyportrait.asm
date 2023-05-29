@@ -39,7 +39,7 @@ GetAllyPortrait:
                 
                 cmpi.b  #CLASS_MNST,d1
                 bne.s   @Done
-                moveq   #PORTRAIT_KIWI_PROMO,d0
+                moveq   #PORTRAIT_NATASHA_PROMO,d0
 @Done:
                 
                 move.w  (sp)+,d1

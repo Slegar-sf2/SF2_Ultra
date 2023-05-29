@@ -8,7 +8,7 @@
 ms_map3_flag506_InitFunction:
                 
                  
-                chkFlg  6               ; Kiwi joined
+                chkFlg  6               ; NATASHA joined
                 beq.s   byte_5136C
                 script  cs_51374
 byte_5136C:
@@ -18,7 +18,7 @@ byte_5136C:
 
     ; End of function ms_map3_flag506_InitFunction
 
-cs_51374:       hide ALLY_KIWI
+cs_51374:       hide ALLY_NATASHA
                 csc_end
 cs_5137A:       playSound MUSIC_SAD_THEME_2
                 fadeInB

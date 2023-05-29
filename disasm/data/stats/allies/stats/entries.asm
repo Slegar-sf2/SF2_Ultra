@@ -7,7 +7,7 @@ pt_AllyStats:   dc.l AllyStats00        ; BOWIE
                 dc.l AllyStats03        ; JAHA
                 dc.l AllyStats04        ; KAZIN
                 dc.l AllyStats05        ; SLADE
-                dc.l AllyStats06        ; KIWI
+                dc.l AllyStats06        ; NATASHA
                 dc.l AllyStats07        ; PETER
                 dc.l AllyStats08        ; MAY
                 dc.l AllyStats09        ; GERHALT
@@ -17,7 +17,7 @@ pt_AllyStats:   dc.l AllyStats00        ; BOWIE
                 dc.l AllyStats13        ; ELRIC
                 dc.l AllyStats14        ; ERIC
                 dc.l AllyStats15        ; KARNA
-                dc.l AllyStats16        ; RANDOLF
+                dc.l AllyStats16        ; RUCE
                 dc.l AllyStats17        ; TYRIN
                 dc.l AllyStats18        ; JANET
                 dc.l AllyStats19        ; HIGINS

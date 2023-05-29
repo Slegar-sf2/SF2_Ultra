@@ -63,7 +63,7 @@ rjt_SpellEffects:
                 dc.w SpellEffect_Freeze-rjt_SpellEffects ; BREZAD
                 dc.w SpellEffect_Bolt-rjt_SpellEffects ; THUNDR
                 dc.w SpellEffect_BubbleBreath-rjt_SpellEffects ; AQUA
-                dc.w SpellEffect_FlameBreath-rjt_SpellEffects ; KIWI
+                dc.w SpellEffect_FlameBreath-rjt_SpellEffects ; NATASHA
                 dc.w SpellEffect_FairyTear-rjt_SpellEffects ; SHINE
                 dc.w SpellEffect_Bolt-rjt_SpellEffects ; ODDEYE
             if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)

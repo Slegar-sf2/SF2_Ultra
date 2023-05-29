@@ -117,7 +117,7 @@ $25 Fire Breath
 $26 Freeze Breath
 $27 Bolt Breath
 $28 Kraken Bubble Breath
-$29 Kiwi Flame Breath
+$29 NATASHA Flame Breath
 $2A Restore MP to All - Light of Hope?
 $2B Odd Eye Laser
 $2C Freeze Game

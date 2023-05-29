@@ -19,7 +19,7 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
                 moveq   #ALLY_SLADE,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_KIWI,d0
+                moveq   #ALLY_NATASHA,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_PETER,d0
                 bsr.w   j_JoinForce
@@ -39,7 +39,7 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
                 moveq   #ALLY_KARNA,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_RANDOLF,d0
+                moveq   #ALLY_RUCE,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_TYRIN,d0
                 bsr.w   j_JoinForce

@@ -76,10 +76,10 @@ Upper two bits indicate spell level
 &H92, Snow Breath 3
 &H13, Demon Breath
 &H53, Demon Breath 2
-&H29, Kiwi Flame Breath
-&H69, Kiwi Flame Breath 2
-&HA9, Kiwi Flame Breath 3
-&HE9, Kiwi Flame Breath 4
+&H29, KIWI Flame Breath
+&H69, KIWI Flame Breath 2
+&HA9, KIWI Flame Breath 3
+&HE9, KIWI Flame Breath 4
 &H28, Kraken Bubble Breath
 &H2B, Odd Eye Laser
 &HF, Magic Drain

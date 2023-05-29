@@ -4,7 +4,7 @@
 0003=Jaha joined
 0004=Kazin joined
 0005=Slade joined
-0006=Kiwi joined
+0006=NATASHA joined
 0007=Peter joined
 0008=May joined
 0009=Gerhalt joined
@@ -36,7 +36,7 @@
 0035=Jaha in active party
 0036=Kazin in active party
 0037=Slade in active party
-0038=Kiwi in active party
+0038=NATASHA in active party
 0039=Peter in active party
 0040=May in active party
 0041=Gerhalt in active party

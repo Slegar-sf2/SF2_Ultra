@@ -77,7 +77,7 @@ byte_5AC0C:
                 bra.w   byte_5AC24      
 cs_5AC1C:
                 
-                setPos ALLY_RANDOLF,16,15,DOWN
+                setPos ALLY_RUCE,16,15,DOWN
                 csc_end
 byte_5AC24:
                 

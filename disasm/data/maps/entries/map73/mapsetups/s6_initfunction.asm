@@ -104,12 +104,12 @@ cs_503A6:       textCursor 2239
                 nextSingleText $FF,255  ; "And so the ship heads east{N}for Parmecia.{W1}"
                 csWait 120
                 nextSingleText $0,ALLY_SARAH ; "I feel...sick...to my...{N}stomach...ohhh....{W1}"
-                jumpIfFlagClear 6,cs_50426 ; Kiwi joined
-                nextSingleText $C0,ALLY_KIWI ; "{NAME;1}, look!{W1}"
+                jumpIfFlagClear 6,cs_50426 ; NATASHA joined
+                nextSingleText $C0,ALLY_NATASHA ; "{NAME;1}, look!{W1}"
                 nextSingleText $0,ALLY_SARAH ; "Sorry, {NAME;6}...I can't{N}do anything right now....{W1}"
-                nextSingleText $C0,ALLY_KIWI ; "That's not what...{W1}"
+                nextSingleText $C0,ALLY_NATASHA ; "That's not what...{W1}"
                 nextSingleText $0,ALLY_SARAH ; "Sorry...ohhh...!{W1}"
-                nextSingleText $C0,ALLY_KIWI ; "Hooray, land ho!{W1}"
+                nextSingleText $C0,ALLY_NATASHA ; "Hooray, land ho!{W1}"
                 nextSingleText $0,ALLY_SARAH ; "What?  Oh, it's true!{N}Sir Astral, we can see the {N}mainland!{W1}"
                 nextSingleText $0,128   ; "Finally we've arrived.{N}King Granseal, can you see{N}Parmecia?{W1}"
                 nextSingleText $0,130   ; "Oh, that's good...{W1}"
@@ -218,8 +218,8 @@ cs_50426:       textCursor 2229
                 stopEntity 131
                 stopEntity 132
                 stopEntity 133
-                jumpIfFlagSet 6,cs_50624 ; Kiwi joined
-                hide ALLY_KIWI
+                jumpIfFlagSet 6,cs_50624 ; NATASHA joined
+                hide ALLY_NATASHA
 cs_50624:       fadeInB
                 entityActionsWait ALLY_JAHA
                  moveDown 1
@@ -274,7 +274,7 @@ ce_506DE:       mainEntity 63,63,UP
                 entity 63,63,DOWN,ALLY_SARAH,eas_Init
                 entity 63,63,DOWN,MAPSPRITE_MINISTER,eas_Init
                 entity 63,63,DOWN,ALLY_JAHA,eas_Init
-                entity 63,63,DOWN,ALLY_KIWI,eas_Init
+                entity 63,63,DOWN,ALLY_NATASHA,eas_Init
                 entity 63,63,DOWN,MAPSPRITE_GRANSEAL_KING,eas_Init
                 entity 63,63,DOWN,MAPSPRITE_SAILOR,eas_Init
                 entity 63,63,DOWN,ALLY_SLADE,eas_Init
@@ -301,7 +301,7 @@ ce_5079E:       mainEntity 40,8,LEFT
                 entity 51,4,DOWN,ALLY_JAHA,eas_Init
                 entity 39,8,RIGHT,ALLY_KAZIN,eas_Init
                 entity 49,4,UP,ALLY_SLADE,eas_Init
-                entity 38,5,DOWN,ALLY_KIWI,eas_Init
+                entity 38,5,DOWN,ALLY_NATASHA,eas_Init
                 entity 41,4,DOWN,MAPSPRITE_WORKER,eas_Init
                 entity 53,10,DOWN,MAPSPRITE_WORKER,eas_Init
                 entity 47,5,DOWN,MAPSPRITE_MAN2,eas_Init

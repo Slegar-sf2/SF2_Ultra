@@ -16,7 +16,7 @@ Chester, 2
 Jaha, 3
 Kazin, 4
 Slade, 5
-Kiwi, 6
+NATASHA, 6
 Peter, 7
 May, 8
 Gerhalt, 9
@@ -26,7 +26,7 @@ Rick, 12
 Elric, 13
 Eric, 14
 Karna, 15
-Randolf, 16
+RUCE, 16
 Tyrin, 17
 Janet, 18
 Higins, 19

@@ -153,7 +153,7 @@ cs_59142:       textCursor 2278
                 setPos ALLY_CHESTER,13,9,DOWN
                 setPos ALLY_SLADE,13,8,DOWN
                 setPos ALLY_SARAH,13,7,DOWN
-                setPos ALLY_KIWI,13,6,DOWN
+                setPos ALLY_NATASHA,13,6,DOWN
                 entityActions ALLY_KAZIN
                  moveDown 4
                  moveRight 1
@@ -170,12 +170,12 @@ cs_59142:       textCursor 2278
                 entityActions ALLY_SARAH
                  moveDown 7
                 endActions
-                entityActionsWait ALLY_KIWI
+                entityActionsWait ALLY_NATASHA
                  moveDown 7
                 endActions
                 setFacing ALLY_SLADE,DOWN
                 setFacing ALLY_SARAH,DOWN
-                setFacing ALLY_KIWI,DOWN
+                setFacing ALLY_NATASHA,DOWN
                 setFacing ALLY_CHESTER,DOWN
                 setFacing ALLY_KAZIN,LEFT
                 setFacing ALLY_BOWIE,UP
@@ -208,7 +208,7 @@ cs_59142:       textCursor 2278
                 entityActions ALLY_SLADE
                  moveDown 7
                 endActions
-                entityActionsWait ALLY_KIWI
+                entityActionsWait ALLY_NATASHA
                  moveDown 7
                 endActions
                 setStoryFlag 8          ; Battle 8 unlocked - BATTLE_NORTH_CLIFF               
@@ -218,7 +218,7 @@ ce_59270:       mainEntity 13,11,DOWN
                 entity 12,20,UP,ALLY_JAHA,eas_Init
                 entity 14,20,UP,ALLY_SLADE,eas_Init
                 entity 14,21,UP,ALLY_SARAH,eas_Init
-                entity 14,22,UP,ALLY_KIWI,eas_Init
+                entity 14,22,UP,ALLY_NATASHA,eas_Init
                 entity 14,23,UP,ALLY_CHESTER,eas_Init
                 entity 14,24,UP,ALLY_KAZIN,eas_Init
                 entity 13,13,UP,MAPSPRITE_SAILOR,eas_Init

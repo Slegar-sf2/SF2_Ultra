@@ -12,8 +12,8 @@ bbcs_08:        textCursor 2461
                  ac_updateSprite        ;   
                  ac_jump eas_Idle       ;   
                 ac_end
-                jumpIfFlagSet 6,cs_4A994 ; Kiwi joined
-                setPos ALLY_KIWI,63,63,DOWN
+                jumpIfFlagSet 6,cs_4A994 ; NATASHA joined
+                setPos ALLY_NATASHA,63,63,DOWN
 cs_4A994:       playSound MUSIC_MAIN_THEME
                 fadeInB
                 nextSingleText $0,128   ; "It's over there!{N}There he is!{W1}"
@@ -55,7 +55,7 @@ ce_4AA14:       mainEntity 4,10,RIGHT
                 entity 1,26,RIGHT,ALLY_JAHA,eas_Init
                 entity 1,27,RIGHT,ALLY_KAZIN,eas_Init
                 entity 1,24,RIGHT,ALLY_CHESTER,eas_Init
-                entity 2,25,RIGHT,ALLY_KIWI,eas_Init
+                entity 2,25,RIGHT,ALLY_NATASHA,eas_Init
 				entity 2,26,RIGHT,ALLY_SHADE,eas_Init
                 entity 20,26,DOWN,MAPSPRITE_WORKER,eas_Init
                 entity 63,63,DOWN,MAPSPRITE_WITCH,eas_Init

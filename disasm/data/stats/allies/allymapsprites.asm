@@ -11,7 +11,7 @@ tbl_AllyMapSprites:
                 mapSprite JAHA_SPECIAL  ; 3: JAHA
                 mapSprite KAZIN_SPECIAL ; 4: KAZIN
                 mapSprite SLADE_PROMO   ; 5: SLADE
-                mapSprite KIWI_PROMO    ; 6: KIWI
+                mapSprite NATASHA_PROMO    ; 6: NATASHA
                 mapSprite PETER_PROMO   ; 7: PETER
                 mapSprite MAY_PROMO     ; 8: MAY
                 mapSprite GERHALT_PROMO ; 9: GERHALT
@@ -21,7 +21,7 @@ tbl_AllyMapSprites:
                 mapSprite ELRIC_SPECIAL ; 13: ELRIC
                 mapSprite ERIC_SPECIAL  ; 14: ERIC
                 mapSprite KARNA_SPECIAL ; 15: KARNA
-                mapSprite RANDOLF_SPECIAL ; 16: RANDOLF
+                mapSprite RUCE_SPECIAL ; 16: RUCE
                 mapSprite TYRIN_SPECIAL ; 17: TYRIN
                 mapSprite JANET_SPECIAL ; 18: JANET
                 mapSprite SKREECH_PROMO ; 19: HIGINS

@@ -5,7 +5,7 @@
 tbl_RandomAttackSpellsForClasses:
                 
                 ; Class index, n/256 chance to cast, upgrade levels 1, 2, 3, spell index
-                dc.b CLASS_MNST, 64, 32, 40, 50, SPELL_KIWI
+                dc.b CLASS_MNST, 64, 32, 40, 50, SPELL_NATASHA
                 
                 tableEnd.b
 

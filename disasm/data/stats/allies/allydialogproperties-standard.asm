@@ -45,10 +45,10 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx SLADE_PROMO, DIALOG_BLEEP_6
                 allyPortraitAndSfx SLADE_PROMO, DIALOG_BLEEP_6
                 
-; 6: Kiwi
-                allyPortraitAndSfx KIWI_BASE,  DIALOG_BLEEP_1
-                allyPortraitAndSfx KIWI_PROMO, DIALOG_BLEEP_7
-                allyPortraitAndSfx KIWI_PROMO, DIALOG_BLEEP_7
+; 6: NATASHA
+                allyPortraitAndSfx NATASHA_PROMO,  DIALOG_BLEEP_3
+                allyPortraitAndSfx NATASHA_PROMO, DIALOG_BLEEP_3
+                allyPortraitAndSfx NATASHA_PROMO,  DIALOG_BLEEP_3
                 
 ; 7: Peter
                 allyPortraitAndSfx PETER_BASE,  DIALOG_BLEEP_4
@@ -95,10 +95,10 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx KARNA, DIALOG_BLEEP_5
                 allyPortraitAndSfx KARNA, DIALOG_BLEEP_5
                 
-; 16: Randolf
-                allyPortraitAndSfx RANDOLF, DIALOG_BLEEP_6
-                allyPortraitAndSfx RANDOLF, DIALOG_BLEEP_6
-                allyPortraitAndSfx RANDOLF, DIALOG_BLEEP_6
+; 16: RUCE
+                allyPortraitAndSfx RUCE, DIALOG_BLEEP_6
+                allyPortraitAndSfx RUCE, DIALOG_BLEEP_6
+                allyPortraitAndSfx RUCE, DIALOG_BLEEP_6
                 
 ; 17: Tyrin
                 allyPortraitAndSfx TYRIN, DIALOG_BLEEP_6

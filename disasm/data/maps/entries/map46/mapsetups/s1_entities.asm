@@ -7,7 +7,7 @@ ms_map46_Entities:
                 msFixedEntity 4, 3, DOWN, ALLY_JAHA, eas_Init
                 msFixedEntity 13, 11, UP, ALLY_KAZIN, eas_Init
                 msFixedEntity 2, 10, LEFT, ALLY_SLADE, eas_Init
-                msFixedEntity 2, 4, DOWN, ALLY_KIWI, eas_Init
+                msFixedEntity 2, 4, DOWN, ALLY_NATASHA, eas_Init
                 msWalkingEntity 7, 12, DOWN, ALLY_PETER, 7, 12, 1
                 msFixedEntity 12, 8, DOWN, ALLY_MAY, eas_Init
                 msFixedEntity 10, 9, RIGHT, ALLY_GERHALT, eas_Init
@@ -17,7 +17,7 @@ ms_map46_Entities:
                 msFixedEntity 4, 11, DOWN, ALLY_ELRIC, eas_Init
                 msWalkingEntity 12, 13, RIGHT, ALLY_ERIC, 12, 13, 1
                 msFixedEntity 9, 19, RIGHT, ALLY_KARNA, eas_Init
-                msWalkingEntity 14, 21, UP, ALLY_RANDOLF, 14, 21, 1
+                msWalkingEntity 14, 21, UP, ALLY_RUCE, 14, 21, 1
                 msFixedEntity 11, 8, DOWN, ALLY_TYRIN, eas_Init
                 msFixedEntity 4, 12, UP, ALLY_JANET, eas_Init
                 msFixedEntity 9, 3, DOWN, ALLY_HIGINS, eas_Init

@@ -153,20 +153,20 @@ ExecuteIndividualTurn:
                 cmpi.w  #BATTLEACTION_STAY,((CURRENT_BATTLEACTION-$1000000)).w
                 beq.w   @NoAction
                 cmpi.w  #BATTLEACTION_TRAPPED_CHEST,((CURRENT_BATTLEACTION-$1000000)).w
-                bne.w   @DetermineKiwiFlameBreath
+                bne.w   @DetermineNATASHAFlameBreath
                 clr.w   ((CURRENT_BATTLEACTION-$1000000)).w
                 move.w  ((BATTLEACTION_ITEM_OR_SPELL-$1000000)).w,d0
                 move.w  combatant(a6),((BATTLEACTION_ITEM_OR_SPELL-$1000000)).w
                 move.w  d0,combatant(a6)
-@DetermineKiwiFlameBreath:
+@DetermineNATASHAFlameBreath:
                 
                 move.w  combatant(a6),d0
                 jsr     j_GetClass
-                cmpi.w  #CLASS_MNST,d1  ; HARDCODED class test : MNST (Monster, for Kiwi)
+                cmpi.w  #CLASS_MNST,d1  ; HARDCODED class test : MNST (Monster, for NATASHA)
                 bne.s   @CheckFairyWoodsBattle
                 tst.w   ((CURRENT_BATTLEACTION-$1000000)).w
                 bne.s   @CheckFairyWoodsBattle
-                moveq   #CHANCE_TO_PERFORM_KIWI_FLAME_BREATH,d6 ; 1/4 chance to perform Kiwi's Flame Breath
+                moveq   #CHANCE_TO_PERFORM_NATASHA_FLAME_BREATH,d6 ; 1/4 chance to perform NATASHA's Flame Breath
                 jsr     (GenerateRandomNumber).w
                 tst.w   d7
                 bne.s   @CheckFairyWoodsBattle
@@ -174,23 +174,23 @@ ExecuteIndividualTurn:
                 move.w  #BATTLEACTION_CAST_SPELL,((CURRENT_BATTLEACTION-$1000000)).w
                 jsr     j_GetCurrentLevel
                 clr.w   d0
-                cmpi.w  #KIWI_FLAME_BREATH_UPGRADE_LEVEL1,d1
+                cmpi.w  #NATASHA_FLAME_BREATH_UPGRADE_LEVEL1,d1
                 blt.s   @CheckUpgradeLevel2
                 addq.w  #1,d0
 @CheckUpgradeLevel2:
                 
-                cmpi.w  #KIWI_FLAME_BREATH_UPGRADE_LEVEL2,d1
+                cmpi.w  #NATASHA_FLAME_BREATH_UPGRADE_LEVEL2,d1
                 blt.s   @CheckUpgradeLevel3
                 addq.w  #1,d0
 @CheckUpgradeLevel3:
                 
-                cmpi.w  #KIWI_FLAME_BREATH_UPGRADE_LEVEL3,d1
-                blt.s   @LoadKiwiFlameBreathSpellEntry
+                cmpi.w  #NATASHA_FLAME_BREATH_UPGRADE_LEVEL3,d1
+                blt.s   @LoadNATASHAFlameBreathSpellEntry
                 addq.w  #1,d0
-@LoadKiwiFlameBreathSpellEntry:
+@LoadNATASHAFlameBreathSpellEntry:
                 
                 lsl.w   #6,d0
-                ori.w   #SPELL_KIWI,d0
+                ori.w   #SPELL_NATASHA,d0
                 move.w  d0,((BATTLEACTION_ITEM_OR_SPELL-$1000000)).w
 @CheckFairyWoodsBattle:
                 

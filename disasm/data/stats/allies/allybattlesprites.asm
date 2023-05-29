@@ -39,7 +39,7 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt NINJ, NINJ, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 
-; 6: KIWI
+; 6: NATASHA
                 allyBattleSprAndPlt TORT, TORT, 0
                 allyBattleSprAndPlt MNST, MNST, 0
                 allyBattleSprAndPlt NONE, NONE, 0
@@ -89,9 +89,9 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt VICR, VICR, 2
                 allyBattleSprAndPlt MMNK, MMNK, 2
                 
-; 16: RANDOLF
-                allyBattleSprAndPlt WARR, WARR, 1
-                allyBattleSprAndPlt GLDT, GLDT, 2
+; 16: RUCE
+                allyBattleSprAndPlt WARR, 34, 0
+                allyBattleSprAndPlt GLDT, 35, 0
                 allyBattleSprAndPlt BRN, BRN, 2
                 
 ; 17: TYRIN

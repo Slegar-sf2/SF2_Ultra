@@ -31,6 +31,10 @@ SpriteDialogProperties:
                 portrait    30
                 speechSound 73
 
+                mapSprite   32
+                portrait    30
+                speechSound 73
+
                 mapSprite   8
                 portrait    3
                 speechSound 73
@@ -64,11 +68,11 @@ SpriteDialogProperties:
                 speechSound 74
 
                 mapSprite   16
-                portrait    6
+                portrait    55
                 speechSound 69
 
                 mapSprite   17
-                portrait    51
+                portrait    55
                 speechSound 75
 
                 mapSprite   18
@@ -152,11 +156,11 @@ SpriteDialogProperties:
                 speechSound 73
 
                 mapSprite   39
-                portrait    16
+                portrait    54
                 speechSound 74
 
                 mapSprite   40
-                portrait    16
+                portrait    54
                 speechSound 74
 
                 mapSprite   41
@@ -231,10 +235,6 @@ SpriteDialogProperties:
                 portrait    29
                 speechSound 75
 
-                mapSprite   32
-                portrait    30
-                speechSound 73
-
                 mapSprite   59
                 portrait    255
                 speechSound 74
@@ -288,7 +288,7 @@ SpriteDialogProperties:
                 speechSound 70
 
                 mapSprite   205
-                portrait    56
+                portrait    53
                 speechSound 73
 
                 mapSprite   207

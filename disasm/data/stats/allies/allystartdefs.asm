@@ -61,10 +61,10 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass TORT         ; 6: KIWI
-                startLevel 7
+                startClass MAGE         ; 6: NATASHA
+                startLevel 8
                 startItems &
-                    NOTHING, &
+                    SHORT_ROD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -141,7 +141,7 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass WARR         ; 16: RANDOLF
+                startClass WARR         ; 16: RUCE
                 startLevel 24
                 startItems &
                     POWER_AXE|EQUIPPED, &

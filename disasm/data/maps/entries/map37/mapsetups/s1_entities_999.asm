@@ -7,7 +7,7 @@ ms_map37_flag999_Entities:
                 msFixedEntity 18, 6, DOWN, ALLY_JAHA, eas_Init
                 msFixedEntity 17, 8, DOWN, ALLY_KAZIN, eas_Init
                 msFixedEntity 19, 7, DOWN, ALLY_SLADE, eas_Init
-                msFixedEntity 20, 6, DOWN, ALLY_KIWI, eas_Init
+                msFixedEntity 20, 6, DOWN, ALLY_NATASHA, eas_Init
                 msFixedEntity 12, 12, UP, ALLY_PETER, eas_Init
                 msFixedEntity 21, 6, DOWN, ALLY_MAY, eas_Init
                 msFixedEntity 23, 6, DOWN, ALLY_GERHALT, eas_Init
@@ -17,7 +17,7 @@ ms_map37_flag999_Entities:
                 msFixedEntity 22, 8, DOWN, ALLY_ELRIC, eas_Init
                 msFixedEntity 23, 9, DOWN, ALLY_ERIC, eas_Init
                 msFixedEntity 25, 9, DOWN, ALLY_KARNA, eas_Init
-                msFixedEntity 18, 11, UP, ALLY_RANDOLF, eas_Init
+                msFixedEntity 18, 11, UP, ALLY_RUCE, eas_Init
                 msFixedEntity 19, 12, UP, ALLY_TYRIN, eas_Init
                 msFixedEntity 16, 13, UP, ALLY_JANET, eas_Init
                 msFixedEntity 17, 14, UP, ALLY_HIGINS, eas_Init
