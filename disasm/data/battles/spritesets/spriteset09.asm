@@ -77,7 +77,7 @@ BattleSpriteset09:
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 1, NONE, 15, 0, STARTING
                 
-                enemyCombatant GREEN_OOZE, 19, 21
+                enemyCombatant CHARMELEON, 19, 21
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 1, NONE, 15, 0, STARTING
                 
@@ -101,7 +101,7 @@ BattleSpriteset09:
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 15, NONE, 15, 0, STARTING
                 
-                enemyCombatant GREEN_OOZE, 9, 11
+                enemyCombatant CHARMELEON, 9, 11
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 15, NONE, 15, 0, STARTING
                 

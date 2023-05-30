@@ -49,5 +49,5 @@ rpt_BeforeBattleCutscenes:
                 dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF
                 dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF
                 dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF
-                dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF
+                dc.w bbcs_46-rpt_BeforeBattleCutscenes
                 dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF

@@ -77,7 +77,7 @@ BattleSpriteset08:
                 combatantAiAndItem ATTACKER2, NOTHING
                 combatantBehavior FOLLOW_TARGET|0, 2, NONE, 3, 0, STARTING
                 
-                enemyCombatant GREEN_OOZE, 19, 9
+                enemyCombatant CHARMELEON, 19, 9
                 combatantAiAndItem ATTACKER2, NOTHING
                 combatantBehavior FOLLOW_TARGET|0, 2, NONE, 3, 0, STARTING
                 
@@ -89,7 +89,7 @@ BattleSpriteset08:
                 combatantAiAndItem ATTACKER2, NOTHING
                 combatantBehavior FOLLOW_TARGET|0, 0, NONE, 1, 0, STARTING
                 
-                enemyCombatant GREEN_OOZE, 9, 21
+                enemyCombatant CHARMELEON, 9, 21
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 15, NONE, 15, 0, STARTING
                 

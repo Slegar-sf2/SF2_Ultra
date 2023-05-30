@@ -10,7 +10,7 @@ tbl_EnemyMapSprites:
                 mapSprite GALAM_SOLDIER ; 2: GALAM SOLDIER
                 mapSprite GALAM_KNIGHT  ; 3: GALAM KNIGHT
                 mapSprite GOBLIN        ; 4: GOBLIN
-                mapSprite GREEN_OOZE    ; 5: GREEN OOZE
+                mapSprite CHARMELEON    ; 5: CHARMELEON
                 mapSprite DARK_DWARF    ; 6: DARK DWARF
                 mapSprite HOBGOBLIN     ; 7: HOBGOBLIN
                 mapSprite ZOMBIE        ; 8: ZOMBIE
