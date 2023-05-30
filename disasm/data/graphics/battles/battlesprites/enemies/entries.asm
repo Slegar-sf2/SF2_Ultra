@@ -1,166 +1,364 @@
 
 ; ASM FILE data\graphics\battles\battlesprites\enemies\entries.asm :
-; 0x130004..0x17FE4F : Enemy battlesprites
-pt_EnemyBattlesprites:
-                dc.l EnemyBattlesprite00
-                dc.l EnemyBattlesprite01
-                dc.l EnemyBattlesprite02
-                dc.l EnemyBattlesprite03
-                dc.l EnemyBattlesprite04
-                dc.l EnemyBattlesprite05
-                dc.l EnemyBattlesprite06
-                dc.l EnemyBattlesprite07
-                dc.l EnemyBattlesprite08
-                dc.l EnemyBattlesprite09
-                dc.l EnemyBattlesprite10
-                dc.l EnemyBattlesprite11
-                dc.l EnemyBattlesprite12
-                dc.l EnemyBattlesprite13
-                dc.l EnemyBattlesprite14
-                dc.l EnemyBattlesprite15
-                dc.l EnemyBattlesprite16
-                dc.l EnemyBattlesprite17
-                dc.l EnemyBattlesprite18
-                dc.l EnemyBattlesprite19
-                dc.l EnemyBattlesprite20
-                dc.l EnemyBattlesprite21
-                dc.l EnemyBattlesprite22
-                dc.l EnemyBattlesprite23
-                dc.l EnemyBattlesprite24
-                dc.l EnemyBattlesprite25
-                dc.l EnemyBattlesprite26
-                dc.l EnemyBattlesprite27
-                dc.l EnemyBattlesprite28
-                dc.l EnemyBattlesprite29
-                dc.l EnemyBattlesprite30
-                dc.l EnemyBattlesprite31
-                dc.l EnemyBattlesprite32
-                dc.l EnemyBattlesprite33
-                dc.l EnemyBattlesprite34
-                dc.l EnemyBattlesprite35
-                dc.l EnemyBattlesprite36
-                dc.l EnemyBattlesprite37
-                dc.l EnemyBattlesprite38
-                dc.l EnemyBattlesprite39
-                dc.l EnemyBattlesprite40
-                dc.l EnemyBattlesprite41
-                dc.l EnemyBattlesprite42
-                dc.l EnemyBattlesprite43
-                dc.l EnemyBattlesprite44
-                dc.l EnemyBattlesprite45
-                dc.l EnemyBattlesprite46
-                dc.l EnemyBattlesprite47
-                dc.l EnemyBattlesprite48
-                dc.l EnemyBattlesprite49
-                dc.l EnemyBattlesprite50
-                dc.l EnemyBattlesprite51
-                dc.l EnemyBattlesprite52
-                dc.l EnemyBattlesprite53
-EnemyBattlesprite00:
+; 0x130004..0x17FE4F : Enemy battle sprites
+pt_EnemyBattleSprites:
+                dc.l EnemyBattleSprite00
+                dc.l EnemyBattleSprite01
+                dc.l EnemyBattleSprite02
+off_130010:     dc.l EnemyBattleSprite03
+                dc.l EnemyBattleSprite04
+                dc.l EnemyBattleSprite05
+                dc.l EnemyBattleSprite06
+                dc.l EnemyBattleSprite07
+                dc.l EnemyBattleSprite08
+                dc.l EnemyBattleSprite09
+                dc.l EnemyBattleSprite10
+                dc.l EnemyBattleSprite11
+                dc.l EnemyBattleSprite12
+                dc.l EnemyBattleSprite13
+                dc.l EnemyBattleSprite14
+                dc.l EnemyBattleSprite15
+                dc.l EnemyBattleSprite16
+                dc.l EnemyBattleSprite17
+                dc.l EnemyBattleSprite18
+                dc.l EnemyBattleSprite19
+                dc.l EnemyBattleSprite20
+                dc.l EnemyBattleSprite21
+                dc.l EnemyBattleSprite22
+                dc.l EnemyBattleSprite23
+                dc.l EnemyBattleSprite24
+                dc.l EnemyBattleSprite25
+                dc.l EnemyBattleSprite26
+                dc.l EnemyBattleSprite27
+                dc.l EnemyBattleSprite28
+                dc.l EnemyBattleSprite29
+                dc.l EnemyBattleSprite30
+                dc.l EnemyBattleSprite31
+                dc.l EnemyBattleSprite32
+                dc.l EnemyBattleSprite33
+                dc.l EnemyBattleSprite34
+                dc.l EnemyBattleSprite35
+                dc.l EnemyBattleSprite36
+                dc.l EnemyBattleSprite37
+                dc.l EnemyBattleSprite38
+                dc.l EnemyBattleSprite39
+                dc.l EnemyBattleSprite40
+                dc.l EnemyBattleSprite41
+                dc.l EnemyBattleSprite42
+                dc.l EnemyBattleSprite43
+                dc.l EnemyBattleSprite44
+                dc.l EnemyBattleSprite45
+                dc.l EnemyBattleSprite46
+                dc.l EnemyBattleSprite47
+                dc.l EnemyBattleSprite48
+                dc.l EnemyBattleSprite49
+                dc.l EnemyBattleSprite50
+                dc.l EnemyBattleSprite51
+                dc.l EnemyBattleSprite52
+                dc.l EnemyBattleSprite53
+				dc.l EnemyBattleSprite54
+                dc.l EnemyBattleSprite55
+                dc.l EnemyBattleSprite56
+                dc.l EnemyBattleSprite57
+                dc.l EnemyBattleSprite58
+                dc.l EnemyBattleSprite59
+                dc.l EnemyBattleSprite60
+                dc.l EnemyBattleSprite61
+                dc.l EnemyBattleSprite62
+                dc.l EnemyBattleSprite63
+                dc.l EnemyBattleSprite64
+                dc.l EnemyBattleSprite65
+                dc.l EnemyBattleSprite66
+                dc.l EnemyBattleSprite67
+                dc.l EnemyBattleSprite68
+                dc.l EnemyBattleSprite69
+                dc.l EnemyBattleSprite70
+                dc.l EnemyBattleSprite71
+                dc.l EnemyBattleSprite72
+                dc.l EnemyBattleSprite73
+                dc.l EnemyBattleSprite74
+                dc.l EnemyBattleSprite75
+                dc.l EnemyBattleSprite76
+                dc.l EnemyBattleSprite77
+                dc.l EnemyBattleSprite78
+                dc.l EnemyBattleSprite79
+                dc.l EnemyBattleSprite80
+                dc.l EnemyBattleSprite81
+                dc.l EnemyBattleSprite82
+                dc.l EnemyBattleSprite83
+                dc.l EnemyBattleSprite84
+                dc.l EnemyBattleSprite85
+                dc.l EnemyBattleSprite86
+                dc.l EnemyBattleSprite87
+                dc.l EnemyBattleSprite88
+                dc.l EnemyBattleSprite89
+                dc.l EnemyBattleSprite90
+                dc.l EnemyBattleSprite91
+                dc.l EnemyBattleSprite92
+                dc.l EnemyBattleSprite93
+                dc.l EnemyBattleSprite94
+                dc.l EnemyBattleSprite95
+                dc.l EnemyBattleSprite96
+                dc.l EnemyBattleSprite97
+                dc.l EnemyBattleSprite98
+                dc.l EnemyBattleSprite99
+                dc.l EnemyBattleSprite100
+				dc.l EnemyBattleSprite101
+                dc.l EnemyBattleSprite102
+                dc.l EnemyBattleSprite103
+                dc.l EnemyBattleSprite104
+                dc.l EnemyBattleSprite105
+                dc.l EnemyBattleSprite106
+                dc.l EnemyBattleSprite107
+                dc.l EnemyBattleSprite108
+                dc.l EnemyBattleSprite109
+                dc.l EnemyBattleSprite110
+                dc.l EnemyBattleSprite111
+                dc.l EnemyBattleSprite112
+                dc.l EnemyBattleSprite113
+                dc.l EnemyBattleSprite114
+                dc.l EnemyBattleSprite115
+                dc.l EnemyBattleSprite116
+                dc.l EnemyBattleSprite117
+                dc.l EnemyBattleSprite118
+                dc.l EnemyBattleSprite119
+EnemyBattleSprite00:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite00.bin"
-EnemyBattlesprite01:
+EnemyBattleSprite01:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite01.bin"
-EnemyBattlesprite02:
+EnemyBattleSprite02:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite02.bin"
-EnemyBattlesprite03:
+EnemyBattleSprite03:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite03.bin"
-EnemyBattlesprite04:
+EnemyBattleSprite04:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite04.bin"
-EnemyBattlesprite05:
+EnemyBattleSprite05:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite05.bin"
-EnemyBattlesprite06:
+EnemyBattleSprite06:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite06.bin"
-EnemyBattlesprite07:
+EnemyBattleSprite07:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite07.bin"
-EnemyBattlesprite08:
+EnemyBattleSprite08:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite08.bin"
-EnemyBattlesprite09:
+EnemyBattleSprite09:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite09.bin"
-EnemyBattlesprite10:
+EnemyBattleSprite10:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite10.bin"
-EnemyBattlesprite11:
+EnemyBattleSprite11:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite11.bin"
-EnemyBattlesprite12:
+EnemyBattleSprite12:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite12.bin"
-EnemyBattlesprite13:
+EnemyBattleSprite13:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite13.bin"
-EnemyBattlesprite14:
+EnemyBattleSprite14:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite14.bin"
-EnemyBattlesprite15:
+EnemyBattleSprite15:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite15.bin"
-EnemyBattlesprite16:
+EnemyBattleSprite16:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite16.bin"
-EnemyBattlesprite17:
+EnemyBattleSprite17:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite17.bin"
-EnemyBattlesprite18:
+EnemyBattleSprite18:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite18.bin"
-EnemyBattlesprite19:
+EnemyBattleSprite19:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite19.bin"
-EnemyBattlesprite20:
+EnemyBattleSprite20:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite20.bin"
-EnemyBattlesprite21:
+EnemyBattleSprite21:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite21.bin"
-EnemyBattlesprite22:
+EnemyBattleSprite22:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite22.bin"
-EnemyBattlesprite23:
+EnemyBattleSprite23:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite23.bin"
-EnemyBattlesprite24:
+EnemyBattleSprite24:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite24.bin"
-EnemyBattlesprite25:
+EnemyBattleSprite25:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite25.bin"
-EnemyBattlesprite26:
+EnemyBattleSprite26:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite26.bin"
-EnemyBattlesprite27:
+EnemyBattleSprite27:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite27.bin"
-EnemyBattlesprite28:
+EnemyBattleSprite28:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite28.bin"
-EnemyBattlesprite29:
+EnemyBattleSprite29:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite29.bin"
-EnemyBattlesprite30:
+EnemyBattleSprite30:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite30.bin"
-EnemyBattlesprite31:
+EnemyBattleSprite31:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite31.bin"
-EnemyBattlesprite32:
+EnemyBattleSprite32:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite32.bin"
-EnemyBattlesprite33:
+EnemyBattleSprite33:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite33.bin"
-EnemyBattlesprite34:
+EnemyBattleSprite34:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite34.bin"
-EnemyBattlesprite35:
+EnemyBattleSprite35:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite35.bin"
-EnemyBattlesprite36:
+EnemyBattleSprite36:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite36.bin"
-EnemyBattlesprite37:
+EnemyBattleSprite37:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite37.bin"
-EnemyBattlesprite38:
+EnemyBattleSprite38:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite38.bin"
-EnemyBattlesprite39:
+EnemyBattleSprite39:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite39.bin"
-EnemyBattlesprite40:
+EnemyBattleSprite40:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite40.bin"
-EnemyBattlesprite41:
+EnemyBattleSprite41:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite41.bin"
-EnemyBattlesprite42:
+EnemyBattleSprite42:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite42.bin"
-EnemyBattlesprite43:
+EnemyBattleSprite43:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite43.bin"
-EnemyBattlesprite44:
+EnemyBattleSprite44:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite44.bin"
-EnemyBattlesprite45:
+EnemyBattleSprite45:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite45.bin"
-EnemyBattlesprite46:
+EnemyBattleSprite46:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite46.bin"
-EnemyBattlesprite47:
+EnemyBattleSprite47:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite47.bin"
-EnemyBattlesprite48:
+EnemyBattleSprite48:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite48.bin"
-EnemyBattlesprite49:
+EnemyBattleSprite49:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite49.bin"
-EnemyBattlesprite50:
+EnemyBattleSprite50:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite50.bin"
-EnemyBattlesprite51:
+EnemyBattleSprite51:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite51.bin"
-EnemyBattlesprite52:
+EnemyBattleSprite52:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite52.bin"
-EnemyBattlesprite53:
+EnemyBattleSprite53:
                 incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite53.bin"
+EnemyBattleSprite54:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite54.bin"
+EnemyBattleSprite55:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite55.bin"
+EnemyBattleSprite56:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite56.bin"
+EnemyBattleSprite57:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite57.bin"
+EnemyBattleSprite58:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite58.bin"
+EnemyBattleSprite59:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite59.bin"
+EnemyBattleSprite60:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite60.bin"
+EnemyBattleSprite61:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite61.bin"
+EnemyBattleSprite62:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite62.bin"
+EnemyBattleSprite63:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite63.bin"
+EnemyBattleSprite64:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite64.bin"
+EnemyBattleSprite65:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite65.bin"
+EnemyBattleSprite66:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite66.bin"
+EnemyBattleSprite67:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite67.bin"
+EnemyBattleSprite68:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite68.bin"
+EnemyBattleSprite69:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite69.bin"
+EnemyBattleSprite70:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite70.bin"
+EnemyBattleSprite71:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite71.bin"
+EnemyBattleSprite72:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite72.bin"
+EnemyBattleSprite73:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite73.bin"
+EnemyBattleSprite74:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite74.bin"
+EnemyBattleSprite75:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite75.bin"
+EnemyBattleSprite76:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite76.bin"
+EnemyBattleSprite77:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite77.bin"
+EnemyBattleSprite78:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite78.bin"
+EnemyBattleSprite79:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite79.bin"
+EnemyBattleSprite80:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite80.bin"
+EnemyBattleSprite81:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite81.bin"
+EnemyBattleSprite82:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite82.bin"
+EnemyBattleSprite83:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite83.bin"
+EnemyBattleSprite84:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite84.bin"
+EnemyBattleSprite85:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite85.bin"
+EnemyBattleSprite86:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite86.bin"
+EnemyBattleSprite87:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite87.bin"
+EnemyBattleSprite88:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite88.bin"
+EnemyBattleSprite89:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite89.bin"
+EnemyBattleSprite90:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite90.bin"
+EnemyBattleSprite91:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite91.bin"
+EnemyBattleSprite92:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite92.bin"
+EnemyBattleSprite93:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite93.bin"
+EnemyBattleSprite94:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite94.bin"
+EnemyBattleSprite95:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite95.bin"
+EnemyBattleSprite96:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite96.bin"
+EnemyBattleSprite97:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite97.bin"
+EnemyBattleSprite98:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite98.bin"
+EnemyBattleSprite99:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite99.bin"
+EnemyBattleSprite100:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite100.bin"
+EnemyBattleSprite101:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite101.bin"
+EnemyBattleSprite102:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite102.bin"
+EnemyBattleSprite103:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite103.bin"
+EnemyBattleSprite104:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite104.bin"
+EnemyBattleSprite105:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite105.bin"
+EnemyBattleSprite106:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite106.bin"
+EnemyBattleSprite107:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite107.bin"
+EnemyBattleSprite108:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite108.bin"
+EnemyBattleSprite109:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite109.bin"
+EnemyBattleSprite110:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite110.bin"
+EnemyBattleSprite111:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite111.bin"
+EnemyBattleSprite112:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite112.bin"
+EnemyBattleSprite113:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite113.bin"
+EnemyBattleSprite114:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite114.bin"
+EnemyBattleSprite115:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite115.bin"
+EnemyBattleSprite116:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite116.bin"
+EnemyBattleSprite117:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite117.bin"
+EnemyBattleSprite118:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite118.bin"
+EnemyBattleSprite119:
+                incbin "data/graphics/battles/battlesprites/enemies/enemybattlesprite119.bin"				

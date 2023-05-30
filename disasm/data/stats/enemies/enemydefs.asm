@@ -168,7 +168,7 @@ tbl_EnemyDefs:
                 baseDef  16
                 baseAgi  12
                 baseMov  6
-                baseResistance FIRE_MAJOR|ICE_WEAKNESS
+                baseResistance ICE_MAJOR|FIRE_WEAKNESS
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN8|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -1067,7 +1067,7 @@ tbl_EnemyDefs:
                 baseAtt  29
                 baseDef  17
                 baseAgi  16
-                baseMov  6
+                baseMov  4
                 baseResistance NONE
                 baseProwess    CRITICAL_POISON|DOUBLE_1IN32|COUNTER_1IN32
                 items &

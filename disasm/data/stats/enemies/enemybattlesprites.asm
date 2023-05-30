@@ -49,7 +49,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt PRISM_FLOWER, 1 ; 38: ZEON GUARD
                 enemyBattleSprAndPlt GIZMO, 2 ; 39: GIZMO
                 enemyBattleSprAndPlt BAT, 0 ; 40: HUGE BAT
-                enemyBattleSprAndPlt BAT, 2 ; 41: VAMPIRE BAT
+                enemyBattleSprAndPlt 79, 0 ; 41: VAMPIRE BAT
                 enemyBattleSprAndPlt GIZMO, 1 ; 42: EVIL CLOUD
                 enemyBattleSprAndPlt GARGOYLE, 0 ; 43: GARGOYLE
                 enemyBattleSprAndPlt HARPY, 0 ; 44: HARPY
@@ -75,7 +75,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt BOW_RIDER, 0 ; 64: BOW RIDER
                 enemyBattleSprAndPlt ARROW_LAUNCHER, 2 ; 65: DARK GUNNER
                 enemyBattleSprAndPlt BOW_RIDER, 1 ; 66: HORSEMAN
-                enemyBattleSprAndPlt MAGE, 0 ; 67: GALAM MAGE
+                enemyBattleSprAndPlt 56, 0 ; 67: GALAM DWARF
                 enemyBattleSprAndPlt WITCH, 0 ; 68: WITCH
                 enemyBattleSprAndPlt MAGE, 1 ; 69: MASTER MAGE
                 enemyBattleSprAndPlt WITCH, 1 ; 70: DARK MADAM

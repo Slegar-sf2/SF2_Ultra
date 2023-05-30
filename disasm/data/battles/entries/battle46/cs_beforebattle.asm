@@ -41,7 +41,7 @@ bbcs_46:        textCursor 2469
 				endActions
 				setActscript 134,eas_Die
 				setActscript 132,eas_Die				                
-                setFacing 129,DOWN                                        
+                setFacing 129,RIGHT                                        
     			 entityActionsWait 128
                  moveRight 1
                 endActions
