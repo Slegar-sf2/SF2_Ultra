@@ -13,7 +13,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt SOLDIER, 0 ; 2: GALAM SOLDIER
                 enemyBattleSprAndPlt KNIGHT, 0 ; 3: GALAM KNIGHT
                 enemyBattleSprAndPlt GOBLIN, 0 ; 4: GOBLIN
-                enemyBattleSprAndPlt OOZE, 0 ; 5: GREEN OOZE
+                enemyBattleSprAndPlt 114, 0 ; 5: Charmeleon
                 enemyBattleSprAndPlt DWARF, 2 ; 6: DARK DWARF
                 enemyBattleSprAndPlt GOBLIN, 2 ; 7: HOBGOBLIN
                 enemyBattleSprAndPlt ZOMBIE, 0 ; 8: ZOMBIE

@@ -14,7 +14,7 @@ ms_map3_flag609_Entities:
                 msFixedEntity 25, 13, RIGHT, MAPSPRITE_WOMAN1, eas_Init
                 msFixedEntity 27, 3, DOWN, MAPSPRITE_SOLDIER1, eas_Init
                 msFixedEntity 31, 3, DOWN, MAPSPRITE_SOLDIER1, eas_Init
-                msFixedEntity 23, 21, DOWN, MAPSPRITE_WORKER, eas_Init
+                msFixedEntity 4, 21, DOWN, MAPSPRITE_WORKER, eas_Init
                 msFixedEntity 29, 24, UP, MAPSPRITE_BOY, eas_Init
                 msWalkingEntity 32, 27, DOWN, MAPSPRITE_HEN, 32, 27, 1
                 msWalkingEntity 39, 26, DOWN, MAPSPRITE_WORKER, 39, 26, 1
@@ -22,7 +22,7 @@ ms_map3_flag609_Entities:
                 msWalkingEntity 47, 24, DOWN, MAPSPRITE_MAN2, 47, 24, 2
                 msWalkingEntity 25, 22, DOWN, MAPSPRITE_BEASTMAN1, 25, 22, 1
                 msWalkingEntity 26, 22, DOWN, MAPSPRITE_BEASTMAN2, 26, 22, 1
-                msWalkingEntity 27, 22, DOWN, MAPSPRITE_BEASTMAN1, 27, 22, 1
+                msFixedEntity 23, 21, DOWN, ALLY_NATASHA, eas_Init
                 msFixedEntity 32, 11, DOWN, MAPSPRITE_PRIEST, eas_Init
                 msWalkingEntity 29, 7, DOWN, MAPSPRITE_MAN2, 29, 7, 1
                 msWalkingEntity 18, 14, DOWN, MAPSPRITE_BOY, 18, 14, 1

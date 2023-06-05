@@ -182,8 +182,7 @@ Map3_261_EntityEvent10:
 Map3_261_EntityEvent12:
                 
                  
-                txt     640             ; "Welcome!{N}We have very novel animals{N}from the mainland!!{W2}"
-                txt     641             ; "You don't want a pet?{N}I'll lower my prices for{N}you!{W1}"
+                txt     649             ; "Me...(sob)...so hungry.{N}Hungry....{W1}"
                 rts
 
     ; End of function Map3_261_EntityEvent12
@@ -278,9 +277,9 @@ Map3_261_EntityEvent19:
 
 Map3_261_EntityEvent20:
                 
-                 
-                txt     649             ; "Me...(sob)...so hungry.{N}Hungry....{W1}"
-                rts
+                txt     640             ; "Welcome!{N}We have very novel animals{N}from the mainland!!{W2}"
+                txt     641             ; "You don't want a pet?{N}I'll lower my prices for{N}you!{W1}"
+                rts                 
 
     ; End of function Map3_261_EntityEvent20
 

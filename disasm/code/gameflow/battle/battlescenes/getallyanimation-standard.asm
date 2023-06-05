@@ -44,20 +44,6 @@ GetAllyAnimation:
 @IsSpecialAnimation?:
                 cmpi.w  #ALLYBATTLEANIMATION_SPECIALS_START,d1
                 bhs.s   @GetAnimationPointer
-				
-@CheckSpearWeaponsprites:
-                
-                cmpi.w  #WEAPONSPRITE_SPEAR,((BATTLESCENE_WEAPONSPRITE-$1000000)).w
-                bcs.w   @CheckSpecialAnimation
-                cmpi.w  #WEAPONSPRITE_JAVELIN,((BATTLESCENE_WEAPONSPRITE-$1000000)).w
-                bhi.w   @CheckSpecialAnimation
-                move.w  d2,d1
-                bra.w   @GetAnimationPointer
-@CheckSpecialAnimation:
-                
-                cmpi.w  #ALLYBATTLEANIMATION_SPECIALS_START,d1
-                bcc.s   @GetAnimationPointer
-				
                 
                 ; Is dodge?
                 cmpi.w  #BATTLEANIMATION_DODGE,d1

@@ -63,7 +63,7 @@ tbl_EnemyDefs:
                 spellPower REGULAR
                 level    0
                 maxHp    10
-                maxMp    0
+                maxMp    50
                 baseAtt  12
                 baseDef  9
                 baseAgi  7
@@ -71,12 +71,12 @@ tbl_EnemyDefs:
                 baseResistance NONE
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
-                    NOTHING, &
+                    NOTHING,&
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    NOTHING, &
+                    HEAL|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -114,8 +114,8 @@ tbl_EnemyDefs:
                 level    3
                 maxHp    20
                 maxMp    0
-                baseAtt  16
-                baseDef  14
+                baseAtt  17
+                baseDef  16
                 baseAgi  12
                 baseMov  7
                 baseResistance NONE
@@ -165,10 +165,10 @@ tbl_EnemyDefs:
                 maxHp    22
                 maxMp    27
                 baseAtt  24
-                baseDef  16
+                baseDef  20
                 baseAgi  12
                 baseMov  6
-                baseResistance ICE_MAJOR|FIRE_WEAKNESS
+                baseResistance FIRE_MAJOR|ICE_WEAKNESS
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN8|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -1439,8 +1439,8 @@ tbl_EnemyDefs:
                 level    3
                 maxHp    15
                 maxMp    0
-                baseAtt  10
-                baseDef  8
+                baseAtt  13
+                baseDef  7
                 baseAgi  10
                 baseMov  6
                 baseResistance NONE
@@ -1462,9 +1462,9 @@ tbl_EnemyDefs:
                 unknownByte 57          ; 57: HUNTER GOBLIN
                 spellPower REGULAR
                 level    6
-                maxHp    27
+                maxHp    25
                 maxMp    0
-                baseAtt  13
+                baseAtt  18
                 baseDef  11
                 baseAgi  14
                 baseMov  5
@@ -1737,10 +1737,10 @@ tbl_EnemyDefs:
                 unknownByte 68          ; 68: WITCH
                 spellPower REGULAR
                 level    7
-                maxHp    25
+                maxHp    35
                 maxMp    12
                 baseAtt  9
-                baseDef  12
+                baseDef  17
                 baseAgi  15
                 baseMov  5
                 baseResistance ICE_MINOR

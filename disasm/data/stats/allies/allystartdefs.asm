@@ -30,9 +30,9 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass KNTE         ; 2: CHESTER
-                startLevel 1
+                startLevel 40
                 startItems &
-                    WOODEN_STICK|EQUIPPED, &
+                    SPEAR|EQUIPPED, &
                     MEDICAL_HERB, &
                     NOTHING, &
                     NOTHING
@@ -70,7 +70,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass PHNK         ; 7: PETER
-                startLevel 9
+                startLevel 10
                 startItems &
                     NOTHING, &
                     NOTHING, &
@@ -78,7 +78,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass RNGR         ; 8: MAY
-                startLevel 10
+                startLevel 11
                 startItems &
                     WOODEN_ARROW|EQUIPPED, &
                     NOTHING, &
@@ -94,7 +94,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass BDMN         ; 10: LUKE
-                startLevel 14
+                startLevel 15
                 startItems &
                     MIDDLE_SWORD|EQUIPPED, &
                     NOTHING, &

@@ -10,7 +10,7 @@ EASY_CONFIGURATION_MODE:            equ 1      ; Activate Configuration Mode aut
 FIX_SEARCH_IN_BATTLE:               equ 1       ; Restore the ability to search chests during battle.
 FIX_INCREASE_DOUBLE_RESETS_COUNTER: equ 1       ; Equipment that increases the chance to double attack also erroneously set the chance to counter attack to 1/32.
 FIX_GARBLED_HP_BAR:                 equ 1       ; Prevent drawing garbage pixels when HP is greater then 600. (Keep drawing black bars instead.)
-FIX_NATASHA_SPELLS_LEARNING_LEVEL:     equ 1       ; NATASHA's base class is wrongfully treated as promoted for the purpose of learning spells.
+FIX_NATASHA_SPELLS_LEARNING_LEVEL:  equ 1       ; NATASHA's base class is wrongfully treated as promoted for the purpose of learning spells.
 FIX_HIGINS_SPELL:                   equ 1       ; Prevent unequipping from possibly corrupting characters spell entries.
 FIX_MOVEMENT_GLITCH:                equ 1       ; The movement glitch is used in battles to reach places which are out of the controlled character's moving boundaries.
 FIX_PRISM_FLOWER_OVERWORLD_ENTRANCE:equ 1       ; On Map 77, walking to the right on the tile closest to the bottom mountain brings the player into the Prism Flower battle rather than to the world map to the right.
@@ -41,7 +41,7 @@ MINIATURES_SHOP:                    equ 0       ; Place a shopworker on the desk
 AGILITY_AFFECTS_CHANCE_TO_DODGE:    equ 0       ; Adjust chance to dodge proportionally to the difference between the attacker's and the target's current AGI.
 BOWIE_CAN_DIE:                      equ 0       ; Bowie's death does not cause defeat.
 BOWIE_CAN_LEAVE_BATTLE_PARTY:       equ 0       ; Player is required to leave at least one member in the party. Message #20 should be edited to reflect this new rule.
-DIAGONAL_LASERS:                    equ 1       ; Allows laser based enemies to fire in 8 directions (Up, Up-Left, Left, Down-Left, etc).
+DIAGONAL_LASERS:                    equ 0       ; Allows laser based enemies to fire in 8 directions (Up, Up-Left, Left, Down-Left, etc).
 EXPANDED_RANGES:                    equ 1       ; Weapons/spells can have ranges up to 7 and spell radii up to 4.
 PERCENT_POISON_DAMAGE:              equ 30       ; 1-100 = n% of max HP
 PLAYER_DEFEAT_IS_GAME_OVER:         equ 0       ; On player defeat, rather than halve the gold and return to town, reset the game.

@@ -31,7 +31,7 @@ pt_AllyStats:   dc.l AllyStats00        ; BOWIE
                 dc.l AllyStats27        ; CHAZ
                 dc.l AllyStats28        ; LEMON
                 dc.l AllyStats29        ; CLAUDE
-                dc.l AllyStats30
+                dc.l AllyStats30        ; SHADE
                 dc.l AllyStats31
                 include "data\stats\allies\stats\allystats00.asm"    ; Ally stats 00
                 include "data\stats\allies\stats\allystats01.asm"    ; Ally stats 01
