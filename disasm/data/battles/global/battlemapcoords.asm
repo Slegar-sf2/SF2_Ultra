@@ -3,7 +3,7 @@
 ; 0x7A36..0x7B71 : Battle map coords
 BattleMapCoordinates:
                 ; Map, X, Y, Width, Height, Trigger X, Trigger Y
-                battleMapCoords 63, 0, 12, 32, 36, 255, 255
+                battleMapCoords 86, 0, 0, 24, 32, 255, 255
                 battleMapCoords 57, 0, 0, 16, 20, 255, 255
                 battleMapCoords 66, 16, 19, 22, 18, 255, 255
                 battleMapCoords 66, 0, 0, 22, 30, 255, 255

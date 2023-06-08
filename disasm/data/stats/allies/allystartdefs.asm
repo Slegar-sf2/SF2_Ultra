@@ -30,7 +30,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass KNTE         ; 2: CHESTER
-                startLevel 40
+                startLevel 2
                 startItems &
                     SPEAR|EQUIPPED, &
                     MEDICAL_HERB, &

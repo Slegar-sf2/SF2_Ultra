@@ -76,7 +76,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    HEAL|LV3, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

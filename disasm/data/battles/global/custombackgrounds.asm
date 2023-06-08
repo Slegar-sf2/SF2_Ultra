@@ -7,7 +7,7 @@ tbl_CustomBackgrounds:
 ;
 ; Note: 1 byte per battle. (Custom background used for the entire battlefield, or $FF for background depending on map block.)
                 
-                background UNDERGROUND_SHRINE_0 ; 0: Versus all bosses
+                background 34 ; 0: Versus all bosses
                 background TOWER_INTERIOR ; 1: Inside Ancient Tower
                 background OVERWORLD    ; 2: To Yeel
                 background OVERWORLD    ; 3: To Hawel's house
