@@ -39,7 +39,7 @@ tbl_EnemyDefs:
                 level    0
                 maxHp    13
                 maxMp    0
-                baseAtt  9
+                baseAtt  10
                 baseDef  6
                 baseAgi  5
                 baseMov  4
@@ -62,8 +62,8 @@ tbl_EnemyDefs:
                 unknownByte 1           ; 1: HUGE RAT
                 spellPower REGULAR
                 level    0
-                maxHp    10
-                maxMp    50
+                maxHp    0
+                maxMp    0
                 baseAtt  12
                 baseDef  9
                 baseAgi  7
@@ -187,10 +187,10 @@ tbl_EnemyDefs:
                 unknownByte 6           ; 6: DARK DWARF
                 spellPower REGULAR
                 level    7
-                maxHp    21
+                maxHp    32
                 maxMp    0
-                baseAtt  18
-                baseDef  17
+                baseAtt  27
+                baseDef  28
                 baseAgi  18
                 baseMov  4
                 baseResistance NONE
@@ -212,10 +212,10 @@ tbl_EnemyDefs:
                 unknownByte 7           ; 7: HOBGOBLIN
                 spellPower REGULAR
                 level    9
-                maxHp    21
+                maxHp    36
                 maxMp    0
-                baseAtt  10
-                baseDef  19
+                baseAtt  20
+                baseDef  26
                 baseAgi  19
                 baseMov  5
                 baseResistance NONE
@@ -1039,7 +1039,7 @@ tbl_EnemyDefs:
                 level    1
                 maxHp    15
                 maxMp    4
-                baseAtt  14
+                baseAtt  15
                 baseDef  8
                 baseAgi  8
                 baseMov  6
@@ -1064,7 +1064,7 @@ tbl_EnemyDefs:
                 level    7
                 maxHp    30
                 maxMp    12
-                baseAtt  29
+                baseAtt  27
                 baseDef  17
                 baseAgi  16
                 baseMov  4
@@ -1714,8 +1714,8 @@ tbl_EnemyDefs:
                 level    3
                 maxHp    13
                 maxMp    0
-                baseAtt  13
-                baseDef  14
+                baseAtt  14
+                baseDef  15
                 baseAgi  12
                 baseMov  4
                 baseResistance NONE
