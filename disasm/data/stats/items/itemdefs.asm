@@ -29,7 +29,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        10
+                price        15
                 itemType     CONSUMABLE
                 useSpell     HEALIN
                 equipEffects NONE, 0, &
@@ -62,7 +62,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        20
+                price        40
                 itemType     CONSUMABLE
                 useSpell     DETOX
                 equipEffects NONE, 0, &
@@ -73,7 +73,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        40
+                price        100
                 itemType     CONSUMABLE
                 useSpell     EGRESS
                 equipEffects NONE, 0, &
@@ -84,7 +84,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        100
+                price        50
                 itemType     CONSUMABLE
                 useSpell     POWDER
                 equipEffects NONE, 0, &
@@ -988,18 +988,18 @@ tbl_ItemDefs:
                 range        1, 1
                 price        360
                 itemType     WEAPON
-                useSpell     NOTHING
+                useSpell     FREEZE
                 equipEffects INCREASE_ATT, 8, &
                              NONE, 0, &
                              NONE, 0
                 
                 ; 88: Iron Rod
-                equipFlags   MAGE|PRST|WIZ|SORC|VICR
+                equipFlags   SORC
                 equipFlags2  NONE
                 range        1, 1
                 price        560
                 itemType     WEAPON
-                useSpell     NOTHING
+                useSpell     MUDDLE|LV2 
                 equipEffects INCREASE_ATT, 12, &
                              NONE, 0, &
                              NONE, 0
@@ -1015,14 +1015,14 @@ tbl_ItemDefs:
                              NONE, 0, &
                              NONE, 0
                 
-                ; 90: Flail
-                equipFlags   WIZ|SORC|VICR
+                ; 90: Baton
+                equipFlags   WARR|GLDT|BRN|RDBN
                 equipFlags2  NONE
                 range        1, 1
-                price        1490
+                price        120
                 itemType     WEAPON
                 useSpell     NOTHING
-                equipEffects INCREASE_ATT, 19, &
+                equipEffects INCREASE_ATT, 3, &
                              NONE, 0, &
                              NONE, 0
                 
@@ -1820,14 +1820,14 @@ tbl_ItemDefs:
                              NONE, 0, &
                              NONE, 0
                 
-                ; 163: Baton
-                equipFlags   WARR|GLDT|BRN|RDBN
+                ; 163:
+                equipFlags   NONE
                 equipFlags2  NONE
-                range        1, 1
-                price        120
-                itemType     WEAPON
+                range        0, 0
+                price        0
+                itemType     NONE
                 useSpell     NOTHING
-                equipEffects INCREASE_ATT, 3, &
+                equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
                 

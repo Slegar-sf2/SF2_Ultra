@@ -237,10 +237,10 @@ tbl_EnemyDefs:
                 unknownByte 8           ; 8: ZOMBIE
                 spellPower REGULAR
                 level    11
-                maxHp    27
+                maxHp    33
                 maxMp    0
-                baseAtt  26
-                baseDef  20
+                baseAtt  37
+                baseDef  25
                 baseAgi  18
                 baseMov  5
                 baseResistance WIND_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS|STATUS_IMMUNITY
@@ -1487,10 +1487,10 @@ tbl_EnemyDefs:
                 unknownByte 58          ; 58: DEATH ARCHER
                 spellPower REGULAR
                 level    10
-                maxHp    27
+                maxHp    50
                 maxMp    0
-                baseAtt  13
-                baseDef  19
+                baseAtt  29
+                baseDef  22
                 baseAgi  20
                 baseMov  5
                 baseResistance NONE
@@ -1846,7 +1846,7 @@ tbl_EnemyDefs:
                 baseResistance FIRE_MINOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
-                    FLAIL|EQUIPPED, &
+                    BATON|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1871,7 +1871,7 @@ tbl_EnemyDefs:
                 baseResistance LIGHTNING_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN16
                 items &
-                    FLAIL|EQUIPPED, &
+                    BATON|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1962,22 +1962,22 @@ tbl_EnemyDefs:
                 unknownByte 77          ; 77: DEATH MONK
                 spellPower REGULAR
                 level    8
-                maxHp    23
-                maxMp    13
-                baseAtt  22
-                baseDef  14
-                baseAgi  18
+                maxHp    45
+                maxMp    30
+                baseAtt  9
+                baseDef  19
+                baseAgi  30
                 baseMov  6
                 baseResistance NONE
-                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN16|COUNTER_1IN16
+                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN16|COUNTER_1IN8
                 items &
-                    NOTHING, &
+                    IRON_ROD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
-                spells &
-                    HEAL|LV2, &
-                    BLAST, &
+                spells &                    
+                    MUDDLE|LV2, &
+					HEAL|LV3, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
@@ -2071,7 +2071,7 @@ tbl_EnemyDefs:
                 baseResistance NONE
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
-                    FLAIL|EQUIPPED, &
+                    BATON|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2271,7 +2271,7 @@ tbl_EnemyDefs:
                 baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN16
                 items &
-                    FLAIL|EQUIPPED, &
+                    BATON|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2421,7 +2421,7 @@ tbl_EnemyDefs:
                 baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN8
                 items &
-                    FLAIL|EQUIPPED, &
+                    BATON|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

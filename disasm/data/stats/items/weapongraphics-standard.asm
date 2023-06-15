@@ -62,7 +62,7 @@ tbl_WeaponGraphics:
                 weaponGraphics BRONZE_ROD, SHORT_ROD, SHORT_ROD                 ; 87: Bronze Rod
                 weaponGraphics IRON_ROD, SHORT_ROD, SHORT_ROD                   ; 88: Iron Rod
                 weaponGraphics POWER_STICK, POWER_STICK, POWER_STICK            ; 89: Power Stick
-                weaponGraphics FLAIL, POWER_STICK, POWER_STICK                  ; 90: Flail
+                weaponGraphics BATON, 26, 22                                    ; 90: Baton
                 weaponGraphics GUARDIAN_STAFF, GUARDIAN_STAFF, GUARDIAN_STAFF   ; 91: Guardian Staff
                 weaponGraphics INDRA_STAFF, GUARDIAN_STAFF, GUARDIAN_STAFF      ; 92: Indra Staff
                 weaponGraphics MAGE_STAFF, GUARDIAN_STAFF, GUARDIAN_STAFF       ; 93: Mage Staff
@@ -82,7 +82,7 @@ tbl_WeaponGraphics:
                 weaponGraphics KATANA, KATANA, KATANA                           ; 107: Katana
                 weaponGraphics NINJA_KATANA, KATANA, KATANA                     ; 108: Ninja Katana
                 weaponGraphics GISARME, KATANA, KATANA                          ; 109: Gisarme
-                weaponGraphics BATON, 26, 22                                    ; 163: Baton
-				
+				weaponGraphics TAROS_SWORD, 27, 32
+                				
                 tableEnd.b
 

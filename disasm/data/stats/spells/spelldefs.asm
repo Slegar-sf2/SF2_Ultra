@@ -177,9 +177,9 @@ tbl_SpellDefs:
                 entry      MUDDLE|LV2   ; MUDDLE 2
                 mpCost     11
                 animation  DEBUFF1
-                properties TYPE_SUPPORT|AFFECTEDBYSILENCE
-                range      1, 2
-                radius     2
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
+                range      1, 4
+                radius     1
                 power      0
                 
                 entry      DESOUL       ; DESOUL 1
@@ -324,22 +324,22 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     1
-                power      8
+                power      10
                 
                 entry      BLAST|LV3    ; BLAST 3
-                mpCost     8
+                mpCost     10
                 animation  BLAST|VARIATION3
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     1
-                power      12
+                power      20
                 
                 entry      BLAST|LV4    ; BLAST 4
-                mpCost     8
+                mpCost     15
                 animation  BLAST|VARIATION4
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
-                radius     0
+                radius     1
                 power      30
                 
                 entry      SPOIT        ; SPOIT 1
@@ -511,7 +511,7 @@ tbl_SpellDefs:
                 power      16
                 
                 entry      KATON|LV3    ; KATON 3
-                mpCost     12
+                mpCost     16
                 animation  BLAZE|VARIATION4
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2

@@ -93,7 +93,7 @@ tbl_ShopInventories:
                               BATTLE_AXE, &
                               POWER_SPEAR, &
                               ROBIN_ARROW, &
-                              FLAIL, &
+                              BATON, &
                               LEATHER_GLOVE
                 
                 ; Weapon shop 9
@@ -103,7 +103,7 @@ tbl_ShopInventories:
                               LARGE_AXE, &
                               ROBIN_ARROW, &
                               ASSAULT_SHELL, &
-                              FLAIL, &
+                              BATON, &
                               GUARDIAN_STAFF, &
                               LEATHER_GLOVE, &
                               POWER_GLOVE
