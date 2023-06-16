@@ -218,7 +218,7 @@ tbl_ItemDefs:
                 range        0, 1
                 price        1200
                 itemType     RARE|CONSUMABLE
-                useSpell     BREZAD
+                useSpell     ICE
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
@@ -1032,7 +1032,7 @@ tbl_ItemDefs:
                 range        1, 1
                 price        2380
                 itemType     WEAPON
-                useSpell     NOTHING
+                useSpell     BLAST
                 equipEffects INCREASE_ATT, 22, &
                              INCREASE_DEF, 5, &
                              NONE, 0

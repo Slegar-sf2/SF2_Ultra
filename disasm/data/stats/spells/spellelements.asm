@@ -43,7 +43,7 @@ tbl_SpellElements:
                 spellElement NEUTRAL    ; 35: HANNY
                 spellElement NEUTRAL    ; 36: BRAVE
                 spellElement FIRE       ; 37: F.BALL
-                spellElement ICE        ; 38: BREZAD
+                spellElement ICE        ; 38: ICE
                 spellElement LIGHTNING  ; 39: THUNDR
                 spellElement ICE        ; 40: AQUA
                 spellElement FIRE       ; 41: KIWI

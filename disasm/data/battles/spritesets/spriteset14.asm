@@ -69,7 +69,7 @@ BattleSpriteset14:
                 combatantAiAndItem ATTACKER2, NOTHING
                 combatantBehavior NONE, 0, NONE, 1, 0, STARTING
                 
-                enemyCombatant EVIL_CLOUD, 24, 9
+                enemyCombatant BELIAL, 24, 9
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 0, NONE, 1, 0, STARTING
                 
@@ -81,7 +81,7 @@ BattleSpriteset14:
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 15, NONE, 15, 0, STARTING
                 
-                enemyCombatant EVIL_CLOUD, 10, 19
+                enemyCombatant BELIAL, 10, 19
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 15, NONE, 15, 0, STARTING
                 

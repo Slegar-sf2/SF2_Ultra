@@ -73,7 +73,7 @@ BattleSpriteset13:
                 combatantAiAndItem ATTACKER3, NOTHING
                 combatantBehavior FOLLOW_ENEMY|0, 15, NONE, 15, 0, STARTING
                 
-                enemyCombatant EVIL_CLOUD, 16, 28
+                enemyCombatant BELIAL, 16, 28
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 2, NONE, 15, 0, STARTING
                 
@@ -101,7 +101,7 @@ BattleSpriteset13:
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 1, NONE, 15, 0, STARTING
                 
-                enemyCombatant EVIL_CLOUD, 25, 20
+                enemyCombatant BELIAL, 25, 20
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 1, NONE, 15, 0, STARTING
                 

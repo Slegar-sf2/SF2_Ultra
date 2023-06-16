@@ -191,7 +191,7 @@ ce_4BC5A:       mainEntity 7,25,RIGHT
                 entity 17,11,DOWN,MAPSPRITE_LESSER_DEMON,eas_Init
                 entity 19,11,DOWN,MAPSPRITE_DARK_BISHOP,eas_Init
                 entity 20,10,DOWN,MAPSPRITE_LIZARDMAN,eas_Init
-                entity 63,63,DOWN,MAPSPRITE_EVIL_CLOUD,eas_Init
+                entity 63,63,DOWN,MAPSPRITE_BELIAL,eas_Init
                 entity 17,15,UP,MAPSPRITE_PACALON_SOLDIER,eas_Init
                 entity 19,15,UP,MAPSPRITE_PACALON_SOLDIER,eas_Init
                 dc.w $FFFF

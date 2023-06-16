@@ -235,16 +235,16 @@ tbl_SpellDefs:
                 animation  BLAZE|VARIATION3
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
-                radius     1
+                radius     2
                 power      15
                 
                 entry      BLAZE|LV4    ; BLAZE 4
-                mpCost     10
+                mpCost     15
                 animation  BLAZE|VARIATION4
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
-                radius     0
-                power      40
+                radius     3
+                power      15
                 
                 entry      FREEZE       ; FREEZE 1
                 mpCost     3
@@ -271,12 +271,12 @@ tbl_SpellDefs:
                 power      18
                 
                 entry      FREEZE|LV4   ; FREEZE 4
-                mpCost     12
+                mpCost     20
                 animation  FREEZE|VARIATION4
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 3
-                radius     0
-                power      50
+                radius     1
+                power      35
                 
                 entry      BOLT         ; BOLT 1
                 mpCost     8
@@ -575,21 +575,29 @@ tbl_SpellDefs:
                 power      50
                 
                 entry      NEPTUN       ; NEPTUN 1
-                mpCost     12
+                mpCost     10
                 animation  NEPTUN
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     1
-                power      30
+                power      25
                 
                 entry      NEPTUN|LV2   ; NEPTUN 2
-                mpCost     19
+                mpCost     17
                 animation  NEPTUN|VARIATION2
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     1
-                power      61
+                power      40
                 
+				entry      NEPTUN|LV3   ; NEPTUN 3
+                mpCost     25
+                animation  NEPTUN|VARIATION2
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
+                range      1, 2
+                radius     1
+                power      60
+				
                 entry      ATLAS        ; ATLAS 1
                 mpCost     14
                 animation  ATLAS
@@ -654,14 +662,30 @@ tbl_SpellDefs:
                 radius     0
                 power      20
                 
-                entry      BREZAD       ; BREZAD 1
-                mpCost     0
+                entry      ICE       ; ICE 1
+                mpCost     5
+                animation  FREEZE|VARIATION2
+                properties TYPE_ATTACK
+                range      1, 2
+                radius     0
+                power      14
+                
+				entry      ICE|LV2       ; ICE 2
+                mpCost     9
                 animation  FREEZE|VARIATION3
                 properties TYPE_ATTACK
-                range      1, 1
+                range      1, 2
                 radius     0
-                power      33
-                
+                power      20
+				
+				entry      ICE|LV3       ; ICE 2
+                mpCost     18
+                animation  FREEZE|VARIATION4
+                properties TYPE_ATTACK
+                range      1, 2
+                radius     0
+                power      40
+				
                 entry      THUNDR       ; THUNDR 1
                 mpCost     0
                 animation  BOLT|VARIATION3

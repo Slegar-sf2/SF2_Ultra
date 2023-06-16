@@ -66,6 +66,7 @@ Upper two bits indicate spell level
 &H5E, Apollo 2
 &H1F, Neptune 1
 &H5F, Neptune 2
+&H9F, Neptune 3
 &H20, Atlas 1
 &H60, Atlas 2
 &H11, Flame Breath
@@ -97,6 +98,7 @@ Upper two bits indicate spell level
 &H24, Brave Apple
 &H25, Shining Ball
 &H26, Blizzard
+&H66, Blizzard 2
 &H27, Holy Thunder
 &H2A, Right of Hope
 &H37, Freeze Game

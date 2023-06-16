@@ -15,7 +15,7 @@ tbl_AiExcludedAttackSpells:
                 dc.b SPELL_NEPTUN
                 dc.b SPELL_ATLAS
                 dc.b SPELL_FBALL
-                dc.b SPELL_BREZAD
+                dc.b SPELL_ICE
                 dc.b SPELL_THUNDR
                 dc.b SPELL_AQUA
                 dc.b SPELL_NATASHA
@@ -40,7 +40,7 @@ tbl_AiExcludedItemUseAttackSpells:
                 dc.b SPELL_NEPTUN
                 dc.b SPELL_ATLAS
                 dc.b SPELL_FBALL
-                dc.b SPELL_BREZAD
+                dc.b SPELL_ICE
                 dc.b SPELL_THUNDR
                 dc.b SPELL_AQUA
                 dc.b SPELL_NATASHA

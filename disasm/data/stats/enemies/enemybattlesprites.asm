@@ -50,7 +50,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt GIZMO, 2 ; 39: GIZMO
                 enemyBattleSprAndPlt BAT, 0 ; 40: HUGE BAT
                 enemyBattleSprAndPlt 79, 0 ; 41: VAMPIRE BAT
-                enemyBattleSprAndPlt GIZMO, 1 ; 42: EVIL CLOUD
+                enemyBattleSprAndPlt 82, 0 ; 42: Belial
                 enemyBattleSprAndPlt GARGOYLE, 0 ; 43: GARGOYLE
                 enemyBattleSprAndPlt HARPY, 0 ; 44: HARPY
                 enemyBattleSprAndPlt GARGOYLE, 1 ; 45: LESSER DEMON

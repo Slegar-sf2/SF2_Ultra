@@ -65,7 +65,7 @@ BattleSpriteset12:
                 combatantAiAndItem LEADER, NOTHING
                 combatantBehavior MOVE_TO|0, 15, NONE, 15, 0, STARTING
                 
-                enemyCombatant EVIL_CLOUD, 15, 3
+                enemyCombatant BELIAL, 15, 3
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 1, NONE, 3, 0, STARTING
                 

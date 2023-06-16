@@ -156,15 +156,16 @@ Icon142:        incbin "data/graphics/icons/icon142.bin"
 Icon143:        incbin "data/graphics/icons/icon143.bin"
 Icon144:        incbin "data/graphics/icons/icon144.bin"
 Icon145:        incbin "data/graphics/icons/icon145.bin"
-            if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
-              rept 3
-                incbin "data/graphics/icons/icon145.bin"
-              endr
-            else
-Icon146:        incbin "data/graphics/icons/icon146.bin"
-Icon147:        incbin "data/graphics/icons/icon147.bin"
-Icon148:        incbin "data/graphics/icons/icon148.bin"
-            endif
+                if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
+                    rept 3
+                        incbin "data/graphics/icons/icon145.bin"
+                    endr
+                else
+Icon146:            incbin "data/graphics/icons/icon146.bin"
+Icon147:            incbin "data/graphics/icons/icon147.bin"
+Icon148:            incbin "data/graphics/icons/icon148.bin"
+                endif
+				
 Icon149:        incbin "data/graphics/icons/icon149.bin"
 Icon150:        incbin "data/graphics/icons/icon150.bin"
 Icon151:        incbin "data/graphics/icons/icon151.bin"
@@ -180,10 +181,18 @@ Icon160:        incbin "data/graphics/icons/icon160.bin"
 Icon161:        incbin "data/graphics/icons/icon161.bin"
 Icon162:        incbin "data/graphics/icons/icon162.bin"
 Icon163:        incbin "data/graphics/icons/icon163.bin"
-            if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
-              rept 30
-                incbin "data/graphics/icons/icon145.bin"
-              endr
-                incbin "data/graphics/icons/icon146.bin"    ; Jewel of Light
-                incbin "data/graphics/icons/icon147.bin"    ; Jewel of Evil
+Icon164:        incbin "data/graphics/icons/icon164.bin"
+Icon165:        incbin "data/graphics/icons/icon165.bin"
+Icon166:        incbin "data/graphics/icons/icon166.bin"
+Icon167:        incbin "data/graphics/icons/icon167.bin"
+Icon168:        incbin "data/graphics/icons/icon168.bin"
+Icon169:        incbin "data/graphics/icons/icon169.bin"
+Icon170:        incbin "data/graphics/icons/icon170.bin"
+                if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
+                    rept 30
+                        incbin "data/graphics/icons/icon145.bin"
+                    endr
+                    incbin "data/graphics/icons/icon146.bin"    ; Jewel of Light
+                    incbin "data/graphics/icons/icon147.bin"    ; Jewel of Evil
+										
             endif

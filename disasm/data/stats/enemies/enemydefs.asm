@@ -1084,13 +1084,13 @@ tbl_EnemyDefs:
                 moveType      FLYING
                 unknownWord   8192
                     
-                unknownByte 42          ; 42: EVIL CLOUD
+                unknownByte 42          ; 42: Belial
                 spellPower REGULAR
                 level    10
-                maxHp    22
-                maxMp    0
-                baseAtt  24
-                baseDef  18
+                maxHp    37
+                maxMp    18
+                baseAtt  34
+                baseDef  23
                 baseAgi  17
                 baseMov  5
                 baseResistance WIND_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS|STATUS_MINOR
@@ -1101,7 +1101,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    NOTHING, &
+                    KATON, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1976,7 +1976,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &                    
-                    MUDDLE|LV2, &
+                    BLAST|LV2, &
 					HEAL|LV3, &
                     NOTHING, &
                     NOTHING

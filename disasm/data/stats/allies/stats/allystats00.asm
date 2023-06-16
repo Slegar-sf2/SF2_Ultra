@@ -27,15 +27,15 @@ AllyStats00:
                 defGrowth 6, 38, LINEAR
                 agiGrowth 4, 32, EARLY
                 spellList &
-                    1, NEPTUN, &
+                    1, ICE, &
                     1, BOLT, &
-                    28, BOLT|LV2, &
-                    42, BOLT|LV3, &
-                    51, BOLT|LV4
+                    18, BOLT|LV2, &
+                    32, BOLT|LV3, &
+                    45, BOLT|LV4
                     
                 forClass  HERO
                 hpGrowth  42, 102, LINEAR
-                mpGrowth  14, 23, EARLY
+                mpGrowth  14, 25, EARLY
                 attGrowth 28, 57, LINEAR
                 defGrowth 25, 93, LINEAR
                 agiGrowth 24, 57, EARLYANDLATE

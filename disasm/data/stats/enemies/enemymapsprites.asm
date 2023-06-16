@@ -47,7 +47,7 @@ tbl_EnemyMapSprites:
                 mapSprite GIZMO         ; 39: GIZMO
                 mapSprite HUGE_BAT      ; 40: HUGE BAT
                 mapSprite VAMPIRE_BAT   ; 41: VAMPIRE BAT
-                mapSprite EVIL_CLOUD    ; 42: EVIL CLOUD
+                mapSprite BELIAL        ; 42: Belial
                 mapSprite GARGOYLE      ; 43: GARGOYLE
                 mapSprite HARPY         ; 44: HARPY
                 mapSprite LESSER_DEMON  ; 45: LESSER DEMON

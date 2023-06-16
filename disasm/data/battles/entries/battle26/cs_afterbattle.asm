@@ -99,5 +99,5 @@ abcs_battle26:  textCursor 2637
 ce_4BE4A:       mainEntity 19,16,UP
                 entity 17,14,DOWN,ALLY_PETER,eas_Init
                 entity 18,14,DOWN,ALLY_HIGINS,eas_Init
-                entity 63,63,UP,MAPSPRITE_EVIL_CLOUD,eas_Init
+                entity 63,63,UP,MAPSPRITE_BELIAL,eas_Init
                 dc.w $FFFF
