@@ -21,7 +21,8 @@ tbl_ShopInventories:
                               SHORT_AXE, &
                               WOODEN_ROD, &
                               SHORT_ROD, &
-                              SHORT_KNIFE
+                              SHORT_KNIFE, &
+							  HELMET
                 
                 ; Weapon shop 3
                 shopInventory SHORT_SWORD, &
@@ -32,7 +33,8 @@ tbl_ShopInventories:
                               HAND_AXE, &
                               WOODEN_ROD, &
                               SHORT_ROD, &
-                              SHORT_KNIFE
+                              SHORT_KNIFE, &
+							  HELMET
                 
                 ; Weapon shop 4
                 shopInventory SHORT_SWORD, &
@@ -45,7 +47,8 @@ tbl_ShopInventories:
                               SHORT_ROD, &
                               SHORT_KNIFE, &
                               DAGGER, &
-                              WOODEN_ARROW
+                              WOODEN_ARROW, &
+							  HELMET
                 
                 ; Weapon shop 5
                 shopInventory MIDDLE_SWORD, &
@@ -58,7 +61,8 @@ tbl_ShopInventories:
                               BRONZE_ROD, &
                               SHORT_KNIFE, &
                               DAGGER, &
-                              WOODEN_ARROW
+                              WOODEN_ARROW, &
+							  HELMET
                 
                 ; Weapon shop 6
                 shopInventory MIDDLE_SWORD, &
@@ -72,7 +76,8 @@ tbl_ShopInventories:
                               DAGGER, &
                               KNIFE, &
                               WOODEN_ARROW, &
-                              IRON_ARROW
+                              IRON_ARROW, &
+							  HELMET
                 
                 ; Weapon shop 7
                 shopInventory LONG_SWORD, &
@@ -86,7 +91,8 @@ tbl_ShopInventories:
                               KNIFE, &
                               THIEVES_DAGGER, &
                               IRON_ARROW, &
-                              STEEL_ARROW
+                              STEEL_ARROW, &
+							  HELMET
                 
                 ; Weapon shop 8
                 shopInventory BROAD_SWORD, &
@@ -94,7 +100,8 @@ tbl_ShopInventories:
                               POWER_SPEAR, &
                               ROBIN_ARROW, &
                               BATON, &
-                              LEATHER_GLOVE
+                              LEATHER_GLOVE, &
+							  HELMET
                 
                 ; Weapon shop 9
                 shopInventory BROAD_SWORD, &
@@ -106,7 +113,8 @@ tbl_ShopInventories:
                               BATON, &
                               GUARDIAN_STAFF, &
                               LEATHER_GLOVE, &
-                              POWER_GLOVE
+                              POWER_GLOVE, &
+							  HELMET
                 
                 ; Weapon shop 10
                 shopInventory BROAD_SWORD, &
@@ -118,7 +126,8 @@ tbl_ShopInventories:
                               ASSAULT_SHELL, &
                               GUARDIAN_STAFF, &
                               INDRA_STAFF, &
-                              POWER_GLOVE
+                              POWER_GLOVE, &
+							  HELMET
                 
                 ; Weapon shop 11
                 shopInventory BUSTER_SWORD, &
@@ -130,7 +139,8 @@ tbl_ShopInventories:
                               GREAT_SHOT, &
                               GUARDIAN_STAFF, &
                               INDRA_STAFF, &
-                              POWER_GLOVE
+                              POWER_GLOVE, &
+							  HELMET
                 
                 ; Weapon shop 12
                 shopInventory BUSTER_SWORD, &
@@ -144,7 +154,8 @@ tbl_ShopInventories:
                               GUARDIAN_STAFF, &
                               INDRA_STAFF, &
                               POWER_GLOVE, &
-                              BRASS_KNUCKLES
+                              BRASS_KNUCKLES, &
+							  HELMET
                 
                 ; Weapon shop 13
                 shopInventory BUSTER_SWORD, &
@@ -158,7 +169,8 @@ tbl_ShopInventories:
                               GUARDIAN_STAFF, &
                               INDRA_STAFF, &
                               BRASS_KNUCKLES, &
-                              IRON_KNUCKLES
+                              IRON_KNUCKLES, &
+							  HELMET
                 
                 ; Weapon shop 14
                 shopInventory BUSTER_SWORD, &
@@ -172,7 +184,7 @@ tbl_ShopInventories:
                               GUARDIAN_STAFF, &
                               INDRA_STAFF, &
                               BRASS_KNUCKLES, &
-                              IRON_KNUCKLES
+                              IRON_KNUCKLES							  
                 
                 ; Weapon shop 15
                 shopInventory BUSTER_SWORD, &

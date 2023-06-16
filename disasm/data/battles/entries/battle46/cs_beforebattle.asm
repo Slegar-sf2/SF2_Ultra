@@ -59,8 +59,8 @@ ce_4ABBE:
  				entity 8,7,UP,MAPSPRITE_ASTRAL,eas_Init
 				entity 9,8,UP,MAPSPRITE_MINISTER,eas_Init
 				entity 63,63,DOWN,MAPSPRITE_VAMPIRE_BAT,eas_Init
-				entity 63,63,DOWN,MAPSPRITE_HUGE_BAT,eas_Init
-				entity 63,63,DOWN,MAPSPRITE_HUGE_BAT,eas_Init
+				entity 63,63,DOWN,MAPSPRITE_INCUBUS,eas_Init
+				entity 63,63,DOWN,MAPSPRITE_INCUBUS,eas_Init
 				entity 5,7,LEFT,MAPSPRITE_SOLDIER1,eas_Init
 				entity 10,11,UP,MAPSPRITE_SOLDIER1,eas_Init
 				

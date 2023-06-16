@@ -118,7 +118,7 @@ BattleSpriteset40:
                 combatantBehavior FOLLOW_ENEMY|15, 0, NONE, 0, 0, STARTING
                 
                 enemyCombatant EVIL_BISHOP, 5, 23
-                combatantAiAndItem HEALER3, FAIRY_TEAR|USABLE_BY_AI|UNUSED_ITEM_DROP
+                combatantAiAndItem HEALER3, MANA|USABLE_BY_AI|UNUSED_ITEM_DROP
                 combatantBehavior FOLLOW_ENEMY|15, 0, NONE, 0, 0, STARTING
                 
                 enemyCombatant CYCLOPS, 24, 17

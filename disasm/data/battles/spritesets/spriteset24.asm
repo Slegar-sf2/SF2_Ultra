@@ -90,7 +90,7 @@ BattleSpriteset24:
                 combatantBehavior NONE, 15, NONE, 15, 0, STARTING
                 
                 enemyCombatant DARK_BISHOP, 18, 19
-                combatantAiAndItem HEALER3, BLIZZARD|USABLE_BY_AI|UNUSED_ITEM_DROP
+                combatantAiAndItem HEALER3, HELMET|USABLE_BY_AI|UNUSED_ITEM_DROP
                 combatantBehavior FOLLOW_ENEMY|6, 15, NONE, 15, 0, STARTING
                 
                 enemyCombatant SKELETON, 18, 20

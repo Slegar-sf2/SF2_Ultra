@@ -27,7 +27,7 @@ AllyStats00:
                 defGrowth 6, 38, LINEAR
                 agiGrowth 4, 32, EARLY
                 spellList &
-                    1, ICE, &
+                    1, BLAZE|LV2, &
                     1, BOLT, &
                     18, BOLT|LV2, &
                     32, BOLT|LV3, &

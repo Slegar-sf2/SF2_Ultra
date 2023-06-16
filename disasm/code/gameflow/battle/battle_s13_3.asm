@@ -11,7 +11,7 @@ BattleDebugFunction1B120A:
                 
                 moveq   #ITEM_ANGEL_WING,d1
                 jsr     j_AddItemToCaravan
-                moveq   #ITEM_FAIRY_TEAR,d1
+                moveq   #ITEM_MANA,d1
                 jsr     j_AddItemToCaravan
                 moveq   #4,d1
                 jsr     j_RemoveItemFromCaravan

@@ -556,7 +556,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     1
-                power      40
+                power      32
                 
                 entry      APOLLO       ; APOLLO 1
                 mpCost     10
@@ -567,7 +567,7 @@ tbl_SpellDefs:
                 power      23
                 
                 entry      APOLLO|LV2   ; APOLLO 2
-                mpCost     17
+                mpCost     19
                 animation  APOLLO|VARIATION2
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
@@ -612,7 +612,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 3
                 radius     1
-                power      73
+                power      55
                 
                 entry      POWDER       ; POWDER 1
                 mpCost     0

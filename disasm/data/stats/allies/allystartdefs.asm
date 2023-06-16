@@ -17,7 +17,7 @@ tbl_AllyStartDefs:
                 startLevel 1
                 startItems &
                     WOODEN_SWORD|EQUIPPED, &
-                    FAIRY_TEAR, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING
                 
@@ -42,7 +42,7 @@ tbl_AllyStartDefs:
                 startItems &
                     BATON|EQUIPPED, &
                     MEDICAL_HERB, &
-                    FAIRY_TEAR, &
+                    NOTHING, &
                     NOTHING
                 
                 startClass MAGE         ; 4: KAZIN

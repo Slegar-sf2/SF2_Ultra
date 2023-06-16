@@ -97,8 +97,9 @@ Upper two bits indicate spell level
 &H23, Bright Honey
 &H24, Brave Apple
 &H25, Shining Ball
-&H26, Blizzard
-&H66, Blizzard 2
+&H26, ICE
+&H66, ICE 2
+&HA6, ICE 3
 &H27, Holy Thunder
 &H2A, Right of Hope
 &H37, Freeze Game

@@ -86,7 +86,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt NECROMANCER, 1 ; 75: DEMON MASTER
                 enemyBattleSprAndPlt CLERIC, 0 ; 76: DARK CLERIC
                 enemyBattleSprAndPlt MONK, 0 ; 77: DEATH MONK
-                enemyBattleSprAndPlt MONK, 1 ; 78: BLACK MONK
+                enemyBattleSprAndPlt 85, 0 ; 78: BLACK MONK
                 enemyBattleSprAndPlt CLERIC, 1 ; 79: HIGH PRIEST
                 enemyBattleSprAndPlt BISHOP, 0 ; 80: EVIL BISHOP
                 enemyBattleSprAndPlt BISHOP, 1 ; 81: DARK BISHOP
@@ -108,6 +108,6 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt KING, 0 ; 97: GALAM
                 enemyBattleSprAndPlt ZEON, 0 ; 98: ZEON
                 enemyBattleSprAndPlt PEGASUS_KNIGHT, 1 ; 99: JAR
-                enemyBattleSprAndPlt MAGE, 1 ; 100: MASTER MAGE
+                enemyBattleSprAndPlt 83, 0 ; 100: Incubus
                 enemyBattleSprAndPlt NECROMANCER, 0 ; 101: NECROMANCER
                 enemyBattleSprAndPlt SHAMAN, 1 ; 102: BLUE SHAMAN

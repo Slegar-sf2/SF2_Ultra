@@ -102,7 +102,7 @@ tbl_ItemDefs:
                              NONE, 0, &
                              NONE, 0
                 
-                ; 7: Fairy Tear
+                ; 7: Mana
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
@@ -212,14 +212,14 @@ tbl_ItemDefs:
                              NONE, 0, &
                              NONE, 0
                 
-                ; 17: Blizzard
-                equipFlags   NONE
+                ; 17: Helmet
+                equipFlags   SDMN|HERO|PLDN|PGNT|GLDT|BRN|SNIP|BRGN|BDBT|WFBR|BWNT|PHNX|NINJ|MNST|RBT|GLM|RDBN
                 equipFlags2  NONE
-                range        0, 1
-                price        1200
-                itemType     RARE|CONSUMABLE
-                useSpell     ICE
-                equipEffects NONE, 0, &
+                range        0, 0
+                price        199
+                itemType     RING|BREAKABLE
+                useSpell     NOTHING
+                equipEffects INCREASE_DEF, 5, &
                              NONE, 0, &
                              NONE, 0
                 
@@ -976,8 +976,8 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        1, 1
                 price        130
-                itemType     WEAPON
-                useSpell     NOTHING
+                itemType     WEAPON|BREAKABLE
+                useSpell     BLAST
                 equipEffects INCREASE_ATT, 5, &
                              NONE, 0, &
                              NONE, 0
@@ -987,18 +987,18 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        1, 1
                 price        360
-                itemType     WEAPON
+                itemType     WEAPON|BREAKABLE
                 useSpell     FREEZE
                 equipEffects INCREASE_ATT, 8, &
                              NONE, 0, &
                              NONE, 0
                 
                 ; 88: Iron Rod
-                equipFlags   SORC
+                equipFlags   MAGE|PRST|WIZ|SORC|VICR
                 equipFlags2  NONE
                 range        1, 1
                 price        560
-                itemType     WEAPON
+                itemType     WEAPON|BREAKABLE
                 useSpell     MUDDLE|LV2 
                 equipEffects INCREASE_ATT, 12, &
                              NONE, 0, &
@@ -1009,8 +1009,8 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        1, 1
                 price        1050
-                itemType     WEAPON
-                useSpell     NOTHING
+                itemType     WEAPON|BREAKABLE
+                useSpell     FREEZE|LV2
                 equipEffects INCREASE_ATT, 15, &
                              NONE, 0, &
                              NONE, 0
@@ -1031,8 +1031,8 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        1, 1
                 price        2380
-                itemType     WEAPON
-                useSpell     BLAST
+                itemType     WEAPON|BREAKABLE
+                useSpell     BLAST|LV2
                 equipEffects INCREASE_ATT, 22, &
                              INCREASE_DEF, 5, &
                              NONE, 0
@@ -1075,8 +1075,8 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        1, 1
                 price        7900
-                itemType     WEAPON|RARE
-                useSpell     NOTHING
+                itemType     WEAPON|RARE|BREAKABLE
+                useSpell     BLAZE|LV3
                 equipEffects INCREASE_ATT, 28, &
                              NONE, 0, &
                              NONE, 0
@@ -1097,8 +1097,8 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        1, 1
                 price        9000
-                itemType     WEAPON|RARE
-                useSpell     NOTHING
+                itemType     WEAPON|RARE|BREAKABLE
+                useSpell     HEAl|LV3
                 equipEffects INCREASE_ATT, 29, &
                              UNDEFINED1, 3, &
                              NONE, 0
@@ -1130,8 +1130,8 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        1, 1
                 price        10000
-                itemType     WEAPON|RARE
-                useSpell     NOTHING
+                itemType     WEAPON|RARE|BREAKABLE
+                useSpell     ICE|LV2
                 equipEffects INCREASE_ATT, 39, &
                              UNDEFINED2, 2, &
                              NONE, 0

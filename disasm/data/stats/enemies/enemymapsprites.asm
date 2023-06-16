@@ -72,7 +72,7 @@ tbl_EnemyMapSprites:
                 mapSprite BOW_RIDER     ; 64: BOW RIDER
                 mapSprite DARK_GUNNER   ; 65: DARK GUNNER
                 mapSprite HORSEMAN      ; 66: HORSEMAN
-                mapSprite GALAM_DWARF    ; 67: GALAM DWARF
+                mapSprite GALAM_DWARF   ; 67: GALAM DWARF
                 mapSprite WITCH         ; 68: WITCH
                 mapSprite MASTER_MAGE   ; 69: MASTER MAGE
                 mapSprite DARK_MADAM    ; 70: DARK MADAM
@@ -105,12 +105,11 @@ tbl_EnemyMapSprites:
                 mapSprite GALAM_EVIL    ; 97: GALAM
                 mapSprite ZEON          ; 98: ZEON
                 mapSprite JARO_SPECIAL  ; 99: JAR
-                mapSprite MASTER_MAGE   ; 100: MASTER MAGE
+                mapSprite INCUBUS       ; 100: INCUBUS
                 mapSprite NECROMANCER   ; 101: NECROMANCER
                 mapSprite BLUE_SHAMAN   ; 102: BLUE SHAMAN
                 mapSprite FILLER7
-                mapSprite FILLER8
-                mapSprite FILLER9
+                mapSprite FILLER8                
                 mapSprite NPC_ROHDE
                 mapSprite FLAME1
                 mapSprite ORB

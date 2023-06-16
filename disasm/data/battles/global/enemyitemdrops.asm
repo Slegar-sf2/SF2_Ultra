@@ -55,7 +55,7 @@ tbl_EnemyItemDrops:
                 
                 battle      TO_NORTH_PARMECIA
                 enemyEntity 7
-                item        BLIZZARD
+                item        HELMET
                 droppedFlag 9
                 
                 battle      OUTSIDE_KETTO
@@ -95,7 +95,7 @@ tbl_EnemyItemDrops:
                 
                 battle      VERSUS_ODD_EYE
                 enemyEntity 14
-                item        FAIRY_TEAR
+                item        MANA
                 droppedFlag 17
                 
                 battle      OUTSIDE_ANCIENT_TOWER

@@ -188,7 +188,7 @@
 0187=Brave Apple (vase, Dojo)
 0188=Mithril (mountains, Desert Overworld)
 0189=Mithril (chest on outskirts, Dojo)
-0190=Blizzard (chest outdoors, Roft)
+0190=HELMET (chest outdoors, Roft)
 0191=Healing Drop (chest in interior, Roft)
 0192=Valkyrie (chest, Prism Flower battlefield)
 0193=White Ring (chest outdoors, Dwarven Village)

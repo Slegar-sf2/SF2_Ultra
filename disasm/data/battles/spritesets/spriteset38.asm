@@ -86,7 +86,7 @@ BattleSpriteset38:
                 combatantBehavior NONE, 15, NONE, 15, 0, STARTING
                 
                 enemyCombatant EVIL_BISHOP, 15, 20
-                combatantAiAndItem HEALER4, FAIRY_TEAR|USABLE_BY_AI
+                combatantAiAndItem HEALER4, MANA|USABLE_BY_AI
                 combatantBehavior FOLLOW_ENEMY|5, 15, FOLLOW_ENEMY|0, 15, 0, STARTING
                 
                 enemyCombatant HELL_HOUND, 19, 14

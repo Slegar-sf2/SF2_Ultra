@@ -62,7 +62,7 @@ tbl_EnemyDefs:
                 unknownByte 1           ; 1: HUGE RAT
                 spellPower REGULAR
                 level    0
-                maxHp    0
+                maxHp    10
                 maxMp    0
                 baseAtt  12
                 baseDef  9
@@ -114,7 +114,7 @@ tbl_EnemyDefs:
                 level    3
                 maxHp    20
                 maxMp    0
-                baseAtt  17
+                baseAtt  15
                 baseDef  16
                 baseAgi  12
                 baseMov  7
@@ -1091,10 +1091,10 @@ tbl_EnemyDefs:
                 maxMp    18
                 baseAtt  34
                 baseDef  23
-                baseAgi  17
+                baseAgi  23
                 baseMov  5
-                baseResistance WIND_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS|STATUS_MINOR
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
+                baseResistance WIND_WEAKNESS|LIGHTNING_WEAKNESS|ICE_WEAKNESS|FIRE_MAJOR|STATUS_MINOR
+                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     NOTHING, &
                     NOTHING, &
@@ -1439,12 +1439,12 @@ tbl_EnemyDefs:
                 level    3
                 maxHp    15
                 maxMp    0
-                baseAtt  13
-                baseDef  7
+                baseAtt  15
+                baseDef  5
                 baseAgi  10
                 baseMov  6
                 baseResistance NONE
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
+                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN8|COUNTER_1IN8
                 items &
                     WOODEN_ARROW|EQUIPPED, &
                     NOTHING, &
@@ -1487,7 +1487,7 @@ tbl_EnemyDefs:
                 unknownByte 58          ; 58: DEATH ARCHER
                 spellPower REGULAR
                 level    10
-                maxHp    50
+                maxHp    45
                 maxMp    0
                 baseAtt  29
                 baseDef  22
@@ -1762,21 +1762,21 @@ tbl_EnemyDefs:
                 unknownByte 69          ; 69: MASTER MAGE
                 spellPower REGULAR
                 level    14
-                maxHp    28
-                maxMp    14
-                baseAtt  11
-                baseDef  18
+                maxHp    57
+                maxMp    35
+                baseAtt  4
+                baseDef  20
                 baseAgi  22
                 baseMov  5
-                baseResistance FIRE_MINOR
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MINOR|FIRE_MAJOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
-                    IRON_ROD|EQUIPPED, &
+                    MAGE_STAFF|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    BLAZE|LV2, &
+                    BOLT, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1937,8 +1937,8 @@ tbl_EnemyDefs:
                 unknownByte 76          ; 76: DARK CLERIC
                 spellPower REGULAR
                 level    3
-                maxHp    15
-                maxMp    7
+                maxHp    26
+                maxMp    10
                 baseAtt  11
                 baseDef  11
                 baseAgi  13
@@ -1969,7 +1969,7 @@ tbl_EnemyDefs:
                 baseAgi  30
                 baseMov  6
                 baseResistance NONE
-                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN16|COUNTER_1IN8
+                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN8
                 items &
                     IRON_ROD|EQUIPPED, &
                     NOTHING, &
@@ -1987,22 +1987,22 @@ tbl_EnemyDefs:
                 unknownByte 78          ; 78: BLACK MONK
                 spellPower REGULAR
                 level    14
-                maxHp    30
-                maxMp    19
-                baseAtt  27
+                maxHp    54
+                maxMp    28
+                baseAtt  7
                 baseDef  18
                 baseAgi  21
                 baseMov  6
-                baseResistance NONE
-                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN16|COUNTER_1IN16
+                baseResistance LIGHTNING_MINOR
+                baseProwess    CRITICAL_SLOW|DOUBLE_1IN16|COUNTER_1IN16
                 items &
-                    NOTHING, &
+                    POWER_STICK|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    HEAL|LV2, &
-                    BLAST, &
+                    HEAL|LV3, &
+                    BLAST|LV2, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
@@ -2534,19 +2534,19 @@ tbl_EnemyDefs:
                 moveType      FLYING
                 unknownWord   8192
                     
-                unknownByte 0           ; 100: MASTER MAGE
+                unknownByte 0           ; 100: INCUBUS
                 spellPower REGULAR
-                level    14
-                maxHp    28
+                level    4
+                maxHp    23
                 maxMp    14
-                baseAtt  11
+                baseAtt  17
                 baseDef  18
                 baseAgi  22
                 baseMov  5
                 baseResistance FIRE_MINOR
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
+                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN32|COUNTER_1IN32
                 items &
-                    POWER_STICK|EQUIPPED, &
+                    MIDDLE_SWORD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2556,7 +2556,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
-                moveType      MAGE
+                moveType      FLYING
                 unknownWord   8192
                     
                 unknownByte 0           ; 101: NECROMANCER
