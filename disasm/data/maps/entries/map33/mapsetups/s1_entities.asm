@@ -4,8 +4,6 @@
 ms_map33_Entities:
                 msFixedEntity 63, 63, UP, MAPSPRITE_WORKER, eas_Init
                 msFixedEntity 63, 63, LEFT, MAPSPRITE_CREED, eas_Init
-                msFixedEntity 63, 63, DOWN, ALLY_ERIC, eas_Init
-                msFixedEntity 63, 63, UP, ALLY_RUCE, eas_Init
-                msFixedEntity 63, 63, DOWN, ALLY_TYRIN, eas_Init
+                msFixedEntity 63, 63, DOWN, ALLY_ERIC, eas_Init                
                 msFixedEntity 63, 63, UP, ALLY_KARNA, eas_Init
                 msEntitiesEnd

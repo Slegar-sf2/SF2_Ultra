@@ -34,7 +34,7 @@
             if (STANDARD_BUILD=1)
                 include "code\common\scripting\entity\getentityportaitandspeechsfx-standard.asm"
                 include "data\stats\allies\allydialogproperties-standard.asm"
-                include "data\spritedialogproperties-standard.asm"
+                include "data\spritedialogproperties-expanded.asm"
             else
                 include "code\common\scripting\entity\getentityportaitandspeechsfx.asm"    ; Get entity portrait and speech sfx indexes function
                 include "data\spritedialogproperties.asm"    ; Sprite dialog properties

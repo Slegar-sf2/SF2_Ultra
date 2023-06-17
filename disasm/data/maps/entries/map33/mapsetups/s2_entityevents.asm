@@ -5,10 +5,8 @@ ms_map33_EntityEvents:
                 msEntityEvent 128, DOWN, Map33_EntityEvent0-ms_map33_EntityEvents
                 msEntityEvent 129, UP, Map33_EntityEvent1-ms_map33_EntityEvents
                 msEntityEvent 130, UP, Map33_EntityEvent2-ms_map33_EntityEvents
-                msEntityEvent 14, UP, Map33_EntityEvent3-ms_map33_EntityEvents
-                msEntityEvent 16, UP, Map33_EntityEvent4-ms_map33_EntityEvents
-                msEntityEvent 17, UP, Map33_EntityEvent5-ms_map33_EntityEvents
-                msEntityEvent 15, UP, Map33_EntityEvent6-ms_map33_EntityEvents
+                msEntityEvent 14, UP, Map33_EntityEvent3-ms_map33_EntityEvents                
+                msEntityEvent 15, UP, Map33_EntityEvent4-ms_map33_EntityEvents
                 msDefaultEntityEvent Map33_DefaultEntityEvent-ms_map33_EntityEvents
 
 ; =============== S U B R O U T I N E =======================================
@@ -155,61 +153,8 @@ return_5A862:
 ; =============== S U B R O U T I N E =======================================
 
 
+
 Map33_EntityEvent4:
-                
-                 
-                chkFlg  22              ; Frayja joined
-                bne.s   byte_5A87E
-                chkFlg  787             ; Set after one of Creed's Mansion Force Members joins
-                bne.s   byte_5A878      
-                script  cs_5A93A
-                dc.w $6004
-byte_5A878:
-                
-                txt     1912            ; "Tut!  OK, I have a{N}comfortable life here.{W1}"
-                bra.s   return_5A884
-byte_5A87E:
-                
-                script  cs_5A97E
-return_5A884:
-                
-                rts
-
-    ; End of function Map33_EntityEvent4
-
-
-; =============== S U B R O U T I N E =======================================
-
-
-Map33_EntityEvent5:
-                
-                 
-                chkFlg  22              ; Frayja joined
-                bne.s   byte_5A8A0
-                chkFlg  787             ; Set after one of Creed's Mansion Force Members joins
-                bne.s   byte_5A89A      
-                script  cs_5A9AA
-                bra.s   loc_5A89E
-byte_5A89A:
-                
-                txt     1915            ; "My magic could've been a{N}great help to you.{W1}"
-loc_5A89E:
-                
-                bra.s   return_5A8A6
-byte_5A8A0:
-                
-                script  cs_5A9EE
-return_5A8A6:
-                
-                rts
-
-    ; End of function Map33_EntityEvent5
-
-
-; =============== S U B R O U T I N E =======================================
-
-
-Map33_EntityEvent6:
                 
                  
                 chkFlg  22              ; Frayja joined
@@ -242,8 +187,7 @@ cs_5A8CA:       textCursor 1907
                 csc_end
 cs_5A8E6:       join ALLY_ERIC
                 setF 787                ; Set after one of Creed's Mansion Force Members joins
-                setActscript ALLY_RUCE,eas_TwirlShrinkDisappear
-                setActscript ALLY_TYRIN,eas_TwirlShrinkDisappear
+                
                 setActscriptWait ALLY_KARNA,eas_TwirlShrinkDisappear
                 addNewFollower ALLY_ERIC
                 csc_end
@@ -258,56 +202,7 @@ cs_5A92A:       join ALLY_ERIC
                 setF 787                ; Set after one of Creed's Mansion Force Members joins
                 addNewFollower ALLY_ERIC
                 csc_end
-cs_5A93A:       textCursor 1910
-                nextText $0,ALLY_RUCE ; "Hee, hee...I'm not only a{N}dwarf, I'm {NAME;16}.{W2}"
-                nextText $0,ALLY_RUCE ; "I'm known as the strongest{N}warrior of my people.{W1}"
-                yesNo
-                jumpIfFlagSet 89,cs_5A956 ; YES/NO prompt answer
-                nextSingleText $0,ALLY_RUCE ; "Tut!  OK, I have a{N}comfortable life here.{W1}"
-                csc_end
-cs_5A956:       join ALLY_RUCE
-                setF 787                ; Set after one of Creed's Mansion Force Members joins
-                setActscript ALLY_ERIC,eas_TwirlShrinkDisappear
-                setActscript ALLY_TYRIN,eas_TwirlShrinkDisappear
-                setActscriptWait ALLY_KARNA,eas_TwirlShrinkDisappear
-                addNewFollower ALLY_RUCE
-                csc_end
-cs_5A97E:       textCursor 1923
-                nextText $0,ALLY_RUCE ; "I was surprised to find I{N}had returned to my original{N}size!{W2}"
-                nextText $0,ALLY_RUCE ; "What should I do now?{N}I can go anywhere...{N}maybe...with you?{W1}"
-                yesNo
-                jumpIfFlagSet 89,cs_5A99A ; YES/NO prompt answer
-                nextSingleText $0,ALLY_RUCE ; "Fine!  I'll stay in this{N}mansion then.{W1}"
-                csc_end
-cs_5A99A:       join ALLY_RUCE
-                setF 787                ; Set after one of Creed's Mansion Force Members joins
-                addNewFollower ALLY_RUCE
-                csc_end
-cs_5A9AA:       textCursor 1913
-                nextText $0,ALLY_TYRIN  ; "I'm {NAME;17}, a mage.{N}I studied magic in Ponpei.{W2}"
-                nextText $0,ALLY_TYRIN  ; "I'll miss my friends, but if{N}I can be of help, I'll go{N}with you!{W1}"
-                yesNo
-                jumpIfFlagSet 89,cs_5A9C6 ; YES/NO prompt answer
-                nextSingleText $0,ALLY_TYRIN ; "My magic could've been a{N}great help to you.{W1}"
-                csc_end
-cs_5A9C6:       join ALLY_TYRIN
-                setF 787                ; Set after one of Creed's Mansion Force Members joins
-                setActscript ALLY_ERIC,eas_TwirlShrinkDisappear
-                setActscript ALLY_RUCE,eas_TwirlShrinkDisappear
-                setActscriptWait ALLY_KARNA,eas_TwirlShrinkDisappear
-                addNewFollower ALLY_TYRIN
-                csc_end
-cs_5A9EE:       textCursor 1926
-                nextText $0,ALLY_TYRIN  ; "I'm not sure why, but I'm{N}free.{W2}"
-                nextText $0,ALLY_TYRIN  ; "Can I join your force?{W1}"
-                yesNo
-                jumpIfFlagSet 89,cs_5AA0A ; YES/NO prompt answer
-                nextSingleText $0,ALLY_TYRIN ; "You may regret refusing me.{W1}"
-                csc_end
-cs_5AA0A:       join ALLY_TYRIN
-                setF 787                ; Set after one of Creed's Mansion Force Members joins
-                addNewFollower ALLY_TYRIN
-                csc_end
+
 cs_5AA1A:       textCursor 1916
                 nextText $0,ALLY_KARNA  ; "I'm {NAME;15}, a priest.{N}I think I'm rather young{N}for my profession....{W2}"
                 nextText $0,ALLY_KARNA  ; "I don't want to stay in this{N}awful place forever.{N}Choose me!{W1}"
@@ -317,9 +212,7 @@ cs_5AA1A:       textCursor 1916
                 csc_end
 cs_5AA36:       join ALLY_KARNA
                 setF 787                ; Set after one of Creed's Mansion Force Members joins
-                setActscript ALLY_ERIC,eas_TwirlShrinkDisappear
-                setActscript ALLY_RUCE,eas_TwirlShrinkDisappear
-                setActscriptWait ALLY_TYRIN,eas_TwirlShrinkDisappear
+                setActscript ALLY_ERIC,eas_TwirlShrinkDisappear                
                 addNewFollower ALLY_KARNA
                 csc_end
 cs_5AA5E:       textCursor 1929

@@ -89,7 +89,7 @@ tbl_EnemyDefs:
                 level    2
                 maxHp    18
                 maxMp    0
-                baseAtt  12
+                baseAtt  10
                 baseDef  12
                 baseAgi  8
                 baseMov  5
@@ -114,7 +114,7 @@ tbl_EnemyDefs:
                 level    3
                 maxHp    20
                 maxMp    0
-                baseAtt  15
+                baseAtt  13
                 baseDef  16
                 baseAgi  12
                 baseMov  7
@@ -1439,8 +1439,8 @@ tbl_EnemyDefs:
                 level    3
                 maxHp    15
                 maxMp    0
-                baseAtt  15
-                baseDef  5
+                baseAtt  13
+                baseDef  6
                 baseAgi  10
                 baseMov  6
                 baseResistance NONE
@@ -1712,9 +1712,9 @@ tbl_EnemyDefs:
                 unknownByte 67          ; 67: GALAM DWARF
                 spellPower REGULAR
                 level    3
-                maxHp    13
+                maxHp    16
                 maxMp    0
-                baseAtt  14
+                baseAtt  12
                 baseDef  15
                 baseAgi  12
                 baseMov  4
@@ -1740,7 +1740,7 @@ tbl_EnemyDefs:
                 maxHp    35
                 maxMp    12
                 baseAtt  9
-                baseDef  17
+                baseDef  13
                 baseAgi  15
                 baseMov  5
                 baseResistance ICE_MINOR
@@ -2538,8 +2538,8 @@ tbl_EnemyDefs:
                 spellPower REGULAR
                 level    5
                 maxHp    23
-                maxMp    16
-                baseAtt  17
+                maxMp    14
+                baseAtt  16
                 baseDef  18
                 baseAgi  22
                 baseMov  5

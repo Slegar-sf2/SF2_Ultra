@@ -92,7 +92,7 @@ tbl_AllyMapSprites:
 ; 16: RUCE
                 mapSprite RUCE_BASE
                 mapSprite RUCE_PROMO
-                mapSprite RUCE_SPECIAL
+                mapSprite DEFAULT
                 
 ; 17: Tyrin
                 mapSprite TYRIN_BASE
