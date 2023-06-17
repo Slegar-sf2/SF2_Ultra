@@ -262,14 +262,14 @@ tbl_EnemyDefs:
                 unknownByte 9           ; 9: GOLEM
                 spellPower REGULAR
                 level    12
-                maxHp    24
+                maxHp    28
                 maxMp    0
-                baseAtt  28
-                baseDef  24
+                baseAtt  40
+                baseDef  30
                 baseAgi  19
                 baseMov  4
-                baseResistance LIGHTNING_MINOR|ICE_MAJOR|FIRE_WEAKNESS|STATUS_IMMUNITY
-                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN32
+                baseResistance WIND_MAJOR|LIGHTNING_MINOR|ICE_WEAKNESS|STATUS_IMMUNITY
+                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN4
                 items &
                     NOTHING, &
                     NOTHING, &
