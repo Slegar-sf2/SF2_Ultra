@@ -91,7 +91,7 @@ tbl_EnemyMapSprites:
                 mapSprite SHAMAN        ; 83: SHAMAN
                 mapSprite EVIL_BISHOP   ; 84: EVIL BISHOP
                 mapSprite BLUE_SHAMAN   ; 85: BLUE SHAMAN
-                mapSprite DARK_SMOKE    ; 86: DARK SMOKE
+                mapSprite SCAVENGER     ; 86: SCAVENGER
                 mapSprite KRAKEN        ; 87: KRAKEN HEAD
                 mapSprite TAROS         ; 88: TAROS
                 mapSprite KING          ; 89: KING

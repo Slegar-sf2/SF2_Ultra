@@ -94,7 +94,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt SHAMAN, 0 ; 83: SHAMAN
                 enemyBattleSprAndPlt BISHOP, 2 ; 84: EVIL BISHOP
                 enemyBattleSprAndPlt SHAMAN, 1 ; 85: BLUE SHAMAN
-                enemyBattleSprAndPlt GIZMO, 0 ; 86: DARK SMOKE
+                enemyBattleSprAndPlt 55, 0 ; 86: Scavenger
                 enemyBattleSprAndPlt KRAKEN_HEAD, 0 ; 87: KRAKEN HEAD
                 enemyBattleSprAndPlt TAROS, 0 ; 88: TAROS
                 enemyBattleSprAndPlt KING, 1 ; 89: KING

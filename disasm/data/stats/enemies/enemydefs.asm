@@ -162,7 +162,7 @@ tbl_EnemyDefs:
                 unknownByte 5           ; 5: Charmeleon
                 spellPower REGULAR
                 level    6
-                maxHp    22
+                maxHp    24
                 maxMp    27
                 baseAtt  24
                 baseDef  20
@@ -2184,29 +2184,29 @@ tbl_EnemyDefs:
                 moveType      HEALER
                 unknownWord   12288
                     
-                unknownByte 0           ; 86: DARK SMOKE
+                unknownByte 0           ; 86: SCAVENGER
                 spellPower REGULAR
-                level    7
-                maxHp    18
-                maxMp    20
+                level    6
+                maxHp    22
+                maxMp    0
                 baseAtt  18
-                baseDef  13
+                baseDef  14
                 baseAgi  141
-                baseMov  6
+                baseMov  5
                 baseResistance WIND_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS|STATUS_MAJOR
                 baseProwess    CRITICAL_SILENCE|DOUBLE_1IN16|COUNTER_1IN16
                 items &
-                    NOTHING, &
+                    MIDDLE_SWORD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    DISPEL, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
-                moveType      HOVERING
+                moveType      REGULAR
                 unknownWord   0
                     
                 unknownByte 0           ; 87: KRAKEN HEAD
@@ -2271,7 +2271,7 @@ tbl_EnemyDefs:
                 baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN16
                 items &
-                    BATON|EQUIPPED, &
+                    FREEZE_STAFF|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2501,7 +2501,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    DEMON|LV2, &
+                    DEMON|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

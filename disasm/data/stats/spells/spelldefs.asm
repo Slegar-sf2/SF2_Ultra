@@ -423,7 +423,7 @@ tbl_SpellDefs:
                 power      35
                 
                 entry      DEMON        ; DEMON 1
-                mpCost     0
+                mpCost     14
                 animation  DEMON_BREATH
                 properties TYPE_ATTACK
                 range      1, 2
@@ -431,13 +431,21 @@ tbl_SpellDefs:
                 power      34
                 
                 entry      DEMON|LV2    ; DEMON 2
-                mpCost     0
+                mpCost     19
                 animation  DEMON_BREATH|VARIATION2
                 properties TYPE_ATTACK
                 range      1, 3
                 radius     2
                 power      38
                 
+				entry      DEMON|LV3    ; DEMON 3
+                mpCost     26
+                animation  DEMON_BREATH|VARIATION2
+                properties TYPE_ATTACK
+                range      1, 4
+                radius     3
+                power      46
+				
                 entry      POWER        ; POWER 1
                 mpCost     0
                 animation  NONE
