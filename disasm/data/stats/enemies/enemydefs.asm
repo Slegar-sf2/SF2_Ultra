@@ -1063,7 +1063,7 @@ tbl_EnemyDefs:
                 spellPower REGULAR
                 level    7
                 maxHp    30
-                maxMp    12
+                maxMp    8
                 baseAtt  27
                 baseDef  17
                 baseAgi  16
@@ -2536,9 +2536,9 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 100: INCUBUS
                 spellPower REGULAR
-                level    4
+                level    5
                 maxHp    23
-                maxMp    14
+                maxMp    16
                 baseAtt  17
                 baseDef  18
                 baseAgi  22

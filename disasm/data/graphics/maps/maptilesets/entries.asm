@@ -157,7 +157,7 @@ pt_MapTilesets: dc.l MapTileset000
 				dc.l MapTileset153
 				dc.l MapTileset154
 				dc.l MapTileset155
-				;dc.l MapTileset156
+				dc.l MapTileset156
 MapTileset000:  incbin "data/graphics/maps/maptilesets/maptileset000.bin"
 MapTileset001:  incbin "data/graphics/maps/maptilesets/maptileset001.bin"
 MapTileset002:  incbin "data/graphics/maps/maptilesets/maptileset002.bin"
@@ -314,4 +314,5 @@ MapTileset152:  incbin "data/graphics/maps/maptilesets/maptileset152.bin"
 MapTileset153:  incbin "data/graphics/maps/maptilesets/maptileset153.bin"
 MapTileset154:  incbin "data/graphics/maps/maptilesets/maptileset154.bin"
 MapTileset155:  incbin "data/graphics/maps/maptilesets/maptileset155.bin"
+MapTileset156:  incbin "data/graphics/maps/maptilesets/maptileset156.bin"
 
