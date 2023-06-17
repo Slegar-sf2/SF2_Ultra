@@ -1494,7 +1494,7 @@ tbl_EnemyDefs:
                 baseAgi  20
                 baseMov  5
                 baseResistance NONE
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
+                baseProwess    CRITICAL_POISON|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     IRON_ARROW|EQUIPPED, &
                     NOTHING, &
@@ -2559,24 +2559,24 @@ tbl_EnemyDefs:
                 moveType      FLYING
                 unknownWord   8192
                     
-                unknownByte 0           ; 101: NECROMANCER
-                spellPower ENHANCED
-                level    30
-                maxHp    47
-                maxMp    42
-                baseAtt  45
-                baseDef  44
-                baseAgi  51
-                baseMov  6
-                baseResistance LIGHTNING_MINOR|STATUS_IMMUNITY
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN16
+                unknownByte 0           ; 101: MAGE
+                spellPower REGULAR
+                level    13
+                maxHp    52
+                maxMp    28
+                baseAtt  4
+                baseDef  18
+                baseAgi  32
+                baseMov  5
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR
+                baseProwess    CRITICAL_SLEEP|DOUBLE_1IN32|COUNTER_1IN4
                 items &
                     MAGE_STAFF|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    FREEZE|LV3, &
+                    RAIJIN, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

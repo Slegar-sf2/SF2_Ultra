@@ -66,7 +66,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt DEMON, 0 ; 55: ARCH DEMON
                 enemyBattleSprAndPlt ARCHER, 0 ; 56: GALAM ARCHER
                 enemyBattleSprAndPlt HUNTER_GOBLIN, 0 ; 57: HUNTER GOBLIN
-                enemyBattleSprAndPlt ARCHER, 1 ; 58: DEATH ARCHER
+                enemyBattleSprAndPlt 101, 0   ; 58: DEATH ARCHER
                 enemyBattleSprAndPlt KRAKEN_ARM, 0 ; 59: KRAKEN ARM
                 enemyBattleSprAndPlt ARROW_LAUNCHER, 0 ; 60: ARROW LAUNCHER
                 enemyBattleSprAndPlt ARROW_LAUNCHER, 1 ; 61: ROOK
@@ -109,5 +109,5 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt ZEON, 0 ; 98: ZEON
                 enemyBattleSprAndPlt PEGASUS_KNIGHT, 1 ; 99: JAR
                 enemyBattleSprAndPlt 83, 0 ; 100: Incubus
-                enemyBattleSprAndPlt NECROMANCER, 0 ; 101: NECROMANCER
+                enemyBattleSprAndPlt 86, 0 ; 101:MAGE
                 enemyBattleSprAndPlt SHAMAN, 1 ; 102: BLUE SHAMAN

@@ -106,10 +106,10 @@ tbl_EnemyMapSprites:
                 mapSprite ZEON          ; 98: ZEON
                 mapSprite JARO_SPECIAL  ; 99: JAR
                 mapSprite INCUBUS       ; 100: INCUBUS
-                mapSprite NECROMANCER   ; 101: NECROMANCER
+                mapSprite MAGE          ; 101: MAGE
                 mapSprite BLUE_SHAMAN   ; 102: BLUE SHAMAN
-                mapSprite FILLER7
-                mapSprite FILLER8                
+                mapSprite FILLER6
+                mapSprite FILLER7                
                 mapSprite NPC_ROHDE
                 mapSprite FLAME1
                 mapSprite ORB

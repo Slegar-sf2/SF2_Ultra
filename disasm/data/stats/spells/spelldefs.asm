@@ -580,7 +580,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     3
-                power      34
+                power      60
                 
                 entry      APOLLO       ; APOLLO 1
                 mpCost     10
@@ -628,7 +628,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     1
-                power      42
+                power      46
 				
                 entry      ATLAS        ; ATLAS 1
                 mpCost     8
