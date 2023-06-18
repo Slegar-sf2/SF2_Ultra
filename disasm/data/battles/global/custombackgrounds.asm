@@ -55,4 +55,5 @@ tbl_CustomBackgrounds:
 				background TOWN          ; 45: Battle
                 background 32            ; 46: Battle
                 background OVERWORLD     ; 47: Battle
+				background 35            ; 48: Battle
                 

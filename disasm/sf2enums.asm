@@ -1866,6 +1866,7 @@ BATTLE_FAIRY_WOODS: equ $2C
 BATTLE_YEEL_VILLAGE: equ $2D
 BATTLE_46: equ $2E
 BATTLE_47: equ $2F
+BATTLE_48: equ $30
 NOT_CURRENTLY_IN_BATTLE: equ $FF
 
 ; ---------------------------------------------------------------------------
