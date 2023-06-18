@@ -45,4 +45,9 @@
                   warpMap    255
                   warpDest   27, 14
                   warpFacing LEFT
+                mWarp 255, 42
+                  warpNoScroll
+                  warpMap    87
+                  warpDest   16, 24
+                  warpFacing UP
                 endWord
