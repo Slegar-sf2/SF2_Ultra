@@ -2,9 +2,9 @@
 ; 0 = OFF, 1 = ON
 
 ; Debugging facilitations
-EASY_DEBUG_MODE:                    equ 1       ; Activate Debug Mode automatically when booting up the game.
-EASY_BATTLE_TEST:                   equ 1       ; If Debug Mode is activated, go to Battle Test instead of playing the intro cutscene.
-EASY_CONFIGURATION_MODE:            equ 1      ; Activate Configuration Mode automatically, and skip checking if the Start button is pressed.
+EASY_DEBUG_MODE:                    equ 0       ; Activate Debug Mode automatically when booting up the game.
+EASY_BATTLE_TEST:                   equ 0       ; If Debug Mode is activated, go to Battle Test instead of playing the intro cutscene.
+EASY_CONFIGURATION_MODE:            equ 0      ; Activate Configuration Mode automatically, and skip checking if the Start button is pressed.
 
 ; Fixes
 FIX_SEARCH_IN_BATTLE:               equ 1       ; Restore the ability to search chests during battle.
@@ -41,7 +41,7 @@ MINIATURES_SHOP:                    equ 0       ; Place a shopworker on the desk
 AGILITY_AFFECTS_CHANCE_TO_DODGE:    equ 0       ; Adjust chance to dodge proportionally to the difference between the attacker's and the target's current AGI.
 BOWIE_CAN_DIE:                      equ 0       ; Bowie's death does not cause defeat.
 BOWIE_CAN_LEAVE_BATTLE_PARTY:       equ 0       ; Player is required to leave at least one member in the party. Message #20 should be edited to reflect this new rule.
-DIAGONAL_LASERS:                    equ 0       ; Allows laser based enemies to fire in 8 directions (Up, Up-Left, Left, Down-Left, etc).
+DIAGONAL_LASERS:                    equ 1       ; Allows laser based enemies to fire in 8 directions (Up, Up-Left, Left, Down-Left, etc).
 EXPANDED_RANGES:                    equ 1       ; Weapons/spells can have ranges up to 7 and spell radii up to 4.
 PERCENT_POISON_DAMAGE:              equ 30       ; 1-100 = n% of max HP
 PLAYER_DEFEAT_IS_GAME_OVER:         equ 0       ; On player defeat, rather than halve the gold and return to town, reset the game.
@@ -55,8 +55,8 @@ PER_LEVEL_CHURCH_COST:              equ 0       ; Raise/Cure cost based on ally 
 ADDITIONAL_EQUIPEFFECTS:            equ 0       ; Add new equipeffects to offer more options (Set ATT, Increase Resistance, Decrease Double...)
 
 ; AI enhancements
-HEALER_AI_ENHANCEMENTS:             equ 0       ; See SF2_AI_Healing_Rewrite.txt for more details.
-SUPPORT_AI_ENHANCEMENTS:            equ 0       ; Increase support spell options enemies can use.
+HEALER_AI_ENHANCEMENTS:             equ 1       ; See SF2_AI_Healing_Rewrite.txt for more details.
+SUPPORT_AI_ENHANCEMENTS:            equ 1       ; Increase support spell options enemies can use.
 
 ; Menu enhancements
 THREE_DIGITS_STATS:                 equ 1       ; 

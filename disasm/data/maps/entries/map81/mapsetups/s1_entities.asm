@@ -15,4 +15,5 @@ ms_map81_Entities:
 				msWalkingEntity 37, 4, DOWN, MAPSPRITE_WOMAN1,37,4,1
 				msFixedEntity 36, 20, UP, MAPSPRITE_SOLDIER1, eas_InitSlow
 				msWalkingEntity 33, 17, DOWN, MAPSPRITE_MAN2, 33, 17, 2
+				msFixedEntity 15, 5, LEFT, ALLY_RUCE, eas_Init
                 msEntitiesEnd

@@ -15,6 +15,7 @@ ms_map81_EntityEvents:
 				msEntityEvent 138, DOWN, Map81_EntityEvent11-ms_map81_EntityEvents
 				msEntityEvent 139, DOWN, Map81_EntityEvent12-ms_map81_EntityEvents
 				msEntityEvent 140, UP, Map81_EntityEvent13-ms_map81_EntityEvents
+				msEntityEvent 16,  DOWN, Map81_EntityEvent14-ms_map81_EntityEvents
                 msDefaultEntityEvent Map81_DefaultEntityEvent-ms_map81_EntityEvents
 				
 ; =============== S U B R O U T I N E =======================================
@@ -147,9 +148,19 @@ Map81_EntityEvent13:
 
 
 ; =============== S U B R O U T I N E =======================================
+
+Map81_EntityEvent14:
+                      
+				chkFlg  16               ; Ruce joined
+				script byte_RUCE1
+                
+
+    ; End of function Map81_EntityEvent14
+
+
+; =============== S U B R O U T I N E =======================================
+
 Map81_DefaultEntityEvent:
-                move.b  #$F,((CURRENT_SHOP_INDEX-$1000000)).w
-                jsr     j_ShopMenuActions
                 
                 rts
 				

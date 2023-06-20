@@ -496,7 +496,7 @@ tbl_SpellDefs:
                 
                 entry      LASER        ; LASER 1
                 mpCost     0
-                animation  21
+                animation  PRISM_LASER
                 properties TYPE_ATTACK
                 range      0, 0
                 radius     3

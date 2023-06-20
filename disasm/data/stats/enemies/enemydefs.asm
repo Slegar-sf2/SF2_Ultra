@@ -2366,7 +2366,7 @@ tbl_EnemyDefs:
                 maxMp    0
                 baseAtt  16
                 baseDef  55
-                baseAgi  44
+                baseAgi  84
                 baseMov  0
                 baseResistance ICE_MAJOR|FIRE_WEAKNESS|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
@@ -2376,7 +2376,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    LASER, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
