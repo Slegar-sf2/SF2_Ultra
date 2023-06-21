@@ -2,9 +2,9 @@
 ; 0 = OFF, 1 = ON
 
 ; Debugging facilitations
-EASY_DEBUG_MODE:                    equ 0       ; Activate Debug Mode automatically when booting up the game.
-EASY_BATTLE_TEST:                   equ 0       ; If Debug Mode is activated, go to Battle Test instead of playing the intro cutscene.
-EASY_CONFIGURATION_MODE:            equ 0      ; Activate Configuration Mode automatically, and skip checking if the Start button is pressed.
+EASY_DEBUG_MODE:                    equ 1       ; Activate Debug Mode automatically when booting up the game.
+EASY_BATTLE_TEST:                   equ 1       ; If Debug Mode is activated, go to Battle Test instead of playing the intro cutscene.
+EASY_CONFIGURATION_MODE:            equ 1      ; Activate Configuration Mode automatically, and skip checking if the Start button is pressed.
 
 ; Fixes
 FIX_SEARCH_IN_BATTLE:               equ 1       ; Restore the ability to search chests during battle.
@@ -32,7 +32,7 @@ NO_AI_PETER:                        equ 1       ;
 NO_DARKNESS_IN_CAVES:               equ 0       ; The darkness gimmick in caves is disabled.
 NO_RANDOM_BATTLES:                  equ 0       ; 0 = Battles    1 = No Battles
 SPELLS_REFRESH_STATUS_COUNTERS:     equ 1       ; Boost, Slow, and Attack spells refresh status counters instead of failing, as long as the counter is increased by at least 1. Battle messages display the actual regained stats values.
-TRADEABLE_ITEMS:                    equ 1       ; Allow trading items in battle without full inventory.
+TRADEABLE_ITEMS:                    equ 0       ; Allow trading items in battle without full inventory.
 CUTSCENE_PROTECTION:                equ 1       ; Prevent game from freezing if dead character is needed for scene after leader death (as Slade for battle 5.)
 CARAVAN_IN_TOWER:                   equ 1       ; Add access to Caravan before tower climb battle.
 MINIATURES_SHOP:                    equ 0       ; Place a shopworker on the desktop and floor of the Miniatures Room.
@@ -42,7 +42,7 @@ AGILITY_AFFECTS_CHANCE_TO_DODGE:    equ 0       ; Adjust chance to dodge proport
 BOWIE_CAN_DIE:                      equ 0       ; Bowie's death does not cause defeat.
 BOWIE_CAN_LEAVE_BATTLE_PARTY:       equ 0       ; Player is required to leave at least one member in the party. Message #20 should be edited to reflect this new rule.
 DIAGONAL_LASERS:                    equ 1       ; Allows laser based enemies to fire in 8 directions (Up, Up-Left, Left, Down-Left, etc).
-EXPANDED_RANGES:                    equ 1       ; Weapons/spells can have ranges up to 7 and spell radii up to 4.
+EXPANDED_RANGES:                    equ 1       ; Weapons/spells can have ranges up to 7 and spell radius up to 4.
 PERCENT_POISON_DAMAGE:              equ 30       ; 1-100 = n% of max HP
 PLAYER_DEFEAT_IS_GAME_OVER:         equ 0       ; On player defeat, rather than halve the gold and return to town, reset the game.
 SEND_DESTROYED_ITEMS_TO_DEALS:      equ 0       ; Add item that was destroyed upon usage to shop deals if rare and if not a consumable.
@@ -52,7 +52,7 @@ TRAP_DAMAGE_RAISES_WITH_DIFFICULTY: equ 0       ; Increase Laser/Burst Rock dama
 DIFFICULTY_FACTORS:                 equ 1       ; Allow 4 distinct difficulties.
 LEARN_SPELL_AT_PROMOTION:           equ 0       ; Allow learning 1 spell immediately upon promotion.
 PER_LEVEL_CHURCH_COST:              equ 0       ; Raise/Cure cost based on ally level (double cost per promo level.)
-ADDITIONAL_EQUIPEFFECTS:            equ 0       ; Add new equipeffects to offer more options (Set ATT, Increase Resistance, Decrease Double...)
+ADDITIONAL_EQUIPEFFECTS:            equ 1       ; Add new equipeffects to offer more options (Set ATT, Increase Resistance, Decrease Double...)
 
 ; AI enhancements
 HEALER_AI_ENHANCEMENTS:             equ 1       ; See SF2_AI_Healing_Rewrite.txt for more details.
