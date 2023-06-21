@@ -1394,7 +1394,7 @@
 0571=You changed your mind?{N}Hmmm....{W1}
 0572=Great!  Good lad!{W1}
 0573={CLEAR}{LEADER} decides to take{N}Dr. {NAME;11} with him.{W1}{CLEAR}
-0574=Let's go!{W1}
+0574=Let's go to Rindo Circus!!{W1}
 0575=Who are they?{W1}
 0576=They're looking for something.{W1}
 0577=He's not here...not under{N}the cliff....{W1}

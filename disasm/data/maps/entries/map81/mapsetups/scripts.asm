@@ -17,10 +17,7 @@ byte_RUCE1:     textCursor 1411
                 csWait 20
                 faceEntity ALLY_RUCE,ALLY_BOWIE
                 nextSingleText $0,ALLY_RUCE ; "Wh...what's that?!{W1}"
-                faceEntity ALLY_PETER,ALLY_RUCE
-                faceEntity ALLY_RUCE,ALLY_PETER
-                nextSingleText $C0,ALLY_PETER ; "It's the Caravan...an ancient{N}vehicle found in the shrine.{W1}"
-                csWait 20
+                faceEntity ALLY_PETER,ALLY_RUCE                
                 faceEntity ALLY_RUCE,ALLY_BOWIE
                 nextText $0,ALLY_RUCE   ; "I love interesting{N}things like that!{W2}"
                 nextText $0,ALLY_RUCE   ; "Wow!  You found it?!{W2}"

@@ -22,7 +22,7 @@ ms_map81_EntityEvents:
                 
 Map81_EntityEvent1:
 
-                move.b  #1,((CURRENT_SHOP_INDEX-$1000000)).w
+                move.b  #$1E,((CURRENT_SHOP_INDEX-$1000000)).w
                 jsr     j_ShopMenuActions
                 rts
 ; =============== S U B R O U T I N E =======================================

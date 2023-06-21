@@ -7,18 +7,30 @@ tbl_ShopInventories:
 ;
 ; Note: Constant names ("enums"), shorthands (defined by macro), and numerical indexes are interchangeable.
                 
-                ; Weapon shop 1
+                ; Weapon shop 0
                 shopInventory SHORT_SWORD, &
                               SHORT_SPEAR, &
                               SHORT_AXE, &
                               WOODEN_ROD, &
                               SHORT_KNIFE
                 
-                ; Weapon shop 2
+                ; Weapon shop 1
                 shopInventory SHORT_SWORD, &
                               SHORT_SPEAR, &
                               BRONZE_LANCE, &
                               SHORT_AXE, &
+                              WOODEN_ROD, &
+                              SHORT_ROD, &
+                              SHORT_KNIFE, &
+							  HELMET
+                
+                ; Weapon shop 2
+                shopInventory SHORT_SWORD, &
+                              MIDDLE_SWORD, &
+                              BRONZE_LANCE, &
+                              SPEAR, &
+                              SHORT_AXE, &
+                              HAND_AXE, &
                               WOODEN_ROD, &
                               SHORT_ROD, &
                               SHORT_KNIFE, &
@@ -34,23 +46,11 @@ tbl_ShopInventories:
                               WOODEN_ROD, &
                               SHORT_ROD, &
                               SHORT_KNIFE, &
-							  HELMET
-                
-                ; Weapon shop 4
-                shopInventory SHORT_SWORD, &
-                              MIDDLE_SWORD, &
-                              BRONZE_LANCE, &
-                              SPEAR, &
-                              SHORT_AXE, &
-                              HAND_AXE, &
-                              WOODEN_ROD, &
-                              SHORT_ROD, &
-                              SHORT_KNIFE, &
                               DAGGER, &
                               WOODEN_ARROW, &
 							  HELMET
                 
-                ; Weapon shop 5
+                ; Weapon shop 4
                 shopInventory MIDDLE_SWORD, &
                               LONG_SWORD, &
                               BRONZE_LANCE, &
@@ -64,7 +64,7 @@ tbl_ShopInventories:
                               WOODEN_ARROW, &
 							  HELMET
                 
-                ; Weapon shop 6
+                ; Weapon shop 5
                 shopInventory MIDDLE_SWORD, &
                               LONG_SWORD, &
                               SPEAR, &
@@ -79,7 +79,7 @@ tbl_ShopInventories:
                               IRON_ARROW, &
 							  HELMET
                 
-                ; Weapon shop 7
+                ; Weapon shop 6
                 shopInventory LONG_SWORD, &
                               STEEL_SWORD, &
                               SPEAR, &
@@ -94,7 +94,7 @@ tbl_ShopInventories:
                               STEEL_ARROW, &
 							  HELMET
                 
-                ; Weapon shop 8
+                ; Weapon shop 7
                 shopInventory BROAD_SWORD, &
                               BATTLE_AXE, &
                               POWER_SPEAR, &
@@ -103,7 +103,7 @@ tbl_ShopInventories:
                               LEATHER_GLOVE, &
 							  HELMET
                 
-                ; Weapon shop 9
+                ; Weapon shop 8
                 shopInventory BROAD_SWORD, &
                               BUSTER_SWORD, &
                               HEAVY_LANCE, &
@@ -116,7 +116,7 @@ tbl_ShopInventories:
                               POWER_GLOVE, &
 							  HELMET
                 
-                ; Weapon shop 10
+                ; Weapon shop 9
                 shopInventory BROAD_SWORD, &
                               BUSTER_SWORD, &
                               HEAVY_LANCE, &
@@ -129,7 +129,7 @@ tbl_ShopInventories:
                               POWER_GLOVE, &
 							  HELMET
                 
-                ; Weapon shop 11
+                ; Weapon shop 10
                 shopInventory BUSTER_SWORD, &
                               GREAT_SWORD, &
                               HEAVY_LANCE, &
@@ -142,7 +142,7 @@ tbl_ShopInventories:
                               POWER_GLOVE, &
 							  HELMET
                 
-                ; Weapon shop 12
+                ; Weapon shop 11
                 shopInventory BUSTER_SWORD, &
                               GREAT_SWORD, &
                               JAVELIN, &
@@ -157,7 +157,7 @@ tbl_ShopInventories:
                               BRASS_KNUCKLES, &
 							  HELMET
                 
-                ; Weapon shop 13
+                ; Weapon shop 12
                 shopInventory BUSTER_SWORD, &
                               GREAT_SWORD, &
                               JAVELIN, &
@@ -172,7 +172,7 @@ tbl_ShopInventories:
                               IRON_KNUCKLES, &
 							  HELMET
                 
-                ; Weapon shop 14
+                ; Weapon shop 13
                 shopInventory BUSTER_SWORD, &
                               GREAT_SWORD, &
                               JAVELIN, &
@@ -186,7 +186,7 @@ tbl_ShopInventories:
                               BRASS_KNUCKLES, &
                               IRON_KNUCKLES							  
                 
-                ; Weapon shop 15
+                ; Weapon shop 14
                 shopInventory BUSTER_SWORD, &
                               GREAT_SWORD, &
                               JAVELIN, &
@@ -199,26 +199,26 @@ tbl_ShopInventories:
                               INDRA_STAFF, &
                               BRASS_KNUCKLES, &
                               IRON_KNUCKLES
-                
-                ; Item shop 1
+				
+                ; Item shop  SHOP_INDEX: 15
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               ANTIDOTE, &
                               ANGEL_WING
                 
-                ; Item shop 2
+                ; SHOP_INDEX: 16
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               ANTIDOTE, &
                               ANGEL_WING
                 
-                ; Item shop 3
+                ; SHOP_INDEX: 17
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               ANTIDOTE, &
                               ANGEL_WING
                 
-                ; Item shop 4
+                ; SHOP_INDEX: 18
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
@@ -226,7 +226,7 @@ tbl_ShopInventories:
                               FAIRY_POWDER, &
                               ANGEL_WING
                 
-                ; Item shop 5
+                ; SHOP_INDEX: 19
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
@@ -234,7 +234,7 @@ tbl_ShopInventories:
                               FAIRY_POWDER, &
                               ANGEL_WING
                 
-                ; Item shop 6
+                ; SHOP_INDEX: 20
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
@@ -242,7 +242,7 @@ tbl_ShopInventories:
                               FAIRY_POWDER, &
                               ANGEL_WING
                 
-                ; Item shop 7
+                ; SHOP_INDEX: 21
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
@@ -250,7 +250,7 @@ tbl_ShopInventories:
                               FAIRY_POWDER, &
                               ANGEL_WING
                 
-                ; Item shop 8
+                ; SHOP_INDEX: 22
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
@@ -258,7 +258,7 @@ tbl_ShopInventories:
                               FAIRY_POWDER, &
                               ANGEL_WING
                 
-                ; Item shop 9
+                ; SHOP_INDEX: 23
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
@@ -266,7 +266,7 @@ tbl_ShopInventories:
                               FAIRY_POWDER, &
                               ANGEL_WING
                 
-                ; Item shop 10
+               ; SHOP_INDEX: 24
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
@@ -274,7 +274,7 @@ tbl_ShopInventories:
                               FAIRY_POWDER, &
                               ANGEL_WING
                 
-                ; Item shop 11
+               ; SHOP_INDEX: 25
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
@@ -282,7 +282,7 @@ tbl_ShopInventories:
                               FAIRY_POWDER, &
                               ANGEL_WING
                 
-                ; Item shop 12
+               ; SHOP_INDEX: 26
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
@@ -290,7 +290,7 @@ tbl_ShopInventories:
                               FAIRY_POWDER, &
                               ANGEL_WING
                 
-                ; Item shop 13
+               ; SHOP_INDEX: 27
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
@@ -298,7 +298,7 @@ tbl_ShopInventories:
                               FAIRY_POWDER, &
                               ANGEL_WING
                 
-                ; Item shop 14
+               ; SHOP_INDEX: 28
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
@@ -306,10 +306,23 @@ tbl_ShopInventories:
                               FAIRY_POWDER, &
                               ANGEL_WING
                 
-                ; Item shop 15
+               ; SHOP_INDEX: 29
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
+                              ANGEL_WING
+				
+				; SHOP_INDEX: 30  $1E
+                shopInventory SHORT_SWORD, &
+                              MIDDLE_SWORD, &
+                              BRONZE_LANCE, &                              
+                              SHORT_AXE, &
+                              HAND_AXE, &
+                              WOODEN_ROD, &
+                              SHORT_ROD, &
+							  SPEAR, &
+                              SHORT_KNIFE, &
+							  HELMET, &
                               ANGEL_WING
