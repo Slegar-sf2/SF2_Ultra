@@ -4274,3 +4274,6 @@
 10B1=Start doing everything you {N}can do - and even what you can even dream of.{N}In courage, genius,strength{N}and magic.{W1}
 10B2=Don't disturb me, I'm busy !!
 10B3=hello strangers{W1}
+10B4=Hey there, youngster.{N}My name is {NAME;16}{W1}
+10B5=You know, that little fracas{N}made me want to fight again.{W1}
+10B6={LEADER}, I'm joining up!{W1}

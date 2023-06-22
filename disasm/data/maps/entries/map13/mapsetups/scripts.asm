@@ -302,50 +302,77 @@ cs_585FE:       playSound $FD
                 endActions
                 setFacing ALLY_GERHALT,DOWN
                 nextSingleText $0,ALLY_GERHALT ; "Prince {NAME;10}, I'm sorry.{W1}"
-                setCameraEntity ALLY_GERHALT
-                entityActionsWait ALLY_GERHALT
-                 moveUp 1
-                endActions
-                nextSingleText $0,ALLY_GERHALT ; "Polcans will not fight.{N}Please let me join you!{W1}"
-                join ALLY_GERHALT
+                setCameraEntity ALLY_GERHALT                
+                nextSingleText $0,ALLY_GERHALT ; "Polcans will not fight.{N}Please let me join you!{W1}"                
                 setCameraEntity ALLY_LUKE
                 nextSingleText $0,ALLY_LUKE ; "Great!{W1}"
-                setFacing ALLY_GERHALT,DOWN
+                setFacing ALLY_GERHALT,UP
                 nod ALLY_GERHALT
                 entityActionsWait ALLY_LUKE
                  moveUp 1
                 endActions
                 nextSingleText $0,ALLY_LUKE ; "Don't forget me!{W1}"
                 entityActionsWait 129
-                 moveUp 1
+                 moveUp 2
                  moveLeft 1
-                endActions
-                setActscriptWait ALLY_LUKE,eas_DeactivateAutoFacing
-                customActscriptWait ALLY_LUKE
+                endActions                
+                setActscriptWait ALLY_GERHALT,eas_DeactivateAutoFacing
+                customActscriptWait ALLY_GERHALT
                  ac_setSpeed 48,48      ;   
                  ac_jump eas_Idle       ;   
-                ac_end
-                entityActions ALLY_LUKE
-                 moveLeft 3
-                endActions
-                entityActionsWait 129
-                 moveRight 1
-                 moveDown 1
-                endActions
-                customActscriptWait ALLY_LUKE
+                ac_end                
+				customActscriptWait ALLY_GERHALT
                  ac_motion OFF          ;   
                  ac_orientLeft          ;   
                  ac_updateSprite        ;   
                  ac_jump eas_Idle       ;   
                 ac_end
+				entityActions ALLY_GERHALT
+                 moveLeft 4
+                endActions
+				csWait 40
+				setFacing ALLY_LUKE,LEFT				
+				csWait 40
+				setFacing ALLY_LUKE,RIGHT								
+				entityActionsWait 130
+				 moveLeft 1
+                 moveUp 3
+                 moveLeft 1
+                endActions
+				setActscriptWait ALLY_LUKE,eas_DeactivateAutoFacing
+                customActscriptWait ALLY_LUKE
+                 ac_setSpeed 48,48      ;   
+                 ac_jump eas_Idle       ;   
+                ac_end                							
+				customActscriptWait ALLY_LUKE
+                 ac_motion OFF          ;   
+                 ac_orientLeft          ;   
+                 ac_updateSprite        ;   
+                 ac_jump eas_Idle       ;   
+                ac_end
+				entityActions ALLY_LUKE
+                 moveLeft 3
+                endActions	
+				 entityActionsWait 130
+                 moveRight 1
+                 moveDown 3
+				 moveRight 1
+                endActions
+				entityActionsWait 129
+                 moveRight 1
+                 moveDown 2
+                endActions                				
                 setFacing 129,LEFT
-                csWait 40
+                csWait 20
+				setFacing 130,LEFT
+                csWait 40                
                 entityActionsWait 128
                  moveLeft 1
                  moveUp 1
                 endActions
                 nextText $0,128         ; "You still dare to resist us?!{W2}"
                 nextSingleText $0,128   ; "For that you shall die!!{W1}"
+                entityFlashWhite 128,$78                
                 setStoryFlag 13         ; Battle 13 unlocked - BATTLE_POLCA_VILLAGE             
                 warp MAP_POLCA,0,0,RIGHT
                 csc_end

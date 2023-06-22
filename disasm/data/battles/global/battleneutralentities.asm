@@ -53,7 +53,12 @@ tbl_BattleNeutralEntities:
                 dc.b 13
                 dc.b DOWN
                 dc.b MAPSPRITE_LUKE_BASE
-                dc.l eas_LyingLeft
+                dc.l eas_LyingRight
+				dc.b 15
+                dc.b 12
+                dc.b LEFT
+                dc.b MAPSPRITE_GERHALT_BASE
+                dc.l eas_LyingRight
                 dc.w $FFFF
                 dc.w BATTLE_VERSUS_TAROS
                 dc.b 12

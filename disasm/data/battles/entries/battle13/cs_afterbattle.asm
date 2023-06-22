@@ -15,7 +15,11 @@ abcs_battle13:  textCursor 2495
                 ac_end
                 playSound MUSIC_TOWN
                 fadeInB
+				setActscriptWait ALLY_GERHALT,eas_Init
+                setActscriptWait ALLY_GERHALT,eas_Jump                
+                headshake ALLY_GERHALT                
                 csWait 50
+                join ALLY_GERHALT
                 nextSingleText $0,ALLY_PETER ; "{NAME;10}, are you OK?  {NAME;10}!{W1}"
                 csWait 50
                 setActscriptWait ALLY_LUKE,eas_Init
@@ -39,4 +43,5 @@ abcs_battle13:  textCursor 2495
                 csc_end
 ce_4AD96:       mainEntity 16,12,DOWN
                 entity 16,13,DOWN,ALLY_LUKE,eas_Init
+                entity 15,12,DOWN,ALLY_GERHALT,eas_Init
                 dc.w $FFFF

@@ -16,7 +16,7 @@ tbl_AllyStartDefs:
                 startClass SDMN         ; 0: BOWIE
                 startLevel 1
                 startItems &
-                    WOODEN_SWORD|EQUIPPED, &
+                    ACHILLES_SWORD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
