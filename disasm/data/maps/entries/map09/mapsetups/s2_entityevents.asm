@@ -3,6 +3,7 @@
 ; 0x56722..0x56856 : 
 ms_map9_EntityEvents:
                 msEntityEvent 11, RIGHT, Map9_EntityEvent0-ms_map9_EntityEvents
+				msEntityEvent 17, DOWN, Map9_EntityEvent12-ms_map9_EntityEvents
                 msEntityEvent 12, DOWN, Map9_EntityEvent1-ms_map9_EntityEvents
                 msEntityEvent 128, UP, Map9_EntityEvent2-ms_map9_EntityEvents
                 msEntityEvent 129, UP, Map9_EntityEvent3-ms_map9_EntityEvents
@@ -153,6 +154,16 @@ Map9_EntityEvent11:
                 rts
 
     ; End of function Map9_EntityEvent11
+
+
+; =============== S U B R O U T I N E =======================================
+
+Map9_EntityEvent12:
+                chkFlg  17                 
+				script byte_JOINTYRIN															
+                rts
+
+    ; End of function Map9_EntityEvent12
 
 
 ; =============== S U B R O U T I N E =======================================

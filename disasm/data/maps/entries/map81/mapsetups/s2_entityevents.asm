@@ -153,7 +153,7 @@ Map81_EntityEvent14:
                       
 				chkFlg  16               ; Ruce joined
 				script byte_RUCE1
-                
+				rts
 
     ; End of function Map81_EntityEvent14
 

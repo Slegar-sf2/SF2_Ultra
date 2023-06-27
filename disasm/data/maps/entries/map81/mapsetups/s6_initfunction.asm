@@ -7,7 +7,7 @@
 
 ms_map81_InitFunction:
 
-byte_RUCE:
+
                 
                 chkFlg  16              ; Ruce joined
                 beq.s   return_70999
