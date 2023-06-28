@@ -69,10 +69,10 @@ tbl_AllyMapSprites:
                 mapSprite DEFAULT
                 mapSprite ROHDE_SPECIAL
                 
-; 12: Rick
-                mapSprite RICK_BASE
-                mapSprite RICK_PROMO
-                mapSprite RICK_SPECIAL
+; 12: DEANNA
+                mapSprite DEANNA_BASE
+                mapSprite DEANNA_PROMO
+                mapSprite DEANNA_SPECIAL
                 
 ; 13: Elric
                 mapSprite ELRIC_BASE

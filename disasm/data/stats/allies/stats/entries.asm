@@ -13,7 +13,7 @@ pt_AllyStats:   dc.l AllyStats00        ; BOWIE
                 dc.l AllyStats09        ; GERHALT
                 dc.l AllyStats10        ; LUKE
                 dc.l AllyStats11        ; ROHDE
-                dc.l AllyStats12        ; RICK
+                dc.l AllyStats12        ; DEANNA
                 dc.l AllyStats13        ; ELRIC
                 dc.l AllyStats14        ; ERIC
                 dc.l AllyStats15        ; KARNA

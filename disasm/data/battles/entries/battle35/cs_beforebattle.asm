@@ -70,7 +70,7 @@ cs_4D728:       fadeInB
                 entityActionsWait FOLLOWER_B
                  moveLeft 1
                 endActions
-                nextText $0,FOLLOWER_B  ; "Geshp sure is a tricky{N}devil.{W2}"
+                nextText $0,FOLLOWER_B  ; "Geshp sure is a tDEANNAy{N}devil.{W2}"
                 nextSingleText $0,FOLLOWER_B ; "After him, now!{W1}"
                 csc_end
 ce_4D832:       mainEntity 43,9,LEFT

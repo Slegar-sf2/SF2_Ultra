@@ -25,9 +25,9 @@ byte_568D4:
                 jsr     MoveEntityOutOfMap
 byte_568E4:
                 
-                chkFlg  12              ; Rick joined
+                chkFlg  12              ; DEANNA joined
                 beq.s   return_568F4
-                move.w  #ALLY_RICK,d0
+                move.w  #ALLY_DEANNA,d0
                 jsr     MoveEntityOutOfMap
 
 return_568F4:

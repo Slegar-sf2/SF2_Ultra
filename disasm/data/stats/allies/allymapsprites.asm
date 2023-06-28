@@ -17,7 +17,7 @@ tbl_AllyMapSprites:
                 mapSprite GERHALT_PROMO ; 9: GERHALT
                 mapSprite LUKE_PROMO    ; 10: LUKE
                 mapSprite ROHDE_SPECIAL ; 11: ROHDE
-                mapSprite RICK_SPECIAL  ; 12: RICK
+                mapSprite DEANNA_SPECIAL  ; 12: DEANNA
                 mapSprite ELRIC_SPECIAL ; 13: ELRIC
                 mapSprite ERIC_SPECIAL  ; 14: ERIC
                 mapSprite KARNA_SPECIAL ; 15: KARNA

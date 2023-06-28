@@ -115,16 +115,16 @@ tbl_SpriteDialogProperties:
                 portrait  ROHDE
                 speechSfx DIALOG_BLEEP_5
                 
-                mapSprite RICK_BASE
-                portrait  RICK
+                mapSprite DEANNA_BASE
+                portrait  DEANNA
                 speechSfx DIALOG_BLEEP_5
                 
-                mapSprite RICK_PROMO
-                portrait  RICK
+                mapSprite DEANNA_PROMO
+                portrait  DEANNA
                 speechSfx DIALOG_BLEEP_5
                 
-                mapSprite RICK_SPECIAL
-                portrait  RICK
+                mapSprite DEANNA_SPECIAL
+                portrait  DEANNA
                 speechSfx DIALOG_BLEEP_5
                 
                 mapSprite ELRIC_BASE

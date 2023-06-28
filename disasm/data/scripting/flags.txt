@@ -10,7 +10,7 @@
 0009=Gerhalt joined
 0010=Luke joined
 0011=Rohde joined
-0012=Rick joined
+0012=DEANNA joined
 0013=Elric joined
 0014=Eric joined
 0015=Karna joined
@@ -42,7 +42,7 @@
 0041=Gerhalt in active party
 0042=Luke in active party
 0043=Rohde in active party
-0044=Rick in active party
+0044=DEANNA in active party
 0045=Elric in active party
 0046=Eric in active party
 0047=Karna in active party

@@ -109,7 +109,7 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass KNTE         ; 12: RICK
+                startClass KNTE         ; 12: DEANNA
                 startLevel 19
                 startItems &
                     STEEL_LANCE|EQUIPPED, &

@@ -69,9 +69,9 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt NONE, NONE, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 
-; 12: RICK
-                allyBattleSprAndPlt KNTE, KNTE, 1
-                allyBattleSprAndPlt PLDN, PLDN, 1
+; 12: DEANNA
+                allyBattleSprAndPlt KNTE, 39, 0
+                allyBattleSprAndPlt PLDN, 40, 0
                 allyBattleSprAndPlt PGNT, PGNT, 1
                 
 ; 13: ELRIC

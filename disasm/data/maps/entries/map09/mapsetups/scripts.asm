@@ -133,33 +133,33 @@ cs_56AE6:       textCursor 1392
                 jumpIfFlagSet 89,cs_56A82 ; YES/NO prompt answer
                 jump cs_56A70
 cs_56B02:       textCursor 1411
-                setPriority ALLY_RICK,$FFFF
+                setPriority ALLY_DEANNA,$FFFF
                 setPriority ALLY_BOWIE,$0
-                nextText $0,ALLY_RICK   ; "Are you the boy who killed{N}the legendary Kraken?{W2}"
-                nextText $0,ALLY_RICK   ; "I got to Hassan thanks to{N}you.{W2}"
-                nextSingleText $0,ALLY_RICK ; "I didn't know this was such a{N}dull town.{W1}"
+                nextText $0,ALLY_DEANNA   ; "Are you the boy who killed{N}the legendary Kraken?{W2}"
+                nextText $0,ALLY_DEANNA   ; "I got to Hassan thanks to{N}you.{W2}"
+                nextSingleText $0,ALLY_DEANNA ; "I didn't know this was such a{N}dull town.{W1}"
                 csWait 20
-                setFacing ALLY_RICK,UP
+                setFacing ALLY_DEANNA,UP
                 csWait 30
-                setActscriptWait ALLY_RICK,eas_Jump
+                setActscriptWait ALLY_DEANNA,eas_Jump
                 csWait 20
-                faceEntity ALLY_RICK,ALLY_BOWIE
-                nextSingleText $0,ALLY_RICK ; "Wh...what's that?!{W1}"
-                faceEntity ALLY_PETER,ALLY_RICK
-                faceEntity ALLY_RICK,ALLY_PETER
+                faceEntity ALLY_DEANNA,ALLY_BOWIE
+                nextSingleText $0,ALLY_DEANNA ; "Wh...what's that?!{W1}"
+                faceEntity ALLY_PETER,ALLY_DEANNA
+                faceEntity ALLY_DEANNA,ALLY_PETER
                 nextSingleText $C0,ALLY_PETER ; "It's the Caravan...an ancient{N}vehicle found in the shrine.{W1}"
                 csWait 20
-                faceEntity ALLY_RICK,ALLY_BOWIE
-                nextText $0,ALLY_RICK   ; "I love interesting{N}things like that!{W2}"
-                nextText $0,ALLY_RICK   ; "Wow!  You found it?!{W2}"
-                nextSingleText $0,ALLY_RICK ; "I want to go with you to{N}see some more interesting{N}things!{W1}"
-                join ALLY_RICK
-                nextSingleText $0,ALLY_RICK ; "Adventure!{N}Yo Ho!  Let's go!{W1}"
-                setActscriptWait ALLY_RICK,eas_Jump
-                setActscriptWait ALLY_RICK,eas_Jump
+                faceEntity ALLY_DEANNA,ALLY_BOWIE
+                nextText $0,ALLY_DEANNA   ; "I love interesting{N}things like that!{W2}"
+                nextText $0,ALLY_DEANNA   ; "Wow!  You found it?!{W2}"
+                nextSingleText $0,ALLY_DEANNA ; "I want to go with you to{N}see some more interesting{N}things!{W1}"
+                join ALLY_DEANNA
+                nextSingleText $0,ALLY_DEANNA ; "Adventure!{N}Yo Ho!  Let's go!{W1}"
+                setActscriptWait ALLY_DEANNA,eas_Jump
+                setActscriptWait ALLY_DEANNA,eas_Jump
                 csWait 20
                 setPriority ALLY_BOWIE,$FFFF
-                addNewFollower ALLY_RICK
+                addNewFollower ALLY_DEANNA
 byte_JOINTYRIN:  
                 textCursor $779
                 setPriority ALLY_TYRIN,$FFFF

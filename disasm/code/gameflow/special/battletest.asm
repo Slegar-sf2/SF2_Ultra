@@ -31,7 +31,7 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
                 moveq   #ALLY_ROHDE,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_RICK,d0
+                moveq   #ALLY_DEANNA,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_ELRIC,d0
                 bsr.w   j_JoinForce

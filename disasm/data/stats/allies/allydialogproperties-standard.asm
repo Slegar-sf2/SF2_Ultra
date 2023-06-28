@@ -75,10 +75,10 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx ROHDE, DIALOG_BLEEP_5
                 allyPortraitAndSfx ROHDE, DIALOG_BLEEP_5
                 
-; 12: Rick
-                allyPortraitAndSfx RICK, DIALOG_BLEEP_5
-                allyPortraitAndSfx RICK, DIALOG_BLEEP_5
-                allyPortraitAndSfx RICK, DIALOG_BLEEP_5
+; 12: DEANNA
+                allyPortraitAndSfx DEANNA, DIALOG_BLEEP_5
+                allyPortraitAndSfx DEANNA, DIALOG_BLEEP_5
+                allyPortraitAndSfx DEANNA, DIALOG_BLEEP_5
                 
 ; 13: Elric
                 allyPortraitAndSfx ELRIC, DIALOG_BLEEP_5
