@@ -7,7 +7,7 @@ tbl_ClassDefs:
 ;               moveType   [MOVETYPE_UPPER_]enum (or index)
 ;               prowess    [PROWESS_]bitfield
                 
-                mov 6                   ; 0: SDMN
+                mov 5                   ; 0: SDMN
                 resistance WIND_WEAKNESS|LIGHTNING_MINOR|ICE_WEAKNESS|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
@@ -17,7 +17,7 @@ tbl_ClassDefs:
                 moveType   CENTAUR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 
-                mov 5                   ; 2: WARR
+                mov 4                   ; 2: WARR
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
@@ -82,12 +82,12 @@ tbl_ClassDefs:
                 moveType   FLYING
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 5                   ; 15: GLDT
+                mov 4                   ; 15: GLDT
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 6                   ; 16: BRN
+                mov 5                   ; 16: BRN
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
@@ -162,20 +162,20 @@ tbl_ClassDefs:
                 moveType   REGULAR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 6                   ; 31: RDBN
+                mov 5                   ; 31: RDBN
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN8
                 
             if (STANDARD_BUILD&EXPANDED_CLASSES=1)
                     
-                mov 6                   ; 32: 
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                mov 5                   ; 32: SWOR 
+                resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL_NONE|DOUBLE_1IN32|COUNTER_1IN32
                     
-                mov 6                   ; 33: 
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                mov 6                   ; 33: STAR
+                resistance WIND_NONE|LIGHTNING_MAJOR|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL_NONE|DOUBLE_1IN32|COUNTER_1IN32
                     

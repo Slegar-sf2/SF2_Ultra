@@ -109,10 +109,10 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass KNTE         ; 12: DEANNA
-                startLevel 19
+                startClass SWOR         ; 12: DEANNA
+                startLevel 18
                 startItems &
-                    STEEL_LANCE|EQUIPPED, &
+                    MIDDLE_SWORD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

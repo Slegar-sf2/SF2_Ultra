@@ -70,9 +70,9 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 12: DEANNA
-                allyBattleSprAndPlt KNTE, 39, 0
-                allyBattleSprAndPlt PLDN, 40, 0
-                allyBattleSprAndPlt PGNT, PGNT, 1
+                allyBattleSprAndPlt SWOR, 39, 0
+                allyBattleSprAndPlt STAR, 40, 0
+                allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 13: ELRIC
                 allyBattleSprAndPlt ACHR, ACHR, 1

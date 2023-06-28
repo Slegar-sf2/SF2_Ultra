@@ -9,10 +9,10 @@ tbl_Promotions:
 ;        Constant names ("enums"), shorthands (defined by macro), and numerical indexes are interchangeable.
                 
                 promotionSection &      ; Regular base classes
-                    SDMN, KNTE, WARR, MAGE, PRST, ACHR, BDMN, WFMN, RNGR, PHNK, THIF, TORT
+                    SDMN, KNTE, WARR, MAGE, PRST, ACHR, BDMN, WFMN, RNGR, PHNK, THIF, TORT, SWOR
                 
                 promotionSection &      ; Regular promoted classes
-                    HERO, PLDN, GLDT, WIZ, VICR, SNIP, BDBT, WFBR, BWNT, PHNX, NINJ, MNST
+                    HERO, PLDN, GLDT, WIZ, VICR, SNIP, BDBT, WFBR, BWNT, PHNX, NINJ, MNST, STAR
                 
                 promotionSection &      ; Special base classes
                     KNTE, WARR, MAGE, PRST, ACHR

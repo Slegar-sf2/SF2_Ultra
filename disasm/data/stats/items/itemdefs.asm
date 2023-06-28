@@ -389,7 +389,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 33: Short Axe
-                equipFlags   WARR|GLDT|BRN|RDBN
+                equipFlags   WARR|GLDT|BRN|RDBN|SWOR|STAR|BDMN|BDBT
                 equipFlags2  NONE
                 range        1, 1
                 price        120
@@ -400,7 +400,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 34: Hand Axe
-                equipFlags   WARR|GLDT|BRN|RDBN
+                equipFlags   WARR|GLDT|BRN|RDBN|SWOR|STAR|BDMN|BDBT
                 equipFlags2  NONE
                 range        1, 1
                 price        340
@@ -411,7 +411,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 35: Middle Axe
-                equipFlags   WARR|GLDT|BRN|RDBN
+                equipFlags   WARR|GLDT|BRN|RDBN|SWOR|STAR|BDMN|BDBT
                 equipFlags2  NONE
                 range        1, 1
                 price        610
@@ -422,7 +422,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 36: Power Axe
-                equipFlags   WARR|GLDT|BRN|RDBN
+                equipFlags   WARR|GLDT|BRN|RDBN|SWOR|STAR|BDMN|BDBT
                 equipFlags2  NONE
                 range        1, 1
                 price        1100
@@ -433,7 +433,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 37: Battle Axe
-                equipFlags   WARR|GLDT|BRN|RDBN
+                equipFlags   WARR|GLDT|BRN|RDBN|SWOR|STAR|BDMN|BDBT
                 equipFlags2  NONE
                 range        1, 1
                 price        1370
@@ -444,7 +444,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 38: Large Axe
-                equipFlags   GLDT|BRN|RDBN
+                equipFlags   GLDT|BRN|RDBN|SWOR|STAR|BDMN|BDBT
                 equipFlags2  NONE
                 range        1, 1
                 price        2250
@@ -455,7 +455,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 39: Great Axe
-                equipFlags   GLDT|BRN|RDBN
+                equipFlags   GLDT|BRN|RDBN|STAR|BDBT
                 equipFlags2  NONE
                 range        1, 1
                 price        4600
@@ -466,7 +466,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 40: Heat Axe
-                equipFlags   GLDT|BRN|RDBN
+                equipFlags   GLDT|BRN|RDBN|STAR|BDBT
                 equipFlags2  NONE
                 range        1, 1
                 price        7200
@@ -477,7 +477,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 41: Atlas Axe
-                equipFlags   GLDT|BRN|RDBN
+                equipFlags   GLDT|BRN|RDBN|STAR|BDBT
                 equipFlags2  NONE
                 range        1, 1
                 price        9600
@@ -488,7 +488,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 42: Ground Axe
-                equipFlags   GLDT|BRN|RDBN
+                equipFlags   GLDT|BRN|RDBN|STAR|BDBT
                 equipFlags2  NONE
                 range        1, 1
                 price        10000
@@ -499,7 +499,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 43: Rune Axe
-                equipFlags   GLDT|BRN|RDBN
+                equipFlags   GLDT|BRN|RDBN|STAR|BDBT
                 equipFlags2  NONE
                 range        1, 1
                 price        10000
@@ -510,7 +510,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 44: Evil Axe
-                equipFlags   GLDT|BRN|RDBN
+                equipFlags   GLDT|BRN|RDBN|SWOR|BDBT
                 equipFlags2  NONE
                 range        1, 1
                 price        15000
@@ -576,7 +576,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 50: Great Shot
-                equipFlags   SNIP|BRGN|BWNT
+                equipFlags   NONE
                 equipFlags2  NONE
                 range        2, 3
                 price        5000
@@ -653,7 +653,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 57: Short Sword
-                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN
+                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN|SWOR|STAR
                 equipFlags2  NONE
                 range        1, 1
                 price        140
@@ -664,7 +664,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 58: Middle Sword
-                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN
+                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN|SWOR|STAR
                 equipFlags2  NONE
                 range        1, 1
                 price        340
@@ -675,7 +675,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 59: Long Sword
-                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN
+                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN|SWOR|STAR
                 equipFlags2  NONE
                 range        1, 1
                 price        620
@@ -686,7 +686,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 60: Steel Sword
-                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN
+                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN|SWOR|STAR
                 equipFlags2  NONE
                 range        1, 1
                 price        1120
@@ -708,7 +708,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 62: Broad Sword
-                equipFlags   HERO|BRN|BDBT|NINJ|RDBN
+                equipFlags   HERO|BRN|BDBT|NINJ|RDBN|SWOR|STAR
                 equipFlags2  NONE
                 range        1, 1
                 price        1600
@@ -719,7 +719,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 63: Buster Sword
-                equipFlags   HERO|BRN|BDBT|NINJ|RDBN
+                equipFlags   HERO|BRN|BDBT|NINJ|RDBN|SWOR|STAR
                 equipFlags2  NONE
                 range        1, 1
                 price        2600
@@ -730,7 +730,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 64: Great Sword
-                equipFlags   HERO|BRN|BDBT|NINJ|RDBN
+                equipFlags   HERO|BRN|BDBT|NINJ|RDBN|STAR
                 equipFlags2  NONE
                 range        1, 1
                 price        5100
@@ -741,7 +741,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 65: Critical Sword
-                equipFlags   HERO|BRN|BDBT|NINJ|RDBN
+                equipFlags   HERO|BRN|BDBT|NINJ|RDBN|STAR
                 equipFlags2  NONE
                 range        1, 1
                 price        7200
@@ -752,7 +752,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 66: Battle Sword
-                equipFlags   HERO|BRN|BDBT|RDBN
+                equipFlags   HERO|BRN|BDBT|RDBN|STAR
                 equipFlags2  NONE
                 range        1, 1
                 price        9200
@@ -763,7 +763,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 67: Force Sword
-                equipFlags   HERO
+                equipFlags   HERO|STAR
                 equipFlags2  NONE
                 range        1, 1
                 price        10000
@@ -774,7 +774,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 68: Counter Sword
-                equipFlags   HERO|BRN|BDBT|RDBN
+                equipFlags   HERO|BRN|BDBT|RDBN|STAR
                 equipFlags2  NONE
                 range        1, 1
                 price        13000
@@ -785,7 +785,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 69: Levanter
-                equipFlags   HERO
+                equipFlags   HERO|STAR
                 equipFlags2  NONE
                 range        1, 1
                 price        14000
@@ -796,7 +796,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 70: Dark Sword
-                equipFlags   HERO|BRN|BDBT|NINJ|RDBN
+                equipFlags   HERO|BRN|BDBT|NINJ|RDBN|STAR
                 equipFlags2  NONE
                 range        1, 1
                 price        17000
@@ -807,7 +807,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 71: Wooden Sword
-                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN
+                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN|SWOR|STAR
                 equipFlags2  NONE
                 range        1, 1
                 price        60
@@ -1203,7 +1203,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 107: Katana
-                equipFlags   NINJ
+                equipFlags   NINJ|STAR
                 equipFlags2  NONE
                 range        1, 1
                 price        9600
@@ -1236,7 +1236,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 110: Taros Sword
-                equipFlags   NONE
+                equipFlags   HERO|STAR
                 equipFlags2  NONE
                 range        1, 2
                 price        10000

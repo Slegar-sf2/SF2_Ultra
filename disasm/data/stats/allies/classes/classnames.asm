@@ -35,8 +35,8 @@ tbl_ClassNames: className "SDMN"
                 className "RDBN"
                 
             if (STANDARD_BUILD&EXPANDED_CLASSES=1)
-                className "32"
-                className "33"
+                className "SWOR"
+                className "STAR"
                 className "34"
                 className "35"
                 className "36"

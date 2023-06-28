@@ -16,3 +16,4 @@ tbl_MithrilWeaponClasses:
                 classes NINJ
                 classes MMNK
                 classes BRN, RDBN
+				classes STAR
