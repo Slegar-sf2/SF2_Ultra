@@ -89,6 +89,26 @@ pt_AllyAnimations:
                 dc.l AllyAnimation084
                 dc.l AllyAnimation085
                 dc.l AllyAnimation086
+				dc.l AllyAnimation087
+                dc.l AllyAnimation088
+                dc.l AllyAnimation089
+                dc.l AllyAnimation090
+				dc.l AllyAnimation091
+                dc.l AllyAnimation092
+                dc.l AllyAnimation093
+                dc.l AllyAnimation094
+                dc.l AllyAnimation095
+                dc.l AllyAnimation096
+				dc.l AllyAnimation097
+                dc.l AllyAnimation098
+                dc.l AllyAnimation099
+                dc.l AllyAnimation100
+                dc.l AllyAnimation101
+                dc.l AllyAnimation102
+                dc.l AllyAnimation103
+                dc.l AllyAnimation104
+                dc.l AllyAnimation105
+                dc.l AllyAnimation106
 AllyAnimation000:
                 incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation000.bin"
 AllyAnimation001:
@@ -263,3 +283,43 @@ AllyAnimation085:
                 incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation085.bin"
 AllyAnimation086:
                 incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation086.bin"
+AllyAnimation087:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation087.bin"
+AllyAnimation088:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation088.bin"
+AllyAnimation089:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation089.bin"
+AllyAnimation090:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation090.bin"
+AllyAnimation091:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation091.bin"
+AllyAnimation092:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation092.bin"
+AllyAnimation093:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation093.bin"
+AllyAnimation094:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation094.bin"
+AllyAnimation095:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation095.bin"
+AllyAnimation096:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation096.bin"				
+AllyAnimation097:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation097.bin"
+AllyAnimation098:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation098.bin"
+AllyAnimation099:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation099.bin"
+AllyAnimation100:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation100.bin"
+AllyAnimation101:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation101.bin"
+AllyAnimation102:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation102.bin"
+AllyAnimation103:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation103.bin"
+AllyAnimation104:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation104.bin"
+AllyAnimation105:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation105.bin"
+AllyAnimation106:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation106.bin"

@@ -40,6 +40,18 @@ pt_AllyBattlesprites:
 				dc.l AllyBattleSprite35
 				dc.l AllyBattleSprite36
 				dc.l AllyBattleSprite37
+				dc.l AllyBattleSprite38
+				dc.l AllyBattleSprite39
+				dc.l AllyBattlesprite40
+                dc.l AllyBattlesprite41
+                dc.l AllyBattlesprite42
+                dc.l AllyBattlesprite43
+                dc.l AllyBattlesprite44
+                dc.l AllyBattlesprite45
+                dc.l AllyBattlesprite46
+                dc.l AllyBattlesprite47
+                dc.l AllyBattlesprite48
+                dc.l AllyBattlesprite49
 				
 AllyBattlesprite00:
                 incbin "data/graphics/battles/battlesprites/allies/allybattlesprite00.bin"
@@ -117,3 +129,28 @@ AllyBattleSprite36:
                 incbin "data/graphics/battles/battlesprites/allies/allybattlesprite36.bin"
 AllyBattleSprite37:
                 incbin "data/graphics/battles/battlesprites/allies/allybattlesprite37.bin"				
+AllyBattleSprite38:
+                incbin "data/graphics/battles/battlesprites/allies/allybattlesprite38.bin"
+AllyBattleSprite39:
+                incbin "data/graphics/battles/battlesprites/allies/allybattlesprite39.bin"
+AllyBattlesprite40:
+                incbin "data/graphics/battles/battlesprites/allies/allybattlesprite40.bin"
+AllyBattlesprite41:
+                incbin "data/graphics/battles/battlesprites/allies/allybattlesprite41.bin"
+AllyBattlesprite42:
+                incbin "data/graphics/battles/battlesprites/allies/allybattlesprite42.bin"
+AllyBattlesprite43:
+                incbin "data/graphics/battles/battlesprites/allies/allybattlesprite43.bin"
+AllyBattlesprite44:
+                incbin "data/graphics/battles/battlesprites/allies/allybattlesprite44.bin"
+AllyBattlesprite45:
+                incbin "data/graphics/battles/battlesprites/allies/allybattlesprite45.bin"
+AllyBattlesprite46:
+                incbin "data/graphics/battles/battlesprites/allies/allybattlesprite46.bin"
+AllyBattlesprite47:
+                incbin "data/graphics/battles/battlesprites/allies/allybattlesprite47.bin"
+AllyBattlesprite48:
+                incbin "data/graphics/battles/battlesprites/allies/allybattlesprite48.bin"
+AllyBattlesprite49:
+                incbin "data/graphics/battles/battlesprites/allies/allybattlesprite49.bin"
+				

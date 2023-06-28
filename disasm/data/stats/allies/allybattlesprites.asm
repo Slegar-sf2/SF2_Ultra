@@ -95,7 +95,7 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt BRN, BRN, 2
                 
 ; 17: TYRIN
-                allyBattleSprAndPlt MAGE, MAGE, 1
+                allyBattleSprAndPlt MAGE, 38, 0
                 allyBattleSprAndPlt WIZ, WIZ, 1
                 allyBattleSprAndPlt SORC, SORC_MALE, 1
                 
