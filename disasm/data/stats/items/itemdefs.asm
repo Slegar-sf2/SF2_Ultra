@@ -578,7 +578,7 @@ tbl_ItemDefs:
                 ; 50: Great Shot
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        2, 3
+                range        2, 6
                 price        5000
                 itemType     WEAPON
                 useSpell     NOTHING
@@ -587,7 +587,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 51: Nazca Cannon
-                equipFlags   SNIP|BRGN|BWNT
+                equipFlags   BRGN|BWNT
                 equipFlags2  NONE
                 range        2, 3
                 price        3000
@@ -598,7 +598,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 52: Buster Shot
-                equipFlags   SNIP|BRGN|BWNT
+                equipFlags   BRGN|BWNT
                 equipFlags2  NONE
                 range        2, 3
                 price        6800
@@ -609,7 +609,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 53: Hyper Cannon
-                equipFlags   SNIP|BRGN|BWNT
+                equipFlags   BRGN|BWNT
                 equipFlags2  NONE
                 range        2, 3
                 price        8700
@@ -620,7 +620,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 54: Grand Cannon
-                equipFlags   SNIP|BRGN|BWNT
+                equipFlags   BRGN|BWNT
                 equipFlags2  NONE
                 range        2, 3
                 price        9800
@@ -631,7 +631,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 55: Evil Shot
-                equipFlags   SNIP|BRGN|BWNT
+                equipFlags   BRGN|BWNT
                 equipFlags2  NONE
                 range        2, 3
                 price        13000

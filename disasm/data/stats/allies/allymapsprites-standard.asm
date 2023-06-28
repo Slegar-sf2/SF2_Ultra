@@ -72,7 +72,7 @@ tbl_AllyMapSprites:
 ; 12: DEANNA
                 mapSprite DEANNA_BASE
                 mapSprite DEANNA_PROMO
-                mapSprite DEANNA_SPECIAL
+                mapSprite DEFAULT
                 
 ; 13: Elric
                 mapSprite ELRIC_BASE

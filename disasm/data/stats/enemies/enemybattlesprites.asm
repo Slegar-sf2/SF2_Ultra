@@ -111,3 +111,4 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 83, 0 ; 100: Incubus
                 enemyBattleSprAndPlt 86, 0 ; 101:MAGE
                 enemyBattleSprAndPlt SHAMAN, 1 ; 102: BLUE SHAMAN
+				enemyBattleSprAndPlt 103, 0 ; 103: Artileria

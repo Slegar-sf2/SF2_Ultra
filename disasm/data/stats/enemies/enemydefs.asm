@@ -2608,4 +2608,29 @@ tbl_EnemyDefs:
                 initialStatus NONE
                 moveType      HEALER
                 unknownWord   12288
+				
+				unknownByte 0          ; 103: Artileria
+                spellPower ENHANCED
+                level    33
+                maxHp    61
+                maxMp    0
+                baseAtt  44
+                baseDef  55
+                baseAgi  44
+                baseMov  3
+                baseResistance NONE
+                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN32
+                items &
+                    GREAT_SHOT|EQUIPPED, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      CENTAUR_ARCHER
+                unknownWord   8208
                     

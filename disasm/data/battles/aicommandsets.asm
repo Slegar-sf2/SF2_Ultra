@@ -107,6 +107,7 @@ AiCommandset13:
                              SPECIAL_MOVE2, &
                              MOVE3, &
                              STAY
+						 
 AiCommandset15: 
                 aiCommandset SPECIAL_MOVE, &
                              ATTACK3, &
