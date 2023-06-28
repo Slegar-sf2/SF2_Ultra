@@ -108,7 +108,7 @@ tbl_EnemyMapSprites:
                 mapSprite INCUBUS       ; 100: INCUBUS
                 mapSprite MAGE          ; 101: MAGE
                 mapSprite BLUE_SHAMAN   ; 102: BLUE SHAMAN
-                mapSprite ARTILERIA     ;103: Artileria
+                mapSprite ARTILERY      ;103: Artileria
                 mapSprite FILLER7                
                 mapSprite NPC_ROHDE
                 mapSprite FLAME1

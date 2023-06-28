@@ -166,7 +166,7 @@ tbl_EnemyDefs:
                 maxMp    27
                 baseAtt  24
                 baseDef  20
-                baseAgi  12
+                baseAgi  15
                 baseMov  6
                 baseResistance FIRE_MAJOR|ICE_WEAKNESS
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN8|COUNTER_1IN16
@@ -2609,17 +2609,17 @@ tbl_EnemyDefs:
                 moveType      HEALER
                 unknownWord   12288
 				
-				unknownByte 0          ; 103: Artileria
+				unknownByte 0          ; 103: ARTILERY
                 spellPower ENHANCED
-                level    33
-                maxHp    61
+                level    8
+                maxHp    34
                 maxMp    0
-                baseAtt  44
-                baseDef  55
-                baseAgi  44
+                baseAtt  25
+                baseDef  18
+                baseAgi  20
                 baseMov  3
-                baseResistance NONE
-                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN32
+                baseResistance FIRE_WEAKNESS
+                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN8|COUNTER_1IN8
                 items &
                     GREAT_SHOT|EQUIPPED, &
                     NOTHING, &

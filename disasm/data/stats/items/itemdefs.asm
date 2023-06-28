@@ -582,7 +582,7 @@ tbl_ItemDefs:
                 price        5000
                 itemType     WEAPON
                 useSpell     NOTHING
-                equipEffects INCREASE_ATT, 29, &
+                equipEffects INCREASE_ATT, 10, &
                              NONE, 0, &
                              NONE, 0
                 
