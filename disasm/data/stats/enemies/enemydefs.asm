@@ -184,7 +184,7 @@ tbl_EnemyDefs:
                 moveType      MAGE
                 unknownWord   8224
                     
-                unknownByte 6           ; 6: DARK DWARF
+                unknownByte 7           ; 6: DARK DWARF
                 spellPower REGULAR
                 level    7
                 maxHp    32
@@ -209,12 +209,12 @@ tbl_EnemyDefs:
                 moveType      REGULAR
                 unknownWord   8224
                     
-                unknownByte 7           ; 7: HOBGOBLIN
+                unknownByte 8           ; 7: HOBGOBLIN
                 spellPower REGULAR
                 level    9
                 maxHp    36
                 maxMp    0
-                baseAtt  20
+                baseAtt  23
                 baseDef  26
                 baseAgi  19
                 baseMov  5
@@ -237,7 +237,7 @@ tbl_EnemyDefs:
                 unknownByte 8           ; 8: ZOMBIE
                 spellPower REGULAR
                 level    11
-                maxHp    33
+                maxHp    39
                 maxMp    0
                 baseAtt  37
                 baseDef  25
@@ -286,14 +286,14 @@ tbl_EnemyDefs:
                     
                 unknownByte 10          ; 10: KRAKEN LEG
                 spellPower REGULAR
-                level    14
-                maxHp    24
+                level    16
+                maxHp    32
                 maxMp    0
-                baseAtt  31
-                baseDef  26
+                baseAtt  42
+                baseDef  34
                 baseAgi  19
                 baseMov  6
-                baseResistance LIGHTNING_WEAKNESS|ICE_WEAKNESS|FIRE_MINOR
+                baseResistance LIGHTNING_WEAKNESS|ICE_MINOR|FIRE_WEAKNESS
                 baseProwess    CRITICAL150_1IN4|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -311,14 +311,14 @@ tbl_EnemyDefs:
                     
                 unknownByte 11          ; 11: SOULSOWER
                 spellPower REGULAR
-                level    16
-                maxHp    27
+                level    18
+                maxHp    47
                 maxMp    0
-                baseAtt  35
-                baseDef  32
+                baseAtt  50
+                baseDef  34
                 baseAgi  25
                 baseMov  4
-                baseResistance LIGHTNING_WEAKNESS
+                baseResistance LIGHTNING_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS
                 baseProwess    CRITICAL_STUN|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     NOTHING, &
@@ -1112,11 +1112,11 @@ tbl_EnemyDefs:
                 unknownByte 43          ; 43: GARGOYLE
                 spellPower REGULAR
                 level    15
-                maxHp    29
+                maxHp    44
                 maxMp    0
-                baseAtt  31
-                baseDef  23
-                baseAgi  21
+                baseAtt  44
+                baseDef  32
+                baseAgi  35
                 baseMov  6
                 baseResistance NONE
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
@@ -1512,11 +1512,11 @@ tbl_EnemyDefs:
                 unknownByte 59          ; 59: KRAKEN ARM
                 spellPower REGULAR
                 level    16
-                maxHp    30
+                maxHp    46
                 maxMp    0
-                baseAtt  34
-                baseDef  28
-                baseAgi  22
+                baseAtt  49
+                baseDef  36
+                baseAgi  26
                 baseMov  6
                 baseResistance NONE
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN32
@@ -1537,14 +1537,14 @@ tbl_EnemyDefs:
                 unknownByte 60          ; 60: ARROW LAUNCHER
                 spellPower REGULAR
                 level    17
-                maxHp    33
+                maxHp    43
                 maxMp    0
-                baseAtt  15
-                baseDef  24
+                baseAtt  30
+                baseDef  38
                 baseAgi  23
                 baseMov  4
                 baseResistance LIGHTNING_WEAKNESS|STATUS_MINOR
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
+                baseProwess    CRITICAL150_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     STEEL_ARROW|EQUIPPED, &
                     NOTHING, &
@@ -1986,11 +1986,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 78          ; 78: BLACK MONK
                 spellPower REGULAR
-                level    14
+                level    13
                 maxHp    54
                 maxMp    28
-                baseAtt  7
-                baseDef  18
+                baseAtt  9
+                baseDef  17
                 baseAgi  21
                 baseMov  6
                 baseResistance LIGHTNING_MINOR
@@ -2211,14 +2211,14 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 87: KRAKEN HEAD
                 spellPower REGULAR
-                level    18
-                maxHp    35
+                level    19
+                maxHp    80
                 maxMp    0
-                baseAtt  40
-                baseDef  29
+                baseAtt  60
+                baseDef  46
                 baseAgi  153
                 baseMov  5
-                baseResistance LIGHTNING_WEAKNESS|ICE_WEAKNESS|FIRE_MINOR|STATUS_MAJOR
+                baseResistance LIGHTNING_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS|STATUS_MAJOR
                 baseProwess    CRITICAL150_1IN4|DOUBLE_1IN8|COUNTER_1IN8
                 items &
                     NOTHING, &
@@ -2236,12 +2236,12 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 88: TAROS
                 spellPower REGULAR
-                level    20
-                maxHp    49
+                level    21
+                maxHp    92
                 maxMp    0
-                baseAtt  9
-                baseDef  32
-                baseAgi  151
+                baseAtt  46
+                baseDef  40
+                baseAgi  160
                 baseMov  0
                 baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN4|DOUBLE_1IN16|COUNTER_1IN8
@@ -2562,7 +2562,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 101: MAGE
                 spellPower REGULAR
                 level    13
-                maxHp    52
+                maxHp    50
                 maxMp    28
                 baseAtt  4
                 baseDef  18

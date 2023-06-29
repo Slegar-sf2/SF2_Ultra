@@ -64,11 +64,13 @@ Upper two bits indicate spell level
 &H5D, Dao 2
 &H1E, Apollo 1
 &H5E, Apollo 2
+&H9E, Apollo 2
 &H1F, Neptune 1
 &H5F, Neptune 2
 &H9F, Neptune 3
 &H20, Atlas 1
 &H60, Atlas 2
+&HA0, Atlas 3
 &H11, Flame Breath
 &H51, Flame Breath 2
 &H91, Flame Breath 3
@@ -100,6 +102,7 @@ Upper two bits indicate spell level
 &H26, ICE
 &H66, ICE 2
 &HA6, ICE 3
+&HE6, ICE 4
 &H27, Holy Thunder
 &H2A, Right of Hope
 &H37, Freeze Game

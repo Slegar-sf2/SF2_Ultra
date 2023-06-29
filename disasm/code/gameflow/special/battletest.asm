@@ -29,7 +29,7 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
                 moveq   #ALLY_LUKE,d0
                 bsr.w   j_JoinForce
-				moveq   #ALLY_DEANNA,d0
+				moveq   #ALLY_SHADE,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_ROHDE,d0
                 bsr.w   j_JoinForce                
@@ -68,7 +68,7 @@ DebugModeBattleTest:
                 moveq   #ALLY_CLAUDE,d0
                 bsr.w   j_JoinForce
             if (STANDARD_BUILD&EXPANDED_FORCE_MEMBERS=1)
-                moveq   #30,d0
+                moveq   #ALLY_SHADE,d0
                 bsr.w   JoinForce
                 moveq   #31,d0
                 bsr.w   JoinForce

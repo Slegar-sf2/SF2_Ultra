@@ -12,6 +12,5 @@ tbl_AllyBattlespriteIdleAnimate:
                 allyBattleSprite SORC_MALE
                 allyBattleSprite WIZ
                 allyBattleSprite GLM
-                allyBattleSprite VICR
                 
                 tableEnd.b

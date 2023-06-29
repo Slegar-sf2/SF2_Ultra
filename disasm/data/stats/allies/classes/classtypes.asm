@@ -35,8 +35,7 @@ tbl_ClassTypes:
                 classType PROMO         ; 28: MNST
                 classType PROMO         ; 29: RBT
                 classType PROMO         ; 30: GLM
-                classType REDBARON      ; 31: RDBN
-                
+                classType REDBARON      ; 31: RDBN               
             if (STANDARD_BUILD&EXPANDED_CLASSES=1)
                 classType BASE          ; 32: SWOR
                 classType PROMO         ; 33: STAR

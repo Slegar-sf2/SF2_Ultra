@@ -49,6 +49,8 @@ tbl_AttackPriority_Regular:
                 dc.b CLASS_GLM
                 dc.b CLASS_TORT
                 dc.b CLASS_MNST
+				dc.b CLASS_SWOR
+				dc.b CLASS_STAR
                 
 tbl_AttackPriority_Mage:
                 dc.b CLASS_SDMN
@@ -83,6 +85,8 @@ tbl_AttackPriority_Mage:
                 dc.b CLASS_PHNX
                 dc.b CLASS_PGNT
                 dc.b CLASS_BDBT
+				dc.b CLASS_SWOR
+				dc.b CLASS_STAR
                 
 tbl_AttackPriority_Archer:
                 dc.b CLASS_BDMN
@@ -117,6 +121,8 @@ tbl_AttackPriority_Archer:
                 dc.b CLASS_GLM
                 dc.b CLASS_TORT
                 dc.b CLASS_MNST
+				dc.b CLASS_SWOR
+				dc.b CLASS_STAR
                 
 tbl_AttackPriority_Flying:
                 dc.b CLASS_SDMN
@@ -151,6 +157,8 @@ tbl_AttackPriority_Flying:
                 dc.b CLASS_SNIP
                 dc.b CLASS_BWNT
                 dc.b CLASS_BRGN
+				dc.b CLASS_SWOR
+				dc.b CLASS_STAR
                 dc.b CLASS_NONE
                 
 pt_AttackPriorityForMoveType:

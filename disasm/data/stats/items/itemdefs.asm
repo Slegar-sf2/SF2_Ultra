@@ -213,7 +213,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 17: Helmet
-                equipFlags   SDMN|HERO|PLDN|PGNT|GLDT|BRN|SNIP|BRGN|BDBT|WFBR|BWNT|PHNX|NINJ|MNST|RBT|GLM|RDBN
+                equipFlags   SDMN|HERO|PLDN|PGNT|WARR|GLDT|BRN|ACHR|SNIP|BDMN|BDBT|WFMN|WFBR|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN|SWOR|STAR
                 equipFlags2  NONE
                 range        0, 0
                 price        199
@@ -1236,13 +1236,13 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 110: Taros Sword
-                equipFlags   HERO|STAR
+                equipFlags   SDMN|HERO|STAR
                 equipFlags2  NONE
                 range        1, 2
                 price        10000
                 itemType     WEAPON|RARE|BREAKABLE
                 useSpell     BOLT|LV2
-                equipEffects INCREASE_ATT, 32, &
+                equipEffects INCREASE_ATT, 24, &
                              NONE, 0, &
                              NONE, 0
                 

@@ -16,7 +16,7 @@ tbl_AllyBattlesprites:
                 
 ; 1: SARAH
                 allyBattleSprAndPlt PRST, PRST, 0
-                allyBattleSprAndPlt VICR, VICR, 1
+                allyBattleSprAndPlt VICR, 25, 0
                 allyBattleSprAndPlt MMNK, MMNK, 1
                 
 ; 2: CHESTER
@@ -120,7 +120,7 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 22: FRAYJA
-                allyBattleSprAndPlt VICR, VICR, 0
+                allyBattleSprAndPlt VICR, 6, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 
@@ -167,7 +167,7 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 31: 
-                allyBattleSprAndPlt RDBN, SDMN, 0
+                allyBattleSprAndPlt NONE, 0, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 

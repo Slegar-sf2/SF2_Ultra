@@ -22,20 +22,19 @@ AllyStats00:
                 
                 forClass  SDMN
                 hpGrowth  9, 50, LINEAR
-                mpGrowth  98, 16, EARLY
+                mpGrowth  8, 16, EARLY
                 attGrowth 6, 40, LINEAR
                 defGrowth 6, 38, LINEAR
                 agiGrowth 4, 32, EARLY
-                spellList &
-                    1, FREEZE|LV4, &
+                spellList &                    
                     1, BOLT, &
                     18, BOLT|LV2, &
                     32, BOLT|LV3, &
-                    45, BOLT|LV4
+                    45, BOLT|LV4					
                     
                 forClass  HERO
-                hpGrowth  42, 102, LINEAR
-                mpGrowth  14, 25, EARLY
+                hpGrowth  50, 120, LINEAR
+                mpGrowth  16, 32, EARLY
                 attGrowth 28, 57, LINEAR
                 defGrowth 25, 93, LINEAR
                 agiGrowth 24, 57, EARLYANDLATE

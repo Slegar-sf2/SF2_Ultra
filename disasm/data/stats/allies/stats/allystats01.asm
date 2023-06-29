@@ -24,18 +24,18 @@ AllyStats01:    forClass  PRST
                     45, DETOX|LV4
                     
                 forClass  VICR
-                hpGrowth  30, 84, LINEAR
-                mpGrowth  23, 40, LINEAR
-                attGrowth 19, 34, LINEAR
-                defGrowth 18, 59, LINEAR
-                agiGrowth 22, 61, MIDDLE
+                hpGrowth  42, 90, LINEAR
+                mpGrowth  24, 60, LINEAR
+                attGrowth 26, 34, LINEAR
+                defGrowth 25, 65, LINEAR
+                agiGrowth 31, 61, MIDDLE
                 useFirstSpellList
                     
                 forClass  MMNK
-                hpGrowth  30, 84, LINEAR
-                mpGrowth  23, 40, LINEAR
-                attGrowth 19, 50, LINEAR
-                defGrowth 18, 69, LATE
-                agiGrowth 22, 61, MIDDLE
+                hpGrowth  42, 95, LINEAR
+                mpGrowth  24, 40, LINEAR
+                attGrowth 26, 50, LINEAR
+                defGrowth 25, 80, LATE
+                agiGrowth 31, 61, MIDDLE
                 useFirstSpellList
                     
