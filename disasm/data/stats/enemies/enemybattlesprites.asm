@@ -21,10 +21,10 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt KRAKEN_LEG, 0 ; 10: KRAKEN LEG
                 enemyBattleSprAndPlt SOULSOWER, 0 ; 11: SOULSOWER
                 enemyBattleSprAndPlt ORC, 0 ; 12: ORC
-                enemyBattleSprAndPlt SOLDIER, 1 ; 13: PAWN
-                enemyBattleSprAndPlt KNIGHT, 1 ; 14: KNIGHT
-                enemyBattleSprAndPlt RAT, 1 ; 15: RAT
-                enemyBattleSprAndPlt OOZE, 2 ; 16: BUBBLING OOZE
+                enemyBattleSprAndPlt 109, 0 ; 13: PAWN
+                enemyBattleSprAndPlt 110, 0 ; 14: KNIGHT
+                enemyBattleSprAndPlt RAT, 2 ; 15: RAT
+                enemyBattleSprAndPlt 80, 0 ; 16: CHIMERA
                 enemyBattleSprAndPlt SKELETON, 0 ; 17: SKELETON
                 enemyBattleSprAndPlt DWARF, 1 ; 18: DARK SOLDIER
                 enemyBattleSprAndPlt LIZARDMAN, 0 ; 19: LIZARDMAN
@@ -69,7 +69,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 101, 0   ; 58: DEATH ARCHER
                 enemyBattleSprAndPlt KRAKEN_ARM, 0 ; 59: KRAKEN ARM
                 enemyBattleSprAndPlt ARROW_LAUNCHER, 0 ; 60: ARROW LAUNCHER
-                enemyBattleSprAndPlt ARROW_LAUNCHER, 1 ; 61: ROOK
+                enemyBattleSprAndPlt 107, 0 ; 61: ROOK
                 enemyBattleSprAndPlt HUNTER_GOBLIN, 1 ; 62: DARK SNIPER
                 enemyBattleSprAndPlt ARCHER, 2 ; 63: BOW MASTER
                 enemyBattleSprAndPlt BOW_RIDER, 0 ; 64: BOW RIDER
@@ -78,8 +78,8 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 56, 0 ; 67: GALAM DWARF
                 enemyBattleSprAndPlt WITCH, 0 ; 68: WITCH
                 enemyBattleSprAndPlt MAGE, 1 ; 69: MASTER MAGE
-                enemyBattleSprAndPlt WITCH, 1 ; 70: DARK MADAM
-                enemyBattleSprAndPlt WITCH, 2 ; 71: QUEEN
+                enemyBattleSprAndPlt 87, 0  ; 70: DARK MADAM
+                enemyBattleSprAndPlt 108, 0 ; 71: QUEEN
                 enemyBattleSprAndPlt WIZARD, 0 ; 72: WIZARD
                 enemyBattleSprAndPlt NECROMANCER, 0 ; 73: NECROMANCER
                 enemyBattleSprAndPlt WIZARD, 1 ; 74: CHAOS WIZARD
@@ -88,7 +88,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt MONK, 0 ; 77: DEATH MONK
                 enemyBattleSprAndPlt 85, 0 ; 78: BLACK MONK
                 enemyBattleSprAndPlt CLERIC, 1 ; 79: HIGH PRIEST
-                enemyBattleSprAndPlt BISHOP, 0 ; 80: EVIL BISHOP
+                enemyBattleSprAndPlt 111, 0 ; 80: BISHOP
                 enemyBattleSprAndPlt BISHOP, 1 ; 81: DARK BISHOP
                 enemyBattleSprAndPlt MONK, 2 ; 82: MASTER MONK
                 enemyBattleSprAndPlt SHAMAN, 0 ; 83: SHAMAN
@@ -97,8 +97,8 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 55, 0 ; 86: Scavenger
                 enemyBattleSprAndPlt KRAKEN_HEAD, 0 ; 87: KRAKEN HEAD
                 enemyBattleSprAndPlt TAROS, 0 ; 88: TAROS
-                enemyBattleSprAndPlt KING, 1 ; 89: KING
-                enemyBattleSprAndPlt RAT, 2 ; 90: WILLARD
+                enemyBattleSprAndPlt 106, 0 ; 89: KING
+                enemyBattleSprAndPlt 112, 0 ; 90: WILLARD
                 enemyBattleSprAndPlt ZALBARD, 0 ; 91: ZALBARD
                 enemyBattleSprAndPlt CAMEELA, 0 ; 92: CAMEELA
                 enemyBattleSprAndPlt PRISM_FLOWER, 0 ; 93: PRISM FLOWER

@@ -73,7 +73,7 @@ BattleSpriteset23:
                 combatantAiAndItem ATTACKER3, NOTHING
                 combatantBehavior FOLLOW_ENEMY|0, 15, NONE, 15, 0, STARTING
                 
-                enemyCombatant BUBBLING_OOZE, 17, 1
+                enemyCombatant CHIMERA, 17, 1
                 combatantAiAndItem ATTACKER2, NOTHING
                 combatantBehavior FOLLOW_TARGET|0, 0, NONE, 15, 0, STARTING
                 
@@ -81,7 +81,7 @@ BattleSpriteset23:
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior FOLLOW_TARGET|0, 0, NONE, 15, 0, STARTING
                 
-                enemyCombatant BUBBLING_OOZE, 15, 2
+                enemyCombatant CHIMERA, 15, 2
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior FOLLOW_TARGET|0, 0, NONE, 15, 0, STARTING
                 
@@ -89,11 +89,11 @@ BattleSpriteset23:
                 combatantAiAndItem ATTACKER2, NOTHING
                 combatantBehavior FOLLOW_TARGET|0, 0, NONE, 15, 0, STARTING
                 
-                enemyCombatant BUBBLING_OOZE, 22, 13
+                enemyCombatant CHIMERA, 22, 13
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior FOLLOW_TARGET|0, 0, NONE, 15, 0, STARTING
                 
-                enemyCombatant BUBBLING_OOZE, 20, 14
+                enemyCombatant CHIMERA, 20, 14
                 combatantAiAndItem ATTACKER2, NOTHING
                 combatantBehavior NONE, 0, NONE, 15, 0, STARTING
                 
@@ -101,11 +101,11 @@ BattleSpriteset23:
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 15, NONE, 15, 0, STARTING
                 
-                enemyCombatant BUBBLING_OOZE, 9, 10
+                enemyCombatant CHIMERA, 9, 10
                 combatantAiAndItem ATTACKER3, NOTHING
                 combatantBehavior FOLLOW_ENEMY|9, 15, NONE, 15, 0, STARTING
                 
-                enemyCombatant BUBBLING_OOZE, 5, 12
+                enemyCombatant CHIMERA, 5, 12
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 15, NONE, 15, 0, STARTING
                 

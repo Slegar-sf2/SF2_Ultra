@@ -61,7 +61,7 @@ BattleSpriteset44:
                 combatantBehavior NONE, 15, NONE, 15, 0, STARTING
                 
                 ; Enemies
-                enemyCombatant BUBBLING_OOZE, 9, 2
+                enemyCombatant CHIMERA, 9, 2
                 combatantAiAndItem LEADER, NOTHING
                 combatantBehavior MOVE_TO|0, 15, NONE, 15, 0, STARTING
                 

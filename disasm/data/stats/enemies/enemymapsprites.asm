@@ -21,7 +21,7 @@ tbl_EnemyMapSprites:
                 mapSprite PAWN          ; 13: PAWN
                 mapSprite KNIGHT        ; 14: KNIGHT
                 mapSprite RAT           ; 15: RAT
-                mapSprite BUBBLING_OOZE ; 16: BUBBLING OOZE
+                mapSprite CHIMERA       ; 16: CHIMERA
                 mapSprite SKELETON      ; 17: SKELETON
                 mapSprite DARK_SOLDIER  ; 18: DARK SOLDIER
                 mapSprite LIZARDMAN     ; 19: LIZARDMAN

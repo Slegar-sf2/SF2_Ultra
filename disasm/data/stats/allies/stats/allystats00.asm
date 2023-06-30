@@ -23,8 +23,8 @@ AllyStats00:
                 forClass  SDMN
                 hpGrowth  9, 50, LINEAR
                 mpGrowth  8, 16, EARLY
-                attGrowth 6, 40, LINEAR
-                defGrowth 6, 38, LINEAR
+                attGrowth 6, 41, LINEAR
+                defGrowth 6, 39, LINEAR
                 agiGrowth 4, 32, EARLY
                 spellList &                    
                     1, BOLT, &
@@ -35,8 +35,8 @@ AllyStats00:
                 forClass  HERO
                 hpGrowth  50, 120, LINEAR
                 mpGrowth  16, 32, EARLY
-                attGrowth 28, 57, LINEAR
-                defGrowth 25, 93, LINEAR
-                agiGrowth 24, 57, EARLYANDLATE
+                attGrowth 41, 57, LINEAR
+                defGrowth 39, 93, LINEAR
+                agiGrowth 32, 57, EARLYANDLATE
                 useFirstSpellList
                 

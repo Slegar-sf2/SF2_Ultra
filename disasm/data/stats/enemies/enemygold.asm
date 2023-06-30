@@ -17,7 +17,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 250                ; PAWN
                 dc.w 340                ; KNIGHT
                 dc.w 300                ; RAT
-                dc.w 330                ; BUBBLING OOZE
+                dc.w 330                ; CHIMERA
                 dc.w 350                ; SKELETON
                 dc.w 410                ; DARK SOLDIER
                 dc.w 430                ; LIZARDMAN

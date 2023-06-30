@@ -17,7 +17,7 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
                 moveq   #ALLY_KAZIN,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_SLADE,d0
+                moveq   #ALLY_RUCE,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_NATASHA,d0
                 bsr.w   j_JoinForce

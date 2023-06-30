@@ -16,9 +16,9 @@ AllyStats12:    forClass  SWOR
                 forClass  STAR
                 hpGrowth  45, 116, LINEAR
                 mpGrowth  16, 36, EARLY
-                attGrowth 28, 57, LINEAR
-                defGrowth 25, 93, LINEAR
-                agiGrowth 24, 57, EARLYANDLATE
+                attGrowth 40, 57, LINEAR
+                defGrowth 42, 93, LINEAR
+                agiGrowth 32, 57, EARLYANDLATE
                 useFirstSpellList
                 
                 

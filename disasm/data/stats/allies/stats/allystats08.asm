@@ -2,7 +2,7 @@
 ; ASM FILE data\stats\allies\stats\allystats08.asm :
 ; 0x1EE498..0x1EE4BA : Ally stats 08
 AllyStats08:    forClass  RNGR
-                hpGrowth  9, 55, LINEAR
+                hpGrowth  9, 52, LINEAR
                 mpGrowth  0, 0, NONE
                 attGrowth 8, 38, LINEAR
                 defGrowth 4, 28, LINEAR
@@ -10,7 +10,7 @@ AllyStats08:    forClass  RNGR
                 spellList 
                     
                 forClass  BWNT
-                hpGrowth  55, 100, LINEAR
+                hpGrowth  52, 100, LINEAR
                 mpGrowth  0, 0, NONE
                 attGrowth 38, 45, LINEAR
                 defGrowth 28, 72, LINEAR

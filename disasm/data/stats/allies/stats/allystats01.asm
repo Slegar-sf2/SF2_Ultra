@@ -2,7 +2,7 @@
 ; ASM FILE data\stats\allies\stats\allystats01.asm :
 ; 0x1EE31C..0x1EE36B : Ally stats 01
 AllyStats01:    forClass  PRST
-                hpGrowth  12, 42, LINEAR
+                hpGrowth  12, 52, LINEAR
                 mpGrowth  10, 24, EARLY
                 attGrowth 6, 26, LINEAR
                 defGrowth 4, 25, LINEAR
@@ -24,7 +24,7 @@ AllyStats01:    forClass  PRST
                     45, DETOX|LV4
                     
                 forClass  VICR
-                hpGrowth  42, 90, LINEAR
+                hpGrowth  52, 90, LINEAR
                 mpGrowth  24, 60, LINEAR
                 attGrowth 26, 34, LINEAR
                 defGrowth 25, 65, LINEAR
@@ -32,7 +32,7 @@ AllyStats01:    forClass  PRST
                 useFirstSpellList
                     
                 forClass  MMNK
-                hpGrowth  42, 95, LINEAR
+                hpGrowth  52, 95, LINEAR
                 mpGrowth  24, 40, LINEAR
                 attGrowth 26, 50, LINEAR
                 defGrowth 25, 80, LATE

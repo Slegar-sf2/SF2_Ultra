@@ -334,19 +334,19 @@ tbl_EnemyDefs:
                 moveType      REGULAR
                 unknownWord   8224
                     
-                unknownByte 12          ; 12: ORC
+                unknownByte 0          ; 12: ORC
                 spellPower REGULAR
-                level    17
-                maxHp    30
+                level    20
+                maxHp    53
                 maxMp    0
-                baseAtt  22
-                baseDef  37
+                baseAtt  34
+                baseDef  52
                 baseAgi  27
                 baseMov  5
                 baseResistance NONE
-                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
+                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN4
                 items &
-                    STEEL_LANCE|EQUIPPED, &
+                    SPEAR|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -361,11 +361,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 13          ; 13: PAWN
                 spellPower ENHANCED
-                level    19
-                maxHp    36
+                level    23
+                maxHp    50
                 maxMp    0
-                baseAtt  26
-                baseDef  37
+                baseAtt  36
+                baseDef  45
                 baseAgi  25
                 baseMov  6
                 baseResistance STATUS_IMMUNITY
@@ -386,15 +386,15 @@ tbl_EnemyDefs:
                     
                 unknownByte 14          ; 14: KNIGHT
                 spellPower ENHANCED
-                level    20
-                maxHp    48
+                level    24
+                maxHp    72
                 maxMp    0
-                baseAtt  25
-                baseDef  34
-                baseAgi  29
+                baseAtt  45
+                baseDef  50
+                baseAgi  50
                 baseMov  7
                 baseResistance STATUS_IMMUNITY
-                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN16|COUNTER_1IN16
+                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN4|COUNTER_1IN16
                 items &
                     POWER_SPEAR|EQUIPPED, &
                     NOTHING, &
@@ -434,42 +434,42 @@ tbl_EnemyDefs:
                 moveType      STEALTH
                 unknownWord   8224
                     
-                unknownByte 16          ; 16: BUBBLING OOZE
+                unknownByte 16          ; 16: CHIMERA
                 spellPower REGULAR
-                level    21
-                maxHp    32
+                level    26
+                maxHp    63
                 maxMp    0
-                baseAtt  38
-                baseDef  35
-                baseAgi  26
-                baseMov  4
-                baseResistance ICE_MAJOR|FIRE_WEAKNESS
-                baseProwess    CRITICAL_SILENCE|DOUBLE_1IN32|COUNTER_1IN16
+                baseAtt  67
+                baseDef  50
+                baseAgi  40
+                baseMov  6
+                baseResistance ICE_WEAKNESS|FIRE_MAJOR
+                baseProwess    CRITICAL_SILENCE|DOUBLE_1IN32|COUNTER_1IN4
                 items &
                     NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    AQUA|LV2, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
-                moveType      REGULAR
+                moveType      FLYING
                 unknownWord   8224
                     
                 unknownByte 17          ; 17: SKELETON
                 spellPower ENHANCED
-                level    21
-                maxHp    30
+                level    22
+                maxHp    62
                 maxMp    0
-                baseAtt  26
-                baseDef  40
-                baseAgi  30
+                baseAtt  41
+                baseDef  49
+                baseAgi  33
                 baseMov  6
-                baseResistance WIND_WEAKNESS|LIGHTNING_MINOR|ICE_MAJOR|FIRE_WEAKNESS|STATUS_IMMUNITY
-                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
+                baseResistance WIND_WEAKNESS|LIGHTNING_MAJOR|ICE_WEAKNESS|FIRE_WEAKNESS|STATUS_IMMUNITY
+                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN8|COUNTER_1IN16
                 items &
                     BROAD_SWORD|EQUIPPED, &
                     NOTHING, &
@@ -1136,12 +1136,12 @@ tbl_EnemyDefs:
                     
                 unknownByte 44          ; 44: HARPY
                 spellPower REGULAR
-                level    17
-                maxHp    32
-                maxMp    10
-                baseAtt  39
-                baseDef  38
-                baseAgi  29
+                level    22
+                maxHp    57
+                maxMp    22
+                baseAtt  59
+                baseDef  46
+                baseAgi  40
                 baseMov  7
                 baseResistance WIND_WEAKNESS|FIRE_WEAKNESS
                 baseProwess    CRITICAL_POISON|DOUBLE_1IN32|COUNTER_1IN32
@@ -1151,7 +1151,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    DISPEL, &
+                    BLAST|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1561,15 +1561,15 @@ tbl_EnemyDefs:
                     
                 unknownByte 61          ; 61: ROOK
                 spellPower REGULAR
-                level    19
-                maxHp    40
+                level    24
+                maxHp    74
                 maxMp    0
-                baseAtt  22
-                baseDef  31
-                baseAgi  27
+                baseAtt  48
+                baseDef  54
+                baseAgi  29
                 baseMov  4
                 baseResistance LIGHTNING_WEAKNESS|STATUS_IMMUNITY
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN32
+                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN8
                 items &
                     ROBIN_ARROW|EQUIPPED, &
                     NOTHING, &
@@ -1786,14 +1786,14 @@ tbl_EnemyDefs:
                     
                 unknownByte 70          ; 70: DARK MADAM
                 spellPower REGULAR
-                level    17
-                maxHp    29
-                maxMp    17
-                baseAtt  19
+                level    20
+                maxHp    70
+                maxMp    50
+                baseAtt  26
                 baseDef  31
-                baseAgi  29
-                baseMov  6
-                baseResistance ICE_MINOR
+                baseAgi  34
+                baseMov  5
+                baseResistance ICE_MAJOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     POWER_STICK|EQUIPPED, &
@@ -1801,7 +1801,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    FREEZE|LV2, &
+                    ICE|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1811,13 +1811,13 @@ tbl_EnemyDefs:
                     
                 unknownByte 71          ; 71: QUEEN
                 spellPower ENHANCED
-                level    20
-                maxHp    30
-                maxMp    26
-                baseAtt  25
-                baseDef  36
-                baseAgi  35
-                baseMov  6
+                level    25
+                maxHp    95
+                maxMp    56
+                baseAtt  57
+                baseDef  47
+                baseAgi  55
+                baseMov  7
                 baseResistance ICE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
@@ -1826,7 +1826,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    FREEZE|LV2, &
+                    FREEZE|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2011,14 +2011,14 @@ tbl_EnemyDefs:
                     
                 unknownByte 79          ; 79: HIGH PRIEST
                 spellPower REGULAR
-                level    17
-                maxHp    30
-                maxMp    29
-                baseAtt  20
-                baseDef  31
+                level    19
+                maxHp    61
+                maxMp    42
+                baseAtt  28
+                baseDef  29
                 baseAgi  23
-                baseMov  5
-                baseResistance NONE
+                baseMov  6
+                baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     POWER_STICK|EQUIPPED, &
@@ -2027,21 +2027,21 @@ tbl_EnemyDefs:
                     NOTHING
                 spells &
                     HEAL|LV3, &
-                    BLAST|LV2, &
+                    RAIJIN|LV2, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
                 moveType      HEALER
                 unknownWord   12288
                     
-                unknownByte 80          ; 80: EVIL BISHOP
+                unknownByte 80          ; 80: BISHOP
                 spellPower ENHANCED
-                level    19
-                maxHp    33
-                maxMp    36
-                baseAtt  26
-                baseDef  37
-                baseAgi  25
+                level    24
+                maxHp    80
+                maxMp    54
+                baseAtt  44
+                baseDef  40
+                baseAgi  28
                 baseMov  5
                 baseResistance NONE
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
@@ -2052,7 +2052,7 @@ tbl_EnemyDefs:
                     NOTHING
                 spells &
                     HEAL|LV3, &
-                    BLAST|LV2, &
+                    BLAST|LV3, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
@@ -2261,22 +2261,22 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 89: KING
                 spellPower ENHANCED
-                level    24
-                maxHp    55
-                maxMp    28
-                baseAtt  29
-                baseDef  40
-                baseAgi  161
-                baseMov  6
-                baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
-                baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN16
+                level    26
+                maxHp    110
+                maxMp    60
+                baseAtt  40
+                baseDef  55
+                baseAgi  165
+                baseMov  2
+                baseResistance WIND_WEAKNESS|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
+                baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN4
                 items &
                     FREEZE_STAFF|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    BLAZE|LV2, &
+                    BLAZE|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
