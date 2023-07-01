@@ -81,11 +81,11 @@ BattleSpriteset44:
                 combatantAiAndItem ATTACKER2, NOTHING
                 combatantBehavior NONE, 3, NONE, 15, 0, HIDDEN
                 
-                enemyCombatant LESSER_DEMON, 13, 8
+                enemyCombatant DRAGON, 13, 8
                 combatantAiAndItem ATTACKER2, NOTHING
                 combatantBehavior NONE, 4, NONE, 15, 0, HIDDEN
                 
-                enemyCombatant LESSER_DEMON, 6, 10
+                enemyCombatant DRAGON, 6, 10
                 combatantAiAndItem ATTACKER2, NOTHING
                 combatantBehavior NONE, 5, NONE, 15, 0, HIDDEN
                 
@@ -117,7 +117,7 @@ BattleSpriteset44:
                 combatantAiAndItem ATTACKER2, NOTHING
                 combatantBehavior NONE, 12, NONE, 15, 0, 3
                 
-                enemyCombatant LESSER_DEMON, 9, 23
+                enemyCombatant DRAGON, 9, 23
                 combatantAiAndItem ATTACKER2, NOTHING
                 combatantBehavior NONE, 13, NONE, 15, 0, 3
                 

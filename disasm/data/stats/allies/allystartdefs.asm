@@ -125,7 +125,7 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass KNTE         ; 14: ERIC
+                startClass KNTE         ; 14: APIS
                 startLevel 29
                 startItems &
                     STEEL_LANCE|EQUIPPED, &

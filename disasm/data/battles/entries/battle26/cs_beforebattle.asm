@@ -188,7 +188,7 @@ ce_4BC5A:       mainEntity 7,25,RIGHT
                 entity 6,26,RIGHT,ALLY_PETER,eas_Init
                 entity 18,14,UP,ALLY_HIGINS,eas_Init
                 entity 18,11,DOWN,MAPSPRITE_GESHP,eas_Init
-                entity 17,11,DOWN,MAPSPRITE_LESSER_DEMON,eas_Init
+                entity 17,11,DOWN,MAPSPRITE_DRAGON,eas_Init
                 entity 19,11,DOWN,MAPSPRITE_DARK_BISHOP,eas_Init
                 entity 20,10,DOWN,MAPSPRITE_LIZARDMAN,eas_Init
                 entity 63,63,DOWN,MAPSPRITE_BELIAL,eas_Init

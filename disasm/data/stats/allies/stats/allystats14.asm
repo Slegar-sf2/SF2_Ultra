@@ -17,11 +17,3 @@ AllyStats14:    forClass  KNTE
                 agiGrowth 23, 73, LATE
                 spellList 
                 
-                forClass  PGNT
-                hpGrowth  44, 100, LATE
-                mpGrowth  0, 0, NONE
-                attGrowth 28, 56, LATE
-                defGrowth 23, 84, LATE
-                agiGrowth 23, 69, LATE
-                spellList 
-                

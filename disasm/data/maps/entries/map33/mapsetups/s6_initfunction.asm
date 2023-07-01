@@ -67,7 +67,7 @@ byte_5ABEE:
                 bra.w   byte_5AC0C      
 cs_5AC04:
                 
-                setPos ALLY_ERIC,15,14,DOWN
+                setPos ALLY_APIS,15,14,DOWN
                 csc_end
 byte_5AC0C:
                 

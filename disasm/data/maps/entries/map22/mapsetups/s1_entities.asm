@@ -2,7 +2,7 @@
 ; ASM FILE data\maps\entries\map22\mapsetups\s1_entities.asm :
 ; 0x59310..0x59402 : 
 ms_map22_Entities:
-                msWalkingEntity 15, 14, DOWN, ALLY_ERIC, 15, 14, 1
+                msWalkingEntity 15, 14, DOWN, ALLY_APIS, 15, 14, 1
                 msFixedEntity 5, 15, DOWN, ALLY_KARNA, eas_Init
                 msFixedEntity 3, 6, DOWN, MAPSPRITE_CARAVAN, eas_Init
                 msFixedEntity 29, 21, RIGHT, MAPSPRITE_MAN2, eas_Init

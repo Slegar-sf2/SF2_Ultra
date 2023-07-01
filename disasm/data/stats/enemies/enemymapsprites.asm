@@ -50,7 +50,7 @@ tbl_EnemyMapSprites:
                 mapSprite BELIAL        ; 42: Belial
                 mapSprite GARGOYLE      ; 43: GARGOYLE
                 mapSprite HARPY         ; 44: HARPY
-                mapSprite LESSER_DEMON  ; 45: LESSER DEMON
+                mapSprite DRAGON        ; 45: DRAGON
                 mapSprite WYVERN        ; 46: WYVERN
                 mapSprite HARPY_QUEEN   ; 47: HARPY QUEEN
                 mapSprite PEGASUS_KNIGHT ; 48: PEGASUS KNIGHT

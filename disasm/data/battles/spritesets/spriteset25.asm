@@ -69,7 +69,7 @@ BattleSpriteset25:
                 combatantAiAndItem HEALER3, NOTHING
                 combatantBehavior FOLLOW_ENEMY|0, 0, NONE, 15, 0, STARTING
                 
-                enemyCombatant LESSER_DEMON, 19, 9
+                enemyCombatant DRAGON, 19, 9
                 combatantAiAndItem HEALER3, NOTHING
                 combatantBehavior FOLLOW_ENEMY|0, 0, NONE, 15, 0, STARTING
                 
@@ -85,7 +85,7 @@ BattleSpriteset25:
                 combatantAiAndItem ATTACKER1, MEDICAL_HERB|USABLE_BY_AI|UNUSED_ITEM_DROP
                 combatantBehavior NONE, 1, NONE, 15, 0, STARTING
                 
-                enemyCombatant LESSER_DEMON, 14, 12
+                enemyCombatant DRAGON, 14, 12
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 1, NONE, 15, 0, STARTING
                 
@@ -97,7 +97,7 @@ BattleSpriteset25:
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 2, NONE, 15, 0, STARTING
                 
-                enemyCombatant LESSER_DEMON, 6, 28
+                enemyCombatant DRAGON, 6, 28
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 2, NONE, 15, 0, STARTING
                 

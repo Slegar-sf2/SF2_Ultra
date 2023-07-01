@@ -73,7 +73,7 @@ BattleSpriteset26:
                 combatantAiAndItem HEALER3, BLACK_RING|EQUIPPED|USABLE_BY_AI|UNUSED_ITEM_DROP
                 combatantBehavior FOLLOW_ENEMY|0, 15, NONE, 15, 0, STARTING
                 
-                enemyCombatant LESSER_DEMON, 17, 3
+                enemyCombatant DRAGON, 17, 3
                 combatantAiAndItem HEALER3, NOTHING
                 combatantBehavior FOLLOW_ENEMY|0, 1, NONE, 1, 0, STARTING
                 
@@ -93,7 +93,7 @@ BattleSpriteset26:
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 2, NONE, 15, 0, STARTING
                 
-                enemyCombatant LESSER_DEMON, 4, 6
+                enemyCombatant DRAGON, 4, 6
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 2, NONE, 15, 0, STARTING
                 
@@ -105,11 +105,11 @@ BattleSpriteset26:
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 0, NONE, 15, 0, STARTING
                 
-                enemyCombatant LESSER_DEMON, 24, 27
+                enemyCombatant DRAGON, 24, 27
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 0, NONE, 15, 0, STARTING
                 
-                enemyCombatant LESSER_DEMON, 9, 19
+                enemyCombatant DRAGON, 9, 19
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 15, NONE, 15, 0, STARTING
                 

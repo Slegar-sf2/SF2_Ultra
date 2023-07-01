@@ -73,7 +73,7 @@ BattleSpriteset28:
                 combatantAiAndItem ATTACKER3, NOTHING
                 combatantBehavior MOVE_TO|0, 15, NONE, 15, 0, STARTING
                 
-                enemyCombatant LESSER_DEMON, 14, 1
+                enemyCombatant DRAGON, 14, 1
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 15, NONE, 15, 0, STARTING
                 
@@ -85,7 +85,7 @@ BattleSpriteset28:
                 combatantAiAndItem SENTRY, NOTHING
                 combatantBehavior NONE, 15, NONE, 15, 0, STARTING
                 
-                enemyCombatant LESSER_DEMON, 2, 16
+                enemyCombatant DRAGON, 2, 16
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 15, NONE, 15, 0, STARTING
                 
@@ -113,7 +113,7 @@ BattleSpriteset28:
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 2, NONE, 15, 0, STARTING
                 
-                enemyCombatant LESSER_DEMON, 17, 12
+                enemyCombatant DRAGON, 17, 12
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 0, NONE, 15, 0, STARTING
                 
@@ -121,7 +121,7 @@ BattleSpriteset28:
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 1, NONE, 15, 0, STARTING
                 
-                enemyCombatant LESSER_DEMON, 6, 26
+                enemyCombatant DRAGON, 6, 26
                 combatantAiAndItem ATTACKER1, NOTHING
                 combatantBehavior NONE, 1, NONE, 15, 0, STARTING
                 

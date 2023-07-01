@@ -79,10 +79,10 @@ tbl_AllyMapSprites:
                 mapSprite ELRIC_PROMO
                 mapSprite DEFAULT
                 
-; 14: Eric
-                mapSprite ERIC_BASE
-                mapSprite ERIC_PROMO
-                mapSprite ERIC_SPECIAL
+; 14: APIS
+                mapSprite APIS_BASE
+                mapSprite APIS_PROMO
+                mapSprite APIS_SPECIAL
                 
 ; 15: Karna
                 mapSprite KARNA_BASE

@@ -486,15 +486,15 @@ tbl_EnemyDefs:
                     
                 unknownByte 18          ; 18: DARK SOLDIER
                 spellPower ENHANCED
-                level    23
-                maxHp    35
+                level    31
+                maxHp    69
                 maxMp    17
-                baseAtt  31
-                baseDef  46
+                baseAtt  40
+                baseDef  60
                 baseAgi  34
                 baseMov  4
                 baseResistance NONE
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN16
+                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN8|COUNTER_1IN16
                 items &
                     LARGE_AXE|EQUIPPED, &
                     NOTHING, &
@@ -511,15 +511,15 @@ tbl_EnemyDefs:
                     
                 unknownByte 19          ; 19: LIZARDMAN
                 spellPower ENHANCED
-                level    24
-                maxHp    40
+                level    32
+                maxHp    82
                 maxMp    0
-                baseAtt  34
+                baseAtt  54
                 baseDef  45
                 baseAgi  38
                 baseMov  6
                 baseResistance ICE_WEAKNESS
-                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
+                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     LARGE_AXE|EQUIPPED, &
                     NOTHING, &
@@ -1161,11 +1161,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 45          ; 45: LESSER DEMON
                 spellPower ENHANCED
-                level    22
-                maxHp    40
+                level    27
+                maxHp    80
                 maxMp    21
-                baseAtt  49
-                baseDef  37
+                baseAtt  73
+                baseDef  53
                 baseAgi  32
                 baseMov  6
                 baseResistance STATUS_MINOR
@@ -1586,15 +1586,15 @@ tbl_EnemyDefs:
                     
                 unknownByte 62          ; 62: DARK SNIPER
                 spellPower ENHANCED
-                level    24
-                maxHp    38
+                level    29
+                maxHp    67
                 maxMp    0
-                baseAtt  11
+                baseAtt  21
                 baseDef  37
                 baseAgi  35
                 baseMov  5
                 baseResistance NONE
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN16
+                baseProwess    CRITICAL150_1IN16|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     HYPER_CANNON|EQUIPPED, &
                     NOTHING, &
@@ -1836,17 +1836,17 @@ tbl_EnemyDefs:
                     
                 unknownByte 72          ; 72: WIZARD
                 spellPower ENHANCED
-                level    26
-                maxHp    37
+                level    30
+                maxHp    77
                 maxMp    37
                 baseAtt  32
                 baseDef  40
                 baseAgi  44
-                baseMov  5
-                baseResistance FIRE_MINOR
+                baseMov  6
+                baseResistance ICE_MINOR|FIRE_MAJOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
-                    BATON|EQUIPPED, &
+                    MAGE_STAFF|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2039,14 +2039,14 @@ tbl_EnemyDefs:
                 level    24
                 maxHp    80
                 maxMp    54
-                baseAtt  44
+                baseAtt  40
                 baseDef  40
                 baseAgi  28
                 baseMov  5
                 baseResistance NONE
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
-                    POWER_STICK|EQUIPPED, &
+                    HOLY_STAFF|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2061,22 +2061,22 @@ tbl_EnemyDefs:
                     
                 unknownByte 81          ; 81: DARK BISHOP
                 spellPower ENHANCED
-                level    23
-                maxHp    39
-                maxMp    38
-                baseAtt  28
-                baseDef  38
-                baseAgi  27
+                level    28
+                maxHp    82
+                maxMp    60
+                baseAtt  38
+                baseDef  46
+                baseAgi  34
                 baseMov  5
                 baseResistance NONE
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
-                    BATON|EQUIPPED, &
+                    HOLY_STAFF|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    AURA, &
+                    AURA|LV2, &
                     BLAST|LV3, &
                     NOTHING, &
                     NOTHING

@@ -179,28 +179,28 @@ return_5A8C8:
     ; End of function Map33_EntityEvent6
 
 cs_5A8CA:       textCursor 1907
-                nextText $0,ALLY_ERIC   ; "I'm {NAME;14}, a knight.{N}I was looking for a magic{N}sword.{W2}"
-                nextText $0,ALLY_ERIC   ; "I would do anything for{N}Mr. Creed!  Please choose me.{W1}"
+                nextText $0,ALLY_APIS   ; "I'm {NAME;14}, a knight.{N}I was looking for a magic{N}sword.{W2}"
+                nextText $0,ALLY_APIS   ; "I would do anything for{N}Mr. Creed!  Please choose me.{W1}"
                 yesNo
                 jumpIfFlagSet 89,cs_5A8E6 ; YES/NO prompt answer
-                nextSingleText $0,ALLY_ERIC ; "What a pity...then, I wish{N}happiness to all of you.{W1}"
+                nextSingleText $0,ALLY_APIS ; "What a pity...then, I wish{N}happiness to all of you.{W1}"
                 csc_end
-cs_5A8E6:       join ALLY_ERIC
+cs_5A8E6:       join ALLY_APIS
                 setF 787                ; Set after one of Creed's Mansion Force Members joins
                 
                 setActscriptWait ALLY_KARNA,eas_TwirlShrinkDisappear
-                addNewFollower ALLY_ERIC
+                addNewFollower ALLY_APIS
                 csc_end
 cs_5A90E:       textCursor 1920
-                nextText $0,ALLY_ERIC   ; "I really want to find the{N}legendary magic sword....{W2}"
-                nextText $0,ALLY_ERIC   ; "But I can't do that if I'm{N}stuck here.{W2}{N}May I join your force?{W1}"
+                nextText $0,ALLY_APIS   ; "I really want to find the{N}legendary magic sword....{W2}"
+                nextText $0,ALLY_APIS   ; "But I can't do that if I'm{N}stuck here.{W2}{N}May I join your force?{W1}"
                 yesNo
                 jumpIfFlagSet 89,cs_5A92A ; YES/NO prompt answer
-                nextSingleText $0,ALLY_ERIC ; "No?  Then I'll continue my{N}search for the legendary{N}magic sword alone.{W1}"
+                nextSingleText $0,ALLY_APIS ; "No?  Then I'll continue my{N}search for the legendary{N}magic sword alone.{W1}"
                 csc_end
-cs_5A92A:       join ALLY_ERIC
+cs_5A92A:       join ALLY_APIS
                 setF 787                ; Set after one of Creed's Mansion Force Members joins
-                addNewFollower ALLY_ERIC
+                addNewFollower ALLY_APIS
                 csc_end
 
 cs_5AA1A:       textCursor 1916
@@ -212,7 +212,7 @@ cs_5AA1A:       textCursor 1916
                 csc_end
 cs_5AA36:       join ALLY_KARNA
                 setF 787                ; Set after one of Creed's Mansion Force Members joins
-                setActscript ALLY_ERIC,eas_TwirlShrinkDisappear                
+                setActscript ALLY_APIS,eas_TwirlShrinkDisappear                
                 addNewFollower ALLY_KARNA
                 csc_end
 cs_5AA5E:       textCursor 1929

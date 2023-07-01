@@ -53,7 +53,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 82, 0 ; 42: Belial
                 enemyBattleSprAndPlt GARGOYLE, 0 ; 43: GARGOYLE
                 enemyBattleSprAndPlt HARPY, 0 ; 44: HARPY
-                enemyBattleSprAndPlt GARGOYLE, 1 ; 45: LESSER DEMON
+                enemyBattleSprAndPlt 81, 1 ; 45: DRAGON
                 enemyBattleSprAndPlt WYVERN, 0 ; 46: WYVERN
                 enemyBattleSprAndPlt HARPY, 1 ; 47: HARPY QUEEN
                 enemyBattleSprAndPlt PEGASUS_KNIGHT, 0 ; 48: PEGASUS KNIGHT

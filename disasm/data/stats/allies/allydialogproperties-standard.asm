@@ -85,10 +85,10 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx ELRIC, DIALOG_BLEEP_5
                 allyPortraitAndSfx ELRIC, DIALOG_BLEEP_5
                 
-; 14: Eric
-                allyPortraitAndSfx ERIC, DIALOG_BLEEP_5
-                allyPortraitAndSfx ERIC, DIALOG_BLEEP_5
-                allyPortraitAndSfx ERIC, DIALOG_BLEEP_5
+; 14: APIS
+                allyPortraitAndSfx APIS, DIALOG_BLEEP_5
+                allyPortraitAndSfx APIS, DIALOG_BLEEP_5
+                allyPortraitAndSfx APIS, DIALOG_BLEEP_5
                 
 ; 15: Karna
                 allyPortraitAndSfx KARNA, DIALOG_BLEEP_5

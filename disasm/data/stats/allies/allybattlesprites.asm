@@ -79,10 +79,10 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt SNIP, SNIP, 0
                 allyBattleSprAndPlt BRGN, BRGN, 0
                 
-; 14: ERIC
-                allyBattleSprAndPlt KNTE, KNTE, 2
-                allyBattleSprAndPlt PLDN, PLDN, 3
-                allyBattleSprAndPlt PGNT, PGNT, 2
+; 14: APIS
+                allyBattleSprAndPlt KNTE, 41, 0
+                allyBattleSprAndPlt PLDN, 42, 0
+                allyBattleSprAndPlt NONE, NONE, 2
                 
 ; 15: KARNA
                 allyBattleSprAndPlt PRST, PRST, 1

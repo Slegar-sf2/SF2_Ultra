@@ -35,7 +35,7 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce                
                 moveq   #ALLY_ELRIC,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_ERIC,d0
+                moveq   #ALLY_APIS,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_KARNA,d0
                 bsr.w   j_JoinForce
