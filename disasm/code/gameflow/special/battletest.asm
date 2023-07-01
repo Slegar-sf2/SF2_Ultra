@@ -27,11 +27,11 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
                 moveq   #ALLY_GERHALT,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_LUKE,d0
+                moveq   #ALLY_APIS,d0
                 bsr.w   j_JoinForce
 				moveq   #ALLY_SHADE,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_ROHDE,d0
+                moveq   #ALLY_APIS,d0
                 bsr.w   j_JoinForce                
                 moveq   #ALLY_ELRIC,d0
                 bsr.w   j_JoinForce

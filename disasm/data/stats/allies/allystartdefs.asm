@@ -45,7 +45,7 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass MAGE         ; 4: KAZIN
+                startClass WIZ         ; 4: KAZIN
                 startLevel 29
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
