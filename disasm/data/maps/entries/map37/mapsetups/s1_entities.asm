@@ -16,7 +16,7 @@ ms_map37_Entities:
                 msFixedEntity 19, 9, DOWN, ALLY_DEANNA, eas_Init
                 msFixedEntity 20, 9, DOWN, ALLY_ELRIC, eas_Init
                 msFixedEntity 22, 9, DOWN, ALLY_APIS, eas_Init
-                msFixedEntity 23, 9, DOWN, ALLY_KARNA, eas_Init
+                msFixedEntity 23, 9, DOWN, ALLY_GRAHAM, eas_Init
                 msFixedEntity 19, 12, UP, ALLY_RUCE, eas_Init
                 msFixedEntity 20, 12, UP, ALLY_TYRIN, eas_Init
                 msFixedEntity 16, 15, UP, ALLY_JANET, eas_Init

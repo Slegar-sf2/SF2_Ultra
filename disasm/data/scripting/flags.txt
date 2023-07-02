@@ -13,7 +13,7 @@
 0012=DEANNA joined
 0013=Elric joined
 0014=Eric joined
-0015=Karna joined
+0015=Graham joined
 0016=Ranfolf joined
 0017=Tyrin joined
 0018=Janet joined
@@ -45,7 +45,7 @@
 0044=DEANNA in active party
 0045=Elric in active party
 0046=Eric in active party
-0047=Karna in active party
+0047=Graham in active party
 0048=Ranfolf in active party
 0049=Tyrin in active party
 0050=Janet in active party

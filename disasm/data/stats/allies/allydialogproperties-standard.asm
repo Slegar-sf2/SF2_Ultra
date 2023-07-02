@@ -90,10 +90,10 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx APIS, DIALOG_BLEEP_5
                 allyPortraitAndSfx APIS, DIALOG_BLEEP_5
                 
-; 15: Karna
-                allyPortraitAndSfx KARNA, DIALOG_BLEEP_5
-                allyPortraitAndSfx KARNA, DIALOG_BLEEP_5
-                allyPortraitAndSfx KARNA, DIALOG_BLEEP_5
+; 15: GRAHAM
+                allyPortraitAndSfx GRAHAM, DIALOG_BLEEP_5
+                allyPortraitAndSfx GRAHAM, DIALOG_BLEEP_5
+                allyPortraitAndSfx GRAHAM, DIALOG_BLEEP_5
                 
 ; 16: RUCE
                 allyPortraitAndSfx RUCE, DIALOG_BLEEP_6

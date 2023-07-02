@@ -16,7 +16,7 @@ ms_map46_Entities:
                 msFixedEntity 12, 11, UP, ALLY_DEANNA, eas_Init
                 msFixedEntity 4, 11, DOWN, ALLY_ELRIC, eas_Init
                 msWalkingEntity 12, 13, RIGHT, ALLY_APIS, 12, 13, 1
-                msFixedEntity 9, 19, RIGHT, ALLY_KARNA, eas_Init
+                msFixedEntity 9, 19, RIGHT, ALLY_GRAHAM, eas_Init
                 msWalkingEntity 14, 21, UP, ALLY_RUCE, 14, 21, 1
                 msFixedEntity 11, 8, DOWN, ALLY_TYRIN, eas_Init
                 msFixedEntity 4, 12, UP, ALLY_JANET, eas_Init

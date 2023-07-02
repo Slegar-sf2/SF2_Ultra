@@ -84,10 +84,10 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt PLDN, 42, 0
                 allyBattleSprAndPlt NONE, NONE, 2
                 
-; 15: KARNA
-                allyBattleSprAndPlt PRST, PRST, 1
-                allyBattleSprAndPlt VICR, VICR, 2
-                allyBattleSprAndPlt MMNK, MMNK, 2
+; 15: GRAHAM
+                allyBattleSprAndPlt RNGR, 43, 0
+                allyBattleSprAndPlt BWNT, 44, 0
+                allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 16: RUCE
                 allyBattleSprAndPlt WARR, 34, 0

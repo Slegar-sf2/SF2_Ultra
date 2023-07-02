@@ -3,7 +3,7 @@
 ; 0x59402..0x59474 : 
 ms_map22_flag522_Entities:
                 msWalkingEntity 15, 14, DOWN, ALLY_APIS, 15, 14, 1
-                msFixedEntity 5, 15, DOWN, ALLY_KARNA, eas_Init
+                msFixedEntity 5, 15, DOWN, ALLY_GRAHAM, eas_Init
                 msFixedEntity 3, 6, DOWN, MAPSPRITE_CARAVAN, eas_Init
                 msFixedEntity 29, 21, RIGHT, MAPSPRITE_MAN2, eas_Init
                 msFixedEntity 30, 21, LEFT, MAPSPRITE_WOMAN2, eas_Init

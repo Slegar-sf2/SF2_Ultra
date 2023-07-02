@@ -188,7 +188,7 @@ cs_5A8CA:       textCursor 1907
 cs_5A8E6:       join ALLY_APIS
                 setF 787                ; Set after one of Creed's Mansion Force Members joins
                 
-                setActscriptWait ALLY_KARNA,eas_TwirlShrinkDisappear
+                setActscriptWait ALLY_GRAHAM,eas_TwirlShrinkDisappear
                 addNewFollower ALLY_APIS
                 csc_end
 cs_5A90E:       textCursor 1920
@@ -204,25 +204,25 @@ cs_5A92A:       join ALLY_APIS
                 csc_end
 
 cs_5AA1A:       textCursor 1916
-                nextText $0,ALLY_KARNA  ; "I'm {NAME;15}, a priest.{N}I think I'm rather young{N}for my profession....{W2}"
-                nextText $0,ALLY_KARNA  ; "I don't want to stay in this{N}awful place forever.{N}Choose me!{W1}"
+                nextText $0,ALLY_GRAHAM  ; "I'm {NAME;15}, a priest.{N}I think I'm rather young{N}for my profession....{W2}"
+                nextText $0,ALLY_GRAHAM  ; "I don't want to stay in this{N}awful place forever.{N}Choose me!{W1}"
                 yesNo
                 jumpIfFlagSet 89,cs_5AA36 ; YES/NO prompt answer
-                nextSingleText $0,ALLY_KARNA ; "You...snot nose!{W1}"
+                nextSingleText $0,ALLY_GRAHAM ; "You...snot nose!{W1}"
                 csc_end
-cs_5AA36:       join ALLY_KARNA
+cs_5AA36:       join ALLY_GRAHAM
                 setF 787                ; Set after one of Creed's Mansion Force Members joins
                 setActscript ALLY_APIS,eas_TwirlShrinkDisappear                
-                addNewFollower ALLY_KARNA
+                addNewFollower ALLY_GRAHAM
                 csc_end
 cs_5AA5E:       textCursor 1929
-                nextText $0,ALLY_KARNA  ; "I'm free!  Fresh air smells{N}so good!{W2}"
-                nextText $0,ALLY_KARNA  ; "Where should I go?{N}Hey, may I go with you?{W1}"
+                nextText $0,ALLY_GRAHAM  ; "I'm free!  Fresh air smells{N}so good!{W2}"
+                nextText $0,ALLY_GRAHAM  ; "Where should I go?{N}Hey, may I go with you?{W1}"
                 yesNo
                 jumpIfFlagSet 89,cs_5AA7A ; YES/NO prompt answer
-                nextSingleText $0,ALLY_KARNA ; "Why, how rude!{W1}"
+                nextSingleText $0,ALLY_GRAHAM ; "Why, how rude!{W1}"
                 csc_end
-cs_5AA7A:       join ALLY_KARNA
+cs_5AA7A:       join ALLY_GRAHAM
                 setF 787                ; Set after one of Creed's Mansion Force Members joins
-                addNewFollower ALLY_KARNA
+                addNewFollower ALLY_GRAHAM
                 csc_end

@@ -91,13 +91,13 @@ cs_5AC34:
                 csc_end
 byte_5AC3C:
                 
-                chkFlg  15              ; Karna joined
+                chkFlg  15              ; Graham joined
                 bne.s   return_5AC54
                 script  cs_5AC4C
                 bra.w   return_5AC54
 cs_5AC4C:
                 
-                setPos ALLY_KARNA,19,14,DOWN
+                setPos ALLY_GRAHAM,19,14,DOWN
                 csc_end
 return_5AC54:
                 

@@ -37,7 +37,7 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
                 moveq   #ALLY_APIS,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_KARNA,d0
+                moveq   #ALLY_GRAHAM,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_RUCE,d0
                 bsr.w   j_JoinForce

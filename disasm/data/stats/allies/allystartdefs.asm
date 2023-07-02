@@ -133,15 +133,15 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass PRST         ; 29: KARNA
+                startClass RNGR       ; 15: GRAHAM
                 startLevel 29
                 startItems &
-                    POWER_STICK|EQUIPPED, &
+                    STEEL_ARROW|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass WARR         ; 29: RUCE
+                startClass WARR         ; 16: RUCE
                 startLevel 29
                 startItems &
                     POWER_AXE|EQUIPPED, &
@@ -229,7 +229,7 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass WIZ          ; 29: CHAZ
+                startClass WIZ          ; 27: CHAZ
                 startLevel 29
                 startItems &
                     MAGE_STAFF|EQUIPPED, &

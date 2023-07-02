@@ -84,10 +84,10 @@ tbl_AllyMapSprites:
                 mapSprite APIS_PROMO
                 mapSprite APIS_SPECIAL
                 
-; 15: Karna
-                mapSprite KARNA_BASE
-                mapSprite KARNA_PROMO
-                mapSprite KARNA_SPECIAL
+; 15: GRAHAM
+                mapSprite GRAHAM_BASE
+                mapSprite GRAHAM_PROMO
+                mapSprite DEFAULT
                 
 ; 16: RUCE
                 mapSprite RUCE_BASE

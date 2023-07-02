@@ -556,7 +556,7 @@ cs_5B466:       textCursor 1932
                 hide ALLY_APIS
                 hide ALLY_RUCE
                 hide ALLY_TYRIN
-                hide ALLY_KARNA
+                hide ALLY_GRAHAM
                 setCameraEntity 129
                 entityActionsWait 129
                  moveDown 2
