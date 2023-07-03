@@ -30,7 +30,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt LIZARDMAN, 0 ; 19: LIZARDMAN
                 enemyBattleSprAndPlt WORM, 1 ; 20: WORM
                 enemyBattleSprAndPlt KNIGHT, 2 ; 21: DARK KNIGHT
-                enemyBattleSprAndPlt ORC, 2 ; 22: ORC LORD
+                enemyBattleSprAndPlt 57, 0 ; 22: LIZARD
                 enemyBattleSprAndPlt SOLDIER, 2 ; 23: DEVIL SOLDIER
                 enemyBattleSprAndPlt CERBERUS, 0 ; 24: CERBERUS
                 enemyBattleSprAndPlt GOLEM, 1 ; 25: MUD MAN
@@ -70,7 +70,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt KRAKEN_ARM, 0 ; 59: KRAKEN ARM
                 enemyBattleSprAndPlt ARROW_LAUNCHER, 0 ; 60: ARROW LAUNCHER
                 enemyBattleSprAndPlt 107, 0 ; 61: ROOK
-                enemyBattleSprAndPlt HUNTER_GOBLIN, 1 ; 62: DARK SNIPER
+                enemyBattleSprAndPlt 118, 0 ; 62: MINOTAURO
                 enemyBattleSprAndPlt ARCHER, 2 ; 63: BOW MASTER
                 enemyBattleSprAndPlt BOW_RIDER, 0 ; 64: BOW RIDER
                 enemyBattleSprAndPlt ARROW_LAUNCHER, 2 ; 65: DARK GUNNER

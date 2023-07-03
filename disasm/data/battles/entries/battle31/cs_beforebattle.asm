@@ -120,6 +120,6 @@ ce_4CB92:       mainEntity 21,4,DOWN
                 entity 63,63,LEFT,MAPSPRITE_FLAME1,eas_Init
                 entity 63,63,UP,MAPSPRITE_DEATH_MONK,eas_Init
                 entity 63,63,UP,MAPSPRITE_DARK_BISHOP,eas_Init
-                entity 63,63,UP,MAPSPRITE_ORC_LORD,eas_Init
+                entity 63,63,UP,MAPSPRITE_LIZARD,eas_Init
                 entity 63,63,UP,MAPSPRITE_HARPY_QUEEN,eas_Init
                 dc.w $FFFF

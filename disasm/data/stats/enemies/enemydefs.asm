@@ -412,7 +412,7 @@ tbl_EnemyDefs:
                 unknownByte 15          ; 15: RAT
                 spellPower REGULAR
                 level    22
-                maxHp    41
+                maxHp    51
                 maxMp    0
                 baseAtt  45
                 baseDef  32
@@ -437,10 +437,10 @@ tbl_EnemyDefs:
                 unknownByte 16          ; 16: CHIMERA
                 spellPower REGULAR
                 level    26
-                maxHp    63
+                maxHp    54
                 maxMp    0
                 baseAtt  67
-                baseDef  50
+                baseDef  53
                 baseAgi  40
                 baseMov  6
                 baseResistance ICE_WEAKNESS|FIRE_MAJOR
@@ -462,7 +462,7 @@ tbl_EnemyDefs:
                 unknownByte 17          ; 17: SKELETON
                 spellPower ENHANCED
                 level    22
-                maxHp    62
+                maxHp    49
                 maxMp    0
                 baseAtt  41
                 baseDef  49
@@ -487,7 +487,7 @@ tbl_EnemyDefs:
                 unknownByte 18          ; 18: DARK SOLDIER
                 spellPower ENHANCED
                 level    31
-                maxHp    69
+                maxHp    48
                 maxMp    17
                 baseAtt  40
                 baseDef  60
@@ -512,7 +512,7 @@ tbl_EnemyDefs:
                 unknownByte 19          ; 19: LIZARDMAN
                 spellPower ENHANCED
                 level    32
-                maxHp    82
+                maxHp    60
                 maxMp    0
                 baseAtt  54
                 baseDef  45
@@ -584,7 +584,7 @@ tbl_EnemyDefs:
                 moveType      CENTAUR
                 unknownWord   8192
                     
-                unknownByte 22          ; 22: ORC LORD
+                unknownByte 22          ; 22: LIZARD
                 spellPower ENHANCED
                 level    27
                 maxHp    46
@@ -1159,10 +1159,10 @@ tbl_EnemyDefs:
                 moveType      FLYING
                 unknownWord   8240
                     
-                unknownByte 45          ; 45: LESSER DEMON
+                unknownByte 45          ; 45: DRAGON
                 spellPower ENHANCED
                 level    27
-                maxHp    80
+                maxHp    59
                 maxMp    21
                 baseAtt  73
                 baseDef  53
@@ -1584,19 +1584,19 @@ tbl_EnemyDefs:
                 moveType      BRASS_GUNNER
                 unknownWord   8208
                     
-                unknownByte 62          ; 62: DARK SNIPER
+                unknownByte 62          ; 62: MINOTAURO
                 spellPower ENHANCED
                 level    29
-                maxHp    67
+                maxHp    46
                 maxMp    0
-                baseAtt  21
-                baseDef  37
-                baseAgi  35
+                baseAtt  40
+                baseDef  46
+                baseAgi  37
                 baseMov  5
                 baseResistance NONE
                 baseProwess    CRITICAL150_1IN16|DOUBLE_1IN16|COUNTER_1IN16
                 items &
-                    HYPER_CANNON|EQUIPPED, &
+                    SPEAR|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1606,7 +1606,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
-                moveType      STEALTH_ARCHER
+                moveType      REGULAR
                 unknownWord   8208
                     
                 unknownByte 63          ; 63: BOW MASTER
@@ -1837,7 +1837,7 @@ tbl_EnemyDefs:
                 unknownByte 72          ; 72: WIZARD
                 spellPower ENHANCED
                 level    30
-                maxHp    77
+                maxHp    75
                 maxMp    37
                 baseAtt  32
                 baseDef  40
@@ -2062,7 +2062,7 @@ tbl_EnemyDefs:
                 unknownByte 81          ; 81: DARK BISHOP
                 spellPower ENHANCED
                 level    28
-                maxHp    82
+                maxHp    72
                 maxMp    60
                 baseAtt  38
                 baseDef  46

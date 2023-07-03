@@ -6,7 +6,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 50                 ; GALAM SOLDIER
                 dc.w 70                 ; GALAM KNIGHT
                 dc.w 100                ; GOBLIN
-                dc.w 150                 ; Charmeleon
+                dc.w 150                ; Charmeleon
                 dc.w 130                ; DARK DWARF
                 dc.w 140                ; HOBGOBLIN
                 dc.w 180                ; ZOMBIE
@@ -23,7 +23,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 430                ; LIZARDMAN
                 dc.w 440                ; WORM
                 dc.w 500                ; DARK KNIGHT
-                dc.w 480                ; ORC LORD
+                dc.w 480                ; LIZARD
                 dc.w 510                ; DEVIL SOLDIER
                 dc.w 490                ; CERBERUS
                 dc.w 570                ; MUD MAN

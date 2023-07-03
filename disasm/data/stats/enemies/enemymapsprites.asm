@@ -27,7 +27,7 @@ tbl_EnemyMapSprites:
                 mapSprite LIZARDMAN     ; 19: LIZARDMAN
                 mapSprite WORM          ; 20: WORM
                 mapSprite DARK_KNIGHT   ; 21: DARK KNIGHT
-                mapSprite ORC_LORD      ; 22: ORC LORD
+                mapSprite LIZARD        ; 22: LIZARD
                 mapSprite DEVIL_SOLDIER ; 23: DEVIL SOLDIER
                 mapSprite CERBERUS      ; 24: CERBERUS
                 mapSprite MUD_MAN       ; 25: MUD MAN
@@ -67,7 +67,7 @@ tbl_EnemyMapSprites:
                 mapSprite KRAKEN_ARM    ; 59: KRAKEN ARM
                 mapSprite ARROW_LAUNCHER ; 60: ARROW LAUNCHER
                 mapSprite ROOK          ; 61: ROOK
-                mapSprite DARK_SNIPER   ; 62: DARK SNIPER
+                mapSprite MINOTAURO     ; 62: Minotauro
                 mapSprite BOW_MASTER    ; 63: BOW MASTER
                 mapSprite BOW_RIDER     ; 64: BOW RIDER
                 mapSprite DARK_GUNNER   ; 65: DARK GUNNER
