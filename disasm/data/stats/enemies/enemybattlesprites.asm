@@ -12,7 +12,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt RAT, 0 ; 1: HUGE RAT
                 enemyBattleSprAndPlt SOLDIER, 0 ; 2: GALAM SOLDIER
                 enemyBattleSprAndPlt KNIGHT, 0 ; 3: GALAM KNIGHT
-                enemyBattleSprAndPlt GOBLIN, 0 ; 4: GOBLIN
+                enemyBattleSprAndPlt 54, 0 ; 4: GOBLIN
                 enemyBattleSprAndPlt 114, 0 ; 5: Charmeleon
                 enemyBattleSprAndPlt DWARF, 2 ; 6: DARK DWARF
                 enemyBattleSprAndPlt GOBLIN, 2 ; 7: HOBGOBLIN
@@ -26,7 +26,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt RAT, 2 ; 15: RAT
                 enemyBattleSprAndPlt 80, 0 ; 16: CHIMERA
                 enemyBattleSprAndPlt SKELETON, 0 ; 17: SKELETON
-                enemyBattleSprAndPlt DWARF, 1 ; 18: DARK SOLDIER
+                enemyBattleSprAndPlt 58, 0 ; 18: DARK SOLDIER
                 enemyBattleSprAndPlt LIZARDMAN, 0 ; 19: LIZARDMAN
                 enemyBattleSprAndPlt WORM, 1 ; 20: WORM
                 enemyBattleSprAndPlt KNIGHT, 2 ; 21: DARK KNIGHT
