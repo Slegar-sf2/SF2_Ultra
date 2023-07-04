@@ -30,7 +30,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 530                ; KOMAINU
                 dc.w 520                ; PURPLE WORM
                 dc.w 620                ; EXECUTIONER
-                dc.w 570                ; HELL HOUND
+                dc.w 570                ; SENTINEL
                 dc.w 660                ; MINOTAUR
                 dc.w 700                ; CYCLOPS
                 dc.w 430                ; BURST ROCK
@@ -103,7 +103,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 500                ; JAR
                 dc.w 220                ; MASTER MAGE
                 dc.w 520                ; NECROMANCER
-                dc.w 860                ; BLUE SHAMAN
+                dc.w 860                ; MUTSUKI
                 dc.w 110                ; ARTILERY
                 dc.w 17922
                 dc.w 16643

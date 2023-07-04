@@ -45,10 +45,10 @@ tbl_SpellcastAnimationsForClasses:
 
 tbl_SpellcastAnimationsForEnemies:
                 
-                dc.w ENEMY_HELL_HOUND, ENEMYBATTLEANIMATION_SPECIAL_HELL_HOUND
-                dc.w ENEMY_CERBERUS, ENEMYBATTLEANIMATION_SPECIAL_HELL_HOUND
+                dc.w ENEMY_CERBERUS, ENEMYBATTLEANIMATION_SPECIAL_CERBERUS                
                 dc.w ENEMY_DEVIL_GRIFFIN, ENEMYBATTLEANIMATION_SPECIAL_DEVIL_GRIFFIN
                 dc.w ENEMY_ODD_EYE, ENEMYBATTLEANIMATION_SPECIAL_ODD_EYE
+				dc.w ENEMY_MUTSUKI, ENEMYBATTLEANIMATION_SPECIAL_MUTSUKI
                 
                 tableEnd
 

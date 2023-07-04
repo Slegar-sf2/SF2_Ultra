@@ -502,16 +502,16 @@ pt_MapSprites:  dc.l MapSprite000_0
                 dc.l MapSprite166_0
                 dc.l MapSprite166_1
                 dc.l MapSprite166_2
-                dc.l MapSprite161_0
-                dc.l MapSprite161_0
-                dc.l MapSprite161_0
+                dc.l MapSprite167_0
+                dc.l MapSprite167_1
+                dc.l MapSprite167_2
                 dc.l MapSprite168_0
                 dc.l MapSprite168_1
                 dc.l MapSprite168_2
-                dc.l MapSprite161_0
-                dc.l MapSprite161_0
-                dc.l MapSprite161_0
-                dc.l MapSprite161_0
+                dc.l MapSprite169_0
+                dc.l MapSprite169_1
+                dc.l MapSprite169_2
+                dc.l MapSprite170_0
                 dc.l MapSprite170_1
                 dc.l MapSprite170_2
                 dc.l MapSprite171_0
@@ -1208,9 +1208,16 @@ MapSprite165_2: incbin "data/graphics/mapsprites/mapsprite165-2.bin"
 MapSprite166_0: incbin "data/graphics/mapsprites/mapsprite166-0.bin"
 MapSprite166_1: incbin "data/graphics/mapsprites/mapsprite166-1.bin"
 MapSprite166_2: incbin "data/graphics/mapsprites/mapsprite166-2.bin"
+MapSprite167_0: incbin "data/graphics/mapsprites/mapsprite167-0.bin"
+MapSprite167_1: incbin "data/graphics/mapsprites/mapsprite167-1.bin"
+MapSprite167_2: incbin "data/graphics/mapsprites/mapsprite167-2.bin"
 MapSprite168_0: incbin "data/graphics/mapsprites/mapsprite168-0.bin"
 MapSprite168_1: incbin "data/graphics/mapsprites/mapsprite168-1.bin"
 MapSprite168_2: incbin "data/graphics/mapsprites/mapsprite168-2.bin"
+MapSprite169_0: incbin "data/graphics/mapsprites/mapsprite168-0.bin"
+MapSprite169_1: incbin "data/graphics/mapsprites/mapsprite168-1.bin"
+MapSprite169_2: incbin "data/graphics/mapsprites/mapsprite168-2.bin"
+MapSprite170_0: incbin "data/graphics/mapsprites/mapsprite170-0.bin"
 MapSprite170_1: incbin "data/graphics/mapsprites/mapsprite170-1.bin"
 MapSprite170_2: incbin "data/graphics/mapsprites/mapsprite170-2.bin"
 MapSprite171_0: incbin "data/graphics/mapsprites/mapsprite171-0.bin"

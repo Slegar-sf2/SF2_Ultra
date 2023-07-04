@@ -736,7 +736,7 @@ tbl_EnemyDefs:
                     
                 unknownByte 28          ; 28: EXECUTIONER
                 spellPower ENHANCED
-                level    33
+                level    39
                 maxHp    64
                 maxMp    0
                 baseAtt  46
@@ -746,7 +746,7 @@ tbl_EnemyDefs:
                 baseResistance WIND_MINOR|LIGHTNING_MINOR|STATUS_MINOR
                 baseProwess    CRITICAL_SILENCE|DOUBLE_1IN16|COUNTER_1IN16
                 items &
-                    BATTLE_SWORD|EQUIPPED, &
+                    BATTLE_AXE|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -759,24 +759,24 @@ tbl_EnemyDefs:
                 moveType      REGULAR
                 unknownWord   8192
                     
-                unknownByte 29          ; 29: HELL HOUND
+                unknownByte 29          ; 29: SENTINEL
                 spellPower ENHANCED
                 level    35
-                maxHp    62
+                maxHp    73
                 maxMp    0
-                baseAtt  84
-                baseDef  49
+                baseAtt  54
+                baseDef  58
                 baseAgi  50
-                baseMov  6
-                baseResistance ICE_WEAKNESS|FIRE_MAJOR
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN16
+                baseMov  5
+                baseResistance NONE
+                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN16
                 items &
-                    NOTHING, &
+                    BATTLE_AXE|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    FLAME|LV2, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1984,7 +1984,7 @@ tbl_EnemyDefs:
                 moveType      HEALER
                 unknownWord   12288
                     
-                unknownByte 78          ; 78:PRIEST
+                unknownByte 78          ; 78:PRIEST 
                 spellPower REGULAR
                 level    13
                 maxHp    54
@@ -2034,7 +2034,7 @@ tbl_EnemyDefs:
                 moveType      HEALER
                 unknownWord   12288
                     
-                unknownByte 80          ; 80: BISHOP
+                unknownByte 80          ; 80: BISHOP (CHESS)
                 spellPower ENHANCED
                 level    24
                 maxHp    80
@@ -2136,14 +2136,14 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 84: EVIL BISHOP
                 spellPower ENHANCED
-                level    38
-                maxHp    64
-                maxMp    51
+                level    40
+                maxHp    95
+                maxMp    60
                 baseAtt  54
-                baseDef  48
-                baseAgi  46
+                baseDef  53
+                baseAgi  155
                 baseMov  5
-                baseResistance NONE
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     GREAT_ROD|EQUIPPED, &
@@ -2151,7 +2151,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    AURA|LV2, &
+                    AURA|LV3, &
                     BLAST|LV3, &
                     NOTHING, &
                     NOTHING
@@ -2584,7 +2584,7 @@ tbl_EnemyDefs:
                 moveType      MAGE
                 unknownWord   8192
                     
-                unknownByte 0           ; 102: BLUE SHAMAN
+                unknownByte 0           ; 102: MUTSUKI
                 spellPower ENHANCED
                 level    42
                 maxHp    72
@@ -2592,17 +2592,17 @@ tbl_EnemyDefs:
                 baseAtt  64
                 baseDef  54
                 baseAgi  51
-                baseMov  5
+                baseMov  8
                 baseResistance NONE
                 baseProwess    CRITICAL_SILENCE|DOUBLE_1IN32|COUNTER_1IN32
                 items &
-                    HOLY_STAFF|EQUIPPED, &
+                    KNIFE|EQUIPPED, &
                     HEALING_RAIN, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    AURA|LV3, &
-                    BLAST|LV4, &
+                    RAIJIN|LV3, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE

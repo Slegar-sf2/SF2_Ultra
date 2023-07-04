@@ -34,7 +34,7 @@ tbl_EnemyMapSprites:
                 mapSprite KOMAINU       ; 26: KOMAINU
                 mapSprite PURPLE_WORM   ; 27: PURPLE WORM
                 mapSprite EXECUTIONER   ; 28: EXECUTIONER
-                mapSprite HELL_HOUND    ; 29: HELL HOUND
+                mapSprite SENTINEL      ; 29: SENTINEL
                 mapSprite MINOTAUR      ; 30: MINOTAUR
                 mapSprite CYCLOPS       ; 31: CYCLOPS
                 mapSprite BURST_ROCK    ; 32: BURST ROCK
@@ -107,7 +107,7 @@ tbl_EnemyMapSprites:
                 mapSprite JARO_SPECIAL  ; 99: JAR
                 mapSprite INCUBUS       ; 100: INCUBUS
                 mapSprite MAGE          ; 101: MAGE
-                mapSprite BLUE_SHAMAN   ; 102: BLUE SHAMAN
+                mapSprite MUTSUKI       ; 102: MUTSUKI
                 mapSprite ARTILERY      ;103: Artileria
                 mapSprite FILLER7                
                 mapSprite NPC_ROHDE

@@ -109,8 +109,8 @@ CreateBattlesceneAnimation:
                 cmpi.w  #CLASS_MNST,d1  ; MNST
                 beq.w   @AnimateSprite
                 jsr     GetEnemy        
-                moveq   #ENEMYBATTLEANIMATION_SPECIAL_HELL_HOUND,d5
-                cmpi.w  #ENEMY_HELL_HOUND,d1 ; HARDCODED enemy indexes
+                moveq   #ENEMYBATTLEANIMATION_SPECIAL_CERBERUS,d5
+                cmpi.w  #ENEMY_CERBERUS,d1 ; HARDCODED enemy indexes
                 beq.w   @AnimateSprite
                 cmpi.w  #ENEMY_CERBERUS,d1
                 beq.w   @AnimateSprite

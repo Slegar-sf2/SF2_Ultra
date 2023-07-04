@@ -36,8 +36,8 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 63, 0  ; 25: MUD MAN
                 enemyBattleSprAndPlt 119, 0 ; 26: KOMAINU
                 enemyBattleSprAndPlt WORM, 2 ; 27: PURPLE WORM
-                enemyBattleSprAndPlt REAPER, 1 ; 28: EXECUTIONER
-                enemyBattleSprAndPlt CERBERUS, 1 ; 29: HELL HOUND
+                enemyBattleSprAndPlt 68, 1 ; 28: EXECUTIONER
+                enemyBattleSprAndPlt 61, 1 ; 29: SENTINEL
                 enemyBattleSprAndPlt MINOTAUR, 1 ; 30: MINOTAUR
                 enemyBattleSprAndPlt CYCLOPS, 0 ; 31: CYCLOPS
                 enemyBattleSprAndPlt BURST_ROCK, 0 ; 32: BURST ROCK
@@ -92,7 +92,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt BISHOP, 1 ; 81: DARK BISHOP
                 enemyBattleSprAndPlt 117, 0 ; 82: MASTER MONK
                 enemyBattleSprAndPlt SHAMAN, 0 ; 83: SHAMAN
-                enemyBattleSprAndPlt BISHOP, 2 ; 84: EVIL BISHOP
+                enemyBattleSprAndPlt 88, 2 ; 84: EVIL BISHOP
                 enemyBattleSprAndPlt SHAMAN, 1 ; 85: BLUE SHAMAN
                 enemyBattleSprAndPlt 55, 0 ; 86: Scavenger
                 enemyBattleSprAndPlt KRAKEN_HEAD, 0 ; 87: KRAKEN HEAD
@@ -110,5 +110,5 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt PEGASUS_KNIGHT, 1 ; 99: JAR
                 enemyBattleSprAndPlt 83, 0 ; 100: Incubus
                 enemyBattleSprAndPlt 86, 0 ; 101:MAGE
-                enemyBattleSprAndPlt SHAMAN, 1 ; 102: BLUE SHAMAN
+                enemyBattleSprAndPlt 59, 0 ; 102: MUTSUKI
 				enemyBattleSprAndPlt 103, 0 ; 103: ARTILERY
