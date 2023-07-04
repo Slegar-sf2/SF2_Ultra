@@ -596,7 +596,7 @@ tbl_EnemyDefs:
                 baseResistance NONE
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
                 items &
-                    HEAVY_LANCE|EQUIPPED, &
+                    BATTLE_AXE|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -609,24 +609,24 @@ tbl_EnemyDefs:
                 moveType      REGULAR
                 unknownWord   8224
                     
-                unknownByte 23          ; 23: DEVIL SOLDIER
+                unknownByte 23          ; 23: SKELET
                 spellPower ENHANCED
-                level    29
-                maxHp    60
+                level    37
+                maxHp    64
                 maxMp    16
-                baseAtt  45
-                baseDef  48
-                baseAgi  43
+                baseAtt  60
+                baseDef  55
+                baseAgi  46
                 baseMov  6
-                baseResistance STATUS_MINOR
-                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
+                baseResistance WIND_WEAKNESS|STATUS_MINOR
+                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN8
                 items &
-                    GREAT_AXE|EQUIPPED, &
+                    STEEL_SWORD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    BOOST|LV2, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -636,11 +636,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 24          ; 24: CERBERUS
                 spellPower ENHANCED
-                level    30
-                maxHp    51
+                level    37
+                maxHp    56
                 maxMp    0
-                baseAtt  70
-                baseDef  44
+                baseAtt  72
+                baseDef  54
                 baseAgi  45
                 baseMov  6
                 baseResistance ICE_WEAKNESS|FIRE_MAJOR
@@ -1168,7 +1168,7 @@ tbl_EnemyDefs:
                 baseDef  53
                 baseAgi  32
                 baseMov  6
-                baseResistance STATUS_MINOR
+                baseResistance ICE_WEAKNESS|FIRE_MAJOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -1177,7 +1177,7 @@ tbl_EnemyDefs:
                     NOTHING
                 spells &
                     BLAZE|LV3, &
-                    BOOST|LV2, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
@@ -1186,11 +1186,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 46          ; 46: WYVERN
                 spellPower ENHANCED
-                level    26
-                maxHp    46
+                level    33
+                maxHp    56
                 maxMp    0
-                baseAtt  58
-                baseDef  39
+                baseAtt  67
+                baseDef  43
                 baseAgi  36
                 baseMov  7
                 baseResistance ICE_WEAKNESS|FIRE_MAJOR
@@ -1209,24 +1209,24 @@ tbl_EnemyDefs:
                 moveType      FLYING
                 unknownWord   8240
                     
-                unknownByte 47          ; 47: HARPY QUEEN
+                unknownByte 47          ; 47: HAWKMAN
                 spellPower ENHANCED
-                level    27
-                maxHp    53
-                maxMp    20
-                baseAtt  65
-                baseDef  39
+                level    35
+                maxHp    62
+                maxMp    10
+                baseAtt  50
+                baseDef  43
                 baseAgi  43
                 baseMov  7
                 baseResistance WIND_WEAKNESS|FIRE_WEAKNESS
-                baseProwess    CRITICAL_SILENCE|DOUBLE_1IN32|COUNTER_1IN16
+                baseProwess    CRITICAL_SILENCE|DOUBLE_1IN16|COUNTER_1IN8
                 items &
-                    NOTHING, &
+                    CHROME_LANCE|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    FREEZE|LV2, &
+                    BOOST|LV2, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1861,22 +1861,22 @@ tbl_EnemyDefs:
                     
                 unknownByte 73          ; 73: NECROMANCER
                 spellPower ENHANCED
-                level    30
-                maxHp    47
+                level    36
+                maxHp    70
                 maxMp    42
                 baseAtt  45
                 baseDef  44
                 baseAgi  51
                 baseMov  6
-                baseResistance LIGHTNING_MINOR|STATUS_IMMUNITY
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN16
+                baseResistance LIGHTNING_MINOR|ICE_MAJOR|FIRE_MINOR|STATUS_IMMUNITY
+                baseProwess    CRITICAL_MUDDLE|DOUBLE_1IN16|COUNTER_1IN8
                 items &
-                    BATON|EQUIPPED, &
+                    FREEZE_STAFF|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    FREEZE|LV3, &
+                    ICE|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1984,7 +1984,7 @@ tbl_EnemyDefs:
                 moveType      HEALER
                 unknownWord   12288
                     
-                unknownByte 78          ; 78: BLACK MONK
+                unknownByte 78          ; 78:PRIEST
                 spellPower REGULAR
                 level    13
                 maxHp    54
@@ -2086,8 +2086,8 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 82: MASTER MONK
                 spellPower ENHANCED
-                level    28
-                maxHp    47
+                level    36
+                maxHp    70
                 maxMp    39
                 baseAtt  22
                 baseDef  45

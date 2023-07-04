@@ -34,6 +34,6 @@ ce_4AE42:       mainEntity 14,20,UP
                 entity 14,7,DOWN,MAPSPRITE_GOLEM,eas_Init
                 entity 15,6,DOWN,MAPSPRITE_GARGOYLE,eas_Init
                 entity 13,6,DOWN,MAPSPRITE_MASTER_MAGE,eas_Init
-                entity 16,7,DOWN,MAPSPRITE_BLACK_MONK,eas_Init
+                entity 16,7,DOWN,MAPSPRITE_PRIEST_EVIL,eas_Init
                 entity 12,7,DOWN,MAPSPRITE_ARROW_LAUNCHER,eas_Init
                 dc.w $FFFF

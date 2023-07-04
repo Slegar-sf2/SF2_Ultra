@@ -36,7 +36,7 @@ tbl_EnemyLeaderPresence:
                 dc.b 255                ; 28: Pangoat Valley bridge
                 dc.b 255                ; 29: Outside Mitula's Shrine
                 dc.b 255                ; 30: Versus Zalbard
-                dc.b 255                ; 31: Pacalon
+                dc.b 0                  ; 31: Pacalon
                 dc.b 255                ; 32: To Moun
                 dc.b 255                ; 33: Inside Moun
                 dc.b 255                ; 34: Versus Cameela
@@ -51,6 +51,9 @@ tbl_EnemyLeaderPresence:
                 dc.b 255                ; 43: Versus Zeon
                 dc.b 255                ; 44: Fairy Woods
 				dc.b 0                  ; 45: Yeel village
-                dc.b 0                  ; 46
+                dc.b 0                  ; 46:
 				dc.b 0                  ; 47: 
+				dc.b 0                  ; 48: 
+				dc.b 0                  ; 49:
+				dc.b 0                  ; 50:
                 

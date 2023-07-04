@@ -8,23 +8,23 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 100                ; GOBLIN
                 dc.w 150                ; Charmeleon
                 dc.w 130                ; DARK DWARF
-                dc.w 140                ; HOBGOBLIN
+                dc.w 150                ; HOBGOBLIN
                 dc.w 180                ; ZOMBIE
                 dc.w 240                ; GOLEM
                 dc.w 200                ; KRAKEN LEG
                 dc.w 300                ; SOULSOWER
-                dc.w 330                ; ORC
+                dc.w 320                ; ORC
                 dc.w 250                ; PAWN
                 dc.w 340                ; KNIGHT
                 dc.w 300                ; RAT
-                dc.w 330                ; CHIMERA
-                dc.w 350                ; SKELETON
-                dc.w 410                ; DARK SOLDIER
+                dc.w 340                ; CHIMERA
+                dc.w 360                ; SKELETON
+                dc.w 410                ; MINOTAURO
                 dc.w 430                ; LIZARDMAN
                 dc.w 440                ; WORM
                 dc.w 500                ; DARK KNIGHT
                 dc.w 480                ; LIZARD
-                dc.w 510                ; DEVIL SOLDIER
+                dc.w 510                ; SKELET
                 dc.w 490                ; CERBERUS
                 dc.w 570                ; MUD MAN
                 dc.w 530                ; DRAGONEWT
@@ -46,9 +46,9 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 170                ; EVIL CLOUD
                 dc.w 250                ; GARGOYLE
                 dc.w 340                ; HARPY
-                dc.w 360                ; LESSER DEMON
+                dc.w 350                ; DRAGON
                 dc.w 450                ; WYVERN
-                dc.w 510                ; HARPY QUEEN
+                dc.w 500                ; HAWKMAN
                 dc.w 520                ; PEGASUS KNIGHT
                 dc.w 560                ; GRIFFIN
                 dc.w 590                ; MIST DEMON
@@ -79,7 +79,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 840                ; DEMON MASTER
                 dc.w 100                ; DARK CLERIC
                 dc.w 150                ; DEATH MONK
-                dc.w 210                ; BLACK MONK
+                dc.w 210                ; PRIEST
                 dc.w 280                ; HIGH PRIEST
                 dc.w 300                ; EVIL BISHOP
                 dc.w 320                ; DARK BISHOP
@@ -99,12 +99,12 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 1600               ; GESHP
                 dc.w 2000               ; ODD EYE
                 dc.w 3500               ; GALAM
-                dc.w 0                  ; ZEON
+                dc.w 4000               ; ZEON
                 dc.w 500                ; JAR
                 dc.w 220                ; MASTER MAGE
                 dc.w 520                ; NECROMANCER
                 dc.w 860                ; BLUE SHAMAN
-                dc.w 1
+                dc.w 110                ; ARTILERY
                 dc.w 17922
                 dc.w 16643
                 dc.w 16900

@@ -29,9 +29,9 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 58, 0 ; 18: DARK SOLDIER
                 enemyBattleSprAndPlt LIZARDMAN, 0 ; 19: LIZARDMAN
                 enemyBattleSprAndPlt WORM, 1 ; 20: WORM
-                enemyBattleSprAndPlt KNIGHT, 2 ; 21: DARK KNIGHT
+                enemyBattleSprAndPlt 69, 1 ; 21: DARK KNIGHT
                 enemyBattleSprAndPlt 57, 0 ; 22: LIZARD
-                enemyBattleSprAndPlt SOLDIER, 2 ; 23: DEVIL SOLDIER
+                enemyBattleSprAndPlt 60, 0 ; 23: SKELET
                 enemyBattleSprAndPlt CERBERUS, 0 ; 24: CERBERUS
                 enemyBattleSprAndPlt GOLEM, 1 ; 25: MUD MAN
                 enemyBattleSprAndPlt LIZARDMAN, 1 ; 26: DRAGONEWT
@@ -50,12 +50,12 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt GIZMO, 2 ; 39: GIZMO
                 enemyBattleSprAndPlt BAT, 0 ; 40: HUGE BAT
                 enemyBattleSprAndPlt 79, 0 ; 41: VAMPIRE BAT
-                enemyBattleSprAndPlt 82, 0 ; 42: Belial
+                enemyBattleSprAndPlt 82, 0 ; 42: BELIAL
                 enemyBattleSprAndPlt GARGOYLE, 0 ; 43: GARGOYLE
                 enemyBattleSprAndPlt HARPY, 0 ; 44: HARPY
                 enemyBattleSprAndPlt 81, 1 ; 45: DRAGON
                 enemyBattleSprAndPlt WYVERN, 0 ; 46: WYVERN
-                enemyBattleSprAndPlt HARPY, 1 ; 47: HARPY QUEEN
+                enemyBattleSprAndPlt 84, 1 ; 47: HAWKMAN
                 enemyBattleSprAndPlt PEGASUS_KNIGHT, 0 ; 48: PEGASUS KNIGHT
                 enemyBattleSprAndPlt GRIFFIN, 0 ; 49: GRIFFIN
                 enemyBattleSprAndPlt GIZMO, 3 ; 50: MIST DEMON
@@ -86,11 +86,11 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt NECROMANCER, 1 ; 75: DEMON MASTER
                 enemyBattleSprAndPlt CLERIC, 0 ; 76: DARK CLERIC
                 enemyBattleSprAndPlt MONK, 0 ; 77: DEATH MONK
-                enemyBattleSprAndPlt 85, 0 ; 78: BLACK MONK
+                enemyBattleSprAndPlt 85, 0 ; 78: PRIEST
                 enemyBattleSprAndPlt CLERIC, 1 ; 79: HIGH PRIEST
                 enemyBattleSprAndPlt 111, 0 ; 80: BISHOP
                 enemyBattleSprAndPlt BISHOP, 1 ; 81: DARK BISHOP
-                enemyBattleSprAndPlt MONK, 2 ; 82: MASTER MONK
+                enemyBattleSprAndPlt 117, 0 ; 82: MASTER MONK
                 enemyBattleSprAndPlt SHAMAN, 0 ; 83: SHAMAN
                 enemyBattleSprAndPlt BISHOP, 2 ; 84: EVIL BISHOP
                 enemyBattleSprAndPlt SHAMAN, 1 ; 85: BLUE SHAMAN

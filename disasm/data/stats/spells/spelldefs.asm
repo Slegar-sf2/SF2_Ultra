@@ -124,15 +124,23 @@ tbl_SpellDefs:
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      0, 1
                 radius     1
-                power      15
+                power      5
                 
                 entry      BOOST|LV2    ; BOOST 2
                 mpCost     5
                 animation  BUFF1|VARIATION2
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
+                range      0, 1
+                radius     2
+                power      5
+				
+				entry      BOOST|LV3    ; BOOST 3
+                mpCost     10
+                animation  BUFF1|VARIATION2
+                properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      0, 2
                 radius     2
-                power      15
+                power      10
                 
                 entry      SLOW         ; SLOW 1
                 mpCost     3

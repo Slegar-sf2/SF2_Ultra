@@ -689,7 +689,7 @@ tbl_ItemDefs:
                 equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN|SWOR|STAR
                 equipFlags2  NONE
                 range        1, 1
-                price        1120
+                price        1100
                 itemType     WEAPON
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 16, &
@@ -700,7 +700,7 @@ tbl_ItemDefs:
                 equipFlags   SDMN|HERO
                 equipFlags2  NONE
                 range        1, 1
-                price        1350
+                price        1550
                 itemType     WEAPON|RARE
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 19, &
@@ -711,7 +711,7 @@ tbl_ItemDefs:
                 equipFlags   HERO|BRN|BDBT|NINJ|RDBN|SWOR|STAR
                 equipFlags2  NONE
                 range        1, 1
-                price        1600
+                price        1900
                 itemType     WEAPON
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 22, &
@@ -799,7 +799,7 @@ tbl_ItemDefs:
                 equipFlags   HERO|BRN|BDBT|NINJ|RDBN|STAR
                 equipFlags2  NONE
                 range        1, 1
-                price        17000
+                price        16000
                 itemType     WEAPON|RARE|CURSED|BREAKABLE
                 useSpell     DESOUL
                 equipEffects INCREASE_ATT, 50, &

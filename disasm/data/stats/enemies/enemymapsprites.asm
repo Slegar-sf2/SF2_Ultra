@@ -28,7 +28,7 @@ tbl_EnemyMapSprites:
                 mapSprite WORM          ; 20: WORM
                 mapSprite DARK_KNIGHT   ; 21: DARK KNIGHT
                 mapSprite LIZARD        ; 22: LIZARD
-                mapSprite DEVIL_SOLDIER ; 23: DEVIL SOLDIER
+                mapSprite SKELET        ; 23: SKELET
                 mapSprite CERBERUS      ; 24: CERBERUS
                 mapSprite MUD_MAN       ; 25: MUD MAN
                 mapSprite DRAGONEWT     ; 26: DRAGONEWT
@@ -52,7 +52,7 @@ tbl_EnemyMapSprites:
                 mapSprite HARPY         ; 44: HARPY
                 mapSprite DRAGON        ; 45: DRAGON
                 mapSprite WYVERN        ; 46: WYVERN
-                mapSprite HARPY_QUEEN   ; 47: HARPY QUEEN
+                mapSprite HAWKMAN       ; 47: HAWKMAN
                 mapSprite PEGASUS_KNIGHT ; 48: PEGASUS KNIGHT
                 mapSprite GRIFFIN       ; 49: GRIFFIN
                 mapSprite MIST_DEMON    ; 50: MIST DEMON
@@ -83,7 +83,7 @@ tbl_EnemyMapSprites:
                 mapSprite DEMON_MASTER  ; 75: DEMON MASTER
                 mapSprite DARK_CLERIC   ; 76: DARK CLERIC
                 mapSprite DEATH_MONK    ; 77: DEATH MONK
-                mapSprite BLACK_MONK    ; 78: BLACK MONK
+                mapSprite PRIEST_EVIL   ; 78: PRIEST
                 mapSprite HIGH_PRIEST   ; 79: HIGH PRIEST
                 mapSprite BISHOP        ; 80: EVIL BISHOP
                 mapSprite DARK_BISHOP   ; 81: DARK BISHOP
