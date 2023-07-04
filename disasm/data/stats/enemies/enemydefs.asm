@@ -709,7 +709,7 @@ tbl_EnemyDefs:
                 moveType      REGULAR
                 unknownWord   8224
                     
-                unknownByte 27          ; 27: PURPLE WORM
+                unknownByte 27          ; 27: GREEN WORM
                 spellPower ENHANCED
                 level    32
                 maxHp    58
@@ -2606,7 +2606,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
-                moveType      HEALER
+                moveType      REGULAR
                 unknownWord   12288
 				
 				unknownByte 0          ; 103: ARTILERY
@@ -2631,6 +2631,31 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
-                moveType      CENTAUR_ARCHER
+                moveType      BRASS_GUNNER
                 unknownWord   8208
+				
+				unknownByte 0           ; 104: GHOUL
+                spellPower REGULAR
+                level    23
+                maxHp    50
+                maxMp    0
+                baseAtt  42
+                baseDef  31
+                baseAgi  14
+                baseMov  6
+                baseResistance NONE
+                baseProwess    CRITICAL_POISON|DOUBLE_1IN32|COUNTER_1IN32
+                items &
+                    NOTHING,&
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      REGULAR
+                unknownWord   8224
                     

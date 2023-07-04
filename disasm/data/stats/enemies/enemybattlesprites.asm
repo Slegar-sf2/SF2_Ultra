@@ -35,7 +35,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt CERBERUS, 0 ; 24: CERBERUS
                 enemyBattleSprAndPlt 63, 0  ; 25: MUD MAN
                 enemyBattleSprAndPlt 119, 0 ; 26: KOMAINU
-                enemyBattleSprAndPlt WORM, 2 ; 27: PURPLE WORM
+                enemyBattleSprAndPlt 65, 0 ; 27: GREEN WORM
                 enemyBattleSprAndPlt 68, 1 ; 28: EXECUTIONER
                 enemyBattleSprAndPlt 61, 1 ; 29: SENTINEL
                 enemyBattleSprAndPlt MINOTAUR, 1 ; 30: MINOTAUR
@@ -112,3 +112,4 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 86, 0 ; 101:MAGE
                 enemyBattleSprAndPlt 59, 0 ; 102: MUTSUKI
 				enemyBattleSprAndPlt 103, 0 ; 103: ARTILERY
+				enemyBattleSprAndPlt 64, 1 ; 104: GHOUL

@@ -81,7 +81,7 @@ ce_4D832:       mainEntity 43,9,LEFT
                 entity 31,24,UP,MAPSPRITE_MUD_MAN,eas_Init
                 entity 28,28,UP,MAPSPRITE_MUD_MAN,eas_Init
                 entity 24,24,UP,MAPSPRITE_KOMAINU,eas_Init
-                entity 24,25,UP,MAPSPRITE_PURPLE_WORM,eas_Init
+                entity 24,25,UP,MAPSPRITE_GREEN_WORM,eas_Init
                 entity 24,26,UP,MAPSPRITE_GRIFFIN,eas_Init
                 entity 24,27,UP,MAPSPRITE_MIST_DEMON,eas_Init
                 dc.w $FFFF

@@ -28,7 +28,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 490                ; CERBERUS
                 dc.w 570                ; MUD MAN
                 dc.w 530                ; KOMAINU
-                dc.w 520                ; PURPLE WORM
+                dc.w 520                ; GREEN WORM
                 dc.w 620                ; EXECUTIONER
                 dc.w 570                ; SENTINEL
                 dc.w 660                ; MINOTAUR
@@ -105,7 +105,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 520                ; NECROMANCER
                 dc.w 860                ; MUTSUKI
                 dc.w 110                ; ARTILERY
-                dc.w 17922
+                dc.w 145                ; GHOUL
                 dc.w 16643
                 dc.w 16900
                 dc.w 1347

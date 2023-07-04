@@ -32,7 +32,7 @@ tbl_EnemyMapSprites:
                 mapSprite CERBERUS      ; 24: CERBERUS
                 mapSprite MUD_MAN       ; 25: MUD MAN
                 mapSprite KOMAINU       ; 26: KOMAINU
-                mapSprite PURPLE_WORM   ; 27: PURPLE WORM
+                mapSprite GREEN_WORM    ; 27: GREEN WORM
                 mapSprite EXECUTIONER   ; 28: EXECUTIONER
                 mapSprite SENTINEL      ; 29: SENTINEL
                 mapSprite MINOTAUR      ; 30: MINOTAUR
@@ -109,7 +109,7 @@ tbl_EnemyMapSprites:
                 mapSprite MAGE          ; 101: MAGE
                 mapSprite MUTSUKI       ; 102: MUTSUKI
                 mapSprite ARTILERY      ;103: Artileria
-                mapSprite FILLER7                
+                mapSprite GHOUL         ;104: GHOUL    
                 mapSprite NPC_ROHDE
                 mapSprite FLAME1
                 mapSprite ORB
