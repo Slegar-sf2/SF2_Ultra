@@ -27,7 +27,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 510                ; SKELET
                 dc.w 490                ; CERBERUS
                 dc.w 570                ; MUD MAN
-                dc.w 530                ; DRAGONEWT
+                dc.w 530                ; KOMAINU
                 dc.w 520                ; PURPLE WORM
                 dc.w 620                ; EXECUTIONER
                 dc.w 570                ; HELL HOUND
@@ -64,11 +64,11 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 290                ; ARROW LAUNCHER
                 dc.w 320                ; ROOK
                 dc.w 380                ; DARK SNIPER
-                dc.w 550                ; BOW MASTER
+                dc.w 550                ; ASSASSIN
                 dc.w 610                ; BOW RIDER
                 dc.w 680                ; DARK GUNNER
                 dc.w 880                ; HORSEMAN
-                dc.w 100                 ; GALAM DWARF
+                dc.w 100                ; GALAM DWARF
                 dc.w 110                ; WITCH
                 dc.w 220                ; MASTER MAGE
                 dc.w 310                ; DARK MADAM

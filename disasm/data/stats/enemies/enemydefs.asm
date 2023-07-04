@@ -536,11 +536,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 20          ; 20: WORM
                 spellPower ENHANCED
-                level    25
-                maxHp    45
+                level    30
+                maxHp    55
                 maxMp    0
-                baseAtt  60
-                baseDef  40
+                baseAtt  70
+                baseDef  50
                 baseAgi  34
                 baseMov  5
                 baseResistance NONE
@@ -684,19 +684,19 @@ tbl_EnemyDefs:
                 moveType      REGULAR
                 unknownWord   8224
                     
-                unknownByte 26          ; 26: DRAGONEWT
+                unknownByte 26          ; 26: KOMAINU
                 spellPower ENHANCED
-                level    32
+                level    38
                 maxHp    60
                 maxMp    0
-                baseAtt  44
+                baseAtt  74
                 baseDef  42
                 baseAgi  46
                 baseMov  6
                 baseResistance NONE
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN16
                 items &
-                    HEAT_AXE|EQUIPPED, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1609,7 +1609,7 @@ tbl_EnemyDefs:
                 moveType      REGULAR
                 unknownWord   8208
                     
-                unknownByte 63          ; 63: BOW MASTER
+                unknownByte 63          ; 63: ASSASSIN
                 spellPower ENHANCED
                 level    30
                 maxHp    46

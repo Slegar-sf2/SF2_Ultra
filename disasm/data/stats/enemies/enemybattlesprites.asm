@@ -33,8 +33,8 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 57, 0 ; 22: LIZARD
                 enemyBattleSprAndPlt 60, 0 ; 23: SKELET
                 enemyBattleSprAndPlt CERBERUS, 0 ; 24: CERBERUS
-                enemyBattleSprAndPlt GOLEM, 1 ; 25: MUD MAN
-                enemyBattleSprAndPlt LIZARDMAN, 1 ; 26: DRAGONEWT
+                enemyBattleSprAndPlt 63, 0  ; 25: MUD MAN
+                enemyBattleSprAndPlt 119, 0 ; 26: KOMAINU
                 enemyBattleSprAndPlt WORM, 2 ; 27: PURPLE WORM
                 enemyBattleSprAndPlt REAPER, 1 ; 28: EXECUTIONER
                 enemyBattleSprAndPlt CERBERUS, 1 ; 29: HELL HOUND
@@ -53,7 +53,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 82, 0 ; 42: BELIAL
                 enemyBattleSprAndPlt GARGOYLE, 0 ; 43: GARGOYLE
                 enemyBattleSprAndPlt HARPY, 0 ; 44: HARPY
-                enemyBattleSprAndPlt 81, 1 ; 45: DRAGON
+                enemyBattleSprAndPlt 81, 0 ; 45: DRAGON
                 enemyBattleSprAndPlt WYVERN, 0 ; 46: WYVERN
                 enemyBattleSprAndPlt 84, 1 ; 47: HAWKMAN
                 enemyBattleSprAndPlt PEGASUS_KNIGHT, 0 ; 48: PEGASUS KNIGHT
@@ -71,7 +71,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt ARROW_LAUNCHER, 0 ; 60: ARROW LAUNCHER
                 enemyBattleSprAndPlt 107, 0 ; 61: ROOK
                 enemyBattleSprAndPlt 118, 0 ; 62: MINOTAURO
-                enemyBattleSprAndPlt ARCHER, 2 ; 63: BOW MASTER
+                enemyBattleSprAndPlt 102, 0 ; 63: ASSASSIN
                 enemyBattleSprAndPlt BOW_RIDER, 0 ; 64: BOW RIDER
                 enemyBattleSprAndPlt ARROW_LAUNCHER, 2 ; 65: DARK GUNNER
                 enemyBattleSprAndPlt BOW_RIDER, 1 ; 66: HORSEMAN

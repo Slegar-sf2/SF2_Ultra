@@ -31,7 +31,7 @@ tbl_EnemyMapSprites:
                 mapSprite SKELET        ; 23: SKELET
                 mapSprite CERBERUS      ; 24: CERBERUS
                 mapSprite MUD_MAN       ; 25: MUD MAN
-                mapSprite DRAGONEWT     ; 26: DRAGONEWT
+                mapSprite KOMAINU       ; 26: KOMAINU
                 mapSprite PURPLE_WORM   ; 27: PURPLE WORM
                 mapSprite EXECUTIONER   ; 28: EXECUTIONER
                 mapSprite HELL_HOUND    ; 29: HELL HOUND
@@ -68,7 +68,7 @@ tbl_EnemyMapSprites:
                 mapSprite ARROW_LAUNCHER ; 60: ARROW LAUNCHER
                 mapSprite ROOK          ; 61: ROOK
                 mapSprite MINOTAURO     ; 62: Minotauro
-                mapSprite BOW_MASTER    ; 63: BOW MASTER
+                mapSprite ASSASSIN      ; 63: ASSASSIN
                 mapSprite BOW_RIDER     ; 64: BOW RIDER
                 mapSprite DARK_GUNNER   ; 65: DARK GUNNER
                 mapSprite HORSEMAN      ; 66: HORSEMAN
