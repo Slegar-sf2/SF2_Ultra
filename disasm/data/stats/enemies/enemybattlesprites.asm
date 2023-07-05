@@ -61,7 +61,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt GIZMO, 3 ; 50: MIST DEMON
                 enemyBattleSprAndPlt DRAGON, 1 ; 51: WHITE DRAGON
                 enemyBattleSprAndPlt DEMON, 1 ; 52: DEMON
-                enemyBattleSprAndPlt DRAGON, 0 ; 53: CHAOS DRAGON
+                enemyBattleSprAndPlt 116, 0 ; 53: BEEDRILL
                 enemyBattleSprAndPlt GRIFFIN, 1 ; 54: DEVIL GRIFFIN
                 enemyBattleSprAndPlt DEMON, 0 ; 55: ARCH DEMON
                 enemyBattleSprAndPlt ARCHER, 0 ; 56: GALAM ARCHER
@@ -93,7 +93,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 117, 0 ; 82: MASTER MONK
                 enemyBattleSprAndPlt SHAMAN, 0 ; 83: SHAMAN
                 enemyBattleSprAndPlt 88, 2 ; 84: EVIL BISHOP
-                enemyBattleSprAndPlt SHAMAN, 1 ; 85: BLUE SHAMAN
+                enemyBattleSprAndPlt 62, 0 ; 85: DULAHAN
                 enemyBattleSprAndPlt 55, 0 ; 86: Scavenger
                 enemyBattleSprAndPlt KRAKEN_HEAD, 0 ; 87: KRAKEN HEAD
                 enemyBattleSprAndPlt TAROS, 0 ; 88: TAROS

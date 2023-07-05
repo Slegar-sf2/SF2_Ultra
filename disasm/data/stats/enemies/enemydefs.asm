@@ -1359,29 +1359,29 @@ tbl_EnemyDefs:
                 moveType      FLYING
                 unknownWord   8208
                     
-                unknownByte 53          ; 53: CHAOS DRAGON
+                unknownByte 53          ; 53: BEEDRILL
                 spellPower ENHANCED
                 level    41
                 maxHp    83
-                maxMp    0
-                baseAtt  93
+                maxMp    28
+                baseAtt  90
                 baseDef  48
                 baseAgi  57
-                baseMov  6
-                baseResistance LIGHTNING_WEAKNESS
-                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN32|COUNTER_1IN16
+                baseMov  7
+                baseResistance WIND_WEAKNESS|FIRE_WEAKNESS
+                baseProwess    CRITICAL_POISON|DOUBLE_1IN8|COUNTER_1IN4
                 items &
                     NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    SNOW|LV2, &
+                    BLAST|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
-                moveType      FLYING
+                moveType      REGULAR
                 unknownWord   8208
                     
                 unknownByte 54          ; 54: DEVIL GRIFFIN
@@ -2159,29 +2159,29 @@ tbl_EnemyDefs:
                 moveType      HEALER
                 unknownWord   12288
                     
-                unknownByte 0           ; 85: BLUE SHAMAN
+                unknownByte 0           ; 85: DULAHAN
                 spellPower ENHANCED
                 level    42
                 maxHp    72
-                maxMp    60
+                maxMp    40
                 baseAtt  64
                 baseDef  54
                 baseAgi  51
-                baseMov  5
+                baseMov  6
                 baseResistance NONE
-                baseProwess    CRITICAL_SILENCE|DOUBLE_1IN32|COUNTER_1IN32
+                baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN8
                 items &
-                    HOLY_STAFF|EQUIPPED, &
+                    BATTLE_SWORD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    AURA|LV3, &
-                    BLAST|LV4, &
+                    THUNDR|LV3, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
-                moveType      HEALER
+                moveType      REGULAR
                 unknownWord   12288
                     
                 unknownByte 0           ; 86: SCAVENGER

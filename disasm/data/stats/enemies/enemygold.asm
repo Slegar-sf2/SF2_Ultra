@@ -54,7 +54,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 590                ; MIST DEMON
                 dc.w 720                ; WHITE DRAGON
                 dc.w 770                ; DEMON
-                dc.w 980                ; CHAOS DRAGON
+                dc.w 980                ; BEEDRILL
                 dc.w 1120               ; DEVIL GRIFFIN
                 dc.w 1150               ; ARCH DEMON
                 dc.w 80                 ; GALAM ARCHER
@@ -86,7 +86,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 460                ; MASTER MONK
                 dc.w 540                ; SHAMAN
                 dc.w 640                ; EVIL BISHOP
-                dc.w 860                ; BLUE SHAMAN
+                dc.w 860                ; DULAHAN
                 dc.w 130                ; DARK SMOKE
                 dc.w 320                ; KRAKEN HEAD
                 dc.w 450                ; TAROS

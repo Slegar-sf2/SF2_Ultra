@@ -250,6 +250,7 @@ pt_EnemyAnimations:
                 dc.l EnemyAnimation245
                 dc.l EnemyAnimation246
 				dc.l EnemyAnimation247
+				dc.l EnemyAnimation248
 EnemyAnimation000:
                 incbin "data/graphics/battles/battlesprites/enemies/animations/enemybattlespriteanimation000.bin"
 EnemyAnimation001:
@@ -745,4 +746,6 @@ EnemyAnimation245:
 EnemyAnimation246:
                 incbin "data/graphics/battles/battlesprites/enemies/animations/enemybattlespriteanimation246.bin"
 EnemyAnimation247:
-                incbin "data/graphics/battles/battlesprites/enemies/animations/enemybattlespriteanimation247.bin"				
+                incbin "data/graphics/battles/battlesprites/enemies/animations/enemybattlespriteanimation247.bin"
+EnemyAnimation248:
+                incbin "data/graphics/battles/battlesprites/enemies/animations/enemybattlespriteanimation248.bin"

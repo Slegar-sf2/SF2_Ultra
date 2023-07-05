@@ -58,7 +58,7 @@ tbl_EnemyMapSprites:
                 mapSprite MIST_DEMON    ; 50: MIST DEMON
                 mapSprite WHITE_DRAGON  ; 51: WHITE DRAGON
                 mapSprite DEMON         ; 52: DEMON
-                mapSprite CHAOS_DRAGON  ; 53: CHAOS DRAGON
+                mapSprite BEEDRILL      ; 53: BEEDRILL
                 mapSprite DEVIL_GRIFFIN ; 54: DEVIL GRIFFIN
                 mapSprite ARCH_DEMON    ; 55: ARCH DEMON
                 mapSprite GALAM_ARCHER  ; 56: GALAM ARCHER
@@ -90,7 +90,7 @@ tbl_EnemyMapSprites:
                 mapSprite MASTER_MONK   ; 82: MASTER MONK
                 mapSprite SHAMAN        ; 83: SHAMAN
                 mapSprite EVIL_BISHOP   ; 84: EVIL BISHOP
-                mapSprite BLUE_SHAMAN   ; 85: BLUE SHAMAN
+                mapSprite DULAHAN       ; 85: DULAHAN
                 mapSprite SCAVENGER     ; 86: SCAVENGER
                 mapSprite KRAKEN        ; 87: KRAKEN HEAD
                 mapSprite TAROS         ; 88: TAROS
