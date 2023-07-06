@@ -80,10 +80,10 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt MAGE, 1 ; 69: MASTER MAGE
                 enemyBattleSprAndPlt 87, 0  ; 70: DARK MADAM
                 enemyBattleSprAndPlt 108, 0 ; 71: QUEEN
-                enemyBattleSprAndPlt WIZARD, 0 ; 72: WIZARD
-                enemyBattleSprAndPlt NECROMANCER, 0 ; 73: NECROMANCER
-                enemyBattleSprAndPlt WIZARD, 1 ; 74: CHAOS WIZARD
-                enemyBattleSprAndPlt NECROMANCER, 1 ; 75: DEMON MASTER
+                enemyBattleSprAndPlt WIZARD, 1 ; 72: WIZARD
+                enemyBattleSprAndPlt NECROMANCER, 1 ; 73: NECROMANCER
+                enemyBattleSprAndPlt 67, 0 ; 74: CHAOS WIZARD
+                enemyBattleSprAndPlt 113, 0 ; 75: DEMON MASTER
                 enemyBattleSprAndPlt CLERIC, 0 ; 76: DARK CLERIC
                 enemyBattleSprAndPlt MONK, 0 ; 77: DEATH MONK
                 enemyBattleSprAndPlt 85, 0 ; 78: PRIEST
