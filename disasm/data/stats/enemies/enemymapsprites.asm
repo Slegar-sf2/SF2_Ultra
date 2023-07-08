@@ -60,7 +60,7 @@ tbl_EnemyMapSprites:
                 mapSprite DEMON         ; 52: DEMON
                 mapSprite BEEDRILL      ; 53: BEEDRILL
                 mapSprite DEVIL_GRIFFIN ; 54: DEVIL GRIFFIN
-                mapSprite ARCH_DEMON    ; 55: ARCH DEMON
+                mapSprite TENTACRUEL    ; 55: TENTACRUEL
                 mapSprite GALAM_ARCHER  ; 56: GALAM ARCHER
                 mapSprite HUNTER_GOBLIN ; 57: HUNTER GOBLIN
                 mapSprite DEATH_ARCHER  ; 58: DEATH ARCHER

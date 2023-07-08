@@ -293,7 +293,7 @@ tbl_EnemyDefs:
                 baseDef  34
                 baseAgi  19
                 baseMov  6
-                baseResistance LIGHTNING_WEAKNESS|ICE_MINOR|FIRE_WEAKNESS
+                baseResistance LIGHTNING_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS
                 baseProwess    CRITICAL150_1IN4|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -468,7 +468,7 @@ tbl_EnemyDefs:
                 baseDef  49
                 baseAgi  33
                 baseMov  6
-                baseResistance WIND_WEAKNESS|LIGHTNING_MAJOR|ICE_WEAKNESS|FIRE_WEAKNESS|STATUS_IMMUNITY
+                baseResistance WIND_WEAKNESS|LIGHTNING_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN8|COUNTER_1IN16
                 items &
                     BROAD_SWORD|EQUIPPED, &
@@ -518,7 +518,7 @@ tbl_EnemyDefs:
                 baseDef  45
                 baseAgi  38
                 baseMov  6
-                baseResistance ICE_WEAKNESS
+                baseResistance ICE_WEAKNESS|FIRE_MINOR
                 baseProwess    CRITICAL150_1IN4|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     LARGE_AXE|EQUIPPED, &
@@ -593,7 +593,7 @@ tbl_EnemyDefs:
                 baseDef  44
                 baseAgi  37
                 baseMov  5
-                baseResistance NONE
+                baseResistance ICE_WEAKNESS|FIRE_MINOR
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     BATTLE_AXE|EQUIPPED, &
@@ -618,7 +618,7 @@ tbl_EnemyDefs:
                 baseDef  55
                 baseAgi  46
                 baseMov  6
-                baseResistance WIND_WEAKNESS|STATUS_MINOR
+                baseResistance WIND_WEAKNESS|LIGHTNING_MAJOR|STATUS_MINOR
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN8
                 items &
                     STEEL_SWORD|EQUIPPED, &
@@ -668,7 +668,7 @@ tbl_EnemyDefs:
                 baseDef  51
                 baseAgi  41
                 baseMov  4
-                baseResistance LIGHTNING_MINOR|ICE_MAJOR|FIRE_WEAKNESS|STATUS_IMMUNITY
+                baseResistance WIND_MAJOR|LIGHTNING_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -693,7 +693,7 @@ tbl_EnemyDefs:
                 baseDef  42
                 baseAgi  46
                 baseMov  6
-                baseResistance NONE
+                baseResistance ICE_WEAKNESS|FIRE_MAJOR
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -1409,16 +1409,16 @@ tbl_EnemyDefs:
                 moveType      FLYING
                 unknownWord   8208
                     
-                unknownByte 55          ; 55: ARCH DEMON
+                unknownByte 55          ; 55: TENTACRUEL
                 spellPower ENHANCED
                 level    44
-                maxHp    99
+                maxHp    80
                 maxMp    65
                 baseAtt  99
                 baseDef  46
                 baseAgi  61
                 baseMov  6
-                baseResistance LIGHTNING_WEAKNESS|FIRE_MINOR|STATUS_MAJOR
+                baseResistance LIGHTNING_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS|STATUS_MAJOR
                 baseProwess    CRITICAL_SLOW|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -1426,7 +1426,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    BOLT|LV3, &
+                    FREEZE|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1518,7 +1518,7 @@ tbl_EnemyDefs:
                 baseDef  36
                 baseAgi  26
                 baseMov  6
-                baseResistance NONE
+                baseResistance LIGHTNING_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     NOTHING, &

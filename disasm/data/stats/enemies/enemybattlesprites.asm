@@ -63,7 +63,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt DEMON, 1 ; 52: DEMON
                 enemyBattleSprAndPlt 116, 0 ; 53: BEEDRILL
                 enemyBattleSprAndPlt GRIFFIN, 1 ; 54: DEVIL GRIFFIN
-                enemyBattleSprAndPlt DEMON, 0 ; 55: ARCH DEMON
+                enemyBattleSprAndPlt 74, 0 ; 55: TENTACRUEL
                 enemyBattleSprAndPlt ARCHER, 0 ; 56: GALAM ARCHER
                 enemyBattleSprAndPlt HUNTER_GOBLIN, 0 ; 57: HUNTER GOBLIN
                 enemyBattleSprAndPlt 101, 0   ; 58: DEATH ARCHER
@@ -109,7 +109,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt ZEON, 0 ; 98: ZEON
                 enemyBattleSprAndPlt PEGASUS_KNIGHT, 1 ; 99: JAR
                 enemyBattleSprAndPlt 83, 0 ; 100: Incubus
-                enemyBattleSprAndPlt 86, 0 ; 101:MAGE
+                enemyBattleSprAndPlt 86, 1 ; 101:MAGE
                 enemyBattleSprAndPlt 59, 0 ; 102: MUTSUKI
 				enemyBattleSprAndPlt 103, 0 ; 103: ARTILERY
 				enemyBattleSprAndPlt 64, 1 ; 104: GHOUL

@@ -56,7 +56,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 770                ; DEMON
                 dc.w 980                ; BEEDRILL
                 dc.w 1120               ; DEVIL GRIFFIN
-                dc.w 1150               ; ARCH DEMON
+                dc.w 1150               ; TENTACRUEL
                 dc.w 80                 ; GALAM ARCHER
                 dc.w 90                 ; HUNTER GOBLIN
                 dc.w 190                ; DEATH ARCHER
