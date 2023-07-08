@@ -74,7 +74,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 102, 0 ; 63: ASSASSIN
                 enemyBattleSprAndPlt BOW_RIDER, 0 ; 64: BOW RIDER
                 enemyBattleSprAndPlt ARROW_LAUNCHER, 2 ; 65: DARK GUNNER
-                enemyBattleSprAndPlt BOW_RIDER, 1 ; 66: HORSEMAN
+                enemyBattleSprAndPlt 77, 0 ; 66: DANTOM
                 enemyBattleSprAndPlt 56, 0 ; 67: GALAM DWARF
                 enemyBattleSprAndPlt WITCH, 0 ; 68: WITCH
                 enemyBattleSprAndPlt MAGE, 1 ; 69: MASTER MAGE

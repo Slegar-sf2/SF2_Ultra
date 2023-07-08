@@ -1410,16 +1410,16 @@ tbl_EnemyDefs:
                 unknownWord   8208
                     
                 unknownByte 55          ; 55: TENTACRUEL
-                spellPower ENHANCED
-                level    44
-                maxHp    80
-                maxMp    65
-                baseAtt  99
+                spellPower REGULAR
+                level    16
+                maxHp    40
+                maxMp    25
+                baseAtt  60
                 baseDef  46
-                baseAgi  61
+                baseAgi  25
                 baseMov  6
                 baseResistance LIGHTNING_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS|STATUS_MAJOR
-                baseProwess    CRITICAL_SLOW|DOUBLE_1IN32|COUNTER_1IN16
+                baseProwess    CRITICAL_POISON|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     NOTHING, &
                     NOTHING, &
@@ -1431,8 +1431,8 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
-                moveType      FLYING
-                unknownWord   8208
+                moveType      REGULAR
+                unknownWord   0
                     
                 unknownByte 56          ; 56: GALAM ARCHER
                 spellPower REGULAR
@@ -1684,19 +1684,19 @@ tbl_EnemyDefs:
                 moveType      BRASS_GUNNER
                 unknownWord   8208
                     
-                unknownByte 66          ; 66: HORSEMAN
+                unknownByte 66          ; 66: DANTOM
                 spellPower ENHANCED
-                level    41
-                maxHp    67
+                level    35
+                maxHp    96
                 maxMp    0
                 baseAtt  59
                 baseDef  57
-                baseAgi  55
+                baseAgi  180
                 baseMov  7
                 baseResistance NONE
-                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN32
+                baseProwess    CRITICAL_SILENCE|DOUBLE_1IN4|COUNTER_1IN4
                 items &
-                    BUSTER_SHOT|EQUIPPED, &
+                    COUNTER_SWORD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1706,7 +1706,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
-                moveType      CENTAUR_ARCHER
+                moveType      REGULAR
                 unknownWord   8208
                     
                 unknownByte 67          ; 67: GALAM DWARF

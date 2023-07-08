@@ -71,7 +71,7 @@ tbl_EnemyMapSprites:
                 mapSprite ASSASSIN      ; 63: ASSASSIN
                 mapSprite BOW_RIDER     ; 64: BOW RIDER
                 mapSprite DARK_GUNNER   ; 65: DARK GUNNER
-                mapSprite HORSEMAN      ; 66: HORSEMAN
+                mapSprite DANTOM      ; 66: DANTOM
                 mapSprite GALAM_DWARF   ; 67: GALAM DWARF
                 mapSprite WITCH         ; 68: WITCH
                 mapSprite MASTER_MAGE   ; 69: MASTER MAGE
