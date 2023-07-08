@@ -50,7 +50,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt GIZMO, 2 ; 39: GIZMO
                 enemyBattleSprAndPlt BAT, 0 ; 40: HUGE BAT
                 enemyBattleSprAndPlt 79, 0 ; 41: VAMPIRE BAT
-                enemyBattleSprAndPlt 82, 0 ; 42: BELIAL
+                enemyBattleSprAndPlt 82, 1 ; 42: BELIAL
                 enemyBattleSprAndPlt GARGOYLE, 0 ; 43: GARGOYLE
                 enemyBattleSprAndPlt HARPY, 0 ; 44: HARPY
                 enemyBattleSprAndPlt 81, 0 ; 45: DRAGON
@@ -66,7 +66,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 74, 0 ; 55: TENTACRUEL
                 enemyBattleSprAndPlt ARCHER, 0 ; 56: GALAM ARCHER
                 enemyBattleSprAndPlt HUNTER_GOBLIN, 0 ; 57: HUNTER GOBLIN
-                enemyBattleSprAndPlt 101, 0   ; 58: DEATH ARCHER
+                enemyBattleSprAndPlt 101, 1   ; 58: DEATH ARCHER
                 enemyBattleSprAndPlt KRAKEN_ARM, 0 ; 59: KRAKEN ARM
                 enemyBattleSprAndPlt ARROW_LAUNCHER, 0 ; 60: ARROW LAUNCHER
                 enemyBattleSprAndPlt 107, 0 ; 61: ROOK
