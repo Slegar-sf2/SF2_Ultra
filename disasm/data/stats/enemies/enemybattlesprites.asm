@@ -73,7 +73,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 118, 0 ; 62: MINOTAURO
                 enemyBattleSprAndPlt 102, 0 ; 63: ASSASSIN
                 enemyBattleSprAndPlt BOW_RIDER, 0 ; 64: BOW RIDER
-                enemyBattleSprAndPlt ARROW_LAUNCHER, 2 ; 65: DARK GUNNER
+                enemyBattleSprAndPlt 115, 0 ; 65: DARK GUNNER
                 enemyBattleSprAndPlt 77, 0 ; 66: DANTOM
                 enemyBattleSprAndPlt 56, 0 ; 67: GALAM DWARF
                 enemyBattleSprAndPlt WITCH, 0 ; 68: WITCH
