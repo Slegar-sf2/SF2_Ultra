@@ -14,9 +14,9 @@ bbcs_26:        textCursor 2596
                 cameraSpeed $30
                 nextSingleText $0,128   ; "Answer me!{N}Where are you going?{W1}"
                 setCamDest 13,9
-                nextSingleText $C0,ALLY_HIGINS ; "Ah...I...{W1}"
+                nextSingleText $C0,ALLY_DAWN ; "Ah...I...{W1}"
                 nextSingleText $0,128   ; "You were going to South{N}Parmecia to get help, right?{W1}"
-                nextSingleText $C0,ALLY_HIGINS ; "I...uh...{W1}"
+                nextSingleText $C0,ALLY_DAWN ; "I...uh...{W1}"
                 nextText $0,128         ; "Paladins of Pacalon are{N}cowards!  {NAME;19}, don't{N}you have any pride?{W2}"
                 nextSingleText $0,128   ; "Wimp!{W1}"
                 entityActionsWait 133
@@ -25,7 +25,7 @@ bbcs_26:        textCursor 2596
                 endActions
                 setFacing 133,UP
                 nextSingleText $C0,133  ; "Shut up!  Mr. {NAME;19} is{N}the bravest soldier in the{N}world!{W1}"
-                nextSingleText $C0,ALLY_HIGINS ; "I can defend myself.{W1}"
+                nextSingleText $C0,ALLY_DAWN ; "I can defend myself.{W1}"
                 nextSingleText $0,128   ; "Come on, you half-breed!{W1}"
                 setFacing 128,UP
                 nextSingleText $0,128   ; "Are you afraid of me?{N}I'll turn my back to you.{N}Now, run away you cowards!{W1}"
@@ -70,7 +70,7 @@ bbcs_26:        textCursor 2596
                 animEntityFX 128,7
                 nextSingleText $0,128   ; "Pacalon soldiers have no{N}honor.  They attack while{N}my back is turned!{W1}"
                 setActscriptWait 134,eas_Jump
-                setFacing ALLY_HIGINS,DOWN
+                setFacing ALLY_DAWN,DOWN
                 setFacing 134,DOWN
                 csWait 30
                 entityActionsWait 134
@@ -82,7 +82,7 @@ bbcs_26:        textCursor 2596
                 nextText $0,128         ; "Oh, is {NAME;19} ill?{W1}"
                 nextSingleText $0,128   ; "In that case, you can try{N}and take me.{W1}"
                 nextSingleText $C0,134  ; "I can no longer put up with{N}these insults!{W1}"
-                nextSingleText $C0,ALLY_HIGINS ; "No, no!{W1}"
+                nextSingleText $C0,ALLY_DAWN ; "No, no!{W1}"
                 setPos 129,13,18,RIGHT
                 customActscriptWait 129
                  ac_setSpeed 80,80      ;   
@@ -114,31 +114,31 @@ bbcs_26:        textCursor 2596
                  moveUp 2
                 endActions
                 nextSingleText $0,128   ; "You look so sad,{N}{NAME;19}....{W1}"
-                nextSingleText $C0,ALLY_HIGINS ; "You're not just a normal{N}devil soldier.{W1}"
+                nextSingleText $C0,ALLY_DAWN ; "You're not just a normal{N}devil soldier.{W1}"
                 nextText $0,128         ; "You're right, {NAME;19}.{N}I see why you're the leader{N}of the Pacalon Army.{W2}"
                 nextSingleText $0,128   ; "I'm Geshp!  An adviser for{N}Zeon!{W1}"
-                nextSingleText $C0,ALLY_HIGINS ; "How did you know my name?{W1}"
+                nextSingleText $C0,ALLY_DAWN ; "How did you know my name?{W1}"
                 nextSingleText $0,128   ; "I know everything.{W1}"
-                nextText $C0,ALLY_HIGINS ; "Now, tell me the reason why{N}"
-                nextSingleText $C0,ALLY_HIGINS ; "you're keeping me alive.{W1}"
+                nextText $C0,ALLY_DAWN ; "Now, tell me the reason why{N}"
+                nextSingleText $C0,ALLY_DAWN ; "you're keeping me alive.{W1}"
                 nextSingleText $0,128   ; "Ha, ha!  You're smart!{W1}"
                 animEntityFX 132,4
                 entityFlashWhite 128,$1E
                 setCamDest 13,11
                 setPos 132,18,12,DOWN
                 animEntityFX 132,5
-                nextSingleText $C0,ALLY_HIGINS ; "What did you do?{W1}"
+                nextSingleText $C0,ALLY_DAWN ; "What did you do?{W1}"
                 entityActionsWait 132
                  moveDown 1
                 endActions
                 animEntityFX 132,4
-                nextSingleText $C0,ALLY_HIGINS ; "I...can't...!{N}My body won't...{W1}"
-                shiver ALLY_HIGINS
-                stopEntity ALLY_HIGINS
+                nextSingleText $C0,ALLY_DAWN ; "I...can't...!{N}My body won't...{W1}"
+                shiver ALLY_DAWN
+                stopEntity ALLY_DAWN
                 nextText $0,128         ; "I came here to borrow your{N}body.{W2}"
                 nextSingleText $0,128   ; "Ha, ha!  Welcome our new{N}leader!{W1}"
-                stopEntity ALLY_HIGINS
-                customActscriptWait ALLY_HIGINS
+                stopEntity ALLY_DAWN
+                customActscriptWait ALLY_DAWN
                  ac_motion OFF          ;   
                  ac_orientLeft          ;   
                  ac_updateSprite        ;   
@@ -186,7 +186,7 @@ bbcs_26:        textCursor 2596
                 csc_end
 ce_4BC5A:       mainEntity 7,25,RIGHT
                 entity 6,26,RIGHT,ALLY_PETER,eas_Init
-                entity 18,14,UP,ALLY_HIGINS,eas_Init
+                entity 18,14,UP,ALLY_DAWN,eas_Init
                 entity 18,11,DOWN,MAPSPRITE_GESHP,eas_Init
                 entity 17,11,DOWN,MAPSPRITE_DRAGON,eas_Init
                 entity 19,11,DOWN,MAPSPRITE_DARK_BISHOP,eas_Init

@@ -2758,3 +2758,28 @@ tbl_EnemyDefs:
                 initialStatus NONE
                 moveType      MAGE
                 unknownWord   0
+				
+				unknownByte 0           ; 109: FRABELL
+                spellPower ENHANCED
+                level    40
+                maxHp    90
+                maxMp    25
+                baseAtt  58
+                baseDef  41
+                baseAgi  190
+                baseMov  6
+                baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
+                baseProwess    CRITICAL_SILENCE|DOUBLE_1IN8|COUNTER_1IN4
+                items &
+                    BATTLE_AXE|EQUIPPED, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    DISPEL|LV2, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      REGULAR
+                unknownWord   0

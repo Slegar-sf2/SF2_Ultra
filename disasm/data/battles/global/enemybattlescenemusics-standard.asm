@@ -9,7 +9,7 @@ tbl_EnemyBattlesceneMusics:
                 dc.b ENEMY_TAROS, MUSIC_BOSS_ATTACK
                 dc.b ENEMY_ZALBARD, MUSIC_BOSS_ATTACK
                 dc.b ENEMY_CAMEELA, MUSIC_BOSS_ATTACK
-                dc.b ENEMY_RED_BARON, MUSIC_BOSS_ATTACK
+                dc.b ENEMY_RED_BARON, MUSIC_PROMOTED_ATTACK
                 dc.b ENEMY_GESHP, MUSIC_BOSS_ATTACK
                 dc.b ENEMY_ODD_EYE, MUSIC_BOSS_ATTACK
                 dc.b ENEMY_GALAM, MUSIC_BOSS_ATTACK
@@ -18,5 +18,6 @@ tbl_EnemyBattlesceneMusics:
 				dc.b ENEMY_GEPPEL, MUSIC_BOSS_ATTACK
 				dc.b ENEMY_GORDON, MUSIC_BOSS_ATTACK
 				dc.b ENEMY_BAZOO, MUSIC_BOSS_ATTACK
+				dc.b ENEMY_FRABELL, MUSIC_PROMOTED_ATTACK
                 
                 tableEnd.b

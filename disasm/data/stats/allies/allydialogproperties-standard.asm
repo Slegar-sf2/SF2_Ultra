@@ -110,10 +110,10 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx JANET, DIALOG_BLEEP_4
                 allyPortraitAndSfx JANET, DIALOG_BLEEP_4
                 
-; 19: Higins
-                allyPortraitAndSfx HIGINS, DIALOG_BLEEP_6
-                allyPortraitAndSfx HIGINS, DIALOG_BLEEP_6
-                allyPortraitAndSfx HIGINS, DIALOG_BLEEP_6
+; 19: Dawn
+                allyPortraitAndSfx DAWN, DIALOG_BLEEP_6
+                allyPortraitAndSfx DAWN, DIALOG_BLEEP_6
+                allyPortraitAndSfx DAWN, DIALOG_BLEEP_6
                 
 ; 20: Skreech
                 allyPortraitAndSfx SKREECH, DIALOG_BLEEP_5

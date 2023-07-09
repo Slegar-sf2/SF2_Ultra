@@ -114,7 +114,7 @@ cs_62D0E:       textCursor 3967
                 setFacing ALLY_LUKE,UP
                 setFacing ALLY_SHEELA,UP
                 setFacing ALLY_MAY,UP
-                setFacing ALLY_HIGINS,UP
+                setFacing ALLY_DAWN,UP
                 setFacing ALLY_ROHDE,UP
                 setFacing ALLY_ZYNK,UP
                 setFacing ALLY_CHAZ,UP
@@ -171,7 +171,7 @@ cs_62D0E:       textCursor 3967
                 setFacing ALLY_LUKE,UP
                 setFacing ALLY_SHEELA,DOWN
                 setFacing ALLY_MAY,DOWN
-                setFacing ALLY_HIGINS,DOWN
+                setFacing ALLY_DAWN,DOWN
                 setFacing ALLY_ROHDE,UP
                 setFacing ALLY_BOWIE,DOWN
                 csWait 40
@@ -191,7 +191,7 @@ cs_62D0E:       textCursor 3967
                 setFacing ALLY_LUKE,LEFT
                 setFacing ALLY_SHEELA,RIGHT
                 setFacing ALLY_MAY,RIGHT
-                setFacing ALLY_HIGINS,LEFT
+                setFacing ALLY_DAWN,LEFT
                 setFacing ALLY_ROHDE,RIGHT
                 setFacing ALLY_ZYNK,RIGHT
                 setFacing ALLY_CHAZ,LEFT
@@ -237,12 +237,12 @@ cs_62FB0:       textCursor 3987
                  moveUp 1
                  faceDown 1
                 endActions
-                entityActionsWait ALLY_HIGINS
+                entityActionsWait ALLY_DAWN
                  moveLeft 1
                 endActions
                 setFacing ALLY_JAHA,RIGHT
-                nextText $80,ALLY_HIGINS ; "{LEADER} is a good lad{N}with the manner of a{N}knight!{W2}"
-                nextSingleText $80,ALLY_HIGINS ; "I think he's the best{N}choice.{W1}"
+                nextText $80,ALLY_DAWN ; "{LEADER} is a good lad{N}with the manner of a{N}knight!{W2}"
+                nextSingleText $80,ALLY_DAWN ; "I think he's the best{N}choice.{W1}"
                 shiver ALLY_JAHA
                 csWait 30
                 entityActionsWait 129
@@ -256,7 +256,7 @@ cs_62FB0:       textCursor 3987
                 setFacing ALLY_CHESTER,UP
                 setFacing ALLY_KAZIN,UP
                 setFacing ALLY_PETER,UP
-                setFacing ALLY_HIGINS,UP
+                setFacing ALLY_DAWN,UP
                 setFacing ALLY_BOWIE,UP
                 nextText $80,ALLY_SARAH ; "M...me?  Well...{W2}"
                 shiver ALLY_SARAH
@@ -285,7 +285,7 @@ cs_62FB0:       textCursor 3987
                 setFacing ALLY_KAZIN,DOWN
                 setFacing ALLY_JAHA,DOWN
                 setFacing ALLY_PETER,DOWN
-                setFacing ALLY_HIGINS,DOWN
+                setFacing ALLY_DAWN,DOWN
                 entityActionsWait ALLY_SARAH
                  moveDown 8
                 endActions
@@ -357,7 +357,7 @@ cs_62FB0:       textCursor 3987
                 setFacing ALLY_LUKE,UP
                 setFacing ALLY_ROHDE,UP
                 setFacing ALLY_ZYNK,UP
-                setFacing ALLY_HIGINS,UP
+                setFacing ALLY_DAWN,UP
                 setFacing ALLY_BOWIE,UP
                 nextText $80,ALLY_LUKE  ; "You heard everyone.{N}We think {LEADER} is the{N}right choice.{W2}"
                 setFacing ALLY_LUKE,DOWN

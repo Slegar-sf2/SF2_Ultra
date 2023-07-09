@@ -21,7 +21,7 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
                 moveq   #ALLY_NATASHA,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_PETER,d0
+                moveq   #ALLY_DAWN,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_MAY,d0
                 bsr.w   j_JoinForce
@@ -45,7 +45,7 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
                 moveq   #ALLY_JANET,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_HIGINS,d0
+                moveq   #ALLY_DAWN,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_SKREECH,d0
                 bsr.w   j_JoinForce

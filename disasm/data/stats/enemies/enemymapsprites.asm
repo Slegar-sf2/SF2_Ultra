@@ -114,6 +114,7 @@ tbl_EnemyMapSprites:
 				mapSprite GEPPEL        ; 106: GEPPEL
 				mapSprite GORDON        ; 107: GORDON
 				mapSprite BAZOO         ; 108: BAZOO
+				mapSprite FRABELL       ; 109: FRABELL
                 mapSprite NPC_ROHDE    
                 mapSprite FLAME1
                 mapSprite ORB

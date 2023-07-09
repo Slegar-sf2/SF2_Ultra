@@ -49,7 +49,7 @@ tbl_AllyStartDefs:
                 startLevel 29
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
-                    MEDICAL_HERB, &
+                    SHORT_ROD, &
                     NOTHING, &
                     NOTHING
                 
@@ -165,7 +165,7 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass PLDN         ; 19: HIGINS
+                startClass PLDN         ; 19: DAWN
                 startLevel 29
                 startItems &
                     JAVELIN|EQUIPPED, &

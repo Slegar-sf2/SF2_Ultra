@@ -20,7 +20,7 @@ ms_map37_Entities:
                 msFixedEntity 19, 12, UP, ALLY_RUCE, eas_Init
                 msFixedEntity 20, 12, UP, ALLY_TYRIN, eas_Init
                 msFixedEntity 16, 15, UP, ALLY_JANET, eas_Init
-                msFixedEntity 17, 15, UP, ALLY_HIGINS, eas_Init
+                msFixedEntity 17, 15, UP, ALLY_DAWN, eas_Init
                 msFixedEntity 18, 15, UP, ALLY_SKREECH, eas_Init
                 msFixedEntity 19, 15, UP, ALLY_TAYA, eas_Init
                 msFixedEntity 20, 15, UP, ALLY_FRAYJA, eas_Init

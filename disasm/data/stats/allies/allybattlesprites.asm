@@ -104,8 +104,8 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt SNIP, SNIP, 1
                 allyBattleSprAndPlt BRGN, BRGN, 2
                 
-; 19: HIGINS
-                allyBattleSprAndPlt PLDN, PLDN, 2
+; 19: DAWN
+                allyBattleSprAndPlt PLDN, PLDN2, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 

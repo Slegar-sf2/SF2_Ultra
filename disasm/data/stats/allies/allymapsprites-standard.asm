@@ -104,9 +104,9 @@ tbl_AllyMapSprites:
                 mapSprite JANET_PROMO
                 mapSprite JANET_SPECIAL
                 
-; 19: Higins
+; 19: Dawn
                 mapSprite DEFAULT
-                mapSprite HIGINS_PROMO
+                mapSprite DAWN_PROMO
                 mapSprite DEFAULT
                 
 ; 20: Skreech

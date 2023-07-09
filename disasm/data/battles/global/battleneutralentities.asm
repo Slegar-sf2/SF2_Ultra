@@ -90,7 +90,7 @@ tbl_BattleNeutralEntities:
                 dc.b 18
                 dc.b 14
                 dc.b DOWN
-                dc.b MAPSPRITE_HIGINS_PROMO
+                dc.b MAPSPRITE_DAWN_PROMO
                 dc.l eas_LyingLeft
                 dc.w $FFFF
                 dc.w BATTLE_PANGOAT_VALLEY_BRIDGE

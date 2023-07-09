@@ -20,7 +20,7 @@ ms_map46_Entities:
                 msWalkingEntity 14, 21, UP, ALLY_RUCE, 14, 21, 1
                 msFixedEntity 11, 8, DOWN, ALLY_TYRIN, eas_Init
                 msFixedEntity 4, 12, UP, ALLY_JANET, eas_Init
-                msFixedEntity 9, 3, DOWN, ALLY_HIGINS, eas_Init
+                msFixedEntity 9, 3, DOWN, ALLY_DAWN, eas_Init
                 msWalkingEntity 4, 17, DOWN, ALLY_SKREECH, 4, 17, 1
                 msFixedEntity 11, 21, UP, ALLY_TAYA, eas_Init
                 msWalkingEntity 6, 5, DOWN, ALLY_FRAYJA, 6, 5, 1
