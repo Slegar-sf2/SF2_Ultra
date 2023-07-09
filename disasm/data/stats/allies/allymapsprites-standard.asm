@@ -82,7 +82,7 @@ tbl_AllyMapSprites:
 ; 14: APIS
                 mapSprite APIS_BASE
                 mapSprite APIS_PROMO
-                mapSprite APIS_SPECIAL
+                mapSprite DEFAULT
                 
 ; 15: GRAHAM
                 mapSprite GRAHAM_BASE

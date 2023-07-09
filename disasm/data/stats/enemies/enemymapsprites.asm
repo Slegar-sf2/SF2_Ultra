@@ -71,7 +71,7 @@ tbl_EnemyMapSprites:
                 mapSprite ASSASSIN      ; 63: ASSASSIN
                 mapSprite BOW_RIDER     ; 64: BOW RIDER
                 mapSprite DARK_GUNNER   ; 65: DARK GUNNER
-                mapSprite DANTOM      ; 66: DANTOM
+                mapSprite DANTOM        ; 66: DANTOM
                 mapSprite GALAM_DWARF   ; 67: GALAM DWARF
                 mapSprite WITCH         ; 68: WITCH
                 mapSprite MASTER_MAGE   ; 69: MASTER MAGE
@@ -108,9 +108,13 @@ tbl_EnemyMapSprites:
                 mapSprite INCUBUS       ; 100: INCUBUS
                 mapSprite MAGE          ; 101: MAGE
                 mapSprite MUTSUKI       ; 102: MUTSUKI
-                mapSprite ARTILERY      ;103: Artileria
-                mapSprite GHOUL         ;104: GHOUL    
-                mapSprite NPC_ROHDE
+                mapSprite ARTILERY      ; 103: Artileria
+                mapSprite GHOUL         ; 104: GHOUL
+				mapSprite WOLF          ; 105: WOLF
+				mapSprite GEPPEL        ; 106: GEPPEL
+				mapSprite GORDON        ; 107: GORDON
+				mapSprite BAZOO         ; 108: BAZOO
+                mapSprite NPC_ROHDE    
                 mapSprite FLAME1
                 mapSprite ORB
                 mapSprite OBJECT1
@@ -153,8 +157,7 @@ tbl_EnemyMapSprites:
                 mapSprite CAT
                 mapSprite BOAT
                 mapSprite CREED
-                mapSprite ODDLER
-                mapSprite BAZOO
+                mapSprite ODDLER               
                 mapSprite MITULA
                 mapSprite POSE6
                 mapSprite POSE7

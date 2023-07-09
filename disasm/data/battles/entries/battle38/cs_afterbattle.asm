@@ -323,5 +323,5 @@ ce_4E372:       mainEntity 8,23,DOWN
                 entity 63,63,RIGHT,MAPSPRITE_EFFECT3,eas_Init
                 entity 63,63,LEFT,MAPSPRITE_EFFECT3,eas_Init
                 entity 6,27,DOWN,MAPSPRITE_GESHP,eas_Init
-                entity 63,63,DOWN,MAPSPRITE_FILLER4,eas_Init
+                entity 63,63,DOWN,MAPSPRITE_FILLER2,eas_Init
                 dc.w $FFFF

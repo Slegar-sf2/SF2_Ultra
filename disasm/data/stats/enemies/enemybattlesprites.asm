@@ -113,3 +113,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 59, 0 ; 102: MUTSUKI
 				enemyBattleSprAndPlt 103, 0 ; 103: ARTILERY
 				enemyBattleSprAndPlt 64, 1 ; 104: GHOUL
+				enemyBattleSprAndPlt 72, 0 ; 105: WOLF
+				enemyBattleSprAndPlt 78, 0 ; 106: GEPPEL
+				enemyBattleSprAndPlt 89, 0 ; 107: GORDON
+				enemyBattleSprAndPlt 93, 0 ; 108: BAZOO

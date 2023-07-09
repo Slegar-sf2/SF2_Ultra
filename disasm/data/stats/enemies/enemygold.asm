@@ -106,10 +106,10 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 860                ; MUTSUKI
                 dc.w 110                ; ARTILERY
                 dc.w 145                ; GHOUL
-                dc.w 16643
-                dc.w 16900
-                dc.w 1347
-                dc.w 1543
+                dc.w 106                ; WOLF
+                dc.w 700                ; GEPPEL
+                dc.w 134                ; GORDON
+                dc.w 900                ; BAZOO
                 dc.w 17477
                 dc.w 2057
                 dc.w 2571
