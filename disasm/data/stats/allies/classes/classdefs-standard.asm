@@ -179,10 +179,10 @@ tbl_ClassDefs:
                 moveType   REGULAR
                 prowess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
                     
-                mov 6                   ; 34: 
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                mov 6                   ; 34: BRSK
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR
-                prowess    CRITICAL_NONE|DOUBLE_1IN32|COUNTER_1IN32
+                prowess    CRITICAL_STUN|DOUBLE_1IN16|COUNTER_1IN16
                     
                 mov 6                   ; 35: 
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE

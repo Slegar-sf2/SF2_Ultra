@@ -39,7 +39,7 @@ tbl_ClassTypes:
             if (STANDARD_BUILD&EXPANDED_CLASSES=1)
                 classType BASE          ; 32: SWOR
                 classType PROMO         ; 33: STAR
-                classType PROMO         ; 34: 
+                classType PROMO         ; 34: BRSK
                 classType PROMO         ; 35: 
                 classType PROMO         ; 36: 
                 classType PROMO         ; 37: 

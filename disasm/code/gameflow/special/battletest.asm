@@ -25,7 +25,7 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
                 moveq   #ALLY_MAY,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_GERHALT,d0
+                moveq   #ALLY_GYAN,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_APIS,d0
                 bsr.w   j_JoinForce

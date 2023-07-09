@@ -205,10 +205,10 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass GLDT         ; 24: GYAN
+                startClass BRSK         ; 24: GYAN
                 startLevel 29
                 startItems &
-                    GREAT_AXE|EQUIPPED, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

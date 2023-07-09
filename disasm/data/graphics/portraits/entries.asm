@@ -62,6 +62,7 @@ pt_Portraits:   dc.l Portrait00
 				dc.l Portrait58
 				dc.l Portrait59
 				dc.l Portrait60
+				dc.l Portrait61
 Portrait00:     incbin "data/graphics/portraits/portrait00.bin"
 Portrait01:     incbin "data/graphics/portraits/portrait01.bin"
 Portrait02:     incbin "data/graphics/portraits/portrait02.bin"
@@ -122,3 +123,4 @@ Portrait57:     incbin "data/graphics/portraits/portrait57.bin"
 Portrait58:     incbin "data/graphics/portraits/portrait58.bin"
 Portrait59:     incbin "data/graphics/portraits/portrait59.bin"
 Portrait60:     incbin "data/graphics/portraits/portrait60.bin"
+Portrait61:     incbin "data/graphics/portraits/portrait61.bin"

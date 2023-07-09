@@ -130,7 +130,7 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 24: GYAN
-                allyBattleSprAndPlt GLDT, GLDT, 0
+                allyBattleSprAndPlt BRSK, 49, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 
