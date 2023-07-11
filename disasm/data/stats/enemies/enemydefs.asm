@@ -2783,3 +2783,53 @@ tbl_EnemyDefs:
                 initialStatus NONE
                 moveType      REGULAR
                 unknownWord   0
+				
+				unknownByte 0           ; 110: DAVA
+                spellPower ENHANCED
+                level    56
+                maxHp    110
+                maxMp    60
+                baseAtt  40
+                baseDef  55
+                baseAgi  180
+                baseMov  5
+                baseResistance WIND_MAJOR|LIGHTNING_MINOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
+                baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN4
+                items &
+                    FREEZE_STAFF|EQUIPPED, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    BLAZE|LV3, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      MAGE
+                unknownWord   0
+				
+				unknownByte 0           ; 111: DOLL
+                spellPower REGULAR
+                level    23
+                maxHp    10
+                maxMp    0
+                baseAtt  42
+                baseDef  34
+                baseAgi  7
+                baseMov  6
+                baseResistance ICE_MAJOR
+                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
+                items &
+                    NOTHING,&
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    FREEZE|LV2, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      STEALTH
+                unknownWord   0

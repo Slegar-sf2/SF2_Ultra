@@ -118,3 +118,5 @@ tbl_EnemyBattlesprites:
 				enemyBattleSprAndPlt 89, 0 ; 107: GORDON
 				enemyBattleSprAndPlt 93, 0 ; 108: BAZOO
 				enemyBattleSprAndPlt 76, 0 ; 109: FRABELL
+				enemyBattleSprAndPlt 99, 0 ; 110: DAVA
+				enemyBattleSprAndPlt 71, 0 ; 111: DOLL
