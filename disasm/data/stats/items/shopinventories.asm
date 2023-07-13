@@ -314,7 +314,7 @@ tbl_ShopInventories:
                               FAIRY_POWDER, &
                               ANGEL_WING
 				
-				; SHOP_INDEX: 30  $1E
+				; SHOP_INDEX: 30  $1E GUARDIANA
                 shopInventory SHORT_SWORD, &
                               MIDDLE_SWORD, &
                               BRONZE_LANCE, &                              
@@ -326,3 +326,20 @@ tbl_ShopInventories:
                               SHORT_KNIFE, &
 							  HELMET, &
                               ANGEL_WING
+							  
+				; SHOP_INDEX: 31  $1F RINDO 1
+                shopInventory SHORT_ROD, &
+							  SPEAR, &
+                              SHORT_KNIFE, &
+							  HELMET, &
+                              BATTLE_AXE			  
+                ; SHOP_INDEX: 32  $20 RINDO 2
+                shopInventory MEDICAL_HERB, &
+                              HEALING_SEED, &
+                              HEALING_DROP, &
+							  FAIRY_POWDER
+							  
+				; SHOP_INDEX: 33  $21 RINDO 3
+                shopInventory MEDICAL_HERB, &
+                              HEALING_SEED
+                              			  

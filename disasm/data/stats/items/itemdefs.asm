@@ -219,7 +219,7 @@ tbl_ItemDefs:
                 price        199
                 itemType     RING|BREAKABLE
                 useSpell     NOTHING
-                equipEffects INCREASE_DEF, 5, &
+                equipEffects INCREASE_DEF, 4, &
                              NONE, 0, &
                              NONE, 0
                 
