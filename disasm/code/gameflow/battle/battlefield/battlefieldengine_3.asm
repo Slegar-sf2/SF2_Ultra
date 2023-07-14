@@ -515,8 +515,7 @@ PopulateTargetableGrid:
                 jsr     FindSpellDefAddress
                 cmpi.b  #SPELL_AURA|SPELL_LV4,d1
                 beq.w   @ChooseTargets
-                cmpi.b  #SPELL_SHINE,d1
-                beq.w   @ChooseTargets
+                
                 moveq   #0,d2
                 move.b  SPELLDEF_OFFSET_RADIUS(a0),d2
                 addq.b  #1,d2

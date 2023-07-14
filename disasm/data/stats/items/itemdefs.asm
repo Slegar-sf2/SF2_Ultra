@@ -1252,7 +1252,7 @@ tbl_ItemDefs:
                 range        0, 0
                 price        10000
                 itemType     RARE|CONSUMABLE
-                useSpell     SHINE
+                useSpell     HEAL|LV4
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0

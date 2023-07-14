@@ -13,7 +13,7 @@ pt_AiCommandsets:
                 dc.l AiCommandset08
                 dc.l AiCommandset09
                 dc.l AiCommandset10
-                dc.l AiCommandset10
+                dc.l AiCommandset11
                 dc.l AiCommandset12
                 dc.l AiCommandset13
                 dc.l AiCommandset13
@@ -83,6 +83,12 @@ AiCommandset08:
                              STAY
 AiCommandset10: 
                 aiCommandset STAY
+AiCommandset11: 
+                aiCommandset ATTACK2, &
+                             HEAL, &
+                             DEBUFF, &
+                             STAY				
+				
 AiCommandset09: 
                 aiCommandset SPECIAL_MOVE3, &
                              ATTACK3, &

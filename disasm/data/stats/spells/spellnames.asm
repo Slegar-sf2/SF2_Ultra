@@ -43,7 +43,7 @@ tbl_SpellNames: spellName "HEAL"
                 spellName "THUNDR"
                 spellName "AQUA"
                 spellName "NATASHA"
-                spellName "SHINE"
+                spellName "ATOM"
                 spellName "ODDEYE"
             if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
                 spellName "spell44"

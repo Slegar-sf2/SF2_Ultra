@@ -540,7 +540,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK
                 range      0, 0
                 radius     2
-                power      18
+                power      30
                 
                 entry      LASER        ; LASER 1
                 mpCost     0
@@ -548,7 +548,15 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK
                 range      0, 0
                 radius     3
-                power      16
+                power      20
+				
+				entry      LASER|LV2      ; LASER 2
+                mpCost     0
+                animation  PRISM_LASER
+                properties TYPE_ATTACK
+                range      0, 0
+                radius     3
+                power      30
 								                
                 entry      KATON        ; KATON 1
                 mpCost     6
@@ -870,13 +878,37 @@ tbl_SpellDefs:
                 radius     0
                 power      58
                 
-                entry      SHINE        ; SHINE 1
-                mpCost     0
-                animation  NONE
-                properties TYPE_HEAL|TARGET_TEAMMATES
-                range      0, 0
+                entry      ATOM           ; ATOM 1
+                mpCost     6
+                animation  GUNNER_PROJECTILE
+                properties TYPE_ATTACK
+                range      1, 2
                 radius     0
-                power      255
+                power      15
+				
+				entry      ATOM|LV2       ; ATOM 2
+                mpCost     12
+                animation  GUNNER_PROJECTILE
+                properties TYPE_ATTACK
+                range      1, 2
+                radius     0
+                power      20
+				
+				entry      ATOM|LV3       ; ATOM 3
+                mpCost     20
+                animation  GUNNER_PROJECTILE
+                properties TYPE_ATTACK
+                range      1, 2
+                radius     0
+                power      46
+				
+				entry      ATOM|LV4       ; ATOM 4
+                mpCost     30
+                animation  GUNNER_PROJECTILE
+                properties TYPE_ATTACK
+                range      1, 2
+                radius     0
+                power      65
                 
                 entry      ODDEYE       ; ODDEYE 1
                 mpCost     0
@@ -884,5 +916,13 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK
                 range      1, 3
                 radius     1
-                power      20
+                power      30
+				
+				entry      ODDEYE|LV2       ; ODDEYE 2
+                mpCost     0
+                animation  ODD_EYE_BEAM
+                properties TYPE_ATTACK
+                range      1, 3
+                radius     1
+                power      40
                 

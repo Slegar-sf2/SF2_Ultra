@@ -43,7 +43,7 @@ tbl_SpellNames: spellName "Heal"
                 spellName "Holy", 11, "Thunder"
                 spellName "Aqua", 13, "Breath"
                 spellName "NATASHA"
-                spellName "Light", 11, "of Hope"
+                spellName "Atom"
                 spellName "Odd Eye"
                 if (EXPANDED_ITEMS_AND_SPELLS=1)
                     spellName "spell44"

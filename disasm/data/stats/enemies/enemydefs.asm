@@ -1376,7 +1376,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    BLAST|LV3, &
+                    ATOM|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1411,12 +1411,12 @@ tbl_EnemyDefs:
                     
                 unknownByte 55          ; 55: TENTACRUEL
                 spellPower REGULAR
-                level    16
+                level    12
                 maxHp    40
-                maxMp    25
-                baseAtt  60
-                baseDef  46
-                baseAgi  25
+                maxMp    20
+                baseAtt  39
+                baseDef  30
+                baseAgi  29
                 baseMov  6
                 baseResistance LIGHTNING_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS|STATUS_MAJOR
                 baseProwess    CRITICAL_POISON|DOUBLE_1IN32|COUNTER_1IN16
@@ -1426,7 +1426,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    FREEZE|LV3, &
+                    FREEZE|LV2, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1440,7 +1440,7 @@ tbl_EnemyDefs:
                 maxHp    15
                 maxMp    0
                 baseAtt  13
-                baseDef  6
+                baseDef  8
                 baseAgi  10
                 baseMov  6
                 baseResistance NONE
@@ -2636,15 +2636,15 @@ tbl_EnemyDefs:
 				
 				unknownByte 0           ; 104: GHOUL
                 spellPower REGULAR
-                level    23
+                level    16
                 maxHp    50
                 maxMp    0
-                baseAtt  42
-                baseDef  31
-                baseAgi  14
+                baseAtt  37
+                baseDef  35
+                baseAgi  30
                 baseMov  6
-                baseResistance NONE
-                baseProwess    CRITICAL_POISON|DOUBLE_1IN32|COUNTER_1IN32
+                baseResistance ICE_WEAKNESS|FIRE_MAJOR
+                baseProwess    CRITICAL_POISON|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     NOTHING,&
                     NOTHING, &
@@ -2736,14 +2736,14 @@ tbl_EnemyDefs:
 				
 				unknownByte 0           ; 108: BAZ00
                 spellPower ENHANCED
-                level    40
-                maxHp    200
-                maxMp    160
-                baseAtt  64
-                baseDef  54
-                baseAgi  190
+                level    20
+                maxHp    90
+                maxMp    55
+                baseAtt  69
+                baseDef  37
+                baseAgi  155
                 baseMov  5
-                baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
+                baseResistance WIND_MINOR|LIGHTNING_MAJOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_SILENCE|DOUBLE_1IN8|COUNTER_1IN4
                 items &
                     NOTHING, &
@@ -2751,7 +2751,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    BOLT|LV4, &
+                    BOLT|LV2, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

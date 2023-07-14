@@ -47,7 +47,7 @@ tbl_SpellElements:
                 spellElement LIGHTNING  ; 39: THUNDR
                 spellElement ICE        ; 40: AQUA
                 spellElement FIRE       ; 41: KIWI
-                spellElement NEUTRAL    ; 42: SHINE
+                spellElement NEUTRAL    ; 42: ATOM
                 spellElement LIGHTNING  ; 43: ODDEYE
             if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
                 spellElement NEUTRAL    ; 44: 

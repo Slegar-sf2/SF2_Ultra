@@ -64,7 +64,7 @@ rjt_SpellEffects:
                 dc.w SpellEffect_Bolt-rjt_SpellEffects ; THUNDR
                 dc.w SpellEffect_BubbleBreath-rjt_SpellEffects ; AQUA
                 dc.w SpellEffect_FlameBreath-rjt_SpellEffects ; NATASHA
-                dc.w SpellEffect_FairyTear-rjt_SpellEffects ; SHINE
+                dc.w SpellEffect_Blaze-rjt_SpellEffects ; ATOM
                 dc.w SpellEffect_Bolt-rjt_SpellEffects ; ODDEYE
             if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell44

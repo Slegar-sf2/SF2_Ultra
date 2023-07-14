@@ -15,64 +15,16 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
                 moveq   #ALLY_JAHA,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_KAZIN,d0
+                moveq   #ALLY_SHADE,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_RUCE,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_NATASHA,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_DAWN,d0
+                moveq   #ALLY_KAZIN,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_MAY,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_GYAN,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_APIS,d0
-                bsr.w   j_JoinForce
-				moveq   #ALLY_SHADE,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_APIS,d0
-                bsr.w   j_JoinForce                
-                moveq   #ALLY_ELRIC,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_APIS,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_GRAHAM,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_RUCE,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_TYRIN,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_JANET,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_DAWN,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_SKREECH,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_TAYA,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_FRAYJA,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_JARO,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_GYAN,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_SHEELA,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_ZYNK,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_CHAZ,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_LEMON,d0
-                bsr.w   j_JoinForce
-                moveq   #ALLY_CLAUDE,d0
-                bsr.w   j_JoinForce
-            if (STANDARD_BUILD&EXPANDED_FORCE_MEMBERS=1)
-                moveq   #ALLY_SHADE,d0
-                bsr.w   JoinForce
-                moveq   #31,d0
-                bsr.w   JoinForce
-            endif
+
+				
                 moveq   #0,d0
                 move.w  #$63,d1 
                 bsr.w   j_SetBaseAgi
