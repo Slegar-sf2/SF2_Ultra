@@ -55,8 +55,8 @@ PER_LEVEL_CHURCH_COST:              equ 0       ; Raise/Cure cost based on ally 
 ADDITIONAL_EQUIPEFFECTS:            equ 1       ; Add new equipeffects to offer more options (Set ATT, Increase Resistance, Decrease Double...)
 
 ; AI enhancements
-HEALER_AI_ENHANCEMENTS:             equ 1       ; See SF2_AI_Healing_Rewrite.txt for more details.
-SUPPORT_AI_ENHANCEMENTS:            equ 1       ; Increase support spell options enemies can use.
+HEALER_AI_ENHANCEMENTS:             equ 0       ; See SF2_AI_Healing_Rewrite.txt for more details.
+SUPPORT_AI_ENHANCEMENTS:            equ 0       ; Increase support spell options enemies can use.
 
 ; Menu enhancements
 THREE_DIGITS_STATS:                 equ 1       ; 

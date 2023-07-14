@@ -115,7 +115,7 @@
                 endif
                 include "code\gameflow\battle\battlefield\battlefieldengine_4.asm"    ; Battlefield engine
             if (STANDARD_BUILD=1)
-                include "code\gameflow\battle\battlefield\useableaiactions-standard.asm"
+                include "code\gameflow\battle\battlefield\useableaiactions.asm"
                 include "data\battles\global\aiexcludedactions-standard.asm"
                 align
             else
