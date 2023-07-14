@@ -166,7 +166,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass PLDN2         ; 19: DAWN
-                startLevel 9
+                startLevel 29
                 startItems &
                     JAVELIN|EQUIPPED, &
                     NOTHING, &

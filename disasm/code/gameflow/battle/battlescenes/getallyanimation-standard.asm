@@ -38,7 +38,7 @@ GetAllyAnimation:
                 
                 ; Get spear throw animation index
                 clr.w   d1
-                move.b	@KNIGHTS_TO_SPEARS_OFFSET-1(a0,d2.w),d1				
+                move.b	@KNIGHTS_TO_SPEARS_OFFSET-1(a0,d2.w),d1		
                 bra.s   @GetAnimationPointer
                 
 @IsSpecialAnimation?:
