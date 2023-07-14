@@ -2,23 +2,23 @@
 ; ASM FILE data\stats\allies\stats\allystats12.asm :
 ; 0x1EE50F..0x1EE542 : Ally stats 12
 AllyStats12:    forClass  SWOR
-                hpGrowth  9, 45, LINEAR
+                hpGrowth  9, 46, LINEAR
                 mpGrowth  8, 16, EARLY
                 attGrowth 6, 40, LINEAR
                 defGrowth 6, 42, LINEAR
-                agiGrowth 4, 32, EARLY
+                agiGrowth 4, 34, EARLY
                 spellList &                    
                     1, THUNDR, &
-                    19, THUNDR|LV2, &
-                    33, THUNDR|LV3, &
-                    35, THUNDR|LV4
+                    25, THUNDR|LV2, &
+                    36, THUNDR|LV3, &
+                    49, THUNDR|LV4
                 
                 forClass  STAR
-                hpGrowth  45, 116, LINEAR
+                hpGrowth  46, 106, LINEAR
                 mpGrowth  16, 36, EARLY
                 attGrowth 40, 57, LINEAR
                 defGrowth 42, 93, LINEAR
-                agiGrowth 32, 57, EARLYANDLATE
+                agiGrowth 34, 62, EARLYANDLATE
                 useFirstSpellList
                 
                 

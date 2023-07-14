@@ -7,7 +7,8 @@ AllyStats05:    forClass  THIF
                 attGrowth 5, 45, LINEAR
                 defGrowth 8, 33, LATE
                 agiGrowth 6, 40, LATE
-                spellList 
+                spellList &
+				     1,EGRESS
                     
                 forClass  NINJ
                 hpGrowth  48, 108, LATE
@@ -16,10 +17,9 @@ AllyStats05:    forClass  THIF
                 defGrowth 33, 80, LATE
                 agiGrowth 40, 80, LATE
                 spellList &
-                    24, KATON, &
-                    29, KATON|LV2, &
-                    34, RAIJIN, &
-                    39, RAIJIN|LV2, &
-                    45, KATON|LV3, &
-                    52, RAIJIN|LV3
+                    30, KATON, &
+					33, EGRESS, &
+                    37, KATON|LV2, &                    
+                    44, KATON|LV3, &
+                    52, KATON|LV4
                     

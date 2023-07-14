@@ -2,10 +2,10 @@
 ; ASM FILE data\stats\allies\stats\allystats20.asm :
 ; 0x1EE6C9..0x1EE6DA : Ally stats 20
 AllyStats20:    forClass  BDBT
-                hpGrowth  33, 86, LINEAR
+                hpGrowth  54, 101, LATE
                 mpGrowth  0, 0, NONE
-                attGrowth 24, 50, LATE
-                defGrowth 22, 67, LINEAR
-                agiGrowth 24, 64, LINEAR
+                attGrowth 37, 57, LINEAR
+                defGrowth 44, 90, LINEAR
+                agiGrowth 45, 70, LINEAR
                 spellList 
                 

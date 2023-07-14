@@ -8,25 +8,25 @@ AllyStats01:    forClass  PRST
                 defGrowth 4, 25, LINEAR
                 agiGrowth 5, 31, LINEAR
                 spellList &
-                    1, HEAL, &
-                    4, DETOX, &
-                    7, HEAL|LV2, &
+                    2, HEAL, &
+                    5, DETOX, &
+                    8, HEAL|LV2, &
                     10, BLAST, &
-                    13, DETOX|LV2, &
-                    16, BLAST|LV2, &
+                    14, DETOX|LV2, &
+                    17, BLAST|LV2, &
                     19, SLOW, &
-                    22, HEAL|LV3, &
-                    25, BLAST|LV3, &
+                    23, HEAL|LV3, &
+                    26, BLAST|LV3, &
                     29, SLOW|LV2, &
-                    33, DETOX|LV3, &
-                    36, BLAST|LV4, &
-                    40, HEAL|LV4, &
-                    45, DETOX|LV4
+                    34, DETOX|LV3, &
+                    37, BLAST|LV4, &
+                    42, HEAL|LV4, &
+                    44, DETOX|LV4
                     
                 forClass  VICR
-                hpGrowth  52, 90, LINEAR
+                hpGrowth  52, 100, LINEAR
                 mpGrowth  24, 60, LINEAR
-                attGrowth 26, 34, LINEAR
+                attGrowth 26, 36, LINEAR
                 defGrowth 25, 65, LINEAR
                 agiGrowth 31, 61, MIDDLE
                 useFirstSpellList

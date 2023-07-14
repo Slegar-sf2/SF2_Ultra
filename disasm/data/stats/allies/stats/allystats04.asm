@@ -9,9 +9,13 @@ AllyStats04:    forClass  MAGE
                 agiGrowth 6, 40, LINEAR
                 spellList &
                     1, BLAZE, &
-                    5, BLAZE|LV2, &                              
-                    26, BLAZE|LV3, &                             
-                    35, BLAZE|LV4		
+                    6, BLAZE|LV2, &
+					10, RAIJIN, &
+					15, RAIJIN|LV2, &
+					26, RAIJIN|LV3, &
+                    36, BLAZE|LV3, &                             
+                    45, BLAZE|LV4, &
+					50, RAIJIN|LV4
                     
                 forClass  WIZ
                 hpGrowth  59, 87, LATE
@@ -28,12 +32,15 @@ AllyStats04:    forClass  MAGE
                 defGrowth 28, 62, LINEAR
                 agiGrowth 40, 70, EARLYANDLATE
                 spellList &
-                    21, DAO, &
-                    24, APOLLO, &
-                    27, NEPTUN, &
-                    32, DAO|LV2, &
-                    37, APOLLO|LV2, &
-                    41, ATLAS, &
-                    46, NEPTUN|LV2, &
-                    52, ATLAS|LV2
+                    31, DAO, &
+                    34, APOLLO, &
+                    37, NEPTUN, &
+                    42, DAO|LV2, &
+                    45, APOLLO|LV2, & 
+					47, DAO|LV3, &
+					48, NEPTUN|LV2, &
+					49, NEPTUN|LV3, &
+					52, APOLLO|LV3
+                    
+                    
                     

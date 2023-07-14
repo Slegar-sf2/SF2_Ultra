@@ -10,7 +10,7 @@ AllyStats03:    forClass  WARR
                 spellList 
                     
                 forClass  GLDT
-                hpGrowth  28, 100, LINEAR
+                hpGrowth  28, 82, LINEAR
                 mpGrowth  0, 0, NONE
                 attGrowth 37, 60, LINEAR
                 defGrowth 47, 106, LINEAR
@@ -18,7 +18,7 @@ AllyStats03:    forClass  WARR
                 spellList 
                     
                 forClass  BRN
-                hpGrowth  28, 106, LINEAR
+                hpGrowth  28, 96, LINEAR
                 mpGrowth  0, 0, NONE
                 attGrowth 37, 62, LINEAR
                 defGrowth 47, 94, LINEAR

@@ -9,9 +9,17 @@ AllyStats06:    forClass  MAGE
                 agiGrowth 6, 42, LINEAR
                 spellList &
                     1, FREEZE, &
-                    7, FREEZE|LV2, &                   
-                    24, FREEZE|LV3, &
-                    37, FREEZE|LV4
+                    9, FREEZE|LV2, &
+					11, BLAST, &
+					14, BOLT, &
+					18, BLAST|LV2, &
+					19, BOLT|LV2, &
+					31, BOLT|LV3, &
+                    33, FREEZE|LV3, &
+					37, BLAST|LV3, &
+                    47, FREEZE|LV4, &
+					49, BOLT|LV4, &
+					51, BLAST|LV4
                     
                 forClass  WIZ
                 hpGrowth  55, 93, LATE

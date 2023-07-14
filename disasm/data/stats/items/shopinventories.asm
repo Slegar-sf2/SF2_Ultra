@@ -21,8 +21,8 @@ tbl_ShopInventories:
                               SHORT_AXE, &
                               WOODEN_ROD, &
                               SHORT_ROD, &
-                              SHORT_KNIFE, &
-							  HELMET
+                              SHORT_KNIFE
+							  
                 
                 ; Weapon shop 2
                 shopInventory SHORT_SWORD, &
