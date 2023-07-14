@@ -818,7 +818,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 72: Short Spear
-                equipFlags   KNTE|PLDN|PGNT
+                equipFlags   KNTE|PLDN|PGNT|KNTE2|PLDN2
                 equipFlags2  NONE
                 range        1, 2
                 price        120
@@ -829,7 +829,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 73: Bronze Lance
-                equipFlags   KNTE|PLDN|PGNT
+                equipFlags   KNTE|PLDN|PGNT|KNTE2|PLDN2
                 equipFlags2  NONE
                 range        1, 1
                 price        260
@@ -840,7 +840,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 74: Spear
-                equipFlags   KNTE|PLDN|PGNT
+                equipFlags   KNTE|PLDN|PGNT|KNTE2|PLDN2
                 equipFlags2  NONE
                 range        1, 2
                 price        460
@@ -851,7 +851,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 75: Steel Lance
-                equipFlags   KNTE|PLDN|PGNT
+                equipFlags   KNTE|PLDN|PGNT|KNTE2|PLDN2
                 equipFlags2  NONE
                 range        1, 1
                 price        810
@@ -862,7 +862,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 76: Power Spear
-                equipFlags   KNTE|PLDN|PGNT
+                equipFlags   KNTE|PLDN|PGNT|PLDN2
                 equipFlags2  NONE
                 range        1, 2
                 price        1270
@@ -873,7 +873,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 77: Heavy Lance
-                equipFlags   PLDN|PGNT
+                equipFlags   PLDN|PGNT|PLDN2
                 equipFlags2  NONE
                 range        1, 1
                 price        1600
@@ -884,7 +884,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 78: Javelin
-                equipFlags   PLDN|PGNT
+                equipFlags   PLDN|PGNT|PLDN2
                 equipFlags2  NONE
                 range        1, 2
                 price        3400
@@ -895,7 +895,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 79: Chrome Lance
-                equipFlags   PLDN|PGNT
+                equipFlags   PLDN|PGNT|PLDN2
                 equipFlags2  NONE
                 range        1, 1
                 price        6900
@@ -906,7 +906,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 80: Valkyrie
-                equipFlags   PLDN|PGNT
+                equipFlags   PLDN|PGNT|PLDN2
                 equipFlags2  NONE
                 range        1, 2
                 price        7700
@@ -917,7 +917,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 81: Holy Lance
-                equipFlags   PLDN|PGNT
+                equipFlags   PLDN|PGNT|PLDN2
                 equipFlags2  NONE
                 range        1, 1
                 price        9300
@@ -928,7 +928,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 82: Mist Javelin
-                equipFlags   PLDN|PGNT
+                equipFlags   PLDN|PGNT|PLDN2
                 equipFlags2  NONE
                 range        1, 2
                 price        9900
@@ -939,7 +939,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 83: Halberd
-                equipFlags   PLDN|PGNT
+                equipFlags   PLDN|PGNT|PLDN2
                 equipFlags2  NONE
                 range        1, 1
                 price        7300
@@ -950,7 +950,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 84: Evil Lance
-                equipFlags   PLDN|PGNT
+                equipFlags   PLDN|PGNT|PLDN2
                 equipFlags2  NONE
                 range        1, 1
                 price        11000

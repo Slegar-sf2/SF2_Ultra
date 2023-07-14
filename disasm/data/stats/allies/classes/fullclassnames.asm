@@ -37,3 +37,5 @@ tbl_FullClassNames:
 				className "Swordswoman"
 				className "Tortoise"
 				className "Berserker"
+				className "Knight"
+				className "Paladin"

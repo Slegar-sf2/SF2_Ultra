@@ -80,8 +80,8 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt BRGN, BRGN, 0
                 
 ; 14: APIS
-                allyBattleSprAndPlt KNTE, KNTE2, 3
-                allyBattleSprAndPlt PLDN, PLDN2, 3
+                allyBattleSprAndPlt KNTE2, KNTE2, 3
+                allyBattleSprAndPlt PLDN2, PLDN2, 3
                 allyBattleSprAndPlt NONE, NONE, 2
                 
 ; 15: GRAHAM
@@ -105,7 +105,7 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt BRGN, BRGN, 2
                 
 ; 19: DAWN
-                allyBattleSprAndPlt PLDN, PLDN2, 0
+                allyBattleSprAndPlt PLDN2, PLDN2, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 

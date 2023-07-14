@@ -8,7 +8,7 @@ tbl_MithrilWeaponClasses:
 ; Note: Constant names ("enums"), shorthands (defined by macro), and numerical indexes are interchangeable.
                 
                 classes HERO, BDBT
-                classes PLDN, PGNT
+                classes PLDN, PGNT, PLDN2
                 classes GLDT
                 classes WIZ, SORC
                 classes VICR

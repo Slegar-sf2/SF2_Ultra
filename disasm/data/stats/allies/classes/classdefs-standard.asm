@@ -184,15 +184,15 @@ tbl_ClassDefs:
                 moveType   REGULAR
                 prowess    CRITICAL_STUN|DOUBLE_1IN16|COUNTER_1IN16
                     
-                mov 6                   ; 35: 
+                mov 7                   ; 35: KNTE2
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
-                moveType   REGULAR
-                prowess    CRITICAL_NONE|DOUBLE_1IN32|COUNTER_1IN32
+                moveType   CENTAUR
+                prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                     
-                mov 6                   ; 36: 
+                mov 7                   ; 36: PLDN2
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
-                moveType   REGULAR
-                prowess    CRITICAL_NONE|DOUBLE_1IN32|COUNTER_1IN32
+                moveType   CENTAUR
+                prowess    CRITICAL125_1IN8|DOUBLE_1IN16|COUNTER_1IN16
                     
                 mov 6                   ; 37: 
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE

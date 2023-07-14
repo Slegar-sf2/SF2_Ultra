@@ -32,8 +32,8 @@ tbl_AllyStartDefs:
                 startClass PLDN         ; 2: CHESTER
                 startLevel 39
                 startItems &
-                    SPEAR|EQUIPPED, &
-                    MEDICAL_HERB, &
+                    JAVELIN|EQUIPPED, &
+                    SPEAR, &
                     NOTHING, &
                     NOTHING
                 
@@ -125,11 +125,11 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass KNTE         ; 14: APIS
+                startClass KNTE2         ; 14: APIS
                 startLevel 9
                 startItems &
-                    STEEL_LANCE|EQUIPPED, &
-                    NOTHING, &
+                    SPEAR|EQUIPPED, &
+                    JAVELIN, &
                     NOTHING, &
                     NOTHING
                 
@@ -165,7 +165,7 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass PLDN         ; 19: DAWN
+                startClass PLDN2         ; 19: DAWN
                 startLevel 9
                 startItems &
                     JAVELIN|EQUIPPED, &

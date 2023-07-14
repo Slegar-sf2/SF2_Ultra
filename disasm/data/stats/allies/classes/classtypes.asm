@@ -40,8 +40,8 @@ tbl_ClassTypes:
                 classType BASE          ; 32: SWOR
                 classType PROMO         ; 33: STAR
                 classType PROMO         ; 34: BRSK
-                classType PROMO         ; 35: 
-                classType PROMO         ; 36: 
+                classType BASE          ; 35: KNTE2
+                classType PROMO         ; 36: PLDN2
                 classType PROMO         ; 37: 
                 classType PROMO         ; 38: 
                 classType PROMO         ; 39: 
