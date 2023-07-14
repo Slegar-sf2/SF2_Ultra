@@ -144,9 +144,9 @@ tbl_AllyMapSprites:
                 mapSprite ZYNK_PROMO
                 mapSprite DEFAULT
                 
-; 27: Chaz
+; 27: CRAY
                 mapSprite DEFAULT
-                mapSprite CHAZ_PROMO
+                mapSprite CRAY_PROMO
                 mapSprite DEFAULT
                 
 ; 28: Lemon

@@ -144,8 +144,8 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt NONE, NONE, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 
-; 27: CHAZ
-                allyBattleSprAndPlt WIZ, WIZ, 0
+; 27: CRAY
+                allyBattleSprAndPlt MONK, 48, 1
                 allyBattleSprAndPlt NONE, NONE, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 

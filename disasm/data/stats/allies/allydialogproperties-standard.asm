@@ -150,10 +150,10 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx ZYNK, DIALOG_BLEEP_8
                 allyPortraitAndSfx ZYNK, DIALOG_BLEEP_8
                 
-; 27: Chaz
-                allyPortraitAndSfx CHAZ, DIALOG_BLEEP_2
-                allyPortraitAndSfx CHAZ, DIALOG_BLEEP_2
-                allyPortraitAndSfx CHAZ, DIALOG_BLEEP_2
+; 27: CRAY
+                allyPortraitAndSfx CRAY, DIALOG_BLEEP_2
+                allyPortraitAndSfx CRAY, DIALOG_BLEEP_2
+                allyPortraitAndSfx CRAY, DIALOG_BLEEP_2
                 
 ; 28: Lemon
                 allyPortraitAndSfx LEMON, DIALOG_BLEEP_6

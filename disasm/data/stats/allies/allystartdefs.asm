@@ -17,7 +17,7 @@ tbl_AllyStartDefs:
                 startLevel 1
                 startItems &
                     ACHILLES_SWORD|EQUIPPED, &
-                    NOTHING, &
+                    MANA, &
                     NOTHING, &
                     NOTHING
                 
@@ -229,10 +229,10 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass WIZ          ; 27: CHAZ
+                startClass MONK          ; 27: CRAY
                 startLevel 28
                 startItems &
-                    MAGE_STAFF|EQUIPPED, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

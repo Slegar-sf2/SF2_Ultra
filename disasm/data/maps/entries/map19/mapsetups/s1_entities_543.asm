@@ -9,7 +9,7 @@ ms_map19_flag543_Entities:
                 msFixedEntity 32, 11, LEFT, ALLY_LUKE, eas_Init
                 msFixedEntity 32, 12, LEFT, ALLY_DAWN, eas_Init
                 msFixedEntity 26, 12, RIGHT, ALLY_SHEELA, eas_Init
-                msFixedEntity 32, 13, LEFT, ALLY_CHAZ, eas_Init
+                msFixedEntity 32, 13, LEFT, ALLY_CRAY, eas_Init
                 msFixedEntity 25, 13, RIGHT, ALLY_ZYNK, eas_Init
                 msFixedEntity 63, 63, RIGHT, ALLY_SARAH, eas_Init
                 msFixedEntity 63, 63, LEFT, ALLY_CHESTER, eas_Init

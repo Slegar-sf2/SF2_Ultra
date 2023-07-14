@@ -194,7 +194,7 @@ tbl_ClassDefs:
                 moveType   CENTAUR
                 prowess    CRITICAL125_1IN8|DOUBLE_1IN16|COUNTER_1IN16
                     
-                mov 6                   ; 37: 
+                mov 6                   ; 37: MONK
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL_NONE|DOUBLE_1IN32|COUNTER_1IN32

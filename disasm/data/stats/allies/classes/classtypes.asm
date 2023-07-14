@@ -42,7 +42,7 @@ tbl_ClassTypes:
                 classType PROMO         ; 34: BRSK
                 classType BASE          ; 35: KNTE2
                 classType PROMO         ; 36: PLDN2
-                classType PROMO         ; 37: 
+                classType PROMO         ; 37: MONK
                 classType PROMO         ; 38: 
                 classType PROMO         ; 39: 
                 classType PROMO         ; 40: 

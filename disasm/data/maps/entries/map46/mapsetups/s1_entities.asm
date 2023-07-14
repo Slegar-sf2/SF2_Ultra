@@ -28,7 +28,7 @@ ms_map46_Entities:
                 msFixedEntity 14, 10, RIGHT, ALLY_GYAN, eas_Init
                 msFixedEntity 12, 19, LEFT, ALLY_SHEELA, eas_Init
                 msFixedEntity 3, 13, UP, ALLY_ZYNK, eas_Init
-                msFixedEntity 14, 9, LEFT, ALLY_CHAZ, eas_Init
+                msFixedEntity 14, 9, LEFT, ALLY_CRAY, eas_Init
                 msFixedEntity 11, 3, DOWN, ALLY_LEMON, eas_Init
                 msFixedEntity 14, 3, DOWN, ALLY_CLAUDE, eas_Init
                 msFixedEntity 10, 18, DOWN, MAPSPRITE_ASTRAL, eas_Init

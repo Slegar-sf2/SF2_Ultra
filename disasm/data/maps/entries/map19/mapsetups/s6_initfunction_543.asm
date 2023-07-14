@@ -20,7 +20,7 @@ byte_62CAE:
                 jsr     MoveEntityOutOfMap
 byte_62CBE:
                 
-                chkFlg  27              ; Chaz joined
+                chkFlg  27              ; CRAY joined
                 bne.s   byte_62CCE
                 move.w  #$1B,d0
                 jsr     MoveEntityOutOfMap
@@ -117,7 +117,7 @@ cs_62D0E:       textCursor 3967
                 setFacing ALLY_DAWN,UP
                 setFacing ALLY_ROHDE,UP
                 setFacing ALLY_ZYNK,UP
-                setFacing ALLY_CHAZ,UP
+                setFacing ALLY_CRAY,UP
                 csWait 10
                 nextText $0,129         ; "Listen up!{W2}"
                 nextText $0,129         ; "It took two years, but the{N}Princess finally recovered{N}from the poison.{W2}"
@@ -194,7 +194,7 @@ cs_62D0E:       textCursor 3967
                 setFacing ALLY_DAWN,LEFT
                 setFacing ALLY_ROHDE,RIGHT
                 setFacing ALLY_ZYNK,RIGHT
-                setFacing ALLY_CHAZ,LEFT
+                setFacing ALLY_CRAY,LEFT
                 setFacing ALLY_BOWIE,DOWN
                 nextText $0,ALLY_JAHA   ; "I understand what my friends{N}are saying, but...I love{N}her.{W2}"
                 nextSingleText $0,ALLY_JAHA ; "May I kiss her?{N}Somebody, say yes!{W1}"

@@ -133,7 +133,7 @@ cs_607DE:       textCursor 3388
                 startEntity ALLY_LEMON
                 csc_end
 cs_6093A:       textCursor 3396
-                setPriority ALLY_CHAZ,$0
+                setPriority ALLY_CRAY,$0
                 setPriority 128,$FFFF
                 setCamDest 6,2
                 setActscriptWait ALLY_LEMON,eas_Init
@@ -186,23 +186,23 @@ cs_6093A:       textCursor 3396
                 shiver 128
                 nextSingleText $80,128  ; "I don't believe you!{W1}"
                 nextSingleText $80,ALLY_PETER ; "But we really...{W1}"
-                setPriority ALLY_CHAZ,$0
+                setPriority ALLY_CRAY,$0
                 setPriority 128,$FFFF
-                setPos ALLY_CHAZ,11,4,DOWN
+                setPos ALLY_CRAY,11,4,DOWN
                 csWait 30
-                nextSingleText $0,ALLY_CHAZ ; "Brother?{W1}"
+                nextSingleText $0,ALLY_CRAY ; "Brother?{W1}"
                 setFacing 128,UP
                 setActscriptWait 128,eas_Jump
                 setActscriptWait 128,eas_Jump
                 nextText $80,128        ; "{NAME;27}, they found the{N}hidden door!{W2}"
                 nextSingleText $80,128  ; "I tried to drive them away{N}with this holy symbol, but{N}I failed.{W1}"
                 setPriority 128,$0
-                nod ALLY_CHAZ
-                nextSingleText $0,ALLY_CHAZ ; "Then, they're not devils.{W1}"
+                nod ALLY_CRAY
+                nextSingleText $0,ALLY_CRAY ; "Then, they're not devils.{W1}"
                 shiver 128
                 nextSingleText $80,128  ; "Nobody but devils ever come{N}to such a dangerous place!{N}They must be devils!{W1}"
                 csWait 20
-                nextSingleText $0,ALLY_CHAZ ; "Have you asked them?{W1}"
+                nextSingleText $0,ALLY_CRAY ; "Have you asked them?{W1}"
                 entityActionsWait FOLLOWER_B
                  moveRight 1
                  faceUp 1
@@ -212,27 +212,27 @@ cs_6093A:       textCursor 3396
                 nextText $80,FOLLOWER_B ; "How can we explain this?{W2}"
                 nextSingleText $80,FOLLOWER_B ; "We are from Granseal.{N}We came here to defeat the{N}devils.{W1}"
                 setFacing 128,DOWN
-                shiver ALLY_CHAZ
-                nextSingleText $0,ALLY_CHAZ ; "Granseal?{W1}"
+                shiver ALLY_CRAY
+                nextSingleText $0,ALLY_CRAY ; "Granseal?{W1}"
                 entityActionsWait 128
                  moveLeft 1
                  faceRight 1
                 endActions
                 csWait 20
-                nextSingleText $0,ALLY_CHAZ ; "Really?{W1}"
-                entityActionsWait ALLY_CHAZ
+                nextSingleText $0,ALLY_CRAY ; "Really?{W1}"
+                entityActionsWait ALLY_CRAY
                  moveDown 1
                 endActions
-                nextSingleText $0,ALLY_CHAZ ; "Alright!{W1}"
+                nextSingleText $0,ALLY_CRAY ; "Alright!{W1}"
                 csWait 40
-                nextSingleText $0,ALLY_CHAZ ; "This is great news!{W1}"
-                setActscriptWait ALLY_CHAZ,eas_Jump
-                setActscriptWait ALLY_CHAZ,eas_Jump
-                nextSingleText $0,ALLY_CHAZ ; "Are you Sir Astral?{W1}"
+                nextSingleText $0,ALLY_CRAY ; "This is great news!{W1}"
+                setActscriptWait ALLY_CRAY,eas_Jump
+                setActscriptWait ALLY_CRAY,eas_Jump
+                nextSingleText $0,ALLY_CRAY ; "Are you Sir Astral?{W1}"
                 nod FOLLOWER_B
                 nextSingleText $80,FOLLOWER_B ; "Yes, but...I'm sorry, have{N}we met?{W1}"
-                nextText $0,ALLY_CHAZ   ; "I'm {NAME;27}, a son of{N}Hawel.{W2}"
-                nextSingleText $0,ALLY_CHAZ ; "Do you remember me?{W1}"
+                nextText $0,ALLY_CRAY   ; "I'm {NAME;27}, a son of{N}Hawel.{W2}"
+                nextSingleText $0,ALLY_CRAY ; "Do you remember me?{W1}"
                 setActscriptWait FOLLOWER_B,eas_Jump
                 setActscriptWait FOLLOWER_B,eas_Jump
                 nextSingleText $80,FOLLOWER_B ; "Hawel's son?{W1}"
@@ -241,18 +241,18 @@ cs_6093A:       textCursor 3396
                  moveUp 1
                  faceLeft 1
                 endActions
-                setFacing ALLY_CHAZ,RIGHT
+                setFacing ALLY_CRAY,RIGHT
                 shiver FOLLOWER_B
                 nextText $80,FOLLOWER_B ; "Oh, {NAME;27}!{W2}"
                 nextText $80,FOLLOWER_B ; "Yes, of course.{N}Nice to see you again.{W2}"
                 nextSingleText $80,FOLLOWER_B ; "What are you doing here?{W1}"
                 csc_end
 cs_60B10:       textCursor 3426
-                nextSingleText $0,ALLY_CHAZ ; "I came back to Yeel to{N}continue my father's work.{W1}"
+                nextSingleText $0,ALLY_CRAY ; "I came back to Yeel to{N}continue my father's work.{W1}"
                 nextSingleText $80,FOLLOWER_B ; "{NAME;27}, maybe you can{N}answer some questions?{W1}"
-                nod ALLY_CHAZ
-                nextText $0,ALLY_CHAZ   ; "I'll try.{W2}"
-                nextSingleText $0,ALLY_CHAZ ; "What would you like to know?{W1}"
+                nod ALLY_CRAY
+                nextText $0,ALLY_CRAY   ; "I'll try.{W2}"
+                nextSingleText $0,ALLY_CRAY ; "What would you like to know?{W1}"
                 setActscriptWait FOLLOWER_B,eas_Jump
                 setActscriptWait FOLLOWER_B,eas_Jump
                 nextSingleText $80,FOLLOWER_B ; "Oh, this will be a great{N}help!{W1}"
@@ -261,7 +261,7 @@ cs_60B10:       textCursor 3426
                  moveRight 1
                  faceUp 1
                 endActions
-                setFacing ALLY_CHAZ,DOWN
+                setFacing ALLY_CRAY,DOWN
                 setFacing FOLLOWER_B,DOWN
                 nextSingleText $0,128   ; "You can use the room below.{W1}"
                 entityActionsWait FOLLOWER_B
@@ -273,13 +273,13 @@ cs_60B10:       textCursor 3426
                 setFacing FOLLOWER_B,DOWN
                 nextSingleText $80,FOLLOWER_B ; "I really appreciate this.{W1}"
                 csWait 20
-                entityActions ALLY_CHAZ
+                entityActions ALLY_CRAY
                  moveUp 1
                 endActions
                 entityActionsWait 128
                  moveUp 1
                 endActions
-                setPos ALLY_CHAZ,63,63,DOWN
+                setPos ALLY_CRAY,63,63,DOWN
                 entityActionsWait 128
                  moveUp 1
                 endActions
@@ -288,11 +288,11 @@ cs_60B10:       textCursor 3426
                 followEntity FOLLOWER_B,ALLY_PETER,2
                 csc_end
 cs_60BA6:       textCursor 3434
-                nextSingleText $0,ALLY_CHAZ ; "I heard you're going to{N}defeat the devils....{W1}"
+                nextSingleText $0,ALLY_CRAY ; "I heard you're going to{N}defeat the devils....{W1}"
                 nod FOLLOWER_B
                 nextSingleText $0,FOLLOWER_B ; "Yep.  {LEADER} just{N}solved the secret.  We{N}can now enter the tower.{W1}"
-                nextText $0,ALLY_CHAZ   ; "The tower?{W2}"
-                nextSingleText $0,ALLY_CHAZ ; "Then, all these disasters{N}were caused by Zeon?{W1}"
+                nextText $0,ALLY_CRAY   ; "The tower?{W2}"
+                nextSingleText $0,ALLY_CRAY ; "Then, all these disasters{N}were caused by Zeon?{W1}"
                 csWait 30
                 entityActionsWait 128
                  moveDown 1
@@ -300,7 +300,7 @@ cs_60BA6:       textCursor 3434
                  faceUp 1
                 endActions
                 setFacing FOLLOWER_B,DOWN
-                setFacing ALLY_CHAZ,DOWN
+                setFacing ALLY_CRAY,DOWN
                 nextSingleText $0,128   ; "Let me help you.{W1}"
                 csWait 5
                 setActscript 128,eas_2xUpDown
@@ -315,13 +315,13 @@ cs_60BA6:       textCursor 3434
                 setFacing FOLLOWER_B,DOWN
                 nextSingleText $80,FOLLOWER_B ; "I appreciate your kindness.{W1}"
                 csWait 20
-                entityActions ALLY_CHAZ
+                entityActions ALLY_CRAY
                  moveUp 1
                 endActions
                 entityActionsWait 128
                  moveUp 1
                 endActions
-                setPos ALLY_CHAZ,63,63,DOWN
+                setPos ALLY_CRAY,63,63,DOWN
                 entityActionsWait 128
                  moveUp 1
                 endActions
@@ -339,98 +339,98 @@ cs_60C42:       textCursor 3442
                 setPos ALLY_PETER,28,55,LEFT
                 setPos FOLLOWER_B,27,53,LEFT
                 setPos 128,26,50,DOWN
-                setPos ALLY_CHAZ,25,53,RIGHT
+                setPos ALLY_CRAY,25,53,RIGHT
                 setCameraEntity 65535
                 reloadMap 19,48
                 fadeInB
                 csWait 60
                 nextSingleText $80,FOLLOWER_B ; "...and now we're here.{W1}"
-                nextText $0,ALLY_CHAZ   ; "Wow!  Your story is so{N}complicated.{W2}"
-                nextText $0,ALLY_CHAZ   ; "But, from what I understand,{N}Zeon is reviving.{W2}"
-                nextSingleText $0,ALLY_CHAZ ; "And all these disasters were{N}caused by him?{W1}"
+                nextText $0,ALLY_CRAY   ; "Wow!  Your story is so{N}complicated.{W2}"
+                nextText $0,ALLY_CRAY   ; "But, from what I understand,{N}Zeon is reviving.{W2}"
+                nextSingleText $0,ALLY_CRAY ; "And all these disasters were{N}caused by him?{W1}"
                 csc_end
 cs_60CA4:       textCursor 3446
                 nod FOLLOWER_B
                 nextSingleText $80,FOLLOWER_B ; "That's right.  We have to{N}find out where the Holy{N}Sword is.{W1}"
                 csWait 20
-                nextText $0,ALLY_CHAZ   ; "I think I've seen it in a{N}book....{W2}"
-                shiver ALLY_CHAZ
-                nextSingleText $0,ALLY_CHAZ ; "Yes, I did...but...{N}I don't remember....{W1}"
-                setFacing ALLY_CHAZ,LEFT
+                nextText $0,ALLY_CRAY   ; "I think I've seen it in a{N}book....{W2}"
+                shiver ALLY_CRAY
+                nextSingleText $0,ALLY_CRAY ; "Yes, I did...but...{N}I don't remember....{W1}"
+                setFacing ALLY_CRAY,LEFT
                 csWait 40
                 shiver FOLLOWER_B
                 nextSingleText $80,FOLLOWER_B ; "It's important...{W1}"
-                setFacing ALLY_CHAZ,RIGHT
-                nextSingleText $0,ALLY_CHAZ ; "Please, give me a moment.{W1}"
-                setFacing ALLY_CHAZ,LEFT
+                setFacing ALLY_CRAY,RIGHT
+                nextSingleText $0,ALLY_CRAY ; "Please, give me a moment.{W1}"
+                setFacing ALLY_CRAY,LEFT
                 csWait 60
-                customActscriptWait ALLY_CHAZ
+                customActscriptWait ALLY_CRAY
                  ac_setSpeed 20,20      ;   
                  ac_jump eas_Idle       ;   
                 ac_end
-                entityActionsWait ALLY_CHAZ
+                entityActionsWait ALLY_CRAY
                  moveLeft 2
                  faceLeft 20
                  faceRight 20
                  moveRight 2
                  eaWait 20
                 endActions
-                setFacing ALLY_CHAZ,LEFT
+                setFacing ALLY_CRAY,LEFT
                 csWait 20
-                entityActionsWait ALLY_CHAZ
+                entityActionsWait ALLY_CRAY
                  moveLeft 2
                  faceLeft 20
                  faceRight 20
                  moveRight 2
                  eaWait 20
                 endActions
-                setFacing ALLY_CHAZ,DOWN
+                setFacing ALLY_CRAY,DOWN
                 csWait 40
-                nod ALLY_CHAZ
-                nextSingleText $0,ALLY_CHAZ ; "Was it this one?{W1}"
-                customActscriptWait ALLY_CHAZ
+                nod ALLY_CRAY
+                nextSingleText $0,ALLY_CRAY ; "Was it this one?{W1}"
+                customActscriptWait ALLY_CRAY
                  ac_setSpeed 32,32      ;   
                  ac_jump eas_Idle       ;   
                 ac_end
-                entityActionsWait ALLY_CHAZ
+                entityActionsWait ALLY_CRAY
                  moveLeft 2
                  moveUp 2
                 endActions
                 csWait 30
-                shiver ALLY_CHAZ
-                shiver ALLY_CHAZ
+                shiver ALLY_CRAY
+                shiver ALLY_CRAY
                 csWait 30
-                shiver ALLY_CHAZ
+                shiver ALLY_CRAY
                 csWait 30
-                nextSingleText $0,ALLY_CHAZ ; "No, that's not it.{W1}"
-                customActscriptWait ALLY_CHAZ
+                nextSingleText $0,ALLY_CRAY ; "No, that's not it.{W1}"
+                customActscriptWait ALLY_CRAY
                  ac_setSpeed 10,10      ;   
                  ac_jump eas_Idle       ;   
                 ac_end
-                entityActionsWait ALLY_CHAZ
+                entityActionsWait ALLY_CRAY
                  moveDown 2
                  eaWait 80
                 endActions
-                setActscriptWait ALLY_CHAZ,eas_Init
-                setActscriptWait ALLY_CHAZ,eas_Jump
-                setActscriptWait ALLY_CHAZ,eas_Jump
-                nextSingleText $0,ALLY_CHAZ ; "How about this one?{W1}"
-                customActscriptWait ALLY_CHAZ
+                setActscriptWait ALLY_CRAY,eas_Init
+                setActscriptWait ALLY_CRAY,eas_Jump
+                setActscriptWait ALLY_CRAY,eas_Jump
+                nextSingleText $0,ALLY_CRAY ; "How about this one?{W1}"
+                customActscriptWait ALLY_CRAY
                  ac_setSpeed 48,48      ;   
                  ac_jump eas_Idle       ;   
                 ac_end
-                entityActionsWait ALLY_CHAZ
+                entityActionsWait ALLY_CRAY
                  moveUp 2
                 endActions
                 csWait 30
-                shiver ALLY_CHAZ
-                shiver ALLY_CHAZ
+                shiver ALLY_CRAY
+                shiver ALLY_CRAY
                 csWait 40
-                shiver ALLY_CHAZ
+                shiver ALLY_CRAY
                 csWait 40
-                setActscriptWait ALLY_CHAZ,eas_Jump
-                setActscriptWait ALLY_CHAZ,eas_Jump
-                nextSingleText $0,ALLY_CHAZ ; "Yeah, I got it!{W1}"
+                setActscriptWait ALLY_CRAY,eas_Jump
+                setActscriptWait ALLY_CRAY,eas_Jump
+                nextSingleText $0,ALLY_CRAY ; "Yeah, I got it!{W1}"
                 customActscriptWait FOLLOWER_B
                  ac_setSpeed 64,64      ;   
                  ac_jump eas_Idle       ;   
@@ -440,16 +440,16 @@ cs_60CA4:       textCursor 3446
                  moveLeft 2
                 endActions
                 nextSingleText $80,FOLLOWER_B ; "Is that the right one?{W1}"
-                setFacing ALLY_CHAZ,RIGHT
-                nod ALLY_CHAZ
-                nextSingleText $0,ALLY_CHAZ ; "Yes!  But...{W1}"
+                setFacing ALLY_CRAY,RIGHT
+                nod ALLY_CRAY
+                nextSingleText $0,ALLY_CRAY ; "Yes!  But...{W1}"
                 nextSingleText $80,FOLLOWER_B ; "But what?{W1}"
-                setActscriptWait ALLY_CHAZ,eas_Init
-                entityActionsWait ALLY_CHAZ
+                setActscriptWait ALLY_CRAY,eas_Init
+                entityActionsWait ALLY_CRAY
                  moveDown 1
                  faceRight 1
                 endActions
-                nextSingleText $0,ALLY_CHAZ ; "The most important part is{N}missing.  It's been stolen.{W1}"
+                nextSingleText $0,ALLY_CRAY ; "The most important part is{N}missing.  It's been stolen.{W1}"
                 setActscriptWait FOLLOWER_B,eas_Init
                 setActscriptWait FOLLOWER_B,eas_JumpRight
                 csWait 10
@@ -468,7 +468,7 @@ cs_60CA4:       textCursor 3446
                  moveLeft 4
                  moveUp 1
                 endActions
-                setFacing ALLY_CHAZ,DOWN
+                setFacing ALLY_CRAY,DOWN
                 nextText $80,ALLY_PETER ; "Not necessarily, Sir Astral.{W2}"
                 nextSingleText $80,ALLY_PETER ; "Believe in {LEADER}.{N}He was chosen by the gods.{W1}"
                 nextText $80,FOLLOWER_B ; "Hmmm....{W2}"
@@ -487,7 +487,7 @@ cs_60CA4:       textCursor 3446
                  moveDown 1
                 endActions
                 setFacing FOLLOWER_B,UP
-                setFacing ALLY_CHAZ,RIGHT
+                setFacing ALLY_CRAY,RIGHT
                 nextSingleText $0,128   ; "Believe in the power of{N}your jewel!{W1}"
                 followEntity ALLY_PETER,ALLY_BOWIE,2
                 followEntity FOLLOWER_B,ALLY_PETER,2
@@ -513,7 +513,7 @@ cs_60EB2:       textCursor 3468
                  moveDown 1
                 endActions
                 setFacing FOLLOWER_B,UP
-                setFacing ALLY_CHAZ,RIGHT
+                setFacing ALLY_CRAY,RIGHT
                 nextSingleText $0,128   ; "We need to return and{N}restore world peace.{W1}"
                 followEntity ALLY_PETER,ALLY_BOWIE,2
                 followEntity FOLLOWER_B,ALLY_PETER,2
@@ -524,22 +524,22 @@ cs_60EB2:       textCursor 3468
                 endActions
                 csc_end
 cs_60F18:       textCursor 3471
-                nextSingleText $0,ALLY_CHAZ ; "{LEADER}, would you mind{N}if I went with you?{W1}"
-                faceEntity FOLLOWER_B,ALLY_CHAZ
+                nextSingleText $0,ALLY_CRAY ; "{LEADER}, would you mind{N}if I went with you?{W1}"
+                faceEntity FOLLOWER_B,ALLY_CRAY
                 nextSingleText $80,FOLLOWER_B ; "No, {NAME;27}.  You have{N}to continue your work.{W1}"
-                nextText $0,ALLY_CHAZ   ; "I knew you'd say that, but I{N}can't continue my work if{N}Zeon revives.{W2}"
-                nextSingleText $0,ALLY_CHAZ ; "Also, as a historian, I{N}want to see the King of{N}the Devils.{W1}"
-                faceEntity ALLY_PETER,ALLY_CHAZ
+                nextText $0,ALLY_CRAY   ; "I knew you'd say that, but I{N}can't continue my work if{N}Zeon revives.{W2}"
+                nextSingleText $0,ALLY_CRAY ; "Also, as a historian, I{N}want to see the King of{N}the Devils.{W1}"
+                faceEntity ALLY_PETER,ALLY_CRAY
                 nextSingleText $80,ALLY_PETER ; "{NAME;27} will just follow{N}us if you don't let him{N}join us.{W1}"
-                nod ALLY_CHAZ
-                nextSingleText $0,ALLY_CHAZ ; "{NAME;7} is right.{W1}"
+                nod ALLY_CRAY
+                nextSingleText $0,ALLY_CRAY ; "{NAME;7} is right.{W1}"
                 nextSingleText $80,FOLLOWER_B ; "(Sigh)...OK.{W1}"
-                join ALLY_CHAZ
-                nextSingleText $0,ALLY_CHAZ ; "I'm so excited!{W1}"
-                shiver ALLY_CHAZ
+                join ALLY_CRAY
+                nextSingleText $0,ALLY_CRAY ; "I'm so excited!{W1}"
+                shiver ALLY_CRAY
                 csWait 30
                 nextSingleText $80,ALLY_PETER ; "This is not a sight-seeing{N}tour, OK?!{N}Let's go {LEADER}!{W1}"
-                followEntity ALLY_CHAZ,ALLY_BOWIE,5
+                followEntity ALLY_CRAY,ALLY_BOWIE,5
                 csc_end
 cs_60F64:       textCursor 3480
                 nextText $FF,255        ; "It's a fine-looking piano.{N}Will you play it?{W1}"

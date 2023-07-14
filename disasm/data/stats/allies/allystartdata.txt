@@ -37,6 +37,6 @@ Jaro, 23
 Gyan, 24
 Sheela, 25
 Zynk, 26
-Chaz, 27
+Cray, 27
 Lemon, 28
 Claude, 29

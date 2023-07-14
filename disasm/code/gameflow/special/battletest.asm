@@ -23,7 +23,8 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
                 moveq   #ALLY_KAZIN,d0
                 bsr.w   j_JoinForce
-
+                moveq   #ALLY_CRAY,d0
+                bsr.w   j_JoinForce
 				
                 moveq   #0,d0
                 move.w  #$63,d1 

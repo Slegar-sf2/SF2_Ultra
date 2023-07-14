@@ -18,7 +18,7 @@ byte_60630:
                 script  cs_6060E
 ms_map5_flag28_InitFunction:
                 
-                chkFlg  942             ; Set after the scene in underground Yeel where Chaz paces and consults books
+                chkFlg  942             ; Set after the scene in underground Yeel where CRAY paces and consults books
                 bne.s   byte_6067C      
                 cmpi.l  #$6005580,((ENTITY_DATA-$1000000)).w
                 bne.s   byte_6067C      
@@ -42,12 +42,12 @@ byte_60672:
                 script  cs_60CA4
 byte_60678:
                 
-                setFlg  942             ; Set after the scene in underground Yeel where Chaz paces and consults books
+                setFlg  942             ; Set after the scene in underground Yeel where CRAY paces and consults books
 byte_6067C:
                 
-                chkFlg  27              ; Chaz joined
+                chkFlg  27              ; CRAY joined
                 beq.s   byte_6068C      
-                move.w  #ALLY_CHAZ,d0
+                move.w  #ALLY_CRAY,d0
                 jsr     MoveEntityOutOfMap
 byte_6068C:
                 
@@ -57,7 +57,7 @@ byte_6068C:
                 jsr     MoveEntityOutOfMap
 byte_6069C:
                 
-                chkFlg  941             ; Set after Chaz and the priest go downstars in Yeel
+                chkFlg  941             ; Set after CRAY and the priest go downstars in Yeel
                 beq.s   byte_606B4      
                 script  cs_606AC
                 bra.w   byte_606B4      
@@ -74,7 +74,7 @@ byte_606BE:
                 
                 chkFlg  940             ; Set after playing the piano in Yeel (during the late game)
                 beq.s   return_606E8
-                chkFlg  941             ; Set after Chaz and the priest go downstars in Yeel
+                chkFlg  941             ; Set after CRAY and the priest go downstars in Yeel
                 bne.s   return_606E8
                 script  cs_606EA
                 chkFlg  28              ; Lemon joined

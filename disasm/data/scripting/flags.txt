@@ -25,7 +25,7 @@
 0024=Gyan joined
 0025=Shiela joined
 0026=Zynk joined
-0027=Chaz joined
+0027=Cray joined
 0028=Lemon joined
 0029=Claude joined
 0030=Character 31 joined
@@ -57,7 +57,7 @@
 0056=Gyan in active party
 0057=Shiela in active party
 0058=Zynk in active party
-0059=Chaz in active party
+0059=Cray in active party
 0060=Lemon in active party
 0061=Claude in active party
 0062=Character 31  in active party
@@ -939,8 +939,8 @@
 0938=
 0939=
 0940=Set after playing the piano in Yeel (during the late game)
-0941=Set after Chaz and the priest go downstars in Yeel
-0942=Set after the scene in underground Yeel where Chaz paces and consults books
+0941=Set after Cray and the priest go downstars in Yeel
+0942=Set after the scene in underground Yeel where Cray paces and consults books
 0943=
 0944=Set after Lemon jumps off the cliff in Yeel
 0945=Set after recruiting Lemon in Yeel

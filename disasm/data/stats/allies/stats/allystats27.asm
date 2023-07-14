@@ -1,7 +1,7 @@
 
 ; ASM FILE data\stats\allies\stats\allystats27.asm :
 ; 0x1EE782..0x1EE7AD : Ally stats 27
-AllyStats27:    forClass  WIZ
+AllyStats27:    forClass  MONK
                 hpGrowth  28, 83, LINEAR
                 mpGrowth  42, 88, LINEAR
                 attGrowth 15, 29, LINEAR

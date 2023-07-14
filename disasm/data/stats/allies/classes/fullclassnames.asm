@@ -39,3 +39,4 @@ tbl_FullClassNames:
 				className "Berserker"
 				className "Knight"
 				className "Paladin"
+				className "Monk"

@@ -28,7 +28,7 @@ pt_AllyStats:   dc.l AllyStats00        ; BOWIE
                 dc.l AllyStats24        ; GYAN
                 dc.l AllyStats25        ; SHEELA
                 dc.l AllyStats26        ; ZYNK
-                dc.l AllyStats27        ; CHAZ
+                dc.l AllyStats27        ; CRAY
                 dc.l AllyStats28        ; LEMON
                 dc.l AllyStats29        ; CLAUDE
                 dc.l AllyStats30        ; SHADE

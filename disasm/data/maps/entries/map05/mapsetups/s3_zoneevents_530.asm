@@ -24,7 +24,7 @@ Map5_212_ZoneEvent0:
                  
                 chkFlg  940             ; Set after playing the piano in Yeel (during the late game)
                 beq.s   return_60500
-                chkFlg  941             ; Set after Chaz and the priest go downstars in Yeel
+                chkFlg  941             ; Set after CRAY and the priest go downstars in Yeel
                 bne.s   return_60500
                 script  cs_6093A
                 chkFlg  930             ; Set after opening Devil's Head with the Force Sword
@@ -36,7 +36,7 @@ byte_604F6:
                 script  cs_60B10
 byte_604FC:
                 
-                setFlg  941             ; Set after Chaz and the priest go downstars in Yeel
+                setFlg  941             ; Set after CRAY and the priest go downstars in Yeel
 return_60500:
                 
                 rts
@@ -52,7 +52,7 @@ Map5_212_ZoneEvent1:
                  
                 chkFlg  28              ; Lemon joined
                 bne.s   return_6051C
-                chkFlg  27              ; Chaz joined
+                chkFlg  27              ; CRAY joined
                 beq.s   return_6051C
                 script  cs_60708
                 setFlg  71              ; Lemon is a follower
