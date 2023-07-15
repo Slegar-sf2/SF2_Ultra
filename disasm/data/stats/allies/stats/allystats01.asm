@@ -9,9 +9,9 @@ AllyStats01:    forClass  PRST
                 agiGrowth 5, 31, LINEAR
                 spellList &
                     2, HEAL, &
-                    5, DETOX, &
-                    8, HEAL|LV2, &
-                    10, BLAST, &
+                    4, DETOX, &
+					6, BLAST, &
+                    8, HEAL|LV2, &                    
                     14, DETOX|LV2, &
                     17, BLAST|LV2, &
                     19, SLOW, &

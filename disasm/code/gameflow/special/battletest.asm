@@ -17,14 +17,19 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
                 moveq   #ALLY_SHADE,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_RUCE,d0
+                moveq   #ALLY_PETER,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_NATASHA,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_KAZIN,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_CRAY,d0
+                moveq   #ALLY_MAY,d0
                 bsr.w   j_JoinForce
+				moveq   #ALLY_SLADE,d0
+                bsr.w   j_JoinForce
+				moveq   #ALLY_RUCE,d0
+                bsr.w   j_JoinForce
+				
 				
                 moveq   #0,d0
                 move.w  #$63,d1 

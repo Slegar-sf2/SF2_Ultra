@@ -4,7 +4,7 @@
 AllyStats02:    forClass  KNTE
                 hpGrowth  14, 50, LATE
                 mpGrowth  0, 0, NONE
-                attGrowth 6, 39, LINEAR
+                attGrowth 6, 41, LINEAR
                 defGrowth 5, 38, EARLYANDLATE
                 agiGrowth 7, 35, LINEAR
                 spellList 
@@ -12,7 +12,7 @@ AllyStats02:    forClass  KNTE
                 forClass  PLDN
                 hpGrowth  50, 110, LINEAR
                 mpGrowth  0, 0, NONE
-                attGrowth 39, 59, LINEAR
+                attGrowth 41, 59, LINEAR
                 defGrowth 38, 70, LINEAR
                 agiGrowth 35, 65, LINEAR
                 spellList 

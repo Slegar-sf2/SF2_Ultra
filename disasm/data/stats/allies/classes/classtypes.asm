@@ -15,7 +15,7 @@ tbl_ClassTypes:
                 classType BASE          ; 8: RNGR
                 classType BASE          ; 9: PHNK
                 classType BASE          ; 10: THIF
-                classType BASE          ; 11: TORT
+                classType BASE          ; 11: SWOR
                 classType PROMO         ; 12: HERO
                 classType PROMO         ; 13: PLDN
                 classType SPECIAL       ; 14: PGNT
@@ -37,7 +37,7 @@ tbl_ClassTypes:
                 classType PROMO         ; 30: GLM
                 classType REDBARON      ; 31: RDBN               
             if (STANDARD_BUILD&EXPANDED_CLASSES=1)
-                classType BASE          ; 32: SWOR
+                classType BASE          ; 32: tort
                 classType PROMO         ; 33: STAR
                 classType PROMO         ; 34: BRSK
                 classType BASE          ; 35: KNTE2

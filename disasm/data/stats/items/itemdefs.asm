@@ -62,7 +62,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        40
+                price        100
                 itemType     CONSUMABLE
                 useSpell     DETOX
                 equipEffects NONE, 0, &
@@ -73,7 +73,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        100
+                price        150
                 itemType     CONSUMABLE
                 useSpell     EGRESS
                 equipEffects NONE, 0, &
@@ -213,7 +213,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 17: Helmet
-                equipFlags   SDMN|HERO|PLDN|PGNT|WARR|GLDT|BRN|ACHR|SNIP|BDMN|BDBT|WFMN|WFBR|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN|SWOR|STAR|PLDN2
+                equipFlags   SDMN|HERO|KNTE|PLDN|PGNT|WARR|GLDT|BRN|ACHR|SNIP|BDMN|BDBT|WFMN|WFBR|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN|SWOR|STAR|PLDN2
                 equipFlags2  NONE
                 range        0, 0
                 price        199
@@ -1246,14 +1246,14 @@ tbl_ItemDefs:
                              NONE, 0, &
                              NONE, 0
                 
-                ; 111: Right of Hope
+                ; 111: ATOM ROD                
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        0, 0
-                price        10000
-                itemType     RARE|CONSUMABLE
-                useSpell     HEAL|LV4
-                equipEffects NONE, 0, &
+                range        1, 1
+                price        2000
+                itemType     WEAPON|RARE|BREAKABLE
+                useSpell     ATOM|LV3
+                equipEffects INCREASE_ATT, 10, &
                              NONE, 0, &
                              NONE, 0
                 
@@ -1415,11 +1415,11 @@ tbl_ItemDefs:
                 equipFlags   ALL
                 equipFlags2  NONE
                 range        0, 0
-                price        5
+                price        550
                 itemType     RING|RARE
                 useSpell     NOTHING
-                equipEffects NONE, 0, &
-                             NONE, 0, &
+                equipEffects INCREASE_MOV, 1, &
+                             INCREASE_DEF, 3, &
                              NONE, 0
                 
                 ; 127: Empty

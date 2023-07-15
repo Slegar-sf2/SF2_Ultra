@@ -139,7 +139,7 @@ tbl_EnemyDefs:
                 level    5
                 maxHp    20
                 maxMp    0
-                baseAtt  16
+                baseAtt  18
                 baseDef  15
                 baseAgi  13
                 baseMov  5
@@ -164,7 +164,7 @@ tbl_EnemyDefs:
                 level    6
                 maxHp    24
                 maxMp    27
-                baseAtt  24
+                baseAtt  25
                 baseDef  20
                 baseAgi  15
                 baseMov  6
@@ -190,11 +190,11 @@ tbl_EnemyDefs:
                 maxHp    32
                 maxMp    0
                 baseAtt  27
-                baseDef  28
+                baseDef  24
                 baseAgi  18
                 baseMov  4
                 baseResistance NONE
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
+                baseProwess    CRITICAL150_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     SHORT_AXE|EQUIPPED, &
                     NOTHING, &
@@ -219,7 +219,7 @@ tbl_EnemyDefs:
                 baseAgi  19
                 baseMov  5
                 baseResistance NONE
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
+                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     MIDDLE_AXE|EQUIPPED, &
                     NOTHING, &
@@ -1064,7 +1064,7 @@ tbl_EnemyDefs:
                 level    7
                 maxHp    30
                 maxMp    8
-                baseAtt  27
+                baseAtt  28
                 baseDef  17
                 baseAgi  16
                 baseMov  4
@@ -1465,8 +1465,8 @@ tbl_EnemyDefs:
                 maxHp    25
                 maxMp    0
                 baseAtt  18
-                baseDef  11
-                baseAgi  14
+                baseDef  12
+                baseAgi  15
                 baseMov  5
                 baseResistance NONE
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN16
@@ -1486,7 +1486,7 @@ tbl_EnemyDefs:
                     
                 unknownByte 58          ; 58: DEATH ARCHER
                 spellPower REGULAR
-                level    10
+                level    11
                 maxHp    45
                 maxMp    0
                 baseAtt  29
@@ -1961,11 +1961,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 77          ; 77: DEATH MONK
                 spellPower REGULAR
-                level    8
+                level    9
                 maxHp    45
                 maxMp    30
-                baseAtt  9
-                baseDef  19
+                baseAtt  10
+                baseDef  20
                 baseAgi  30
                 baseMov  6
                 baseResistance NONE
@@ -1976,8 +1976,8 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &                    
-                    BLAST|LV2, &
-					HEAL|LV3, &
+                    MUDDLE|LV2, &
+					HEAL|LV2, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
@@ -2190,8 +2190,8 @@ tbl_EnemyDefs:
                 maxHp    22
                 maxMp    0
                 baseAtt  18
-                baseDef  14
-                baseAgi  141
+                baseDef  17
+                baseAgi  13
                 baseMov  5
                 baseResistance WIND_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS|STATUS_MAJOR
                 baseProwess    CRITICAL_SILENCE|DOUBLE_1IN16|COUNTER_1IN16
@@ -2561,10 +2561,10 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 101: MAGE
                 spellPower REGULAR
-                level    13
+                level    12
                 maxHp    50
                 maxMp    28
-                baseAtt  4
+                baseAtt  3
                 baseDef  18
                 baseAgi  32
                 baseMov  5
