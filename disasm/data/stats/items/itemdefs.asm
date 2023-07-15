@@ -587,7 +587,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 51: Nazca Cannon
-                equipFlags   BRGN|BWNT
+                equipFlags   BRGN|BWNT|SNIP
                 equipFlags2  NONE
                 range        2, 3
                 price        3000
@@ -598,7 +598,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 52: Buster Shot
-                equipFlags   BRGN|BWNT
+                equipFlags   BRGN|BWNT|SNIP
                 equipFlags2  NONE
                 range        2, 3
                 price        6800
@@ -609,7 +609,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 53: Hyper Cannon
-                equipFlags   BRGN|BWNT
+                equipFlags   BRGN|BWNT|SNIP
                 equipFlags2  NONE
                 range        2, 3
                 price        8700
@@ -620,7 +620,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 54: Grand Cannon
-                equipFlags   BRGN|BWNT
+                equipFlags   BRGN|BWNT|SNIP
                 equipFlags2  NONE
                 range        2, 3
                 price        9800
@@ -631,7 +631,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 55: Evil Shot
-                equipFlags   BRGN|BWNT
+                equipFlags   BRGN|BWNT|SNIP
                 equipFlags2  NONE
                 range        2, 3
                 price        13000
@@ -1252,7 +1252,7 @@ tbl_ItemDefs:
                 range        1, 1
                 price        2000
                 itemType     WEAPON|RARE|BREAKABLE
-                useSpell     ATOM|LV3
+                useSpell     ATOM
                 equipEffects INCREASE_ATT, 10, &
                              NONE, 0, &
                              NONE, 0

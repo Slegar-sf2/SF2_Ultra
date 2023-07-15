@@ -42,8 +42,8 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 1300               ; ZEON GUARD
                 dc.w 20                 ; GIZMO
                 dc.w 30                 ; HUGE BAT
-                dc.w 120                ; VAMPIRE BAT
-                dc.w 170                ; EVIL CLOUD
+                dc.w 125                ; VAMPIRE BAT
+                dc.w 170                ; BELIAL
                 dc.w 250                ; GARGOYLE
                 dc.w 340                ; HARPY
                 dc.w 350                ; DRAGON
@@ -56,7 +56,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 770                ; DEMON
                 dc.w 980                ; BEEDRILL
                 dc.w 1120               ; DEVIL GRIFFIN
-                dc.w 1150               ; TENTACRUEL
+                dc.w 200                ; TENTACRUEL
                 dc.w 80                 ; GALAM ARCHER
                 dc.w 90                 ; HUNTER GOBLIN
                 dc.w 190                ; DEATH ARCHER
@@ -87,8 +87,8 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 540                ; SHAMAN
                 dc.w 640                ; EVIL BISHOP
                 dc.w 860                ; DULAHAN
-                dc.w 130                ; DARK SMOKE
-                dc.w 320                ; KRAKEN HEAD
+                dc.w 130                ; SCAVENGER
+                dc.w 350                ; KRAKEN HEAD
                 dc.w 450                ; TAROS
                 dc.w 500                ; KING
                 dc.w 550                ; WILLARD
@@ -101,11 +101,11 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 3500               ; GALAM
                 dc.w 4000               ; ZEON
                 dc.w 500                ; JAR
-                dc.w 220                ; MASTER MAGE
-                dc.w 520                ; NECROMANCER
+                dc.w 90                 ; INCUBUS
+                dc.w 190                ; MAGE
                 dc.w 860                ; MUTSUKI
                 dc.w 110                ; ARTILERY
-                dc.w 145                ; GHOUL
+                dc.w 305                ; GHOUL
                 dc.w 106                ; WOLF
                 dc.w 700                ; GEPPEL
                 dc.w 134                ; GORDON

@@ -3,7 +3,7 @@
 ; 0x1EE426..0x1EE454 : Ally stats 05
 AllyStats05:    forClass  THIF
                 hpGrowth  8, 48, LATE
-                mpGrowth  0, 0, NONE
+                mpGrowth  8, 0, NONE
                 attGrowth 5, 45, LINEAR
                 defGrowth 8, 33, LATE
                 agiGrowth 6, 40, LATE

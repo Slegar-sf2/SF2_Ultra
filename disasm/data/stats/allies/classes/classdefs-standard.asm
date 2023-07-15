@@ -38,7 +38,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN16|COUNTER_1IN8
                 
                 mov 6                   ; 6: BDMN
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_MINOR|LIGHTNING_WEAKNESS|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   FLYING
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 
@@ -53,7 +53,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 
                 mov 6                   ; 9: PHNK
-                resistance WIND_WEAKNESS|LIGHTNING_WEAKNESS|ICE_NONE|FIRE_MINOR|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_WEAKNESS|ICE_WEAKNESS|FIRE_MAJOR|NEUTRAL_NONE|STATUS_NONE
                 moveType   HOVERING
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 
@@ -123,7 +123,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
                 mov 6                   ; 23: BDBT
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_MINOR|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   FLYING
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
@@ -138,9 +138,9 @@ tbl_ClassDefs:
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
                 mov 7                   ; 26: PHNX
-                resistance WIND_WEAKNESS|LIGHTNING_NONE|ICE_NONE|FIRE_MAJOR|NEUTRAL_NONE|STATUS_MAJOR
+                resistance WIND_NONE|LIGHTNING_WEAKNESS|ICE_WEAKNESS|FIRE_MAJOR|NEUTRAL_NONE|STATUS_MAJOR
                 moveType   FLYING
-                prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
+                prowess    CRITICAL150_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
                 mov 7                   ; 27: NINJ
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE

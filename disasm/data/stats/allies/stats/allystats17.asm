@@ -4,7 +4,7 @@
 AllyStats17:    forClass  MAGE
                 hpGrowth  10, 56, LINEAR
                 mpGrowth  7, 36, EARLY
-                attGrowth 4, 22, LINEAR
+                attGrowth 4, 29, LINEAR
                 defGrowth 4, 30, LINEAR
                 agiGrowth 5, 40, LINEAR
                 spellList &
@@ -25,7 +25,7 @@ AllyStats17:    forClass  MAGE
                 forClass  WIZ
                 hpGrowth  56, 95, LINEAR
                 mpGrowth  36, 80, LINEAR
-                attGrowth 22, 35, EARLYANDLATE
+                attGrowth 29, 45, EARLYANDLATE
                 defGrowth 30, 59, EARLY
                 agiGrowth 40, 76, LINEAR
                 useFirstSpellList
@@ -33,7 +33,7 @@ AllyStats17:    forClass  MAGE
                 forClass  SORC
                 hpGrowth  56, 91, LINEAR
                 mpGrowth  36, 87, LINEAR
-                attGrowth 22, 33, EARLYANDLATE
+                attGrowth 29, 43, EARLYANDLATE
                 defGrowth 30, 52, EARLY
                 agiGrowth 40, 68, LINEAR
                 spellList &

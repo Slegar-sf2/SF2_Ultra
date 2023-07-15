@@ -4,8 +4,8 @@
 AllyStats26:    forClass  RBT
                 hpGrowth  49, 86, LINEAR
                 mpGrowth  0, 0, NONE
-                attGrowth 49, 108, LINEAR
-                defGrowth 42, 95, LINEAR
+                attGrowth 68, 124, LINEAR
+                defGrowth 48, 98, LINEAR
                 agiGrowth 33, 80, LINEAR
                 spellList 
                 

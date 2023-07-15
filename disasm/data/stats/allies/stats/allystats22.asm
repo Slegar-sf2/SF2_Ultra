@@ -4,7 +4,7 @@
 AllyStats22:    forClass  VICR
                 hpGrowth  50, 103, LINEAR
                 mpGrowth  30, 60, LINEAR
-                attGrowth 21, 38, LINEAR
+                attGrowth 35, 55, LINEAR
                 defGrowth 28, 68, LINEAR
                 agiGrowth 31, 65, LATE
                 spellList &

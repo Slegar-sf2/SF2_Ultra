@@ -261,15 +261,15 @@ tbl_EnemyDefs:
                     
                 unknownByte 9           ; 9: GOLEM
                 spellPower REGULAR
-                level    12
+                level    13
                 maxHp    28
                 maxMp    0
-                baseAtt  40
-                baseDef  30
+                baseAtt  43
+                baseDef  32
                 baseAgi  19
                 baseMov  4
                 baseResistance WIND_MAJOR|LIGHTNING_MINOR|ICE_WEAKNESS|STATUS_IMMUNITY
-                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN4
+                baseProwess    CRITICAL_STUN|DOUBLE_1IN32|COUNTER_1IN4
                 items &
                     NOTHING, &
                     NOTHING, &
@@ -312,21 +312,21 @@ tbl_EnemyDefs:
                 unknownByte 11          ; 11: SOULSOWER
                 spellPower REGULAR
                 level    18
-                maxHp    47
+                maxHp    39
                 maxMp    0
                 baseAtt  50
                 baseDef  34
                 baseAgi  25
                 baseMov  4
                 baseResistance LIGHTNING_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS
-                baseProwess    CRITICAL_STUN|DOUBLE_1IN32|COUNTER_1IN32
+                baseProwess    CRITICAL_STUN|DOUBLE_1IN32|COUNTER_1IN4
                 items &
                     NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    NOTHING, &
+                    AQUA, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1084,7 +1084,7 @@ tbl_EnemyDefs:
                 moveType      FLYING
                 unknownWord   8192
                     
-                unknownByte 42          ; 42: Belial
+                unknownByte 42          ; 42: BELIAL
                 spellPower REGULAR
                 level    10
                 maxHp    37
@@ -1114,11 +1114,11 @@ tbl_EnemyDefs:
                 level    15
                 maxHp    44
                 maxMp    0
-                baseAtt  44
+                baseAtt  45
                 baseDef  32
                 baseAgi  35
                 baseMov  6
-                baseResistance NONE
+                baseResistance ICE_WEAKNESS|FIRE_MINOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     NOTHING, &
@@ -1515,7 +1515,7 @@ tbl_EnemyDefs:
                 maxHp    46
                 maxMp    0
                 baseAtt  49
-                baseDef  36
+                baseDef  37
                 baseAgi  26
                 baseMov  6
                 baseResistance LIGHTNING_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS
@@ -1761,17 +1761,17 @@ tbl_EnemyDefs:
                     
                 unknownByte 69          ; 69: MASTER MAGE
                 spellPower REGULAR
-                level    14
+                level    15
                 maxHp    57
                 maxMp    35
-                baseAtt  4
-                baseDef  20
-                baseAgi  22
+                baseAtt  20
+                baseDef  25
+                baseAgi  40
                 baseMov  5
                 baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MINOR|FIRE_MAJOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
-                    MAGE_STAFF|EQUIPPED, &
+                    ATOM_ROD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2215,7 +2215,7 @@ tbl_EnemyDefs:
                 maxHp    80
                 maxMp    0
                 baseAtt  60
-                baseDef  46
+                baseDef  42
                 baseAgi  153
                 baseMov  5
                 baseResistance LIGHTNING_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS|STATUS_MAJOR
@@ -2538,12 +2538,12 @@ tbl_EnemyDefs:
                 spellPower REGULAR
                 level    5
                 maxHp    23
-                maxMp    14
+                maxMp    18
                 baseAtt  16
                 baseDef  18
                 baseAgi  22
                 baseMov  5
-                baseResistance FIRE_MINOR
+                baseResistance WIND_MINOR
                 baseProwess    CRITICAL150_1IN4|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     MIDDLE_SWORD|EQUIPPED, &
@@ -2551,7 +2551,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    BLAZE|LV2, &
+                    BLAST, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2636,11 +2636,11 @@ tbl_EnemyDefs:
 				
 				unknownByte 0           ; 104: GHOUL
                 spellPower REGULAR
-                level    16
-                maxHp    50
+                level    19
+                maxHp    44
                 maxMp    0
-                baseAtt  37
-                baseDef  35
+                baseAtt  53
+                baseDef  40
                 baseAgi  30
                 baseMov  6
                 baseResistance ICE_WEAKNESS|FIRE_MAJOR
@@ -2736,11 +2736,11 @@ tbl_EnemyDefs:
 				
 				unknownByte 0           ; 108: BAZ00
                 spellPower ENHANCED
-                level    20
+                level    21
                 maxHp    90
                 maxMp    55
-                baseAtt  69
-                baseDef  37
+                baseAtt  67
+                baseDef  41
                 baseAgi  155
                 baseMov  5
                 baseResistance WIND_MINOR|LIGHTNING_MAJOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY

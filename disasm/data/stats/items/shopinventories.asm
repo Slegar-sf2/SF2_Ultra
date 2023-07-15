@@ -12,14 +12,15 @@ tbl_ShopInventories:
                               SHORT_SPEAR, &
                               SHORT_AXE, &
                               WOODEN_ROD, &
+							  WOODEN_ARROW, &
                               SHORT_KNIFE
                 
                 ; Weapon shop 1
                 shopInventory SHORT_SWORD, &
                               SHORT_SPEAR, &
                               BRONZE_LANCE, &
-                              SHORT_AXE, &
-                              WOODEN_ROD, &
+                              SHORT_AXE, &                              
+							  WOODEN_ARROW, &
                               SHORT_ROD, &
                               SHORT_KNIFE
 							  
@@ -31,7 +32,7 @@ tbl_ShopInventories:
                               SPEAR, &
                               SHORT_AXE, &
                               HAND_AXE, &
-                              WOODEN_ROD, &
+                              WOODEN_ARROW, &
                               SHORT_ROD, &
                               SHORT_KNIFE, &
 							  HELMET
@@ -42,12 +43,11 @@ tbl_ShopInventories:
                               BRONZE_LANCE, &
                               SPEAR, &
                               SHORT_AXE, &
-                              HAND_AXE, &
-                              WOODEN_ROD, &
+                              HAND_AXE, &                              
                               SHORT_ROD, &
                               SHORT_KNIFE, &
                               DAGGER, &
-                              WOODEN_ARROW, &
+                              IRON_ARROW, &
 							  HELMET
                 
                 ; Weapon shop 4
@@ -61,7 +61,7 @@ tbl_ShopInventories:
                               BRONZE_ROD, &
                               SHORT_KNIFE, &
                               DAGGER, &
-                              WOODEN_ARROW, &
+                              IRON_ARROW, &
 							  HELMET
                 
                 ; Weapon shop 5
@@ -74,8 +74,7 @@ tbl_ShopInventories:
                               SHORT_ROD, &
                               BRONZE_ROD, &
                               DAGGER, &
-                              KNIFE, &
-                              WOODEN_ARROW, &
+                              KNIFE, &                              
                               IRON_ARROW, &
 							  HELMET
                 

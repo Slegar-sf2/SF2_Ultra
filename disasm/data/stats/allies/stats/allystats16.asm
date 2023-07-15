@@ -4,7 +4,7 @@
 AllyStats16:    forClass  WARR
                 hpGrowth  12, 32, LINEAR
                 mpGrowth  0, 0, NONE
-                attGrowth 8, 42, LINEAR
+                attGrowth 8, 49, LINEAR
                 defGrowth 7, 44, LINEAR
                 agiGrowth 4, 30, LINEAR
                 spellList 
@@ -12,7 +12,7 @@ AllyStats16:    forClass  WARR
                 forClass  GLDT
                 hpGrowth  32, 83, LINEAR
                 mpGrowth  0, 0, NONE
-                attGrowth 42, 57, LINEAR
+                attGrowth 49, 79, LINEAR
                 defGrowth 44, 108, LINEAR
                 agiGrowth 30, 48, EARLY
                 spellList 

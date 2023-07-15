@@ -4,16 +4,16 @@
 AllyStats15:    forClass  RNGR
                 hpGrowth  9, 54, LINEAR
                 mpGrowth  0, 0, NONE
-                attGrowth 8, 38, LINEAR
-                defGrowth 4, 28, LINEAR
+                attGrowth 8, 52, LINEAR
+                defGrowth 4, 33, LINEAR
                 agiGrowth 5, 29, LINEAR
                 spellList 
                     
                 forClass  BWNT
                 hpGrowth  54, 94, LINEAR
                 mpGrowth  0, 0, NONE
-                attGrowth 38, 53, LINEAR
-                defGrowth 28, 74, LINEAR
+                attGrowth 52, 88, LINEAR
+                defGrowth 33, 84, LINEAR
                 agiGrowth 29, 67, LINEAR
                 spellList 
                 

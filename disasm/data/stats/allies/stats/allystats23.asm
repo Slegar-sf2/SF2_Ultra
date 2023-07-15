@@ -4,8 +4,8 @@
 AllyStats23:    forClass  PGNT
                 hpGrowth  38, 92, LINEAR
                 mpGrowth  0, 0, NONE
-                attGrowth 44, 58, EARLY
-                defGrowth 43, 76, EARLY
-                agiGrowth 36, 70, LINEAR
+                attGrowth 46, 78, EARLY
+                defGrowth 43, 86, EARLY
+                agiGrowth 36, 76, LINEAR
                 spellList 
                 

@@ -29,7 +29,10 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
 				moveq   #ALLY_RUCE,d0
                 bsr.w   j_JoinForce
-				
+				moveq   #ALLY_LUKE,d0
+                bsr.w   j_JoinForce
+				moveq   #ALLY_GERHALT,d0
+                bsr.w   j_JoinForce
 				
                 moveq   #0,d0
                 move.w  #$63,d1 

@@ -836,7 +836,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK
                 range      1, 3
                 radius     0
-                power      13
+                power      16
                 
                 entry      AQUA|LV2     ; AQUA 2
                 mpCost     0
@@ -844,7 +844,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK
                 range      1, 1
                 radius     0
-                power      15
+                power      20
                 
                 entry      NATASHA         ; KIWI 1
                 mpCost     0

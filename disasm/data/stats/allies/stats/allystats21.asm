@@ -4,8 +4,8 @@
 AllyStats21:    forClass  SORC
                 hpGrowth  55, 95, LINEAR
                 mpGrowth  35, 85, LINEAR
-                attGrowth 20, 35, EARLYANDLATE
-                defGrowth 25, 45, EARLY
+                attGrowth 35, 55, EARLYANDLATE
+                defGrowth 30, 60, EARLY
                 agiGrowth 45, 65, LINEAR
                 spellList &
                     25, NEPTUN, &

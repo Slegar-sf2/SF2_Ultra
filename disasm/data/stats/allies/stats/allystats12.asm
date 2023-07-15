@@ -4,7 +4,7 @@
 AllyStats12:    forClass  SWOR
                 hpGrowth  9, 46, LINEAR
                 mpGrowth  8, 16, EARLY
-                attGrowth 6, 40, LINEAR
+                attGrowth 6, 47, LINEAR
                 defGrowth 6, 42, LINEAR
                 agiGrowth 4, 34, EARLY
                 spellList &                    
@@ -16,7 +16,7 @@ AllyStats12:    forClass  SWOR
                 forClass  STAR
                 hpGrowth  46, 106, LINEAR
                 mpGrowth  16, 36, EARLY
-                attGrowth 40, 57, LINEAR
+                attGrowth 47, 85, LINEAR
                 defGrowth 42, 93, LINEAR
                 agiGrowth 34, 62, EARLYANDLATE
                 useFirstSpellList
