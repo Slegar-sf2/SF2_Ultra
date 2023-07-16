@@ -110,7 +110,7 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 20: SKREECH
-                allyBattleSprAndPlt BDBT, BDBT, 1
+                allyBattleSprAndPlt BDBT, 46, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 

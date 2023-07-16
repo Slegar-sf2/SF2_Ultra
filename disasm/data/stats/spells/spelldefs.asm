@@ -158,7 +158,7 @@ tbl_SpellDefs:
                 radius     2
                 power      15
                 
-                entry      ATTACK       ; ATTACK 1
+                entry      ATTACK           ; ATTACK 1
                 mpCost     7
                 animation  BUFF1
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
@@ -180,9 +180,9 @@ tbl_SpellDefs:
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      1, 3
                 radius     1
-                power      7
+                power      12
                 
-                entry      DISPEL       ; DISPEL 1
+                entry      DISPEL           ; DISPEL 1
                 mpCost     5
                 animation  DEBUFF1
                 properties TYPE_SUPPORT|AFFECTEDBYSILENCE
@@ -399,28 +399,28 @@ tbl_SpellDefs:
                 power      10
                 
                 entry      HEALIN       ; HEALIN 1
-                mpCost     0
+                mpCost     5
                 animation  HEALING_FAIRY
                 properties TYPE_HEAL|TARGET_TEAMMATES
                 range      0, 1
                 radius     0
-                power      10
+                power      15
                 
                 entry      HEALIN|LV2   ; HEALIN 2
-                mpCost     0
+                mpCost     10
                 animation  HEALING_FAIRY|VARIATION2
                 properties TYPE_HEAL|TARGET_TEAMMATES
                 range      0, 1
                 radius     0
-                power      20
+                power      30
                 
                 entry      HEALIN|LV3   ; HEALIN 3
-                mpCost     0
+                mpCost     15
                 animation  HEALING_FAIRY|VARIATION3
                 properties TYPE_HEAL|TARGET_TEAMMATES
                 range      0, 1
                 radius     0
-                power      30
+                power      50
                 
                 entry      FLAME        ; FLAME 1
                 mpCost     0

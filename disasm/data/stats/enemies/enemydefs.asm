@@ -488,9 +488,9 @@ tbl_EnemyDefs:
                 spellPower ENHANCED
                 level    31
                 maxHp    48
-                maxMp    17
+                maxMp    0
                 baseAtt  50
-                baseDef  68
+                baseDef  66
                 baseAgi  34
                 baseMov  4
                 baseResistance NONE
@@ -501,7 +501,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    ATTACK, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -515,11 +515,11 @@ tbl_EnemyDefs:
                 maxHp    60
                 maxMp    0
                 baseAtt  54
-                baseDef  45
+                baseDef  64
                 baseAgi  38
                 baseMov  6
                 baseResistance ICE_WEAKNESS|FIRE_MINOR
-                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN32|COUNTER_1IN16
+                baseProwess    CRITICAL125_1IN4|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     LARGE_AXE|EQUIPPED, &
                     NOTHING, &
@@ -1161,7 +1161,7 @@ tbl_EnemyDefs:
                     
                 unknownByte 45          ; 45: DRAGON
                 spellPower ENHANCED
-                level    27
+                level    30
                 maxHp    59
                 maxMp    21
                 baseAtt  73
@@ -1836,11 +1836,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 72          ; 72: WIZARD
                 spellPower ENHANCED
-                level    30
-                maxHp    75
-                maxMp    37
-                baseAtt  32
-                baseDef  40
+                level    31
+                maxHp    77
+                maxMp    60
+                baseAtt  34
+                baseDef  56
                 baseAgi  44
                 baseMov  6
                 baseResistance ICE_MINOR|FIRE_MAJOR
@@ -2064,14 +2064,14 @@ tbl_EnemyDefs:
                 level    28
                 maxHp    64
                 maxMp    60
-                baseAtt  27
+                baseAtt  35
                 baseDef  53
                 baseAgi  34
                 baseMov  5
                 baseResistance NONE
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
-                    HOLY_STAFF|EQUIPPED, &
+                    INDRA_STAFF|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

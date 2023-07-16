@@ -9,29 +9,29 @@ DebugModeBattleTest:
                 
                 move.b  #$FF,((DEBUG_MODE_ACTIVATED-$1000000)).w
                 move.b  #$FF,((SPECIAL_TURBO_CHEAT-$1000000)).w
-                moveq   #ALLY_SARAH,d0
+                moveq   #ALLY_FRAYJA,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_CHESTER,d0
+                moveq   #ALLY_JARO,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_JAHA,d0
+                moveq   #ALLY_GYAN,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_SHADE,d0
+                moveq   #ALLY_DAWN,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_PETER,d0
+                moveq   #ALLY_SHEELA,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_NATASHA,d0
+                moveq   #ALLY_ZYNK,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_KAZIN,d0
+                moveq   #ALLY_TAYA,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_MAY,d0
+                moveq   #ALLY_SKREECH,d0
                 bsr.w   j_JoinForce
-				moveq   #ALLY_SLADE,d0
+				moveq   #ALLY_ROHDE,d0
                 bsr.w   j_JoinForce
-				moveq   #ALLY_RUCE,d0
+				moveq   #ALLY_CRAY,d0
+                bsr.w   j_JoinForce
+				moveq   #ALLY_CHESTER,d0
                 bsr.w   j_JoinForce
 				moveq   #ALLY_LUKE,d0
-                bsr.w   j_JoinForce
-				moveq   #ALLY_GERHALT,d0
                 bsr.w   j_JoinForce
 				
                 moveq   #0,d0

@@ -8,17 +8,9 @@ AllyStats27:    forClass  MONK
                 defGrowth 40, 84, MIDDLE
                 agiGrowth 27, 58, LINEAR
                 spellList &
-                    1, BLAZE, &
-                    6, FREEZE, &
-                    11, BLAZE|LV2, &
-                    17, FREEZE|LV2, &
-                    25, FREEZE|LV3, &
-                    40, BOLT, &
-                    41, DISPEL, &
-                    44, BOLT|LV2, &
-                    46, FREEZE|LV4, &
-                    49, BOLT|LV3, &
-                    53, BOLT|LV4, &
-                    56, BLAZE|LV3, &
-                    60, BLAZE|LV4
+                    1, ATOM, &
+                    20, ATOM|LV2, &                    
+                    38, ATOM|LV3, &
+                    49, ATOM|LV4, &
+					2, HEALIN|LV2
                 

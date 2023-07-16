@@ -16,7 +16,7 @@ AllyStats10:    forClass  BDMN
                 forClass  BDBT
                 hpGrowth  48, 110, LATE
                 mpGrowth  6, 26, EARLY
-                attGrowth 44, 69, LINEAR
+                attGrowth 44, 73, LINEAR
                 defGrowth 28, 80, LINEAR
                 agiGrowth 41, 67, LINEAR
                 useFirstSpellList

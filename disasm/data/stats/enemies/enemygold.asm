@@ -109,7 +109,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 360                ; WOLF
                 dc.w 700                ; GEPPEL
                 dc.w 134                ; GORDON
-                dc.w 900                ; BAZOO
+                dc.w 425                ; BAZOO
                 dc.w 1747               ; FRABELL
                 dc.w 2057               ; DAVA
                 dc.w 2571               ; DOLL
