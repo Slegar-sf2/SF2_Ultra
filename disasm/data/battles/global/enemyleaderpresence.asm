@@ -26,12 +26,12 @@ tbl_EnemyLeaderPresence:
                 dc.b 255                ; 18: Versus Taros
                 dc.b 255                ; 19: Outside Elven Village
                 dc.b 0                  ; 20: Harpies' Pond
-                dc.b 255                ; 21: Devil's Tail
+                dc.b 0                  ; 21: Devil's Tail
                 dc.b 255                ; 22: Chessboard
                 dc.b 255                ; 23: Versus Willard
                 dc.b 0                  ; 24: To North Parmecia
                 dc.b 0                  ; 25: North Cave
-                dc.b 255                ; 26: Outside Ketto
+                dc.b 0                  ; 26: Outside Ketto
                 dc.b 255                ; 27: To Tristan
                 dc.b 255                ; 28: Pangoat Valley bridge
                 dc.b 255                ; 29: Outside Mitula's Shrine
@@ -53,7 +53,7 @@ tbl_EnemyLeaderPresence:
 				dc.b 0                  ; 45: Yeel village
                 dc.b 0                  ; 46:
 				dc.b 0                  ; 47: 
-				dc.b 0                  ; 48: 
+				dc.b 255                ; 48: цирк
 				dc.b 0                  ; 49:
 				dc.b 0                  ; 50:
                 

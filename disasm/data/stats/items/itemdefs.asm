@@ -708,7 +708,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 62: Broad Sword
-                equipFlags   HERO|BRN|BDBT|NINJ|RDBN|SWOR|STAR
+                equipFlags   HERO|BRN|BDMN|BDBT|NINJ|RDBN|SWOR|STAR
                 equipFlags2  NONE
                 range        1, 1
                 price        1900
@@ -719,7 +719,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 63: Buster Sword
-                equipFlags   HERO|BRN|BDBT|NINJ|RDBN|SWOR|STAR
+                equipFlags   HERO|BRN|BDMN|BDBT|NINJ|RDBN|SWOR|STAR
                 equipFlags2  NONE
                 range        1, 1
                 price        2600

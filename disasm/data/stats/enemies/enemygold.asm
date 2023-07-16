@@ -17,7 +17,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 250                ; PAWN
                 dc.w 340                ; KNIGHT
                 dc.w 300                ; RAT
-                dc.w 340                ; CHIMERA
+                dc.w 390                ; CHIMERA
                 dc.w 360                ; SKELETON
                 dc.w 410                ; MINOTAURO
                 dc.w 430                ; LIZARDMAN
@@ -106,7 +106,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 860                ; MUTSUKI
                 dc.w 110                ; ARTILERY
                 dc.w 305                ; GHOUL
-                dc.w 106                ; WOLF
+                dc.w 360                ; WOLF
                 dc.w 700                ; GEPPEL
                 dc.w 134                ; GORDON
                 dc.w 900                ; BAZOO

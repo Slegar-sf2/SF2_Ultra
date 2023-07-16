@@ -4,7 +4,7 @@
 AllyStats07:    forClass  PHNK
                 hpGrowth  12, 48, LINEAR
                 mpGrowth  0, 0, NONE
-                attGrowth 10, 70, LINEAR
+                attGrowth 10, 75, LINEAR
                 defGrowth 8, 43, LINEAR
                 agiGrowth 4, 35, LINEAR
                 spellList 
@@ -12,7 +12,7 @@ AllyStats07:    forClass  PHNK
                 forClass  PHNX
                 hpGrowth  48, 115, LINEAR
                 mpGrowth  4, 0, NONE
-                attGrowth 70, 130, LATE
+                attGrowth 75, 130, LATE
                 defGrowth 43, 95, LINEAR
                 agiGrowth 35, 60, LINEAR
                 spellList & 

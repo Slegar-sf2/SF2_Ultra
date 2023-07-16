@@ -424,19 +424,19 @@ tbl_SpellDefs:
                 
                 entry      FLAME        ; FLAME 1
                 mpCost     0
-                animation  FLAME_BREATH
-                properties TYPE_ATTACK
-                range      1, 1
-                radius     0
-                power      16
-                
-                entry      FLAME|LV2    ; FLAME 2
-                mpCost     0
-                animation  FLAME_BREATH|VARIATION2
+                animation  BLAZE|VARIATION4
                 properties TYPE_ATTACK
                 range      1, 1
                 radius     0
                 power      24
+                
+                entry      FLAME|LV2    ; FLAME 2
+                mpCost     0
+                animation  FLAME_BREATH
+                properties TYPE_ATTACK
+                range      1, 1
+                radius     0
+                power      29
                 
                 entry      FLAME|LV3    ; FLAME 3
                 mpCost     0
