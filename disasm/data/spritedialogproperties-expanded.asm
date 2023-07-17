@@ -69,11 +69,11 @@ SpriteDialogProperties:
 
                 mapSprite   16
                 portrait    55
-                speechSound 69
+                speechSound 71
 
                 mapSprite   17
                 portrait    55
-                speechSound 75
+                speechSound 71
 
                 mapSprite   18
                 portrait    7

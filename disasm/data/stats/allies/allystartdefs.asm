@@ -1,10 +1,10 @@
 
 ; ASM FILE data\stats\allies\allystartdefs.asm :
-; 0x1EE7D0..0x1EE850 : Ally start definitions
+; 0x1EE7D0..0x1EE8100 : Ally start definitions
 tbl_AllyStartDefs:
                 
 ; Syntax        startClass [CLASS_]enum
-;               startLevel 1-255
+;               startLevel 1-21010
 ;               startItems &
 ;                   [ITEM_]enum[|EQUIPPED], &
 ;                   [ITEM_]enum[|EQUIPPED], &
@@ -14,7 +14,7 @@ tbl_AllyStartDefs:
 ; Note: Constant names ("enums"), shorthands (defined by macro), and numerical indexes are interchangeable.
                 
                 startClass SDMN         ; 0: BOWIE
-                startLevel 5
+                startLevel 10
                 startItems &
                     ACHILLES_SWORD|EQUIPPED, &
                     MANA, &
@@ -22,7 +22,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass PRST         ; 1: SARAH
-                startLevel 5
+                startLevel 10
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
                     MEDICAL_HERB, &
@@ -30,7 +30,7 @@ tbl_AllyStartDefs:
                     HELMET
                 
                 startClass KNTE         ; 2: CHESTER
-                startLevel 5
+                startLevel 10
                 startItems &
                     BRONZE_LANCE, &
                     SPEAR|EQUIPPED, &
@@ -38,7 +38,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass WARR         ; 3: JAHA
-                startLevel 5
+                startLevel 10
                 startItems &
                     HAND_AXE|EQUIPPED, &
                     MEDICAL_HERB, &
@@ -46,15 +46,15 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass MAGE         ; 4: KAZIN
-                startLevel 5
+                startLevel 10
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
                     SHORT_ROD, &
                     NOTHING, &
                     NOTHING
                 
-                startClass THIF         ; 5: SLADE
-                startLevel 5
+                startClass THIF         ; 10: SLADE
+                startLevel 10
                 startItems &
                     SHORT_KNIFE|EQUIPPED, &
                     HELMET, &
@@ -62,7 +62,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass MAGE         ; 6: NATASHA
-                startLevel 5
+                startLevel 10
                 startItems &
                     SHORT_ROD|EQUIPPED, &
                     NOTHING, &
@@ -70,7 +70,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass PHNK         ; 7: PETER
-                startLevel 5
+                startLevel 10
                 startItems &
                     HELMET, &
                     NOTHING, &
@@ -78,31 +78,31 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass RNGR         ; 8: MAY
-                startLevel 5
+                startLevel 10
                 startItems &
                     WOODEN_ARROW|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass WFMN         ; 5: GERHALT
-                startLevel 5
+                startClass WFMN         ; 10: GERHALT
+                startLevel 10
                 startItems &
                     NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass BDMN         ; 5: LUKE
-                startLevel 5
+                startClass BDMN         ; 10: LUKE
+                startLevel 10
                 startItems &
                     LONG_SWORD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass BRGN         ; 5: ROHDE
-                startLevel 5
+                startClass BRGN         ; 10: ROHDE
+                startLevel 10
                 startItems &
                     ASSAULT_SHELL|EQUIPPED, &
                     NOTHING, &
@@ -110,7 +110,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass SWOR         ; 12: DEANNA
-                startLevel 5
+                startLevel 10
                 startItems &
                     MIDDLE_SWORD|EQUIPPED, &
                     NOTHING, &
@@ -118,23 +118,23 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass ACHR         ; 13: ELRIC
-                startLevel 5
+                startLevel 10
                 startItems &
                     STEEL_ARROW|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass KNTE2         ; 5: APIS
-                startLevel 5
+                startClass KNTE2         ; 10: APIS
+                startLevel 10
                 startItems &
                     SPEAR|EQUIPPED, &
                     JAVELIN, &
                     NOTHING, &
                     NOTHING
                 
-                startClass RNGR       ; 15: GRAHAM
-                startLevel 5
+                startClass RNGR       ; 110: GRAHAM
+                startLevel 10
                 startItems &
                     STEEL_ARROW|EQUIPPED, &
                     NOTHING, &
@@ -142,7 +142,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass GLDT         ; 16: RUCE
-                startLevel 5
+                startLevel 10
                 startItems &
                     POWER_AXE|EQUIPPED, &
                     NOTHING, &
@@ -150,7 +150,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass MAGE         ; 17: TYRIN
-                startLevel 5
+                startLevel 10
                 startItems &
                     POWER_STICK|EQUIPPED, &
                     NOTHING, &
@@ -158,39 +158,39 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass ACHR         ; 18: JANET
-                startLevel 5
+                startLevel 10
                 startItems &
                     STEEL_ARROW|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass PLDN2         ; 15: DAWN
-                startLevel 5
+                startClass PLDN2         ; 110: DAWN
+                startLevel 10
                 startItems &
                     JAVELIN|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass BDBT         ; 5: SKREECH
-                startLevel 5
+                startClass BDBT         ; 10: SKREECH
+                startLevel 10
                 startItems &
                     GREAT_SWORD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass SORC         ; 5: TAYA
-                startLevel 5
+                startClass SORC         ; 10: TAYA
+                startLevel 10
                 startItems &
                     INDRA_STAFF|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass VICR         ; 5: FRAYJA
-                startLevel 5
+                startClass VICR         ; 10: FRAYJA
+                startLevel 10
                 startItems &
                     INDRA_STAFF|EQUIPPED, &
                     NOTHING, &
@@ -198,23 +198,23 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass PGNT         ; 23: JARO
-                startLevel 5
+                startLevel 10
                 startItems &
                     CHROME_LANCE|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass BRSK         ; 5: GYAN
-                startLevel 5
+                startClass BRSK         ; 10: GYAN
+                startLevel 10
                 startItems &
                     NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass MMNK         ; 25: SHEELA
-                startLevel 5
+                startClass MMNK         ; 210: SHEELA
+                startLevel 10
                 startItems &
                     BRASS_KNUCKLES|EQUIPPED, &
                     NOTHING, &
@@ -222,7 +222,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass RBT          ; 26: ZYNK
-                startLevel 5
+                startLevel 10
                 startItems &
                     NOTHING, &
                     NOTHING, &
@@ -230,7 +230,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass MONK          ; 27: CRAY
-                startLevel 5
+                startLevel 10
                 startItems &
                     NOTHING, &
                     NOTHING, &
@@ -238,23 +238,23 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass RDBN         ; 28: LEMON
-                startLevel 5
+                startLevel 10
                 startItems &
                     BATTLE_SWORD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass GLM          ; 5: CLAUDE
-                startLevel 5
+                startClass GLM          ; 10: CLAUDE
+                startLevel 10
                 startItems &
                     NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass ACHR        ; 5 SHADE
-                startLevel 5
+                startClass ACHR        ; 10 SHADE
+                startLevel 10
                 startItems &
                     IRON_ARROW|EQUIPPED, &
                     NOTHING, &
@@ -262,7 +262,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass RDBN
-                startLevel 5
+                startLevel 10
                 startItems &
                     NOTHING, &
                     NOTHING, &

@@ -45,9 +45,9 @@ bbcs_21:        textCursor 2576
 ce_4B84C:       mainEntity 27,23,LEFT
                 entity 28,24,LEFT,ALLY_PETER,eas_Init
                 entity 8,22,LEFT,MAPSPRITE_SKELETON,eas_Init
-                entity 9,21,LEFT,MAPSPRITE_DARK_CLERIC,eas_Init
+                entity 9,21,LEFT,MAPSPRITE_HIGH_PRIEST,eas_Init
                 entity 9,23,LEFT,MAPSPRITE_DARK_MADAM,eas_Init
-                entity 63,63,RIGHT,MAPSPRITE_ARROW_LAUNCHER,eas_Init
+                entity 63,63,RIGHT,MAPSPRITE_WOLF,eas_Init
                 entity 63,63,RIGHT,MAPSPRITE_HARPY,eas_Init
                 entity 63,63,RIGHT,MAPSPRITE_ORC,eas_Init
                 dc.w $FFFF

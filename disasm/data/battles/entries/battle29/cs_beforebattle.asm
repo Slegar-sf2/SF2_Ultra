@@ -105,7 +105,7 @@ bbcs_29:        textCursor 2718
                 csWait 8
                 setFacing 128,DOWN
                 csWait 8
-                setSprite 128,MAPSPRITE_DARK_KNIGHT
+                setSprite 128,MAPSPRITE_FRABELL
                 startEntity 128
                 setPos 129,14,12,DOWN
                 csWait 30
@@ -122,8 +122,9 @@ bbcs_29:        textCursor 2718
 ce_4C5AE:       mainEntity 15,33,UP
                 entity 16,34,UP,ALLY_PETER,eas_Init
                 entity 15,30,DOWN,MAPSPRITE_PRIEST,eas_Init
-                entity 63,63,DOWN,MAPSPRITE_DEATH_MONK,eas_Init
+                entity 63,63,DOWN,MAPSPRITE_DARK_KNIGHT,eas_Init
                 entity 63,63,DOWN,MAPSPRITE_LIZARD,eas_Init
                 entity 63,63,DOWN,MAPSPRITE_WIZARD,eas_Init
                 entity 63,63,DOWN,MAPSPRITE_WORM,eas_Init
+				entity 63,63,DOWN,MAPSPRITE_FRABELL,eas_Init
                 dc.w $FFFF

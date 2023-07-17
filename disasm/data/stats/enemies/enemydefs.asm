@@ -561,15 +561,15 @@ tbl_EnemyDefs:
                     
                 unknownByte 21          ; 21: DARK KNIGHT
                 spellPower ENHANCED
-                level    27
-                maxHp    50
+                level    35
+                maxHp    76
                 maxMp    0
-                baseAtt  36
-                baseDef  48
-                baseAgi  40
+                baseAtt  54
+                baseDef  63
+                baseAgi  44
                 baseMov  7
                 baseResistance NONE
-                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN32|COUNTER_1IN16
+                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     CHROME_LANCE|EQUIPPED, &
                     NOTHING, &
@@ -586,12 +586,12 @@ tbl_EnemyDefs:
                     
                 unknownByte 22          ; 22: LIZARD
                 spellPower ENHANCED
-                level    27
-                maxHp    46
-                maxMp    13
-                baseAtt  40
-                baseDef  44
-                baseAgi  37
+                level    36
+                maxHp    79
+                maxMp    48
+                baseAtt  62
+                baseDef  72
+                baseAgi  43
                 baseMov  5
                 baseResistance ICE_WEAKNESS|FIRE_MINOR
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
@@ -601,7 +601,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    DISPEL, &
+                    KATON|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2090,7 +2090,7 @@ tbl_EnemyDefs:
                 maxHp    70
                 maxMp    39
                 baseAtt  53
-                baseDef  61
+                baseDef  57
                 baseAgi  31
                 baseMov  6
                 baseResistance NONE
@@ -2761,12 +2761,12 @@ tbl_EnemyDefs:
 				
 				unknownByte 0           ; 109: FRABELL
                 spellPower ENHANCED
-                level    40
-                maxHp    90
-                maxMp    25
-                baseAtt  58
-                baseDef  41
-                baseAgi  190
+                level    37
+                maxHp    135
+                maxMp    70
+                baseAtt  70
+                baseDef  75
+                baseAgi  160
                 baseMov  6
                 baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_SILENCE|DOUBLE_1IN8|COUNTER_1IN4
@@ -2776,7 +2776,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    DISPEL|LV2, &
+                    DISPEL|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
