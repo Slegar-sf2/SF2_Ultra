@@ -90,7 +90,7 @@ tbl_EnemyItemDrops:
                 
                 battle      TO_ANCIENT_SHRINE
                 enemyEntity 8
-                item        HOLY_THUNDER
+                item        BRAVE_APPLE
                 droppedFlag 16
                 
                 battle      VERSUS_ODD_EYE

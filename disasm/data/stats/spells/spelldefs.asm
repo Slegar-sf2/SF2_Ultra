@@ -436,7 +436,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK
                 range      1, 1
                 radius     0
-                power      29
+                power      30
                 
                 entry      FLAME|LV3    ; FLAME 3
                 mpCost     0

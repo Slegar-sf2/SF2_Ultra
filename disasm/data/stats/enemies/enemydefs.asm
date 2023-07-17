@@ -536,11 +536,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 20          ; 20: WORM
                 spellPower ENHANCED
-                level    30
+                level    33
                 maxHp    55
                 maxMp    0
-                baseAtt  70
-                baseDef  50
+                baseAtt  80
+                baseDef  70
                 baseAgi  34
                 baseMov  5
                 baseResistance NONE
@@ -1189,8 +1189,8 @@ tbl_EnemyDefs:
                 level    33
                 maxHp    56
                 maxMp    0
-                baseAtt  67
-                baseDef  43
+                baseAtt  74
+                baseDef  59
                 baseAgi  36
                 baseMov  7
                 baseResistance ICE_WEAKNESS|FIRE_MAJOR
@@ -1964,14 +1964,14 @@ tbl_EnemyDefs:
                 level    9
                 maxHp    45
                 maxMp    30
-                baseAtt  10
+                baseAtt  8
                 baseDef  20
                 baseAgi  30
                 baseMov  6
                 baseResistance NONE
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN8
                 items &
-                    IRON_ROD|EQUIPPED, &
+                    MUDDLE_GLOVE|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2089,20 +2089,20 @@ tbl_EnemyDefs:
                 level    36
                 maxHp    70
                 maxMp    39
-                baseAtt  22
-                baseDef  45
+                baseAtt  53
+                baseDef  61
                 baseAgi  31
                 baseMov  6
                 baseResistance NONE
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN16
                 items &
-                    BRASS_KNUCKLES|EQUIPPED, &
+                    MUDDLE_GLOVE|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    HEAL|LV4, &
-                    DISPEL, &
+                    HEALIN|LV3, &
+                    SLOW|LV2, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE

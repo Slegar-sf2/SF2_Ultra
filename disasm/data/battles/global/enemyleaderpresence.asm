@@ -32,8 +32,8 @@ tbl_EnemyLeaderPresence:
                 dc.b 0                  ; 24: To North Parmecia
                 dc.b 0                  ; 25: North Cave
                 dc.b 0                  ; 26: Outside Ketto
-                dc.b 255                ; 27: To Tristan
-                dc.b 255                ; 28: Pangoat Valley bridge
+                dc.b 0                  ; 27: To Tristan
+                dc.b 0                  ; 28: Pangoat Valley bridge
                 dc.b 255                ; 29: Outside Mitula's Shrine
                 dc.b 255                ; 30: Versus Zalbard
                 dc.b 0                  ; 31: Pacalon

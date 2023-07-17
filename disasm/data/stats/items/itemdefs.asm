@@ -223,14 +223,14 @@ tbl_ItemDefs:
                              NONE, 0, &
                              NONE, 0
                 
-                ; 18: Holy Thunder
+                ; 18: MUDDLE GLOVE
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        0, 1
-                price        1500
-                itemType     RARE|CONSUMABLE
-                useSpell     THUNDR
-                equipEffects NONE, 0, &
+                range        1, 1
+                price        500
+                itemType     WEAPON|RARE|BREAKABLE
+                useSpell     MUDDLE|LV2
+                equipEffects INCREASE_ATT, 10, &
                              NONE, 0, &
                              NONE, 0
                 
@@ -999,7 +999,7 @@ tbl_ItemDefs:
                 range        1, 1
                 price        560
                 itemType     WEAPON|BREAKABLE
-                useSpell     MUDDLE|LV2 
+                useSpell     THUNDR 
                 equipEffects INCREASE_ATT, 12, &
                              NONE, 0, &
                              NONE, 0
