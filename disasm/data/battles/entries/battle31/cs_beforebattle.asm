@@ -115,11 +115,11 @@ bbcs_31:        textCursor 2811
 ce_4CB92:       mainEntity 21,4,DOWN
                 entity 20,3,DOWN,ALLY_PETER,eas_Init
                 entity 21,3,DOWN,ALLY_FRAYJA,eas_Init
-                entity 21,8,UP,MAPSPRITE_GESHP,eas_Init
+                entity 21,8,UP,MAPSPRITE_DAVA,eas_Init
                 entity 21,11,UP,MAPSPRITE_CAMEELA,eas_Init
                 entity 63,63,LEFT,MAPSPRITE_FLAME1,eas_Init
-                entity 63,63,UP,MAPSPRITE_DEATH_MONK,eas_Init
-                entity 63,63,UP,MAPSPRITE_DARK_BISHOP,eas_Init
+                entity 63,63,UP,MAPSPRITE_DARK_KNIGHT,eas_Init
+                entity 63,63,UP,MAPSPRITE_MASTER_MONK,eas_Init
                 entity 63,63,UP,MAPSPRITE_LIZARD,eas_Init
                 entity 63,63,UP,MAPSPRITE_HAWKMAN,eas_Init
                 dc.w $FFFF

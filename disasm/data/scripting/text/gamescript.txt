@@ -2810,7 +2810,7 @@
 0AF9=We have to go to Arc Valley{N}on Grans Island.{W2}
 0AFA={LEADER}, find the{N}storytellers first.{W1}
 0AFB=Finally, you've left the{N}castle, Vicar {NAME;22}.{W1}
-0AFC=Geshp!{W1}
+0AFC=Dava!{W1}
 0AFD=So, you remember me. {W1}
 0AFE=What do you want?{W1}
 0AFF=I have plans for you.{W2}
@@ -2827,7 +2827,7 @@
 0B0A=What?{W1}
 0B0B=Ah, Cameela.  You're here.{W2}
 0B0C=Get the key for me!{W1}
-0B0D=Geshp, you're as devious as{N}usual.{W1}
+0B0D=Dava, you're as devious as{N}usual.{W1}
 0B0E=That I am.  Now, get the key!{W1}
 0B0F=Me?!  Why?{W1}
 0B10=Cameela!{W1}

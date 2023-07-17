@@ -611,12 +611,12 @@ tbl_EnemyDefs:
                     
                 unknownByte 23          ; 23: SKELET
                 spellPower ENHANCED
-                level    37
-                maxHp    64
-                maxMp    16
-                baseAtt  60
-                baseDef  55
-                baseAgi  46
+                level    40
+                maxHp    71
+                maxMp    0
+                baseAtt  76
+                baseDef  74
+                baseAgi  50
                 baseMov  6
                 baseResistance WIND_WEAKNESS|LIGHTNING_MAJOR|STATUS_MINOR
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN8
@@ -1211,15 +1211,15 @@ tbl_EnemyDefs:
                     
                 unknownByte 47          ; 47: HAWKMAN
                 spellPower ENHANCED
-                level    35
-                maxHp    62
+                level    38
+                maxHp    80
                 maxMp    10
-                baseAtt  50
-                baseDef  43
-                baseAgi  43
+                baseAtt  59
+                baseDef  71
+                baseAgi  45
                 baseMov  7
-                baseResistance WIND_WEAKNESS|FIRE_WEAKNESS
-                baseProwess    CRITICAL_SILENCE|DOUBLE_1IN16|COUNTER_1IN8
+                baseResistance WIND_MAJOR|FIRE_WEAKNESS
+                baseProwess    CRITICAL_STUN|DOUBLE_1IN16|COUNTER_1IN8
                 items &
                     CHROME_LANCE|EQUIPPED, &
                     NOTHING, &
@@ -1861,11 +1861,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 73          ; 73: NECROMANCER
                 spellPower ENHANCED
-                level    36
-                maxHp    70
-                maxMp    42
-                baseAtt  45
-                baseDef  44
+                level    40
+                maxHp    79
+                maxMp    81
+                baseAtt  35
+                baseDef  62
                 baseAgi  51
                 baseMov  6
                 baseResistance LIGHTNING_MINOR|ICE_MAJOR|FIRE_MINOR|STATUS_IMMUNITY
@@ -2312,13 +2312,13 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 91: ZALBARD
                 spellPower ENHANCED
                 level    40
-                maxHp    80
-                maxMp    65
-                baseAtt  73
-                baseDef  50
+                maxHp    140
+                maxMp    72
+                baseAtt  96
+                baseDef  80
                 baseAgi  180
                 baseMov  5
-                baseResistance WIND_MINOR|LIGHTNING_MINOR|FIRE_MAJOR|STATUS_IMMUNITY
+                baseResistance WIND_MINOR|LIGHTNING_MAJOR|ICE_WEAKNESS|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN4
                 items &
                     NOTHING, &
@@ -2326,7 +2326,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    BOLT|LV2, &
+                    THUNDR|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
