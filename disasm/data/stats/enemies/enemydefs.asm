@@ -736,12 +736,12 @@ tbl_EnemyDefs:
                     
                 unknownByte 28          ; 28: EXECUTIONER
                 spellPower ENHANCED
-                level    39
-                maxHp    64
+                level    48
+                maxHp    92
                 maxMp    0
-                baseAtt  46
-                baseDef  46
-                baseAgi  45
+                baseAtt  88
+                baseDef  82
+                baseAgi  54
                 baseMov  6
                 baseResistance WIND_MINOR|LIGHTNING_MINOR|STATUS_MINOR
                 baseProwess    CRITICAL_SILENCE|DOUBLE_1IN16|COUNTER_1IN16
@@ -1886,22 +1886,22 @@ tbl_EnemyDefs:
                     
                 unknownByte 74          ; 74: CHAOS WIZARD
                 spellPower ENHANCED
-                level    36
-                maxHp    53
-                maxMp    49
-                baseAtt  47
-                baseDef  48
-                baseAgi  59
+                level    49
+                maxHp    100
+                maxMp    72
+                baseAtt  77
+                baseDef  74
+                baseAgi  68
                 baseMov  5
-                baseResistance NONE
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN16
+                baseResistance FIRE_MAJOR
+                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     GREAT_ROD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    BLAZE|LV4, &
+                    ATOM|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2361,14 +2361,14 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 93: PRISM FLOWER
                 spellPower ENHANCED
-                level    40
-                maxHp    62
+                level    48
+                maxHp    77
                 maxMp    0
-                baseAtt  50
-                baseDef  55
+                baseAtt  5
+                baseDef  85
                 baseAgi  84
                 baseMov  0
-                baseResistance ICE_MAJOR|FIRE_WEAKNESS|STATUS_IMMUNITY
+                baseResistance FIRE_WEAKNESS|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     NOTHING, &

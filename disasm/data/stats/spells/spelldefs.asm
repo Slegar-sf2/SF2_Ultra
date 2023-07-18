@@ -548,7 +548,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK
                 range      0, 0
                 radius     3
-                power      50
+                power      20
 				
 				entry      LASER|LV2      ; LASER 2
                 mpCost     0
@@ -556,7 +556,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK
                 range      0, 0
                 radius     3
-                power      60
+                power      40
 								                
                 entry      KATON        ; KATON 1
                 mpCost     6

@@ -1907,8 +1907,8 @@ BATTLEACTION_OFFSET_ITEM_SLOT: equ $6
 ; ---------------------------------------------------------------------------
 
 ; enum Battleaction_Properties
-BATTLEACTION_PRISM_LASER_POWER: equ $10
-BATTLEACTION_BURST_ROCK_POWER: equ $12
+BATTLEACTION_PRISM_LASER_POWER: equ $23
+BATTLEACTION_BURST_ROCK_POWER: equ $32
 
 ; ---------------------------------------------------------------------------
 

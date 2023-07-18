@@ -11,15 +11,15 @@ pt_LaserEnemyFacingForBattle:
                 
 tbl_LaserEnemyFacingForBattle_VersusPrismFlowers:
                 enemyFacing NONE
-                enemyFacing DOWN
                 enemyFacing RIGHT
+                enemyFacing LEFT
                 enemyFacing RIGHT
-                enemyFacing UP
+                enemyFacing LEFT
+                enemyFacing RIGHT
                 enemyFacing LEFT
                 enemyFacing UP
-                enemyFacing LEFT
                 enemyFacing UP
-                enemyFacing NONE
+                enemyFacing UP
                 enemyFacing NONE
                 enemyFacing NONE
                 enemyFacing NONE
