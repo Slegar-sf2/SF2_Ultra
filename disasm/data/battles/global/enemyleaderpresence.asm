@@ -38,9 +38,9 @@ tbl_EnemyLeaderPresence:
                 dc.b 255                ; 30: Versus Zalbard
                 dc.b 0                  ; 31: Pacalon
                 dc.b 255                ; 32: To Moun
-                dc.b 255                ; 33: Inside Moun
+                dc.b 0                  ; 33: Inside Moun
                 dc.b 255                ; 34: Versus Cameela
-                dc.b 255                ; 35: To Roft
+                dc.b 0                  ; 35: To Roft
                 dc.b 255                ; 36: Versus Prism Flowers
                 dc.b 255                ; 37: Versus Red Baron
                 dc.b 255                ; 38: Versus Geshp

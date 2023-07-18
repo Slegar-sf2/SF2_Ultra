@@ -54,7 +54,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 590                ; MIST DEMON
                 dc.w 720                ; WHITE DRAGON
                 dc.w 770                ; DEMON
-                dc.w 980                ; BEEDRILL
+                dc.w 500                ; BEEDRILL
                 dc.w 1120               ; DEVIL GRIFFIN
                 dc.w 200                ; TENTACRUEL
                 dc.w 80                 ; GALAM ARCHER
@@ -108,9 +108,9 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 305                ; GHOUL
                 dc.w 360                ; WOLF
                 dc.w 700                ; GEPPEL
-                dc.w 134                ; GORDON
+                dc.w 770                ; GORDON
                 dc.w 425                ; BAZOO
-                dc.w 1747               ; FRABELL
+                dc.w 600                ; FRABELL
                 dc.w 2057               ; DAVA
                 dc.w 2571               ; DOLL
                 dc.w 3148

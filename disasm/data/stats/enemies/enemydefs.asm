@@ -636,12 +636,12 @@ tbl_EnemyDefs:
                     
                 unknownByte 24          ; 24: CERBERUS
                 spellPower ENHANCED
-                level    37
-                maxHp    56
+                level    41
+                maxHp    73
                 maxMp    0
-                baseAtt  72
-                baseDef  54
-                baseAgi  45
+                baseAtt  95
+                baseDef  76
+                baseAgi  48
                 baseMov  6
                 baseResistance ICE_WEAKNESS|FIRE_MAJOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN16
@@ -661,15 +661,15 @@ tbl_EnemyDefs:
                     
                 unknownByte 25          ; 25: MUD MAN
                 spellPower ENHANCED
-                level    31
-                maxHp    55
+                level    43
+                maxHp    68
                 maxMp    0
-                baseAtt  76
-                baseDef  51
-                baseAgi  41
+                baseAtt  102
+                baseDef  86
+                baseAgi  40
                 baseMov  4
                 baseResistance WIND_MAJOR|LIGHTNING_MINOR|STATUS_IMMUNITY
-                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN16
+                baseProwess    CRITICAL_STUN|DOUBLE_1IN16|COUNTER_1IN8
                 items &
                     NOTHING, &
                     NOTHING, &
@@ -686,12 +686,12 @@ tbl_EnemyDefs:
                     
                 unknownByte 26          ; 26: KOMAINU
                 spellPower ENHANCED
-                level    38
-                maxHp    60
+                level    46
+                maxHp    75
                 maxMp    0
-                baseAtt  74
-                baseDef  42
-                baseAgi  46
+                baseAtt  108
+                baseDef  83
+                baseAgi  48
                 baseMov  6
                 baseResistance ICE_WEAKNESS|FIRE_MAJOR
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN16
@@ -711,11 +711,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 27          ; 27: GREEN WORM
                 spellPower ENHANCED
-                level    32
-                maxHp    58
+                level    45
+                maxHp    98
                 maxMp    0
-                baseAtt  78
-                baseDef  46
+                baseAtt  100
+                baseDef  90
                 baseAgi  43
                 baseMov  5
                 baseResistance NONE
@@ -1236,14 +1236,14 @@ tbl_EnemyDefs:
                     
                 unknownByte 48          ; 48: PEGASUS KNIGHT
                 spellPower ENHANCED
-                level    30
-                maxHp    65
+                level    44
+                maxHp    85
                 maxMp    0
-                baseAtt  40
-                baseDef  37
-                baseAgi  47
-                baseMov  7
-                baseResistance STATUS_MINOR
+                baseAtt  66
+                baseDef  77
+                baseAgi  55
+                baseMov  8
+                baseResistance WIND_MAJOR
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     CHROME_LANCE|EQUIPPED, &
@@ -1261,14 +1261,14 @@ tbl_EnemyDefs:
                     
                 unknownByte 49          ; 49: GRIFFIN
                 spellPower ENHANCED
-                level    32
-                maxHp    60
+                level    46
+                maxHp    95
                 maxMp    0
-                baseAtt  77
-                baseDef  45
-                baseAgi  48
+                baseAtt  105
+                baseDef  76
+                baseAgi  55
                 baseMov  7
-                baseResistance WIND_WEAKNESS|LIGHTNING_WEAKNESS|FIRE_WEAKNESS
+                baseResistance LIGHTNING_WEAKNESS|FIRE_MINOR
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -1286,22 +1286,22 @@ tbl_EnemyDefs:
                     
                 unknownByte 50          ; 50: MIST DEMON
                 spellPower ENHANCED
-                level    36
-                maxHp    68
-                maxMp    28
-                baseAtt  80
-                baseDef  41
-                baseAgi  51
-                baseMov  6
+                level    45
+                maxHp    85
+                maxMp    18
+                baseAtt  103
+                baseDef  82
+                baseAgi  54
+                baseMov  7
                 baseResistance WIND_WEAKNESS|ICE_MAJOR|STATUS_MINOR
-                baseProwess    CRITICAL_SILENCE|DOUBLE_1IN32|COUNTER_1IN16
+                baseProwess    CRITICAL_SLOW|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    MUDDLE|LV2, &
+                    SLOW|LV2, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1361,14 +1361,14 @@ tbl_EnemyDefs:
                     
                 unknownByte 53          ; 53: BEEDRILL
                 spellPower ENHANCED
-                level    41
-                maxHp    83
-                maxMp    28
-                baseAtt  90
-                baseDef  48
-                baseAgi  57
+                level    44
+                maxHp    88
+                maxMp    36
+                baseAtt  99
+                baseDef  77
+                baseAgi  58
                 baseMov  7
-                baseResistance WIND_WEAKNESS|FIRE_WEAKNESS
+                baseResistance FIRE_WEAKNESS
                 baseProwess    CRITICAL_POISON|DOUBLE_1IN8|COUNTER_1IN4
                 items &
                     NOTHING, &
@@ -1376,7 +1376,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    ATOM|LV3, &
+                    BLAST|LV4, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1611,12 +1611,12 @@ tbl_EnemyDefs:
                     
                 unknownByte 63          ; 63: ASSASSIN
                 spellPower ENHANCED
-                level    30
-                maxHp    46
+                level    42
+                maxHp    80
                 maxMp    0
-                baseAtt  50
-                baseDef  53
-                baseAgi  40
+                baseAtt  70
+                baseDef  80
+                baseAgi  44
                 baseMov  5
                 baseResistance NONE
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
@@ -1636,15 +1636,15 @@ tbl_EnemyDefs:
                     
                 unknownByte 64          ; 64: BOW RIDER
                 spellPower ENHANCED
-                level    33
-                maxHp    61
+                level    45
+                maxHp    90
                 maxMp    0
-                baseAtt  44
-                baseDef  55
-                baseAgi  44
+                baseAtt  64
+                baseDef  80
+                baseAgi  52
                 baseMov  7
                 baseResistance NONE
-                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN32
+                baseProwess    CRITICAL_SLOW|DOUBLE_1IN4|COUNTER_1IN32
                 items &
                     HYPER_CANNON|EQUIPPED, &
                     NOTHING, &
@@ -2111,11 +2111,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 83: SHAMAN
                 spellPower ENHANCED
-                level    32
-                maxHp    56
-                maxMp    46
-                baseAtt  45
-                baseDef  42
+                level    45
+                maxHp    90
+                maxMp    70
+                baseAtt  55
+                baseDef  68
                 baseAgi  40
                 baseMov  5
                 baseResistance NONE
@@ -2126,8 +2126,8 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    AURA|LV2, &
-                    BLAST|LV3, &
+                    AURA|LV3, &
+                    BOLT|LV3, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
@@ -2336,13 +2336,13 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 92: CAMEELA
                 spellPower ENHANCED
-                level    50
-                maxHp    99
+                level    48
+                maxHp    169
                 maxMp    0
-                baseAtt  42
-                baseDef  52
+                baseAtt  72
+                baseDef  85
                 baseAgi  186
-                baseMov  6
+                baseMov  5
                 baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN4|COUNTER_1IN4
                 items &
@@ -2711,22 +2711,22 @@ tbl_EnemyDefs:
 				
 				unknownByte 0           ; 107: G0RDON
                 spellPower REGULAR
-                level    37
-                maxHp    90
-                maxMp    0
-                baseAtt  56
-                baseDef  45
-                baseAgi  167
+                level    42
+                maxHp    150
+                maxMp    60
+                baseAtt  70
+                baseDef  82
+                baseAgi  169
                 baseMov  6
-                baseResistance NONE
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR
+                baseProwess    CRITICAL_SLEEP|DOUBLE_1IN16|COUNTER_1IN16
                 items &
-                    BATTLE_SWORD|EQUIPPED,&
+                    GREAT_ROD|EQUIPPED,&
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    NOTHING, &
+                    ATOM|LV2, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

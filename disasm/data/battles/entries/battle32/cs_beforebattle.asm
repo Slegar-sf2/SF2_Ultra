@@ -52,10 +52,10 @@ bbcs_32:        textCursor 2845
 ce_4CCC0:       mainEntity 15,44,UP
                 entity 16,45,UP,ALLY_PETER,eas_Init
                 entity 15,46,UP,ALLY_FRAYJA,eas_Init
-                entity 14,21,DOWN,MAPSPRITE_DEATH_ARCHER,eas_Init
+                entity 14,21,DOWN,MAPSPRITE_GORDON,eas_Init
                 entity 12,21,DOWN,MAPSPRITE_NECROMANCER,eas_Init
-                entity 13,20,DOWN,MAPSPRITE_DEATH_MONK,eas_Init
-                entity 16,22,DOWN,MAPSPRITE_PEGASUS_KNIGHT,eas_Init
+                entity 13,20,DOWN,MAPSPRITE_MASTER_MONK,eas_Init
+                entity 16,22,DOWN,MAPSPRITE_HAWKMAN,eas_Init
                 entity 14,24,DOWN,MAPSPRITE_SKELET,eas_Init
                 entity 16,24,DOWN,MAPSPRITE_CERBERUS,eas_Init
                 entity 18,23,DOWN,MAPSPRITE_NECROMANCER,eas_Init
