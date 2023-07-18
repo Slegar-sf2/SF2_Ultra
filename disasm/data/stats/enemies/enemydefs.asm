@@ -2364,7 +2364,7 @@ tbl_EnemyDefs:
                 level    40
                 maxHp    62
                 maxMp    0
-                baseAtt  16
+                baseAtt  50
                 baseDef  55
                 baseAgi  84
                 baseMov  0
@@ -2376,7 +2376,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    NOTHING, &
+                    LASER, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

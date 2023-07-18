@@ -39,6 +39,7 @@ tbl_UnarmedAttackAnimationsForEnemies:
 tbl_SpellcastAnimationsForClasses:
                 
                 dc.w CLASS_MNST, ALLYBATTLEANIMATION_SPECIAL_MNST
+				dc.w CLASS_MONK, ALLYBATTLEANIMATION_SPECIAL_MONK
                 
                 tableEnd
 
