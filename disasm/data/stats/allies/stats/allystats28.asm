@@ -4,8 +4,8 @@
 AllyStats28:    forClass  RDBN
                 hpGrowth  32, 97, LINEAR
                 mpGrowth  0, 0, NONE
-                attGrowth 51, 97, LINEAR
-                defGrowth 42, 99, LINEAR
+                attGrowth 50, 97, LINEAR
+                defGrowth 45, 95, LINEAR
                 agiGrowth 32, 77, EARLY
                 spellList 
                 

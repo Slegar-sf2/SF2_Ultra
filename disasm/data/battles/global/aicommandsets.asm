@@ -81,14 +81,7 @@ AiCommandset08:
                              HEAL, &
                              DEBUFF, &
                              STAY
-AiCommandset10: 
-                aiCommandset STAY
-AiCommandset11: 
-                aiCommandset ATTACK2, &
-                             HEAL, &
-                             DEBUFF, &
-                             STAY				
-				
+							 
 AiCommandset09: 
                 aiCommandset SPECIAL_MOVE3, &
                              ATTACK3, &
@@ -96,7 +89,23 @@ AiCommandset09:
                              DEBUFF, &
                              SPECIAL_MOVE4, &
                              MOVE2, &
+                             STAY							 
+							 
+AiCommandset10: 
+                aiCommandset SPECIAL_MOVE, &
+                             DEBUFF, &
+                             HEAL2, &
+                             ATTACK4, &
+                             SPECIAL_MOVE2, &
+                             MOVE2, &
                              STAY
+AiCommandset11: 
+                aiCommandset ATTACK2, &
+                             HEAL, &
+                             DEBUFF, &
+                             STAY				
+				
+
 AiCommandset12: 
                 aiCommandset SPECIAL_MOVE4, &
                              DEBUFF, &

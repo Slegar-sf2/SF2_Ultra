@@ -68,23 +68,23 @@ tbl_SpellDefs:
                 properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      0, 3
                 radius     2
-                power      15
+                power      20
                 
                 entry      AURA|LV3     ; AURA 3
                 mpCost     15
                 animation  HEALING_FAIRY|VARIATION3
                 properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      0, 3
-                radius     2
-                power      30
+                radius     3
+                power      25
                 
                 entry      AURA|LV4     ; AURA 4
-                mpCost     20
+                mpCost     25
                 animation  HEALING_FAIRY|VARIATION4
                 properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      0, 0
                 radius     0
-                power      100
+                power      55
                 
                 entry      DETOX        ; DETOX 1
                 mpCost     3
@@ -162,7 +162,7 @@ tbl_SpellDefs:
                 mpCost     7
                 animation  BUFF1
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
-                range      1, 3
+                range      0, 1
                 radius     0
                 power      5
 				
@@ -444,7 +444,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK
                 range      1, 1
                 radius     0
-                power      34
+                power      49
                 
                 entry      SNOW         ; SNOW 1
                 mpCost     0
@@ -452,7 +452,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK
                 range      1, 1
                 radius     0
-                power      20
+                power      44
                 
                 entry      SNOW|LV2     ; SNOW 2
                 mpCost     0
@@ -460,7 +460,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK
                 range      1, 1
                 radius     0
-                power      28
+                power      55
                 
                 entry      SNOW|LV3     ; SNOW 3
                 mpCost     0
@@ -468,7 +468,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK
                 range      1, 1
                 radius     0
-                power      35
+                power      70
                 
                 entry      DEMON        ; DEMON 1
                 mpCost     14
@@ -539,8 +539,8 @@ tbl_SpellDefs:
                 animation  BURST_ROCK_EXPLOSION
                 properties TYPE_ATTACK
                 range      0, 0
-                radius     2
-                power      30
+                radius     4
+                power      37
                 
                 entry      LASER        ; LASER 1
                 mpCost     0
@@ -839,12 +839,12 @@ tbl_SpellDefs:
                 power      16
                 
                 entry      AQUA|LV2     ; AQUA 2
-                mpCost     0
-                animation  BUBBLE_BREATH|VARIATION2
+                mpCost     15
+                animation  DESOUL
                 properties TYPE_ATTACK
-                range      1, 1
+                range      1, 7
                 radius     0
-                power      20
+                power      40
                 
                 entry      NATASHA         ; KIWI 1
                 mpCost     0
@@ -915,8 +915,8 @@ tbl_SpellDefs:
                 animation  ODD_EYE_BEAM
                 properties TYPE_ATTACK
                 range      1, 3
-                radius     1
-                power      30
+                radius     0
+                power      50
 				
 				entry      ODDEYE|LV2       ; ODDEYE 2
                 mpCost     0
@@ -924,5 +924,5 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK
                 range      1, 3
                 radius     1
-                power      40
+                power      45
                 

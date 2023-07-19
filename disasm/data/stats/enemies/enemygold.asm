@@ -33,7 +33,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 570                ; SENTINEL
                 dc.w 660                ; MINOTAUR
                 dc.w 700                ; CYCLOPS
-                dc.w 430                ; BURST ROCK
+                dc.w 200                ; BURST ROCK
                 dc.w 750                ; HYDRA
                 dc.w 790                ; CHAOS WARRIOR
                 dc.w 930                ; REAPER

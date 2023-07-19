@@ -1250,7 +1250,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        1, 1
-                price        2000
+                price        800
                 itemType     WEAPON|RARE|BREAKABLE
                 useSpell     ATOM
                 equipEffects INCREASE_ATT, 10, &
@@ -1435,15 +1435,15 @@ tbl_ItemDefs:
                 
             if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
                 
-                ; 128: 
+                ; 128: BISHOP_ROD
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
-                equipEffects NONE, 0, &
-                             NONE, 0, &
+                range        1, 2
+                price        1200
+                itemType     WEAPON|RARE|BREAKABLE
+                useSpell     AQUA|LV2
+                equipEffects INCREASE_ATT, 10, &
+                             STATUS_MUDDLE2, 0, &
                              NONE, 0
                 
                 ; 129: 

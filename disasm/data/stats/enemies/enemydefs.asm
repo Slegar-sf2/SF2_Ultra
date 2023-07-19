@@ -443,7 +443,7 @@ tbl_EnemyDefs:
                 baseDef  60
                 baseAgi  40
                 baseMov  6
-                baseResistance ICE_WEAKNESS|FIRE_MAJOR
+                baseResistance ICE_WEAKNESS|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_SILENCE|DOUBLE_1IN32|COUNTER_1IN4
                 items &
                     NOTHING, &
@@ -518,7 +518,7 @@ tbl_EnemyDefs:
                 baseDef  64
                 baseAgi  38
                 baseMov  6
-                baseResistance ICE_WEAKNESS|FIRE_MINOR
+                baseResistance ICE_WEAKNESS|FIRE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     LARGE_AXE|EQUIPPED, &
@@ -643,7 +643,7 @@ tbl_EnemyDefs:
                 baseDef  76
                 baseAgi  48
                 baseMov  6
-                baseResistance ICE_WEAKNESS|FIRE_MAJOR
+                baseResistance ICE_WEAKNESS|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -693,7 +693,7 @@ tbl_EnemyDefs:
                 baseDef  83
                 baseAgi  48
                 baseMov  6
-                baseResistance ICE_WEAKNESS|FIRE_MAJOR
+                baseResistance ICE_WEAKNESS|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -761,15 +761,15 @@ tbl_EnemyDefs:
                     
                 unknownByte 29          ; 29: SENTINEL
                 spellPower ENHANCED
-                level    35
-                maxHp    73
+                level    49
+                maxHp    97
                 maxMp    0
-                baseAtt  54
-                baseDef  58
-                baseAgi  50
+                baseAtt  88
+                baseDef  95
+                baseAgi  57
                 baseMov  5
-                baseResistance NONE
-                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN16
+                baseResistance STATUS_IMMUNITY
+                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     BATTLE_AXE|EQUIPPED, &
                     NOTHING, &
@@ -786,12 +786,12 @@ tbl_EnemyDefs:
                     
                 unknownByte 30          ; 30: MINOTAUR
                 spellPower ENHANCED
-                level    35
-                maxHp    58
+                level    48
+                maxHp    94
                 maxMp    0
-                baseAtt  51
-                baseDef  51
-                baseAgi  44
+                baseAtt  71
+                baseDef  88
+                baseAgi  60
                 baseMov  5
                 baseResistance NONE
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN16
@@ -811,15 +811,15 @@ tbl_EnemyDefs:
                     
                 unknownByte 31          ; 31: CYCLOPS
                 spellPower ENHANCED
-                level    36
-                maxHp    64
+                level    53
+                maxHp    87
                 maxMp    0
-                baseAtt  88
-                baseDef  51
-                baseAgi  46
-                baseMov  5
+                baseAtt  122
+                baseDef  102
+                baseAgi  60
+                baseMov  4
                 baseResistance NONE
-                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN16|COUNTER_1IN16
+                baseProwess    CRITICAL125_1IN4|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     NOTHING, &
                     NOTHING, &
@@ -836,13 +836,13 @@ tbl_EnemyDefs:
                     
                 unknownByte 32          ; 32: BURST ROCK
                 spellPower ENHANCED
-                level    38
-                maxHp    45
+                level    45
+                maxHp    35
                 maxMp    0
                 baseAtt  0
-                baseDef  60
-                baseAgi  43
-                baseMov  4
+                baseDef  90
+                baseAgi  55
+                baseMov  9
                 baseResistance NONE
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
@@ -886,12 +886,12 @@ tbl_EnemyDefs:
                     
                 unknownByte 34          ; 34: CHAOS WARRIOR
                 spellPower ENHANCED
-                level    40
-                maxHp    76
-                maxMp    23
-                baseAtt  92
-                baseDef  50
-                baseAgi  54
+                level    56
+                maxHp    110
+                maxMp    0
+                baseAtt  129
+                baseDef  108
+                baseAgi  60
                 baseMov  5
                 baseResistance STATUS_MAJOR
                 baseProwess    CRITICAL_STUN|DOUBLE_1IN16|COUNTER_1IN16
@@ -961,14 +961,14 @@ tbl_EnemyDefs:
                     
                 unknownByte 37          ; 37: PYROHYDRA
                 spellPower ENHANCED
-                level    44
-                maxHp    80
+                level    55
+                maxHp    96
                 maxMp    0
-                baseAtt  101
-                baseDef  53
-                baseAgi  55
+                baseAtt  125
+                baseDef  90
+                baseAgi  65
                 baseMov  4
-                baseResistance ICE_WEAKNESS|FIRE_MAJOR
+                baseResistance ICE_WEAKNESS|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN8|COUNTER_1IN8
                 items &
                     NOTHING, &
@@ -1311,12 +1311,12 @@ tbl_EnemyDefs:
                     
                 unknownByte 51          ; 51: WHITE DRAGON
                 spellPower ENHANCED
-                level    38
-                maxHp    66
+                level    52
+                maxHp    96
                 maxMp    0
-                baseAtt  85
-                baseDef  50
-                baseAgi  53
+                baseAtt  117
+                baseDef  90
+                baseAgi  70
                 baseMov  6
                 baseResistance ICE_MAJOR|FIRE_WEAKNESS
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
@@ -1661,15 +1661,15 @@ tbl_EnemyDefs:
                     
                 unknownByte 65          ; 65: DARK GUNNER
                 spellPower ENHANCED
-                level    38
-                maxHp    60
+                level    54
+                maxHp    120
                 maxMp    0
-                baseAtt  48
-                baseDef  56
-                baseAgi  45
+                baseAtt  83
+                baseDef  95
+                baseAgi  52
                 baseMov  4
                 baseResistance LIGHTNING_WEAKNESS|STATUS_MAJOR
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN32
+                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     BUSTER_SHOT|EQUIPPED, &
                     NOTHING, &
@@ -1968,7 +1968,7 @@ tbl_EnemyDefs:
                 baseDef  20
                 baseAgi  30
                 baseMov  6
-                baseResistance NONE
+                baseResistance STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN8
                 items &
                     MUDDLE_GLOVE|EQUIPPED, &
@@ -1993,7 +1993,7 @@ tbl_EnemyDefs:
                 baseDef  17
                 baseAgi  21
                 baseMov  6
-                baseResistance LIGHTNING_MINOR
+                baseResistance LIGHTNING_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_SLOW|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     POWER_STICK|EQUIPPED, &
@@ -2018,7 +2018,7 @@ tbl_EnemyDefs:
                 baseDef  33
                 baseAgi  26
                 baseMov  6
-                baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR
+                baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     POWER_STICK|EQUIPPED, &
@@ -2068,7 +2068,7 @@ tbl_EnemyDefs:
                 baseDef  53
                 baseAgi  34
                 baseMov  5
-                baseResistance NONE
+                baseResistance STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     INDRA_STAFF|EQUIPPED, &
@@ -2093,7 +2093,7 @@ tbl_EnemyDefs:
                 baseDef  57
                 baseAgi  31
                 baseMov  6
-                baseResistance NONE
+                baseResistance STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN16
                 items &
                     MUDDLE_GLOVE|EQUIPPED, &
@@ -2118,7 +2118,7 @@ tbl_EnemyDefs:
                 baseDef  68
                 baseAgi  40
                 baseMov  5
-                baseResistance NONE
+                baseResistance STATUS_IMMUNITY
                 baseProwess    CRITICAL_MAGIC_DRAIN|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     WISH_STAFF|EQUIPPED, &
@@ -2136,23 +2136,23 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 84: EVIL BISHOP
                 spellPower ENHANCED
-                level    40
-                maxHp    95
-                maxMp    60
-                baseAtt  54
-                baseDef  53
+                level    50
+                maxHp    115
+                maxMp    100
+                baseAtt  95
+                baseDef  85
                 baseAgi  155
-                baseMov  5
-                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
+                baseMov  6
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
+                baseProwess    CRITICAL_SLOW|DOUBLE_1IN32|COUNTER_1IN32
                 items &
-                    GREAT_ROD|EQUIPPED, &
+                    BISHOP_ROD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    AURA|LV3, &
-                    BLAST|LV3, &
+                    HEAL|LV4, &
+                    ICE|LV3, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
@@ -2386,11 +2386,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 94: RED BARON
                 spellPower ENHANCED
-                level    60
-                maxHp    150
+                level    55
+                maxHp    190
                 maxMp    0
-                baseAtt  42
-                baseDef  59
+                baseAtt  72
+                baseDef  100
                 baseAgi  190
                 baseMov  6
                 baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
@@ -2411,17 +2411,17 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 95: GESHP
                 spellPower ENHANCED
-                level    70
-                maxHp    180
+                level    59
+                maxHp    220
                 maxMp    120
-                baseAtt  78
-                baseDef  51
-                baseAgi  191
+                baseAtt  90
+                baseDef  97
+                baseAgi  190
                 baseMov  6
                 baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN8
                 items &
-                    BATON|EQUIPPED, &
+                    FREEZE_STAFF|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2511,11 +2511,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 99: JAR
                 spellPower ENHANCED
-                level    12
+                level    25
                 maxHp    59
                 maxMp    0
                 baseAtt  35
-                baseDef  44
+                baseDef  70
                 baseAgi  46
                 baseMov  7
                 baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
@@ -2568,7 +2568,7 @@ tbl_EnemyDefs:
                 baseDef  18
                 baseAgi  32
                 baseMov  5
-                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_SLEEP|DOUBLE_1IN32|COUNTER_1IN4
                 items &
                     MAGE_STAFF|EQUIPPED, &
@@ -2586,18 +2586,18 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 102: MUTSUKI
                 spellPower ENHANCED
-                level    42
-                maxHp    72
-                maxMp    60
-                baseAtt  64
-                baseDef  54
-                baseAgi  51
-                baseMov  8
-                baseResistance NONE
+                level    55
+                maxHp    115
+                maxMp    90
+                baseAtt  80
+                baseDef  105
+                baseAgi  85
+                baseMov  10
+                baseResistance WIND_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_SILENCE|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     KNIFE|EQUIPPED, &
-                    HEALING_RAIN, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
@@ -2643,7 +2643,7 @@ tbl_EnemyDefs:
                 baseDef  40
                 baseAgi  30
                 baseMov  6
-                baseResistance ICE_WEAKNESS|FIRE_MAJOR
+                baseResistance ICE_WEAKNESS|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_POISON|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     NOTHING,&
@@ -2686,14 +2686,14 @@ tbl_EnemyDefs:
 				
 				unknownByte 0           ; 106: GEPPEL
                 spellPower REGULAR
-                level    30
-                maxHp    90
-                maxMp    0
-                baseAtt  12
-                baseDef  45
-                baseAgi  156
+                level    60
+                maxHp    250
+                maxMp    144
+                baseAtt  100
+                baseDef  110
+                baseAgi  180
                 baseMov  6
-                baseResistance NONE
+                baseResistance LIGHTNING_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     BATTLE_SWORD|EQUIPPED,&
@@ -2701,7 +2701,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    NOTHING, &
+                    ODDEYE, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2718,7 +2718,7 @@ tbl_EnemyDefs:
                 baseDef  82
                 baseAgi  169
                 baseMov  6
-                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_SLEEP|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     GREAT_ROD|EQUIPPED,&

@@ -130,7 +130,7 @@ tbl_ItemNames:  itemName "Medical", 13, "Herb"
                 itemName "Chirrup", 13, "Sandals"
                 itemName "Empty"
             if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
-                itemName "item128"
+                itemName "Bishop", 13, "Rod"
                 itemName "item129"
                 itemName "item130"
                 itemName "item131"

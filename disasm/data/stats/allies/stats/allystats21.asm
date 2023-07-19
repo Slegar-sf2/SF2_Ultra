@@ -2,8 +2,8 @@
 ; ASM FILE data\stats\allies\stats\allystats21.asm :
 ; 0x1EE6DA..0x1EE6FB : Ally stats 21
 AllyStats21:    forClass  SORC
-                hpGrowth  55, 95, LINEAR
-                mpGrowth  35, 85, LINEAR
+                hpGrowth  55, 105, LINEAR
+                mpGrowth  35, 75, LINEAR
                 attGrowth 35, 55, EARLYANDLATE
                 defGrowth 30, 60, EARLY
                 agiGrowth 45, 65, LINEAR
