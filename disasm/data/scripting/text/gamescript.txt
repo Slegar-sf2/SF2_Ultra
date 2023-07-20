@@ -4294,3 +4294,4 @@
 10C5=A fine play with strong{N}performance all around.I've{N}seen it many times already.{W1}
 10C6=What a great role! The{N}actor's life is for me!{W1}
 10C7=Our son is just dying to see{N}the circus.{W1}
+10C8={LEADER} Pidar !!!{N}ha ha ha{W1}

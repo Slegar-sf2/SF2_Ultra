@@ -67,8 +67,8 @@ rjt_SpellEffects:
                 dc.w SpellEffect_Blaze-rjt_SpellEffects ; ATOM
                 dc.w SpellEffect_Bolt-rjt_SpellEffects ; ODDEYE
             if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
-                dc.w SpellEffect_None-rjt_SpellEffects       ; spell44
-                dc.w SpellEffect_None-rjt_SpellEffects       ; spell45
+                dc.w SpellEffect_Blast-rjt_SpellEffects     ; RIPSAW
+                dc.w SpellEffect_Freeze-rjt_SpellEffects    ; BLACK_MAGIC
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell46
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell47
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell48

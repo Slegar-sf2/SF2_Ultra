@@ -889,7 +889,7 @@ tbl_EnemyDefs:
                 level    56
                 maxHp    110
                 maxMp    0
-                baseAtt  129
+                baseAtt  133
                 baseDef  108
                 baseAgi  60
                 baseMov  5
@@ -901,7 +901,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    ATTACK, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -911,12 +911,12 @@ tbl_EnemyDefs:
                     
                 unknownByte 35          ; 35: REAPER
                 spellPower ENHANCED
-                level    41
-                maxHp    82
-                maxMp    31
-                baseAtt  60
-                baseDef  49
-                baseAgi  57
+                level    60
+                maxHp    108
+                maxMp    51
+                baseAtt  95
+                baseDef  100
+                baseAgi  66
                 baseMov  6
                 baseResistance STATUS_MAJOR
                 baseProwess    CRITICAL_MUDDLE|DOUBLE_1IN16|COUNTER_1IN16
@@ -926,7 +926,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    MUDDLE|LV2, &
+                    MUDDLE|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -936,14 +936,14 @@ tbl_EnemyDefs:
                     
                 unknownByte 36          ; 36: EVIL BEAST
                 spellPower ENHANCED
-                level    42
-                maxHp    84
-                maxMp    0
-                baseAtt  98
-                baseDef  51
-                baseAgi  60
-                baseMov  6
-                baseResistance NONE
+                level    61
+                maxHp    134
+                maxMp    38
+                baseAtt  132
+                baseDef  102
+                baseAgi  63
+                baseMov  7
+                baseResistance FIRE_MAJOR
                 baseProwess    CRITICAL_SLEEP|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -951,7 +951,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    NOTHING, &
+                    KATON|LV4, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1336,13 +1336,13 @@ tbl_EnemyDefs:
                     
                 unknownByte 52          ; 52: DEMON
                 spellPower ENHANCED
-                level    40
-                maxHp    75
-                maxMp    38
-                baseAtt  90
-                baseDef  50
-                baseAgi  55
-                baseMov  6
+                level    57
+                maxHp    130
+                maxMp    40
+                baseAtt  119
+                baseDef  99
+                baseAgi  79
+                baseMov  7
                 baseResistance LIGHTNING_WEAKNESS|FIRE_MINOR|STATUS_MAJOR
                 baseProwess    CRITICAL_MAGIC_DRAIN|DOUBLE_1IN32|COUNTER_1IN16
                 items &
@@ -1351,7 +1351,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    BOLT|LV2, &
+                    BOLT|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1386,14 +1386,14 @@ tbl_EnemyDefs:
                     
                 unknownByte 54          ; 54: DEVIL GRIFFIN
                 spellPower ENHANCED
-                level    42
-                maxHp    89
+                level    62
+                maxHp    150
                 maxMp    0
-                baseAtt  96
-                baseDef  47
-                baseAgi  59
+                baseAtt  127
+                baseDef  97
+                baseAgi  69
                 baseMov  7
-                baseResistance WIND_WEAKNESS|ICE_WEAKNESS|FIRE_MAJOR|STATUS_IMMUNITY
+                baseResistance ICE_WEAKNESS|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN8
                 items &
                     NOTHING, &
@@ -1671,7 +1671,7 @@ tbl_EnemyDefs:
                 baseResistance LIGHTNING_WEAKNESS|STATUS_MAJOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN16
                 items &
-                    BUSTER_SHOT|EQUIPPED, &
+                    FUGAS|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1686,17 +1686,17 @@ tbl_EnemyDefs:
                     
                 unknownByte 66          ; 66: DANTOM
                 spellPower ENHANCED
-                level    35
-                maxHp    96
+                level    70
+                maxHp    276
                 maxMp    0
-                baseAtt  59
-                baseDef  57
+                baseAtt  123
+                baseDef  124
                 baseAgi  180
                 baseMov  7
-                baseResistance NONE
-                baseProwess    CRITICAL_SILENCE|DOUBLE_1IN4|COUNTER_1IN4
+                baseResistance STATUS_IMMUNITY
+                baseProwess    CRITICAL_SILENCE|DOUBLE_1IN32|COUNTER_1IN4
                 items &
-                    COUNTER_SWORD|EQUIPPED, &
+                    ACHILLES_SWORD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -1911,14 +1911,14 @@ tbl_EnemyDefs:
                     
                 unknownByte 75          ; 75: DEMON MASTER
                 spellPower ENHANCED
-                level    42
-                maxHp    73
-                maxMp    68
-                baseAtt  48
-                baseDef  50
-                baseAgi  65
+                level    59
+                maxHp    125
+                maxMp    94
+                baseAtt  81
+                baseDef  95
+                baseAgi  80
                 baseMov  6
-                baseResistance LIGHTNING_MINOR|STATUS_IMMUNITY
+                baseResistance WIND_MAJOR|LIGHTNING_MINOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     MYSTERY_STAFF|EQUIPPED, &
@@ -1927,7 +1927,7 @@ tbl_EnemyDefs:
                     NOTHING
                 spells &
                     FREEZE|LV4, &
-                    NOTHING, &
+                    HEALIN|LV4, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
@@ -2161,11 +2161,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 85: DULAHAN
                 spellPower ENHANCED
-                level    42
-                maxHp    72
+                level    59
+                maxHp    106
                 maxMp    40
-                baseAtt  64
-                baseDef  54
+                baseAtt  96
+                baseDef  104
                 baseAgi  51
                 baseMov  6
                 baseResistance NONE
@@ -2211,7 +2211,7 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 87: KRAKEN HEAD
                 spellPower REGULAR
-                level    19
+                level    23
                 maxHp    80
                 maxMp    0
                 baseAtt  60
@@ -2236,7 +2236,7 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 88: TAROS
                 spellPower REGULAR
-                level    22
+                level    25
                 maxHp    100
                 maxMp    0
                 baseAtt  46
@@ -2261,7 +2261,7 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 89: KING
                 spellPower ENHANCED
-                level    26
+                level    28
                 maxHp    110
                 maxMp    60
                 baseAtt  40
@@ -2286,7 +2286,7 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 90: WILLARD
                 spellPower ENHANCED
-                level    27
+                level    28
                 maxHp    116
                 maxMp    0
                 baseAtt  78
@@ -2311,7 +2311,7 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 91: ZALBARD
                 spellPower ENHANCED
-                level    40
+                level    45
                 maxHp    140
                 maxMp    72
                 baseAtt  96
@@ -2336,7 +2336,7 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 92: CAMEELA
                 spellPower ENHANCED
-                level    48
+                level    50
                 maxHp    169
                 maxMp    0
                 baseAtt  72
@@ -2386,11 +2386,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 94: RED BARON
                 spellPower ENHANCED
-                level    55
-                maxHp    190
+                level    58
+                maxHp    200
                 maxMp    0
                 baseAtt  72
-                baseDef  100
+                baseDef  110
                 baseAgi  190
                 baseMov  6
                 baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
@@ -2411,17 +2411,17 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 95: GESHP
                 spellPower ENHANCED
-                level    59
+                level    60
                 maxHp    220
                 maxMp    120
-                baseAtt  90
-                baseDef  97
+                baseAtt  120
+                baseDef  100
                 baseAgi  190
                 baseMov  6
                 baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN8
                 items &
-                    FREEZE_STAFF|EQUIPPED, &
+                    ICE_ROD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2436,11 +2436,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 96: ODD EYE
                 spellPower ENHANCED
-                level    80
-                maxHp    200
-                maxMp    160
-                baseAtt  64
-                baseDef  54
+                level    70
+                maxHp    300
+                maxMp    0
+                baseAtt  104
+                baseDef  110
                 baseAgi  195
                 baseMov  6
                 baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
@@ -2451,7 +2451,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    ODDEYE, &
+                    ODDEYE|LV2, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2461,17 +2461,17 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 97: GALAM
                 spellPower ENHANCED
-                level    99
-                maxHp    240
-                maxMp    180
-                baseAtt  49
-                baseDef  50
+                level    80
+                maxHp    330
+                maxMp    0
+                baseAtt  120
+                baseDef  113
                 baseAgi  208
                 baseMov  6
                 baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN4
                 items &
-                    DEMON_ROD|EQUIPPED, &
+                    SUPER_STAFF|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2487,10 +2487,10 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 98: ZEON
                 spellPower ENHANCED
                 level    99
-                maxHp    500
+                maxHp    900
                 maxMp    180
                 baseAtt  102
-                baseDef  50
+                baseDef  120
                 baseAgi  203
                 baseMov  0
                 baseResistance STATUS_IMMUNITY
@@ -2511,7 +2511,7 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 99: JAR
                 spellPower ENHANCED
-                level    25
+                level    35
                 maxHp    59
                 maxMp    0
                 baseAtt  35
@@ -2587,21 +2587,21 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 102: MUTSUKI
                 spellPower ENHANCED
                 level    55
-                maxHp    115
-                maxMp    90
-                baseAtt  80
+                maxHp    109
+                maxMp    40
+                baseAtt  77
                 baseDef  105
                 baseAgi  85
                 baseMov  10
                 baseResistance WIND_MAJOR|STATUS_IMMUNITY
-                baseProwess    CRITICAL_SILENCE|DOUBLE_1IN32|COUNTER_1IN32
+                baseProwess    CRITICAL_SILENCE|DOUBLE_1IN4|COUNTER_1IN32
                 items &
-                    KNIFE|EQUIPPED, &
+                    NINJA_KATANA|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    RAIJIN|LV3, &
+                    RIPSAW, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2688,7 +2688,7 @@ tbl_EnemyDefs:
                 spellPower REGULAR
                 level    60
                 maxHp    250
-                maxMp    144
+                maxMp    0
                 baseAtt  100
                 baseDef  110
                 baseAgi  180
@@ -2711,7 +2711,7 @@ tbl_EnemyDefs:
 				
 				unknownByte 0           ; 107: G0RDON
                 spellPower REGULAR
-                level    42
+                level    45
                 maxHp    150
                 maxMp    60
                 baseAtt  70
@@ -2736,7 +2736,7 @@ tbl_EnemyDefs:
 				
 				unknownByte 0           ; 108: BAZ00
                 spellPower ENHANCED
-                level    21
+                level    24
                 maxHp    90
                 maxMp    55
                 baseAtt  67
@@ -2786,7 +2786,7 @@ tbl_EnemyDefs:
 				
 				unknownByte 0           ; 110: DAVA
                 spellPower ENHANCED
-                level    56
+                level    80
                 maxHp    110
                 maxMp    60
                 baseAtt  40

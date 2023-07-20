@@ -226,9 +226,9 @@ tbl_SpellDefs:
                 mpCost     20
                 animation  DEBUFF1
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
-                range      1, 4
+                range      1, 3
                 radius     2
-                power      0
+                power      10
                 
                 entry      DESOUL       ; DESOUL 1
                 mpCost     8
@@ -421,6 +421,14 @@ tbl_SpellDefs:
                 range      0, 1
                 radius     0
                 power      50
+				
+				entry      HEALIN|LV4   ; HEALIN 4
+                mpCost     25
+                animation  HEALING_FAIRY|VARIATION4
+                properties TYPE_HEAL|TARGET_TEAMMATES
+                range      0, 1
+                radius     1
+                power      50
                 
                 entry      FLAME        ; FLAME 1
                 mpCost     0
@@ -476,7 +484,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK
                 range      1, 2
                 radius     1
-                power      34
+                power      36
                 
                 entry      DEMON|LV2    ; DEMON 2
                 mpCost     19
@@ -484,7 +492,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK
                 range      1, 3
                 radius     2
-                power      38
+                power      40
                 
 				entry      DEMON|LV3    ; DEMON 3
                 mpCost     26
@@ -840,11 +848,11 @@ tbl_SpellDefs:
                 
                 entry      AQUA|LV2     ; AQUA 2
                 mpCost     15
-                animation  DESOUL
+                animation  BUBBLE_BREATH|VARIATION2
                 properties TYPE_ATTACK
-                range      1, 7
+                range      1, 2
                 radius     0
-                power      40
+                power      20
                 
                 entry      NATASHA         ; KIWI 1
                 mpCost     0
@@ -926,3 +934,34 @@ tbl_SpellDefs:
                 radius     1
                 power      45
                 
+				entry      RIPSAW           ; RIPSAW
+                mpCost     10
+                animation  BLAST|VARIATION3
+                properties TYPE_ATTACK
+                range      1, 3
+                radius     0
+                power      38
+				
+				entry      RIPSAW|LV2       ; RIPSAW 2
+                mpCost     20
+                animation  BLAST|VARIATION3
+                properties TYPE_ATTACK
+                range      1, 3
+                radius     1
+                power      38
+                
+				entry      BLACK_MAGIC           ; BLACK_MAGIC
+                mpCost     20
+                animation  DESOUL
+                properties TYPE_ATTACK
+                range      1, 7
+                radius     0
+                power      25
+				
+				entry      BLACK_MAGIC|LV2           ; BLACK_MAGIC 2
+                mpCost     30
+                animation  DESOUL|VARIATION2
+                properties TYPE_ATTACK
+                range      1, 7
+                radius     0
+                power      40

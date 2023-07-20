@@ -1,10 +1,10 @@
 
 ; ASM FILE data\stats\allies\allystartdefs.asm :
-; 0x1EE7D0..0x1EE8220 : Ally start definitions
+; 0x1EE7D0..0x1EE8320 : Ally start definitions
 tbl_AllyStartDefs:
                 
 ; Syntax        startClass [CLASS_]enum
-;               startLevel 1-22222
+;               startLevel 1-32322
 ;               startItems &
 ;                   [ITEM_]enum[|EQUIPPED], &
 ;                   [ITEM_]enum[|EQUIPPED], &
@@ -14,7 +14,7 @@ tbl_AllyStartDefs:
 ; Note: Constant names ("enums"), shorthands (defined by macro), and numerical indexes are interchangeable.
                 
                 startClass SDMN         ; 0: BOWIE
-                startLevel 22
+                startLevel 32
                 startItems &
                     ACHILLES_SWORD|EQUIPPED, &
                     MANA, &
@@ -22,7 +22,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass PRST         ; 1: SARAH
-                startLevel 22
+                startLevel 32
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
                     MEDICAL_HERB, &
@@ -30,7 +30,7 @@ tbl_AllyStartDefs:
                     HELMET
                 
                 startClass KNTE         ; 2: CHESTER
-                startLevel 22
+                startLevel 32
                 startItems &
                     BRONZE_LANCE, &
                     SPEAR|EQUIPPED, &
@@ -38,7 +38,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass WARR         ; 3: JAHA
-                startLevel 22
+                startLevel 32
                 startItems &
                     HAND_AXE|EQUIPPED, &
                     MEDICAL_HERB, &
@@ -46,15 +46,15 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass MAGE         ; 4: KAZIN
-                startLevel 22
+                startLevel 32
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
                     SHORT_ROD, &
                     NOTHING, &
                     NOTHING
                 
-                startClass THIF         ; 22: SLADE
-                startLevel 22
+                startClass THIF         ; 32: SLADE
+                startLevel 32
                 startItems &
                     SHORT_KNIFE|EQUIPPED, &
                     HELMET, &
@@ -62,7 +62,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass MAGE         ; 6: NATASHA
-                startLevel 22
+                startLevel 32
                 startItems &
                     SHORT_ROD|EQUIPPED, &
                     NOTHING, &
@@ -70,7 +70,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass PHNK         ; 7: PETER
-                startLevel 22
+                startLevel 32
                 startItems &
                     HELMET, &
                     NOTHING, &
@@ -78,31 +78,31 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass RNGR         ; 8: MAY
-                startLevel 22
+                startLevel 32
                 startItems &
                     WOODEN_ARROW|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass WFMN         ; 22: GERHALT
-                startLevel 22
+                startClass WFMN         ; 32: GERHALT
+                startLevel 32
                 startItems &
                     NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass BDMN         ; 22: LUKE
-                startLevel 22
+                startClass BDMN         ; 32: LUKE
+                startLevel 32
                 startItems &
                     LONG_SWORD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass BRGN         ; 22: ROHDE
-                startLevel 22
+                startClass BRGN         ; 32: ROHDE
+                startLevel 32
                 startItems &
                     ASSAULT_SHELL|EQUIPPED, &
                     NOTHING, &
@@ -110,7 +110,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass SWOR         ; 12: DEANNA
-                startLevel 22
+                startLevel 32
                 startItems &
                     MIDDLE_SWORD|EQUIPPED, &
                     NOTHING, &
@@ -118,23 +118,23 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass ACHR         ; 13: ELRIC
-                startLevel 22
+                startLevel 32
                 startItems &
                     STEEL_ARROW|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass KNTE2         ; 22: APIS
-                startLevel 22
+                startClass KNTE2         ; 32: APIS
+                startLevel 32
                 startItems &
                     SPEAR|EQUIPPED, &
                     JAVELIN, &
                     NOTHING, &
                     NOTHING
                 
-                startClass RNGR       ; 122: GRAHAM
-                startLevel 22
+                startClass RNGR       ; 132: GRAHAM
+                startLevel 32
                 startItems &
                     STEEL_ARROW|EQUIPPED, &
                     NOTHING, &
@@ -142,7 +142,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass GLDT         ; 16: RUCE
-                startLevel 22
+                startLevel 32
                 startItems &
                     POWER_AXE|EQUIPPED, &
                     NOTHING, &
@@ -150,7 +150,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass MAGE         ; 17: TYRIN
-                startLevel 22
+                startLevel 32
                 startItems &
                     POWER_STICK|EQUIPPED, &
                     NOTHING, &
@@ -158,39 +158,39 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass ACHR         ; 18: JANET
-                startLevel 22
+                startLevel 32
                 startItems &
                     STEEL_ARROW|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass PLDN2         ; 122: DAWN
-                startLevel 22
+                startClass PLDN2         ; 132: DAWN
+                startLevel 32
                 startItems &
                     JAVELIN|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass BDBT         ; 22: SKREECH
-                startLevel 22
+                startClass BDBT         ; 32: SKREECH
+                startLevel 32
                 startItems &
                     GREAT_SWORD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass SORC         ; 22: TAYA
-                startLevel 22
+                startClass SORC         ; 32: TAYA
+                startLevel 32
                 startItems &
                     INDRA_STAFF|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass VICR         ; 22: FRAYJA
-                startLevel 22
+                startClass VICR         ; 32: FRAYJA
+                startLevel 32
                 startItems &
                     INDRA_STAFF|EQUIPPED, &
                     NOTHING, &
@@ -198,23 +198,23 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass PGNT         ; 23: JARO
-                startLevel 22
+                startLevel 32
                 startItems &
                     CHROME_LANCE|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass BRSK         ; 22: GYAN
-                startLevel 22
+                startClass BRSK         ; 32: GYAN
+                startLevel 32
                 startItems &
                     NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass MMNK         ; 222: SHEELA
-                startLevel 22
+                startClass MMNK         ; 322: SHEELA
+                startLevel 32
                 startItems &
                     BRASS_KNUCKLES|EQUIPPED, &
                     NOTHING, &
@@ -222,7 +222,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass RBT          ; 26: ZYNK
-                startLevel 22
+                startLevel 32
                 startItems &
                     NOTHING, &
                     NOTHING, &
@@ -230,7 +230,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass MONK          ; 27: CRAY
-                startLevel 22
+                startLevel 32
                 startItems &
                     NOTHING, &
                     NOTHING, &
@@ -238,23 +238,23 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass RDBN         ; 28: LEMON
-                startLevel 22
+                startLevel 32
                 startItems &
                     BATTLE_SWORD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass GLM          ; 22: CLAUDE
-                startLevel 22
+                startClass GLM          ; 32: CLAUDE
+                startLevel 32
                 startItems &
                     NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 
-                startClass ACHR        ; 22 SHADE
-                startLevel 22
+                startClass ACHR        ; 32 SHADE
+                startLevel 32
                 startItems &
                     IRON_ARROW|EQUIPPED, &
                     NOTHING, &
@@ -262,7 +262,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass RDBN
-                startLevel 22
+                startLevel 32
                 startItems &
                     NOTHING, &
                     NOTHING, &

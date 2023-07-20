@@ -701,7 +701,7 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        1, 1
                 price        1550
-                itemType     WEAPON|RARE
+                itemType     WEAPON|RARE|CURSED
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 19, &
                              NONE, 0, &
@@ -790,7 +790,7 @@ tbl_ItemDefs:
                 range        1, 1
                 price        14000
                 itemType     WEAPON|RARE|BREAKABLE
-                useSpell     BLAZE|LV3
+                useSpell     BOLT|LV3
                 equipEffects INCREASE_ATT, 42, &
                              NONE, 0, &
                              NONE, 0
@@ -1131,7 +1131,7 @@ tbl_ItemDefs:
                 range        1, 1
                 price        10000
                 itemType     WEAPON|RARE|BREAKABLE
-                useSpell     ICE|LV2
+                useSpell     ICE|LV3
                 equipEffects INCREASE_ATT, 39, &
                              UNDEFINED2, 2, &
                              NONE, 0
@@ -1231,8 +1231,8 @@ tbl_ItemDefs:
                 price        15000
                 itemType     WEAPON|RARE
                 useSpell     NOTHING
-                equipEffects INCREASE_ATT, 42, &
-                             SET_CRITICAL, 6, &
+                equipEffects INCREASE_ATT, 48, &
+                             INCREASE_DEF, 5, &
                              NONE, 0
                 
                 ; 110: Taros Sword
@@ -1441,41 +1441,40 @@ tbl_ItemDefs:
                 range        1, 2
                 price        1200
                 itemType     WEAPON|RARE|BREAKABLE
-                useSpell     AQUA|LV2
+                useSpell     BLACK_MAGIC|LV2
                 equipEffects INCREASE_ATT, 10, &
                              STATUS_MUDDLE2, 0, &
                              NONE, 0
                 
-                ; 129: 
+                ; 129: ICE_ROD
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
-                equipEffects NONE, 0, &
+                range        1, 2
+                price        1200
+                itemType     WEAPON|RARE|BREAKABLE
+                useSpell     ICE|LV4
+                equipEffects INCREASE_ATT, 10, &
+                             NONE, 0, &
+                             NONE, 0
+                ; 130: SUPER_STAFF
+                equipFlags   NONE
+                equipFlags2  NONE
+                range        1, 5
+                price        5000
+                itemType     WEAPON|RARE|BREAKABLE
+                useSpell     RIPSAW|LV2
+                equipEffects INCREASE_ATT, 20, &
                              NONE, 0, &
                              NONE, 0
                 
-                ; 130: 
+                ; 131: FUGAS
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
-                equipEffects NONE, 0, &
-                             NONE, 0, &
-                             NONE, 0
-                
-                ; 131: 
-                equipFlags   NONE
-                equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
-                equipEffects NONE, 0, &
+                range        1, 6
+                price        9000
+                itemType     WEAPON|RARE
+                useSpell     ATOM|LV3
+                equipEffects INCREASE_ATT, 37, &
                              NONE, 0, &
                              NONE, 0
                 

@@ -50,8 +50,8 @@ tbl_SpellElements:
                 spellElement NEUTRAL    ; 42: ATOM
                 spellElement LIGHTNING  ; 43: ODDEYE
             if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
-                spellElement NEUTRAL    ; 44: 
-                spellElement NEUTRAL    ; 45: 
+                spellElement WIND       ; 44: RIPSAW
+                spellElement NEUTRAL    ; 45: BLACK_MAGIC
                 spellElement NEUTRAL    ; 46: 
                 spellElement NEUTRAL    ; 47: 
                 spellElement NEUTRAL    ; 48: 

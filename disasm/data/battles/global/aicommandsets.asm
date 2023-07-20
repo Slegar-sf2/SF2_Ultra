@@ -67,6 +67,7 @@ AiCommandset06:
                 aiCommandset ATTACK, &
                              HEAL, &
                              DEBUFF, &
+							 SPECIAL_MOVE, &
                              MOVE, &
                              STAY
 AiCommandset07: 

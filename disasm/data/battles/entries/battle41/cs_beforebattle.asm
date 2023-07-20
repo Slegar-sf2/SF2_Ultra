@@ -22,8 +22,10 @@ cs_4ED48:       playSound MUSIC_BATTLE_THEME_3
                 nextText $0,128         ; "Impossible!{N}He was defeated?{W2}"
                 nextText $0,128         ; "Inconceivable!  But...{N}OK, I'll stop you here.{W2}"
                 nextSingleText $0,128   ; "You shall die now!{W1}"
+				textCursor 4296
+				nextSingleText $0,128
                 csc_end
 ce_4ED76:       mainEntity 17,24,RIGHT
                 entity 16,24,RIGHT,ALLY_PETER,eas_Init
-                entity 16,6,DOWN,MAPSPRITE_REAPER,eas_Init
+                entity 16,6,DOWN,MAPSPRITE_DANTOM,eas_Init
                 dc.w $FFFF
