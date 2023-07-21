@@ -69,7 +69,7 @@ tbl_LaserEnemyFacingForBattle_VersusAllBosses:
                 enemyFacing LEFT
 				
 tbl_LaserEnemyFacingForBattle_VersusDava:
-                enemyFacing NONE
+                enemyFacing DOWN
                 enemyFacing NONE
                 enemyFacing NONE
                 enemyFacing NONE

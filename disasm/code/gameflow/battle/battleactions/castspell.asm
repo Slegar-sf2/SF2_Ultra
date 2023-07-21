@@ -48,7 +48,7 @@ rjt_SpellEffects:
                 dc.w SpellEffect_RunningPimento-rjt_SpellEffects ; IDATEN
                 dc.w SpellEffect_CheerfulBread-rjt_SpellEffects ; HEALTH
                 dc.w SpellEffect_None-rjt_SpellEffects ; B.ROCK
-                dc.w SpellEffect_None-rjt_SpellEffects ; LASER
+                dc.w SpellEffect_Bolt-rjt_SpellEffects ; LASER
                 dc.w SpellEffect_Blaze-rjt_SpellEffects ; KATON
                 dc.w SpellEffect_Bolt-rjt_SpellEffects ; RAIJIN
                 dc.w SpellEffect_Blast-rjt_SpellEffects ; DAO

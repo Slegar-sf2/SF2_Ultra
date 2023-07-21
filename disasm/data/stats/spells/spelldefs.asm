@@ -559,11 +559,11 @@ tbl_SpellDefs:
                 power      20
 				
 				entry      LASER|LV2      ; LASER 2
-                mpCost     0
+                mpCost     25
                 animation  PRISM_LASER
                 properties TYPE_ATTACK
-                range      0, 0
-                radius     3
+                range      0, 6
+                radius     1
                 power      40
 								                
                 entry      KATON        ; KATON 1

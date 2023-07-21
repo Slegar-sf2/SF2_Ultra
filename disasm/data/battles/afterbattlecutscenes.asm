@@ -45,8 +45,8 @@ rpt_AfterBattleCutscenes:
                 dc.w (ms_Empty-rpt_AfterBattleCutscenes) & $FFFF
                 dc.w abcs_battle40-rpt_AfterBattleCutscenes
                 dc.w (ms_Empty-rpt_AfterBattleCutscenes) & $FFFF
-                dc.w abcs_battle42-rpt_AfterBattleCutscenes
-                dc.w abcs_battle43-rpt_AfterBattleCutscenes
+                dc.w abcs_battle42-rpt_AfterBattleCutscenes      ;battle 42
+                dc.w abcs_battle43-rpt_AfterBattleCutscenes      ;battle 43
                 dc.w (ms_Empty-rpt_AfterBattleCutscenes) & $FFFF ;battle 44
                 dc.w (ms_Empty-rpt_AfterBattleCutscenes) & $FFFF ;battle 45
                 dc.w abcs_battle46-rpt_AfterBattleCutscenes      ;battle 46

@@ -1001,7 +1001,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    LASER, &
+                    DEMON, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2801,7 +2801,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    DEMON, &
+                    LASER|LV2, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

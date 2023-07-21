@@ -1587,6 +1587,7 @@ SPELLGRAPHICS_APOLLO: equ $13
 SPELLGRAPHICS_PHOENIX_ATTACK: equ $14
 SPELLGRAPHICS_ODD_EYE_BEAM: equ $15
 SPELLGRAPHICS_DEMON_BREATH: equ $16
+SPELLGRAPHICS_RAIJIN: equ $17
 
 ; ---------------------------------------------------------------------------
 
@@ -1916,7 +1917,7 @@ BATTLEACTION_OFFSET_ITEM_SLOT: equ $6
 
 ; enum Battleaction_Properties
 BATTLEACTION_PRISM_LASER_POWER: equ $23
-BATTLEACTION_BURST_ROCK_POWER: equ $32
+BATTLEACTION_BURST_ROCK_POWER: equ $2D
 
 ; ---------------------------------------------------------------------------
 
