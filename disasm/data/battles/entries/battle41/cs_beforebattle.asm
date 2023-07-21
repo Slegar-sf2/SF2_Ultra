@@ -18,10 +18,7 @@ cs_4ED48:       playSound MUSIC_BATTLE_THEME_3
                 nextSingleText $0,128   ; "But, Odd Eye went to...{W2}"
                 entityActionsWait 128
                  moveDown 2
-                endActions
-                nextText $0,128         ; "Impossible!{N}He was defeated?{W2}"
-                nextText $0,128         ; "Inconceivable!  But...{N}OK, I'll stop you here.{W2}"
-                nextSingleText $0,128   ; "You shall die now!{W1}"
+                endActions                               
 				textCursor 4296
 				nextSingleText $0,128
                 csc_end

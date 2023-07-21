@@ -2,12 +2,13 @@
 ; ASM FILE data\battles\global\laserbattles.asm :
 ; 0x1AC9B8..0x1AC9FC : Laser battles data
 tbl_BattlesWithLasers:
-                battles VERSUS_PRISM_FLOWERS, VERSUS_ZEON, VERSUS_ALL_BOSSES
+                battles VERSUS_PRISM_FLOWERS, VERSUS_ZEON, VERSUS_ALL_BOSSES, VERSUS_DAVA
                 
 pt_LaserEnemyFacingForBattle:
                 dc.l tbl_LaserEnemyFacingForBattle_VersusPrismFlowers
                 dc.l tbl_LaserEnemyFacingForBattle_VersusZeon
                 dc.l tbl_LaserEnemyFacingForBattle_VersusAllBosses
+				dc.l tbl_LaserEnemyFacingForBattle_VersusDava
                 
 tbl_LaserEnemyFacingForBattle_VersusPrismFlowers:
                 enemyFacing NONE
@@ -66,3 +67,22 @@ tbl_LaserEnemyFacingForBattle_VersusAllBosses:
                 enemyFacing NONE
                 enemyFacing RIGHT
                 enemyFacing LEFT
+				
+tbl_LaserEnemyFacingForBattle_VersusDava:
+                enemyFacing NONE
+                enemyFacing NONE
+                enemyFacing NONE
+                enemyFacing NONE
+                enemyFacing NONE
+                enemyFacing NONE
+                enemyFacing NONE
+                enemyFacing NONE
+                enemyFacing NONE
+                enemyFacing RIGHT
+                enemyFacing RIGHT
+                enemyFacing RIGHT
+				enemyFacing RIGHT
+				enemyFacing DOWN
+				enemyFacing DOWN
+				enemyFacing DOWN
+				enemyFacing DOWN

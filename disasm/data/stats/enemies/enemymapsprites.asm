@@ -38,7 +38,7 @@ tbl_EnemyMapSprites:
                 mapSprite MINOTAUR      ; 30: MINOTAUR
                 mapSprite CYCLOPS       ; 31: CYCLOPS
                 mapSprite BURST_ROCK    ; 32: BURST ROCK
-                mapSprite HYDRA         ; 33: HYDRA
+                mapSprite CHU_RAO       ; 33: CHU_RAO
                 mapSprite CHAOS_WARRIOR ; 34: CHAOS WARRIOR
                 mapSprite REAPER        ; 35: REAPER
                 mapSprite EVIL_BEAST    ; 36: EVIL BEAST

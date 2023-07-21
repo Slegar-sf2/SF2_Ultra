@@ -859,24 +859,24 @@ tbl_EnemyDefs:
                 moveType      REGULAR
                 unknownWord   8224
                     
-                unknownByte 33          ; 33: HYDRA
+                unknownByte 33          ; 33: CHU_RAO
                 spellPower ENHANCED
-                level    39
-                maxHp    70
+                level    65
+                maxHp    170
                 maxMp    0
-                baseAtt  96
-                baseDef  62
-                baseAgi  50
-                baseMov  4
-                baseResistance ICE_WEAKNESS
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN8|COUNTER_1IN8
+                baseAtt  148
+                baseDef  126
+                baseAgi  190
+                baseMov  5
+                baseResistance ICE_WEAKNESS|FIRE_MAJOR|STATUS_IMMUNITY
+                baseProwess    CRITICAL_SLOW|DOUBLE_1IN8|COUNTER_1IN8
                 items &
                     NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    NOTHING, &
+                    FLAME|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -913,7 +913,7 @@ tbl_EnemyDefs:
                 spellPower ENHANCED
                 level    60
                 maxHp    108
-                maxMp    51
+                maxMp    31
                 baseAtt  95
                 baseDef  100
                 baseAgi  66
@@ -992,7 +992,7 @@ tbl_EnemyDefs:
                 baseAtt  109
                 baseDef  54
                 baseAgi  64
-                baseMov  5
+                baseMov  0
                 baseResistance STATUS_MAJOR
                 baseProwess    CRITICAL_SLOW|DOUBLE_1IN16|COUNTER_1IN16
                 items &
@@ -1001,7 +1001,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    DEMON, &
+                    LASER, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2076,7 +2076,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    AURA|LV2, &
+                    HEALIN|LV2, &
                     BLAST|LV3, &
                     NOTHING, &
                     NOTHING
@@ -2464,7 +2464,7 @@ tbl_EnemyDefs:
                 level    80
                 maxHp    330
                 maxMp    0
-                baseAtt  120
+                baseAtt  110
                 baseDef  113
                 baseAgi  208
                 baseMov  6
@@ -2501,7 +2501,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    DEMON|LV3, &
+                    DEMON|LV2, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2787,12 +2787,12 @@ tbl_EnemyDefs:
 				unknownByte 0           ; 110: DAVA
                 spellPower ENHANCED
                 level    80
-                maxHp    110
-                maxMp    60
-                baseAtt  40
-                baseDef  55
-                baseAgi  180
-                baseMov  5
+                maxHp    390
+                maxMp    100
+                baseAtt  90
+                baseDef  113
+                baseAgi  185
+                baseMov  6
                 baseResistance WIND_MAJOR|LIGHTNING_MINOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN4
                 items &
@@ -2801,7 +2801,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    BLAZE|LV3, &
+                    DEMON, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

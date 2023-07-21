@@ -52,6 +52,7 @@ pt_BattleTerrainData:
 				dc.l BattleTerrain47
 				dc.l BattleTerrain48
 				dc.l BattleTerrain49
+				dc.l BattleTerrain50
 BattleTerrain00:incbin "data/battles/entries/battle00/terrain.bin"
 BattleTerrain01:incbin "data/battles/entries/battle01/terrain.bin"
 BattleTerrain02:incbin "data/battles/entries/battle02/terrain.bin"
@@ -101,3 +102,4 @@ BattleTerrain46:incbin "data/battles/entries/battle46/terrain.bin"
 BattleTerrain47:incbin "data/battles/entries/battle47/terrain.bin"
 BattleTerrain48:incbin "data/battles/entries/battle48/terrain.bin"
 BattleTerrain49:incbin "data/battles/entries/battle49/terrain.bin"
+BattleTerrain50:incbin "data/battles/entries/battle50/terrain.bin"

@@ -59,3 +59,4 @@
 				include "data\battles\entries\battle46\cs_beforebattle.asm"    ; Cutscene before battle 46
 				include "data\battles\entries\battle46\cs_afterbattle.asm"    ; Cutscene after battle 46
 				include "data\battles\entries\battle48\cs_afterbattle.asm"    ; Cutscene after battle 48
+				include "data\battles\entries\battle50\cs_afterbattle.asm"    ; Cutscene after battle 50

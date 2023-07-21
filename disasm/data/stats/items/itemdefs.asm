@@ -1459,7 +1459,7 @@ tbl_ItemDefs:
                 ; 130: SUPER_STAFF
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        1, 5
+                range        1, 2
                 price        5000
                 itemType     WEAPON|RARE|BREAKABLE
                 useSpell     RIPSAW|LV2

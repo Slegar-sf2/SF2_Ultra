@@ -34,12 +34,12 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 660                ; MINOTAUR
                 dc.w 700                ; CYCLOPS
                 dc.w 200                ; BURST ROCK
-                dc.w 750                ; HYDRA
-                dc.w 790                ; CHAOS WARRIOR
-                dc.w 930                ; REAPER
+                dc.w 1200               ; CHU_RAO
+                dc.w 840                ; CHAOS WARRIOR
+                dc.w 900                ; REAPER
                 dc.w 1050               ; EVIL BEAST
-                dc.w 1100               ; PYROHYDRA
-                dc.w 1300               ; ZEON GUARD
+                dc.w 1000               ; PYROHYDRA
+                dc.w 1050               ; ZEON GUARD
                 dc.w 20                 ; GIZMO
                 dc.w 30                 ; HUGE BAT
                 dc.w 125                ; VAMPIRE BAT
@@ -92,11 +92,11 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 450                ; TAROS
                 dc.w 500                ; KING
                 dc.w 550                ; WILLARD
-                dc.w 700                ; ZALBARD
-                dc.w 900                ; CAMEELA
-                dc.w 800                ; PRISM FLOWER
-                dc.w 1200               ; RED BARON
-                dc.w 1600               ; GESHP
+                dc.w 900                ; ZALBARD
+                dc.w 950                ; CAMEELA
+                dc.w 500                ; PRISM FLOWER
+                dc.w 1500               ; RED BARON
+                dc.w 1700               ; GESHP
                 dc.w 2000               ; ODD EYE
                 dc.w 3500               ; GALAM
                 dc.w 4000               ; ZEON
@@ -107,12 +107,12 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 110                ; ARTILERY
                 dc.w 305                ; GHOUL
                 dc.w 360                ; WOLF
-                dc.w 700                ; GEPPEL
-                dc.w 770                ; GORDON
+                dc.w 1800               ; GEPPEL
+                dc.w 800                ; GORDON
                 dc.w 425                ; BAZOO
                 dc.w 600                ; FRABELL
-                dc.w 2057               ; DAVA
-                dc.w 2571               ; DOLL
+                dc.w 2000               ; DAVA
+                dc.w 1100               ; DOLL
                 dc.w 3148
                 dc.w 18507
                 dc.w 3342

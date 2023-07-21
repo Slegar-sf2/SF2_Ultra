@@ -41,7 +41,7 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt MINOTAUR, 1 ; 30: MINOTAUR
                 enemyBattleSprAndPlt CYCLOPS, 0 ; 31: CYCLOPS
                 enemyBattleSprAndPlt BURST_ROCK, 0 ; 32: BURST ROCK
-                enemyBattleSprAndPlt HYDRA, 0 ; 33: HYDRA
+                enemyBattleSprAndPlt 97, 0 ; 33: CHU_RAO
                 enemyBattleSprAndPlt CHAOS_WARRIOR, 0 ; 34: CHAOS WARRIOR
                 enemyBattleSprAndPlt REAPER, 0 ; 35: REAPER
                 enemyBattleSprAndPlt EVIL_BEAST, 0 ; 36: EVIL BEAST
