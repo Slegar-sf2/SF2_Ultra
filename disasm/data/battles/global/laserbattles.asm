@@ -68,13 +68,9 @@ tbl_LaserEnemyFacingForBattle_VersusAllBosses:
 				enemyFacing NONE
                 enemyFacing NONE
                 enemyFacing NONE
-                enemyFacing NONE
-                enemyFacing NONE
-                enemyFacing NONE
                 enemyFacing DOWN
                 enemyFacing DOWN
-                enemyFacing DOWN
-                enemyFacing NONE
+                enemyFacing DOWN                
 				
 tbl_LaserEnemyFacingForBattle_VersusDava:
                 enemyFacing NONE
