@@ -993,11 +993,7 @@ ApplyStatusEffectsOnStats:
                 bsr.w   IncreaseCurrentAtt
                 move.w  d3,d2
                 andi.w  #STATUSEFFECT_BOOST,d2
-                rol.w   #4,d2
-                bsr.w   GetBaseDef
-                mulu.w  d2,d1
-                lsr.l   #3,d1
-                bsr.w   IncreaseCurrentDef
+                rol.w   #4,d2                
                 bsr.w   GetBaseAgi
                 mulu.w  d2,d1
                 lsr.l   #3,d1
@@ -1009,10 +1005,10 @@ ApplyStatusEffectsOnStats:
                 mulu.w  d2,d1
                 lsr.l   #3,d1
                 bsr.w   DecreaseCurrentDef
-                bsr.w   GetBaseAgi
+                bsr.w   GetBaseAtt
                 mulu.w  d2,d1
                 lsr.l   #3,d1
-                bsr.w   DecreaseCurrentAgi
+                bsr.w   DecreaseCurrentAtt
                 btst    #STATUSEFFECT_BIT_STUN,d3
                 beq.s   @Return
                 moveq   #1,d1

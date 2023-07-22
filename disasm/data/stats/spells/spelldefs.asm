@@ -124,64 +124,56 @@ tbl_SpellDefs:
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      0, 1
                 radius     0
-                power      50
+                power      15
                 
                 entry      BOOST|LV2    ; BOOST 2
                 mpCost     5
                 animation  BUFF1|VARIATION2
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      0, 1
-                radius     0
-                power      10
+                radius     1
+                power      15
 				
 				entry      BOOST|LV3    ; BOOST 3
                 mpCost     10
-                animation  BUFF1|VARIATION2
+                animation  BUFF1|VARIATION3
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
-                range      0, 2
+                range      0, 1
                 radius     2
-                power      10
+                power      15
                 
                 entry      SLOW         ; SLOW 1
                 mpCost     3
                 animation  DEBUFF1
                 properties TYPE_SUPPORT|AFFECTEDBYSILENCE
                 range      1, 1
-                radius     1
+                radius     0
                 power      15
                 
                 entry      SLOW|LV2     ; SLOW 2
-                mpCost     6
+                mpCost     15
                 animation  DEBUFF1|VARIATION2
-                properties TYPE_SUPPORT|AFFECTEDBYSILENCE
-                range      1, 2
-                radius     2
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
+                range      1, 3
+                radius     1
                 power      15
                 
                 entry      ATTACK           ; ATTACK 1
                 mpCost     7
                 animation  BUFF1
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
-                range      0, 1
+                range      1, 1
                 radius     0
-                power      5
+                power      15
 				
 				entry      ATTACK|LV2       ; ATTACK 2
-                mpCost     15
-                animation  BUFF1
-                properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
-                range      1, 3
-                radius     0
-                power      10
-				
-				entry      ATTACK|LV3       ; ATTACK 3
                 mpCost     20
                 animation  BUFF1
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
-                range      1, 3
+                range      1, 1
                 radius     1
-                power      12
-                
+                power      15
+								
                 entry      DISPEL           ; DISPEL 1
                 mpCost     5
                 animation  DEBUFF1
@@ -201,7 +193,7 @@ tbl_SpellDefs:
 				entry      DISPEL|LV3       ; DISPEL 3
                 mpCost     15
                 animation  DEBUFF1
-                properties TYPE_SUPPORT|AFFECTEDBYSILENCE
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     3
                 power      0
@@ -228,7 +220,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 3
                 radius     2
-                power      10
+                power      0
                 
                 entry      DESOUL       ; DESOUL 1
                 mpCost     8

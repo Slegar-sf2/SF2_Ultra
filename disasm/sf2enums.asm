@@ -205,6 +205,7 @@ STATUSEFFECT_SILENCE: equ $300
 STATUSEFFECT_SLOW: equ $C00
 STATUSEFFECT_BOOST: equ $3000
 STATUSEFFECT_ATTACK: equ $C000
+STATUSEFFECT_COMPROMISE: equ $E000
 
 ; ---------------------------------------------------------------------------
 
@@ -2159,6 +2160,7 @@ MESSAGE_BATTLE_USED_ITEM_MISS_AND_DESTROYED_START: equ $183
 MESSAGE_BATTLE_FOUND_GOLD_COINS: equ $189
 MESSAGE_BATTLE_RECEIVED_ITEM: equ $18B
 MESSAGE_BATTLE_DROPPED_ITEM: equ $18C
+MESSAGE_BATTLE_BOOST_SPELL_ATT_DECREASE: equ $10C9
 MESSAGE_END: equ $FFFF
 
 ; ---------------------------------------------------------------------------

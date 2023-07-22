@@ -249,33 +249,11 @@ byte_B2B6:
 @BattleMessage:
                 
                 bsr.w   AddStatusEffectSpellExp
-                jsr     GetBaseAgi
-            if (STANDARD_BUILD&SPELLS_REFRESH_STATUS_COUNTERS=1)
-                move.w  d1,d2
-            endif
+                jsr     GetBaseAgi            
                 mulu.w  #3,d1
-                lsr.l   #3,d1
-            if (STANDARD_BUILD&SPELLS_REFRESH_STATUS_COUNTERS=1)
-                rol.w   #4,d3           ; calculate difference between full and current BOOST increase values
-                mulu.w  d3,d2
-                lsr.l   #3,d2
-                sub.w   d2,d1
-            endif
+                lsr.l   #3,d1            
                 displayMessage #MESSAGE_BATTLE_BOOST_SPELL_AGI_INCREASE,d0,#0,d1 
-                                                        ; Message, Combatant, Item or Spell, Number
-                jsr     GetBaseDef
-            if (STANDARD_BUILD&SPELLS_REFRESH_STATUS_COUNTERS=1)
-                move.w  d1,d2
-            endif
-                mulu.w  #3,d1
-                lsr.l   #3,d1
-            if (STANDARD_BUILD&SPELLS_REFRESH_STATUS_COUNTERS=1)
-                mulu.w  d3,d2
-                lsr.l   #3,d2
-                sub.w   d2,d1
-            endif
-                displayMessage #MESSAGE_BATTLE_BOOST_SPELL_DEF_INCREASE,d0,#0,d1 
-                                                        ; Message, Combatant, Item or Spell, Number
+                                                        ; Message, Combatant, Item or Spell, Number          
                 rts
 
     ; End of function SpellEffect_Boost
@@ -300,10 +278,7 @@ SpellEffect_Slow:
                 move.w  d1,d3
                 ori.w   #STATUSEFFECT_SLOW,d1
                 jsr     SetStatusEffects
-                andi.w  #STATUSEFFECT_SLOW,d3
-            if (STANDARD_BUILD&SPELLS_REFRESH_STATUS_COUNTERS=1)
-                cmpi.w  #STATUSEFFECT_SLOW,d3 ; check if status counter is already at max value
-            endif
+                andi.w  #STATUSEFFECT_SLOW,d3            
                 beq.s   @WriteScriptCommands
                 moveq   #8,d2
                 bsr.w   DetermineSpellEffectiveness
@@ -321,33 +296,16 @@ byte_B350:
                 bsr.w   AddStatusEffectSpellExp
 WriteBattlesceneScript_SlowMessage:
                 
-                jsr     GetBaseAgi
-            if (STANDARD_BUILD&SPELLS_REFRESH_STATUS_COUNTERS=1)
-                move.w  d1,d2
-            endif
+                jsr     GetBaseDef            
                 mulu.w  #3,d1
-                lsr.l   #3,d1
-            if (STANDARD_BUILD&SPELLS_REFRESH_STATUS_COUNTERS=1)
-                rol.w   #6,d3           ; calculate difference between full and current SLOW increase values
-                mulu.w  d3,d2
-                lsr.l   #3,d2
-                sub.w   d2,d1
-            endif
-                displayMessage #MESSAGE_BATTLE_AGILITY_DECREASED_BY,d0,#0,d1 
-                                                        ; Message, Combatant, Item or Spell, Number
-                jsr     GetBaseDef
-            if (STANDARD_BUILD&SPELLS_REFRESH_STATUS_COUNTERS=1)
-                move.w  d1,d2
-            endif
-                mulu.w  #3,d1
-                lsr.l   #3,d1
-            if (STANDARD_BUILD&SPELLS_REFRESH_STATUS_COUNTERS=1)
-                mulu.w  d3,d2
-                lsr.l   #3,d2
-                sub.w   d2,d1
-            endif
+                lsr.l   #3,d1            
                 displayMessage #MESSAGE_BATTLE_DEFENSE_DECREASED_BY,d0,#0,d1 
                                                         ; Message, Combatant, Item or Spell, Number
+	            jsr     GetBaseAtt            
+                mulu.w  #3,d1
+                lsr.l   #3,d1 
+				displayMessage #MESSAGE_BATTLE_BOOST_SPELL_ATT_DECREASE,d0,#0,d1
+				
                 rts
 
     ; End of function SpellEffect_Slow
@@ -365,10 +323,7 @@ SpellEffect_Attack:
                 move.w  d1,d3
                 ori.w   #STATUSEFFECT_ATTACK,d1
                 jsr     SetStatusEffects
-                andi.w  #STATUSEFFECT_ATTACK,d3
-            if (STANDARD_BUILD&SPELLS_REFRESH_STATUS_COUNTERS=1)
-                cmpi.w  #STATUSEFFECT_ATTACK,d3 ; check if status counter is already at max value
-            endif
+                andi.w  #STATUSEFFECT_ATTACK,d3            
                 beq.s   @WriteScriptCommands
                 moveq   #8,d2
                 bsr.w   DetermineSpellEffectiveness
@@ -384,18 +339,9 @@ byte_B3E2:
 @BattleMessage:
                 
                 bsr.w   AddStatusEffectSpellExp
-                jsr     GetBaseAtt
-            if (STANDARD_BUILD&SPELLS_REFRESH_STATUS_COUNTERS=1)
-                move.w  d1,d2
-            endif
+                jsr     GetBaseAtt            
                 mulu.w  #3,d1
-                lsr.l   #3,d1
-            if (STANDARD_BUILD&SPELLS_REFRESH_STATUS_COUNTERS=1)
-                rol.w   #2,d3           ; calculate difference between full and current ATTACK increase values
-                mulu.w  d3,d2
-                lsr.l   #3,d2
-                sub.w   d2,d1
-            endif
+                lsr.l   #3,d1            
                 displayMessage #MESSAGE_BATTLE_ATTACK_SPELL_EFFECT,d0,#0,d1 
                                                         ; Message, Combatant, Item or Spell, Number
                 rts
@@ -1130,4 +1076,3 @@ SpellEffect_DemonBreath:
                 moveq   #CHANCE_TO_CRITICAL_DEMON_BREATH,d3 ; no chance to critical hit
 
     ; End of function SpellEffect_DemonBreath
-
