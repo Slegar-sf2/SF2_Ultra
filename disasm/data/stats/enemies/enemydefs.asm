@@ -861,12 +861,12 @@ tbl_EnemyDefs:
                     
                 unknownByte 33          ; 33: CHU_RAO
                 spellPower ENHANCED
-                level    65
-                maxHp    170
+                level    70
+                maxHp    200
                 maxMp    0
-                baseAtt  148
+                baseAtt  150
                 baseDef  126
-                baseAgi  190
+                baseAgi  170
                 baseMov  5
                 baseResistance ICE_WEAKNESS|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_SLOW|DOUBLE_1IN8|COUNTER_1IN8
@@ -876,7 +876,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    FLAME|LV3, &
+                    FLAME|LV4, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -986,12 +986,12 @@ tbl_EnemyDefs:
                     
                 unknownByte 38          ; 38: ZEON GUARD
                 spellPower ENHANCED
-                level    45
+                level    55
                 maxHp    130
-                maxMp    150
-                baseAtt  109
-                baseDef  54
-                baseAgi  64
+                maxMp    0
+                baseAtt  5
+                baseDef  106
+                baseAgi  68
                 baseMov  0
                 baseResistance STATUS_MAJOR
                 baseProwess    CRITICAL_SLOW|DOUBLE_1IN16|COUNTER_1IN16
@@ -1001,7 +1001,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    DEMON, &
+                    LASER, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2487,14 +2487,14 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 98: ZEON
                 spellPower ENHANCED
                 level    99
-                maxHp    900
-                maxMp    180
-                baseAtt  102
-                baseDef  120
+                maxHp    950
+                maxMp    100
+                baseAtt  166
+                baseDef  122
                 baseAgi  203
                 baseMov  0
                 baseResistance STATUS_IMMUNITY
-                baseProwess    CRITICAL125_1IN4|DOUBLE_1IN4|COUNTER_1IN4
+                baseProwess    CRITICAL125_1IN4|DOUBLE_1IN4|COUNTER_1IN8
                 items &
                     NOTHING, &
                     NOTHING, &
@@ -2502,7 +2502,7 @@ tbl_EnemyDefs:
                     NOTHING
                 spells &
                     DEMON|LV2, &
-                    NOTHING, &
+                    AURA|LV4, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
@@ -2511,11 +2511,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 99: JAR
                 spellPower ENHANCED
-                level    35
-                maxHp    59
+                level    39
+                maxHp    85
                 maxMp    0
-                baseAtt  35
-                baseDef  70
+                baseAtt  60
+                baseDef  72
                 baseAgi  46
                 baseMov  7
                 baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
@@ -2787,16 +2787,16 @@ tbl_EnemyDefs:
 				unknownByte 0           ; 110: DAVA
                 spellPower ENHANCED
                 level    80
-                maxHp    390
-                maxMp    100
-                baseAtt  90
+                maxHp    355
+                maxMp    80
+                baseAtt  115
                 baseDef  113
                 baseAgi  185
                 baseMov  6
                 baseResistance WIND_MAJOR|LIGHTNING_MINOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN4
                 items &
-                    FREEZE_STAFF|EQUIPPED, &
+                    ICE_ROD|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2811,22 +2811,22 @@ tbl_EnemyDefs:
 				
 				unknownByte 0           ; 111: DOLL
                 spellPower REGULAR
-                level    23
-                maxHp    10
-                maxMp    0
-                baseAtt  42
-                baseDef  34
-                baseAgi  7
-                baseMov  6
-                baseResistance ICE_MAJOR
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
+                level    63
+                maxHp    107
+                maxMp    50
+                baseAtt  147
+                baseDef  120
+                baseAgi  78
+                baseMov  7
+                baseResistance ICE_MAJOR|FIRE_WEAKNESS|STATUS_IMMUNITY
+                baseProwess    CRITICAL150_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     NOTHING,&
                     NOTHING, &
                     NOTHING, &
                     NOTHING
                 spells &
-                    FREEZE|LV2, &
+                    ICE|LV4, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

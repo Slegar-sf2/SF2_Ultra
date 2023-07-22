@@ -123,16 +123,16 @@ tbl_SpellDefs:
                 animation  BUFF1
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      0, 1
-                radius     1
-                power      5
+                radius     0
+                power      50
                 
                 entry      BOOST|LV2    ; BOOST 2
                 mpCost     5
                 animation  BUFF1|VARIATION2
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      0, 1
-                radius     2
-                power      5
+                radius     0
+                power      10
 				
 				entry      BOOST|LV3    ; BOOST 3
                 mpCost     10
@@ -396,7 +396,7 @@ tbl_SpellDefs:
                 properties TYPE_SPECIAL
                 range      1, 2
                 radius     0
-                power      10
+                power      15
                 
                 entry      HEALIN       ; HEALIN 1
                 mpCost     5
@@ -453,6 +453,14 @@ tbl_SpellDefs:
                 range      1, 1
                 radius     0
                 power      49
+				
+				entry      FLAME|LV4    ; FLAME 4
+                mpCost     0
+                animation  FLAME_BREATH|VARIATION4
+                properties TYPE_ATTACK
+                range      1, 1
+                radius     0
+                power      69
                 
                 entry      SNOW         ; SNOW 1
                 mpCost     0
@@ -555,15 +563,15 @@ tbl_SpellDefs:
                 animation  PRISM_LASER
                 properties TYPE_ATTACK
                 range      0, 0
-                radius     3
-                power      20
+                radius     0
+                power      0
 				
 				entry      LASER|LV2      ; LASER 2
-                mpCost     25
-                animation  PRISM_LASER
+                mpCost     20
+                animation  PRISM_LASER|VARIATION2
                 properties TYPE_ATTACK
-                range      0, 6
-                radius     1
+                range      1, 6
+                radius     2
                 power      40
 								                
                 entry      KATON        ; KATON 1

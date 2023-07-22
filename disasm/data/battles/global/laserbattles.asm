@@ -42,7 +42,7 @@ tbl_LaserEnemyFacingForBattle_VersusZeon:
                 enemyFacing NONE
                 enemyFacing NONE
                 enemyFacing RIGHT
-                enemyFacing NONE
+                enemyFacing DOWN
                 enemyFacing NONE
                 enemyFacing LEFT
                 enemyFacing NONE
@@ -69,7 +69,7 @@ tbl_LaserEnemyFacingForBattle_VersusAllBosses:
                 enemyFacing LEFT
 				
 tbl_LaserEnemyFacingForBattle_VersusDava:
-                enemyFacing DOWN
+                enemyFacing NONE
                 enemyFacing NONE
                 enemyFacing NONE
                 enemyFacing NONE
@@ -80,9 +80,7 @@ tbl_LaserEnemyFacingForBattle_VersusDava:
                 enemyFacing NONE
                 enemyFacing RIGHT
                 enemyFacing RIGHT
-                enemyFacing RIGHT
-				enemyFacing RIGHT
+                enemyFacing LEFT
 				enemyFacing DOWN
 				enemyFacing DOWN
-				enemyFacing DOWN
-				enemyFacing DOWN
+				enemyFacing NONE
