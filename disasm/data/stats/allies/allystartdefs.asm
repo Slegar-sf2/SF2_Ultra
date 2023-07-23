@@ -18,8 +18,8 @@ tbl_AllyStartDefs:
                 startItems &
                     ACHILLES_SWORD|EQUIPPED, &
                     MANA, &
-                    NOTHING, &
-                    NOTHING
+                    ELIXIR, &
+                    POKEMON
                 
                 startClass PRST         ; 1: SARAH
                 startLevel 32
@@ -177,7 +177,7 @@ tbl_AllyStartDefs:
                 startLevel 32
                 startItems &
                     GREAT_SWORD|EQUIPPED, &
-                    NOTHING, &
+                    STORM, &
                     NOTHING, &
                     NOTHING
                 
@@ -185,7 +185,7 @@ tbl_AllyStartDefs:
                 startLevel 32
                 startItems &
                     INDRA_STAFF|EQUIPPED, &
-                    NOTHING, &
+                    CHICKEN, &
                     NOTHING, &
                     NOTHING
                 
@@ -208,7 +208,7 @@ tbl_AllyStartDefs:
                 startClass BRSK         ; 32: GYAN
                 startLevel 32
                 startItems &
-                    NOTHING, &
+                    STRIKE, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -217,7 +217,7 @@ tbl_AllyStartDefs:
                 startLevel 32
                 startItems &
                     BRASS_KNUCKLES|EQUIPPED, &
-                    NOTHING, &
+                    BOMB, &
                     NOTHING, &
                     NOTHING
                 

@@ -48,7 +48,7 @@ tbl_SpellNames: spellName "HEAL"
             if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
                 spellName "RIPSAW"
                 spellName "BLACK_MAGIC"
-                spellName "spell46"
+                spellName "TORNADO"
                 spellName "spell47"
                 spellName "spell48"
                 spellName "spell49"

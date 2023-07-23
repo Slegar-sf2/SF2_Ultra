@@ -52,7 +52,7 @@ tbl_SpellElements:
             if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
                 spellElement WIND       ; 44: RIPSAW
                 spellElement NEUTRAL    ; 45: BLACK_MAGIC
-                spellElement NEUTRAL    ; 46: 
+                spellElement WIND       ; 46: TORNADO
                 spellElement NEUTRAL    ; 47: 
                 spellElement NEUTRAL    ; 48: 
                 spellElement NEUTRAL    ; 49: 

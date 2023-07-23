@@ -48,7 +48,7 @@ tbl_SpellNames: spellName "Heal"
                 if (EXPANDED_ITEMS_AND_SPELLS=1)
                     spellName "Ripsaw"
                     spellName "Black", 13, "Magic"
-                    spellName "spell46"
+                    spellName "Tornado"
                     spellName "spell47"
                     spellName "spell48"
                     spellName "spell49"

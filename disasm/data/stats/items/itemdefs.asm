@@ -29,7 +29,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        15
+                price        25
                 itemType     CONSUMABLE
                 useSpell     HEALIN
                 equipEffects NONE, 0, &
@@ -40,9 +40,9 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        200
+                price        100
                 itemType     CONSUMABLE
-                useSpell     HEALIN|LV2
+                useSpell     HEAL
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
@@ -53,7 +53,7 @@ tbl_ItemDefs:
                 range        0, 1
                 price        300
                 itemType     CONSUMABLE
-                useSpell     HEALIN|LV3
+                useSpell     HEAL|LV3
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
@@ -84,7 +84,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        50
+                price        150
                 itemType     CONSUMABLE
                 useSpell     POWDER
                 equipEffects NONE, 0, &
@@ -95,7 +95,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        400
+                price        500
                 itemType     CONSUMABLE
                 useSpell     HEAL|LV4
                 equipEffects NONE, 0, &
@@ -106,9 +106,9 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        300
+                price        499
                 itemType     CONSUMABLE
-                useSpell     G_TEAR|LV2
+                useSpell     G_TEAR
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
@@ -128,7 +128,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        500
+                price        800
                 itemType     CONSUMABLE
                 useSpell     POWER
                 equipEffects NONE, 0, &
@@ -139,7 +139,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        500
+                price        750
                 itemType     CONSUMABLE
                 useSpell     GUARD
                 equipEffects NONE, 0, &
@@ -150,7 +150,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        500
+                price        550
                 itemType     CONSUMABLE
                 useSpell     SPEED
                 equipEffects NONE, 0, &
@@ -172,7 +172,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        500
+                price        540
                 itemType     CONSUMABLE
                 useSpell     HEALTH
                 equipEffects NONE, 0, &
@@ -183,7 +183,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        500
+                price        700
                 itemType     CONSUMABLE
                 useSpell     HANNY
                 equipEffects NONE, 0, &
@@ -194,7 +194,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        500
+                price        800
                 itemType     CONSUMABLE
                 useSpell     BRAVE
                 equipEffects NONE, 0, &
@@ -216,7 +216,7 @@ tbl_ItemDefs:
                 equipFlags   SDMN|HERO|KNTE|PLDN|PGNT|WARR|GLDT|BRN|ACHR|SNIP|BDMN|BDBT|WFMN|WFBR|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN|SWOR|STAR|PLDN2
                 equipFlags2  NONE
                 range        0, 0
-                price        199
+                price        250
                 itemType     RING|BREAKABLE
                 useSpell     NOTHING
                 equipEffects INCREASE_DEF, 4, &
@@ -1443,7 +1443,7 @@ tbl_ItemDefs:
                 itemType     WEAPON|RARE|BREAKABLE
                 useSpell     BLACK_MAGIC|LV2
                 equipEffects INCREASE_ATT, 10, &
-                             STATUS_MUDDLE2, 0, &
+                             NONE, 0, &
                              NONE, 0
                 
                 ; 129: ICE_ROD
@@ -1478,68 +1478,68 @@ tbl_ItemDefs:
                              NONE, 0, &
                              NONE, 0
                 
-                ; 132: 
+                ; 132: ELIXIR
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
+                range        0, 1
+                price        800
+                itemType     CONSUMABLE
+                useSpell     G_TEAR|LV2
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
                 
-                ; 133: 
+                ; 133: BOMB
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
+                range        0, 1
+                price        500
+                itemType     RARE|CONSUMABLE
+                useSpell     ATOM|LV2
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
                 
-                ; 134: 
+                ; 134: STRIKE
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
+                range        0, 1
+                price        1000
+                itemType     RARE|CONSUMABLE
+                useSpell     ATLAS|LV2
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
                 
-                ; 135: 
+                ; 135: CHICKEN
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
+                price        600
+                itemType     CONSUMABLE
+                useSpell     HEALTH
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
                 
-                ; 136: 
+                ; 136: STORM
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
+                range        0, 1
+                price        1050
+                itemType     RARE|CONSUMABLE
+                useSpell     TORNADO
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
                 
-                ; 137: 
+                ; 137: POKEMON
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
+                range        0, 1
+                price        1000
+                itemType     RARE|CONSUMABLE
+                useSpell     DAO|LV3
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0

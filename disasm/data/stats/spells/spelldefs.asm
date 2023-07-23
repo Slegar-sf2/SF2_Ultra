@@ -740,7 +740,7 @@ tbl_SpellDefs:
                 properties TYPE_HEAL|TARGET_TEAMMATES
                 range      0, 1
                 radius     0
-                power      10
+                power      20
                 
                 entry      G_TEAR|LV2   ; G.TEAR 2
                 mpCost     0
@@ -748,7 +748,7 @@ tbl_SpellDefs:
                 properties TYPE_HEAL|TARGET_TEAMMATES
                 range      0, 1
                 radius     0
-                power      20
+                power      30
                 
                 entry      HANNY        ; HANNY 1
                 mpCost     0
@@ -965,3 +965,19 @@ tbl_SpellDefs:
                 range      1, 7
                 radius     0
                 power      40
+				
+				entry      TORNADO               ; TORNADO
+                mpCost     16
+                animation  BLAST|VARIATION4
+                properties TYPE_ATTACK
+                range      1, 2
+                radius     0
+                power      38
+				
+				entry      TORNADO|LV2           ; TORNADO 2
+                mpCost     32
+                animation  BLAST|VARIATION4
+                properties TYPE_ATTACK
+                range      1, 2
+                radius     0
+                power      77

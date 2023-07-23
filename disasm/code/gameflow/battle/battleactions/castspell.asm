@@ -69,7 +69,7 @@ rjt_SpellEffects:
             if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
                 dc.w SpellEffect_Blast-rjt_SpellEffects     ; RIPSAW
                 dc.w SpellEffect_Freeze-rjt_SpellEffects    ; BLACK_MAGIC
-                dc.w SpellEffect_None-rjt_SpellEffects       ; spell46
+                dc.w SpellEffect_Blast-rjt_SpellEffects       ; TORNADO
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell47
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell48
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell49
@@ -541,7 +541,7 @@ SpellEffect_DrainMp:
                 module
                 move.b  (a5),d0
                 jsr     GetCurrentMp
-                moveq   #3,d0
+                moveq   #20,d0
                 jsr     (GenerateRandomOrDebugNumber).w
                 addq.w  #3,d0
                 cmp.b   d0,d1
@@ -587,6 +587,7 @@ byte_B642:
 byte_B66C:
                 
                 displayMessage d1,d0,#0,d2 ; Message, Combatant, Item or Spell, Number
+				bra.w   CalculateSpellDamage
                 rts
 
     ; End of function SpellEffect_DrainMp

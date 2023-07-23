@@ -163,7 +163,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
                 mov 5                   ; 31: RDBN
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_MINOR
                 moveType   REGULAR
                 prowess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN8
                 
@@ -180,7 +180,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
                     
                 mov 6                   ; 34: BRSK
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_MINOR
                 moveType   REGULAR
                 prowess    CRITICAL_STUN|DOUBLE_1IN32|COUNTER_1IN16
                     

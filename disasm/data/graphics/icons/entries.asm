@@ -134,7 +134,13 @@ Icon179:        incbin "data/graphics/icons/icon179.bin"
 Icon180:        incbin "data/graphics/icons/icon180.bin"
 Icon181:        incbin "data/graphics/icons/icon181.bin"
 Icon182:        incbin "data/graphics/icons/icon182.bin"
-              rept 124
+Icon183:        incbin "data/graphics/icons/icon183.bin"
+Icon184:        incbin "data/graphics/icons/icon184.bin"
+Icon185:        incbin "data/graphics/icons/icon185.bin"
+Icon186:        incbin "data/graphics/icons/icon186.bin"
+Icon187:        incbin "data/graphics/icons/icon187.bin"
+Icon188:        incbin "data/graphics/icons/icon188.bin"
+              rept 118
                 incbin "data/graphics/icons/icon145.bin"
               endr
             endif
@@ -201,8 +207,9 @@ Icon171:        incbin "data/graphics/icons/icon171.bin"
 Icon172:        incbin "data/graphics/icons/icon172.bin"
 Icon173:        incbin "data/graphics/icons/icon173.bin"
 Icon174:        incbin "data/graphics/icons/icon174.bin"
-Icon175:        incbin "data/graphics/icons/icon175.bin"				
-                    rept 17
+Icon175:        incbin "data/graphics/icons/icon175.bin"
+Icon189:        incbin "data/graphics/icons/icon189.bin"				
+                    rept 16
                         incbin "data/graphics/icons/icon145.bin"
                     endr
                     incbin "data/graphics/icons/icon146.bin"    ; Jewel of Light

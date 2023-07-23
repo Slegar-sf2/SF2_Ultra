@@ -464,7 +464,7 @@
 01CF=DEF-CON No. {#} has been{N}implemented.{D3}
 01D0=Oh! I have a good idea.{N}Let's listen to music!{W1}
 01D1=And more...{W1}
-01D2=Game over!{W1}
+01D2=To Be Continued..{W1}
 01D3=Welcome to the fairy woods{N}special stage!{W2}
 01D4=How quickly can you defeat{N}all the hidden monsters?{W2}
 01D5=Now, set a new record.{W2}
