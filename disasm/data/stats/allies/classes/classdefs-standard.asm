@@ -197,7 +197,7 @@ tbl_ClassDefs:
                 mov 6                   ; 37: MONK
                 resistance WIND_MINOR|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_IMMUNITY
                 moveType   REGULAR
-                prowess    CRITICAL_SLOW|DOUBLE_1IN32|COUNTER_1IN8
+                prowess    CRITICAL_SLEEP|DOUBLE_1IN32|COUNTER_1IN8
                     
                 mov 6                   ; 38: 
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE

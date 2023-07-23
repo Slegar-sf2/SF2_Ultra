@@ -249,10 +249,9 @@ byte_B2B6:
 @BattleMessage:
                 
                 bsr.w   AddStatusEffectSpellExp
-                jsr     GetBaseAgi            
-                mulu.w  #3,d1
-                lsr.l   #3,d1            
-                displayMessage #MESSAGE_BATTLE_BOOST_SPELL_AGI_INCREASE,d0,#0,d1 
+                jsr     GetBaseDef                            
+                move.w  #10,d1            
+                displayMessage #MESSAGE_BATTLE_BOOST_SPELL_DEF_INCREASE,d0,#0,d1 
                                                         ; Message, Combatant, Item or Spell, Number          
                 rts
 

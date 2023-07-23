@@ -87,7 +87,7 @@ GetSpellAnimation:
                 
 @UseItem:       module
                 move.w  BATTLEACTION_OFFSET_ITEM_OR_SPELL(a3),d1
-                bsr.w   GetEquipmentType    ; ccr zero-bit set if neither a weapon or a ring
+                ;bsr.w   GetEquipmentType    ; ccr zero-bit set if neither a weapon or a ring
                 beq.s   @Return
                 
                 bsr.w   GetItemDefAddress

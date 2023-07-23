@@ -1494,7 +1494,7 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        0, 1
                 price        500
-                itemType     RARE|CONSUMABLE
+                itemType     CONSUMABLE
                 useSpell     ATOM|LV2
                 equipEffects NONE, 0, &
                              NONE, 0, &
@@ -1505,7 +1505,7 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        0, 1
                 price        1000
-                itemType     RARE|CONSUMABLE
+                itemType     CONSUMABLE
                 useSpell     ATLAS|LV2
                 equipEffects NONE, 0, &
                              NONE, 0, &
@@ -1527,7 +1527,7 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        0, 1
                 price        1050
-                itemType     RARE|CONSUMABLE
+                itemType     CONSUMABLE
                 useSpell     TORNADO
                 equipEffects NONE, 0, &
                              NONE, 0, &
@@ -1538,7 +1538,7 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        0, 1
                 price        1000
-                itemType     RARE|CONSUMABLE
+                itemType     CONSUMABLE
                 useSpell     DAO|LV3
                 equipEffects NONE, 0, &
                              NONE, 0, &

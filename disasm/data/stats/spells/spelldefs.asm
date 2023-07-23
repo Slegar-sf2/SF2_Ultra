@@ -119,28 +119,28 @@ tbl_SpellDefs:
                 power      0
                 
                 entry      BOOST        ; BOOST 1
-                mpCost     2
+                mpCost     10
                 animation  BUFF1
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      0, 1
                 radius     0
-                power      15
+                power      10
                 
                 entry      BOOST|LV2    ; BOOST 2
-                mpCost     5
+                mpCost     20
                 animation  BUFF1|VARIATION2
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      0, 1
                 radius     1
-                power      15
+                power      10
 				
 				entry      BOOST|LV3    ; BOOST 3
-                mpCost     10
+                mpCost     35
                 animation  BUFF1|VARIATION3
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      0, 1
                 radius     2
-                power      15
+                power      10
                 
                 entry      SLOW         ; SLOW 1
                 mpCost     3

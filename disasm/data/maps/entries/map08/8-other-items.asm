@@ -3,4 +3,5 @@
 ; 0x9BBE0..0x9BBEA : 
                 mapItem 6, 22, 144, BRIGHT_HONEY
                 mapItem 20, 14, 145, MITHRIL
+				mapItem 15, 6, 239, IRON_ROD
                 endWord

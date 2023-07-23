@@ -37,29 +37,23 @@ tbl_ShopInventories:
                               SHORT_KNIFE, &
 							  HELMET
                 
-                ; Weapon shop 3
-                shopInventory SHORT_SWORD, &
-                              MIDDLE_SWORD, &
-                              BRONZE_LANCE, &
+                ; Weapon shop 3 ; МАГАЗИН( ГДЕ МЕЙ )
+                shopInventory MIDDLE_SWORD, &
                               SPEAR, &
-                              SHORT_AXE, &
-                              HAND_AXE, &                              
+                              HAND_AXE, &
                               SHORT_ROD, &
-                              SHORT_KNIFE, &
                               DAGGER, &
-                              IRON_ARROW, &
-							  HELMET
+                              IRON_ARROW
+							  
                 
                 ; Weapon shop 4
                 shopInventory MIDDLE_SWORD, &
                               LONG_SWORD, &
                               BRONZE_LANCE, &
                               SPEAR, &
-                              SHORT_AXE, &
                               HAND_AXE, &
                               SHORT_ROD, &
                               BRONZE_ROD, &
-                              SHORT_KNIFE, &
                               DAGGER, &
                               IRON_ARROW, &
 							  HELMET
@@ -217,8 +211,8 @@ tbl_ShopInventories:
                               ANTIDOTE, &
                               ANGEL_WING
                 
-                ; SHOP_INDEX: 18
-                shopInventory MEDICAL_HERB, &
+                ; SHOP_INDEX: 18 ; МЕЙ 
+                shopInventory MANA, &
                               HEALING_SEED, &
                               HEALING_DROP, &
                               ANTIDOTE, &
@@ -314,17 +308,9 @@ tbl_ShopInventories:
                               ANGEL_WING
 				
 				; SHOP_INDEX: 30  $1E GUARDIANA
-                shopInventory SHORT_SWORD, &
-                              MIDDLE_SWORD, &
-                              BRONZE_LANCE, &                              
-                              SHORT_AXE, &
-                              HAND_AXE, &
-                              WOODEN_ROD, &
-                              SHORT_ROD, &
-							  SPEAR, &
-                              SHORT_KNIFE, &
-							  HELMET, &
-                              ANGEL_WING
+                shopInventory BOMB, &
+							  HELMET
+                              
 							  
 				; SHOP_INDEX: 31  $1F RINDO 1
                 shopInventory SHORT_ROD, &

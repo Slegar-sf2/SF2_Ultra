@@ -33,10 +33,10 @@ AllyStats00:
                     51, BOLT|LV4
                 
                 forClass  HERO
-                hpGrowth  55, 102, LINEAR
+                hpGrowth  55, 120, LINEAR
                 mpGrowth  16, 37, EARLY
-                attGrowth 45, 80, LINEAR
-                defGrowth 36, 93, LINEAR
+                attGrowth 45, 95, LINEAR
+                defGrowth 36, 96, LINEAR
                 agiGrowth 32, 57, EARLYANDLATE
                 useFirstSpellList
                 

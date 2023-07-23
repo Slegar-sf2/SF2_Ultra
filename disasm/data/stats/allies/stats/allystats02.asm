@@ -10,10 +10,10 @@ AllyStats02:    forClass  KNTE
                 spellList 
                     
                 forClass  PLDN
-                hpGrowth  50, 110, LINEAR
+                hpGrowth  50, 122, LINEAR
                 mpGrowth  0, 0, NONE
-                attGrowth 44, 74, LINEAR
-                defGrowth 38, 78, LINEAR
+                attGrowth 44, 84, LINEAR
+                defGrowth 38, 80, LINEAR
                 agiGrowth 35, 65, LINEAR
                 spellList 
                     

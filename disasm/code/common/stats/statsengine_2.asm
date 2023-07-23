@@ -991,14 +991,13 @@ ApplyStatusEffectsOnStats:
                 mulu.w  d2,d1
                 lsr.l   #3,d1
                 bsr.w   IncreaseCurrentAtt
-                move.w  d3,d2
-                andi.w  #STATUSEFFECT_BOOST,d2
-                rol.w   #4,d2                
-                bsr.w   GetBaseAgi
-                mulu.w  d2,d1
-                lsr.l   #3,d1
-                bsr.w   IncreaseCurrentAgi
-                move.w  d3,d2
+                move.w  d3,d2                   ;copy the current list of status effects into d2
+                andi.w  #STATUSEFFECT_BOOST,d2 ;isolate the boost counter (a value between 0-3, representing turns remaining of boost)
+                tst.w   d2                     ;If d2=0, then the character is not boosted
+                beq.s   @NoBoost               ;Do not increase stats if the character is not boosted
+                move.w  #10,d1                 ;Move 15 into d1 to increase defense by a static 15
+                bsr.w   IncreaseCurrentDef     ;In: d1=amount to increase current defense
+                @NoBoost:
                 andi.w  #STATUSEFFECT_SLOW,d2
                 rol.w   #6,d2
                 bsr.w   GetBaseDef
