@@ -298,14 +298,13 @@ tbl_ShopInventories:
 							  MANA
 				
 				; SHOP_INDEX: 30  $1E GUARDIANA
-                shopInventory BOMB, &
+                shopInventory BLIZZARD, &
 							  HELMET
                               
 							  
 				; SHOP_INDEX: 31  $1F RINDO 1
-                shopInventory BOMB, &
-							  STRIKE, &
-                              POKEMON							  
+                shopInventory BOMB
+							  					  
                               			  
                 ; SHOP_INDEX: 32  $20 RINDO 2
                 shopInventory HEALING_WATER, &

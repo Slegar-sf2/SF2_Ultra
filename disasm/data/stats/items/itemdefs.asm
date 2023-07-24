@@ -801,7 +801,7 @@ tbl_ItemDefs:
                 range        1, 1
                 price        16000
                 itemType     WEAPON|RARE|CURSED|BREAKABLE
-                useSpell     DESOUL
+                useSpell     TORNADO
                 equipEffects INCREASE_ATT, 50, &
                              DECREASE_DEF, 5, &
                              NONE, 0
@@ -1493,7 +1493,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        500
+                price        770
                 itemType     CONSUMABLE
                 useSpell     ATOM|LV2
                 equipEffects NONE, 0, &
@@ -1544,13 +1544,13 @@ tbl_ItemDefs:
                              NONE, 0, &
                              NONE, 0
                 
-                ; 138: 
+                ; 138: BLIZZARD
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
+                range        0, 1
+                price        500
+                itemType     CONSUMABLE
+                useSpell     ICE
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
