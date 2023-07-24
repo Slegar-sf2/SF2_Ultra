@@ -4,4 +4,5 @@
                 mapItem 44, 19, 195, DEMON_ROD
 				mapItem 60, 15, 235, CHICKEN
 				mapItem 34, 17, 236, BOMB
+				mapItem 37, 3, 251, ELIXIR
                 endWord

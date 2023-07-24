@@ -2388,7 +2388,7 @@ tbl_EnemyDefs:
                 spellPower ENHANCED
                 level    58
                 maxHp    200
-                maxMp    0
+                maxMp    32
                 baseAtt  72
                 baseDef  110
                 baseAgi  190
@@ -2401,7 +2401,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    NOTHING, &
+                    DESOUL, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

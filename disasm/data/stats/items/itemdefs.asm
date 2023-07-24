@@ -306,7 +306,7 @@ tbl_ItemDefs:
                 range        0, 0
                 price        5000
                 itemType     RING|RARE|CURSED|BREAKABLE
-                useSpell     BOLT|LV2
+                useSpell     THUNDR|LV2
                 equipEffects INCREASE_ATT, 15, &
                              NONE, 0, &
                              NONE, 0
@@ -1313,14 +1313,14 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 117: Arm of Golem
-                equipFlags   NONE
+                equipFlags   GLM
                 equipFlags2  NONE
-                range        0, 0
+                range        1, 1
                 price        0
-                itemType     RARE|UNSELLABLE
+                itemType     WEAPON|RARE|UNSELLABLE
                 useSpell     NOTHING
-                equipEffects NONE, 0, &
-                             NONE, 0, &
+                equipEffects INCREASE_ATT, 12, &
+                             INCREASE_MOV, 3, &
                              NONE, 0
                 
                 ; 118: Pegasus Wing

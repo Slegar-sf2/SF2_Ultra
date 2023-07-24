@@ -1,7 +1,7 @@
 
 ; ASM FILE data\maps\entries\map45\6-warp-events.asm :
 ; 0xB2C90..0xB2CBA : 
-                mWarp 255, 44
+                mWarp 255, 46
                   warpNoScroll
                   warpMap    MAP_OVERWORLD_GRANS_NORTH_SHORE
                   warpDest   2, 27

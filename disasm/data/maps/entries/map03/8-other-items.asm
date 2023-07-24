@@ -4,4 +4,5 @@
                 mapItem 59, 17, 128, HEALING_SEED
 				mapItem 3, 22, 132, MANA
 				mapItem 11, 10, 237, ANGEL_WING
+				mapItem 26, 13, 248, BRAVE_APPLE
                 endWord

@@ -30,7 +30,7 @@ Map63_EntityEvent0:
 loc_5C9D2:
                 
                 moveq   #ITEM_ARM_OF_GOLEM,d0
-                jsr     RemoveItemFromInventory
+                ;jsr     RemoveItemFromInventory
                 script  cs_5CBB4
 Map63_DefaultEntityEvent:
                 

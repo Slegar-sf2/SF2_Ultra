@@ -24,7 +24,7 @@
                 mWarp 2, 27
                   warpNoScroll
                   warpMap    MAP_DOJO
-                  warpDest   13, 43
+                  warpDest   13, 45
                   warpFacing UP
                 mWarp 0, 255
                   warpScroll LEFT

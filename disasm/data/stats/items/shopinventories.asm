@@ -191,6 +191,7 @@ tbl_ShopInventories:
                 ; SHOP_INDEX: 18 ; МЕЙ 
                 shopInventory MANA, &
                               HEALING_SEED, &
+							  MEDICAL_HERB, &
                               HEALING_DROP, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
@@ -200,6 +201,7 @@ tbl_ShopInventories:
                 shopInventory MANA, &
                               HEALING_SEED, &
                               HEALING_DROP, &
+							  MEDICAL_HERB, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
                               ANGEL_WING
