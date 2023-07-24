@@ -14,10 +14,10 @@ AllyStats10:    forClass  BDMN
                     55, BLAST|LV4
                     
                 forClass  BDBT
-                hpGrowth  48, 110, LATE
+                hpGrowth  48, 120, LATE
                 mpGrowth  6, 26, EARLY
-                attGrowth 44, 73, LINEAR
-                defGrowth 28, 80, LINEAR
+                attGrowth 44, 84, LINEAR
+                defGrowth 28, 70, LINEAR
                 agiGrowth 41, 67, LINEAR
                 useFirstSpellList
                     

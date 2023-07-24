@@ -1,7 +1,7 @@
 
 ; ASM FILE data\stats\allies\stats\allystats02.asm :
 ; 0x1EE36B..0x1EE39E : Ally stats 02
-AllyStats02:    forClass  KNTE
+AllyStats02:    forClass  KNTE ;CHESTER
                 hpGrowth  14, 50, LATE
                 mpGrowth  0, 0, NONE
                 attGrowth 6, 44, LINEAR

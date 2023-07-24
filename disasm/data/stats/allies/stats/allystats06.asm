@@ -1,7 +1,7 @@
 
 ; ASM FILE data\stats\allies\stats\allystats06.asm :
 ; 0x1EE454..0x1EE476 : Ally stats 06
-AllyStats06:    forClass  MAGE
+AllyStats06:    forClass  MAGE ;NATASHA
                 hpGrowth  15, 45, LATE
                 mpGrowth  7, 32, EARLY
                 attGrowth 4, 24, LINEAR
@@ -22,9 +22,9 @@ AllyStats06:    forClass  MAGE
 					51, BLAST|LV4
                     
                 forClass  WIZ
-                hpGrowth  45, 95, LATE
+                hpGrowth  45, 115, LATE
                 mpGrowth  32, 80, LINEAR
-                attGrowth 24, 40, LINEAR
+                attGrowth 24, 48, LINEAR
                 defGrowth 24, 62, LINEAR
                 agiGrowth 42, 83, EARLYANDLATE
                 useFirstSpellList

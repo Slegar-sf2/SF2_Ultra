@@ -51,71 +51,63 @@ tbl_ShopInventories:
                               LONG_SWORD, &
                               BRONZE_LANCE, &
                               SPEAR, &
-                              HAND_AXE, &
-                              SHORT_ROD, &
+                              HAND_AXE, &                              
                               BRONZE_ROD, &
                               DAGGER, &
                               IRON_ARROW, &
 							  HELMET
                 
                 ; Weapon shop 5
-                shopInventory MIDDLE_SWORD, &
-                              LONG_SWORD, &
+                shopInventory LONG_SWORD, &
                               SPEAR, &
-                              STEEL_LANCE, &
-                              HAND_AXE, &
-                              MIDDLE_AXE, &
-                              SHORT_ROD, &
-                              BRONZE_ROD, &
-                              DAGGER, &
+                              STEEL_LANCE, &                              
+                              MIDDLE_AXE, &                              
+                              BRONZE_ROD, &                              
                               KNIFE, &                              
                               IRON_ARROW, &
+							  STEEL_ARROW, &
 							  HELMET
                 
                 ; Weapon shop 6
                 shopInventory LONG_SWORD, &
-                              STEEL_SWORD, &
-                              SPEAR, &
+                              STEEL_SWORD, &                              
                               STEEL_LANCE, &
                               MIDDLE_AXE, &
                               POWER_AXE, &
                               IRON_ROD, &
                               POWER_STICK, &
                               KNIFE, &
-                              THIEVES_DAGGER, &
-                              IRON_ARROW, &
+                              THIEVES_DAGGER, &                              
                               STEEL_ARROW, &
 							  HELMET
                 
                 ; Weapon shop 7
-                shopInventory BROAD_SWORD, &
+                shopInventory STEEL_SWORD, &
+							  BROAD_SWORD, &
+							  POWER_AXE, &
                               BATTLE_AXE, &
                               POWER_SPEAR, &
-                              ROBIN_ARROW, &
-                              BATON, &
+                              ROBIN_ARROW, &                              
                               LEATHER_GLOVE, &
 							  HELMET
                 
                 ; Weapon shop 8
                 shopInventory BROAD_SWORD, &
                               BUSTER_SWORD, &
+							  POWER_SPEAR, &
                               HEAVY_LANCE, &
                               LARGE_AXE, &
                               ROBIN_ARROW, &
-                              ASSAULT_SHELL, &
-                              BATON, &
-                              GUARDIAN_STAFF, &
-                              LEATHER_GLOVE, &
+                              ASSAULT_SHELL, &                              
+                              GUARDIAN_STAFF, &                              
                               POWER_GLOVE, &
 							  HELMET
                 
                 ; Weapon shop 9
-                shopInventory BROAD_SWORD, &
-                              BUSTER_SWORD, &
+                shopInventory BUSTER_SWORD, &
                               HEAVY_LANCE, &
                               JAVELIN, &
-                              LARGE_AXE, &
-                              ROBIN_ARROW, &
+                              LARGE_AXE, &                              
                               ASSAULT_SHELL, &
                               GUARDIAN_STAFF, &
                               INDRA_STAFF, &
@@ -124,73 +116,58 @@ tbl_ShopInventories:
                 
                 ; Weapon shop 10
                 shopInventory BUSTER_SWORD, &
-                              GREAT_SWORD, &
-                              HEAVY_LANCE, &
+                              GREAT_SWORD, &                              
                               JAVELIN, &
                               LARGE_AXE, &
-                              ASSAULT_SHELL, &
-                              GREAT_SHOT, &
+                              ASSAULT_SHELL, &                              
                               GUARDIAN_STAFF, &
                               INDRA_STAFF, &
                               POWER_GLOVE, &
 							  HELMET
                 
                 ; Weapon shop 11
-                shopInventory BUSTER_SWORD, &
-                              GREAT_SWORD, &
+                shopInventory GREAT_SWORD, &
                               JAVELIN, &
-                              CHROME_LANCE, &
-                              LARGE_AXE, &
+                              CHROME_LANCE, &                              
                               GREAT_AXE, &
-                              ASSAULT_SHELL, &
-                              GREAT_SHOT, &
-                              GUARDIAN_STAFF, &
+                              ASSAULT_SHELL, &                                                            
                               INDRA_STAFF, &
                               POWER_GLOVE, &
                               BRASS_KNUCKLES, &
 							  HELMET
                 
                 ; Weapon shop 12
-                shopInventory BUSTER_SWORD, &
-                              GREAT_SWORD, &
+                shopInventory GREAT_SWORD, &
                               JAVELIN, &
-                              CHROME_LANCE, &
-                              LARGE_AXE, &
+                              CHROME_LANCE, &                              
                               GREAT_AXE, &
                               ASSAULT_SHELL, &
-                              GREAT_SHOT, &
-                              GUARDIAN_STAFF, &
-                              INDRA_STAFF, &
+                              NAZCA_CANNON, &
+                              GUARDIAN_STAFF, &                              
                               BRASS_KNUCKLES, &
                               IRON_KNUCKLES, &
 							  HELMET
                 
                 ; Weapon shop 13
-                shopInventory BUSTER_SWORD, &
-                              GREAT_SWORD, &
+                shopInventory CRITICAL_SWORD, &
                               JAVELIN, &
                               CHROME_LANCE, &
-                              LARGE_AXE, &
-                              GREAT_AXE, &
-                              ASSAULT_SHELL, &
-                              GREAT_SHOT, &
+                              VALKYRIE, &
+                              HEAT_AXE, &
+                              NAZCA_CANNON, &                             
                               GUARDIAN_STAFF, &
-                              INDRA_STAFF, &
-                              BRASS_KNUCKLES, &
+                              WISH_STAFF, &                              
                               IRON_KNUCKLES							  
                 
                 ; Weapon shop 14
-                shopInventory BUSTER_SWORD, &
-                              GREAT_SWORD, &
+                shopInventory CRITICAL_SWORD, &
                               JAVELIN, &
-                              CHROME_LANCE, &
-                              LARGE_AXE, &
-                              GREAT_AXE, &
-                              ASSAULT_SHELL, &
-                              GREAT_SHOT, &
+                              VALKYRIE, &                              
+                              HEAT_AXE, &
+                              NAZCA_CANNON, &                              
                               GUARDIAN_STAFF, &
-                              INDRA_STAFF, &
-                              BRASS_KNUCKLES, &
+                              INDRA_STAFF, & 
+							  MAGE_STAFF, &
                               IRON_KNUCKLES
 				
                 ; Item shop  SHOP_INDEX: 15
@@ -220,7 +197,7 @@ tbl_ShopInventories:
                               ANGEL_WING
                 
                 ; SHOP_INDEX: 19
-                shopInventory MEDICAL_HERB, &
+                shopInventory MANA, &
                               HEALING_SEED, &
                               HEALING_DROP, &
                               ANTIDOTE, &
@@ -229,7 +206,7 @@ tbl_ShopInventories:
                 
                 ; SHOP_INDEX: 20
                 shopInventory MEDICAL_HERB, &
-                              HEALING_SEED, &
+                              MANA, &
                               HEALING_DROP, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
@@ -241,13 +218,13 @@ tbl_ShopInventories:
                               HEALING_DROP, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
-                              ANGEL_WING
+                              MANA
                 
                 ; SHOP_INDEX: 22
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
-                              ANTIDOTE, &
+                              MANA, &
                               FAIRY_POWDER, &
                               ANGEL_WING
                 
@@ -256,7 +233,7 @@ tbl_ShopInventories:
                               HEALING_SEED, &
                               HEALING_DROP, &
                               ANTIDOTE, &
-                              FAIRY_POWDER, &
+                              MANA, &
                               ANGEL_WING
                 
                ; SHOP_INDEX: 24
@@ -265,7 +242,8 @@ tbl_ShopInventories:
                               HEALING_DROP, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
-                              ANGEL_WING
+                              ANGEL_WING, &
+							  MANA
                 
                ; SHOP_INDEX: 25
                 shopInventory MEDICAL_HERB, &
@@ -273,7 +251,8 @@ tbl_ShopInventories:
                               HEALING_DROP, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
-                              ANGEL_WING
+                              ANGEL_WING, &
+							  MANA
                 
                ; SHOP_INDEX: 26
                 shopInventory MEDICAL_HERB, &
@@ -281,7 +260,9 @@ tbl_ShopInventories:
                               HEALING_DROP, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
-                              ANGEL_WING
+                              ANGEL_WING, &
+							  ELIXIR, &
+							  MANA
                 
                ; SHOP_INDEX: 27
                 shopInventory MEDICAL_HERB, &
@@ -289,7 +270,9 @@ tbl_ShopInventories:
                               HEALING_DROP, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
-                              ANGEL_WING
+                              ANGEL_WING, &
+							  ELIXIR, &
+							  MANA
                 
                ; SHOP_INDEX: 28
                 shopInventory MEDICAL_HERB, &
@@ -297,15 +280,22 @@ tbl_ShopInventories:
                               HEALING_DROP, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
-                              ANGEL_WING
+                              ANGEL_WING, &
+							  BOMB, &
+							  ELIXIR, &
+							  MANA
                 
                ; SHOP_INDEX: 29
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
                               ANTIDOTE, &
+							  STORM, &
+							  BOMB, &
                               FAIRY_POWDER, &
-                              ANGEL_WING
+                              ANGEL_WING, &
+							  ELIXIR, &
+							  MANA
 				
 				; SHOP_INDEX: 30  $1E GUARDIANA
                 shopInventory BOMB, &
@@ -313,18 +303,17 @@ tbl_ShopInventories:
                               
 							  
 				; SHOP_INDEX: 31  $1F RINDO 1
-                shopInventory SHORT_ROD, &
-							  SPEAR, &
-                              SHORT_KNIFE, &
-							  HELMET, &
-                              BATTLE_AXE			  
+                shopInventory BOMB, &
+							  STRIKE, &
+                              POKEMON							  
+                              			  
                 ; SHOP_INDEX: 32  $20 RINDO 2
-                shopInventory MEDICAL_HERB, &
+                shopInventory HEALING_WATER, &
                               HEALING_SEED, &
                               HEALING_DROP, &
 							  FAIRY_POWDER
 							  
 				; SHOP_INDEX: 33  $21 RINDO 3
-                shopInventory MEDICAL_HERB, &
-                              HEALING_SEED
+                shopInventory MANA, &
+                              ELIXIR
                               			  

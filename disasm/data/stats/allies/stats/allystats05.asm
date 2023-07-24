@@ -18,7 +18,6 @@ AllyStats05:    forClass  THIF    ; SLADE
                 agiGrowth 40, 84, LATE
                 spellList &
                     30, KATON, &
-					33, EGRESS, &
                     37, KATON|LV2, &                    
                     44, KATON|LV3, &
                     52, KATON|LV4

@@ -5,7 +5,7 @@ AllyStats23:    forClass  PGNT ;JARO
                 hpGrowth  38, 92, LINEAR
                 mpGrowth  0, 0, NONE
                 attGrowth 46, 81, EARLY
-                defGrowth 43, 86, EARLY
+                defGrowth 43, 97, EARLY
                 agiGrowth 36, 76, LINEAR
                 spellList 
                 

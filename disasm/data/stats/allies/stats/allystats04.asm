@@ -16,6 +16,10 @@ AllyStats04:    forClass  MAGE   ; KAZIN
 					15, RAIJIN|LV2, &
 					26, RAIJIN|LV3, &
 					50, RAIJIN|LV4, &
+					11, ICE, &
+					21, ICE|LV2, &
+					33, ICE|LV3, &
+					53, ICE|LV4, &
 					50, DISPEL
                     
                 forClass  WIZ
@@ -29,7 +33,7 @@ AllyStats04:    forClass  MAGE   ; KAZIN
                 forClass  SORC
                 hpGrowth  59, 107, LATE
                 mpGrowth  38, 75, LINEAR
-                attGrowth 18, 48, LINEAR
+                attGrowth 18, 50, LINEAR
                 defGrowth 28, 66, LINEAR
                 agiGrowth 40, 70, EARLYANDLATE
                 spellList &

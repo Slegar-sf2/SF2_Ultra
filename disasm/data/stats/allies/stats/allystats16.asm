@@ -1,7 +1,7 @@
 
 ; ASM FILE data\stats\allies\stats\allystats16.asm :
 ; 0x1EE5F5..0x1EE628 : Ally stats 16
-AllyStats16:    forClass  WARR
+AllyStats16:    forClass  WARR ;RUCE
                 hpGrowth  12, 32, LINEAR
                 mpGrowth  0, 0, NONE
                 attGrowth 8, 49, LINEAR
@@ -10,9 +10,9 @@ AllyStats16:    forClass  WARR
                 spellList 
                 
                 forClass  GLDT
-                hpGrowth  32, 83, LINEAR
+                hpGrowth  32, 90, LINEAR
                 mpGrowth  0, 0, NONE
-                attGrowth 49, 79, LINEAR
+                attGrowth 49, 89, LINEAR
                 defGrowth 44, 108, LINEAR
                 agiGrowth 30, 48, EARLY
                 spellList 

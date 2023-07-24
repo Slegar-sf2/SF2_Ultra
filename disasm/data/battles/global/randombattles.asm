@@ -9,12 +9,9 @@ tbl_RandomBattlesList:
 ;
 ; Note: Constant names ("enums"), shorthands (defined by macro), and numerical indexes are interchangeable.
                 
-                battles TO_HAWEL_HOUSE, &
-                        NORTH_CLIFF, &
+                battles TO_HAWEL_HOUSE, &                        
                         TO_RIBBLE, &
-                        TO_THE_EAST, &
-                        SOUTHEAST_DESERT, &
-                        TO_TAROS_SHRINE, &
+                        TO_THE_EAST, &                                                
                         OUTSIDE_ELVEN_VILLAGE, &
                         DEVIL_TAIL, &
                         TO_NORTH_PARMECIA, &

@@ -95,7 +95,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        500
+                price        600
                 itemType     CONSUMABLE
                 useSpell     HEAL|LV4
                 equipEffects NONE, 0, &
@@ -117,7 +117,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        10000
+                price        1000
                 itemType     RARE|CONSUMABLE
                 useSpell     AURA|LV4
                 equipEffects NONE, 0, &
@@ -470,7 +470,7 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        1, 1
                 price        7200
-                itemType     WEAPON|RARE|BREAKABLE
+                itemType     WEAPON|BREAKABLE
                 useSpell     BLAZE|LV2
                 equipEffects INCREASE_ATT, 32, &
                              NONE, 0, &
@@ -591,7 +591,7 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        2, 3
                 price        3000
-                itemType     WEAPON|RARE
+                itemType     WEAPON
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 33, &
                              INCREASE_CRITICAL, 1, &
@@ -910,7 +910,7 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        1, 2
                 price        7700
-                itemType     WEAPON|RARE|BREAKABLE
+                itemType     WEAPON|BREAKABLE
                 useSpell     ATTACK
                 equipEffects INCREASE_ATT, 33, &
                              NONE, 0, &
@@ -1537,7 +1537,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        1000
+                price        1100
                 itemType     CONSUMABLE
                 useSpell     DAO|LV3
                 equipEffects NONE, 0, &
