@@ -40,9 +40,9 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        100
+                price        130
                 itemType     CONSUMABLE
-                useSpell     HEAL
+                useSpell     HEAL|LV2
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
@@ -51,7 +51,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        300
+                price        400
                 itemType     CONSUMABLE
                 useSpell     HEAL|LV3
                 equipEffects NONE, 0, &
@@ -1555,13 +1555,13 @@ tbl_ItemDefs:
                              NONE, 0, &
                              NONE, 0
                 
-                ; 139: 
+                ; 139: HEALING_BERRIES
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
+                range        0, 1
+                price        690
+                itemType     CONSUMABLE
+                useSpell     HEALIN|LV3
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0

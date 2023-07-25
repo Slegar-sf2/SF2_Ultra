@@ -3,4 +3,5 @@
 ; 0xB2CC0..0xB2CCA : 
                 mapItem 5, 19, 186, VIGOR_BALL
                 mapItem 22, 26, 187, BRAVE_APPLE
+				mapItem 12, 23, 153, RUNNING_PIMENTO
                 endWord

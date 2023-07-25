@@ -1,5 +1,7 @@
-                include "data\battles\entries\battle01\cs_beforebattle.asm"    ; Cutscene before battle 1
-                include "data\battles\entries\battle01\cs_afterbattle.asm"    ; Cutscene after battle 1
+                
+				include "data\battles\entries\battle00\cs_afterbattle.asm"				
+				include "data\battles\entries\battle01\cs_beforebattle.asm"    ; Cutscene before battle 1
+                include "data\battles\entries\battle01\cs_afterbattle.asm"   ; Cutscene after battle 1
                 include "data\battles\entries\battle03\cs_beforebattle.asm"    ; Cutscene before battle 3
                 include "data\battles\entries\battle04\cs_beforebattle.asm"    ; Cutscene before battle 4
                 include "data\battles\entries\battle04\cs_afterbattle.asm"    ; Cutscene after battle 4
@@ -21,7 +23,7 @@
                 include "data\battles\entries\battle18\cs_beforebattle.asm"    ; Cutscene before battle 18
                 include "data\battles\entries\battle18\cs_afterbattle.asm"    ; Cutscene after battle 18
                 include "data\battles\entries\battle20\cs_afterbattle.asm"    ; Cutscene after battle 20
-                include "data\battles\entries\battle21\cs_beforebattle.asm"    ; Cutscene before battle 21
+                ;include "data\battles\entries\battle21\cs_beforebattle.asm"    ; Cutscene before battle 21
                 include "data\battles\entries\battle21\cs_afterbattle.asm"    ; Cutscene after battle 21
                 include "data\battles\entries\battle26\cs_beforebattle.asm"    ; Cutscene before battle 26
                 include "data\battles\entries\battle26\cs_afterbattle.asm"    ; Cutscene after battle 26

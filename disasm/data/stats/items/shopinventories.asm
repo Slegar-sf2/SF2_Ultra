@@ -202,6 +202,7 @@ tbl_ShopInventories:
                               HEALING_SEED, &
                               HEALING_DROP, &
 							  MEDICAL_HERB, &
+							  HEALING_BERRIES, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
                               ANGEL_WING
@@ -210,6 +211,7 @@ tbl_ShopInventories:
                 shopInventory MEDICAL_HERB, &
                               MANA, &
                               HEALING_DROP, &
+							  HEALING_BERRIES, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
                               ANGEL_WING
@@ -218,6 +220,7 @@ tbl_ShopInventories:
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
+							  HEALING_BERRIES, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
                               MANA
@@ -226,6 +229,7 @@ tbl_ShopInventories:
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
+							  HEALING_BERRIES, &
                               MANA, &
                               FAIRY_POWDER, &
                               ANGEL_WING
@@ -234,6 +238,7 @@ tbl_ShopInventories:
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
+							  HEALING_BERRIES, &
                               ANTIDOTE, &
                               MANA, &
                               ANGEL_WING
@@ -242,6 +247,7 @@ tbl_ShopInventories:
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
+							  HEALING_BERRIES, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
                               ANGEL_WING, &
@@ -251,6 +257,7 @@ tbl_ShopInventories:
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
+							  HEALING_BERRIES, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
                               ANGEL_WING, &
@@ -260,6 +267,7 @@ tbl_ShopInventories:
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
+							  HEALING_BERRIES, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
                               ANGEL_WING, &
@@ -270,6 +278,7 @@ tbl_ShopInventories:
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
+							  HEALING_BERRIES, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
                               ANGEL_WING, &
@@ -280,6 +289,7 @@ tbl_ShopInventories:
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
+							  HEALING_BERRIES, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
                               ANGEL_WING, &
@@ -291,6 +301,7 @@ tbl_ShopInventories:
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
+							  HEALING_BERRIES, &
                               ANTIDOTE, &
 							  STORM, &
 							  BOMB, &

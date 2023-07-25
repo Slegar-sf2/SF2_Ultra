@@ -5,6 +5,7 @@ tbl_HalvedExpEarnedBattles:
                 
 ; Syntax        battle [BATTLE_]enum (or index)
                 
-                battle INSIDE_ANCIENT_TOWER
+                battle OUTSIDE_MITULA_SHRINE
+				battle VERSUS_PRISM_FLOWERS
                 
                 tableEnd.b

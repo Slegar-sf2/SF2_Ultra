@@ -26,21 +26,21 @@ tbl_AllyStartDefs:
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
                     MEDICAL_HERB, &
-                    MANA, &
+                    NOTHING, &
                     NOTHING
                 
                 startClass KNTE         ; 2: CHESTER
                 startLevel 1
                 startItems &
                     WOODEN_STICK|EQUIPPED, &
-                    NOTHING, &
+                    MEDICAL_HERB, &
                     NOTHING, &
                     NOTHING
                 
                 startClass WARR         ; 3: JAHA
                 startLevel 1
                 startItems &
-                    SHORT_AXE, &
+                    BATON|EQUIPPED, &
                     MEDICAL_HERB, &
                     NOTHING, &
                     NOTHING
@@ -115,7 +115,7 @@ tbl_AllyStartDefs:
                     LONG_SWORD|EQUIPPED, &
                     MIDDLE_AXE, &
                     HELMET, &
-                    HEALING_DROP
+                    HEALING_BERRIES
                 
                 startClass ACHR         ; 13: ELRIC
                 startLevel 27
@@ -129,7 +129,7 @@ tbl_AllyStartDefs:
                 startLevel 28
                 startItems &
                     SPEAR|EQUIPPED, &
-                    HEALING_RAIN, &
+                    HEALING_BERRIES, &
                     NOTHING, &
                     NOTHING
                 
@@ -145,7 +145,7 @@ tbl_AllyStartDefs:
                 startLevel 12
                 startItems &
                     POWER_AXE|EQUIPPED, &
-                    NOTHING, &
+                    HEALING_BERRIES, &
                     NOTHING, &
                     NOTHING
                 

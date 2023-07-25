@@ -4,7 +4,7 @@
 ms_map3_EntityEvents:
                 msEntityEvent 1, DOWN, Map3_EntityEvent0-ms_map3_EntityEvents
                 msEntityEvent 2, RIGHT, Map3_EntityEvent1-ms_map3_EntityEvents
-				msEntityEvent 3, RIGHT, Map3_EntityEvent16-ms_map3_EntityEvents
+				msEntityEvent 3, DOWN, Map3_EntityEvent16-ms_map3_EntityEvents
                 msEntityEvent 128, UP, Map3_EntityEvent2-ms_map3_EntityEvents
                 msEntityEvent 129, DOWN, Map3_EntityEvent3-ms_map3_EntityEvents
                 msEntityEvent 130, UP, Map3_EntityEvent4-ms_map3_EntityEvents

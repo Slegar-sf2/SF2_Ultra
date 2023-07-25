@@ -14,6 +14,8 @@ AllyStats25:    forClass  MMNK  ; SHEELA
 					51, HEAL|LV4, &                                       
                     20, BOOST, &                                                          
                     44, BOOST|LV2, &
+					52, ATTACK, &
+					54, ATTACK|LV2, &
 					55, TORNADO, &
 					63, TORNADO|LV2
                     

@@ -3,7 +3,7 @@
 ; 0x1EE31C..0x1EE36B : Ally stats 01
 AllyStats01:    forClass  PRST
                 hpGrowth  12, 52, LINEAR
-                mpGrowth  10, 24, EARLY
+                mpGrowth  0, 24, EARLY
                 attGrowth 6, 26, LINEAR
                 defGrowth 4, 25, LINEAR
                 agiGrowth 5, 31, LINEAR
