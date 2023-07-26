@@ -56,4 +56,5 @@ tbl_EnemyLeaderPresence:
 				dc.b 255                ; 48: цирк
 				dc.b 0                  ; 49:
 				dc.b 255                ; 50: DAVA
+				dc.b 0
                 
