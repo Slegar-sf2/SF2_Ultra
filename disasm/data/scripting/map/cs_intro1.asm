@@ -258,8 +258,8 @@ IntroCutscene1: textCursor 4186
                 csc_end
 ce_48340:       mainEntity 63,63,UP
                 entity 63,63,DOWN,ALLY_SLADE,eas_Init
-                entity 63,63,UP,MAPSPRITE_WORKER,eas_Init
-                entity 63,63,UP,MAPSPRITE_WORKER,eas_Init
+                entity 63,63,UP,MAPSPRITE_DANTOM,eas_Init
+                entity 63,63,UP,MAPSPRITE_RED_BARON,eas_Init
                 entity 26,4,DOWN,MAPSPRITE_OBJECT1,eas_Init
                 entity 63,63,LEFT,MAPSPRITE_EFFECT4,eas_Init
                 entity 63,63,UP,MAPSPRITE_EFFECT4,eas_Init
