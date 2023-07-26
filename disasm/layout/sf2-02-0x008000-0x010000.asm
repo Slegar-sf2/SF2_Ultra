@@ -113,14 +113,8 @@
                 else
                     include "code\gameflow\battle\battlefield\determinehealingspelllevel.asm"    ; Determine healing spell level function
                 endif
-                include "code\gameflow\battle\battlefield\battlefieldengine_4.asm"    ; Battlefield engine
-            if (STANDARD_BUILD=1)
-                include "code\gameflow\battle\battlefield\useableaiactions.asm"
-                include "data\battles\global\aiexcludedactions-standard.asm"
-                align
-            else
-                include "code\gameflow\battle\battlefield\useableaiactions.asm"    ; Usable AI actions getter functions
-            endif
+                include "code\gameflow\battle\battlefield\battlefieldengine_4.asm"    ; Battlefield engine            
+                include "code\gameflow\battle\battlefield\useableaiactions.asm"    ; Usable AI actions getter functions            
                 include "code\gameflow\battle\battlefield\battlefieldengine_5.asm"    ; Battlefield engine
                 if (STANDARD_BUILD&HEALER_AI_ENHANCEMENTS=1)
                     include "code\gameflow\battle\battlefield\doescombatantrequirehealing-aienhancements.asm"

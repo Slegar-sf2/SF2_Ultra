@@ -1040,7 +1040,7 @@ tbl_ItemDefs:
                 ; 92: Indra Staff
                 equipFlags   WIZ|SORC|VICR
                 equipFlags2  NONE
-                range        1, 1
+                range        1, 2
                 price        3200
                 itemType     WEAPON|BREAKABLE
                 useSpell     SPOIT

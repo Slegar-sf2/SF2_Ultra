@@ -39,10 +39,13 @@ cs_53996:       textCursor 2176
 				setActscriptWait ALLY_JAHA,eas_Init
 				fadeInB
                 csWait 20
-                setFacing ALLY_SARAH,LEFT
-                csWait 20
+                setFacing ALLY_SARAH,LEFT                
+				entityActionsWait ALLY_JAHA
+                 moveLeft 1
+				endActions				
                 setCamDest 12,34
                 setFacing ALLY_BOWIE,LEFT
+				setFacing ALLY_CHESTER,LEFT
                 nextSingleText $0,128   ; "Mmmm....{N}Hmmm...mmmm....{W1}"
                 nextSingleText $0,129   ; "Oh, father!{N}Please wake up.{W1}"
                 entityActionsWait 131
@@ -80,8 +83,8 @@ cs_53996:       textCursor 2176
                 setActscriptWait ALLY_CHESTER,eas_Jump
                 setActscript ALLY_BOWIE,eas_Jump
 				setActscript ALLY_JAHA,eas_Jump
-                setActscript ALLY_SARAH,eas_Jump
-                setActscriptWait ALLY_CHESTER,eas_Jump
+				csWait 20
+				setFacing ALLY_JAHA,DOWN                                
                 nextSingleText $80,ALLY_CHESTER ; "Oops!{W1}"
                 entityActionsWait ALLY_CHESTER
                  moveLeft 2
@@ -89,6 +92,7 @@ cs_53996:       textCursor 2176
                 setFacing ALLY_CHESTER,DOWN
 				setFacing 130,UP
                 nextSingleText $80,ALLY_CHESTER ; "Sorry, sir!{W1}"
+				csWait 20
 				setFacing 130,RIGHT
                 setFacing ALLY_SARAH,LEFT
 				setFacing ALLY_JAHA,DOWN
@@ -96,11 +100,7 @@ cs_53996:       textCursor 2176
                 nextSingleText $80,ALLY_SARAH ; "Well, we just followed you....{W1}"
                 entityActionsWait 130
                  moveRight 1
-                endActions
-				entityActionsWait ALLY_JAHA
-                 moveLeft 3
-				 moveDown 1
-                endActions
+                endActions				
                 setFacing 130,LEFT
                 nextSingleText $80,130  ; "Don't lie to me.{N}You wanted to see the{N}castle, didn't you?{W1}"
                 entityActionsWait 131
@@ -144,8 +144,8 @@ cs_53996:       textCursor 2176
 				setFacing ALLY_CHESTER,RIGHT
                 setFacing ALLY_SARAH,UP
                 entityActionsWait 130
-                 moveUp 1
-                 moveRight 1
+				 moveRight 1
+                 moveUp 1                 
                 endActions
                 followEntity ALLY_SARAH,ALLY_BOWIE,2
                 followEntity ALLY_CHESTER,ALLY_SARAH,2
