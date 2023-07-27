@@ -1412,7 +1412,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 126: Chirrup Sandals
-                equipFlags   SDMN|HERO|KNTE|PLDN|BRN|ACHR|SNIP|WFMN|WFBR|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN|SWOR|STAR|PLDN2
+                equipFlags   SDMN|HERO|MAGE|PRST|WIZ|SORC|VICR|KNTE|PLDN|BRN|ACHR|SNIP|WFMN|WFBR|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN|SWOR|STAR|PLDN2|MONK
                 equipFlags2  NONE
                 range        0, 0
                 price        550
