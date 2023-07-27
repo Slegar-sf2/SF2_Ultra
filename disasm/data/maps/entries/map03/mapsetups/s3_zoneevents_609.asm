@@ -14,8 +14,7 @@ Map3_261_ZoneEvent1:
                 chkFlg  30               ; Shade joined
                 bne.s   Map3_261_ZoneEvent0
                 script  cs_516A8
-                setFlg  402             ; Battle 2 unlocked - BATTLE_TO_YEEL  
-				setFlg  445             ; Battle 45 unlocked - BATTLE_YEEL_VILLAGE
+                setFlg  402             ; Battle 2 unlocked - BATTLE_TO_YEEL  				
 				clrFlg  66              ; Sarah + Chester are followers
 				
 Map3_261_ZoneEvent0:

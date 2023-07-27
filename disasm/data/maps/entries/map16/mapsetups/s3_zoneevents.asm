@@ -35,8 +35,7 @@ Map16_ZoneEvent1:
                 chkFlg  664             ; Set after the Galam guards catch you sneaking around, but before battle
                 bne.s   byte_51F20
                 script  cs_521BA
-                setFlg  664             ; Set after the Galam guards catch you sneaking around, but before battle
-			    setFlg 447             ; Battle 47 unlocked
+                setFlg  664             ; Set after the Galam guards catch you sneaking around, but before battle			    
                 bra.s   return_51F26
 byte_51F20:
                 

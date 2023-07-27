@@ -122,24 +122,25 @@ cs_53C42:       setCamDest 19,48
                 ac_end
                 entityActionsWait 128
                  moveLeft 1
-                endActions
-                customActscriptWait 128
+                endActions				               				                				
+                shiver 128
+				customActscriptWait 128
                  ac_motion OFF          ;   
                  ac_orientRight         ;   
                  ac_updateSprite        ;   
                  ac_jump eas_Idle       ;   
                 ac_end
+				csWait 20 
+                nextSingleText $80,130  ; "King...Granseal?{W1}"				
+				csWait 20
 				customActscriptWait 130
                  ac_motion OFF          ;   
                  ac_orientLeft         ;   
                  ac_updateSprite        ;   
                  ac_jump eas_Idle       ;   
                 ac_end
-                csWait 50
+				csWait 20
                 shiver 130
-                csWait 20
-                nextSingleText $80,130  ; "King...Granseal?{W1}"
-                shiver 128
                 stopEntity 128
                 setPos 135,21,52,DOWN
                 animEntityFX 135,5
@@ -182,6 +183,7 @@ cs_53C42:       setCamDest 19,48
                  ac_updateSprite        ;   
                  ac_jump eas_Idle       ;   
                 ac_end
+				shiver 130
                 nextSingleText $80,130  ; "(Sigh){W1}"
                 nextSingleText $0,128   ; "Astral!{W1}"
                 playSound $FD
@@ -192,7 +194,7 @@ cs_53C42:       setCamDest 19,48
                 reloadMap 0,0
                 csWait 1
                 nextSingleText $FF,255  ; "Astral is exhausted.{N}He won't wake up!{W2}{N}The Minister summons the{N}soldiers to the hall to kill{N}the evil spirit.{W1}"
-                setF 609                ; Set after the scene where Astral exorcises the Gizmo
+                setF 609                ; Set after the scene where Astral exorcises the Gizmo				
                 warp MAP_GRANSEAL_CASTLE_2F,29,8,UP
-                playSound MUSIC_CASTLE
+                playSound MUSIC_CASTLE				
                 csc_end

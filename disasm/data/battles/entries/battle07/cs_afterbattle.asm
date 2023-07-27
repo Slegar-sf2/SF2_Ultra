@@ -635,12 +635,13 @@ abcs_battle07:  textCursor 2385
                 nextText $0,131         ; "{LEADER}, you'll be{N}buried in the tower!{W2}"
                 nextSingleText $0,131   ; "Come on!{W1}"
                 csWait 50
-                warp MAP_ANCIENT_TOWER_UNDERGROUND_ROOM,13,35,DOWN
+                warp MAP_ANCIENT_TOWER_UNDERGROUND_ROOM,13,35,DOWN				
                 followEntity 131,ALLY_BOWIE,2
                 followEntity 133,131,2
                 followEntity 134,133,2
                 setF 74                 ; Astral + King are followers
                 setF 640                ; Set after the end of battle 7's long sequence, cleared at docks?
+				setStoryFlag 46 ; battle 46 на коробле unlocked
                 csc_end
 ce_4A912:       mainEntity 13,23,UP
                 entity 63,63,RIGHT,MAPSPRITE_EFFECT3,eas_Init

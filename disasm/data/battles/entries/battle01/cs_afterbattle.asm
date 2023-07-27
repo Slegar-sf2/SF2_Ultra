@@ -80,9 +80,10 @@ abcs_battle01:  textCursor 2305
 				setFacing ALLY_SARAH,DOWN
                 entityActionsWait 129
                  moveDown 6
-                endActions
+                endActions				
                 hide 129
                 csWait 40
+				setStoryFlag  45             ; Battle 45 unlocked - BATTLE_YEEL_VILLAGE
                 csc_end
 ce_497F6:       mainEntity 8,6,UP
                 entity 7,4,DOWN,MAPSPRITE_MIST_DEMON,eas_Init

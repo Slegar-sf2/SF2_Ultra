@@ -68,7 +68,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 610                ; BOW RIDER
                 dc.w 680                ; DARK GUNNER
                 dc.w 880                ; DANTOM
-                dc.w 100                ; GALAM DWARF
+                dc.w 60                 ; GALAM DWARF
                 dc.w 110                ; WITCH
                 dc.w 220                ; MASTER MAGE
                 dc.w 310                ; DARK MADAM

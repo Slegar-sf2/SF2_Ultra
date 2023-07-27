@@ -94,7 +94,7 @@ tbl_EnemyDefs:
                 baseAgi  8
                 baseMov  5
                 baseResistance NONE
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
+                baseProwess    CRITICAL_STUN|DOUBLE_1IN16|COUNTER_1IN32
                 items &
                     SHORT_AXE|EQUIPPED, &
                     NOTHING, &
@@ -1711,10 +1711,10 @@ tbl_EnemyDefs:
                     
                 unknownByte 67          ; 67: GALAM DWARF
                 spellPower REGULAR
-                level    3
+                level    2
                 maxHp    16
                 maxMp    0
-                baseAtt  12
+                baseAtt  13
                 baseDef  15
                 baseAgi  12
                 baseMov  4
@@ -2536,7 +2536,7 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 100: INCUBUS
                 spellPower REGULAR
-                level    5
+                level    4
                 maxHp    23
                 maxMp    18
                 baseAtt  16
