@@ -47,7 +47,7 @@ tbl_ShopInventories:
 							  
                 
                 ; Weapon shop 4
-                shopInventory MIDDLE_SWORD, &
+                shopInventory MIDDLE_SWORD, & ;где герхарльт
                               LONG_SWORD, &
                               BRONZE_LANCE, &
                               SPEAR, &
@@ -59,11 +59,11 @@ tbl_ShopInventories:
                 
                 ; Weapon shop 5
                 shopInventory LONG_SWORD, &
+				              KNIFE, & 
                               SPEAR, &
                               STEEL_LANCE, &                              
                               MIDDLE_AXE, &                              
-                              BRONZE_ROD, &                              
-                              KNIFE, &                              
+                              BRONZE_ROD, &                                                                                          
                               IRON_ARROW, &
 							  STEEL_ARROW, &
 							  HELMET

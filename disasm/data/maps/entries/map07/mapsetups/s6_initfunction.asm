@@ -12,8 +12,7 @@ ms_map7_InitFunction:
                 bne.s   return_55830
                 setSavedByte #MAP_NEW_GRANSEAL, EGRESS_MAP
                 script  cs_55832
-                setFlg  707             ; Set after the "one year has passed" text, after New Granseal is built
-                setFlg  411             ; Battle 11 unlocked - BATTLE_CAVE_OF_DARKNESS          
+                setFlg  707             ; Set after the "one year has passed" text, after New Granseal is built                          
 return_55830:
                 
                 rts

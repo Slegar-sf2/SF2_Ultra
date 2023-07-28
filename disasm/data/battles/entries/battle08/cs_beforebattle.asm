@@ -20,7 +20,6 @@ cs_4A994:       playSound MUSIC_MAIN_THEME
                 entityActionsWait 128
                  moveRight 2
                 endActions
-
                 setCameraEntity 129
                 nextSingleText $0,128   ; "He's lying down!  Why?{N}What happened?{W1}"
                 playSound MUSIC_ENEMY_ATTACK
@@ -32,21 +31,17 @@ cs_4A994:       playSound MUSIC_MAIN_THEME
                 setPos 132,21,26,LEFT
                 csWait 20
                 setPos 133,20,27,UP
-                csWait 30
-                				
+                csWait 30                				
                 nextSingleText $C0,130  ; "Hee, hee!  More strangers{N}have arrived!{W1}"
 				setFacing 130,LEFT 
                 nextSingleText $C0,130  ; "You!  Did you hurt him?{W1}"
-
                 nextText $C0,130        ; "This is my territory.{N}I protect it.{W2}"
-                nextSingleText $C0,130  ; "You come here to save him?{N}Ha!{W1}"
-                
-
-                nextSingleText $C0,130  ; "Everybody, attack!{W1}"
-								
+                nextSingleText $C0,130  ; "You come here to save him?{N}Ha!{W1}"                
+                nextSingleText $C0,130  ; "Everybody, attack!{W1}"								
                 setActscript 131,eas_Jump
                 setActscript 132,eas_Jump
                 setActscript 133,eas_Jump
+				setStoryFlag 11           ; Battle 11 unlocked - BATTLE_CAVE_OF_DARKNESS
                 csc_end
 				
 ce_4AA14:       mainEntity 4,10,RIGHT

@@ -1106,7 +1106,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
-                moveType      HOVERING
+                moveType      FLYING
                 unknownWord   8192
                     
                 unknownByte 43          ; 43: GARGOYLE
