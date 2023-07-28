@@ -11,7 +11,7 @@ SavepointMapCoordinates:
                 savePointMapCoords MAP_RIBBLE, 22, 22, UP
                 savePointMapCoords MAP_POLCA, 18, 25, UP
                 savePointMapCoords MAP_MOUNT_VOLCANON, 27, 35, UP
-                savePointMapCoords MAP_SHIP_DAMAGED, 45, 7, DOWN
+                savePointMapCoords MAP_SHIP_DAMAGED, 45, 7, UP
                 savePointMapCoords MAP_KETTO, 12, 11, UP
                 savePointMapCoords MAP_HASSAN, 8, 9, UP
                 savePointMapCoords MAP_MOUN, 20, 8, UP

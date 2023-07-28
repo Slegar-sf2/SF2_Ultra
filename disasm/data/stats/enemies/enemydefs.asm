@@ -139,7 +139,7 @@ tbl_EnemyDefs:
                 level    5
                 maxHp    20
                 maxMp    0
-                baseAtt  18
+                baseAtt  20
                 baseDef  15
                 baseAgi  13
                 baseMov  5
@@ -164,7 +164,7 @@ tbl_EnemyDefs:
                 level    6
                 maxHp    24
                 maxMp    27
-                baseAtt  25
+                baseAtt  27
                 baseDef  20
                 baseAgi  15
                 baseMov  6
@@ -1061,7 +1061,7 @@ tbl_EnemyDefs:
                     
                 unknownByte 41          ; 41: VAMPIRE BAT
                 spellPower REGULAR
-                level    7
+                level    5
                 maxHp    30
                 maxMp    8
                 baseAtt  28
@@ -1739,7 +1739,7 @@ tbl_EnemyDefs:
                 level    7
                 maxHp    35
                 maxMp    12
-                baseAtt  9
+                baseAtt  12
                 baseDef  13
                 baseAgi  15
                 baseMov  5
@@ -2193,7 +2193,7 @@ tbl_EnemyDefs:
                 baseDef  17
                 baseAgi  13
                 baseMov  5
-                baseResistance WIND_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS|STATUS_MAJOR
+                baseResistance FIRE_WEAKNESS
                 baseProwess    CRITICAL_SILENCE|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     MIDDLE_SWORD|EQUIPPED, &

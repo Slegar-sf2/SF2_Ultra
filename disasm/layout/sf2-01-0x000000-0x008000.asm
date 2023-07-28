@@ -51,8 +51,8 @@
                 include "data\maps\global\flagswitchedmaps.asm"    ; Flag-switched maps
                 include "code\common\maps\getbattle.asm"    ; GetNextBattleOnMap function
                 includeIfVanillaRom "data\battles\global\battlemapcoords.asm"    ; Battle map coords
-                ;includeIfVanillaRom "data\maps\global\savepointmapcoords.asm"    ; Save point map coords
-                ;includeIfVanillaRom "data\maps\global\raftresetmapcoords.asm"    ; Raft reset map coords
+                includeIfVanillaRom "data\maps\global\savepointmapcoords.asm"    ; Save point map coords
+                includeIfVanillaRom "data\maps\global\raftresetmapcoords.asm"    ; Raft reset map coords
                 align
                 include "code\specialscreens\witch\witchfunctions.asm"    ; Witch functions
                 include "code\gameflow\special\configurationmode.asm"    ; Configuration mode function

@@ -144,7 +144,7 @@ tbl_AllyStartDefs:
                 startClass WARR         ; 16: RUCE
                 startLevel 12
                 startItems &
-                    POWER_AXE|EQUIPPED, &
+                    HAND_AXE|EQUIPPED, &
                     HEALING_BERRIES, &
                     NOTHING, &
                     NOTHING
