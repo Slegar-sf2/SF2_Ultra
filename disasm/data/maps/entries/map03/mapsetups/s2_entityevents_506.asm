@@ -151,7 +151,7 @@ Map3_1FA_EntityEvent15:
                  
                 chkFlg  6               ; NATASHA joined
                 bne.s   return_512B8
-                txt     674             ; "(Shiver)...ooouu....{W1}"
+                txt     664             ; "(Shiver)...ooouu....{W1}"
                
                 script  cs_512BA
 return_512B8:

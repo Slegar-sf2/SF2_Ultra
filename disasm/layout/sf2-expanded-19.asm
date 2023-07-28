@@ -23,7 +23,11 @@
         align
         include "data\graphics\battles\weapons\entries.asm"                 ; Battlescene Weapons
         align
-		
+		include "data\maps\global\savepointmapcoords.asm"
+		align
+		include "data\maps\global\raftresetmapcoords.asm"      ; Raft reset map coords
+		align
         include "data\graphics\battles\weapons\palettes\entries.asm"        ; Battlescene Weapon Palettes
+		
         objendIfExtendedSsf
         alignIfExtendedSsf $600000, $400000

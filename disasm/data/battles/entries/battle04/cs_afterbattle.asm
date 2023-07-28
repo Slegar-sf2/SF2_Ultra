@@ -13,9 +13,7 @@ abcs_battle04:  textCursor 2319
                 fadeInB
                 nod ALLY_BOWIE
                 nextSingleText $0,ALLY_LEMON ; "Your battle strategy was{N}wonderful!  I praise you.{W1}"
-                csWait 5
-                setActscript ALLY_CHESTER,eas_2xRightLeft
-                csWait 5
+                csWait 5                
                 setActscript ALLY_KAZIN,eas_2xRightLeft
                 setActscript ALLY_SARAH,eas_Jump
                 setActscriptWait ALLY_JAHA,eas_Jump

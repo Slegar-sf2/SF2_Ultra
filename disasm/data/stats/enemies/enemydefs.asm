@@ -114,12 +114,12 @@ tbl_EnemyDefs:
                 level    3
                 maxHp    20
                 maxMp    0
-                baseAtt  13
+                baseAtt  15
                 baseDef  16
                 baseAgi  12
                 baseMov  7
                 baseResistance NONE
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
+                baseProwess    CRITICAL150_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     SHORT_SPEAR|EQUIPPED, &
                     NOTHING, &
@@ -2543,8 +2543,8 @@ tbl_EnemyDefs:
                 baseDef  18
                 baseAgi  22
                 baseMov  5
-                baseResistance WIND_MINOR
-                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN32|COUNTER_1IN32
+                baseResistance WIND_MAJOR
+                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN32|COUNTER_1IN4
                 items &
                     MIDDLE_SWORD|EQUIPPED, &
                     NOTHING, &

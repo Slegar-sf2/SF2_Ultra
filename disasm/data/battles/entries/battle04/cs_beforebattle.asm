@@ -44,7 +44,7 @@ ce_4989E:       mainEntity 29,5,LEFT
                 entity 3,8,DOWN,MAPSPRITE_GALAM_SOLDIER,eas_Init
                 entity 5,8,DOWN,MAPSPRITE_GALAM_SOLDIER,eas_Init
 				entity 6,11,RIGHT,MAPSPRITE_GALAM_SOLDIER,eas_Init
-                entity 7,11,RIGHT,MAPSPRITE_GALAM_SOLDIER,eas_Init
+                entity 7,11,RIGHT,MAPSPRITE_GALAM_DWARF,eas_Init
                 entity 6,13,RIGHT,MAPSPRITE_GALAM_SOLDIER,eas_Init
 				entity 8,11,RIGHT,MAPSPRITE_GALAM_SOLDIER,eas_Init
 				entity 18,4,RIGHT,MAPSPRITE_GALAM_SOLDIER,eas_Init
