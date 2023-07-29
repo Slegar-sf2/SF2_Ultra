@@ -41,7 +41,6 @@ cs_4A994:       playSound MUSIC_MAIN_THEME
                 setActscript 131,eas_Jump
                 setActscript 132,eas_Jump
                 setActscript 133,eas_Jump
-				setStoryFlag 11           ; Battle 11 unlocked - BATTLE_CAVE_OF_DARKNESS
                 csc_end
 				
 ce_4AA14:       mainEntity 4,10,RIGHT

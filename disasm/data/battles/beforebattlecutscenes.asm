@@ -14,7 +14,7 @@ rpt_BeforeBattleCutscenes:
                 dc.w bbcs_08-rpt_BeforeBattleCutscenes
                 dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF
                 dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF
-                dc.w bbcs_11-rpt_BeforeBattleCutscenes
+                dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF
                 dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF
                 dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF
                 dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF
@@ -24,7 +24,7 @@ rpt_BeforeBattleCutscenes:
                 dc.w bbcs_18-rpt_BeforeBattleCutscenes
                 dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF
                 dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF
-                dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF
+                dc.w bbcs_21-rpt_BeforeBattleCutscenes
                 dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF
                 dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF
                 dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF
