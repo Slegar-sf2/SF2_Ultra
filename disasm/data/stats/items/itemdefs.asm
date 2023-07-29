@@ -31,7 +31,7 @@ tbl_ItemDefs:
                 range        0, 1
                 price        25
                 itemType     CONSUMABLE
-                useSpell     HEALIN
+                useSpell     FAIRY
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0

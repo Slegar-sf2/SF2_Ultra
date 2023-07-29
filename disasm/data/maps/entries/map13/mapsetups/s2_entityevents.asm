@@ -187,7 +187,7 @@ return_58100:
 Map13_EntityEvent11:
                 
                  
-                txt     1433            ; "Clank!  Clank!{N}All of our weapons are made{N}by me!{W2}{N}But, who uses them in this{N}peaceful country?{W1}"
+                jsr     j_CaravanActions
                 rts
 
     ; End of function Map13_EntityEvent11
