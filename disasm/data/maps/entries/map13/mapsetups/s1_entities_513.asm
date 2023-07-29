@@ -12,7 +12,7 @@ ms_map13_flag513_Entities:
                 msWalkingEntity 11, 13, RIGHT, MAPSPRITE_BEASTMAN1, 11, 13, 2
                 msWalkingEntity 26, 17, LEFT, MAPSPRITE_BEASTMAN1, 26, 17, 2
                 msFixedEntity 15, 3, UP, MAPSPRITE_MAN1, eas_Init
-                msFixedEntity 38, 6, UP, MAPSPRITE_DWARF, eas_Init
+                msFixedEntity 38, 6, UP, MAPSPRITE_MAYFAIR, eas_Init
                 msFixedEntity 63, 63, DOWN, MAPSPRITE_ORC, eas_Init
                 msFixedEntity 14, 4, RIGHT, MAPSPRITE_ODDLER, eas_Init
                 msEntitiesEnd

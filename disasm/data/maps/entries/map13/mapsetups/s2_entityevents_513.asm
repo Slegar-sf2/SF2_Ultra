@@ -147,7 +147,7 @@ return_58216:
 Map13_201_EntityEvent10:
                 
                  
-                txt     1445            ; "Clank!  Clank!{W2}{N}I heard that blacksmiths in{N}ancient times made special{N}weapons from a rare metal.{W1}"
+                jsr     j_CaravanActions
                 rts
 
     ; End of function Map13_201_EntityEvent10
