@@ -13,7 +13,7 @@ DisplayCaravanMessageWithPortrait:
                 move.l  d1,-(sp)
                 chkFlg  70              ; Astral is a follower
                 bne.s   loc_228B8
-                moveq   #PORTRAIT_ROHDE,d0 ; HARDCODED portraits
+                moveq   #PORTRAIT_MAYFAIR,d0 ; HARDCODED portraits
                 bra.s   loc_228BA
 loc_228B8:
                 

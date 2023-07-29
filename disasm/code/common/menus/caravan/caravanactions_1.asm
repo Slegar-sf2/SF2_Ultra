@@ -304,7 +304,7 @@ CaravanDepotSubmenu_Look:
                 beq.w   byte_222E0      
                 chkFlg  70              ; Astral is a follower
                 bne.s   @AstralIsFollower
-                moveq   #PORTRAIT_ROHDE,d0
+                moveq   #PORTRAIT_MAYFAIR,d0
                 bra.s   @HasSpecialDescription
 @AstralIsFollower:
                 
