@@ -42,7 +42,7 @@ tbl_ItemDefs:
                 range        0, 1
                 price        130
                 itemType     CONSUMABLE
-                useSpell     HEAL|LV2
+                useSpell     FAIRY|LV2
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
@@ -53,7 +53,7 @@ tbl_ItemDefs:
                 range        0, 1
                 price        400
                 itemType     CONSUMABLE
-                useSpell     HEAL|LV3
+                useSpell     FAIRY|LV3
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
@@ -1412,7 +1412,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 126: Chirrup Sandals
-                equipFlags   SDMN|HERO|MAGE|PRST|WIZ|SORC|VICR|BRN|ACHR|SNIP|WFMN|WFBR|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN|SWOR|STAR|PLDN2|MONK
+                equipFlags   SDMN|HERO|MAGE|PRST|WIZ|SORC|VICR|BRN|ACHR|SNIP|WFMN|WFBR|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN|SWOR|STAR|MONK
                 equipFlags2  NONE
                 range        0, 0
                 price        550

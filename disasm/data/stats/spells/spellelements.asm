@@ -53,7 +53,7 @@ tbl_SpellElements:
                 spellElement WIND       ; 44: RIPSAW
                 spellElement NEUTRAL    ; 45: BLACK_MAGIC
                 spellElement WIND       ; 46: TORNADO
-                spellElement NEUTRAL    ; 47: 
+                spellElement NEUTRAL    ; 47: FAIRY
                 spellElement NEUTRAL    ; 48: 
                 spellElement NEUTRAL    ; 49: 
                 spellElement NEUTRAL    ; 50: 

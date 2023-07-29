@@ -86,7 +86,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass WFMN         ; 9: GERHALT
-                startLevel 15
+                startLevel 16
                 startItems &
                     HEALING_RAIN, &
                     NOTHING, &
@@ -94,7 +94,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass BDMN         ; 10: LUKE
-                startLevel 15
+                startLevel 16
                 startItems &
                     LONG_SWORD|EQUIPPED, &
                     PROTECT_MILK, &

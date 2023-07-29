@@ -981,3 +981,35 @@ tbl_SpellDefs:
                 range      1, 2
                 radius     0
                 power      77
+				
+				entry      FAIRY         ; FAIRY 1
+                mpCost     2
+                animation  HEALING_FAIRY
+                properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
+                range      0, 1
+                radius     0
+                power      10
+                
+                entry      FAIRY|LV2     ; FAIRY 2
+                mpCost     6
+                animation  HEALING_FAIRY|VARIATION2
+                properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
+                range      0, 1
+                radius     0
+                power      25
+                
+                entry      FAIRY|LV3     ; FAIRY 3
+                mpCost     12
+                animation  HEALING_FAIRY|VARIATION3
+                properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
+                range      0, 1
+                radius     0
+                power      35
+                
+                entry      FAIRY|LV4     ; FAIRY 4
+                mpCost     20
+                animation  HEALING_FAIRY|VARIATION4
+                properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
+                range      0, 1
+                radius     0
+                power      55
