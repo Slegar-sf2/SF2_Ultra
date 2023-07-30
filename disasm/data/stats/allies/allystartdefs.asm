@@ -125,7 +125,7 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass KNTE2         ; 14: APIS
+                startClass KENT         ; 14: APIS
                 startLevel 28
                 startItems &
                     SPEAR|EQUIPPED, &
@@ -165,7 +165,7 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass PLDN2         ; 19: DAWN
+                startClass PALA         ; 19: DAWN
                 startLevel 6
                 startItems &
                     JAVELIN|EQUIPPED, &

@@ -27,4 +27,6 @@ tbl_AfterTurnMpRecoveryForWeapons:
 
 tbl_AfterTurnMpRecoveryForRings:
                 
+				dc.b 140, 1
+				
                 tableEnd.b

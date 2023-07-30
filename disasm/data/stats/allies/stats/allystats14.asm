@@ -1,7 +1,7 @@
 
 ; ASM FILE data\stats\allies\stats\allystats14.asm :
 ; 0x1EE575..0x1EE5A8 : Ally stats 14
-AllyStats14:    forClass  KNTE2 ; APIS
+AllyStats14:    forClass  KENT ; APIS
                 hpGrowth  14, 58, LATE
                 mpGrowth  0, 0, NONE
                 attGrowth 6, 48, LINEAR
@@ -9,7 +9,7 @@ AllyStats14:    forClass  KNTE2 ; APIS
                 agiGrowth 7, 35, LINEAR
                 spellList 
                     
-                forClass  PLDN2
+                forClass  PALA
                 hpGrowth  58, 122, LINEAR
                 mpGrowth  0, 0, NONE
                 attGrowth 48, 82, LINEAR

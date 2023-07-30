@@ -142,7 +142,9 @@ Icon187:        incbin "data/graphics/icons/icon187.bin"
 Icon188:        incbin "data/graphics/icons/icon188.bin"
 Icon189:        incbin "data/graphics/icons/icon189.bin"
 Icon190:        incbin "data/graphics/icons/icon190.bin"
-              rept 116
+Icon191:        incbin "data/graphics/icons/icon191.bin"
+Icon192:        incbin "data/graphics/icons/icon192.bin"
+              rept 114
                 incbin "data/graphics/icons/icon145.bin"
               endr
             endif
@@ -210,7 +212,7 @@ Icon172:        incbin "data/graphics/icons/icon172.bin"
 Icon173:        incbin "data/graphics/icons/icon173.bin"
 Icon174:        incbin "data/graphics/icons/icon174.bin"
 Icon175:        incbin "data/graphics/icons/icon175.bin"
-Icon191:        incbin "data/graphics/icons/icon191.bin"				
+Icon193:        incbin "data/graphics/icons/icon193.bin"				
                     rept 16
                         incbin "data/graphics/icons/icon145.bin"
                     endr

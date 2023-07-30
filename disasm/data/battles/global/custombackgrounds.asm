@@ -11,11 +11,11 @@ tbl_CustomBackgrounds:
                 background TOWER_INTERIOR ; 1: Inside Ancient Tower
                 background OVERWORLD    ; 2: To Yeel
                 background OVERWORLD    ; 3: To Hawel's house
-                background 33    ; 4: Ambushed by Galam Soldiers
+                background 33           ; 4: Ambushed by Galam Soldiers
                 background CASTLE       ; 5: Galam Castle
                 background OVERWORLD    ; 6: To Granseal
-                background TOWER_INTERIOR ; 7: Versus Dark Smokes
-                background 31    ; 8: North Cliff
+                background 36           ; 7: Versus Dark Smokes
+                background 31           ; 8: North Cliff
                 background OVERWORLD    ; 9: To Ribble
                 background OVERWORLD    ; 10: To the East
                 background CAVE         ; 11: Cave of Darkness
@@ -56,7 +56,7 @@ tbl_CustomBackgrounds:
                 background 32            ; 46: Battle
                 background OVERWORLD     ; 47: Battle
 				background 35            ; 48: Battle
-				background MOUNTAIN      ; 49: Battle
+				background 37            ; 49: Battle
 				background VERSUS_GALAM  ; 50: Battle
 				background VERSUS_GALAM  ; 51: Battle
                 

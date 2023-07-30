@@ -68,14 +68,14 @@ tbl_SpellDefs:
                 properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      0, 3
                 radius     2
-                power      20
+                power      15
                 
                 entry      AURA|LV3     ; AURA 3
                 mpCost     15
                 animation  HEALING_FAIRY|VARIATION3
                 properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      0, 3
-                radius     3
+                radius     2
                 power      25
                 
                 entry      AURA|LV4     ; AURA 4
