@@ -1391,7 +1391,7 @@ tbl_ItemDefs:
                 
                 ; 124: Life Ring
                 equipFlags   HERO|PLDN|PGNT|GLDT|BRN|WIZ|SORC|VICR|MMNK|SNIP|BRGN|BDBT|WFBR|BWNT|PHNX|NINJ|MNST|RBT|GLM|RDBN
-                equipFlags2  NONE
+                equipFlags2  SWOR|STAR|MONK|BRSK
                 range        0, 0
                 price        5000
                 itemType     RING|RARE
@@ -1548,7 +1548,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        250
+                price        550
                 itemType     CONSUMABLE
                 useSpell     ICE
                 equipEffects NONE, 0, &

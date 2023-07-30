@@ -154,6 +154,7 @@ cs_59142:       textCursor 2278
                 setPos ALLY_SLADE,13,8,DOWN
                 setPos ALLY_SARAH,13,7,DOWN
                 setPos ALLY_NATASHA,13,6,DOWN
+				setPos ALLY_SHADE,13,10,DOWN
                 entityActions ALLY_KAZIN
                  moveDown 4
                  moveRight 1
@@ -170,6 +171,10 @@ cs_59142:       textCursor 2278
                 entityActions ALLY_SARAH
                  moveDown 7
                 endActions
+				entityActions ALLY_SHADE
+                 moveDown 3
+				 moveRight 1
+                endActions
                 entityActionsWait ALLY_NATASHA
                  moveDown 7
                 endActions
@@ -178,6 +183,7 @@ cs_59142:       textCursor 2278
                 setFacing ALLY_NATASHA,DOWN
                 setFacing ALLY_CHESTER,DOWN
                 setFacing ALLY_KAZIN,LEFT
+				setFacing ALLY_SHADE,DOWN
                 setFacing ALLY_BOWIE,UP
                 setFacing 131,UP
                 setFacing 128,DOWN
@@ -211,6 +217,9 @@ cs_59142:       textCursor 2278
                 entityActionsWait ALLY_NATASHA
                  moveDown 7
                 endActions
+				entityActionsWait ALLY_SHADE
+                 moveDown 7
+                endActions
                 setStoryFlag 8          ; Battle 8 unlocked - BATTLE_NORTH_CLIFF               
                 warp 80,1,1,DOWN
                 csc_end
@@ -221,9 +230,10 @@ ce_59270:       mainEntity 13,11,DOWN
                 entity 14,22,UP,ALLY_NATASHA,eas_Init
                 entity 14,23,UP,ALLY_CHESTER,eas_Init
                 entity 14,24,UP,ALLY_KAZIN,eas_Init
-                entity 13,13,UP,MAPSPRITE_SAILOR,eas_Init
+				entity 14,25,UP,ALLY_SHADE,eas_Init
+				entity 13,13,RIGHT,MAPSPRITE_MAN1,eas_Init                
                 entity 9,13,LEFT,MAPSPRITE_MAN2,eas_Init
-                entity 16,13,RIGHT,MAPSPRITE_MAN1,eas_Init
+                entity 16,13,UP,MAPSPRITE_SAILOR,eas_Init
                 entity 13,20,UP,MAPSPRITE_WORKER,eas_Init
                 entity 12,11,RIGHT,MAPSPRITE_OBJECT2,eas_InitFixedSprite
                 entity 13,11,DOWN,MAPSPRITE_OBJECT2,eas_InitFixedSprite
