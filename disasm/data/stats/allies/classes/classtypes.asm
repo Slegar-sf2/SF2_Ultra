@@ -37,11 +37,11 @@ tbl_ClassTypes:
                 classType PROMO         ; 30: GLM
                 classType REDBARON      ; 31: RDBN               
             if (STANDARD_BUILD&EXPANDED_CLASSES=1)
-                classType BASE          ; 32: tort
+                classType BASE          ; 32: TORT
                 classType PROMO         ; 33: STAR
                 classType PROMO         ; 34: BRSK
-                classType BASE          ; 35: KNTE2
-                classType PROMO         ; 36: PLDN2
+                classType BASE          ; 35: KENT
+                classType PROMO         ; 36: PALA
                 classType PROMO         ; 37: MONK
                 classType PROMO         ; 38: 
                 classType PROMO         ; 39: 

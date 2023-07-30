@@ -63,9 +63,7 @@ TextBankTreeData:
             endif
             if (STANDARD_BUILD&MEMORY_MAPPER=1)
                 include "code\common\tech\mappererrorhandling-standard.asm"
-            endif
-                includeIfExpandedRom "data\battles\global\battlemapcoords.asm"      ; Battle map coords
-                                
+            endif                                                
             if (STANDARD_BUILD&MUSIC_RESUMING=1)
                 align $43000
                 incbin "data\sound\cubesfx.bin"

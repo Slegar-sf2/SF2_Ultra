@@ -23,7 +23,9 @@
         align
         include "data\graphics\battles\weapons\entries.asm"                 ; Battlescene Weapons
         align
-		include "data\maps\global\savepointmapcoords.asm"
+		include "data\battles\global\battlemapcoords.asm"    ; Battle map coords
+		align
+		include "data\maps\global\savepointmapcoords.asm"   ; Save point map coords
 		align
 		include "data\maps\global\raftresetmapcoords.asm"      ; Raft reset map coords
 		align
