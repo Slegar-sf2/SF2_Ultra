@@ -12,5 +12,6 @@ tbl_EgressPositionsForBattles:
                 dc.b BATTLE_POLCA_VILLAGE, MAP_MOUNT_VOLCANON
                 dc.b BATTLE_PACALON, MAP_PACALON_CASTLE
                 dc.b BATTLE_TO_MOUN, MAP_PACALON
+				;dc.b 46, 44
                 
                 tableEnd.b

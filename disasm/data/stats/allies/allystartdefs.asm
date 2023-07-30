@@ -94,7 +94,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass BDMN         ; 10: LUKE
-                startLevel 16
+                startLevel 17
                 startItems &
                     LONG_SWORD|EQUIPPED, &
                     PROTECT_MILK, &

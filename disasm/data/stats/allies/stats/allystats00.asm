@@ -24,7 +24,7 @@ AllyStats00:
                 hpGrowth  12, 55, LINEAR
                 mpGrowth  0, 16, EARLY
                 attGrowth 6, 45, LINEAR
-                defGrowth 4, 36, LINEAR
+                defGrowth 4, 35, LINEAR
                 agiGrowth 4, 32, EARLY
                 spellList &				    
                     17, BOLT, &
@@ -36,7 +36,7 @@ AllyStats00:
                 hpGrowth  55, 120, LINEAR
                 mpGrowth  16, 37, EARLY
                 attGrowth 45, 95, LINEAR
-                defGrowth 36, 80, LINEAR
+                defGrowth 35, 80, LINEAR
                 agiGrowth 32, 57, EARLYANDLATE
                 useFirstSpellList
                 

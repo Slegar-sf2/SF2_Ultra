@@ -35,7 +35,7 @@ CalculateHealingExp:
                 jsr     GetMaxHp
                 tst.w   d1
                 beq.w   @Skip           ; safety measure to prevent division by 0
-                move.w  #15,d5
+                move.w  #20,d5
                 mulu.w  d6,d5
                 divu.w  d1,d5
                 cmpi.w  #10,d5
@@ -176,9 +176,12 @@ GetKillExp:
 @Continue:
                 
                 sub.w   d2,d1
-                moveq   #50,d5          ; HARDCODED EXP amounts
-                cmpi.b  #3,d1
+                moveq   #60,d5
+                cmpi.b  #0,d1
                 bmi.w   @Done
+                moveq   #50,d5
+                cmpi.b  #3,d1
+                beq.w   @Done
                 moveq   #40,d5
                 cmpi.b  #3,d1
                 beq.w   @Done
@@ -188,11 +191,11 @@ GetKillExp:
                 moveq   #20,d5
                 cmpi.b  #5,d1
                 beq.w   @Done
-                moveq   #15,d5
-                cmpi.b  #6,d1
-                beq.w   @Done
 				moveq   #10,d5
-                cmpi.b  #7,d1
+                cmpi.b  #6,d1
+				;beq.w   @Done
+                ;moveq   #5,d5
+                ;cmpi.b  #7,d1
                 beq.w   @Done
                 moveq   #0,d5
 @Done:
