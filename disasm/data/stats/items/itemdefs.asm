@@ -213,8 +213,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 17: Helmet
-                equipFlags   SDMN|HERO|KNTE|PLDN|PGNT|WARR|GLDT|BRN|ACHR|SNIP|BDMN|BDBT|WFMN|WFBR|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN
-                equipFlags2  SWOR|STAR|KENT|PALA
+                equipFlags   SDMN|HERO|KNTE|PLDN|PGNT|WARR|GLDT|BRN|ACHR|SNIP|BDMN|BDBT|WFMN|WFBR|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN|SWOR
+                equipFlags2  STAR|KENT|PALA
                 range        0, 0
                 price        250
                 itemType     RING|BREAKABLE
@@ -389,8 +389,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 33: Short Axe
-                equipFlags   WARR|GLDT|BRN|RDBN|BDMN|BDBT
-                equipFlags2  SWOR|STAR
+                equipFlags   WARR|GLDT|BRN|RDBN|BDMN|BDBT|SWOR
+                equipFlags2  STAR
                 range        1, 1
                 price        120
                 itemType     WEAPON
@@ -400,8 +400,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 34: Hand Axe
-                equipFlags   WARR|GLDT|BRN|RDBN|BDMN|BDBT
-                equipFlags2  SWOR|STAR
+                equipFlags   WARR|GLDT|BRN|RDBN|BDMN|BDBT|SWOR
+                equipFlags2  STAR
                 range        1, 1
                 price        340
                 itemType     WEAPON
@@ -411,8 +411,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 35: Middle Axe
-                equipFlags   WARR|GLDT|BRN|RDBN|BDMN|BDBT
-                equipFlags2  SWOR|STAR
+                equipFlags   WARR|GLDT|BRN|RDBN|BDMN|BDBT|SWOR
+                equipFlags2  STAR
                 range        1, 1
                 price        610
                 itemType     WEAPON
@@ -422,8 +422,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 36: Power Axe
-                equipFlags   WARR|GLDT|BRN|RDBN|BDMN|BDBT
-                equipFlags2  SWOR|STAR
+                equipFlags   WARR|GLDT|BRN|RDBN|BDMN|BDBT|SWOR
+                equipFlags2  STAR
                 range        1, 1
                 price        1100
                 itemType     WEAPON
@@ -433,8 +433,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 37: Battle Axe
-                equipFlags   WARR|GLDT|BRN|RDBN|BDMN|BDBT
-                equipFlags2  SWOR|STAR
+                equipFlags   WARR|GLDT|BRN|RDBN|BDMN|BDBT|SWOR
+                equipFlags2  STAR
                 range        1, 1
                 price        1370
                 itemType     WEAPON
@@ -444,8 +444,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 38: Large Axe
-                equipFlags   GLDT|BRN|RDBN|BDMN|BDBT
-                equipFlags2  SWOR|STAR
+                equipFlags   GLDT|BRN|RDBN|BDMN|BDBT|SWOR
+                equipFlags2  STAR
                 range        1, 1
                 price        2250
                 itemType     WEAPON
@@ -653,8 +653,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 57: Short Sword
-                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN
-                equipFlags2  SWOR|STAR
+                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN|SWOR
+                equipFlags2  STAR
                 range        1, 1
                 price        140
                 itemType     WEAPON
@@ -664,8 +664,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 58: Middle Sword
-                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN
-                equipFlags2  SWOR|STAR
+                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN|SWOR
+                equipFlags2  STAR
                 range        1, 1
                 price        340
                 itemType     WEAPON
@@ -675,8 +675,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 59: Long Sword
-                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN
-                equipFlags2  SWOR|STAR
+                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN|SWOR
+                equipFlags2  STAR
                 range        1, 1
                 price        620
                 itemType     WEAPON
@@ -686,8 +686,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 60: Steel Sword
-                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN
-                equipFlags2  SWOR|STAR
+                equipFlags   SDMN|BDMN|HERO|BRN|BDBT|NINJ|RDBN|SWOR
+                equipFlags2  STAR
                 range        1, 1
                 price        1100
                 itemType     WEAPON
@@ -708,8 +708,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 62: Broad Sword
-                equipFlags   HERO|BRN|BDMN|BDBT|NINJ|RDBN
-                equipFlags2  SWOR|STAR
+                equipFlags   HERO|BRN|BDMN|BDBT|NINJ|RDBN|SWOR
+                equipFlags2  STAR
                 range        1, 1
                 price        1900
                 itemType     WEAPON
@@ -719,8 +719,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 63: Buster Sword
-                equipFlags   HERO|BRN|BDMN|BDBT|NINJ|RDBN
-                equipFlags2  SWOR|STAR
+                equipFlags   HERO|BRN|BDMN|BDBT|NINJ|RDBN|SWOR
+                equipFlags2  STAR
                 range        1, 1
                 price        2600
                 itemType     WEAPON
@@ -1390,8 +1390,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 124: Life Ring
-                equipFlags   HERO|PLDN|PGNT|GLDT|BRN|WIZ|SORC|VICR|MMNK|SNIP|BRGN|BDBT|WFBR|BWNT|PHNX|NINJ|MNST|RBT|GLM|RDBN
-                equipFlags2  SWOR|STAR|MONK|BRSK
+                equipFlags   HERO|PLDN|PGNT|GLDT|BRN|WIZ|SORC|VICR|MMNK|SNIP|BRGN|BDBT|WFBR|BWNT|PHNX|NINJ|MNST|RBT|GLM|RDBN|SWOR
+                equipFlags2  STAR|MONK|BRSK
                 range        0, 0
                 price        5000
                 itemType     RING|RARE
@@ -1412,8 +1412,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 126: Chirrup Sandals
-                equipFlags   SDMN|HERO|MAGE|PRST|WIZ|SORC|VICR|BRN|ACHR|SNIP|WFMN|WFBR|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN
-                equipFlags2  SWOR|STAR|MONK|BRSK
+                equipFlags   SDMN|HERO|MAGE|PRST|WIZ|SORC|VICR|BRN|ACHR|SNIP|WFMN|WFBR|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN|SWOR
+                equipFlags2  STAR|MONK|BRSK
                 range        0, 0
                 price        550
                 itemType     RING|RARE
@@ -1578,8 +1578,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 141: ATTACK_RING
-                equipFlags   SDMN|HERO|KNTE|WARR|BDMN|WFMN|PHNK|THIF|PLDN|RBT|NINJ|PHNX|BDBT|GLDT|BRN
-                equipFlags2  SWOR|STAR|KENT|PALA|MONK|BRSK
+                equipFlags   SDMN|HERO|KNTE|WARR|BDMN|WFMN|PHNK|THIF|PLDN|RBT|NINJ|PHNX|BDBT|GLDT|BRN|SWOR
+                equipFlags2  STAR|KENT|PALA|MONK|BRSK
                 range        0, 0
                 price        1500
                 itemType     RING|RARE
