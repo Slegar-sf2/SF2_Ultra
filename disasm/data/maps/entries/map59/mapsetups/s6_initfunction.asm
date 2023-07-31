@@ -488,10 +488,10 @@ ce_5F1DE:       mainEntity 0,0,UP
                 entity 13,17,UP,MAPSPRITE_PRISM_FLOWER,eas_Init
                 entity 14,19,LEFT,MAPSPRITE_PRISM_FLOWER,eas_Init
                 entity 15,20,UP,MAPSPRITE_PRISM_FLOWER,eas_Init
-                entity 8,16,RIGHT,MAPSPRITE_KOMAINU,eas_Init
-                entity 10,16,LEFT,MAPSPRITE_KOMAINU,eas_Init
-                entity 11,16,LEFT,MAPSPRITE_KOMAINU,eas_Init
-                entity 15,19,DOWN,MAPSPRITE_CHAOS_WIZARD,eas_Init
+                entity 8,16,RIGHT,MAPSPRITE_SKELET,eas_Init
+                entity 10,16,LEFT,MAPSPRITE_BOW_RIDER,eas_Init
+                entity 11,16,LEFT,MAPSPRITE_EVIL_BISHOP,eas_Init
+                entity 15,19,DOWN,MAPSPRITE_RED_BARON,eas_Init
                 entity 13,19,RIGHT,MAPSPRITE_CHAOS_WIZARD,eas_Init
                 dc.w $FFFF
 ce_5F23E:       mainEntity 0,0,UP
@@ -500,17 +500,17 @@ ce_5F23E:       mainEntity 0,0,UP
                 entity 13,17,RIGHT,MAPSPRITE_PRISM_FLOWER,eas_Init
                 entity 14,19,RIGHT,MAPSPRITE_PRISM_FLOWER,eas_Init
                 entity 15,20,RIGHT,MAPSPRITE_PRISM_FLOWER,eas_Init
-                entity 11,16,RIGHT,MAPSPRITE_KOMAINU,eas_Init
-                entity 12,17,RIGHT,MAPSPRITE_CHAOS_WIZARD,eas_Init
-                entity 13,19,RIGHT,MAPSPRITE_KOMAINU,eas_Init
-                entity 14,20,RIGHT,MAPSPRITE_CHAOS_WIZARD,eas_Init
+                entity 11,16,RIGHT,MAPSPRITE_SKELET,eas_Init
+                entity 12,17,RIGHT,MAPSPRITE_BOW_RIDER,eas_Init
+                entity 13,19,RIGHT,MAPSPRITE_EVIL_BISHOP,eas_Init
+                entity 14,20,RIGHT,MAPSPRITE_RED_BARON,eas_Init
                 dc.w $FFFF
 ce_5F28E:       mainEntity 0,0,UP
-                entity 11,16,RIGHT,MAPSPRITE_KOMAINU,eas_Init
+                entity 11,16,RIGHT,MAPSPRITE_SKELET,eas_Init
                 entity 16,18,RIGHT,MAPSPRITE_GESHP,eas_Init
-                entity 12,17,RIGHT,MAPSPRITE_CHAOS_WIZARD,eas_Init
-                entity 13,19,RIGHT,MAPSPRITE_KOMAINU,eas_Init
-                entity 14,20,RIGHT,MAPSPRITE_CHAOS_WIZARD,eas_Init
+                entity 12,17,RIGHT,MAPSPRITE_BOW_RIDER,eas_Init
+                entity 13,19,RIGHT,MAPSPRITE_EVIL_BISHOP,eas_Init
+                entity 14,20,RIGHT,MAPSPRITE_RED_BARON,eas_Init
                 entity 0,0,LEFT,MAPSPRITE_EFFECT5,eas_Init
                 entity 0,0,LEFT,MAPSPRITE_EFFECT5,eas_Init
                 entity 0,0,LEFT,MAPSPRITE_EFFECT5,eas_Init

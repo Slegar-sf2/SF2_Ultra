@@ -89,6 +89,7 @@ pt_MapData:     dc.l Map00
 				dc.l Map85
 				dc.l Map86
 				dc.l Map87
+				dc.l Map88
 Map00:          include "data\maps\entries\map00\00-tilesets.asm"    ; 
                 dc.l Map00s0_Blocks
                 dc.l Map00s1_Layout
@@ -1881,3 +1882,24 @@ Map87s7_ChestItems:include "data\maps\entries\Map87\7-chest-items.asm"    ;
 Map87s8_OtherItems:include "data\maps\entries\Map87\8-other-items.asm"    ; 
 Map87s0_Blocks: incbin "data/maps/entries/Map87/0-blocks.bin"
 Map87s1_Layout: incbin "data/maps/entries/Map87/1-layout.bin"
+Map88:          include "data\maps\entries\Map88\00-tilesets.asm"    ; 
+                dc.l Map88s0_Blocks
+                dc.l Map88s1_Layout
+                dc.l Map88s2_Areas
+                dc.l Map88s3_FlagEvents
+                dc.l Map88s4_StepEvents
+                dc.l Map88s5_RoofEvents
+                dc.l Map88s6_WarpEvents
+                dc.l Map88s7_ChestItems
+                dc.l Map88s8_OtherItems
+                dc.l $FFFFFFFF
+Map88s2_Areas:  include "data\maps\entries\Map88\2-areas.asm"    ; 
+Map88s3_FlagEvents:include "data\maps\entries\Map88\3-flag-events.asm"    ; 
+Map88s4_StepEvents:include "data\maps\entries\Map88\4-step-events.asm"    ; 
+Map88s5_RoofEvents:include "data\maps\entries\Map88\5-roof-events.asm"    ; 
+Map88s6_WarpEvents:include "data\maps\entries\Map88\6-warp-events.asm"    ; 
+Map88s7_ChestItems:include "data\maps\entries\Map88\7-chest-items.asm"    ; 
+Map88s8_OtherItems:include "data\maps\entries\Map88\8-other-items.asm"    ; 
+Map88s0_Blocks: incbin "data/maps/entries/Map88/0-blocks.bin"
+Map88s1_Layout: incbin "data/maps/entries/Map88/1-layout.bin"
+;Map88s9_Animations:include "data\maps\entries\Map88\9-animations.asm"    ;

@@ -6,4 +6,10 @@
                   warpMap    MAP_ANCIENT_TOWER_UNDERGROUND_STAIRS
                   warpDest   8, 52
                   warpFacing RIGHT
+				mWarp 20, 6
+                  warpNoScroll
+                  warpMap    88
+                  warpDest   13, 32
+                  warpFacing UP  
+				  
                 endWord

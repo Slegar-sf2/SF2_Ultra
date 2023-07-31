@@ -82,9 +82,9 @@ tbl_LaserEnemyFacingForBattle_VersusDava:
                 enemyFacing NONE
                 enemyFacing NONE
                 enemyFacing NONE
-                enemyFacing RIGHT
-                enemyFacing RIGHT
+                enemyFacing DOWN
+                enemyFacing DOWN
                 enemyFacing LEFT
-				enemyFacing DOWN
-				enemyFacing DOWN
+				enemyFacing RIGHT
+				enemyFacing NONE
 				enemyFacing NONE

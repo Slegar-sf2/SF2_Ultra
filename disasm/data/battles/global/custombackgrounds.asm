@@ -50,13 +50,13 @@ tbl_CustomBackgrounds:
                 background VERSUS_ODD_EYE ; 40: Versus Odd Eye
                 background TOWER_EXTERIOR ; 41: Outside Ancient Tower
                 background VERSUS_GALAM ; 42: Versus Galam
-                background VERSUS_GALAM ; 43: Versus Zeon
+                background 38           ; 43: Versus Zeon
                 background FOREST       ; 44: Fairy Woods
 				background TOWN          ; 45: Battle
                 background 32            ; 46: Battle
                 background OVERWORLD     ; 47: Battle
 				background 35            ; 48: Battle
 				background 37            ; 49: Battle
-				background VERSUS_GALAM  ; 50: Battle
-				background VERSUS_GALAM  ; 51: Battle
+				background 38            ; 50: Battle
+				;background VERSUS_GALAM  ; 51: Battle
                 
