@@ -43,7 +43,7 @@
                 include "data\stats\allies\allynames.asm"    ; Ally names
                 include "data\stats\enemies\enemynames.asm"    ; Enemy names
             endif
-        
+        		        
 		
         objendIfExtendedSsf
         alignIfExtendedSsf $600000, $400000

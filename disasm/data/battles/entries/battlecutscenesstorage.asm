@@ -55,9 +55,10 @@
                 include "data\battles\entries\battle40\cs_regiontriggered_2.asm"    ; Region-activated cutscene 2 for battle 40
                 include "data\battles\entries\battle40\cs_afterbattle.asm"    ; Cutscene after battle 40
                 include "data\battles\entries\battle41\cs_beforebattle.asm"    ; Cutscene before battle 41
-                include "data\battles\entries\battle42\cs_beforebattle.asm"    ; Cutscene before battle 42
+                include "data\battles\entries\battle42\cs_beforebattle.asm"    ; Cutscene before battle 42				
                 include "data\battles\entries\battle42\cs_afterbattle.asm"    ; Cutscene after battle 42
 				include "data\battles\entries\battle50\cs_afterbattle.asm"    ; Cutscene after battle 50
+				include "data\battles\entries\battle43\cs_beforebattle.asm"    ; Cutscene before battle 43
                 include "data\battles\entries\battle43\cs_battleend.asm"    ; Enemy defeated cutscene for battle 43
                 include "data\battles\entries\battle43\cs_afterbattle.asm"    ; Cutscene after battle 43	
                 include "data\battles\entries\battle00\cs_afterbattle.asm"    ; Cutscene after battle 0

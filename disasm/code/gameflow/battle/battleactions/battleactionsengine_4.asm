@@ -194,7 +194,7 @@ GetKillExp:
 				moveq   #10,d5
                 cmpi.b  #6,d1
 				beq.w   @Done
-                moveq   #5,d5
+				moveq   #5,d5
                 cmpi.b  #7,d1
                 beq.w   @Done
                 moveq   #0,d5
