@@ -149,7 +149,7 @@ byte_441F0:
                 bne.s   @RaftNotOnMap
                 getSavedByte RAFT_X, d1
                 getSavedByte RAFT_Y, d2
-                move.w  #FOLLOWER_B,d0
+                move.w  #31,d0
                 andi.w  #$7F,d1 
                 muls.w  #$180,d1
                 andi.w  #$7F,d2 
@@ -162,7 +162,7 @@ byte_441F0:
                 move.b  d0,$3F(a0)
                 move.w  d0,d6
                 bsr.w   DeclareNewEntity
-                move.w  #FOLLOWER_B,d0
+                move.w  #31,d0
                 move.w  d3,d1
                 moveq   #$FFFFFFFF,d2
                 moveq   #$FFFFFFFF,d3

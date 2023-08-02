@@ -5,7 +5,7 @@
 
 tbl_AfterTurnHpRecoveryForWeapons:
                 
-                dc.b ITEM_HOLY_STAFF, 4
+                dc.b ITEM_HOLY_STAFF, 5
 				dc.b ITEM_TAROS_SWORD, 4
 				
                 

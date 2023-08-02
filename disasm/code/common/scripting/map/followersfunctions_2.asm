@@ -78,7 +78,7 @@ byte_44420:
                 getSavedByte RAFT_Y, d2
 loc_4443C:
                 
-                move.w  #FOLLOWER_B,d0
+                move.w  #31,d0
                 andi.w  #$7F,d1 
                 muls.w  #$180,d1
                 andi.w  #$7F,d2 

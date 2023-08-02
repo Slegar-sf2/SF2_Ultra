@@ -213,7 +213,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 17: Helmet
-                equipFlags   SDMN|HERO|KNTE|PLDN|PGNT|WARR|GLDT|BRN|ACHR|SNIP|BDMN|BDBT|WFMN|WFBR|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN|SWOR
+                equipFlags   SDMN|HERO|KNTE|PLDN|PGNT|WARR|GLDT|BRN|ACHR|SNIP|BDMN|BDBT|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN|SWOR
                 equipFlags2  STAR|KENT|PALA
                 range        0, 0
                 price        250
@@ -1566,7 +1566,7 @@ tbl_ItemDefs:
                              NONE, 0, &
                              NONE, 0
                 
-                ; 140: VICR_RING
+                ; 140: VICR RING
                 equipFlags   PRST|VICR
                 equipFlags2  NONE
                 range        0, 0

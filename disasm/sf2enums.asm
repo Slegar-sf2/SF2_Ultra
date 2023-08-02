@@ -3581,7 +3581,7 @@ followerA = 30
 followerB = 31
     if (STANDARD_BUILD&EXPANDED_FORCE_MEMBERS=1)
 followerA = 156
-followerB = 31
+followerB = 157
     endif
 
 FOLLOWER_A: equ followerA 
