@@ -5,7 +5,7 @@
 
 tbl_AfterTurnHpRecoveryForWeapons:
                 
-                dc.b ITEM_ATOM_ROD, 5
+                dc.b ITEM_HOLY_STAFF, 4
 				dc.b ITEM_TAROS_SWORD, 4
 				
                 
@@ -28,6 +28,6 @@ tbl_AfterTurnMpRecoveryForWeapons:
 
 tbl_AfterTurnMpRecoveryForRings:
                 
-				dc.b $8C, 2
+				dc.b ITEM_VICR_RING, 2
 				
                 tableEnd.b
