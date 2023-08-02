@@ -178,26 +178,27 @@ GetKillExp:
                 sub.w   d2,d1
                 moveq   #60,d5
                 cmpi.b  #0,d1
-                bmi.w   @Done
+                bmi.s   @Done
                 moveq   #50,d5
                 cmpi.b  #3,d1
-                beq.w   @Done
+                bmi.s   @Done
                 moveq   #40,d5
                 cmpi.b  #3,d1
-                beq.w   @Done
+                beq.s   @Done
                 moveq   #30,d5
                 cmpi.b  #4,d1
-                beq.w   @Done
+                beq.s   @Done
                 moveq   #20,d5
-                cmpi.b  #5,d1
-                beq.w   @Done
+                cmpi.b  #5,d1  ; =4
+                beq.s   @Done
 				moveq   #10,d5
-                cmpi.b  #6,d1
-				beq.w   @Done
-				moveq   #5,d5
-                cmpi.b  #7,d1
-                beq.w   @Done
-                moveq   #0,d5
+                cmpi.b  #6,d1  ; =5			                  
+				beq.s   @Done       
+				moveq   #5,d5  
+                cmpi.b  #8,d1  ;= 7
+				bmi.s   @Done
+                moveq   #0,d5				
+				nop
 @Done:
                 
                 movem.l (sp)+,d0-d3/a0

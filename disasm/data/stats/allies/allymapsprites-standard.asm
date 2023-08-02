@@ -166,9 +166,9 @@ tbl_AllyMapSprites:
                 mapSprite DEFAULT
                 
 ; 31: 
-                mapSprite DEFAULT
-                mapSprite DEFAULT
-                mapSprite DEFAULT
+                mapSprite MAPSPRITE_ASTRAL
+                mapSprite MAPSPRITE_ASTRAL
+                mapSprite MAPSPRITE_ASTRAL
                 
             endif
 

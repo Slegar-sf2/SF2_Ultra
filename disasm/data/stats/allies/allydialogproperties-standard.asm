@@ -172,8 +172,8 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx SHADE, DIALOG_BLEEP_5
                 
 ; 31: 
-                allyPortraitAndSfx BOWIE_BASE, DIALOG_BLEEP_5
-                allyPortraitAndSfx BOWIE_BASE, DIALOG_BLEEP_5
-                allyPortraitAndSfx BOWIE_BASE, DIALOG_BLEEP_5
+                allyPortraitAndSfx ASTRAL, DIALOG_BLEEP_6
+                allyPortraitAndSfx ASTRAL, DIALOG_BLEEP_6
+                allyPortraitAndSfx ASTRAL, DIALOG_BLEEP_6
                 
             endif

@@ -1,7 +1,7 @@
 
 ; ASM FILE data\battles\entries\battle42\cs_beforebattle.asm :
 ; 0x4ED8E..0x4EF04 : Cutscene before battle 42
-bbcs_43:        textCursor 3106
+bbcs_43:        textCursor 3126
                 loadMapFadeIn 88,8,13
                 loadMapEntities ce_4F32877
                 setActscriptWait ALLY_BOWIE,eas_Init
@@ -29,8 +29,7 @@ cs_MAP88CUTS:   stopEntity 128
                 fadeInB
                 cameraSpeed $30
                 csWait 60
-                shiver 128
-                nextSingleText $C0,128  ; "Auuugh...{W1}"
+                shiver 128                
                 setQuake 2  ;
                 csWait 30
                 setQuake 0
@@ -183,7 +182,7 @@ cs_MAP88CUTS:   stopEntity 128
                 nod ALLY_BOWIE
                 setStoryFlag 43         ; Battle 43 unlocked            
                 csc_end
-ce_4F32877:     mainEntity 13,17,UP
+ce_4F32877:     mainEntity 13,16,UP
                 entity 15,15,LEFT,ALLY_PETER,eas_Init
                 entity 12,19,RIGHT,ALLY_LEMON,eas_Init
                 entity 13,19,DOWN,MAPSPRITE_DAVA,eas_Init

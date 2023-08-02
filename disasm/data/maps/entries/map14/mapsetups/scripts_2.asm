@@ -172,8 +172,8 @@ cs_59142:       textCursor 2278
                  moveDown 7
                 endActions
 				entityActions ALLY_SHADE
-                 moveDown 3
-				 moveRight 1
+                 moveRight 1
+				 moveDown 3
                 endActions
                 entityActionsWait ALLY_NATASHA
                  moveDown 7

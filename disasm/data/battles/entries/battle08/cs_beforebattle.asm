@@ -43,7 +43,7 @@ cs_4A994:       playSound MUSIC_MAIN_THEME
                 setActscript 133,eas_Jump
                 csc_end
 				
-ce_4AA14:       mainEntity 4,10,RIGHT
+ce_4AA14:       mainEntity 2,27,RIGHT
                 entity 2,24,RIGHT,MAPSPRITE_WORKER,eas_Init
                 entity 1,25,RIGHT,ALLY_SARAH,eas_Init
                 entity 1,26,RIGHT,ALLY_JAHA,eas_Init
