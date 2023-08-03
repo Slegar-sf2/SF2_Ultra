@@ -23,5 +23,5 @@ ms_map85_Entities:
 				msFixedEntity 8, 26, UP, MAPSPRITE_MAN3,eas_Init           ;19
 				msFixedEntity 1, 23, UP, MAPSPRITE_GALAM_KNIGHT,eas_Init   ;20
 				msWalkingEntity 14, 6, RIGHT, MAPSPRITE_MAID, 14, 6, 1     ;21
-			    ;msFixedEntity 31, 33, LEFT, MAPSPRITE_RAFT,eas_Init 
+			    msFixedEntity 31, 33, LEFT, MAPSPRITE_RAFT,eas_Init 
                 msEntitiesEnd

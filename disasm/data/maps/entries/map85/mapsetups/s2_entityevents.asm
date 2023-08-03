@@ -23,7 +23,7 @@ ms_map85_EntityEvents:
 				msEntityEvent 146, DOWN, map85_EntityEvent19-ms_map85_EntityEvents
 				msEntityEvent 147, DOWN, map85_EntityEvent20-ms_map85_EntityEvents
 				msEntityEvent 148, DOWN, map85_EntityEvent21-ms_map85_EntityEvents
-				;msEntityEvent 149, DOWN, map85_EntityEvent22-ms_map85_EntityEvents
+				msEntityEvent 149, DOWN, map85_EntityEvent22-ms_map85_EntityEvents
 				msDefaultEntityEvent Map85_DefaultEntityEvent-ms_map85_EntityEvents
 				               
 				

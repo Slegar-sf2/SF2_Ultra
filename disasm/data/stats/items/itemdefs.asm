@@ -40,7 +40,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        130
+                price        125
                 itemType     CONSUMABLE
                 useSpell     FAIRY|LV2
                 equipEffects NONE, 0, &
