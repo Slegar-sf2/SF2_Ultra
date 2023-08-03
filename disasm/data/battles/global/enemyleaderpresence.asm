@@ -20,11 +20,11 @@ tbl_EnemyLeaderPresence:
                 dc.b 255                ; 12: Mt. Volcano
                 dc.b 255                ; 13: Polca Village
                 dc.b 0                  ; 14: Southeast Desert
-                dc.b 255                ; 15: Shrine south of Ribble
+                dc.b 0                  ; 15: Shrine south of Ribble
                 dc.b 255                ; 16: Versus Kraken
                 dc.b 0                  ; 17: To Taros's Shrine
                 dc.b 255                ; 18: Versus Taros
-                dc.b 255                ; 19: Outside Elven Village
+                dc.b 0                  ; 19: Outside Elven Village
                 dc.b 0                  ; 20: Harpies' Pond
                 dc.b 0                  ; 21: Devil's Tail
                 dc.b 255                ; 22: Chessboard

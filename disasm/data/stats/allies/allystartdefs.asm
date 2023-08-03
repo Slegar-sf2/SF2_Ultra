@@ -97,8 +97,8 @@ tbl_AllyStartDefs:
                 startLevel 17
                 startItems &
                     LONG_SWORD|EQUIPPED, &
-                    PROTECT_MILK, &
-                    NOTHING, &
+                    BLIZZARD, &
+                    BOMB, &
                     NOTHING
                 
                 startClass BRGN         ; 11: ROHDE
@@ -150,7 +150,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass MAGE         ; 17: TYRIN
-                startLevel 19
+                startLevel 20
                 startItems &
                     POWER_STICK|EQUIPPED, &
                     ELIXIR, &
