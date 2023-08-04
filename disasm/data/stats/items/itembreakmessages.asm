@@ -33,8 +33,8 @@ tbl_ItemBreakMessages:
                 itemBreakMessage FREEZE_STAFF, 3
                 itemBreakMessage GODDESS_STAFF, 3
                 itemBreakMessage DEMON_ROD, 3
-				itemBreakMessage SHORT_ROD, 3
-                itemBreakMessage BRONZE_ROD, 3
+				;itemBreakMessage SHORT_ROD, 3
+                ;itemBreakMessage BRONZE_ROD, 3
 				;itemBreakMessage IRON_ROD, 3
 				;itemBreakMessage POWER_STICK, 3
 				;itemBreakMessage GUARDIAN_STAFF, 3
