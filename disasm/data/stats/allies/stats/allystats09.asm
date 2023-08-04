@@ -5,7 +5,7 @@ AllyStats09:    forClass  WFMN ;GERHALT
                 hpGrowth  9, 41, EARLYANDLATE
                 mpGrowth  0, 0, NONE
                 attGrowth 14, 70, EARLY
-                defGrowth 7, 41, LINEAR
+                defGrowth 7, 43, LINEAR
                 agiGrowth 7, 39, LINEAR
                 spellList 
                     
@@ -13,7 +13,7 @@ AllyStats09:    forClass  WFMN ;GERHALT
                 hpGrowth  41, 101, LINEAR
                 mpGrowth  0, 0, NONE
                 attGrowth 70, 123, LINEAR
-                defGrowth 41, 97, LINEAR
+                defGrowth 43, 97, LINEAR
                 agiGrowth 39, 69, LINEAR
                 spellList 
                     
