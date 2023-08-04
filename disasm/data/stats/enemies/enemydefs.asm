@@ -2018,7 +2018,7 @@ tbl_EnemyDefs:
                 baseDef  33
                 baseAgi  26
                 baseMov  6
-                baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
+                baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     POWER_STICK|EQUIPPED, &
@@ -2240,7 +2240,7 @@ tbl_EnemyDefs:
                 maxHp    100
                 maxMp    0
                 baseAtt  40
-                baseDef  45
+                baseDef  36
                 baseAgi  160
                 baseMov  0
                 baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
@@ -2487,7 +2487,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 98: ZEON
                 spellPower ENHANCED
                 level    99
-                maxHp    950
+                maxHp    660
                 maxMp    100
                 baseAtt  166
                 baseDef  122
@@ -2502,7 +2502,7 @@ tbl_EnemyDefs:
                     NOTHING
                 spells &
                     DEMON|LV2, &
-                    AURA|LV4, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
