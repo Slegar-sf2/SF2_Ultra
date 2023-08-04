@@ -933,7 +933,9 @@ tbl_SpellDefs:
                 range      1, 3
                 radius     1
                 power      45
-                
+				
+            if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
+			
 				entry      RIPSAW           ; RIPSAW
                 mpCost     10
                 animation  BLAST|VARIATION3
@@ -1013,3 +1015,8 @@ tbl_SpellDefs:
                 range      0, 1
                 radius     0
                 power      55
+				
+				
+                ; Fill out table with dummy entries
+                dcb.b (SPELLDEF_ENTRY_SIZE*252)-(*-tbl_SpellDefs),0
+            endif				
