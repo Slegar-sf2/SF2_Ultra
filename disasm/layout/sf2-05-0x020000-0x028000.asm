@@ -45,7 +45,7 @@
             if (STANDARD_BUILD=1)
                 include "code\gameflow\battle\battlefunctions\getegresspositionforbattle-standard.asm"
                 include "code\gameflow\battle\battlefunctions\executeindividualturn-standard.asm"
-                include "code\gameflow\battle\battlefunctions\handleafterturneffects-standard.asm"
+                include "code\gameflow\battle\battlefunctions\handleafterturneffects.asm"
                 include "data\battles\global\egresspositionsforbattles-standard.asm"
                 include "data\stats\randomattackspells-standard.asm"
                 include "data\battles\global\enemybattlescenemusics-standard.asm"
