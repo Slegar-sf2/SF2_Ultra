@@ -50,7 +50,6 @@ ExecuteIndividualTurn:
                 jsr     GetStatusEffects
                 move.w  d1,statusEffects(a6)
                 andi.w  #STATUSEFFECT_MUDDLE,d1
-				bne.w   @IsMuddled ; ?
                 bne.s   @AiControl1
                 jsr     GetAiActivationFlag
                 andi.w  #4,d1
@@ -63,9 +62,6 @@ ExecuteIndividualTurn:
                 
 @IsAutoBattle:  tst.b   ((AUTO_BATTLE_CHEAT-$1000000)).w
                 beq.s   @PlayerControl
-                
-@IsMuddled:                
-                moveq   #0,d5
                 
 @AiControl1:    st      aiControlFlag(a6)
                 jsr     StartAiControl      ; AI controlled unit (enemy, auto-control cheat, MUDDLEd force member)

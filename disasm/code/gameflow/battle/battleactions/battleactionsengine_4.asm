@@ -197,7 +197,15 @@ GetKillExp:
                 cmpi.b  #8,d1
                 bmi.s   @Done
                 moveq   #0,d5
-                nop
+                move.w  combatant(a6),d0
+                jsr     j_GetStatusEffects
+                andi.w  #STATUSEFFECT_MUDDLE,d1
+                bne.w   @IsMuddled 
+				
+                bmi.s   @Done
+@IsMuddled:                
+                moveq   #0,d5				
+				
 @Done:
                 
                 movem.l (sp)+,d0-d3/a0
