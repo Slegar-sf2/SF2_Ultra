@@ -161,8 +161,13 @@ AddExpAndApplyHealingCap:
 
 
 GetKillExp:
-                
                 movem.l d0-d3/a0,-(sp)
+
+                move.w  (a4),d0
+                jsr     j_GetStatusEffects
+                andi.w  #STATUSEFFECT_MUDDLE,d1
+                bne.w   @IsMuddled 
+                
                 move.b  (a5),d0
                 jsr     GetCurrentLevel 
                 move.w  d1,d2
@@ -174,6 +179,7 @@ GetKillExp:
                 bcs.s   @Continue
                 addi.w  #CHAR_CLASS_EXTRALEVEL,d1
 @Continue:
+                
                 sub.w   d2,d1
                 moveq   #60,d5
                 cmpi.b  #0,d1
@@ -196,16 +202,9 @@ GetKillExp:
                 moveq   #5,d5  
                 cmpi.b  #8,d1
                 bmi.s   @Done
+@IsMuddled:
+
                 moveq   #0,d5
-                move.w  combatant(a6),d0
-                jsr     j_GetStatusEffects
-                andi.w  #STATUSEFFECT_MUDDLE,d1
-                bne.w   @IsMuddled 
-				
-                bmi.s   @Done
-@IsMuddled:                
-                moveq   #0,d5				
-				
 @Done:
                 
                 movem.l (sp)+,d0-d3/a0
