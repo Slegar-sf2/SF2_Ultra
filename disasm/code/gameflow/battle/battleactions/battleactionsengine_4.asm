@@ -174,7 +174,6 @@ GetKillExp:
                 bcs.s   @Continue
                 addi.w  #CHAR_CLASS_EXTRALEVEL,d1
 @Continue:
-                
                 sub.w   d2,d1
                 moveq   #60,d5
                 cmpi.b  #0,d1
@@ -189,16 +188,16 @@ GetKillExp:
                 cmpi.b  #4,d1
                 beq.s   @Done
                 moveq   #20,d5
-                cmpi.b  #5,d1  ; =4
+                cmpi.b  #5,d1
                 beq.s   @Done
-				moveq   #10,d5
-                cmpi.b  #6,d1  ; =5			                  
-				beq.s   @Done       
-				moveq   #5,d5  
-                cmpi.b  #8,d1  ;= 7
-				bmi.s   @Done
-                moveq   #0,d5				
-				nop
+                moveq   #10,d5
+                cmpi.b  #6,d1
+                beq.s   @Done
+                moveq   #5,d5  
+                cmpi.b  #8,d1
+                bmi.s   @Done
+                moveq   #0,d5
+                nop
 @Done:
                 
                 movem.l (sp)+,d0-d3/a0
