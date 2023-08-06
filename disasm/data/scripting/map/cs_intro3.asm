@@ -349,7 +349,7 @@ IntroCutscene3: textCursor 4215
                 csc_end
 ce_48A50:       mainEntity 63,63,UP
                 entity 26,7,UP,ALLY_SLADE,eas_Init
-                entity 26,5,UP,MAPSPRITE_WORKER,eas_Init
-                entity 27,6,UP,MAPSPRITE_WORKER,eas_Init
+                entity 26,5,UP,MAPSPRITE_DANTOM,eas_Init
+                entity 27,6,UP,MAPSPRITE_RED_BARON,eas_Init
                 entity 26,4,DOWN,MAPSPRITE_OBJECT1,eas_Init
                 dc.w $FFFF
