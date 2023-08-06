@@ -14,6 +14,6 @@ tbl_UsableOnFieldItems:
                 item CHEERFUL_BREAD
                 item BRIGHT_HONEY
                 item BRAVE_APPLE
-				item CHICKEN
+				;item CHICKEN
                 
                 tableEnd.b
