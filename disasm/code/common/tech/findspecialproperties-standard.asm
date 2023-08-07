@@ -30,8 +30,7 @@ FindSpecialPropertyWordsAddressForObject:
 FindSpecialPropertyBytesAddressForObject2:
                 cmpi.b  #CODE_TERMINATOR_BYTE,(a0)
                 beq.s   @NotFound
-                cmp.b   (a0)+,d1
-                bne.s   @Loop2
+                cmp.b   (a0)+,d1                
                 rts
 				
                 modend
