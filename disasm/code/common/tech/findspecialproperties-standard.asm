@@ -26,4 +26,12 @@ FindSpecialPropertyWordsAddressForObject:
                 
 @NotFound:      ori     #1,ccr
                 rts
+				
+FindSpecialPropertyBytesAddressForObject2:
+                cmpi.b  #CODE_TERMINATOR_BYTE,(a0)
+                beq.s   @NotFound
+                cmp.b   (a0)+,d1
+                bne.s   @Loop2
+                rts
+				
                 modend

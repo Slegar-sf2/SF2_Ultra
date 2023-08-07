@@ -197,7 +197,7 @@ ApplyAfterTurnRecovery:
 @CheckRingHp:   move.w  d4,d1
                 bmi.s   @RecoverHp          ; skip if no equipped ring
                 lea     tbl_AfterTurnHpRecoveryForRings(pc), a0
-                ;jsr     (FindSpecialPropertyBytesAddressForObject).w
+                jsr     (FindSpecialPropertyBytesAddressForObject2).w
                 bcs.s   @RecoverHp
                 clr.w   d1
                 move.b  (a0),d1
@@ -228,7 +228,7 @@ ApplyAfterTurnRecovery:
 @CheckRingMp:   move.w  d4,d1
                 bmi.s   @RecoverMp          ; skip if no equipped ring
                 lea     tbl_AfterTurnMpRecoveryForRings(pc), a0
-                ;jsr     (FindSpecialPropertyBytesAddressForObject).w
+                jsr     (FindSpecialPropertyBytesAddressForObject2).w
                 bcs.s   @RecoverMp
                 clr.w   d1
                 move.b  (a0),d1
