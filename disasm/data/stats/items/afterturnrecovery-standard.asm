@@ -14,7 +14,7 @@ tbl_AfterTurnHpRecoveryForWeapons:
 
 tbl_AfterTurnHpRecoveryForRings:
                 
-                dc.b ITEM_LIFE_RING, 10
+                tableEnd.b
                 
                 tableEnd.b
 

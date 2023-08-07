@@ -16,5 +16,5 @@ cs_58F7E:       nextSingleText $0,129   ; "Are you ready?{W1}"
                 entityActionsWait ALLY_BOWIE
                  moveDown 4
                 endActions
-                warp MAP_GUARDIANA,1,1,DOWN
+                warp 80,1,1,DOWN
                 csc_end

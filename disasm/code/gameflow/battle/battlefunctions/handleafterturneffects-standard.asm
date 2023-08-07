@@ -188,7 +188,7 @@ ApplyAfterTurnRecovery:
                 ; Check HP recovery for weapon
                 bmi.s   @CheckRingHp        ; skip if no equipped weapon
                 lea     tbl_AfterTurnHpRecoveryForWeapons(pc), a0
-                jsr     (FindSpecialPropertyBytesAddressForObject2).w
+                jsr     (FindSpecialPropertyBytesAddressForObject).w
                 bcs.s   @CheckRingHp
                 clr.w   d1
                 move.b  (a0),d1
@@ -197,7 +197,7 @@ ApplyAfterTurnRecovery:
 @CheckRingHp:   move.w  d4,d1
                 bmi.s   @RecoverHp          ; skip if no equipped ring
                 lea     tbl_AfterTurnHpRecoveryForRings(pc), a0
-                jsr     (FindSpecialPropertyBytesAddressForObject2).w
+                jsr     (FindSpecialPropertyBytesAddressForObject).w
                 bcs.s   @RecoverHp
                 clr.w   d1
                 move.b  (a0),d1
@@ -219,7 +219,7 @@ ApplyAfterTurnRecovery:
                 move.w  d3,d1
                 bmi.s   @CheckRingMp        ; skip if no equipped weapon
                 lea     tbl_AfterTurnMpRecoveryForWeapons(pc), a0
-                jsr     (FindSpecialPropertyBytesAddressForObject2).w
+                jsr     (FindSpecialPropertyBytesAddressForObject).w
                 bcs.s   @CheckRingMp
                 clr.w   d1
                 move.b  (a0),d1
