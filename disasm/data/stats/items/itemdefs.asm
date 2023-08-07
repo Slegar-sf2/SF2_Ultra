@@ -1493,7 +1493,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        770
+                price        800
                 itemType     CONSUMABLE
                 useSpell     ATOM|LV2
                 equipEffects NONE, 0, &
