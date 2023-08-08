@@ -40,6 +40,7 @@ abcs_battle13:  textCursor 2495
                 nextSingleText $FF,255  ; "{CLEAR}{LEADER} decides to take{N}{NAME;10} the BDMN with him.{W1}{CLEAR}"
                 setF 75                 ; Luke is a follower
                 warp MAP_POLCA,16,12,DOWN
+				setStoryFlag 14         ; Battle 14 unlocked
                 csc_end
 ce_4AD96:       mainEntity 16,12,DOWN
                 entity 16,13,DOWN,ALLY_LUKE,eas_Init

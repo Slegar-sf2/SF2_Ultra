@@ -21,7 +21,7 @@ tbl_AfterTurnHpRecoveryForRings:
 
 tbl_AfterTurnMpRecoveryForWeapons:
                 
-                dc.b ITEM_MYSTERY_STAFF, 5
+                dc.b ITEM_MYSTERY_STAFF, 2
                 
                 tableEnd.b
 
