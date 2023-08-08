@@ -95,7 +95,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        600
+                price        1000
                 itemType     CONSUMABLE
                 useSpell     HEAL|LV4
                 equipEffects NONE, 0, &
@@ -117,7 +117,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        1000
+                price        1200
                 itemType     RARE|CONSUMABLE
                 useSpell     AURA|LV4
                 equipEffects NONE, 0, &

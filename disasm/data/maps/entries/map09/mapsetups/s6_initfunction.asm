@@ -6,19 +6,18 @@
 
 
 ms_map9_InitFunction:
-                
-                
+
                 chkFlg  17              ; TYRIN joined
-                beq.s   return_568F4
+                beq.s   byte_Battle18_END
                 moveq   #ALLY_TYRIN,d0
                 jsr     MoveEntityOutOfMap
-
-				
-                chkFlg  518             ; Battle 18 completed - BATTLE_VERSUS_TAROS                
-                bne.s   byte_568D4      
+                
+byte_Battle18_END:				
+                
+				chkFlg  518             ; Battle 18 completed - BATTLE_VERSUS_TAROS                
+                bne.s   byte_568D4     
                 move.w  #137,d0
                 jsr     MoveEntityOutOfMap
-				
 				
 byte_568D4:
                 
