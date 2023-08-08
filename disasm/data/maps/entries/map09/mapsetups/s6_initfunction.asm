@@ -7,16 +7,19 @@
 
 ms_map9_InitFunction:
                 
-                 
+                
+                chkFlg  17              ; TYRIN joined
+                beq.s   return_568F4
+                moveq   #ALLY_TYRIN,d0
+                jsr     MoveEntityOutOfMap
+
+				
                 chkFlg  518             ; Battle 18 completed - BATTLE_VERSUS_TAROS                
                 bne.s   byte_568D4      
                 move.w  #137,d0
                 jsr     MoveEntityOutOfMap
 				
-				chkFlg  17              ; TYRIN joined
-                beq.s   return_568F4
-                moveq   #ALLY_TYRIN,d0
-                jsr     MoveEntityOutOfMap
+				
 byte_568D4:
                 
                 chkFlg  65              ; Caravan is unlocked

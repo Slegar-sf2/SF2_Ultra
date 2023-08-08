@@ -54,12 +54,13 @@ tbl_ShopInventories:
                               HAND_AXE, &                              
                               BRONZE_ROD, &
                               DAGGER, &
+							  KNIFE, &
                               IRON_ARROW, &
 							  HELMET
                 
                 ; Weapon shop 5
                 shopInventory LONG_SWORD, &
-				              KNIFE, & 
+				              KNIFE, &
                               SPEAR, &
                               STEEL_LANCE, &                              
                               MIDDLE_AXE, &                              
@@ -99,7 +100,8 @@ tbl_ShopInventories:
                               LARGE_AXE, &
                               ROBIN_ARROW, &
                               ASSAULT_SHELL, &                              
-                              GUARDIAN_STAFF, &                              
+                              GUARDIAN_STAFF, &
+                              LEATHER_GLOVE, &
                               POWER_GLOVE, &
 							  HELMET
                 

@@ -2237,10 +2237,10 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 88: TAROS
                 spellPower REGULAR
                 level    25
-                maxHp    100
+                maxHp    82
                 maxMp    0
                 baseAtt  40
-                baseDef  36
+                baseDef  38
                 baseAgi  160
                 baseMov  0
                 baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY

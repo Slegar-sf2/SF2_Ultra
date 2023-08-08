@@ -444,7 +444,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 38: Large Axe
-                equipFlags   GLDT|BRN|RDBN|BDMN|BDBT|SWOR
+                equipFlags   WARR|GLDT|BRN|RDBN|BDMN|BDBT|SWOR
                 equipFlags2  STAR
                 range        1, 1
                 price        2250
@@ -455,7 +455,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 39: Great Axe
-                equipFlags   GLDT|BRN|RDBN|BDBT
+                equipFlags   WARR|GLDT|BRN|RDBN|BDBT|SWOR
                 equipFlags2  STAR
                 range        1, 1
                 price        4600
@@ -466,7 +466,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 40: Heat Axe
-                equipFlags   GLDT|BRN|RDBN|BDBT
+                equipFlags   WARR|GLDT|BRN|RDBN|BDBT
                 equipFlags2  STAR
                 range        1, 1
                 price        7200
@@ -708,7 +708,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 62: Broad Sword
-                equipFlags   HERO|BRN|BDMN|BDBT|NINJ|RDBN|SWOR
+                equipFlags   SDMN|HERO|BRN|BDMN|BDBT|NINJ|RDBN|SWOR
                 equipFlags2  STAR
                 range        1, 1
                 price        1900
@@ -719,7 +719,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 63: Buster Sword
-                equipFlags   HERO|BRN|BDMN|BDBT|NINJ|RDBN|SWOR
+                equipFlags   SDMN|HERO|BRN|BDMN|BDBT|NINJ|RDBN|SWOR
                 equipFlags2  STAR
                 range        1, 1
                 price        2600
