@@ -14,7 +14,7 @@ AllyStats04:    forClass  MAGE   ; KAZIN
                     45, BLAZE|LV4, &
 					10, RAIJIN, &
 					15, RAIJIN|LV2, &
-					26, RAIJIN|LV3, &
+					29, RAIJIN|LV3, &
 					50, RAIJIN|LV4, &
 					11, ICE, &
 					21, ICE|LV2, &

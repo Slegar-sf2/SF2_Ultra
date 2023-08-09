@@ -1119,7 +1119,7 @@ tbl_EnemyDefs:
                 baseAgi  35
                 baseMov  6
                 baseResistance ICE_WEAKNESS|FIRE_MINOR
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
+                baseProwess    CRITICAL_SLOW|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     NOTHING, &
                     NOTHING, &
