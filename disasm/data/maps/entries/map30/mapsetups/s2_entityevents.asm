@@ -7,6 +7,7 @@ ms_map30_EntityEvents:
                 msEntityEvent 130, RIGHT, Map30_EntityEvent2-ms_map30_EntityEvents
                 msEntityEvent 131, DOWN, Map30_EntityEvent3-ms_map30_EntityEvents
                 msEntityEvent 132, DOWN, Map30_EntityEvent4-ms_map30_EntityEvents
+				msEntityEvent 133, DOWN, Map30_EntityEvent5-ms_map30_EntityEvents
                 msDefaultEntityEvent Map30_DefaultEntityEvent-ms_map30_EntityEvents
 
 ; =============== S U B R O U T I N E =======================================
@@ -87,6 +88,13 @@ Map30_EntityEvent4:
                 
                  
                 txt     1709            ; "Dig, dig!{N}Hey hoo, hey hoo!{W2}{N}To Grans we are a diggin'!{N}Hey hoo, hey hoo!{W1}"
+				
+Map30_EntityEvent5:
+				
+                chkFlg  17
+				script cs_JOINTYRIN17															
+                rts				
+				
 Map30_DefaultEntityEvent:
                 
                 rts

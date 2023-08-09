@@ -69,27 +69,8 @@ cs_5AC04:
                 
                 setPos ALLY_APIS,15,14,DOWN
                 csc_end
+
 byte_5AC0C:
-                
-                chkFlg  16              ; Ranfolf joined
-                bne.s   byte_5AC24      
-                script  cs_5AC1C
-                bra.w   byte_5AC24      
-cs_5AC1C:
-                
-                setPos ALLY_RUCE,16,15,DOWN
-                csc_end
-byte_5AC24:
-                
-                chkFlg  17              ; Tyrin joined
-                bne.s   byte_5AC3C      
-                script  cs_5AC34
-                bra.w   byte_5AC3C      
-cs_5AC34:
-                
-                setPos ALLY_TYRIN,18,15,DOWN
-                csc_end
-byte_5AC3C:
                 
                 chkFlg  15              ; Graham joined
                 bne.s   return_5AC54

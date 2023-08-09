@@ -215,3 +215,14 @@ cs_5A4FE:       textCursor 1730
                 setPos 132,7,5,UP
                 setBlocks 21,6,2,2,7,5
                 csc_end
+cs_JOINTYRIN17: textCursor 4276
+                setPriority ALLY_TYRIN,$FFFF
+                setPriority ALLY_BOWIE,$0
+                nextText $0,ALLY_TYRIN
+				nextText $0,ALLY_TYRIN
+				csWait 20
+				join ALLY_TYRIN
+				nextSingleText $0,ALLY_TYRIN
+				setPriority ALLY_TYRIN,$FFFF
+				addNewFollower ALLY_TYRIN				
+                csc_end

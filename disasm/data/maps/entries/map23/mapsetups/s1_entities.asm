@@ -8,5 +8,4 @@ ms_map23_Entities:
                 msFixedEntity 54, 3, DOWN, MAPSPRITE_WORKER, eas_Init
                 msWalkingEntity 8, 12, RIGHT, MAPSPRITE_ELF_GIRL, 8, 12, 1
                 msFixedEntity 61, 3, DOWN, MAPSPRITE_PRIEST, eas_Init
-				msFixedEntity 10, 11, DOWN, ALLY_TYRIN, eas_Init
                 msEntitiesEnd
