@@ -554,7 +554,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 48: Robin Arrow
-                equipFlags   SNIP|BRGN|BWNT
+                equipFlags   ACHR|SNIP|BRGN|BWNT
                 equipFlags2  NONE
                 range        2, 3
                 price        1480
@@ -708,7 +708,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 62: Broad Sword
-                equipFlags   SDMN|HERO|BRN|BDMN|BDBT|NINJ|RDBN|SWOR
+                equipFlags   SDMN|HERO|BRN|BDMN|BDBT|NINJ|RDBN|SWOR|THIF
                 equipFlags2  STAR
                 range        1, 1
                 price        1900
@@ -719,7 +719,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 63: Buster Sword
-                equipFlags   SDMN|HERO|BRN|BDMN|BDBT|NINJ|RDBN|SWOR
+                equipFlags   SDMN|HERO|BRN|BDMN|BDBT|NINJ|RDBN|SWOR|THIF
                 equipFlags2  STAR
                 range        1, 1
                 price        2600
@@ -730,7 +730,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 64: Great Sword
-                equipFlags   HERO|BRN|BDBT|NINJ|RDBN
+                equipFlags   HERO|BRN|BDBT|NINJ|RDBN|THIF
                 equipFlags2  STAR
                 range        1, 1
                 price        5100

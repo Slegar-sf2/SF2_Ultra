@@ -8,6 +8,7 @@ ms_map23_EntityEvents:
                 msEntityEvent 131, UP, Map23_EntityEvent3-ms_map23_EntityEvents
                 msEntityEvent 132, UP, Map23_EntityEvent4-ms_map23_EntityEvents
                 msEntityEvent 133, UP, Map23_EntityEvent5-ms_map23_EntityEvents
+				msEntityEvent 134, UP, Map23_EntityEvent6-ms_map23_EntityEvents
                 msDefaultEntityEvent Map23_DefaultEntityEvent-ms_map23_EntityEvents
 
 ; =============== S U B R O U T I N E =======================================
@@ -92,6 +93,17 @@ Map23_EntityEvent5:
                 rts
 
     ; End of function Map23_EntityEvent5
+
+
+
+; =============== S U B R O U T I N E =======================================
+
+Map23_EntityEvent6:
+                chkFlg  17                 
+				script byte_JOINTYRIN
+                rts
+
+    ; End of function Map23_EntityEvent6
 
 
 ; =============== S U B R O U T I N E =======================================

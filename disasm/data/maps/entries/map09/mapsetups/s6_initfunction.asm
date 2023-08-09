@@ -7,20 +7,14 @@
 
 ms_map9_InitFunction:
 
-                chkFlg  17              ; TYRIN joined
-                beq.s   byte_Battle18_END
-                moveq   #ALLY_TYRIN,d0
-                jsr     MoveEntityOutOfMap
-                
-byte_Battle18_END:				
                 
 				chkFlg  518             ; Battle 18 completed - BATTLE_VERSUS_TAROS                
-                bne.s   byte_568D4     
+                bne.s   byte_568D4      
                 move.w  #137,d0
                 jsr     MoveEntityOutOfMap
-				
+
 byte_568D4:
-                
+                               
                 chkFlg  65              ; Caravan is unlocked
                 beq.s   byte_568E4      
                 move.w  #ALLY_ROHDE,d0

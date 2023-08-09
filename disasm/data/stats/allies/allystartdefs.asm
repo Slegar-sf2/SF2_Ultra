@@ -110,10 +110,10 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass SWOR         ; 12: DEANNA
-                startLevel 25
+                startLevel 24
                 startItems &
-                    LONG_SWORD|EQUIPPED, &
-                    MIDDLE_AXE, &
+                    STELL_SWORD|EQUIPPED, &
+                    POWER_AXE, &
                     HELMET, &
                     HEALING_BERRIES
                 
@@ -150,7 +150,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass MAGE         ; 17: TYRIN
-                startLevel 20
+                startLevel 25
                 startItems &
                     POWER_STICK|EQUIPPED, &
                     ELIXIR, &

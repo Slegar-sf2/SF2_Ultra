@@ -158,16 +158,6 @@ Map9_EntityEvent11:
 
 ; =============== S U B R O U T I N E =======================================
 
-Map9_EntityEvent12:
-                chkFlg  17                 
-				script byte_JOINTYRIN															
-                rts
-
-    ; End of function Map9_EntityEvent12
-
-
-; =============== S U B R O U T I N E =======================================
-
 
 Map9_EntityEvent0:
                 

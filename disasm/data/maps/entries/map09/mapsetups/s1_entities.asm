@@ -12,6 +12,5 @@ ms_map9_Entities:
                 msFixedEntity 12, 20, RIGHT, MAPSPRITE_MAN1, eas_Init
                 msWalkingEntity 23, 31, DOWN, MAPSPRITE_PRIEST, 23, 31, 2
                 msWalkingEntity 17, 29, DOWN, MAPSPRITE_MAN2, 17, 29, 2
-                msFixedEntity 16, 3, DOWN, MAPSPRITE_SAILOR, eas_Init
-				msFixedEntity 12, 27, RIGHT, ALLY_TYRIN, eas_Init
+                msFixedEntity 16, 3, DOWN, MAPSPRITE_SAILOR, eas_Init				
                 msEntitiesEnd
