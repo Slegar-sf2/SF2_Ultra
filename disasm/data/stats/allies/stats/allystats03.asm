@@ -2,7 +2,7 @@
 ; ASM FILE data\stats\allies\stats\allystats03.asm :
 ; 0x1EE39E..0x1EE3D1 : Ally stats 03
 AllyStats03:    forClass  WARR
-                hpGrowth  10, 29, EARLY
+                hpGrowth  10, 30, EARLY
                 mpGrowth  0, 0, NONE
                 attGrowth 7, 48, LINEAR
                 defGrowth 5, 47, LINEAR
@@ -10,7 +10,7 @@ AllyStats03:    forClass  WARR
                 spellList 
                     
                 forClass  GLDT
-                hpGrowth  29, 92, LINEAR
+                hpGrowth  30, 92, LINEAR
                 mpGrowth  0, 0, NONE
                 attGrowth 48, 100, LINEAR
                 defGrowth 47, 106, LINEAR
