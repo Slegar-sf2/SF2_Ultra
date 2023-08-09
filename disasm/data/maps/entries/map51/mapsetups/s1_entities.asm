@@ -4,6 +4,6 @@
 ms_map51_Entities:
                 msFixedEntity 6, 6, DOWN, ALLY_ELRIC, eas_WhirlsInWater
                 msFixedEntity 63, 63, UP, MAPSPRITE_HARPY, eas_Init
-                msFixedEntity 63, 63, UP, MAPSPRITE_SOULSOWER, eas_Init
-                msFixedEntity 63, 63, UP, MAPSPRITE_SOULSOWER, eas_Init
+                msFixedEntity 63, 63, UP, MAPSPRITE_ORC, eas_Init
+                msFixedEntity 63, 63, UP, MAPSPRITE_ORC, eas_Init
                 msEntitiesEnd
