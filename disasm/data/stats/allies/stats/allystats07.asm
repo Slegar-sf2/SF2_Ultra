@@ -11,9 +11,12 @@ AllyStats07:    forClass  PHNK  ; PETER
                     
                 forClass  PHNX
                 hpGrowth  48, 115, LINEAR
-                mpGrowth  10, 0, NONE
+                mpGrowth  0, 26, LATE
                 attGrowth 75, 145, LATE
                 defGrowth 43, 95, LINEAR
                 agiGrowth 35, 60, LINEAR
                 spellList & 
-                    32, BOOST
+                    34, BOOST, &
+					36, KATON, &
+                    37, KATON|LV2, &
+					40, KATON|LV3
