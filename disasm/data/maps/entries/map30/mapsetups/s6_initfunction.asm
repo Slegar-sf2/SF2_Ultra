@@ -7,13 +7,7 @@
 
 ms_map30_InitFunction:
                 
-                chkFlg  17              ; TYRIN joined
-                beq.s   return_5A30A4
-                moveq   #ALLY_TYRIN,d0
-                jsr     MoveEntityOutOfMap
-return_5A30A4:
-                
-                rts				
+                 
                 chkFlg  761             ; Set after the dwarf gives Bowie the cannon
                 beq.s   byte_5A2FE      
                 script  cs_5A30C

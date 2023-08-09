@@ -6,5 +6,4 @@ ms_map30_Entities:
                 msFixedEntity 7, 4, UP, MAPSPRITE_DWARF, eas_Init
                 msFixedEntity 15, 12, DOWN, MAPSPRITE_DWARF, eas_Init
                 msFixedEntity 15, 11, DOWN, MAPSPRITE_DWARF, eas_Init
-				msFixedEntity 6, 11, DOWN, ALLY_TYRIN, eas_Init
                 msEntitiesEnd
