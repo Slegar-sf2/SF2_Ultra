@@ -16,10 +16,10 @@ AllyStats17:    forClass  MAGE   ; TYRIN
                     15, FREEZE|LV2, &
 					37, FREEZE|LV3, &
 					48, FREEZE|LV4, &
-                    35, BOLT|LV2, &
+                    34, BOLT|LV2, &
                     54, BOLT|LV3, &
                     60, BOLT|LV4, &
-					33, KATON, &
+					23, KATON, &
 					35, KATON|LV2, &
 					45, KATON|LV3, &
 					59, KATON|LV4
