@@ -112,7 +112,7 @@ tbl_AllyStartDefs:
                 startClass SWOR         ; 12: DEANNA
                 startLevel 24
                 startItems &
-                    STELL_SWORD|EQUIPPED, &
+                    STEEL_SWORD|EQUIPPED, &
                     POWER_AXE, &
                     HELMET, &
                     HEALING_BERRIES

@@ -99,8 +99,9 @@ Map23_EntityEvent5:
 ; =============== S U B R O U T I N E =======================================
 
 Map23_EntityEvent6:
+
                 chkFlg  17                 
-				script byte_JOINTYRIN
+				script  byte_JOINTYRIN
                 rts
 
     ; End of function Map23_EntityEvent6

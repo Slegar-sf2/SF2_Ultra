@@ -361,7 +361,8 @@
                 include "data\maps\entries\map23\mapsetups\s3_zoneevents.asm"    ; 
                 include "data\maps\entries\map23\mapsetups\s4_descriptions.asm"    ; 
                 include "data\maps\entries\map23\mapsetups\s5_itemevents.asm"    ; 
-                include "data\maps\entries\map23\mapsetups\s6_initfunction.asm"    ; 
+                include "data\maps\entries\map23\mapsetups\s6_initfunction.asm"    ;
+				include "data\maps\entries\map23\mapsetups\scripts.asm"    ;
                 include "data\maps\entries\map24\mapsetups\pointertable.asm"    ; 
                 include "data\maps\entries\map24\mapsetups\s1_entities.asm"    ; 
                 include "data\maps\entries\map24\mapsetups\s2_entityevents.asm"    ; 
