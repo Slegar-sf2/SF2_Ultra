@@ -206,7 +206,7 @@ return_59590:
 Map22_EntityEvent10:
                 
                  
-                chkFlg  212             ; Cotton Balloon (chest on chessboard, Desktop Kingdom)
+                chkFlg  522             ; Battle 22 completed - BATTLE_CHESSBOARD, Cotton Balloon (chest on chessboard, Desktop Kingdom)
                 bne.s   byte_5959E      
                 txt     1802            ; "Halt!  I can't let you{N}pass without the King's{N}permission.{W1}"
                 bra.s   return_595B2
