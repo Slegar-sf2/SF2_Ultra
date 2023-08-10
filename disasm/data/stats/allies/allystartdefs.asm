@@ -126,7 +126,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass KENT         ; 14: APIS
-                startLevel 28
+                startLevel 30
                 startItems &
                     SPEAR|EQUIPPED, &
                     HEALING_BERRIES, &
@@ -134,7 +134,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass RNGR       ; 15: GRAHAM
-                startLevel 28
+                startLevel 30
                 startItems &
                     ROBIN_ARROW|EQUIPPED, &
                     POWER_WATER, &
