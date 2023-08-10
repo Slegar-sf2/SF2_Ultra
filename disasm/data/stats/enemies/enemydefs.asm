@@ -1811,11 +1811,11 @@ tbl_EnemyDefs:
                     
                 unknownByte 71          ; 71: QUEEN
                 spellPower ENHANCED
-                level    26
+                level    27
                 maxHp    80
                 maxMp    56
                 baseAtt  57
-                baseDef  60
+                baseDef  58
                 baseAgi  70
                 baseMov  7
                 baseResistance ICE_MINOR|STATUS_IMMUNITY
@@ -2265,7 +2265,7 @@ tbl_EnemyDefs:
                 maxHp    110
                 maxMp    60
                 baseAtt  40
-                baseDef  58
+                baseDef  56
                 baseAgi  165
                 baseMov  2
                 baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
