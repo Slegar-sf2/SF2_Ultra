@@ -1324,54 +1324,54 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 118: Pegasus Wing
-                equipFlags   NONE
+                equipFlags   PGNT
                 equipFlags2  NONE
                 range        0, 0
-                price        3000
-                itemType     RARE
+                price        1000
+                itemType     RING|RARE
                 useSpell     NOTHING
-                equipEffects NONE, 0, &
-                             NONE, 0, &
-                             NONE, 0
+                equipEffects INCREASE_ATT, 4, &
+                             INCREASE_DEF, 2, &
+                             INCREASE_AGI, 5
                 
                 ; 119: Warrior Pride
-                equipFlags   NONE
+                equipFlags   WARR|GLDT|BRN|RDBN
                 equipFlags2  NONE
                 range        0, 0
-                price        3000
-                itemType     RARE
+                price        1000
+                itemType     RING|RARE
                 useSpell     NOTHING
-                equipEffects NONE, 0, &
-                             NONE, 0, &
-                             NONE, 0
+                equipEffects INCREASE_ATT, 2, &
+                             INCREASE_DEF, 2, &
+                             INCREASE_MOV, 2
                 
                 ; 120: Silver Tank
-                equipFlags   NONE
+                equipFlags   BRGN
                 equipFlags2  NONE
                 range        0, 0
-                price        3000
-                itemType     RARE
+                price        1500
+                itemType     RING|RARE
                 useSpell     NOTHING
-                equipEffects NONE, 0, &
-                             NONE, 0, &
+                equipEffects INCREASE_ATT, 5, &
+                             INCREASE_MOV, 1, &
                              NONE, 0
                 
                 ; 121: Secret Book
-                equipFlags   NONE
+                equipFlags   MAGE|WIZ|SORC
                 equipFlags2  NONE
                 range        0, 0
-                price        3000
-                itemType     RARE
-                useSpell     NOTHING
-                equipEffects NONE, 0, &
-                             NONE, 0, &
+                price        2000
+                itemType     RING|RARE|BREAKABLE
+                useSpell     BOOST|LV2
+                equipEffects INCREASE_DEF, 3, &
+                             INCREASE_MOV, 1, &
                              NONE, 0
                 
                 ; 122: Vigor Ball
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        3000
+                price        1400
                 itemType     RARE
                 useSpell     NOTHING
                 equipEffects NONE, 0, &

@@ -31,4 +31,9 @@
                   warpMap    MAP_OVERWORLD_PATH_TO_RIBBLE
                   warpDest   1, 255
                   warpFacing RIGHT
+                mWarp 55, 23
+                  warpNoScroll
+                  warpMap    48
+                  warpDest   15, 26
+                  warpFacing UP
                 endWord

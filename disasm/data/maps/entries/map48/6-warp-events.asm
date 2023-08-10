@@ -13,12 +13,7 @@
                   warpFacing DOWN
                 mWarp 15, 27
                   warpNoScroll
-                  warpMap    MAP_OVERWORLD_NORTH_SOUTH_PARMECIA_JUNCTION
-                  warpDest   58, 50
-                  warpFacing DOWN
-                mWarp 3, 12
-                  warpNoScroll
-                  warpMap    MAP_OVERWORLD_NORTH_SOUTH_PARMECIA_JUNCTION
-                  warpDest   56, 46
+                  warpMap    68
+                  warpDest   55, 24
                   warpFacing DOWN
                 endWord
