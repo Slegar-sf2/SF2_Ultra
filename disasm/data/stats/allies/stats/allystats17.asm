@@ -11,18 +11,18 @@ AllyStats17:    forClass  MAGE   ; TYRIN
                      1, BLAZE, &
                     11, BLAZE|LV2, &
                     41, BLAZE|LV3, &
-					56, BLAZE|LV4, &
-					 5, FREEZE, &
+                    56, BLAZE|LV4, &
+                    5, FREEZE, &
                     15, FREEZE|LV2, &
-					37, FREEZE|LV3, &
-					48, FREEZE|LV4, &
+                    37, FREEZE|LV3, &
+                    48, FREEZE|LV4, &
                     34, BOLT|LV2, &
                     54, BOLT|LV3, &
                     60, BOLT|LV4, &
-					23, KATON, &
-					35, KATON|LV2, &
-					45, KATON|LV3, &
-					59, KATON|LV4
+                    23, KATON, &
+                    35, KATON|LV2, &
+                    45, KATON|LV3, &
+                    59, KATON|LV4
                 
                 forClass  WIZ
                 hpGrowth  56, 115, LINEAR
@@ -43,6 +43,6 @@ AllyStats17:    forClass  MAGE   ; TYRIN
                     32, DAO, &                    
                     40, DAO|LV2, &
                     43, APOLLO|LV2, & 										
-					45, APOLLO|LV3, &					
-					53, DAO|LV3
+                    45, APOLLO|LV3, &					
+                    53, DAO|LV3
                 

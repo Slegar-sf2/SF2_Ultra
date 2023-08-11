@@ -10,14 +10,14 @@ AllyStats25:    forClass  MMNK  ; SHEELA
                 spellList &
                     1, HEAL, &
                     5, HEAL|LV2, &
-					41, HEAL|LV3, &
-					51, HEAL|LV4, &                                       
+                    41, HEAL|LV3, &
+                    51, HEAL|LV4, &                                       
                     20, BOOST, &                                                          
                     44, BOOST|LV2, &
-					52, ATTACK, &
-					54, ATTACK|LV2, &
-					55, TORNADO, &
-					63, TORNADO|LV2
+                    52, ATTACK, &
+                    54, ATTACK|LV2, &
+                    55, TORNADO, &
+                    63, TORNADO|LV2
                     
                     
                 

@@ -12,15 +12,15 @@ AllyStats04:    forClass  MAGE   ; KAZIN
                     6, BLAZE|LV2, &					
                     36, BLAZE|LV3, &                             
                     45, BLAZE|LV4, &
-					10, RAIJIN, &
-					15, RAIJIN|LV2, &
-					29, RAIJIN|LV3, &
-					50, RAIJIN|LV4, &
-					11, ICE, &
-					21, ICE|LV2, &
-					33, ICE|LV3, &
-					53, ICE|LV4, &
-					50, DISPEL
+                    10, RAIJIN, &
+                    15, RAIJIN|LV2, &
+                    29, RAIJIN|LV3, &
+                    50, RAIJIN|LV4, &
+                    11, ICE, &
+                    21, ICE|LV2, &
+                    33, ICE|LV3, &
+                    53, ICE|LV4, &
+                    50, DISPEL
                     
                 forClass  WIZ
                 hpGrowth  59, 97, LATE
@@ -38,14 +38,14 @@ AllyStats04:    forClass  MAGE   ; KAZIN
                 agiGrowth 40, 70, EARLYANDLATE
                 spellList &
                     29, DAO, &
-					42, DAO|LV2, &
-					47, DAO|LV3, &
+                    42, DAO|LV2, &
+                    47, DAO|LV3, &
                     34, APOLLO, &                                        
                     45, APOLLO|LV2, &
-					52, APOLLO|LV3, &
-					37, NEPTUN, &
-					48, NEPTUN|LV2, &
-					49, NEPTUN|LV3
+                    52, APOLLO|LV3, &
+                    37, NEPTUN, &
+                    48, NEPTUN|LV2, &
+                    49, NEPTUN|LV3
 					
                     
                     

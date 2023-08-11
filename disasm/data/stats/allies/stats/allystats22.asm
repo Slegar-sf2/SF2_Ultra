@@ -11,14 +11,14 @@ AllyStats22:    forClass  VICR ;FRAYA
                     2, AURA, &                    
                     13, AURA|LV2, &                                                           
                     40, AURA|LV3, &
-					56, AURA|LV4, &
-					20, HEAL, & 
+                    56, AURA|LV4, &
+                    20, HEAL, & 
                     32, HEAL|LV2, &
                     46, HEAL|LV3, &
-					60, HEAL|LV4, &
+                    60, HEAL|LV4, &
                     37, ATTACK, &
-					49, ATTACK|LV2, &
-					60, ATTACK|LV3
+                    49, ATTACK|LV2, &
+                    60, ATTACK|LV3
                                         
                     
                 

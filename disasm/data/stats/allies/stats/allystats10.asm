@@ -8,7 +8,7 @@ AllyStats10:    forClass  BDMN ; luke
                 defGrowth 6, 35, LINEAR
                 agiGrowth 7, 41, LINEAR
                 spellList &
-				    15, BLAST, &
+                    15, BLAST, &
                     22, BLAST|LV2, &                    
                     35, BLAST|LV3, &
                     55, BLAST|LV4

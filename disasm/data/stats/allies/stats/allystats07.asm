@@ -17,6 +17,6 @@ AllyStats07:    forClass  PHNK  ; PETER
                 agiGrowth 35, 60, LINEAR
                 spellList & 
                     34, BOOST, &
-					36, KATON, &
+                    36, KATON, &
                     37, KATON|LV2, &
-					40, KATON|LV3
+                    40, KATON|LV3

@@ -12,8 +12,8 @@ AllyStats27:    forClass  MONK ;CRAY
                     20, ATOM|LV2, &                    
                     38, ATOM|LV3, &
                     55, ATOM|LV4, &
-					1, HEALIN, &
-					5, HEALIN|LV2, &
-					35, HEALIN|LV3, &
-					50, HEALIN|LV4
+                    1, HEALIN, &
+                    5, HEALIN|LV2, &
+                    35, HEALIN|LV3, &
+                    50, HEALIN|LV4
                 

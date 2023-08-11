@@ -8,7 +8,7 @@ AllyStats05:    forClass  THIF    ; SLADE
                 defGrowth 8, 33, LATE
                 agiGrowth 6, 40, LATE
                 spellList &
-				     1,EGRESS
+                    1,EGRESS
                     
                 forClass  NINJ
                 hpGrowth  48, 117, LATE
