@@ -31,5 +31,5 @@ tbl_AllyNames:  allyName "Bowie"
                 allyName "Cray"
                 allyName "Lemon"
                 allyName "Claude"
-				allyName "Shade"
+                allyName "Shade"
                 
