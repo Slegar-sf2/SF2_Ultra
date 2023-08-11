@@ -134,7 +134,7 @@ tbl_SpellDefs:
                 radius     1
                 power      10
 				
-				entry      BOOST|LV3    ; BOOST 3
+                entry      BOOST|LV3    ; BOOST 3
                 mpCost     35
                 animation  BUFF1|VARIATION3
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
@@ -166,7 +166,7 @@ tbl_SpellDefs:
                 radius     0
                 power      15
 				
-				entry      ATTACK|LV2       ; ATTACK 2
+                entry      ATTACK|LV2       ; ATTACK 2
                 mpCost     32
                 animation  BUFF1
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
@@ -182,7 +182,7 @@ tbl_SpellDefs:
                 radius     1
                 power      0
 				
-				entry      DISPEL|LV2       ; DISPEL 2
+                entry      DISPEL|LV2       ; DISPEL 2
                 mpCost     10
                 animation  DEBUFF1
                 properties TYPE_SUPPORT|AFFECTEDBYSILENCE
@@ -190,7 +190,7 @@ tbl_SpellDefs:
                 radius     2
                 power      0
 				
-				entry      DISPEL|LV3       ; DISPEL 3
+                entry      DISPEL|LV3       ; DISPEL 3
                 mpCost     15
                 animation  DEBUFF1
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
@@ -214,7 +214,7 @@ tbl_SpellDefs:
                 radius     1
                 power      0
 				
-				entry      MUDDLE|LV3   ; MUDDLE 3
+                entry      MUDDLE|LV3   ; MUDDLE 3
                 mpCost     20
                 animation  DEBUFF1
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
@@ -414,7 +414,7 @@ tbl_SpellDefs:
                 radius     0
                 power      50
 				
-				entry      HEALIN|LV4   ; HEALIN 4
+                entry      HEALIN|LV4   ; HEALIN 4
                 mpCost     25
                 animation  HEALING_FAIRY|VARIATION4
                 properties TYPE_HEAL|TARGET_TEAMMATES
@@ -446,7 +446,7 @@ tbl_SpellDefs:
                 radius     0
                 power      49
 				
-				entry      FLAME|LV4    ; FLAME 4
+                entry      FLAME|LV4    ; FLAME 4
                 mpCost     0
                 animation  FLAME_BREATH|VARIATION4
                 properties TYPE_ATTACK
@@ -494,7 +494,7 @@ tbl_SpellDefs:
                 radius     2
                 power      40
                 
-				entry      DEMON|LV3    ; DEMON 3
+                entry      DEMON|LV3    ; DEMON 3
                 mpCost     0
                 animation  DEMON_BREATH|VARIATION2
                 properties TYPE_ATTACK
@@ -558,7 +558,7 @@ tbl_SpellDefs:
                 radius     0
                 power      0
 				
-				entry      LASER|LV2      ; LASER 2
+                entry      LASER|LV2      ; LASER 2
                 mpCost     20
                 animation  PRISM_LASER|VARIATION2
                 properties TYPE_ATTACK
@@ -590,7 +590,7 @@ tbl_SpellDefs:
                 radius     2
                 power      18
 				
-				entry      KATON|LV4    ; KATON 4
+                entry      KATON|LV4    ; KATON 4
                 mpCost     22
                 animation  BLAZE|VARIATION4
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
@@ -622,7 +622,7 @@ tbl_SpellDefs:
                 radius     2
                 power      27
 				
-				entry      RAIJIN|LV4   ; RAIJIN 4
+                entry      RAIJIN|LV4   ; RAIJIN 4
                 mpCost     24
                 animation  BOLT|VARIATION4
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
@@ -646,7 +646,7 @@ tbl_SpellDefs:
                 radius     2
                 power      22
 				
-				entry      DAO|LV3      ; DAO 3
+                entry      DAO|LV3      ; DAO 3
                 mpCost     30
                 animation  DAO|VARIATION2
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
@@ -670,7 +670,7 @@ tbl_SpellDefs:
                 radius     1
                 power      36
 				
-				entry      APOLLO|LV3   ; APOLLO 3
+                entry      APOLLO|LV3   ; APOLLO 3
                 mpCost     30
                 animation  APOLLO|VARIATION2
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
@@ -694,7 +694,7 @@ tbl_SpellDefs:
                 radius     1
                 power      29
                 
-				entry      NEPTUN|LV3   ; NEPTUN 3
+                entry      NEPTUN|LV3   ; NEPTUN 3
                 mpCost     27
                 animation  NEPTUN|VARIATION2
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
@@ -718,7 +718,7 @@ tbl_SpellDefs:
                 radius     0
                 power      40
                 
-				entry      ATLAS|LV3    ; ATLAS 3
+                entry      ATLAS|LV3    ; ATLAS 3
                 mpCost     30
                 animation  ATLAS|VARIATION2
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
@@ -782,7 +782,7 @@ tbl_SpellDefs:
                 radius     0
                 power      13
                 
-				entry      ICE|LV2       ; ICE 2
+                entry      ICE|LV2       ; ICE 2
                 mpCost     9
                 animation  FREEZE|VARIATION2
                 properties TYPE_ATTACK
@@ -790,7 +790,7 @@ tbl_SpellDefs:
                 radius     0
                 power      17
 				
-				entry      ICE|LV3       ; ICE 3
+                entry      ICE|LV3       ; ICE 3
                 mpCost     18
                 animation  FREEZE|VARIATION3
                 properties TYPE_ATTACK
@@ -798,7 +798,7 @@ tbl_SpellDefs:
                 radius     0
                 power      35
 				
-				entry      ICE|LV4       ; ICE 4
+                entry      ICE|LV4       ; ICE 4
                 mpCost     25
                 animation  FREEZE|VARIATION4
                 properties TYPE_ATTACK
@@ -814,7 +814,7 @@ tbl_SpellDefs:
                 radius     0
                 power      8
 				
-				entry      THUNDR|LV2       ; THUNDR 2
+                entry      THUNDR|LV2       ; THUNDR 2
                 mpCost     8
                 animation  BOLT|VARIATION2
                 properties TYPE_ATTACK
@@ -822,7 +822,7 @@ tbl_SpellDefs:
                 radius     0
                 power      15
 				
-				entry      THUNDR|LV3       ; THUNDR 3
+                entry      THUNDR|LV3       ; THUNDR 3
                 mpCost     16
                 animation  BOLT|VARIATION3
                 properties TYPE_ATTACK
@@ -830,7 +830,7 @@ tbl_SpellDefs:
                 radius     0
                 power      30
 				
-				entry      THUNDR|LV4      ; THUNDR 4
+                entry      THUNDR|LV4      ; THUNDR 4
                 mpCost     32
                 animation  BOLT|VARIATION4
                 properties TYPE_ATTACK

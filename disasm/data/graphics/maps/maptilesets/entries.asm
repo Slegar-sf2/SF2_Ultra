@@ -116,16 +116,16 @@ pt_MapTilesets: dc.l MapTileset000
                 dc.l MapTileset112
                 dc.l MapTileset113
                 dc.l MapTileset114
-				dc.l MapTileset115
+                dc.l MapTileset115
                 dc.l MapTileset116
-				dc.l MapTileset117
-				dc.l MapTileset118
+                dc.l MapTileset117
+                dc.l MapTileset118
                 dc.l MapTileset119
-				dc.l MapTileset120
+                dc.l MapTileset120
                 dc.l MapTileset121
-				dc.l MapTileset122
+                dc.l MapTileset122
                 dc.l MapTileset123
-				dc.l MapTileset124
+                dc.l MapTileset124
                 dc.l MapTileset125
 				dc.l MapTileset126
 				dc.l MapTileset127

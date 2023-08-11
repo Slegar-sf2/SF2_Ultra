@@ -17,18 +17,18 @@ pt_MapPalettes: dc.l MapPalette00
                 dc.l MapPalette13
                 dc.l MapPalette14
                 dc.l MapPalette15
-				dc.l MapPalette16
-				dc.l MapPalette17
-				dc.l MapPalette18
-				dc.l MapPalette19
-				dc.l MapPalette20
-				dc.l MapPalette21
-				dc.l MapPalette22
-				dc.l MapPalette23
-				dc.l MapPalette24
-				dc.l MapPalette25
-				dc.l MapPalette26
-				dc.l MapPalette27
+                dc.l MapPalette16
+                dc.l MapPalette17
+                dc.l MapPalette18
+                dc.l MapPalette19
+                dc.l MapPalette20
+                dc.l MapPalette21
+                dc.l MapPalette22
+                dc.l MapPalette23
+                dc.l MapPalette24
+                dc.l MapPalette25
+                dc.l MapPalette26
+                dc.l MapPalette27
 MapPalette00:   incbin "data/graphics/maps/mappalettes/mappalette00.bin"
 MapPalette01:   incbin "data/graphics/maps/mappalettes/mappalette01.bin"
 MapPalette02:   incbin "data/graphics/maps/mappalettes/mappalette02.bin"
