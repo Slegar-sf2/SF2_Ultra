@@ -31,15 +31,15 @@ pt_Grounds:     dc.l Ground00
                 dc.l Ground27
                 dc.l Ground28
                 dc.l Ground29
-				dc.l Ground30
-				dc.l Ground31
-				dc.l Ground32
-				dc.l Ground33
-				dc.l Ground34
-				dc.l Ground35
-				dc.l Ground36
-				dc.l Ground37
-				dc.l Ground38
+                dc.l Ground30
+                dc.l Ground31
+                dc.l Ground32
+                dc.l Ground33
+                dc.l Ground34
+                dc.l Ground35
+                dc.l Ground36
+                dc.l Ground37
+                dc.l Ground38
 Ground00:       incbin "data/graphics/battles/grounds/groundpalette00.bin"
 bsg00_rpbase:   dc.w GroundTiles00-bsg00_rpbase
 Ground01:       incbin "data/graphics/battles/grounds/groundpalette01.bin"

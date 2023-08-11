@@ -31,15 +31,15 @@ pt_Backgrounds: dc.l Background00
                 dc.l Background27
                 dc.l Background28
                 dc.l Background29
-				dc.l Background30
-				dc.l Background31
-				dc.l Background32
-				dc.l Background33
-				dc.l Background34
-				dc.l Background35
-				dc.l Background36
-				dc.l Background37
-				dc.l Background38
+                dc.l Background30
+                dc.l Background31
+                dc.l Background32
+                dc.l Background33
+                dc.l Background34
+                dc.l Background35
+                dc.l Background36
+                dc.l Background37
+                dc.l Background38
 Background00:   incbin "data/graphics/battles/backgrounds/background00.bin"
 Background01:   incbin "data/graphics/battles/backgrounds/background01.bin"
 Background02:   incbin "data/graphics/battles/backgrounds/background02.bin"
