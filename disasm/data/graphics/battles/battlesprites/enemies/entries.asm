@@ -5,7 +5,7 @@ pt_EnemyBattleSprites:
                 dc.l EnemyBattleSprite00
                 dc.l EnemyBattleSprite01
                 dc.l EnemyBattleSprite02
-off_130010:     dc.l EnemyBattleSprite03
+                dc.l EnemyBattleSprite03
                 dc.l EnemyBattleSprite04
                 dc.l EnemyBattleSprite05
                 dc.l EnemyBattleSprite06
@@ -56,7 +56,7 @@ off_130010:     dc.l EnemyBattleSprite03
                 dc.l EnemyBattleSprite51
                 dc.l EnemyBattleSprite52
                 dc.l EnemyBattleSprite53
-				dc.l EnemyBattleSprite54
+		dc.l EnemyBattleSprite54
                 dc.l EnemyBattleSprite55
                 dc.l EnemyBattleSprite56
                 dc.l EnemyBattleSprite57
@@ -103,7 +103,7 @@ off_130010:     dc.l EnemyBattleSprite03
                 dc.l EnemyBattleSprite98
                 dc.l EnemyBattleSprite99
                 dc.l EnemyBattleSprite100
-				dc.l EnemyBattleSprite101
+		dc.l EnemyBattleSprite101
                 dc.l EnemyBattleSprite102
                 dc.l EnemyBattleSprite103
                 dc.l EnemyBattleSprite104
