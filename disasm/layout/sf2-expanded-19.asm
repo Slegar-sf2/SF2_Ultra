@@ -23,26 +23,26 @@
         align
         include "data\graphics\battles\weapons\entries.asm"                 ; Battlescene Weapons
         align
-		include "data\graphics\battles\weapons\palettes\entries.asm"        ; Battlescene Weapon Palettes
-		align
+        include "data\graphics\battles\weapons\palettes\entries.asm"        ; Battlescene Weapon Palettes
+        align
 		
-		; ULTRA MOD
-		includeIfExpandedRom "data\graphics\mapsprites\entries.asm"
-		align
-		includeIfExpandedRom "data\battles\global\battlemapcoords.asm"    ; Battle map coords
-		align
-		includeIfExpandedRom "data\maps\global\savepointmapcoords.asm"   ; Save point map coords
-		align
-		includeIfExpandedRom "data\maps\global\raftresetmapcoords.asm"      ; Raft reset map coords
-		align
+        ; ULTRA MOD
+        includeIfExpandedRom "data\graphics\mapsprites\entries.asm"
+        align
+        includeIfExpandedRom "data\battles\global\battlemapcoords.asm"    ; Battle map coords
+        align
+        includeIfExpandedRom "data\maps\global\savepointmapcoords.asm"   ; Save point map coords
+        align
+        includeIfExpandedRom "data\maps\global\raftresetmapcoords.asm"      ; Raft reset map coords
+        align
 		
-		if (STANDARD_BUILD&CAPITALIZED_CHARACTER_NAMES=1)
-                include "data\stats\allies\allynames-capitalized.asm"
-                include "data\stats\enemies\enemynames-capitalized.asm"
-            else
-                include "data\stats\allies\allynames.asm"    ; Ally names
-                include "data\stats\enemies\enemynames.asm"    ; Enemy names
-            endif
+  if (STANDARD_BUILD&CAPITALIZED_CHARACTER_NAMES=1)
+       include "data\stats\allies\allynames-capitalized.asm"
+       include "data\stats\enemies\enemynames-capitalized.asm"
+  else
+       include "data\stats\allies\allynames.asm"    ; Ally names
+       include "data\stats\enemies\enemynames.asm"    ; Enemy names
+  endif
         		        
 		
         objendIfExtendedSsf

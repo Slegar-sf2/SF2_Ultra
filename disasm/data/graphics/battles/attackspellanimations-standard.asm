@@ -44,7 +44,7 @@ tbl_AttackSpellAnimationsForWeapon:
                 dc.b ITEM_JAVELIN,       @spear
                 dc.b ITEM_VALKYRIE,      @spear
                 dc.b ITEM_MIST_JAVELIN,  @spear
-				dc.b ITEM_FUGAS,  @shot
+                dc.b ITEM_FUGAS,         @shot
                 
                 tableEnd.b
                 modend

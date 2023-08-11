@@ -25,7 +25,7 @@ pt_SpellGraphics:
                 dc.l SpellGraphics20
                 dc.l SpellGraphics21
                 dc.l SpellGraphics22
-				dc.l SpellGraphics23
+                dc.l SpellGraphics23
 SpellGraphics00:incbin "data/graphics/battles/spells/spellgraphics00.bin"
 SpellGraphics01:incbin "data/graphics/battles/spells/spellgraphics01.bin"
 SpellGraphics02:incbin "data/graphics/battles/spells/spellgraphics02.bin"
