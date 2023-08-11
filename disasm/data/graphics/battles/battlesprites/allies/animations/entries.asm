@@ -89,17 +89,17 @@ pt_AllyAnimations:
                 dc.l AllyAnimation084
                 dc.l AllyAnimation085
                 dc.l AllyAnimation086
-				dc.l AllyAnimation087
+                dc.l AllyAnimation087
                 dc.l AllyAnimation088
                 dc.l AllyAnimation089
                 dc.l AllyAnimation090
-				dc.l AllyAnimation091
+                dc.l AllyAnimation091
                 dc.l AllyAnimation092
                 dc.l AllyAnimation093
                 dc.l AllyAnimation094
                 dc.l AllyAnimation095
                 dc.l AllyAnimation096
-				dc.l AllyAnimation097
+                dc.l AllyAnimation097
                 dc.l AllyAnimation098
                 dc.l AllyAnimation099
                 dc.l AllyAnimation100
@@ -109,9 +109,9 @@ pt_AllyAnimations:
                 dc.l AllyAnimation104
                 dc.l AllyAnimation105
                 dc.l AllyAnimation106
-				dc.l AllyAnimation107
-				dc.l AllyAnimation108
-				dc.l AllyAnimation109
+                dc.l AllyAnimation107
+                dc.l AllyAnimation108
+                dc.l AllyAnimation109
 AllyAnimation000:
                 incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation000.bin"
 AllyAnimation001:

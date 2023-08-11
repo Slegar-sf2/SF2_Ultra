@@ -80,17 +80,17 @@ pt_MapData:     dc.l Map00
                 dc.l Map76
                 dc.l Map77
                 dc.l Map78
-				dc.l Map79
-				dc.l Map80
-				dc.l Map81
-				dc.l Map82
-				dc.l Map83
-				dc.l Map84
-				dc.l Map85
-				dc.l Map86
-				dc.l Map87
-				dc.l Map88
-				dc.l Map89
+                dc.l Map79
+                dc.l Map80
+                dc.l Map81
+                dc.l Map82
+                dc.l Map83
+                dc.l Map84
+                dc.l Map85
+                dc.l Map86
+                dc.l Map87
+                dc.l Map88
+                dc.l Map89
 Map00:          include "data\maps\entries\map00\00-tilesets.asm"    ; 
                 dc.l Map00s0_Blocks
                 dc.l Map00s1_Layout

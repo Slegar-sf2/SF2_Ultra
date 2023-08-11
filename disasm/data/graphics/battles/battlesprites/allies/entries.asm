@@ -34,15 +34,15 @@ pt_AllyBattlesprites:
                 dc.l AllyBattlesprite29
                 dc.l AllyBattlesprite30
                 dc.l AllyBattlesprite31
-				dc.l AllyBattleSprite32
-				dc.l AllyBattleSprite33
-				dc.l AllyBattleSprite34
-				dc.l AllyBattleSprite35
-				dc.l AllyBattleSprite36
-				dc.l AllyBattleSprite37
-				dc.l AllyBattleSprite38
-				dc.l AllyBattleSprite39
-				dc.l AllyBattlesprite40
+                dc.l AllyBattleSprite32
+                dc.l AllyBattleSprite33
+                dc.l AllyBattleSprite34
+                dc.l AllyBattleSprite35
+                dc.l AllyBattleSprite36
+                dc.l AllyBattleSprite37
+                dc.l AllyBattleSprite38
+                dc.l AllyBattleSprite39
+                dc.l AllyBattlesprite40
                 dc.l AllyBattlesprite41
                 dc.l AllyBattlesprite42
                 dc.l AllyBattlesprite43
