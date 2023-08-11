@@ -35,9 +35,9 @@ tbl_ClassNames: className "SDMN"
                 className "RDBN"
                 
             if (STANDARD_BUILD&EXPANDED_CLASSES=1)
-				className "TORT"
+                className "TORT"
                 className "HERO"
-				className "BRSK"
+                className "BRSK"
                 className "KNTE"
                 className "PLDN"
                 className "MONK"

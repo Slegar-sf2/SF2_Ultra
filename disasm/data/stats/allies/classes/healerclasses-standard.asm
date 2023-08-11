@@ -6,6 +6,6 @@ tbl_HealerClasses:
                 dc.b CLASS_PRST
                 dc.b CLASS_VICR
                 dc.b CLASS_MMNK
-				dc.b CLASS_MONK
+                dc.b CLASS_MONK
                 
                 tableEnd.b

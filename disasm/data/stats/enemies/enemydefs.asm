@@ -2609,7 +2609,7 @@ tbl_EnemyDefs:
                 moveType      REGULAR
                 unknownWord   12288
 				
-				unknownByte 0          ; 103: ARTILERY
+                unknownByte 0          ; 103: ARTILERY
                 spellPower ENHANCED
                 level    8
                 maxHp    34
@@ -2634,7 +2634,7 @@ tbl_EnemyDefs:
                 moveType      BRASS_GUNNER
                 unknownWord   8208
 				
-				unknownByte 0           ; 104: GHOUL
+                unknownByte 0           ; 104: GHOUL
                 spellPower REGULAR
                 level    19
                 maxHp    42
@@ -2659,7 +2659,7 @@ tbl_EnemyDefs:
                 moveType      REGULAR
                 unknownWord   8224
 				
-				unknownByte 0           ; 105: WOLF
+                unknownByte 0           ; 105: WOLF
                 spellPower REGULAR
                 level    22
                 maxHp    36
@@ -2684,7 +2684,7 @@ tbl_EnemyDefs:
                 moveType      STEALTH
                 unknownWord   0
 				
-				unknownByte 0           ; 106: GEPPEL
+                unknownByte 0           ; 106: GEPPEL
                 spellPower REGULAR
                 level    60
                 maxHp    250
@@ -2709,7 +2709,7 @@ tbl_EnemyDefs:
                 moveType      REGULAR
                 unknownWord   0
 				
-				unknownByte 0           ; 107: G0RDON
+                unknownByte 0           ; 107: G0RDON
                 spellPower REGULAR
                 level    45
                 maxHp    150
@@ -2734,7 +2734,7 @@ tbl_EnemyDefs:
                 moveType      MAGE
                 unknownWord   0
 				
-				unknownByte 0           ; 108: BAZ00
+                unknownByte 0           ; 108: BAZ00
                 spellPower ENHANCED
                 level    24
                 maxHp    90
@@ -2759,7 +2759,7 @@ tbl_EnemyDefs:
                 moveType      MAGE
                 unknownWord   0
 				
-				unknownByte 0           ; 109: FRABELL
+                unknownByte 0           ; 109: FRABELL
                 spellPower ENHANCED
                 level    37
                 maxHp    135
@@ -2784,7 +2784,7 @@ tbl_EnemyDefs:
                 moveType      REGULAR
                 unknownWord   0
 				
-				unknownByte 0           ; 110: DAVA
+                unknownByte 0           ; 110: DAVA
                 spellPower ENHANCED
                 level    80
                 maxHp    355
@@ -2809,7 +2809,7 @@ tbl_EnemyDefs:
                 moveType      MAGE
                 unknownWord   0
 				
-				unknownByte 0           ; 111: DOLL
+                unknownByte 0           ; 111: DOLL
                 spellPower REGULAR
                 level    63
                 maxHp    107
@@ -2833,3 +2833,5 @@ tbl_EnemyDefs:
                 initialStatus NONE
                 moveType      STEALTH
                 unknownWord   0
+				
+                

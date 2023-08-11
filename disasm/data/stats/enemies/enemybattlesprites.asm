@@ -111,12 +111,13 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 83, 0 ; 100: Incubus
                 enemyBattleSprAndPlt 86, 1 ; 101:MAGE
                 enemyBattleSprAndPlt 59, 0 ; 102: MUTSUKI
-				enemyBattleSprAndPlt 103, 0 ; 103: ARTILERY
-				enemyBattleSprAndPlt 64, 1 ; 104: GHOUL
-				enemyBattleSprAndPlt 72, 0 ; 105: WOLF
-				enemyBattleSprAndPlt 78, 0 ; 106: GEPPEL
-				enemyBattleSprAndPlt 89, 0 ; 107: GORDON
-				enemyBattleSprAndPlt 93, 0 ; 108: BAZOO
-				enemyBattleSprAndPlt 76, 0 ; 109: FRABELL
-				enemyBattleSprAndPlt 99, 0 ; 110: DAVA
-				enemyBattleSprAndPlt 71, 0 ; 111: DOLL
+                enemyBattleSprAndPlt 103, 0 ; 103: ARTILERY
+                enemyBattleSprAndPlt 64, 1 ; 104: GHOUL
+                enemyBattleSprAndPlt 72, 0 ; 105: WOLF
+                enemyBattleSprAndPlt 78, 0 ; 106: GEPPEL
+                enemyBattleSprAndPlt 89, 0 ; 107: GORDON
+                enemyBattleSprAndPlt 93, 0 ; 108: BAZOO
+                enemyBattleSprAndPlt 76, 0 ; 109: FRABELL
+                enemyBattleSprAndPlt 99, 0 ; 110: DAVA
+                enemyBattleSprAndPlt 71, 0 ; 111: DOLL
+                

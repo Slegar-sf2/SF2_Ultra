@@ -894,7 +894,7 @@ tbl_SpellDefs:
                 radius     0
                 power      15
 				
-				entry      ATOM|LV2       ; ATOM 2
+                entry      ATOM|LV2       ; ATOM 2
                 mpCost     12
                 animation  GUNNER_PROJECTILE
                 properties TYPE_ATTACK
@@ -902,7 +902,7 @@ tbl_SpellDefs:
                 radius     0
                 power      20
 				
-				entry      ATOM|LV3       ; ATOM 3
+                entry      ATOM|LV3       ; ATOM 3
                 mpCost     20
                 animation  GUNNER_PROJECTILE
                 properties TYPE_ATTACK
@@ -910,7 +910,7 @@ tbl_SpellDefs:
                 radius     0
                 power      46
 				
-				entry      ATOM|LV4       ; ATOM 4
+                entry      ATOM|LV4       ; ATOM 4
                 mpCost     30
                 animation  GUNNER_PROJECTILE
                 properties TYPE_ATTACK
@@ -926,7 +926,7 @@ tbl_SpellDefs:
                 radius     0
                 power      50
 				
-				entry      ODDEYE|LV2       ; ODDEYE 2
+                entry      ODDEYE|LV2       ; ODDEYE 2
                 mpCost     0
                 animation  ODD_EYE_BEAM
                 properties TYPE_ATTACK
@@ -936,7 +936,7 @@ tbl_SpellDefs:
 				
             if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
 			
-				entry      RIPSAW           ; RIPSAW
+                entry      RIPSAW           ; RIPSAW
                 mpCost     10
                 animation  BLAST|VARIATION3
                 properties TYPE_ATTACK
@@ -944,7 +944,7 @@ tbl_SpellDefs:
                 radius     0
                 power      38
 				
-				entry      RIPSAW|LV2       ; RIPSAW 2
+                entry      RIPSAW|LV2       ; RIPSAW 2
                 mpCost     20
                 animation  BLAST|VARIATION3
                 properties TYPE_ATTACK
@@ -952,7 +952,7 @@ tbl_SpellDefs:
                 radius     1
                 power      38
                 
-				entry      BLACK_MAGIC           ; BLACK_MAGIC
+                entry      BLACK_MAGIC           ; BLACK_MAGIC
                 mpCost     20
                 animation  DESOUL
                 properties TYPE_ATTACK
@@ -960,7 +960,7 @@ tbl_SpellDefs:
                 radius     0
                 power      25
 				
-				entry      BLACK_MAGIC|LV2           ; BLACK_MAGIC 2
+                entry      BLACK_MAGIC|LV2           ; BLACK_MAGIC 2
                 mpCost     30
                 animation  DESOUL|VARIATION2
                 properties TYPE_ATTACK
@@ -968,7 +968,7 @@ tbl_SpellDefs:
                 radius     0
                 power      40
 				
-				entry      TORNADO               ; TORNADO
+                entry      TORNADO               ; TORNADO
                 mpCost     16
                 animation  BLAST|VARIATION4
                 properties TYPE_ATTACK
@@ -976,7 +976,7 @@ tbl_SpellDefs:
                 radius     0
                 power      38
 				
-				entry      TORNADO|LV2           ; TORNADO 2
+                entry      TORNADO|LV2           ; TORNADO 2
                 mpCost     32
                 animation  BLAST|VARIATION4
                 properties TYPE_ATTACK
@@ -984,7 +984,7 @@ tbl_SpellDefs:
                 radius     0
                 power      77
 				
-				entry      FAIRY         ; FAIRY 1
+                entry      FAIRY         ; FAIRY 1
                 mpCost     2
                 animation  HEALING_FAIRY
                 properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
