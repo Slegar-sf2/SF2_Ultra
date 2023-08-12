@@ -113,4 +113,5 @@ tbl_EnemyNames: enemyName "Ooze"
                 enemyName "Frabell"
                 enemyName "Dava"
                 enemyName "Doll"
+                enemyName "Galam Soldier"
                 

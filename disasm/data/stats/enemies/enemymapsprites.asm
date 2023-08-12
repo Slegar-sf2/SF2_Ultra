@@ -117,6 +117,7 @@ tbl_EnemyMapSprites:
                 mapSprite FRABELL       ; 109: FRABELL
                 mapSprite DAVA          ; 110: DAVA
                 mapSprite DOLL          ; 111: DOLL
+                mapSprite GALAM_SOLDIER2  ; 112
                 mapSprite NPC_ROHDE    
                 mapSprite FLAME1
                 mapSprite ORB
@@ -138,7 +139,6 @@ tbl_EnemyMapSprites:
                 mapSprite DESKTOP_KING
                 mapSprite WOMAN3
                 mapSprite BLUE_FLAME
-                mapSprite FILLER10
                 mapSprite PRIEST
                 mapSprite SAILOR
                 mapSprite MAN1

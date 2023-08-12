@@ -113,7 +113,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 600                ; FRABELL
                 dc.w 2000               ; DAVA
                 dc.w 1100               ; DOLL
-                dc.w 3148
+                dc.w 55                 ; GALAM SOLDIER2
                 dc.w 18507
                 dc.w 3342
                 dc.w 19727

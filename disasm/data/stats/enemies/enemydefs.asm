@@ -2833,5 +2833,29 @@ tbl_EnemyDefs:
                 initialStatus NONE
                 moveType      STEALTH
                 unknownWord   0
-				
+
+                unknownByte 0           ; 112: GALAM SOLDIER
+                spellPower REGULAR
+                level    4
+                maxHp    18
+                maxMp    0
+                baseAtt  18
+                baseDef  18
+                baseAgi  9
+                baseMov  5
+                baseResistance NONE
+                baseProwess    CRITICAL_STUN|DOUBLE_1IN16|COUNTER_1IN16
+                items &
+                    SHORT_AXE|EQUIPPED, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      REGULAR
+                unknownWord   0				
                 
