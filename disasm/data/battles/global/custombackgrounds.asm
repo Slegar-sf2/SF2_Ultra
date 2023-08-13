@@ -58,5 +58,5 @@ tbl_CustomBackgrounds:
 				background 35            ; 48: Battle
 				background 37            ; 49: Battle
 				background 38            ; 50: Battle
-				;background VERSUS_GALAM  ; 51: Battle
+                background OVERWORLD     ; 51: Battle
                 

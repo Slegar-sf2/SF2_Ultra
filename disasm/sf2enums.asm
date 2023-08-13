@@ -1907,6 +1907,7 @@ BATTLE_47: equ $2F
 BATTLE_48: equ $30
 BATTLE_49: equ $31
 BATTLE_VERSUS_DAVA: equ $32
+BATTLE_51: equ $33
 NOT_CURRENTLY_IN_BATTLE: equ $FF
 
 ; ---------------------------------------------------------------------------

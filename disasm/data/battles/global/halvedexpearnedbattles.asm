@@ -7,5 +7,7 @@ tbl_HalvedExpEarnedBattles:
                 
                 battle OUTSIDE_MITULA_SHRINE
 				battle VERSUS_PRISM_FLOWERS
-                
+				battle 51
+				battle BATTLE_TO_THE_EAST
+
                 tableEnd.b

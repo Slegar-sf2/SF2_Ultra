@@ -16,7 +16,8 @@ tbl_RandomBattlesList:
                         DEVIL_TAIL, &
                         TO_NORTH_PARMECIA, &
                         OUTSIDE_KETTO, &
-                        TO_ROFT
+                        TO_ROFT, &
+                        51
 tbl_EnemyUpgradeDef_Melee:
                 
 ; 3 bytes per entry, followed by a length prefixed list :

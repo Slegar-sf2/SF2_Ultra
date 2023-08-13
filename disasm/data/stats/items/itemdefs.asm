@@ -1343,7 +1343,7 @@ tbl_ItemDefs:
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 2, &
                              INCREASE_DEF, 2, &
-                             INCREASE_MOV, 2
+                             INCREASE_MOV, 1
                 
                 ; 120: Silver Tank
                 equipFlags   BRGN
