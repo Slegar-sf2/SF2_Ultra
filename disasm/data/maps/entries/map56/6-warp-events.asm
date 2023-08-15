@@ -8,8 +8,8 @@
                   warpFacing DOWN
                 mWarp 255, 5
                   warpNoScroll
-                  warpMap    MAP_ANCIENT_TOWER_UNDERGROUND_STAIRS
-                  warpDest   57, 24
+                  warpMap    90
+                  warpDest   11, 24
                   warpFacing UP
                 mWarp 44, 47
                   warpNoScroll

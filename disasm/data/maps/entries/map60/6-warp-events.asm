@@ -113,7 +113,7 @@
                   warpFacing LEFT
                 mWarp 255, 26
                   warpNoScroll
-                  warpMap    MAP_ANCIENT_TOWER_CLIMB
-                  warpDest   15, 6
+                  warpMap    90
+                  warpDest   24, 14
                   warpFacing DOWN
                 endWord
