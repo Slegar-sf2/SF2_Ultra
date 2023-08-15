@@ -2837,9 +2837,9 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 112: GALAM SOLDIER
                 spellPower REGULAR
                 level    4
-                maxHp    18
+                maxHp    22
                 maxMp    0
-                baseAtt  18
+                baseAtt  20
                 baseDef  18
                 baseAgi  9
                 baseMov  5
@@ -2858,4 +2858,28 @@ tbl_EnemyDefs:
                 initialStatus NONE
                 moveType      REGULAR
                 unknownWord   0				
-                
+
+                unknownByte 0           ; 113: EVIL PIXY
+                spellPower REGULAR
+                level    6
+                maxHp    25
+                maxMp    24
+                baseAtt  21
+                baseDef  20
+                baseAgi  28
+                baseMov  5
+                baseResistance WIND_MAJOR
+                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN32|COUNTER_1IN4
+                items &
+                    MIDDLE_SWORD|EQUIPPED, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    BLAST|LV2, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      FLYING
+                unknownWord   0

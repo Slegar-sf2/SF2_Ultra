@@ -114,7 +114,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 2000               ; DAVA
                 dc.w 1100               ; DOLL
                 dc.w 55                 ; GALAM SOLDIER2
-                dc.w 18507
+                dc.w 100                ;EVIL_PIXY
                 dc.w 3342
                 dc.w 19727
                 dc.w 4174
