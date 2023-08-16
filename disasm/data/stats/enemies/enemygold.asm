@@ -117,7 +117,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 100                ;EVIL_PIXY
                 dc.w 870                ;BULLDOR
                 dc.w 910                ;WARDERER
-                dc.w 4174
+                dc.w 717                ;SOLO
                 dc.w 20304
                 dc.w 4370
                 dc.w 4884

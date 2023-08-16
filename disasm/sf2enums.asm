@@ -650,7 +650,8 @@ ENEMY_DOLL: equ $6F
 ENEMY_GALAM_SOLDIER2: equ $70
 ENEMY_EVIL_PIXY: equ $71
 ENEMY_BULLDOR: equ $72
-ENEMY_WARDERER: equ $73 
+ENEMY_WARDERER: equ $73
+ENEMY_SOLO: equ $74
 
 ; ---------------------------------------------------------------------------
 
@@ -3518,7 +3519,7 @@ MAPSPRITE_FREE_SPOT2: equ $EF
 MAPSPRITE_EVIL_PIXY: equ $F0
 MAPSPRITE_BULLDOR: equ $F1
 MAPSPRITE_WARDERER: equ $F2
-MAPSPRITE_02: equ $F3
+MAPSPRITE_SOLO: equ $F3
 MAPSPRITE_03: equ $F4
 MAPSPRITE_04: equ $F5
 MAPSPRITE_05: equ $F6

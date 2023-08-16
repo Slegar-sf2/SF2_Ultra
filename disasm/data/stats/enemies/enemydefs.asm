@@ -2911,7 +2911,32 @@ tbl_EnemyDefs:
                     
                 unknownByte 0          ; 115 WARDERER
                 spellPower ENHANCED
-                level    66
+                level    70
+                maxHp    232
+                maxMp    64
+                baseAtt  120
+                baseDef  130
+                baseAgi  170
+                baseMov  6
+                baseResistance LIGHTNING_MAJOR|STATUS_IMMUNITY
+                baseProwess    CRITICAL150_1IN4|DOUBLE_1IN8|COUNTER_1IN4
+                items &
+                    BATTLE_SWORD|EQUIPPED, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    THUNDR|LV4, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      REGULAR
+                unknownWord   0
+                    
+                unknownByte 0          ; 116 SOLO
+                spellPower ENHANCED
+                level    70
                 maxHp    232
                 maxMp    64
                 baseAtt  120

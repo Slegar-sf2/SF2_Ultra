@@ -730,6 +730,9 @@ pt_MapSprites:  dc.l MapSprite000_0
                 dc.l MapSprite242_0
                 dc.l MapSprite242_1
                 dc.l MapSprite242_2
+                dc.l MapSprite243_0
+                dc.l MapSprite243_1
+                dc.l MapSprite243_2
 MapSprite000_0: incbin "data/graphics/mapsprites/mapsprite000-0.bin"
 MapSprite000_1: incbin "data/graphics/mapsprites/mapsprite000-1.bin"
 MapSprite000_2: incbin "data/graphics/mapsprites/mapsprite000-2.bin"
@@ -1445,3 +1448,6 @@ MapSprite241_2: incbin "data/graphics/mapsprites/mapsprite241-2.bin"
 MapSprite242_0: incbin "data/graphics/mapsprites/mapsprite242-0.bin"
 MapSprite242_1: incbin "data/graphics/mapsprites/mapsprite242-1.bin"
 MapSprite242_2: incbin "data/graphics/mapsprites/mapsprite242-2.bin"
+MapSprite243_0: incbin "data/graphics/mapsprites/mapsprite243-0.bin"
+MapSprite243_1: incbin "data/graphics/mapsprites/mapsprite243-1.bin"
+MapSprite243_2: incbin "data/graphics/mapsprites/mapsprite243-2.bin"

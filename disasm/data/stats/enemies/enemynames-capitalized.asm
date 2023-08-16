@@ -117,4 +117,5 @@ tbl_EnemyNames: enemyName "Ooze"
                 enemyName "Evil Pixy"
                 enemyName "Bulldor"
                 enemyName "Warderer"
+                enemyName "Solo"
 				

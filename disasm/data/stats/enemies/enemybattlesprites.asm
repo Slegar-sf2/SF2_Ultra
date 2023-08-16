@@ -123,5 +123,5 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt SOLDIER, 0 ; 112: GALAM SOLDIER2
                 enemyBattleSprAndPlt 83, 1 ; 113: EVIL_PIXY
                 enemyBattleSprAndPlt 98, 0 ; 114:BULLDOR
-                enemyBattleSprAndPlt WARDERER, 0 ; 115:WARDERER
-                enemyBattleSprAndPlt 0, 0 ; 116 ??????
+                enemyBattleSprAndPlt 96, 0 ; 115:WARDERER
+                enemyBattleSprAndPlt 90, 0 ; 116 SOLO
