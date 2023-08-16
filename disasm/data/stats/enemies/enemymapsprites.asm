@@ -118,7 +118,9 @@ tbl_EnemyMapSprites:
                 mapSprite DAVA          ; 110: DAVA
                 mapSprite DOLL          ; 111: DOLL
                 mapSprite GALAM_SOLDIER2  ; 112
-                mapSprite EVIL_PIXY      ;113 EVIL_PIXY 
+                mapSprite EVIL_PIXY      ;113 EVIL_PIXY
+                mapSprite BULLDOR        ;114 BULLDOR
+                mapSprite WARDERER        ;115 WARDERER
                 mapSprite NPC_ROHDE    
                 mapSprite FLAME1
                 mapSprite ORB
@@ -171,9 +173,9 @@ tbl_EnemyMapSprites:
                 mapSprite TURTLE
                 mapSprite BEASTMAN2
                 mapSprite ELF_BOY
-                mapSprite ELF_GIRL
-                mapSprite VIKING
-                mapSprite DWARF
-                mapSprite BEDOE_KING
-                mapSprite BEDOE_MINISTER
+                ;mapSprite ELF_GIRL
+                ;mapSprite VIKING
+                ;mapSprite DWARF
+                ;mapSprite BEDOE_KING
+                ;mapSprite BEDOE_MINISTER
                 ;mapSprite BEDOE_SOLDIER

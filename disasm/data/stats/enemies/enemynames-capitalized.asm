@@ -115,4 +115,6 @@ tbl_EnemyNames: enemyName "Ooze"
                 enemyName "Doll"
                 enemyName "Galam Soldier"
                 enemyName "Evil Pixy"
-                
+                enemyName "Bulldor"
+                enemyName "Warderer"
+				

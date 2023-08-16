@@ -483,4 +483,8 @@ SpriteDialogProperties:
                 portrait    63
                 speechSound 75
 
+                mapSprite   242
+                portrait    6
+                speechSound 75
+
                 tableEnd

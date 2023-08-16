@@ -777,7 +777,7 @@ tbl_SpellDefs:
                 entry      ICE       ; ICE 1
                 mpCost     5
                 animation  FREEZE
-                properties TYPE_ATTACK
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     0
                 power      13
@@ -785,7 +785,7 @@ tbl_SpellDefs:
                 entry      ICE|LV2       ; ICE 2
                 mpCost     9
                 animation  FREEZE|VARIATION2
-                properties TYPE_ATTACK
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     0
                 power      17
@@ -793,7 +793,7 @@ tbl_SpellDefs:
                 entry      ICE|LV3       ; ICE 3
                 mpCost     18
                 animation  FREEZE|VARIATION3
-                properties TYPE_ATTACK
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     0
                 power      35
@@ -801,7 +801,7 @@ tbl_SpellDefs:
                 entry      ICE|LV4       ; ICE 4
                 mpCost     25
                 animation  FREEZE|VARIATION4
-                properties TYPE_ATTACK
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 3
                 radius     0
                 power      40
@@ -809,7 +809,7 @@ tbl_SpellDefs:
                 entry      THUNDR       ; THUNDR 1
                 mpCost     4
                 animation  BOLT
-                properties TYPE_ATTACK
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     0
                 power      8
@@ -817,7 +817,7 @@ tbl_SpellDefs:
                 entry      THUNDR|LV2       ; THUNDR 2
                 mpCost     8
                 animation  BOLT|VARIATION2
-                properties TYPE_ATTACK
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     0
                 power      15
@@ -825,7 +825,7 @@ tbl_SpellDefs:
                 entry      THUNDR|LV3       ; THUNDR 3
                 mpCost     16
                 animation  BOLT|VARIATION3
-                properties TYPE_ATTACK
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     0
                 power      30
@@ -833,7 +833,7 @@ tbl_SpellDefs:
                 entry      THUNDR|LV4      ; THUNDR 4
                 mpCost     32
                 animation  BOLT|VARIATION4
-                properties TYPE_ATTACK
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     1
                 power      50
@@ -889,7 +889,7 @@ tbl_SpellDefs:
                 entry      ATOM           ; ATOM 1
                 mpCost     6
                 animation  GUNNER_PROJECTILE
-                properties TYPE_ATTACK
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     0
                 power      15
@@ -897,7 +897,7 @@ tbl_SpellDefs:
                 entry      ATOM|LV2       ; ATOM 2
                 mpCost     12
                 animation  GUNNER_PROJECTILE
-                properties TYPE_ATTACK
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     0
                 power      20
@@ -905,7 +905,7 @@ tbl_SpellDefs:
                 entry      ATOM|LV3       ; ATOM 3
                 mpCost     20
                 animation  GUNNER_PROJECTILE
-                properties TYPE_ATTACK
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     0
                 power      46
@@ -913,7 +913,7 @@ tbl_SpellDefs:
                 entry      ATOM|LV4       ; ATOM 4
                 mpCost     30
                 animation  GUNNER_PROJECTILE
-                properties TYPE_ATTACK
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     0
                 power      65
@@ -939,7 +939,7 @@ tbl_SpellDefs:
                 entry      RIPSAW           ; RIPSAW
                 mpCost     10
                 animation  BLAST|VARIATION3
-                properties TYPE_ATTACK
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 3
                 radius     0
                 power      38
@@ -947,7 +947,7 @@ tbl_SpellDefs:
                 entry      RIPSAW|LV2       ; RIPSAW 2
                 mpCost     20
                 animation  BLAST|VARIATION3
-                properties TYPE_ATTACK
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 3
                 radius     1
                 power      38
@@ -971,7 +971,7 @@ tbl_SpellDefs:
                 entry      TORNADO               ; TORNADO
                 mpCost     16
                 animation  BLAST|VARIATION4
-                properties TYPE_ATTACK
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     0
                 power      38
@@ -979,7 +979,7 @@ tbl_SpellDefs:
                 entry      TORNADO|LV2           ; TORNADO 2
                 mpCost     32
                 animation  BLAST|VARIATION4
-                properties TYPE_ATTACK
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     0
                 power      77

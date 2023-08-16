@@ -21,4 +21,6 @@ tbl_EnemyBattlesceneMusics:
 				dc.b ENEMY_FRABELL, MUSIC_PROMOTED_ATTACK
 				dc.b ENEMY_DAVA, MUSIC_ZEON_ATTACK
                 dc.b ENEMY_CHU_RAO, MUSIC_BOSS_ATTACK
+                dc.b ENEMY_WARDERER, MUSIC_BOSS_ATTACK
+				
                 tableEnd.b

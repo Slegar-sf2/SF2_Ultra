@@ -54,6 +54,7 @@ pt_BattleSpritesets:
 				dc.l BattleSpriteSet49
 				dc.l BattleSpriteSet50
 				dc.l BattleSpriteSet51
+				dc.l BattleSpriteSet52
 BattleSpriteset00:
                 incbin "data/battles/entries/battle00/spriteset.bin"
 BattleSpriteset01:
@@ -158,3 +159,5 @@ BattleSpriteSet50:
                 incbin "data/battles/entries/battle50/spriteset.bin"
 BattleSpriteSet51:
                 incbin "data/battles/entries/battle51/spriteset.bin"
+BattleSpriteSet52:
+                incbin "data/battles/entries/battle52/spriteset.bin"
