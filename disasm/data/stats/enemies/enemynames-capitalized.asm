@@ -119,4 +119,4 @@ tbl_EnemyNames: enemyName "Ooze"
                 enemyName "Warderer"
                 enemyName "Solo"
                 enemyName "Goblin Pupil"
-				
+                enemyName "Farfetch"

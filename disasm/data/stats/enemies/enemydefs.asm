@@ -2983,3 +2983,28 @@ tbl_EnemyDefs:
                 initialStatus NONE
                 moveType      REGULAR
                 unknownWord   0
+                    
+                unknownByte 0           ; 118 Farfetch
+                spellPower REGULAR
+                level    10
+                maxHp    37
+                maxMp    20
+                baseAtt  35
+                baseDef  25
+                baseAgi  150
+                baseMov  6
+                baseResistance WIND_MAJOR|STATUS_IMMUNITY
+                baseProwess    CRITICAL_SLOW|DOUBLE_1IN16|COUNTER_1IN16
+                items &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    SLEEP|LV2, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      REGULAR
+                unknownWord   0

@@ -157,7 +157,7 @@ loc_27C2C:
                 dbf     d7,loc_27C2C
                 jsr     j_ClearEntities
                 setFlg  400             ; Battle 0 unlocked - BATTLE_VERSUS_ALL_BOSSES         
-                move.w  #MAP_MAGIC_TUNNEL_HUB,d0
+                move.w  #MAP_DAVAMAP,d0
                 jsr     (CheckBattle).w 
                 move.w  d7,d1
                 bsr.w   BattleLoop      

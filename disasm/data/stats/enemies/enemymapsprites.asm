@@ -123,6 +123,7 @@ tbl_EnemyMapSprites:
                 mapSprite WARDERER        ;115 WARDERER
                 mapSprite SOLO           ; 116 SOLO
                 mapSprite GOBLIN_PUPIL   ;117 GOBLIN PUPIL
+                mapSprite FARFETCH       ; 118 FARFETCH
                 mapSprite NPC_ROHDE    
                 mapSprite FLAME1
                 mapSprite ORB

@@ -119,7 +119,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 910                ;WARDERER
                 dc.w 717                ;SOLO
                 dc.w 110                ;GOBLIN PUPIL
-                dc.w 4370
+                dc.w 150                ;Farfetch
                 dc.w 4884
                 dc.w 21269
                 dc.w 21589

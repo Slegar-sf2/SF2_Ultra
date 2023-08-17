@@ -653,6 +653,7 @@ ENEMY_BULLDOR: equ $72
 ENEMY_WARDERER: equ $73
 ENEMY_SOLO: equ $74
 ENEMY_GOBLIN_PUPIL: equ $75
+ENEMY_FARFETCH: equ $76
 
 ; ---------------------------------------------------------------------------
 
@@ -3522,7 +3523,7 @@ MAPSPRITE_BULLDOR: equ $F1
 MAPSPRITE_WARDERER: equ $F2
 MAPSPRITE_SOLO: equ $F3
 MAPSPRITE_GOBLIN_PUPIL: equ $F4
-MAPSPRITE_04: equ $F5
+MAPSPRITE_FARFETCH: equ $F5
 MAPSPRITE_05: equ $F6
 MAPSPRITE_06: equ $F7
 MAPSPRITE_07: equ $F8

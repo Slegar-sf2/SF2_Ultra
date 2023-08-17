@@ -126,3 +126,4 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 96, 0 ; 115:WARDERER
                 enemyBattleSprAndPlt 90, 0 ; 116 SOLO
                 enemyBattleSprAndPlt 95, 0 ; 117: GOBLIN PUPIL
+                enemyBattleSprAndPlt 104, 0 ; 118: FARFETCH
