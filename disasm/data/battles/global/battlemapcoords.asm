@@ -28,7 +28,7 @@ BattleMapCoordinates:
                 battleMapCoords 22, 9, 0, 30, 30, 255, 255
                 battleMapCoords 27, 23, 14, 27, 16, 255, 255
                 battleMapCoords 72, 1, 32, 32, 30, 255, 255
-                battleMapCoords 48, 28, 0, 32, 32, 55, 29
+                battleMapCoords 48, 28, 0, 32, 32, 255, 255
                 battleMapCoords 72, 28, 0, 36, 32, 255, 255
                 battleMapCoords 74, 2, 16, 32, 48, 255, 255
                 battleMapCoords 47, 0, 0, 26, 38, 255, 255

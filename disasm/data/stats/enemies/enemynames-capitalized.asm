@@ -118,4 +118,5 @@ tbl_EnemyNames: enemyName "Ooze"
                 enemyName "Bulldor"
                 enemyName "Warderer"
                 enemyName "Solo"
+                enemyName "Goblin Pupil"
 				

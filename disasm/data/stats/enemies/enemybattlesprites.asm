@@ -125,3 +125,4 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 98, 0 ; 114:BULLDOR
                 enemyBattleSprAndPlt 96, 0 ; 115:WARDERER
                 enemyBattleSprAndPlt 90, 0 ; 116 SOLO
+                enemyBattleSprAndPlt 95, 0 ; 117: GOBLIN PUPIL

@@ -2862,7 +2862,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 113: EVIL PIXY
                 spellPower REGULAR
                 level    6
-                maxHp    25
+                maxHp    31
                 maxMp    24
                 baseAtt  21
                 baseDef  20
@@ -2952,6 +2952,31 @@ tbl_EnemyDefs:
                     NOTHING
                 spells &
                     THUNDR|LV4, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      REGULAR
+                unknownWord   0
+                    
+                unknownByte 0           ; 117: GOBLIN PUPIL
+                spellPower REGULAR
+                level    8
+                maxHp    33
+                maxMp    0
+                baseAtt  23
+                baseDef  21
+                baseAgi  20
+                baseMov  6
+                baseResistance NONE
+                baseProwess    CRITICAL150_1IN16|DOUBLE_1IN8|COUNTER_1IN16
+                items &
+                    HAND_AXE|EQUIPPED, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
