@@ -57,4 +57,5 @@ tbl_EnemyLeaderPresence:
 				dc.b 0                  ; 49:
 				dc.b 255                ; 50: DAVA
 				dc.b 0                  ; 51
-				dc.b 255                ; 52 Warderer                
+				dc.b 255                ; 52 Warderer            
+				dc.b 255                ; 53

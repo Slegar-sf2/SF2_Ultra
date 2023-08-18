@@ -1197,6 +1197,7 @@ ITEM_BLIZZARD: equ $8A
 ITEM_HEALING_BERRIES: equ $8B
 ITEM_VICR_RING: equ $8C
 ITEM_ATTACK_RING: equ $8D
+ITEM_HUMMER: equ $8E
 
 ITEM_EQUIPPED: equ itemEquipped
 ITEM_USABLE_BY_AI: equ $2000
@@ -1916,6 +1917,8 @@ BATTLE_48: equ $30
 BATTLE_49: equ $31
 BATTLE_VERSUS_DAVA: equ $32
 BATTLE_51: equ $33
+BATTLE_52: equ $34
+BATTLE_53: equ $35
 NOT_CURRENTLY_IN_BATTLE: equ $FF
 
 ; ---------------------------------------------------------------------------

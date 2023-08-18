@@ -60,3 +60,4 @@ tbl_CustomBackgrounds:
 				background 38            ; 50: Battle
                 background OVERWORLD     ; 51: Battle
                 background 39            ; 52: Battle 
+                background 39            ; 53: Battle 

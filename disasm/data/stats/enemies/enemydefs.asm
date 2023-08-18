@@ -2886,17 +2886,17 @@ tbl_EnemyDefs:
                     
                 unknownByte 0          ; 114: BULLDOR
                 spellPower ENHANCED
-                level    63
-                maxHp    232
-                maxMp    64
+                level    70
+                maxHp    440
+                maxMp    0
                 baseAtt  120
                 baseDef  130
-                baseAgi  170
-                baseMov  6
-                baseResistance LIGHTNING_MAJOR|STATUS_IMMUNITY
+                baseAgi  165
+                baseMov  5
+                baseResistance STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN4|DOUBLE_1IN8|COUNTER_1IN4
                 items &
-                    BATTLE_AXE|EQUIPPED, &
+                    HUMMER|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

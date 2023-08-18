@@ -1586,16 +1586,16 @@ tbl_ItemDefs:
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 10, &
                              DECREASE_DEF, 10, &
-                             NONE, 0
+							 NONE, 0
                 
-                ; 142: 
+                ; 142: HUMMER
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
+                range        1, 1
+                price        3000
+                itemType     WEAPON
                 useSpell     NOTHING
-                equipEffects NONE, 0, &
+                equipEffects INCREASE_ATT, 22, &
                              NONE, 0, &
                              NONE, 0
                 
