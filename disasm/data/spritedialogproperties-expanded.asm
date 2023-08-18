@@ -483,6 +483,10 @@ SpriteDialogProperties:
                 portrait    63
                 speechSound 75
 
+                mapSprite   241
+                portrait    16
+                speechSound 75
+
                 mapSprite   242
                 portrait    6
                 speechSound 75

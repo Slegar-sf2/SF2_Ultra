@@ -6,7 +6,7 @@
                   warpFacing DOWN
                 mWarp 24, 13
                   warpNoScroll
-                  warpMap    MAP_ANCIENT_TOWER_UNDERGROUND_STAIRS
-                  warpDest   56, 25
+                  warpMap    91
+                  warpDest   9, 38
                   warpFacing UP
                 endWord

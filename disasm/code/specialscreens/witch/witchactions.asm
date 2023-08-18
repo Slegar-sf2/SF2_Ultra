@@ -53,6 +53,8 @@ byte_7476:
                 
                 txt     223             ; "{NAME;0}....{N}Nice name, huh?{W2}"
                 bsr.w   CheatModeConfiguration
+                clr.w   d0
+                bra.s   loc_74A8
                 txt     232             ; "I'll let you decide the{N}difficulty level at this time."
                 clr.w   d0
                 moveq   #3,d1
@@ -83,9 +85,9 @@ loc_74B4:
                 setSavedByte #MAP_GRANSEAL, EGRESS_MAP
                 bsr.w   SaveGame
                 clsTxt
-                move.b  #90,d0          ; HARDCODED new game starting map
-                move.w  #12,d1          ; HARDCODED main entity starting X
-                move.w  #20,d2           ; HARDCODED main entity starting Y
+                move.b  #91,d0          ; HARDCODED new game starting map
+                move.w  #9,d1          ; HARDCODED main entity starting X
+                move.w  #17,d2           ; HARDCODED main entity starting Y
                 move.w  #DOWN,d3        ; HARDCODED main entity starting facing
                 moveq   #1,d4
 loc_74DE:

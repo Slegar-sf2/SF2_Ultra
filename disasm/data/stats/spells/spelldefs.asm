@@ -173,6 +173,15 @@ tbl_SpellDefs:
                 range      1, 1
                 radius     1
                 power      15
+				
+				
+                entry      ATTACK|LV3      ; ATTACK 3
+                mpCost     60
+                animation  BUFF1
+                properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
+                range      0, 1
+                radius     3
+                power      15
 								
                 entry      DISPEL           ; DISPEL 1
                 mpCost     5

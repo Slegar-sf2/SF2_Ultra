@@ -5,4 +5,5 @@ abcs_battle00:  textCursor 466
                 playSound MUSIC_ITEM
                 nextSingleText $FF,255  ; "Game over!{W1}"
                 hideText
+                warp 86,11,24,UP
                 csc_end

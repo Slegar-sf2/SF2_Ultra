@@ -2912,10 +2912,10 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 115 WARDERER
                 spellPower ENHANCED
                 level    70
-                maxHp    232
+                maxHp    220
                 maxMp    64
                 baseAtt  120
-                baseDef  130
+                baseDef  122
                 baseAgi  170
                 baseMov  6
                 baseResistance LIGHTNING_MAJOR|STATUS_IMMUNITY
@@ -2991,7 +2991,7 @@ tbl_EnemyDefs:
                 maxMp    20
                 baseAtt  35
                 baseDef  25
-                baseAgi  150
+                baseAgi  25
                 baseMov  6
                 baseResistance WIND_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_SLOW|DOUBLE_1IN16|COUNTER_1IN16
@@ -3007,4 +3007,29 @@ tbl_EnemyDefs:
                     NOTHING
                 initialStatus NONE
                 moveType      REGULAR
+                unknownWord   0
+                    
+                unknownByte 0           ; 119 DARK PRIEST
+                spellPower ENHANCED
+                level    56
+                maxHp    185
+                maxMp    120
+                baseAtt  100
+                baseDef  95
+                baseAgi  77
+                baseMov  7
+                baseResistance STATUS_IMMUNITY
+                baseProwess    CRITICAL_MUDDLE|DOUBLE_1IN32|COUNTER_1IN16
+                items &
+                    INDRA_STAFF|EQUIPPED, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    ATTACK|LV3, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      HEALER
                 unknownWord   0

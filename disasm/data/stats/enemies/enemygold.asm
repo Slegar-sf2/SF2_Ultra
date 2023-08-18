@@ -114,13 +114,13 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 2000               ; DAVA
                 dc.w 1100               ; DOLL
                 dc.w 55                 ; GALAM SOLDIER2
-                dc.w 100                ;EVIL_PIXY
-                dc.w 870                ;BULLDOR
-                dc.w 910                ;WARDERER
-                dc.w 717                ;SOLO
-                dc.w 110                ;GOBLIN PUPIL
-                dc.w 150                ;Farfetch
-                dc.w 4884
+                dc.w 100                ; EVIL_PIXY
+                dc.w 1100               ; BULLDOR
+                dc.w 1000               ; WARDERER
+                dc.w 717                ; SOLO
+                dc.w 110                ; GOBLIN PUPIL
+                dc.w 150                ; Farfetch
+                dc.w 400                ; DARK PRIEST
                 dc.w 21269
                 dc.w 21589
                 dc.w 5655
