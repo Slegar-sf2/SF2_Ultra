@@ -3026,8 +3026,8 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    ATTACK|LV3, &
-                    NOTHING, &
+                    AURA|LV4, &
+                    TORNADO, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE

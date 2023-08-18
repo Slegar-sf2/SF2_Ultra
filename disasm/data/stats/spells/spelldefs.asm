@@ -178,7 +178,7 @@ tbl_SpellDefs:
                 entry      ATTACK|LV3      ; ATTACK 3
                 mpCost     60
                 animation  BUFF1
-                properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
+                properties TYPE_HEAL
                 range      0, 1
                 radius     3
                 power      15
