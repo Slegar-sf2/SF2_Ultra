@@ -124,7 +124,8 @@ tbl_EnemyMapSprites:
                 mapSprite SOLO           ; 116 SOLO
                 mapSprite GOBLIN_PUPIL   ;117 GOBLIN PUPIL
                 mapSprite FARFETCH       ; 118 FARFETCH
-                mapSprite DARK_PRIEST    ;119			
+                mapSprite DARK_PRIEST    ;119 DARK PRIEST		
+                mapSprite SORCERER		 ;120 SORCERER		
                 mapSprite NPC_ROHDE    
                 mapSprite FLAME1
                 mapSprite ORB

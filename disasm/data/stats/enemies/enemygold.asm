@@ -121,7 +121,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 110                ; GOBLIN PUPIL
                 dc.w 150                ; Farfetch
                 dc.w 400                ; DARK PRIEST
-                dc.w 21269
+                dc.w 890                ; SORCERER
                 dc.w 21589
                 dc.w 5655
                 dc.w 22296

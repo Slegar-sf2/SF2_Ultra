@@ -3033,3 +3033,28 @@ tbl_EnemyDefs:
                 initialStatus NONE
                 moveType      HEALER
                 unknownWord   0
+                    
+                unknownByte 0          ; 120: SORCERER
+                spellPower ENHANCED
+                level    60
+                maxHp    150
+                maxMp    130
+                baseAtt  87
+                baseDef  100
+                baseAgi  90
+                baseMov  7
+                baseResistance WIND_MAJOR|LIGHTNING_MINOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
+                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN16
+                items &
+                    BISHOP_ROD|EQUIPPED, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    BOLT|LV4, &
+                    HEALIN|LV4, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      MAGE
+                unknownWord   0

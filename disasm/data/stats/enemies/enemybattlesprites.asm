@@ -128,3 +128,4 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 95, 0 ; 117: GOBLIN PUPIL
                 enemyBattleSprAndPlt 104, 0 ; 118: FARFETCH
                 enemyBattleSprAndPlt 85, 2 ; 119: DARK_PRIEST
+                enemyBattleSprAndPlt 87, 1 ; 120: SORCERER
