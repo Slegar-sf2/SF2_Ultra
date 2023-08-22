@@ -2,7 +2,7 @@
 ; ASM FILE data\battles\entries\battle32\cs_regiontriggered_1.asm :
 ; 0x4CD10..0x4CDB4 : Region-activated cutscene for battle 32
 rbcs_battle32:  textCursor 2849
-                executeSubroutine csub_4CD56
+                ;executeSubroutine csub_4CD56
                 cameraSpeed $38
                 setCameraEntity ALLY_JARO
                 csWait 60
