@@ -73,7 +73,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        150
+                price        75
                 itemType     CONSUMABLE
                 useSpell     EGRESS
                 equipEffects NONE, 0, &

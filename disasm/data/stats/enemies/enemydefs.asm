@@ -186,7 +186,7 @@ tbl_EnemyDefs:
                     
                 unknownByte 7           ; 6: DARK DWARF
                 spellPower REGULAR
-                level    7
+                level    8
                 maxHp    32
                 maxMp    0
                 baseAtt  27
