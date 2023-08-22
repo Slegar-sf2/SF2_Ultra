@@ -27,7 +27,7 @@ FIX_MISSING_RANDOM_BATTLES:         equ 1       ; Add zone events for random bat
 ; Quality of life features
 ACCURATE_LAND_EFFECT_DISPLAY:       equ 1       ; Read values to be displayed from a table. Damage multipliers are converted to reduction percent values during assembly through a macro.
 CAPITALIZED_CHARACTER_NAMES:        equ 1       ; Capitalize allies and enemies names, as well as change "JAR" and the Chess Army's "DARK BISHOP" to "Jaro" and "Bishop".
-NO_AI_JARO:                         equ 0       ; 
+NO_AI_JARO:                         equ 1       ; 
 NO_AI_PETER:                        equ 1       ; 
 NO_DARKNESS_IN_CAVES:               equ 0       ; The darkness gimmick in caves is disabled.
 NO_RANDOM_BATTLES:                  equ 0       ; 0 = Battles    1 = No Battles
