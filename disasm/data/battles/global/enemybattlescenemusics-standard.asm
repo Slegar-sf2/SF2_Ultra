@@ -23,5 +23,6 @@ tbl_EnemyBattlesceneMusics:
                 dc.b ENEMY_CHU_RAO, MUSIC_BOSS_ATTACK
                 dc.b ENEMY_WARDERER, MUSIC_BOSS_ATTACK
                 dc.b ENEMY_BULLDOR, MUSIC_BOSS_ATTACK
+				dc.b ENEMY_RUSEPHINE, MUSIC_ZEON_ATTACK
 				
                 tableEnd.b

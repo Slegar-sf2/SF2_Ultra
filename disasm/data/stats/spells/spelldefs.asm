@@ -865,12 +865,12 @@ tbl_SpellDefs:
                 power      16
                 
                 entry      AQUA|LV2     ; AQUA 2
-                mpCost     15
-                animation  BUBBLE_BREATH|VARIATION2
+                mpCost     0
+                animation  FREEZE|VARIATION4
                 properties TYPE_ATTACK
-                range      1, 2
-                radius     0
-                power      20
+                range      1, 7
+                radius     1
+                power      41
                 
                 entry      NATASHA         ; KIWI 1
                 mpCost     0
@@ -998,7 +998,7 @@ tbl_SpellDefs:
                 mpCost     32
                 animation  BLAST|VARIATION4
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
-                range      1, 2
+                range      1, 3
                 radius     0
                 power      77
 				

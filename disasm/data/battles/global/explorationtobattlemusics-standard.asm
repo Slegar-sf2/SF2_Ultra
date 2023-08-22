@@ -7,7 +7,7 @@ tbl_ExplorationToBattleMusics:
                 dc.b MUSIC_NOTHING, MUSIC_BATTLE_THEME_3
                 dc.b MUSIC_TOWN, MUSIC_BATTLE_THEME_3
                 dc.b MUSIC_MITULA, MUSIC_BATTLE_THEME_3
-                dc.b MUSIC_MITULA_SHRINE, MUSIC_BATTLE_THEME_1
+                ;dc.b MUSIC_MITULA_SHRINE, MUSIC_BATTLE_THEME_1
                 dc.b MUSIC_CASTLE, MUSIC_BATTLE_THEME_1
                 
                 tableEnd.b

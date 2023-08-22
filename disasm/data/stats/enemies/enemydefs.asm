@@ -2147,7 +2147,7 @@ tbl_EnemyDefs:
                 baseProwess    CRITICAL_SLOW|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     BISHOP_ROD|EQUIPPED, &
-                    NOTHING, &
+                    ELIXIR, &
                     NOTHING, &
                     NOTHING
                 spells &
@@ -3058,3 +3058,29 @@ tbl_EnemyDefs:
                 initialStatus NONE
                 moveType      MAGE
                 unknownWord   0
+                    
+                unknownByte 0          ; 121 Rusephine
+                spellPower ENHANCED
+                level    70
+                maxHp    999
+                maxMp    0
+                baseAtt  135
+                baseDef  81
+                baseAgi  175
+                baseMov  5
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
+                baseProwess    CRITICAL_SLOW|DOUBLE_1IN16|COUNTER_1IN4
+                items &
+                    HELMET|EQUIPPED, &
+                    POWER_RING|EQUIPPED, &
+                    ATTACK_RING|EQUIPPED, &
+                    QUICK_RING|EQUIPPED
+                spells &
+                    AQUA|LV2, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      FLYING
+                unknownWord   0
+                    

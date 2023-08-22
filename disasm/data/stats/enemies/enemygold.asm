@@ -98,8 +98,8 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 1500               ; RED BARON
                 dc.w 1700               ; GESHP
                 dc.w 2000               ; ODD EYE
-                dc.w 3500               ; GALAM
-                dc.w 4000               ; ZEON
+                dc.w 4500               ; GALAM
+                dc.w 8000               ; ZEON
                 dc.w 500                ; JAR
                 dc.w 90                 ; INCUBUS
                 dc.w 190                ; MAGE
@@ -111,18 +111,18 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 800                ; GORDON
                 dc.w 425                ; BAZOO
                 dc.w 600                ; FRABELL
-                dc.w 2000               ; DAVA
+                dc.w 3000               ; DAVA
                 dc.w 1100               ; DOLL
                 dc.w 55                 ; GALAM SOLDIER2
                 dc.w 100                ; EVIL_PIXY
-                dc.w 1500               ; BULLDOR
-                dc.w 1000               ; WARDERER
+                dc.w 2500               ; BULLDOR
+                dc.w 1500               ; WARDERER
                 dc.w 1700               ; SOLO
                 dc.w 110                ; GOBLIN PUPIL
                 dc.w 150                ; Farfetch
                 dc.w 400                ; DARK PRIEST
                 dc.w 890                ; SORCERER
-                dc.w 21589
+                dc.w 7000               ; RUSEPHINE
                 dc.w 5655
                 dc.w 22296
                 dc.w 22553
