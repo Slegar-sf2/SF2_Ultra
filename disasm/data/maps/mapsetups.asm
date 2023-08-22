@@ -203,4 +203,6 @@ MapSetups:      msMap 3, ms_map3
                 msMapEnd
                 msMap 91, ms_map91
                 msMapEnd
+                msMap 92, ms_map92
+                msMapEnd
                 msEnd
