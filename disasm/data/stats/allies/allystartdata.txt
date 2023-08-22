@@ -27,7 +27,7 @@ Elric, 13
 Apis, 14
 Graham, 15
 RUCE, 16
-Tyrin, 17
+WENDY, 17
 Janet, 18
 Higins, 19
 Skreech, 20

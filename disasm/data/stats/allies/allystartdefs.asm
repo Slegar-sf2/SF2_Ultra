@@ -149,7 +149,7 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass MAGE         ; 17: TYRIN
+                startClass MAGE         ; 17: WENDY
                 startLevel 25
                 startItems &
                     POWER_STICK|EQUIPPED, &
@@ -261,11 +261,11 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass RDBN
-                startLevel 5
+                startClass WIZ        ; 31 ASTRAL
+                startLevel 3
                 startItems &
-                    NOTHING, &
-                    NOTHING, &
-                    NOTHING, &
-                    NOTHING
+                    HOLY_STAFF|EQUIPPED, &
+                    ELIXIR, &
+                    ELIXIR, &
+                    STRIKE
                 

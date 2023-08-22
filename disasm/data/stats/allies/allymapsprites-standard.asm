@@ -94,10 +94,10 @@ tbl_AllyMapSprites:
                 mapSprite RUCE_PROMO
                 mapSprite DEFAULT
                 
-; 17: Tyrin
-                mapSprite TYRIN_BASE
-                mapSprite TYRIN_PROMO
-                mapSprite TYRIN_SPECIAL
+; 17: WENDY
+                mapSprite WENDY_BASE
+                mapSprite WENDY_PROMO
+                mapSprite WENDY_SPECIAL
                 
 ; 18: Janet
                 mapSprite JANET_BASE

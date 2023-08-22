@@ -18,7 +18,7 @@ pt_AllyStats:   dc.l AllyStats00        ; BOWIE
                 dc.l AllyStats14        ; APIS
                 dc.l AllyStats15        ; GRAHAM
                 dc.l AllyStats16        ; RUCE
-                dc.l AllyStats17        ; TYRIN
+                dc.l AllyStats17        ; WENDY
                 dc.l AllyStats18        ; JANET
                 dc.l AllyStats19        ; HIGINS
                 dc.l AllyStats20        ; SKREECH
@@ -32,7 +32,7 @@ pt_AllyStats:   dc.l AllyStats00        ; BOWIE
                 dc.l AllyStats28        ; LEMON
                 dc.l AllyStats29        ; CLAUDE
                 dc.l AllyStats30        ; SHADE
-                dc.l AllyStats31
+                dc.l AllyStats31        ; ASTRAL
                 include "data\stats\allies\stats\allystats00.asm"    ; Ally stats 00
                 include "data\stats\allies\stats\allystats01.asm"    ; Ally stats 01
                 include "data\stats\allies\stats\allystats02.asm"    ; Ally stats 02

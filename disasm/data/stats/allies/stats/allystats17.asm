@@ -1,7 +1,7 @@
 
 ; ASM FILE data\stats\allies\stats\allystats17.asm :
 ; 0x1EE628..0x1EE685 : Ally stats 17
-AllyStats17:    forClass  MAGE   ; TYRIN
+AllyStats17:    forClass  MAGE   ; WENDY
                 hpGrowth  10, 56, LINEAR
                 mpGrowth  7, 36, EARLY
                 attGrowth 4, 29, LINEAR
@@ -44,5 +44,8 @@ AllyStats17:    forClass  MAGE   ; TYRIN
                     40, DAO|LV2, &
                     43, APOLLO|LV2, & 										
                     45, APOLLO|LV3, &					
-                    53, DAO|LV3
+                    53, DAO|LV3, &
+                    60, AURA|LV2, &
+                    61, AURA|LV3, &
+                    62, AURA|LV4
                 

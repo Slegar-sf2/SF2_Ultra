@@ -94,9 +94,9 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt GLDT, 35, 0
                 allyBattleSprAndPlt BRN, BRN, 2
                 
-; 17: TYRIN
-                allyBattleSprAndPlt MAGE, 38, 0
-                allyBattleSprAndPlt WIZ, WIZ, 1
+; 17: WENDY
+                allyBattleSprAndPlt MAGE, 36, 0
+                allyBattleSprAndPlt WIZ, 37, 0
                 allyBattleSprAndPlt SORC, SORC_MALE, 1
                 
 ; 18: JANET
@@ -166,8 +166,8 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt SNIP, 33, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 
-; 31: 
-                allyBattleSprAndPlt NONE, 0, 0
+; 31: ASTRAL
+                allyBattleSprAndPlt WIZ, 38, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 

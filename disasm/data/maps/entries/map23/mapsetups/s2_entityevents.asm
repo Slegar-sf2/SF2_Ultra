@@ -102,7 +102,7 @@ Map23_EntityEvent5:
 Map23_EntityEvent6:
                 
                 chkFlg   17
-		        script   byte_JOINTYRIN
+		        script   byte_JOINWENDY
                 rts
 
 
