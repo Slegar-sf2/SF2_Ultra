@@ -113,7 +113,7 @@
                   warpFacing LEFT
                 mWarp 255, 26
                   warpNoScroll
-                  warpMap    92
-                  warpDest   11, 6
+                  warpMap    94
+                  warpDest   12, 1
                   warpFacing DOWN
                 endWord

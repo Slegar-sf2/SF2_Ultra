@@ -184,6 +184,13 @@ pt_MapTilesets: dc.l MapTileset000
                 dc.l MapTileset180
                 dc.l MapTileset181
                 dc.l MapTileset182
+                dc.l MapTileset183
+                dc.l MapTileset184
+                dc.l MapTileset185
+                dc.l MapTileset186
+                dc.l MapTileset187
+                dc.l MapTileset188
+                dc.l MapTileset189
 MapTileset000:  incbin "data/graphics/maps/maptilesets/maptileset000.bin"
 MapTileset001:  incbin "data/graphics/maps/maptilesets/maptileset001.bin"
 MapTileset002:  incbin "data/graphics/maps/maptilesets/maptileset002.bin"
@@ -367,4 +374,11 @@ MapTileset179:  incbin "data/graphics/maps/maptilesets/maptileset179.bin"
 MapTileset180:  incbin "data/graphics/maps/maptilesets/maptileset180.bin"
 MapTileset181:  incbin "data/graphics/maps/maptilesets/maptileset181.bin"
 MapTileset182:  incbin "data/graphics/maps/maptilesets/maptileset182.bin"
+MapTileset183:  incbin "data/graphics/maps/maptilesets/maptileset183.bin"
+MapTileset184:  incbin "data/graphics/maps/maptilesets/maptileset184.bin"
+MapTileset185:  incbin "data/graphics/maps/maptilesets/maptileset185.bin"
+MapTileset186:  incbin "data/graphics/maps/maptilesets/maptileset186.bin"
+MapTileset187:  incbin "data/graphics/maps/maptilesets/maptileset187.bin"
+MapTileset188:  incbin "data/graphics/maps/maptilesets/maptileset188.bin"
+MapTileset189:  incbin "data/graphics/maps/maptilesets/maptileset189.bin"
 
