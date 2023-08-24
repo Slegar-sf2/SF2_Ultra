@@ -124,7 +124,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 890                ; SORCERER
                 dc.w 7000               ; RUSEPHINE
                 dc.w 2300               ; DARKSOL
-                dc.w 22296
+                dc.w 2555               ; DOMINGO
                 dc.w 22553
                 dc.w 6745
                 dc.w 23040

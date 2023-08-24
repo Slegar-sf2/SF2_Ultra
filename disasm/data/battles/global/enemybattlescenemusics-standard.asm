@@ -26,5 +26,6 @@ tbl_EnemyBattlesceneMusics:
 				dc.b ENEMY_RUSEPHINE, MUSIC_ZEON_ATTACK
                 dc.b ENEMY_SOLO, MUSIC_BOSS_ATTACK
                 dc.b ENEMY_DARKSOL, MUSIC_BOSS_ATTACK
+				dc.b ENEMY_DOMINGO, MUSIC_PROMOTED_ATTACK
 				
                 tableEnd.b

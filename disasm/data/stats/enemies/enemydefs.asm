@@ -3040,7 +3040,7 @@ tbl_EnemyDefs:
                 maxHp    150
                 maxMp    130
                 baseAtt  87
-                baseDef  100
+                baseDef  90
                 baseAgi  90
                 baseMov  7
                 baseResistance WIND_MAJOR|LIGHTNING_MINOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
@@ -3109,3 +3109,27 @@ tbl_EnemyDefs:
                 moveType      REGULAR
                 unknownWord   0
                     
+                unknownByte 0           ; 123 DOMINGO
+                spellPower ENHANCED
+                level    72
+                maxHp    555
+                maxMp    250
+                baseAtt  155
+                baseDef  98
+                baseAgi  188
+                baseMov  5
+                baseResistance ICE_MAJOR|STATUS_IMMUNITY
+                baseProwess    CRITICAL_MAGIC_DRAIN|DOUBLE_1IN4|COUNTER_1IN8
+                items &
+                    HELMET|EQUIPPED, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    AURA|LV4, &
+                    BOLT|LV4, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      FLYING
+                unknownWord   0
