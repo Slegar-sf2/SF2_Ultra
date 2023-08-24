@@ -3089,7 +3089,7 @@ tbl_EnemyDefs:
                 level    70
                 maxHp    290
                 maxMp    200
-                baseAtt  150
+                baseAtt  153
                 baseDef  130
                 baseAgi  174
                 baseMov  6
@@ -3101,7 +3101,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    ICE|LV4, &
+                    KATON|LV4, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
