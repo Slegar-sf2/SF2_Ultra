@@ -132,3 +132,5 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 25, 1 ; 121: Rusephine
                 enemyBattleSprAndPlt 100, 0 ; 122 DARKSOL
                 enemyBattleSprAndPlt 73, 0 ; 123 DOMINGO
+                enemyBattleSprAndPlt 75, 0 ; 124 BIRDMAN
+                enemyBattleSprAndPlt 81, 1 ; 125 SILVER DRAGON

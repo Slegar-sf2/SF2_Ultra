@@ -482,7 +482,7 @@ tbl_SpellDefs:
                 
                 entry      SNOW|LV2     ; SNOW 2
                 mpCost     0
-                animation  SNOW_BREATH|VARIATION3
+                animation  FREEZE|VARIATION4
                 properties TYPE_ATTACK
                 range      1, 1
                 radius     0

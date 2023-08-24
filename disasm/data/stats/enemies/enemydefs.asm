@@ -3015,7 +3015,7 @@ tbl_EnemyDefs:
                 maxHp    185
                 maxMp    120
                 baseAtt  100
-                baseDef  95
+                baseDef  86
                 baseAgi  77
                 baseMov  7
                 baseResistance STATUS_IMMUNITY
@@ -3114,8 +3114,8 @@ tbl_EnemyDefs:
                 level    72
                 maxHp    555
                 maxMp    250
-                baseAtt  155
-                baseDef  98
+                baseAtt  135
+                baseDef  88
                 baseAgi  188
                 baseMov  5
                 baseResistance ICE_MAJOR|STATUS_IMMUNITY
@@ -3128,6 +3128,56 @@ tbl_EnemyDefs:
                 spells &
                     AURA|LV4, &
                     BOLT|LV4, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      FLYING
+                unknownWord   0
+                    
+                unknownByte 0          ; 124: BIRDMAN
+                spellPower ENHANCED
+                level    65
+                maxHp    133
+                maxMp    0
+                baseAtt  101
+                baseDef  104
+                baseAgi  77
+                baseMov  7
+                baseResistance WIND_MAJOR
+                baseProwess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN8
+                items &
+                    BATTLE_SWORD|EQUIPPED, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      FLYING
+                unknownWord   0
+                    
+                unknownByte 0          ; 125: WHITE DRAGON
+                spellPower ENHANCED
+                level    66
+                maxHp    143
+                maxMp    0
+                baseAtt  139
+                baseDef  112
+                baseAgi  90
+                baseMov  7
+                baseResistance ICE_MAJOR|STATUS_IMMUNITY
+                baseProwess    CRITICAL_SLEEP|DOUBLE_1IN16|COUNTER_1IN8
+                items &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    SNOW|LV2, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE

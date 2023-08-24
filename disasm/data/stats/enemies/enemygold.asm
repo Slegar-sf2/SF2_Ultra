@@ -125,9 +125,9 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 7000               ; RUSEPHINE
                 dc.w 2300               ; DARKSOL
                 dc.w 2555               ; DOMINGO
-                dc.w 22553
-                dc.w 6745
-                dc.w 23040
+                dc.w 1150               ; BIRDMAN
+                dc.w 1240               ; SILVER DRAGON
+                dc.w 2304
                 dc.w 0
                 dc.w 0
                 dc.w 0

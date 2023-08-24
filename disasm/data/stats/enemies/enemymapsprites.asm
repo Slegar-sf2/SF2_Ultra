@@ -117,18 +117,20 @@ tbl_EnemyMapSprites:
                 mapSprite FRABELL       ; 109: FRABELL
                 mapSprite DAVA          ; 110: DAVA
                 mapSprite DOLL          ; 111: DOLL
-                mapSprite GALAM_SOLDIER2  ; 112
-                mapSprite EVIL_PIXY      ;113 EVIL_PIXY
-                mapSprite BULLDOR        ;114 BULLDOR
-                mapSprite WARDERER        ;115 WARDERER
+                mapSprite GALAM_SOLDIER2  ; 112 GALAM_SOLDIER2
+                mapSprite EVIL_PIXY      ; 113 EVIL_PIXY
+                mapSprite BULLDOR        ; 114 BULLDOR
+                mapSprite WARDERER       ; 115 WARDERER
                 mapSprite SOLO           ; 116 SOLO
-                mapSprite GOBLIN_PUPIL   ;117 GOBLIN PUPIL
+                mapSprite GOBLIN_PUPIL   ; 117 GOBLIN PUPIL
                 mapSprite FARFETCH       ; 118 FARFETCH
-                mapSprite DARK_PRIEST    ;119 DARK PRIEST		
-                mapSprite SORCERER		 ;120 SORCERER
-                mapSprite RUSEPHINE		 ;121 RUSEPHINE
-                mapSprite DARKSOL        ;122 DARSOL
-                mapSprite DOMINGO        ;123 DOMINGO				
+                mapSprite DARK_PRIEST    ; 119 DARK PRIEST		
+                mapSprite SORCERER		 ; 120 SORCERER
+                mapSprite RUSEPHINE		 ; 121 RUSEPHINE
+                mapSprite DARKSOL        ; 122 DARSOL
+                mapSprite DOMINGO        ; 123 DOMINGO
+                mapSprite BIRDMAN        ; 124 BIRDMAN
+                mapSprite SILVER_DRAGON	 ; 125 SILVER DRAGON			
                 mapSprite NPC_ROHDE    
                 mapSprite FLAME1
                 mapSprite ORB
@@ -177,7 +179,3 @@ tbl_EnemyMapSprites:
                 mapSprite POSE7
                 mapSprite DUCK
                 mapSprite FAIRY
-                mapSprite BEASTMAN1
-                mapSprite TURTLE
-                mapSprite BEASTMAN2
-                mapSprite ELF_BOY

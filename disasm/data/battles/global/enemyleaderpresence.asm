@@ -60,3 +60,5 @@ tbl_EnemyLeaderPresence:
 				dc.b 255                ; 52 Warderer            
 				dc.b 255                ; 53 BULLDOR
 				dc.b 255                ; 54 RUSEPHINE
+				dc.b 255                ; 55 DARKSOL
+				dc.b 255                ; 56 DOMONGO
