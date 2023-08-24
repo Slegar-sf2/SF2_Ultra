@@ -3084,3 +3084,28 @@ tbl_EnemyDefs:
                 moveType      FLYING
                 unknownWord   0
                     
+                unknownByte 0          ; 122 DARKSOL
+                spellPower ENHANCED
+                level    70
+                maxHp    290
+                maxMp    200
+                baseAtt  150
+                baseDef  130
+                baseAgi  174
+                baseMov  6
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
+                baseProwess    CRITICAL_MUDDLE|DOUBLE_1IN8|COUNTER_1IN8
+                items &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    ICE|LV4, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      REGULAR
+                unknownWord   0
+                    

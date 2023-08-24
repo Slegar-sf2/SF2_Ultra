@@ -56,5 +56,8 @@ rpt_EnemyDefeatedCutscenes:
 				dc.w (ms_Empty-rpt_EnemyDefeatedCutscenes) & $FFFF ;battle 51
                 dc.w (ms_Empty-rpt_EnemyDefeatedCutscenes) & $FFFF ;battle 52
                 dc.w (ms_Empty-rpt_EnemyDefeatedCutscenes) & $FFFF ;battle 53
-                dc.w (ms_Empty-rpt_EnemyDefeatedCutscenes) & $FFFF
-                dc.w (ms_Empty-rpt_EnemyDefeatedCutscenes) & $FFFF
+                dc.w (ms_Empty-rpt_EnemyDefeatedCutscenes) & $FFFF ;battle 54
+                dc.w (ms_Empty-rpt_EnemyDefeatedCutscenes) & $FFFF ;battle 55
+                dc.w (ms_Empty-rpt_EnemyDefeatedCutscenes) & $FFFF ;battle 56
+                dc.w (ms_Empty-rpt_EnemyDefeatedCutscenes) & $FFFF ;battle 57
+                dc.w (ms_Empty-rpt_EnemyDefeatedCutscenes) & $FFFF ;battle 58

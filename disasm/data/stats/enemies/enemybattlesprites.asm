@@ -130,3 +130,4 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 85, 2 ; 119: DARK_PRIEST
                 enemyBattleSprAndPlt 87, 1 ; 120: SORCERER
                 enemyBattleSprAndPlt 25, 1 ; 121: Rusephine
+                enemyBattleSprAndPlt 100, 0 ; 122 DARKSOL

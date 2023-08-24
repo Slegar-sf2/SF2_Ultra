@@ -126,7 +126,8 @@ tbl_EnemyMapSprites:
                 mapSprite FARFETCH       ; 118 FARFETCH
                 mapSprite DARK_PRIEST    ;119 DARK PRIEST		
                 mapSprite SORCERER		 ;120 SORCERER
-                mapSprite RUSEPHINE		 ;121 RUSEPHINE		
+                mapSprite RUSEPHINE		 ;121 RUSEPHINE
+                mapSprite DARKSOL        ;122 DARSOL		
                 mapSprite NPC_ROHDE    
                 mapSprite FLAME1
                 mapSprite ORB
