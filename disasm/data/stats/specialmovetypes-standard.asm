@@ -7,10 +7,10 @@ tbl_AirborneMovetypes:
                 
                 dc.b MOVETYPE_LOWER_FLYING
                 dc.b MOVETYPE_LOWER_HOVERING
-                
+                dc.b MOVETYPE_LOWER_ROYAL
+				
                 tableEnd.b
-
-
+				
 ; Movetypes that ignore airborne targets' higher chance to dodge, and also inflict additional damage to them.
 tbl_ArcherMovetypes:
                 
@@ -20,3 +20,7 @@ tbl_ArcherMovetypes:
                 dc.b MOVETYPE_LOWER_STEALTH_ARCHER
                 
                 tableEnd.b
+
+tbl_AirborneMovetypes2:
+                
+                dc.b MOVETYPE_LOWER_ROYAL

@@ -2137,7 +2137,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 84: EVIL BISHOP
                 spellPower ENHANCED
                 level    50
-                maxHp    115
+                maxHp    125
                 maxMp    100
                 baseAtt  95
                 baseDef  85
@@ -2156,7 +2156,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
-                moveType      HEALER
+                moveType      ROYAL
                 unknownWord   12288
                     
                 unknownByte 0           ; 85: DULAHAN

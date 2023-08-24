@@ -334,6 +334,7 @@ MOVETYPE_LOWER_CENTAUR_ARCHER: equ $9
 MOVETYPE_LOWER_STEALTH_ARCHER: equ $A
 MOVETYPE_LOWER_MAGE: equ $B
 MOVETYPE_LOWER_HEALER: equ $C
+MOVETYPE_LOWER_ROYAL: equ $D
 MOVETYPE_UPPER_REGULAR: equ $10
 MOVETYPE_UPPER_CENTAUR: equ $20
 MOVETYPE_UPPER_STEALTH: equ $30
@@ -346,8 +347,9 @@ MOVETYPE_UPPER_CENTAUR_ARCHER: equ $90
 MOVETYPE_UPPER_STEALTH_ARCHER: equ $A0
 MOVETYPE_UPPER_MAGE: equ $B0
 MOVETYPE_UPPER_HEALER: equ $C0
+MOVETYPE_UPPER_ROYAL: equ $D0
 
-MOVETYPE_TOTAL: equ $D
+MOVETYPE_TOTAL: equ $E
 
 ; ---------------------------------------------------------------------------
 
@@ -1754,10 +1756,12 @@ PER_ACTION_EXP_CAP: equ $3B
 
 chanceToDodgeForMuddledAttacker = 2     ; 1/2
 chanceToDodgeForAirborneTarget = 8      ; 1/8
+chanceToDodgeForAirborneRoyal = 2
 chanceToDodgeDefault = 32               ; 1/32
     if (STANDARD_BUILD=1)
-chanceToDodgeForMuddledAttacker = 128   ; n/256
-chanceToDodgeForAirborneTarget = 32     ; 
+chanceToDodgeForMuddledAttacker = 32   ; n/256
+chanceToDodgeForAirborneTarget = 64     ;64=4 , 128=2
+chanceToDodgeForAirborneRoyal = 128
 chanceToDodgeDefault = 8                ; 
     endif
 
@@ -1768,6 +1772,7 @@ CHANCE_TO_PERFORM_NATASHA_FLAME_BREATH: equ $4
 INACTION_CHANCE_CURSE: equ $4
 INACTION_CHANCE_STUN: equ $4
 CHANCE_TO_DODGE_FOR_AIRBORNE_TARGET: equ chanceToDodgeForAirborneTarget
+CHANCE_TO_DODGE_FOR_AIRBORNE_ROYAL: equ chanceToDodgeForAirborneRoyal
 CHANCE_TO_DODGE_DEFAULT: equ chanceToDodgeDefault
 NATASHA_FLAME_BREATH_UPGRADE_LEVEL1: equ $20
 NATASHA_FLAME_BREATH_UPGRADE_LEVEL2: equ $28

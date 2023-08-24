@@ -13,5 +13,7 @@ tbl_EgressPositionsForBattles:
                 dc.b BATTLE_PACALON, MAP_PACALON_CASTLE
                 dc.b BATTLE_TO_MOUN, MAP_PACALON
 				dc.b 46, 44
+				dc.b 54, 91
+				dc.b 55, 92
                 
                 tableEnd.b

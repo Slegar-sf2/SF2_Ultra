@@ -241,3 +241,20 @@ tbl_LandEffectSettingsAndMoveCosts:
                 landEffectAndMoveCost OBSTRUCTED
                 landEffectAndMoveCost OBSTRUCTED
                 
+; 11: Royal
+                landEffectAndMoveCost OBSTRUCTED ; 0: Low Sky
+                landEffectAndMoveCost LE15|2 ; 1: Plains
+                landEffectAndMoveCost LE0|2 ; 2: Path
+                landEffectAndMoveCost LE30|3 ; 3: Grass
+                landEffectAndMoveCost LE30|4 ; 4: Forest
+                landEffectAndMoveCost LE30|3 ; 5: Hills
+                landEffectAndMoveCost LE30|3 ; 6: Desert
+                landEffectAndMoveCost OBSTRUCTED ; 7: High Sky
+                landEffectAndMoveCost OBSTRUCTED ; 8: Water
+                landEffectAndMoveCost OBSTRUCTED
+                landEffectAndMoveCost OBSTRUCTED
+                landEffectAndMoveCost OBSTRUCTED
+                landEffectAndMoveCost OBSTRUCTED
+                landEffectAndMoveCost OBSTRUCTED
+                landEffectAndMoveCost OBSTRUCTED
+                landEffectAndMoveCost OBSTRUCTED
