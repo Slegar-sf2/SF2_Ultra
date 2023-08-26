@@ -1760,7 +1760,7 @@ chanceToDodgeForAirborneRoyal = 2
 chanceToDodgeDefault = 32               ; 1/32
     if (STANDARD_BUILD=1)
 chanceToDodgeForMuddledAttacker = 32   ; n/256
-chanceToDodgeForAirborneTarget = 64     ;64=4 , 128=2
+chanceToDodgeForAirborneTarget = 32     ;64=4 , 128=2
 chanceToDodgeForAirborneRoyal = 128
 chanceToDodgeDefault = 8                ; 
     endif

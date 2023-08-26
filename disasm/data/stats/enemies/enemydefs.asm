@@ -2836,11 +2836,11 @@ tbl_EnemyDefs:
 
                 unknownByte 0           ; 112: GALAM SOLDIER
                 spellPower REGULAR
-                level    4
+                level    5
                 maxHp    20
                 maxMp    0
                 baseAtt  20
-                baseDef  17
+                baseDef  16
                 baseAgi  9
                 baseMov  5
                 baseResistance NONE
