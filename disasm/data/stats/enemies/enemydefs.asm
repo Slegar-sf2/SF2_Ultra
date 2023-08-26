@@ -3062,7 +3062,7 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 121 Rusephine
                 spellPower ENHANCED
                 level    70
-                maxHp    999
+                maxHp    900
                 maxMp    0
                 baseAtt  135
                 baseDef  81
@@ -3112,7 +3112,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 123 DOMINGO
                 spellPower ENHANCED
                 level    72
-                maxHp    555
+                maxHp    322
                 maxMp    250
                 baseAtt  135
                 baseDef  88
