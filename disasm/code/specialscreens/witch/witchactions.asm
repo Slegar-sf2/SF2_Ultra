@@ -85,9 +85,9 @@ loc_74B4:
                 setSavedByte #MAP_GRANSEAL, EGRESS_MAP
                 bsr.w   SaveGame
                 clsTxt
-                move.b  #77,d0          ; HARDCODED new game starting map
-                move.w  #41,d1          ; HARDCODED main entity starting X
-                move.w  #50,d2           ; HARDCODED main entity starting Y
+                move.b  #95,d0          ; HARDCODED new game starting map
+                move.w  #15,d1          ; HARDCODED main entity starting X
+                move.w  #40,d2           ; HARDCODED main entity starting Y
                 move.w  #DOWN,d3        ; HARDCODED main entity starting facing
                 moveq   #1,d4
 loc_74DE:
