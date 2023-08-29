@@ -6,7 +6,7 @@ AllyStats10:    forClass  BDMN ; luke
                 mpGrowth  2, 6, EARLY
                 attGrowth 8, 44, LINEAR
                 defGrowth 6, 35, LINEAR
-                agiGrowth 7, 41, LINEAR
+                agiGrowth 7, 50, LINEAR
                 spellList &
                     15, BLAST, &
                     22, BLAST|LV2, &                    
@@ -18,6 +18,6 @@ AllyStats10:    forClass  BDMN ; luke
                 mpGrowth  6, 26, EARLY
                 attGrowth 44, 84, LINEAR
                 defGrowth 35, 70, LINEAR
-                agiGrowth 41, 67, LINEAR
+                agiGrowth 50, 87, LINEAR
                 useFirstSpellList
                     

@@ -3126,10 +3126,10 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    AURA|LV4, &
-                    BOLT|LV4, &
-                    NOTHING, &
-                    NOTHING
+                    FREEZE|LV4, &
+                    MUDDLE|LV3, &
+                    DESOUL, &
+                    BOOST|LV2
                 initialStatus NONE
                 moveType      FLYING
                 unknownWord   0

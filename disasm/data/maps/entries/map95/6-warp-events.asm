@@ -19,4 +19,19 @@
                   warpMap    255
                   warpDest   7, 54
                   warpFacing DOWN
+                mWarp 10, 18
+                  warpNoScroll
+                  warpMap    255
+                  warpDest   16, 61
+                  warpFacing RIGHT
+                mWarp 24, 61
+                  warpNoScroll
+                  warpMap    74
+                  warpDest   44, 36
+                  warpFacing RIGHT
+                mWarp 15, 61
+                  warpNoScroll
+                  warpMap    255
+                  warpDest   10, 18
+                  warpFacing DOWN
                 endWord

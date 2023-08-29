@@ -36,4 +36,14 @@
                   warpMap    MAP_OVERWORLD_GRANS_NORTH_SHORE
                   warpDest   62, 255
                   warpFacing LEFT
+                mWarp 42, 37
+                  warpNoScroll
+                  warpMap    95
+                  warpDest   16, 44
+                  warpFacing UP
+                mWarp 43, 36
+                  warpNoScroll
+                  warpMap    95
+                  warpDest   23, 61
+                  warpFacing LEFT
                 endWord
