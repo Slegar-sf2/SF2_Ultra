@@ -657,7 +657,7 @@ tbl_ItemDefs:
                 equipFlags2  STAR
                 range        1, 1
                 price        140
-                itemType     WEAPON
+                itemType     WEAPON|UNSELLABLE
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 5, &
                              NONE, 0, &
@@ -1571,7 +1571,7 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        0, 0
                 price        755
-                itemType     RING|RARE
+                itemType     RING|RARE|UNSELLABLE
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 1, &
                              INCREASE_DEF, 2, &
