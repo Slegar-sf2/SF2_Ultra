@@ -1,10 +1,10 @@
 
 ; ASM FILE data\maps\entries\map54\6-warp-events.asm :
 ; 0xB71EE..0xB7200 : 
-                mWarp 255, 42
+                mWarp 255, 43
                   warpNoScroll
-                  warpMap    MAP_DEVILS_HEAD_LABYRINTH
-                  warpDest   16, 16
+                  warpMap    96
+                  warpDest   10, 12
                   warpFacing DOWN
                 mWarp 255, 0
                   warpNoScroll

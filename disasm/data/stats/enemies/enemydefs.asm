@@ -2746,7 +2746,7 @@ tbl_EnemyDefs:
                 baseResistance WIND_MINOR|LIGHTNING_MAJOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_SILENCE|DOUBLE_1IN8|COUNTER_1IN4
                 items &
-                    NOTHING, &
+                    HEALING_DROP, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

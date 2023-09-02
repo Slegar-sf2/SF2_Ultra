@@ -11,11 +11,11 @@ DebugModeBattleTest:
                 move.b  #$FF,((SPECIAL_TURBO_CHEAT-$1000000)).w
                 moveq   #ALLY_FRAYJA,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_NATASHA,d0
+                moveq   #ALLY_SHEELA,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_GYAN,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_DAWN,d0
+                moveq   #ALLY_JARO,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_GERHALT,d0
                 bsr.w   j_JoinForce
@@ -25,7 +25,7 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
                 moveq   #ALLY_SKREECH,d0
                 bsr.w   j_JoinForce
-				moveq   #ALLY_ROHDE,d0
+				moveq   #ALLY_WENDY,d0
                 bsr.w   j_JoinForce
 				moveq   #ALLY_CRAY,d0
                 bsr.w   j_JoinForce

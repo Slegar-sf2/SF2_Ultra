@@ -554,7 +554,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 48: Robin Arrow
-                equipFlags   ACHR|SNIP|BRGN|BWNT
+                equipFlags   ACHR|RNGR|SNIP|BRGN|BWNT
                 equipFlags2  NONE
                 range        2, 3
                 price        1480

@@ -62,3 +62,5 @@ tbl_EnemyLeaderPresence:
 				dc.b 255                ; 54 RUSEPHINE
 				dc.b 255                ; 55 DARKSOL
 				dc.b 255                ; 56 DOMONGO
+				dc.b 255                ; 57 
+				dc.b 255                ; 58 
