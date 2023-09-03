@@ -239,8 +239,8 @@ loc_202F4:
                 move.l  ITEMDEF_OFFSET_TYPE(a0),itemTypeBitfield(a6)
                 clr.l   d0
                 move.w  itemPrice(a6),d0
-                mulu.w  #3,d0
-                lsr.l   #2,d0
+                ;mulu.w  #3,d0
+                lsr.l   #1,d0          ; - 50%  продажа оружия ?
                 move.l  d0,currentGold(a6)
                 move.b  itemTypeBitfield(a6),d1
                 andi.b  #ITEMTYPE_UNSELLABLE,d1

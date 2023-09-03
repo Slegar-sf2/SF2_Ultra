@@ -249,7 +249,7 @@ ChurchMenuActions:
                 jsr     j_GetItemDefAddress
                 clr.l   d4
                 move.w  ITEMDEF_OFFSET_PRICE(a0),d4
-                lsr.w   #2,d4           ; cure curse cost = 25% of item price
+                lsr.w   #1,d4           ; cure curse cost = 50% of item price
                 add.l   d4,d3
 @IsNextItemCursed:
                 

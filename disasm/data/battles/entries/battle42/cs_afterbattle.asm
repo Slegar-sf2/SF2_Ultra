@@ -112,6 +112,10 @@ cs_4EF5E:       stopEntity 128
                 setPos ALLY_PETER,14,17,LEFT
                 setFacing FOLLOWER_B,DOWN
                 nextSingleText $0,FOLLOWER_B ; "{NAME;7}, don't bother them!{N}This is a private moment!{W1}"
+                entityActionsWait ALLY_PETER
+                 moveDown 2
+                 moveLeft 1
+                endActions
 				csWait 30
                 setStoryFlag 50         ; Battle 50 unlocked           
                 csc_end
