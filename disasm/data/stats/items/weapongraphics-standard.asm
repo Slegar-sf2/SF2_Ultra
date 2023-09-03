@@ -31,7 +31,7 @@ tbl_WeaponGraphics:
                 weaponGraphics WOODEN_STICK, BRONZE_LANCE, WOODEN_STICK         ; 56: Wooden Stick
                 weaponGraphics SHORT_SWORD, SHORT_SWORD, SHORT_SWORD            ; 57: Short Sword
                 weaponGraphics MIDDLE_SWORD, SHORT_SWORD, SHORT_SWORD           ; 58: Middle Sword
-                weaponGraphics LONG_SWORD, LONG_SWORD, LONG_SWORD               ; 59: Long Sword
+                weaponGraphics LONG_SWORD, 28, LONG_SWORD               ; 59: Long Sword
                 weaponGraphics STEEL_SWORD, LONG_SWORD, LONG_SWORD              ; 60: Steel Sword
                 weaponGraphics ACHILLES_SWORD, LONG_SWORD, ACHILLES_SWORD       ; 61: Achilles Sword
                 weaponGraphics BROAD_SWORD, LONG_SWORD, LONG_SWORD              ; 62: Broad Sword
