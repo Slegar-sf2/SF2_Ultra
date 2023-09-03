@@ -118,7 +118,7 @@ tbl_EnemyDefs:
                 baseDef  16
                 baseAgi  12
                 baseMov  7
-                baseResistance NONE
+                baseResistance FIRE_WEAKNESS
                 baseProwess    CRITICAL150_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     SHORT_SPEAR|EQUIPPED, &
@@ -293,7 +293,7 @@ tbl_EnemyDefs:
                 baseDef  34
                 baseAgi  19
                 baseMov  6
-                baseResistance LIGHTNING_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS
+                baseResistance LIGHTNING_WEAKNESS|ICE_MAJOR
                 baseProwess    CRITICAL150_1IN4|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -393,7 +393,7 @@ tbl_EnemyDefs:
                 baseDef  54
                 baseAgi  50
                 baseMov  7
-                baseResistance STATUS_IMMUNITY
+                baseResistance FIRE_WEAKNESS|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN4|DOUBLE_1IN4|COUNTER_1IN16
                 items &
                     POWER_SPEAR|EQUIPPED, &
@@ -543,7 +543,7 @@ tbl_EnemyDefs:
                 baseDef  70
                 baseAgi  34
                 baseMov  5
-                baseResistance NONE
+                baseResistance FIRE_WEAKNESS
                 baseProwess    CRITICAL_POISON|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -618,7 +618,7 @@ tbl_EnemyDefs:
                 baseDef  74
                 baseAgi  50
                 baseMov  6
-                baseResistance WIND_WEAKNESS|LIGHTNING_MAJOR|STATUS_MINOR
+                baseResistance WIND_WEAKNESS|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_MINOR
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN8
                 items &
                     STEEL_SWORD|EQUIPPED, &
@@ -943,7 +943,7 @@ tbl_EnemyDefs:
                 baseDef  102
                 baseAgi  63
                 baseMov  7
-                baseResistance FIRE_MAJOR
+                baseResistance ICE_WEAKNESS|FIRE_MAJOR
                 baseProwess    CRITICAL_SLEEP|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -1018,7 +1018,7 @@ tbl_EnemyDefs:
                 baseDef  7
                 baseAgi  5
                 baseMov  5
-                baseResistance WIND_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS|STATUS_MINOR
+                baseResistance WIND_WEAKNESS|ICE_MAJOR|STATUS_MINOR
                 baseProwess    CRITICAL_SLEEP|DOUBLE_1IN32|COUNTER_1IN4
                 items &
                     NOTHING, &
@@ -1043,7 +1043,7 @@ tbl_EnemyDefs:
                 baseDef  8
                 baseAgi  8
                 baseMov  6
-                baseResistance LIGHTNING_WEAKNESS
+                baseResistance LIGHTNING_WEAKNESS|FIRE_MINOR
                 baseProwess    CRITICAL_POISON|DOUBLE_1IN16|COUNTER_1IN32
                 items &
                     NOTHING, &
@@ -1068,7 +1068,7 @@ tbl_EnemyDefs:
                 baseDef  17
                 baseAgi  16
                 baseMov  4
-                baseResistance LIGHTNING_WEAKNESS|ICE_WEAKNESS
+                baseResistance LIGHTNING_WEAKNESS|FIRE_MINOR
                 baseProwess    CRITICAL_POISON|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     NOTHING, &
@@ -1218,7 +1218,7 @@ tbl_EnemyDefs:
                 baseDef  71
                 baseAgi  45
                 baseMov  7
-                baseResistance WIND_MAJOR|FIRE_WEAKNESS
+                baseResistance WIND_MAJOR
                 baseProwess    CRITICAL_STUN|DOUBLE_1IN16|COUNTER_1IN8
                 items &
                     CHROME_LANCE|EQUIPPED, &
@@ -1243,7 +1243,7 @@ tbl_EnemyDefs:
                 baseDef  77
                 baseAgi  55
                 baseMov  8
-                baseResistance WIND_MAJOR
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|FIRE_WEAKNESS
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     CHROME_LANCE|EQUIPPED, &
@@ -1293,7 +1293,7 @@ tbl_EnemyDefs:
                 baseDef  82
                 baseAgi  54
                 baseMov  7
-                baseResistance ICE_MAJOR|STATUS_MINOR
+                baseResistance ICE_MAJOR|FIRE_MINOR|STATUS_MINOR
                 baseProwess    CRITICAL_SLOW|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -1343,7 +1343,7 @@ tbl_EnemyDefs:
                 baseDef  99
                 baseAgi  79
                 baseMov  7
-                baseResistance LIGHTNING_WEAKNESS|FIRE_MINOR|STATUS_MAJOR
+                baseResistance LIGHTNING_MINOR|FIRE_MINOR|STATUS_MAJOR
                 baseProwess    CRITICAL_MAGIC_DRAIN|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -1368,7 +1368,7 @@ tbl_EnemyDefs:
                 baseDef  77
                 baseAgi  58
                 baseMov  7
-                baseResistance WIND_WEAKNESS|FIRE_WEAKNESS
+                baseResistance WIND_MINOR|ICE_MINOR|FIRE_WEAKNESS
                 baseProwess    CRITICAL_POISON|DOUBLE_1IN8|COUNTER_1IN4
                 items &
                     NOTHING, &
@@ -1443,7 +1443,7 @@ tbl_EnemyDefs:
                 baseDef  8
                 baseAgi  10
                 baseMov  6
-                baseResistance NONE
+                baseResistance WIND_WEAKNESS
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN8|COUNTER_1IN8
                 items &
                     WOODEN_ARROW|EQUIPPED, &
@@ -1468,7 +1468,7 @@ tbl_EnemyDefs:
                 baseDef  12
                 baseAgi  15
                 baseMov  5
-                baseResistance NONE
+                baseResistance WIND_WEAKNESS
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     IRON_ARROW|EQUIPPED, &
@@ -1515,10 +1515,10 @@ tbl_EnemyDefs:
                 maxHp    46
                 maxMp    0
                 baseAtt  49
-                baseDef  37
-                baseAgi  26
-                baseMov  6
-                baseResistance LIGHTNING_WEAKNESS|ICE_MAJOR|FIRE_WEAKNESS
+                baseDef  38
+                baseAgi  29
+                baseMov  7
+                baseResistance LIGHTNING_WEAKNESS|ICE_MAJOR
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     NOTHING, &
@@ -1539,11 +1539,11 @@ tbl_EnemyDefs:
                 level    17
                 maxHp    43
                 maxMp    0
-                baseAtt  30
+                baseAtt  31
                 baseDef  38
                 baseAgi  23
                 baseMov  4
-                baseResistance LIGHTNING_WEAKNESS|STATUS_MINOR
+                baseResistance STATUS_MINOR
                 baseProwess    CRITICAL150_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     STEEL_ARROW|EQUIPPED, &
@@ -1568,7 +1568,7 @@ tbl_EnemyDefs:
                 baseDef  55
                 baseAgi  29
                 baseMov  4
-                baseResistance LIGHTNING_WEAKNESS|STATUS_IMMUNITY
+                baseResistance STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN8
                 items &
                     ROBIN_ARROW|EQUIPPED, &
@@ -1618,7 +1618,7 @@ tbl_EnemyDefs:
                 baseDef  80
                 baseAgi  44
                 baseMov  5
-                baseResistance NONE
+                baseResistance FIRE_WEAKNESS
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     ASSAULT_SHELL|EQUIPPED, &
@@ -1643,7 +1643,7 @@ tbl_EnemyDefs:
                 baseDef  80
                 baseAgi  52
                 baseMov  7
-                baseResistance NONE
+                baseResistance FIRE_WEAKNESS
                 baseProwess    CRITICAL_SLOW|DOUBLE_1IN4|COUNTER_1IN32
                 items &
                     HYPER_CANNON|EQUIPPED, &
@@ -1668,7 +1668,7 @@ tbl_EnemyDefs:
                 baseDef  95
                 baseAgi  52
                 baseMov  4
-                baseResistance LIGHTNING_WEAKNESS|STATUS_MAJOR
+                baseResistance STATUS_MAJOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     FUGAS|EQUIPPED, &
@@ -1743,7 +1743,7 @@ tbl_EnemyDefs:
                 baseDef  13
                 baseAgi  15
                 baseMov  5
-                baseResistance ICE_MAJOR
+                baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MAJOR|FIRE_MINOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     BRONZE_ROD|EQUIPPED, &
@@ -1793,7 +1793,7 @@ tbl_EnemyDefs:
                 baseDef  39
                 baseAgi  34
                 baseMov  6
-                baseResistance ICE_MAJOR|FIRE_MINOR
+                baseResistance WIND_MINOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MINOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
 				    ATOM_ROD|EQUIPPED, &
@@ -1816,9 +1816,9 @@ tbl_EnemyDefs:
                 maxMp    56
                 baseAtt  57
                 baseDef  58
-                baseAgi  70
+                baseAgi  180
                 baseMov  7
-                baseResistance ICE_MINOR|STATUS_IMMUNITY
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     POWER_STICK|EQUIPPED, &
@@ -1843,7 +1843,7 @@ tbl_EnemyDefs:
                 baseDef  56
                 baseAgi  44
                 baseMov  6
-                baseResistance ICE_MINOR|FIRE_MAJOR
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     MAGE_STAFF|EQUIPPED, &
@@ -1868,7 +1868,7 @@ tbl_EnemyDefs:
                 baseDef  62
                 baseAgi  51
                 baseMov  6
-                baseResistance LIGHTNING_MINOR|ICE_MAJOR|FIRE_MINOR|STATUS_IMMUNITY
+                baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_MUDDLE|DOUBLE_1IN16|COUNTER_1IN8
                 items &
                     FREEZE_STAFF|EQUIPPED, &
@@ -1893,7 +1893,7 @@ tbl_EnemyDefs:
                 baseDef  74
                 baseAgi  68
                 baseMov  5
-                baseResistance ICE_MAJOR|FIRE_MAJOR
+                baseResistance WIND_MINOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     GREAT_ROD|EQUIPPED, &
@@ -1937,13 +1937,13 @@ tbl_EnemyDefs:
                 unknownByte 76          ; 76: DARK CLERIC
                 spellPower REGULAR
                 level    3
-                maxHp    26
+                maxHp    27
                 maxMp    10
                 baseAtt  11
                 baseDef  11
                 baseAgi  13
                 baseMov  5
-                baseResistance NONE
+                baseResistance WIND_MINOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     SHORT_ROD|EQUIPPED, &
@@ -2018,7 +2018,7 @@ tbl_EnemyDefs:
                 baseDef  33
                 baseAgi  26
                 baseMov  6
-                baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|STATUS_IMMUNITY
+                baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     POWER_STICK|EQUIPPED, &
@@ -2043,7 +2043,7 @@ tbl_EnemyDefs:
                 baseDef  50
                 baseAgi  28
                 baseMov  6
-                baseResistance NONE
+                baseResistance WIND_MINOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     HOLY_STAFF|EQUIPPED, &
@@ -2068,7 +2068,7 @@ tbl_EnemyDefs:
                 baseDef  53
                 baseAgi  34
                 baseMov  5
-                baseResistance STATUS_IMMUNITY
+                baseResistance WIND_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     INDRA_STAFF|EQUIPPED, &
@@ -2093,7 +2093,7 @@ tbl_EnemyDefs:
                 baseDef  57
                 baseAgi  31
                 baseMov  6
-                baseResistance STATUS_IMMUNITY
+                baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN16
                 items &
                     MUDDLE_GLOVE|EQUIPPED, &
@@ -2118,7 +2118,7 @@ tbl_EnemyDefs:
                 baseDef  68
                 baseAgi  40
                 baseMov  5
-                baseResistance LIGHTNING_MAJOR|STATUS_IMMUNITY
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR
                 baseProwess    CRITICAL_MAGIC_DRAIN|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     WISH_STAFF|EQUIPPED, &
@@ -2168,7 +2168,7 @@ tbl_EnemyDefs:
                 baseDef  104
                 baseAgi  51
                 baseMov  6
-                baseResistance NONE
+                baseResistance LIGHTNING_MINOR
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN8
                 items &
                     BATTLE_SWORD|EQUIPPED, &
@@ -2217,7 +2217,7 @@ tbl_EnemyDefs:
                 baseAtt  60
                 baseDef  42
                 baseAgi  153
-                baseMov  5
+                baseMov  7
                 baseResistance LIGHTNING_WEAKNESS|ICE_MAJOR|STATUS_MAJOR
                 baseProwess    CRITICAL150_1IN4|DOUBLE_1IN8|COUNTER_1IN8
                 items &
@@ -2268,7 +2268,7 @@ tbl_EnemyDefs:
                 baseDef  56
                 baseAgi  165
                 baseMov  2
-                baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
+                baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN4
                 items &
                     FREEZE_STAFF|EQUIPPED, &
@@ -2318,7 +2318,7 @@ tbl_EnemyDefs:
                 baseDef  80
                 baseAgi  180
                 baseMov  5
-                baseResistance WIND_MINOR|LIGHTNING_MAJOR|ICE_WEAKNESS|FIRE_MAJOR|STATUS_IMMUNITY
+                baseResistance WIND_MINOR|LIGHTNING_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN4
                 items &
                     NOTHING, &
@@ -2493,7 +2493,7 @@ tbl_EnemyDefs:
                 baseDef  122
                 baseAgi  203
                 baseMov  0
-                baseResistance STATUS_IMMUNITY
+                baseResistance FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN4|COUNTER_1IN8
                 items &
                     NOTHING, &
@@ -2643,7 +2643,7 @@ tbl_EnemyDefs:
                 baseDef  40
                 baseAgi  30
                 baseMov  6
-                baseResistance ICE_WEAKNESS|FIRE_MAJOR|STATUS_IMMUNITY
+                baseResistance ICE_MAJOR|FIRE_WEAKNESS|STATUS_IMMUNITY
                 baseProwess    CRITICAL_POISON|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     NOTHING,&
@@ -2668,7 +2668,7 @@ tbl_EnemyDefs:
                 baseDef  46
                 baseAgi  7
                 baseMov  6
-                baseResistance NONE
+                baseResistance FIRE_WEAKNESS
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     NOTHING,&
@@ -2793,7 +2793,7 @@ tbl_EnemyDefs:
                 baseDef  113
                 baseAgi  185
                 baseMov  6
-                baseResistance WIND_MAJOR|LIGHTNING_MINOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN4
                 items &
                     ICE_ROD|EQUIPPED, &
@@ -2993,7 +2993,7 @@ tbl_EnemyDefs:
                 baseDef  25
                 baseAgi  25
                 baseMov  6
-                baseResistance WIND_MAJOR|STATUS_IMMUNITY
+                baseResistance WIND_MAJOR|LIGHTNING_WEAKNESS|STATUS_IMMUNITY
                 baseProwess    CRITICAL_SLOW|DOUBLE_1IN16|COUNTER_1IN16
                 items &
                     NOTHING, &
@@ -3018,7 +3018,7 @@ tbl_EnemyDefs:
                 baseDef  86
                 baseAgi  77
                 baseMov  7
-                baseResistance STATUS_IMMUNITY
+                baseResistance WIND_MAJOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_MUDDLE|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     INDRA_STAFF|EQUIPPED, &
@@ -3043,7 +3043,7 @@ tbl_EnemyDefs:
                 baseDef  90
                 baseAgi  90
                 baseMov  7
-                baseResistance WIND_MAJOR|LIGHTNING_MINOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     BISHOP_ROD|EQUIPPED, &
@@ -3087,13 +3087,13 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 122 DARKSOL
                 spellPower ENHANCED
                 level    70
-                maxHp    290
+                maxHp    390
                 maxMp    200
                 baseAtt  153
                 baseDef  130
                 baseAgi  174
                 baseMov  6
-                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_WEAKNESS|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_MUDDLE|DOUBLE_1IN8|COUNTER_1IN8
                 items &
                     NOTHING, &
@@ -3118,7 +3118,7 @@ tbl_EnemyDefs:
                 baseDef  88
                 baseAgi  188
                 baseMov  5
-                baseResistance ICE_MAJOR|STATUS_IMMUNITY
+                baseResistance ICE_MAJOR|FIRE_WEAKNESS|STATUS_IMMUNITY
                 baseProwess    CRITICAL_MAGIC_DRAIN|DOUBLE_1IN4|COUNTER_1IN8
                 items &
                     HELMET|EQUIPPED, &
@@ -3143,7 +3143,7 @@ tbl_EnemyDefs:
                 baseDef  104
                 baseAgi  77
                 baseMov  7
-                baseResistance WIND_MAJOR
+                baseResistance WIND_MAJOR|LIGHTNING_WEAKNESS
                 baseProwess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN8
                 items &
                     BATTLE_SWORD|EQUIPPED, &
@@ -3159,7 +3159,7 @@ tbl_EnemyDefs:
                 moveType      FLYING
                 unknownWord   0
                     
-                unknownByte 0          ; 125: WHITE DRAGON
+                unknownByte 0          ; 125: SILVER DRAGON
                 spellPower ENHANCED
                 level    66
                 maxHp    143
@@ -3168,7 +3168,7 @@ tbl_EnemyDefs:
                 baseDef  112
                 baseAgi  90
                 baseMov  7
-                baseResistance ICE_MAJOR|STATUS_IMMUNITY
+                baseResistance ICE_MAJOR|FIRE_WEAKNESS|STATUS_IMMUNITY
                 baseProwess    CRITICAL_SLEEP|DOUBLE_1IN16|COUNTER_1IN8
                 items &
                     NOTHING, &

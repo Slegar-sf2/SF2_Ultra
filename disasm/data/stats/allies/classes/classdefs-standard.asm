@@ -48,7 +48,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 
                 mov 6                   ; 8: RNGR
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   CENTAUR_ARCHER
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 
@@ -58,12 +58,12 @@ tbl_ClassDefs:
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 
                 mov 7                   ; 10: THIF
-                resistance WIND_WEAKNESS|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN16|COUNTER_1IN32
                 
                 mov 5                   ; 11: SWOR
-                resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_NONE|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   STEALTH
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 
@@ -133,7 +133,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN8
                 
                 mov 6                   ; 25: BWNT
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   CENTAUR_ARCHER
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
@@ -143,7 +143,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL150_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
                 mov 8                   ; 27: NINJ
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_MAJOR|NEUTRAL_MINOR|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_MINOR|NEUTRAL_MINOR|STATUS_NONE
                 moveType   STEALTH
                 prowess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN4
                 
@@ -158,7 +158,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
                 mov 3                   ; 30: GLM
-                resistance WIND_MAJOR|LIGHTNING_NONE|ICE_WEAKNESS|FIRE_MAJOR|NEUTRAL_MINOR|STATUS_MINOR
+                resistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_WEAKNESS|FIRE_MAJOR|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
@@ -175,7 +175,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL150_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                     
                 mov 6                   ; 33: STAR
-                resistance WIND_NONE|LIGHTNING_MAJOR|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_NONE|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
                     
@@ -185,12 +185,12 @@ tbl_ClassDefs:
                 prowess    CRITICAL_STUN|DOUBLE_1IN32|COUNTER_1IN16
                     
                 mov 7                   ; 35: KENT
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   CENTAUR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                     
                 mov 7                   ; 36: PALA
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   CENTAUR
                 prowess    CRITICAL125_1IN8|DOUBLE_1IN16|COUNTER_1IN16
                     

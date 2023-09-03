@@ -53,18 +53,16 @@ tbl_AttackPriority_Regular:
 				dc.b CLASS_STAR
                 
 tbl_AttackPriority_Mage:
+                dc.b CLASS_KNTE
+                dc.b CLASS_PLDN
                 dc.b CLASS_SDMN
                 dc.b CLASS_HERO
-                dc.b CLASS_TORT
-                dc.b CLASS_MNST
                 dc.b CLASS_GLM
                 dc.b CLASS_WARR
                 dc.b CLASS_GLDT
                 dc.b CLASS_BRN
                 dc.b CLASS_RDBN
                 dc.b CLASS_RBT
-                dc.b CLASS_KNTE
-                dc.b CLASS_PLDN
                 dc.b CLASS_WFMN
                 dc.b CLASS_WFBR
                 dc.b CLASS_RNGR
@@ -74,7 +72,6 @@ tbl_AttackPriority_Mage:
                 dc.b CLASS_SNIP
                 dc.b CLASS_THIF
                 dc.b CLASS_NINJ
-                dc.b CLASS_MAGE
                 dc.b CLASS_WIZ
                 dc.b CLASS_SORC
                 dc.b CLASS_PRST
@@ -87,6 +84,9 @@ tbl_AttackPriority_Mage:
                 dc.b CLASS_BDBT
 				dc.b CLASS_SWOR
 				dc.b CLASS_STAR
+                dc.b CLASS_MAGE
+                dc.b CLASS_TORT
+                dc.b CLASS_MNST
                 
 tbl_AttackPriority_Archer:
                 dc.b CLASS_BDMN
@@ -196,27 +196,27 @@ off_D9C2:       dc.l byte_DA02          ; moveType None
                 dc.l byte_DA02
                 dc.l byte_DA02
                 
-byte_DA02:      dc.b 4
+byte_DA02:      dc.b CLASS_PHNK
+                dc.b CLASS_PHNX
+                dc.b CLASS_SDMN
+                dc.b CLASS_HERO
+                dc.b CLASS_WFMN
+                dc.b CLASS_GLM
+                dc.b CLASS_RBT
+                dc.b CLASS_ACHR
+                dc.b CLASS_SNIP
+                dc.b 2
+                dc.b 2
+                dc.b 0
+                dc.b 0
                 dc.b 1
+                dc.b 2
                 dc.b 0
-                dc.b 4
-                dc.b 4
-                dc.b 2
-                dc.b 2
+                dc.b 0
                 dc.b 1
                 dc.b 2
                 dc.b 2
                 dc.b 2
-                dc.b 0
-                dc.b 4
-                dc.b 1
-                dc.b 2
-                dc.b 0
-                dc.b 0
-                dc.b 4
-                dc.b 4
-                dc.b 4
-                dc.b 4
                 dc.b 2
                 dc.b 2
                 dc.b 2
