@@ -145,7 +145,9 @@ Icon190:        incbin "data/graphics/icons/icon190.bin"
 Icon191:        incbin "data/graphics/icons/icon191.bin"
 Icon192:        incbin "data/graphics/icons/icon192.bin"
 Icon194:        incbin "data/graphics/icons/icon194.bin"
-              rept 113
+Icon195:        incbin "data/graphics/icons/icon195.bin"
+Icon196:        incbin "data/graphics/icons/icon196.bin"
+              rept 111
                 incbin "data/graphics/icons/icon145.bin"
               endr
             endif

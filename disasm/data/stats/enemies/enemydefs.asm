@@ -1768,7 +1768,7 @@ tbl_EnemyDefs:
                 baseDef  25
                 baseAgi  40
                 baseMov  5
-                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MINOR|FIRE_MAJOR
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     ATOM_ROD|EQUIPPED, &
@@ -2568,7 +2568,7 @@ tbl_EnemyDefs:
                 baseDef  18
                 baseAgi  32
                 baseMov  5
-                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
+                baseResistance WIND_MINOR|LIGHTNING_MAJOR|ICE_MINOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_SLEEP|DOUBLE_1IN32|COUNTER_1IN4
                 items &
                     MAGE_STAFF|EQUIPPED, &

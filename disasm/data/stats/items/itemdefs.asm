@@ -657,7 +657,7 @@ tbl_ItemDefs:
                 equipFlags2  STAR
                 range        1, 1
                 price        140
-                itemType     WEAPON|UNSELLABLE
+                itemType     WEAPON
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 5, &
                              NONE, 0, &
@@ -737,7 +737,7 @@ tbl_ItemDefs:
                 itemType     WEAPON
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 29, &
-                             NONE, 0, &
+                             DECREASE_MOV, 1, &
                              NONE, 0
                 
                 ; 65: Critical Sword
@@ -1494,7 +1494,7 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        0, 1
                 price        800
-                itemType     CONSUMABLE
+                itemType     CONSUMABLE|UNSELLABLE
                 useSpell     ATOM|LV2
                 equipEffects NONE, 0, &
                              NONE, 0, &
@@ -1599,24 +1599,24 @@ tbl_ItemDefs:
                              NONE, 0, &
                              NONE, 0
                 
-                ; 143: 
+                ; 143: Snowflake
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
+                range        0, 1
+                price        700
+                itemType     CONSUMABLE
+                useSpell     ICE|LV2
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
                 
-                ; 144: 
+                ; 144: ARSON
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
+                price        300
+                itemType     CONSUMABLE
+                useSpell     BLAZE
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0

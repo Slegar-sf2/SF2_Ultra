@@ -17,8 +17,8 @@ tbl_AllyStartDefs:
                 startLevel 1
                 startItems &
                     LONG_SWORD|EQUIPPED, &
-                    NOTHING, &
-                    NOTHING, &
+                    SNOWFLAKE, &
+                    ANGEL_WING, &
                     NOTHING
                 
                 startClass PRST         ; 1: SARAH
@@ -114,7 +114,7 @@ tbl_AllyStartDefs:
                 startItems &
                     STEEL_SWORD|EQUIPPED, &
                     POWER_AXE, &
-                    HELMET, &
+                    HELMET|EQUIPPED, &
                     HEALING_BERRIES
                 
                 startClass ACHR         ; 13: ELRIC
