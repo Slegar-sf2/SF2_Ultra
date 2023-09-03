@@ -47,12 +47,12 @@ CalculateSpellDamage:
                 
                 cmpi.b  #RESISTANCESETTING_MAJOR,d2
                 bne.s   @CheckWeakness
-                lsr.w   #1,d6           ; -50% damage if target has major resistance
+                lsr.w   #2,d6           ; -75% damage if target has major resistance
 @CheckWeakness:
                 
                 cmpi.b  #RESISTANCESETTING_WEAKNESS,d2
                 bne.s   @DetermineCriticalHit
-                add.w   d1,d6           ; +25% damage if target is weak
+                mulu.w  #2,d6           ; +75% damage if target is weak
 @DetermineCriticalHit:
                 
                 move.w  d3,d0

@@ -32,8 +32,8 @@ tbl_SpellElements:
                 spellElement NEUTRAL    ; 24: HEALTH
                 spellElement NEUTRAL    ; 25: B.ROCK
                 spellElement NEUTRAL    ; 26: LASER
-                spellElement NEUTRAL    ; 27: KATON
-                spellElement NEUTRAL    ; 28: RAIJIN
+                spellElement FIRE       ; 27: KATON
+                spellElement LIGHTNING  ; 28: RAIJIN
                 spellElement WIND       ; 29: DAO
                 spellElement FIRE       ; 30: APOLLO
                 spellElement ICE        ; 31: NEPTUN
