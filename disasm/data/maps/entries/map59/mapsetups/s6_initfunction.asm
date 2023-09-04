@@ -34,7 +34,7 @@ return_5EB24:
     ; End of function ms_map59_InitFunction
 
 cs_5EB26:       executeSubroutine csub_5EB34
-                warp MAP_ZEON_ARENA,13,34,UP
+                warp 88,13,34,UP
                 csc_end
 
 ; =============== S U B R O U T I N E =======================================

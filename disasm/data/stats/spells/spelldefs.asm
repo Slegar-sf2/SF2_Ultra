@@ -82,7 +82,7 @@ tbl_SpellDefs:
                 mpCost     25
                 animation  HEALING_FAIRY|VARIATION4
                 properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
-                range      0, 0
+                range      0, 1
                 radius     0
                 power      55
                 
