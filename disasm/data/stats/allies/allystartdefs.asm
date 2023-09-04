@@ -17,7 +17,7 @@ tbl_AllyStartDefs:
                 startLevel 1
                 startItems &
                     LONG_SWORD|EQUIPPED, &
-                    SNOWFLAKE, &
+                    MEDICAL_HERB, &
                     ANGEL_WING, &
                     NOTHING
                 

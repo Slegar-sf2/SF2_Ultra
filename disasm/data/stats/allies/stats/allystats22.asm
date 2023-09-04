@@ -5,8 +5,8 @@ AllyStats22:    forClass  VICR ;FRAYA
                 hpGrowth  50, 113, LINEAR
                 mpGrowth  30, 70, LINEAR
                 attGrowth 35, 55, LINEAR
-                defGrowth 28, 65, LINEAR
-                agiGrowth 31, 65, LATE
+                defGrowth 28, 62, LINEAR
+                agiGrowth 31, 55, LATE
                 spellList &
                     2, AURA, &                    
                     13, AURA|LV2, &                                                           
