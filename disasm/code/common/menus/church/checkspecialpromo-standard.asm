@@ -14,7 +14,7 @@
                 move.b  d1,promotionItem(a6)
                 jsr     GetItemInventoryLocation
                 bpl.s   @FoundItem
-                
+                clr.w   d1
                 addq.w  #2,a1
                 bra.s   @Start_Loop
                 
