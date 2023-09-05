@@ -106,7 +106,7 @@ tbl_AllyStartDefs:
                 startItems &
                     ASSAULT_SHELL|EQUIPPED, &
                     BOMB, &
-                    NOTHING, &
+                    BOMB, &
                     NOTHING
                 
                 startClass SWOR         ; 12: DEANNA
@@ -117,12 +117,12 @@ tbl_AllyStartDefs:
                     HELMET|EQUIPPED, &
                     HEALING_BERRIES
                 
-                startClass ACHH         ; 13: ZYLO
+                startClass WOLF         ; 13: ZYLO
                 startLevel 27
                 startItems &
-                    STEEL_ARROW|EQUIPPED, &
-                    CHIRRUP_SANDALS, &
-                    NOTHING, &
+                    BLIZZARD, &
+                    HELMET|EQUIPPED, &
+                    BRAVE_APPLE, &
                     NOTHING
                 
                 startClass KENT         ; 14: APIS

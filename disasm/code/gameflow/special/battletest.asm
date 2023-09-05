@@ -13,7 +13,7 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
                 moveq   #ALLY_SHEELA,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_GYAN,d0
+                moveq   #ALLY_ZYLO,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_JARO,d0
                 bsr.w   j_JoinForce

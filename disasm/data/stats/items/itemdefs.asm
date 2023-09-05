@@ -214,7 +214,7 @@ tbl_ItemDefs:
                 
                 ; 17: Helmet
                 equipFlags   SDMN|HERO|KNTE|PLDN|PGNT|WARR|GLDT|BRN|ACHR|SNIP|BDMN|BDBT|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN|SWOR
-                equipFlags2  STAR|KENT|PALA|ACHH|SNII
+                equipFlags2  STAR|KENT|PALA|ACHH|SNII|WOLF|WLBR
                 range        0, 0
                 price        250
                 itemType     RING|BREAKABLE
@@ -1042,7 +1042,7 @@ tbl_ItemDefs:
                 equipFlags2  WIZZ
                 range        1, 2
                 price        3200
-                itemType     WEAPON|BREAKABLE
+                itemType     WEAPON|CURSED|BREAKABLE
                 useSpell     SPOIT
                 equipEffects INCREASE_ATT, 25, &
                              NONE, 0, &
@@ -1353,7 +1353,7 @@ tbl_ItemDefs:
                 itemType     RING|RARE
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 5, &
-                             INCREASE_MOV, 1, &
+                             DECREASE_MOV, 1, &
                              NONE, 0
                 
                 ; 121: Secret Book
@@ -1413,7 +1413,7 @@ tbl_ItemDefs:
                 
                 ; 126: Chirrup Sandals
                 equipFlags   SDMN|HERO|MAGE|PRST|WIZ|SORC|VICR|BRN|ACHR|SNIP|WFMN|WFBR|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN|SWOR
-                equipFlags2  STAR|MONK|BRSK|ACHH|SNII|MAGG|WIZZ
+                equipFlags2  STAR|MONK|BRSK|ACHH|SNII|MAGG|WIZZ|WOLF|WLBR
                 range        0, 0
                 price        550
                 itemType     RING|RARE
@@ -1579,7 +1579,7 @@ tbl_ItemDefs:
                 
                 ; 141: ATTACK_RING
                 equipFlags   SDMN|HERO|KNTE|WARR|BDMN|WFMN|PHNK|THIF|PLDN|RBT|NINJ|PHNX|BDBT|GLDT|BRN|SWOR
-                equipFlags2  STAR|KENT|PALA|MONK|BRSK
+                equipFlags2  STAR|KENT|PALA|MONK|BRSK|WLBR
                 range        0, 0
                 price        1500
                 itemType     RING|RARE
@@ -1621,15 +1621,15 @@ tbl_ItemDefs:
                              NONE, 0, &
                              NONE, 0
                 
-                ; 145: 
+                ; 145: CLAWS
                 equipFlags   NONE
-                equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
+                equipFlags2  WOLF|WLBR
+                range        1, 1
+                price        1300
+                itemType     WEAPON
                 useSpell     NOTHING
-                equipEffects NONE, 0, &
-                             NONE, 0, &
+                equipEffects INCREASE_ATT, 7, &
+                             DECREASE_MOV, 1, &
                              NONE, 0
                 
                 ; 146: 

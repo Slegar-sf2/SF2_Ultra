@@ -75,8 +75,8 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 13: ZYLO
-                allyBattleSprAndPlt ACHH, ACHR, 1
-                allyBattleSprAndPlt SNII, SNIP, 0
+                allyBattleSprAndPlt WOLF, 50, 1
+                allyBattleSprAndPlt WLBR, 51, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 14: APIS

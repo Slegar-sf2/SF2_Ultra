@@ -47,8 +47,8 @@ tbl_ClassTypes:
                 classType PROMO         ; 39: SNIP
                 classType BASE          ; 40: MAGG
                 classType PROMO         ; 41: WIZZ
-                classType PROMO         ; 42: 
-                classType PROMO         ; 43: 
+                classType BASE          ; 42: WOLF
+                classType PROMO         ; 43: WLBR
                 classType PROMO         ; 44: 
                 classType PROMO         ; 45: 
                 classType PROMO         ; 46: 

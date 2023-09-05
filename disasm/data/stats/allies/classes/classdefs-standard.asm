@@ -218,17 +218,17 @@ tbl_ClassDefs:
                 resistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   MAGE
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
-				
-                mov 6                   ; 42: 
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
-                moveType   REGULAR
-                prowess    CRITICAL_NONE|DOUBLE_1IN32|COUNTER_1IN32
-                    
-                mov 6                   ; 43: 
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
-                moveType   REGULAR
-                prowess    CRITICAL_NONE|DOUBLE_1IN32|COUNTER_1IN32
-                    
+                
+                mov 6                   ; 42: WOLF
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
+                moveType   STEALTH
+                prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
+                
+                mov 6                   ; 43: WLBR
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
+                moveType   STEALTH
+                prowess    CRITICAL150_1IN16|DOUBLE_1IN8|COUNTER_1IN16
+                
                 mov 6                   ; 44: 
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR
