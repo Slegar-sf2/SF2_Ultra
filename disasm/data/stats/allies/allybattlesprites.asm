@@ -75,7 +75,7 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 13: ZYLO
-                allyBattleSprAndPlt WOLF, 50, 1
+                allyBattleSprAndPlt WOLF, 50, 0
                 allyBattleSprAndPlt WLBR, 51, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 
