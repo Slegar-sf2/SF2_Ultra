@@ -76,9 +76,9 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx ROHDE, DIALOG_BLEEP_5
                 
 ; 12: DEANNA
-                allyPortraitAndSfx DEANNA, DIALOG_BLEEP_5
-                allyPortraitAndSfx DEANNA, DIALOG_BLEEP_5
-                allyPortraitAndSfx DEANNA, DIALOG_BLEEP_5
+                allyPortraitAndSfx DEANNA, DIALOG_BLEEP_3
+                allyPortraitAndSfx DEANNA, DIALOG_BLEEP_3
+                allyPortraitAndSfx DEANNA, DIALOG_BLEEP_3
                 
 ; 13: Elric
                 allyPortraitAndSfx ELRIC, DIALOG_BLEEP_5
@@ -126,9 +126,9 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx TAYA, DIALOG_BLEEP_3
                 
 ; 22: Frayja
-                allyPortraitAndSfx FRAYJA, DIALOG_BLEEP_3
-                allyPortraitAndSfx FRAYJA, DIALOG_BLEEP_3
-                allyPortraitAndSfx FRAYJA, DIALOG_BLEEP_3
+                allyPortraitAndSfx FRAYJA, DIALOG_BLEEP_5
+                allyPortraitAndSfx FRAYJA, DIALOG_BLEEP_5
+                allyPortraitAndSfx FRAYJA, DIALOG_BLEEP_5
                 
 ; 23: Jaro
                 allyPortraitAndSfx JARO, DIALOG_BLEEP_5
@@ -146,9 +146,9 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx SHEELA, DIALOG_BLEEP_2
                 
 ; 26: Zynk
-                allyPortraitAndSfx ZYNK, DIALOG_BLEEP_8
-                allyPortraitAndSfx ZYNK, DIALOG_BLEEP_8
-                allyPortraitAndSfx ZYNK, DIALOG_BLEEP_8
+                allyPortraitAndSfx ZYNK, 112
+                allyPortraitAndSfx ZYNK, 112
+                allyPortraitAndSfx ZYNK, 112
                 
 ; 27: CRAY
                 allyPortraitAndSfx CRAY, DIALOG_BLEEP_2
