@@ -46,8 +46,8 @@
                 move.w  member(a6),((TEXT_NAME_INDEX_1-$1000000)).w
                 move.w  promotionItem(a6),((TEXT_NAME_INDEX_3-$1000000)).w
                 move.w  newClass(a6),((TEXT_NAME_INDEX_2-$1000000)).w
-                txt     143             ; "{NAME} can be promoted{N}to {CLASS} with the{N}{ITEM}.{W2}"
-                txt     147             ; "OK?"
+                txt     146             ; "{NAME} can be promoted{N}to {CLASS} with the{N}{ITEM}.{W2}"
+                ;txt     147             ; "OK?"
                 jsr     YesNoChoiceBox
                 beq.s   @ChangeSpells
                 txt     144             ; "Then"

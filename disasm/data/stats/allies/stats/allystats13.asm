@@ -1,7 +1,7 @@
 
 ; ASM FILE data\stats\allies\stats\allystats13.asm :
 ; 0x1EE542..0x1EE575 : Ally stats 13
-AllyStats13:    forClass  ACHR ; ERLIC
+AllyStats13:    forClass  ACHH ; ERLIC
                 hpGrowth  12, 48, LATE
                 mpGrowth  0, 0, NONE
                 attGrowth 6, 47, LATE
@@ -9,7 +9,7 @@ AllyStats13:    forClass  ACHR ; ERLIC
                 agiGrowth 6, 30, EARLY
                 spellList 
                 
-                forClass  SNIP
+                forClass  SNII
                 hpGrowth  48, 99, LATE
                 mpGrowth  0, 0, NONE
                 attGrowth 47, 97, LINEAR

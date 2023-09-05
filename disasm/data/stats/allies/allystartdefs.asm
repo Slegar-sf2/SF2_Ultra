@@ -253,7 +253,7 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass ACHR        ; 30 SHADE
+                startClass ACHH        ; 30 SHADE
                 startLevel 2
                 startItems &
                     WOODEN_ARROW|EQUIPPED, &

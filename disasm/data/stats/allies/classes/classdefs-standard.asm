@@ -33,7 +33,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 
                 mov 5                   ; 5: ACHR
-                resistance WIND_WEAKNESS|LIGHTNING_WEAKNESS|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_WEAKNESS|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   ARCHER
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN16|COUNTER_1IN8
                 
@@ -115,7 +115,7 @@ tbl_ClassDefs:
                 mov 6                   ; 21: SNIP
                 resistance WIND_WEAKNESS|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   ARCHER
-                prowess    CRITICAL125_1IN16|DOUBLE_1IN8|COUNTER_1IN8
+                prowess    CRITICAL125_1IN16|DOUBLE_1IN8|COUNTER_1IN4
                 
                 mov 5                   ; 22: BRGN
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
@@ -198,16 +198,16 @@ tbl_ClassDefs:
                 resistance WIND_MINOR|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_IMMUNITY
                 moveType   REGULAR
                 prowess    CRITICAL_SLEEP|DOUBLE_1IN32|COUNTER_1IN8
-                    
-                mov 6                   ; 38: 
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
-                moveType   REGULAR
-                prowess    CRITICAL_NONE|DOUBLE_1IN32|COUNTER_1IN32
-                    
-                mov 6                   ; 39: 
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
-                moveType   REGULAR
-                prowess    CRITICAL_NONE|DOUBLE_1IN32|COUNTER_1IN32
+                
+                mov 5                   ; 38: ACHH
+                resistance WIND_WEAKNESS|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                moveType   ARCHER
+                prowess    CRITICAL125_1IN16|DOUBLE_1IN16|COUNTER_1IN8
+                
+                mov 6                   ; 39: SNII
+                resistance WIND_WEAKNESS|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                moveType   ARCHER
+                prowess    CRITICAL150_1IN16|DOUBLE_1IN8|COUNTER_1IN8
                     
                 mov 6                   ; 40: 
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE

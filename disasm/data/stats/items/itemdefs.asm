@@ -214,7 +214,7 @@ tbl_ItemDefs:
                 
                 ; 17: Helmet
                 equipFlags   SDMN|HERO|KNTE|PLDN|PGNT|WARR|GLDT|BRN|ACHR|SNIP|BDMN|BDBT|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN|SWOR
-                equipFlags2  STAR|KENT|PALA
+                equipFlags2  STAR|KENT|PALA|ACHH|SNII
                 range        0, 0
                 price        250
                 itemType     RING|BREAKABLE
@@ -522,7 +522,7 @@ tbl_ItemDefs:
                 
                 ; 45: Wooden Arrow
                 equipFlags   ACHR|RNGR|SNIP|BRGN|BWNT
-                equipFlags2  NONE
+                equipFlags2  ACHH|SNII
                 range        2, 2
                 price        250
                 itemType     WEAPON
@@ -533,7 +533,7 @@ tbl_ItemDefs:
                 
                 ; 46: Iron Arrow
                 equipFlags   ACHR|RNGR|SNIP|BRGN|BWNT
-                equipFlags2  NONE
+                equipFlags2  ACHH|SNII
                 range        2, 2
                 price        600
                 itemType     WEAPON
@@ -544,7 +544,7 @@ tbl_ItemDefs:
                 
                 ; 47: Steel Arrow
                 equipFlags   ACHR|RNGR|SNIP|BRGN|BWNT
-                equipFlags2  NONE
+                equipFlags2  ACHH|SNII
                 range        2, 2
                 price        1270
                 itemType     WEAPON
@@ -555,7 +555,7 @@ tbl_ItemDefs:
                 
                 ; 48: Robin Arrow
                 equipFlags   ACHR|RNGR|SNIP|BRGN|BWNT
-                equipFlags2  NONE
+                equipFlags2  ACHH|SNII
                 range        2, 3
                 price        1480
                 itemType     WEAPON
@@ -566,7 +566,7 @@ tbl_ItemDefs:
                 
                 ; 49: Assault Shell
                 equipFlags   SNIP|BRGN|BWNT
-                equipFlags2  NONE
+                equipFlags2  SNII
                 range        2, 3
                 price        2500
                 itemType     WEAPON
@@ -588,7 +588,7 @@ tbl_ItemDefs:
                 
                 ; 51: Nazca Cannon
                 equipFlags   BRGN|BWNT|SNIP
-                equipFlags2  NONE
+                equipFlags2  SNII
                 range        2, 3
                 price        3000
                 itemType     WEAPON
@@ -599,7 +599,7 @@ tbl_ItemDefs:
                 
                 ; 52: Buster Shot
                 equipFlags   BRGN|BWNT|SNIP
-                equipFlags2  NONE
+                equipFlags2  SNII
                 range        2, 3
                 price        6800
                 itemType     WEAPON|RARE
@@ -610,7 +610,7 @@ tbl_ItemDefs:
                 
                 ; 53: Hyper Cannon
                 equipFlags   BRGN|BWNT|SNIP
-                equipFlags2  NONE
+                equipFlags2  SNII
                 range        2, 3
                 price        8700
                 itemType     WEAPON|RARE
@@ -621,7 +621,7 @@ tbl_ItemDefs:
                 
                 ; 54: Grand Cannon
                 equipFlags   BRGN|BWNT|SNIP
-                equipFlags2  NONE
+                equipFlags2  SNII
                 range        2, 3
                 price        9800
                 itemType     WEAPON|RARE|BREAKABLE
@@ -632,7 +632,7 @@ tbl_ItemDefs:
                 
                 ; 55: Evil Shot
                 equipFlags   BRGN|BWNT|SNIP
-                equipFlags2  NONE
+                equipFlags2  SNII
                 range        2, 3
                 price        13000
                 itemType     WEAPON|RARE|CURSED
@@ -1391,7 +1391,7 @@ tbl_ItemDefs:
                 
                 ; 124: Life Ring
                 equipFlags   HERO|PLDN|PGNT|GLDT|BRN|WIZ|SORC|VICR|MMNK|SNIP|BRGN|BDBT|WFBR|BWNT|PHNX|NINJ|MNST|RBT|GLM|RDBN|SWOR
-                equipFlags2  STAR|MONK|BRSK
+                equipFlags2  STAR|MONK|BRSK|ACHH|SNII
                 range        0, 0
                 price        5000
                 itemType     RING|RARE
@@ -1413,7 +1413,7 @@ tbl_ItemDefs:
                 
                 ; 126: Chirrup Sandals
                 equipFlags   SDMN|HERO|MAGE|PRST|WIZ|SORC|VICR|BRN|ACHR|SNIP|WFMN|WFBR|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN|SWOR
-                equipFlags2  STAR|MONK|BRSK
+                equipFlags2  STAR|MONK|BRSK|ACHH|SNII
                 range        0, 0
                 price        550
                 itemType     RING|RARE

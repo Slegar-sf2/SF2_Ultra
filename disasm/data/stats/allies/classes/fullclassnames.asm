@@ -40,3 +40,6 @@ tbl_FullClassNames:
                 className "Knight"
                 className "Paladin"
                 className "Monk"
+                className "Archer"
+                className "Sniper"
+				

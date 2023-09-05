@@ -2512,11 +2512,11 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 99: JAR
                 spellPower ENHANCED
                 level    39
-                maxHp    95
-                maxMp    0
-                baseAtt  60
+                maxHp    109
+                maxMp    32
+                baseAtt  65
                 baseDef  72
-                baseAgi  46
+                baseAgi  176
                 baseMov  7
                 baseResistance WIND_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
@@ -2526,7 +2526,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    NOTHING, &
+                    TORNADO, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
