@@ -117,7 +117,7 @@ tbl_AllyStartDefs:
                     HELMET|EQUIPPED, &
                     HEALING_BERRIES
                 
-                startClass ACHH         ; 13: ELRIC
+                startClass ACHH         ; 13: ZYLO
                 startLevel 27
                 startItems &
                     STEEL_ARROW|EQUIPPED, &

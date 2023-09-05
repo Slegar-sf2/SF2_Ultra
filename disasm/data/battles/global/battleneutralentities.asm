@@ -71,7 +71,7 @@ tbl_BattleNeutralEntities:
                 dc.b 6
                 dc.b 6
                 dc.b DOWN
-                dc.b MAPSPRITE_ELRIC_BASE
+                dc.b MAPSPRITE_ZYLO_BASE
                 dc.l eas_WhirlsInWater
                 dc.w $FFFF
                 dc.w BATTLE_CHESSBOARD

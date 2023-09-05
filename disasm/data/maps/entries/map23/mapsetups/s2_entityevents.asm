@@ -68,7 +68,7 @@ Map23_EntityEvent3:
 Map23_EntityEvent4:
                 
                  
-                chkFlg  13              ; Elric joined
+                chkFlg  13              ; ZYLO joined
                 bne.s   byte_59B94      
                 txt     1697            ; "{NAME;13} is out.{N}He went to find the fairy{N}to help a sick dwarf.{W2}"
                 txt     1698            ; "The forest to the west is{N}very dangerous.{W1}"

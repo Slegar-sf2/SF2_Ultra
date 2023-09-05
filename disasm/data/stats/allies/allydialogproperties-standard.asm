@@ -80,10 +80,10 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx DEANNA, DIALOG_BLEEP_3
                 allyPortraitAndSfx DEANNA, DIALOG_BLEEP_3
                 
-; 13: Elric
-                allyPortraitAndSfx ELRIC, DIALOG_BLEEP_5
-                allyPortraitAndSfx ELRIC, DIALOG_BLEEP_5
-                allyPortraitAndSfx ELRIC, DIALOG_BLEEP_5
+; 13: ZYLO
+                allyPortraitAndSfx ZYLO, DIALOG_BLEEP_5
+                allyPortraitAndSfx ZYLO, DIALOG_BLEEP_5
+                allyPortraitAndSfx ZYLO, DIALOG_BLEEP_5
                 
 ; 14: APIS
                 allyPortraitAndSfx APIS, DIALOG_BLEEP_5

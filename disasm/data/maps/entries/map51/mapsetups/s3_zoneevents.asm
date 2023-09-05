@@ -16,10 +16,10 @@ ms_map51_ZoneEvents:
 Map51_ZoneEvent0:
                 
                  
-                chkFlg  470             ; Set after you approach the pond to rescue Elric at the Harpy Pond
+                chkFlg  470             ; Set after you approach the pond to rescue ZYLO at the Harpy Pond
                 bne.s   return_5C302
                 script  cs_5C312
-                setFlg  470             ; Set after you approach the pond to rescue Elric at the Harpy Pond
+                setFlg  470             ; Set after you approach the pond to rescue ZYLO at the Harpy Pond
 return_5C302:
                 
                 rts
@@ -33,7 +33,7 @@ return_5C302:
 Map51_ZoneEvent4:
                 
                  
-                chkFlg  470             ; Set after you approach the pond to rescue Elric at the Harpy Pond
+                chkFlg  470             ; Set after you approach the pond to rescue ZYLO at the Harpy Pond
                 bne.s   Map51_DefaultZoneEvent
                 script  cs_5C3AA
 Map51_DefaultZoneEvent:
@@ -48,8 +48,8 @@ cs_5C312:       textCursor 2555
                 setPos 128,7,16,UP
                 setPos 129,6,17,UP
                 setPos 130,8,17,UP
-                nextText $0,ALLY_ELRIC  ; "Did you come to help me?{N}Oh, thank you!{W2}"
-                nextSingleText $0,ALLY_ELRIC ; "I might have been eaten by{N}monsters if you hadn't come.{W1}"
+                nextText $0,ALLY_ZYLO  ; "Did you come to help me?{N}Oh, thank you!{W2}"
+                nextSingleText $0,ALLY_ZYLO ; "I might have been eaten by{N}monsters if you hadn't come.{W1}"
                 nextSingleText $C0,128  ; "My dinner is escaping!{W1}"
                 setActscript FOLLOWER_B,eas_Jump
                 setActscriptWait ALLY_PETER,eas_Jump
@@ -60,7 +60,7 @@ cs_5C312:       textCursor 2555
                 setCamDest 3,12
                 nextText $C0,128        ; "That pond catches my food.{N}Hey elf boy, good trap, huh?{W2}"
                 nextSingleText $C0,128  ; "Those who get stuck in the{N}pond are mine.  It's my{N}rule.{W1}"
-                nextSingleText $0,ALLY_ELRIC ; "Then, all the missing people{N}were eaten by you?{W1}"
+                nextSingleText $0,ALLY_ZYLO ; "Then, all the missing people{N}were eaten by you?{W1}"
                 nextSingleText $C0,128  ; "They were in my pond.{W1}"
                 entityActionsWait 128
                  moveUp 2

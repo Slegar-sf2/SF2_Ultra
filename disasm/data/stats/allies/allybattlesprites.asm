@@ -74,7 +74,7 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt STAR, 40, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 
-; 13: ELRIC
+; 13: ZYLO
                 allyBattleSprAndPlt ACHH, ACHR, 1
                 allyBattleSprAndPlt SNII, SNIP, 0
                 allyBattleSprAndPlt NONE, NONE, 0

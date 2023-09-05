@@ -74,9 +74,9 @@ tbl_AllyMapSprites:
                 mapSprite DEANNA_PROMO
                 mapSprite DEFAULT
                 
-; 13: Elric
-                mapSprite ELRIC_BASE
-                mapSprite ELRIC_PROMO
+; 13: ZYLO
+                mapSprite ZYLO_BASE
+                mapSprite ZYLO_PROMO
                 mapSprite DEFAULT
                 
 ; 14: APIS

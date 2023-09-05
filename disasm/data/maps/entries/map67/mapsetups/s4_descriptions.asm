@@ -24,7 +24,7 @@ Map67_DescFunc0:
                 
                  
                 txt     424             ; "{NAME} investigated.{W2}{CLEAR}"
-                chkFlg  751             ; Set after Elric opens the passage to Devil's Tail
+                chkFlg  751             ; Set after ZYLO opens the passage to Devil's Tail
                 bne.s   byte_4FD3C      
                 txt     2590            ; "There's a wobbly rock.{W1}"
                 clsTxt
@@ -33,14 +33,14 @@ Map67_DescFunc0:
                 jsr     GetEntityPortaitAndSpeechSfx
                 move.w  d1,((CURRENT_PORTRAIT-$1000000)).w
                 move.w  d2,((SPEECH_SFX-$1000000)).w
-                chkFlg  13              ; Elric joined
+                chkFlg  13              ; ZYLO joined
                 bne.s   loc_4FD22
                 jsr     LoadAndDisplayCurrentPortrait
                 txt     2591            ; "That rock looks{N}suspicious....{W1}"
                 bra.s   loc_4FD3A
 loc_4FD22:
                 
-                move.w  #ALLY_ELRIC,d0
+                move.w  #ALLY_ZYLO,d0
                 jsr     j_GetCurrentHp
                 tst.w   d1
                 bne.s   loc_4FD3A

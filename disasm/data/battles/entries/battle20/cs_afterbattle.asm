@@ -10,8 +10,8 @@ abcs_battle20:  textCursor 2566
                 setPos ALLY_PETER,5,10,UP
                 setPos FOLLOWER_B,7,10,UP
                 fadeInB
-                nextText $0,ALLY_ELRIC  ; "I'm {NAME;13}, an archer.{N}I had no idea how dangerous{N}this pond was.{W2}"
-                nextSingleText $0,ALLY_ELRIC ; "You saved my life.{N}Thank you.{W1}"
+                nextText $0,ALLY_ZYLO  ; "I'm {NAME;13}, an archer.{N}I had no idea how dangerous{N}this pond was.{W2}"
+                nextSingleText $0,ALLY_ZYLO ; "You saved my life.{N}Thank you.{W1}"
                 nextText $C0,ALLY_PETER ; "You should thank Oddler.{W2}"
                 nextSingleText $C0,ALLY_PETER ; "He heard your cry for help{N}and brought us here.{W1}"
                 setFacing ALLY_PETER,RIGHT
@@ -21,24 +21,24 @@ abcs_battle20:  textCursor 2566
                 setFacing FOLLOWER_B,UP
                 nextSingleText $C0,FOLLOWER_B ; "Oh well, it was nothing.{W1}"
                 setFacing ALLY_PETER,UP
-                nextText $0,ALLY_ELRIC  ; "An elf always returns a{N}favor.{W2}"
-                nextSingleText $0,ALLY_ELRIC ; "Please, let me help you.{W1}"
+                nextText $0,ALLY_ZYLO  ; "An elf always returns a{N}favor.{W2}"
+                nextSingleText $0,ALLY_ZYLO ; "Please, let me help you.{W1}"
                 setFacing ALLY_PETER,RIGHT
                 setFacing ALLY_BOWIE,LEFT
                 nextSingleText $C0,ALLY_PETER ; "{LEADER}, looks like{N}we've found another friend.{W1}"
-                entityActionsWait ALLY_ELRIC
+                entityActionsWait ALLY_ZYLO
                  moveDown 1
                 endActions
-                nextSingleText $0,ALLY_ELRIC ; "Oh, thank you!{W1}"
+                nextSingleText $0,ALLY_ZYLO ; "Oh, thank you!{W1}"
                 setFacing ALLY_BOWIE,UP
                 nod ALLY_BOWIE
-                join ALLY_ELRIC
+                join ALLY_ZYLO
                 setFacing ALLY_PETER,UP
                 nextSingleText $C0,ALLY_PETER ; "Now, let's go see Mr. Creed!{W1}"
                 followEntity ALLY_PETER,ALLY_BOWIE,2
                 followEntity FOLLOWER_B,ALLY_PETER,2
-                followEntity ALLY_ELRIC,FOLLOWER_B,2
+                followEntity ALLY_ZYLO,FOLLOWER_B,2
                 csc_end
 ce_4B780:       mainEntity 6,10,UP
-                entity 6,8,DOWN,ALLY_ELRIC,eas_Init
+                entity 6,8,DOWN,ALLY_ZYLO,eas_Init
                 dc.w $FFFF

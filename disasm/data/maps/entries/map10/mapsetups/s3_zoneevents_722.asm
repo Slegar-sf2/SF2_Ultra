@@ -11,7 +11,7 @@ ms_map10_flag722_ZoneEvents:
 Map10_2D2_ZoneEvent0:
                 
                  
-                chkFlg  13              ; Elric joined
+                chkFlg  13              ; ZYLO joined
                 bne.s   return_56FDE
                 chkFlg  724             ; Set after the scene where Skreech falls in Bedoe
                 bne.s   return_56FDE

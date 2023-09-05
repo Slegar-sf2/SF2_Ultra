@@ -8,7 +8,7 @@
 ms_map51_InitFunction:
                 
                  
-                chkFlg  470             ; Set after you approach the pond to rescue Elric at the Harpy Pond
+                chkFlg  470             ; Set after you approach the pond to rescue ZYLO at the Harpy Pond
                 bne.s   return_5C3D6
                 script  cs_5C3D8
 return_5C3D6:
@@ -38,7 +38,7 @@ cs_5C3D8:       textCursor 2550
                 nextSingleText $0,ALLY_PETER ; "Look!  Over there!{W1}"
                 setCamDest 2,2
                 csWait 50
-                nextSingleText $C0,ALLY_ELRIC ; "Help me!{W1}"
+                nextSingleText $C0,ALLY_ZYLO ; "Help me!{W1}"
                 nextText $0,ALLY_PETER  ; "An...elven boy?{N}He's stuck in the pond.{W2}"
                 nextSingleText $0,ALLY_PETER ; "He must be very tired.{N}Let's pull him out.{W1}"
                 setCameraEntity ALLY_BOWIE

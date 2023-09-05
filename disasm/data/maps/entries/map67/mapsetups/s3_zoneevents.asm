@@ -31,16 +31,16 @@ return_4FB30:
 Map67_ZoneEvent0:
                 
                  
-                chkFlg  751             ; Set after Elric opens the passage to Devil's Tail
+                chkFlg  751             ; Set after ZYLO opens the passage to Devil's Tail
                 bne.s   return_4FB56
-                chkFlg  13              ; Elric joined
+                chkFlg  13              ; ZYLO joined
                 beq.s   return_4FB56
                 move.w  #$D,d0
                 jsr     j_GetCurrentHp
                 tst.w   d1
                 beq.s   return_4FB56
                 script  cs_4FC32
-                setFlg  751             ; Set after Elric opens the passage to Devil's Tail
+                setFlg  751             ; Set after ZYLO opens the passage to Devil's Tail
 return_4FB56:
                 
                 rts
@@ -101,38 +101,38 @@ cs_4FB64:       textCursor 2543
                 warp MAP_HARPY_POOL,11,22,UP
                 csc_end
 cs_4FC32:       textCursor 2593
-                newEntity ALLY_ELRIC,57,25,UP,MAPSPRITE_TAROS
-                setActscriptWait ALLY_ELRIC,eas_Init
-                entityActionsWait ALLY_ELRIC
+                newEntity ALLY_ZYLO,57,25,UP,MAPSPRITE_TAROS
+                setActscriptWait ALLY_ZYLO,eas_Init
+                entityActionsWait ALLY_ZYLO
                  moveUp 1
                 endActions
                 setFacing ALLY_BOWIE,UP
                 setFacing ALLY_PETER,UP
                 setFacing FOLLOWER_B,UP
-                nextSingleText $0,ALLY_ELRIC ; "Fairy said, move this rock{N}in this manner, and...{W1}"
+                nextSingleText $0,ALLY_ZYLO ; "Fairy said, move this rock{N}in this manner, and...{W1}"
                 csWait 30
                 playSound SFX_SECRET_PATH_ROCK
                 csWait 30
-                setFacing ALLY_ELRIC,DOWN
-                setActscriptWait ALLY_ELRIC,eas_Jump
-                setActscriptWait ALLY_ELRIC,eas_Jump
-                nextSingleText $0,ALLY_ELRIC ; "Got it!  Thanks, fairy!{W1}"
+                setFacing ALLY_ZYLO,DOWN
+                setActscriptWait ALLY_ZYLO,eas_Jump
+                setActscriptWait ALLY_ZYLO,eas_Jump
+                nextSingleText $0,ALLY_ZYLO ; "Got it!  Thanks, fairy!{W1}"
                 setQuake 1
                 playSound SFX_BIG_DOOR_RUMBLE
                 csWait 20
-                setFacing ALLY_ELRIC,UP
+                setFacing ALLY_ZYLO,UP
                 csWait 20
                 playSound SFX_DESOUL_HOVERING
                 setBlocks 0,0,3,2,56,22
                 csWait 30
                 setQuake 0
                 csWait 30
-                setFacing ALLY_ELRIC,DOWN
-                nextSingleText $0,ALLY_ELRIC ; "{LEADER}, come on.{W1}"
-                entityActionsWait ALLY_ELRIC
+                setFacing ALLY_ZYLO,DOWN
+                nextSingleText $0,ALLY_ZYLO ; "{LEADER}, come on.{W1}"
+                entityActionsWait ALLY_ZYLO
                  moveUp 1
                 endActions
-                hide ALLY_ELRIC
+                hide ALLY_ZYLO
                 entityActionsWait ALLY_BOWIE
                  moveUp 1
                 endActions

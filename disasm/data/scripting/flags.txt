@@ -11,7 +11,7 @@
 0010=Luke joined
 0011=Rohde joined
 0012=DEANNA joined
-0013=Elric joined
+0013=ZYLO joined
 0014=Eric joined
 0015=Graham joined
 0016=Ranfolf joined
@@ -43,7 +43,7 @@
 0042=Luke in active party
 0043=Rohde in active party
 0044=DEANNA in active party
-0045=Elric in active party
+0045=ZYLO in active party
 0046=Eric in active party
 0047=Graham in active party
 0048=Ranfolf in active party
@@ -468,7 +468,7 @@
 0467=
 0468=
 0469=
-0470=Set after you approach the pond to rescue Elric at the Harpy Pond
+0470=Set after you approach the pond to rescue ZYLO at the Harpy Pond
 0471=
 0472=
 0473=
@@ -749,7 +749,7 @@
 0748=
 0749=
 0750=Set after Rohde clears the blockage at the North Cliff cave
-0751=Set after Elric opens the passage to Devil's Tail
+0751=Set after ZYLO opens the passage to Devil's Tail
 0752=
 0753=
 0754=
