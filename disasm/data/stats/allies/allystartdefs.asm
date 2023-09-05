@@ -81,7 +81,7 @@ tbl_AllyStartDefs:
                 startLevel 12
                 startItems &
                     WOODEN_ARROW|EQUIPPED, &
-                    NOTHING, &
+                    MEDICAL_HERB, &
                     NOTHING, &
                     NOTHING
                 
@@ -141,8 +141,8 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass WARR         ; 16: RUCE
-                startLevel 12
+                startClass WARU         ; 16: RUCE
+                startLevel 13
                 startItems &
                     HAND_AXE|EQUIPPED, &
                     HEALING_BERRIES, &

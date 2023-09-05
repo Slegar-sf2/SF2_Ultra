@@ -229,16 +229,16 @@ tbl_ClassDefs:
                 moveType   STEALTH
                 prowess    CRITICAL150_1IN16|DOUBLE_1IN8|COUNTER_1IN16
                 
-                mov 6                   ; 44: 
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                mov 5                   ; 44: WARU
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR
-                prowess    CRITICAL_NONE|DOUBLE_1IN32|COUNTER_1IN32
-                    
-                mov 6                   ; 45: 
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                prowess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN16
+                
+                mov 4                   ; 45: GLDD
+                resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR
-                prowess    CRITICAL_NONE|DOUBLE_1IN32|COUNTER_1IN32
-                    
+                prowess    CRITICAL150_1IN32|DOUBLE_1IN8|COUNTER_1IN16
+                
                 mov 6                   ; 46: 
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR

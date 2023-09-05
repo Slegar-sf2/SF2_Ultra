@@ -214,7 +214,7 @@ tbl_ItemDefs:
                 
                 ; 17: Helmet
                 equipFlags   SDMN|HERO|KNTE|PLDN|PGNT|WARR|GLDT|BRN|ACHR|SNIP|BDMN|BDBT|RNGR|BWNT|THIF|NINJ|RBT|GLM|RDBN|SWOR
-                equipFlags2  STAR|KENT|PALA|ACHH|SNII|WOLF|WLBR
+                equipFlags2  STAR|KENT|PALA|ACHH|SNII|WOLF|WLBR|WARU|GLDD
                 range        0, 0
                 price        250
                 itemType     RING|BREAKABLE
@@ -390,7 +390,7 @@ tbl_ItemDefs:
                 
                 ; 33: Short Axe
                 equipFlags   WARR|GLDT|BRN|RDBN|BDMN|BDBT|SWOR
-                equipFlags2  STAR
+                equipFlags2  STAR|WARU|GLDD
                 range        1, 1
                 price        120
                 itemType     WEAPON
@@ -401,7 +401,7 @@ tbl_ItemDefs:
                 
                 ; 34: Hand Axe
                 equipFlags   WARR|GLDT|BRN|RDBN|BDMN|BDBT|SWOR
-                equipFlags2  STAR
+                equipFlags2  STAR|WARU|GLDD
                 range        1, 1
                 price        340
                 itemType     WEAPON
@@ -412,7 +412,7 @@ tbl_ItemDefs:
                 
                 ; 35: Middle Axe
                 equipFlags   WARR|GLDT|BRN|RDBN|BDMN|BDBT|SWOR
-                equipFlags2  STAR
+                equipFlags2  STAR|WARU|GLDD
                 range        1, 1
                 price        610
                 itemType     WEAPON
@@ -423,7 +423,7 @@ tbl_ItemDefs:
                 
                 ; 36: Power Axe
                 equipFlags   WARR|GLDT|BRN|RDBN|BDMN|BDBT|SWOR
-                equipFlags2  STAR
+                equipFlags2  STAR|WARU|GLDD
                 range        1, 1
                 price        1100
                 itemType     WEAPON
@@ -434,7 +434,7 @@ tbl_ItemDefs:
                 
                 ; 37: Battle Axe
                 equipFlags   WARR|GLDT|BRN|RDBN|BDMN|BDBT|SWOR
-                equipFlags2  STAR
+                equipFlags2  STAR|WARU|GLDD
                 range        1, 1
                 price        1370
                 itemType     WEAPON
@@ -445,7 +445,7 @@ tbl_ItemDefs:
                 
                 ; 38: Large Axe
                 equipFlags   WARR|GLDT|BRN|RDBN|BDMN|BDBT|SWOR
-                equipFlags2  STAR
+                equipFlags2  STAR|WARU|GLDD
                 range        1, 1
                 price        2250
                 itemType     WEAPON
@@ -456,7 +456,7 @@ tbl_ItemDefs:
                 
                 ; 39: Great Axe
                 equipFlags   WARR|GLDT|BRN|RDBN|BDBT|SWOR
-                equipFlags2  STAR
+                equipFlags2  STAR|WARU|GLDD
                 range        1, 1
                 price        4600
                 itemType     WEAPON
@@ -467,7 +467,7 @@ tbl_ItemDefs:
                 
                 ; 40: Heat Axe
                 equipFlags   WARR|GLDT|BRN|RDBN|BDBT
-                equipFlags2  STAR
+                equipFlags2  STAR|WARU|GLDD
                 range        1, 1
                 price        7200
                 itemType     WEAPON|BREAKABLE
@@ -478,7 +478,7 @@ tbl_ItemDefs:
                 
                 ; 41: Atlas Axe
                 equipFlags   GLDT|BRN|RDBN|BDBT
-                equipFlags2  STAR
+                equipFlags2  STAR|GLDD
                 range        1, 1
                 price        9600
                 itemType     WEAPON|RARE|BREAKABLE
@@ -489,7 +489,7 @@ tbl_ItemDefs:
                 
                 ; 42: Ground Axe
                 equipFlags   GLDT|BRN|RDBN|BDBT
-                equipFlags2  STAR
+                equipFlags2  STAR|GLDD
                 range        1, 1
                 price        10000
                 itemType     WEAPON|RARE
@@ -500,7 +500,7 @@ tbl_ItemDefs:
                 
                 ; 43: Rune Axe
                 equipFlags   GLDT|BRN|RDBN|BDBT
-                equipFlags2  STAR
+                equipFlags2  STAR|GLDD
                 range        1, 1
                 price        10000
                 itemType     WEAPON|RARE|BREAKABLE
@@ -511,7 +511,7 @@ tbl_ItemDefs:
                 
                 ; 44: Evil Axe
                 equipFlags   GLDT|BRN|RDBN|BDBT
-                equipFlags2  STAR
+                equipFlags2  STAR|GLDD
                 range        1, 1
                 price        15000
                 itemType     WEAPON|RARE|CURSED
@@ -1017,7 +1017,7 @@ tbl_ItemDefs:
                 
                 ; 90: Baton
                 equipFlags   WARR|GLDT|BRN|RDBN
-                equipFlags2  NONE
+                equipFlags2  WARU|GLDD
                 range        1, 1
                 price        120
                 itemType     WEAPON
@@ -1336,7 +1336,7 @@ tbl_ItemDefs:
                 
                 ; 119: Warrior Pride
                 equipFlags   WARR|GLDT|BRN|RDBN
-                equipFlags2  NONE
+                equipFlags2  WARU|GLDD
                 range        0, 0
                 price        1000
                 itemType     RING|RARE

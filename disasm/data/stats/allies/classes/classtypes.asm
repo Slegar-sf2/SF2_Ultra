@@ -49,8 +49,8 @@ tbl_ClassTypes:
                 classType PROMO         ; 41: WIZZ
                 classType BASE          ; 42: WOLF
                 classType PROMO         ; 43: WLBR
-                classType PROMO         ; 44: 
-                classType PROMO         ; 45: 
+                classType BASE          ; 44: WARU 
+                classType PROMO         ; 45: GLDD
                 classType PROMO         ; 46: 
                 classType PROMO         ; 47: 
                 classType PROMO         ; 48: 

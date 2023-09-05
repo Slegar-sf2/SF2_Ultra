@@ -295,6 +295,8 @@ Map22_EntityEvent11:
                  
                 txt     1790            ; "The Chess Army of Desktop{N}Kingdom is a well balanced{N}force!{W2}"
                 txt     1791            ; "If it is King Ponpei's wish,{N}we will accept your{N}challenge!{W1}"
+                move.b  #22,((CURRENT_SHOP_INDEX-$1000000)).w
+                jmp     ShopMenuActions
                 rts
 
     ; End of function Map22_EntityEvent11

@@ -90,9 +90,9 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 16: RUCE
-                allyBattleSprAndPlt WARR, 34, 0
-                allyBattleSprAndPlt GLDT, 35, 0
-                allyBattleSprAndPlt BRN, BRN, 2
+                allyBattleSprAndPlt WARU, 34, 0
+                allyBattleSprAndPlt GLDD, 35, 0
+                allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 17: WENDY
                 allyBattleSprAndPlt MAGG, 36, 0
