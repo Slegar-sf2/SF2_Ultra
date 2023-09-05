@@ -112,6 +112,26 @@ pt_AllyAnimations:
                 dc.l AllyAnimation107
                 dc.l AllyAnimation108
                 dc.l AllyAnimation109
+                dc.l AllyAnimation110
+                dc.l AllyAnimation111
+                dc.l AllyAnimation112
+                dc.l AllyAnimation113
+                dc.l AllyAnimation114
+                dc.l AllyAnimation115
+                dc.l AllyAnimation116
+                dc.l AllyAnimation117
+                dc.l AllyAnimation118
+                dc.l AllyAnimation119
+                dc.l AllyAnimation120
+                dc.l AllyAnimation121
+                dc.l AllyAnimation122
+                dc.l AllyAnimation123
+                dc.l AllyAnimation124
+                dc.l AllyAnimation125
+                dc.l AllyAnimation126
+                dc.l AllyAnimation127
+                dc.l AllyAnimation128
+                dc.l AllyAnimation129
 AllyAnimation000:
                 incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation000.bin"
 AllyAnimation001:
@@ -331,4 +351,44 @@ AllyAnimation107:
 AllyAnimation108:
                 incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation108.bin"	
 AllyAnimation109:
-                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation109.bin"				
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation109.bin"
+AllyAnimation110:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation110.bin"
+AllyAnimation111:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation111.bin"
+AllyAnimation112:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation112.bin"
+AllyAnimation113:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation113.bin"
+AllyAnimation114:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation114.bin"
+AllyAnimation115:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation115.bin"
+AllyAnimation116:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation116.bin"
+AllyAnimation117:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation117.bin"
+AllyAnimation118:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation118.bin"
+AllyAnimation119:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation119.bin"
+AllyAnimation120:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation120.bin"
+AllyAnimation121:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation121.bin"
+AllyAnimation122:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation122.bin"
+AllyAnimation123:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation123.bin"
+AllyAnimation124:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation124.bin"
+AllyAnimation125:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation125.bin"
+AllyAnimation126:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation126.bin"
+AllyAnimation127:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation127.bin"
+AllyAnimation128:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation128.bin"	
+AllyAnimation129:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation129.bin"	

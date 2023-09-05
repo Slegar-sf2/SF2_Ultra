@@ -52,7 +52,16 @@ pt_AllyBattlesprites:
                 dc.l AllyBattlesprite47
                 dc.l AllyBattlesprite48
                 dc.l AllyBattlesprite49
-				
+                dc.l AllyBattlesprite50
+                dc.l AllyBattlesprite51
+                dc.l AllyBattlesprite52
+                dc.l AllyBattlesprite53
+                dc.l AllyBattlesprite54
+                dc.l AllyBattlesprite55
+                dc.l AllyBattlesprite56
+                dc.l AllyBattlesprite57
+                dc.l AllyBattlesprite58
+                dc.l AllyBattlesprite59
 AllyBattlesprite00:
                 incbin "data/graphics/battles/battlesprites/allies/allybattlesprite00.bin"
 AllyBattlesprite01:
@@ -153,4 +162,24 @@ AllyBattlesprite48:
                 incbin "data/graphics/battles/battlesprites/allies/allybattlesprite48.bin"
 AllyBattlesprite49:
                 incbin "data/graphics/battles/battlesprites/allies/allybattlesprite49.bin"
+AllyBattlesprite50:
+                incbin "data/graphics/battles/battlesprites/allies/AllyBattlesprite50.bin"
+AllyBattlesprite51:
+                incbin "data/graphics/battles/battlesprites/allies/AllyBattlesprite51.bin"
+AllyBattlesprite52:
+                incbin "data/graphics/battles/battlesprites/allies/AllyBattlesprite52.bin"
+AllyBattlesprite53:
+                incbin "data/graphics/battles/battlesprites/allies/AllyBattlesprite53.bin"
+AllyBattlesprite54:
+                incbin "data/graphics/battles/battlesprites/allies/AllyBattlesprite54.bin"
+AllyBattlesprite55:
+                incbin "data/graphics/battles/battlesprites/allies/AllyBattlesprite55.bin"
+AllyBattlesprite56:
+                incbin "data/graphics/battles/battlesprites/allies/AllyBattlesprite56.bin"
+AllyBattlesprite57:
+                incbin "data/graphics/battles/battlesprites/allies/AllyBattlesprite57.bin"
+AllyBattlesprite58:
+                incbin "data/graphics/battles/battlesprites/allies/AllyBattlesprite58.bin"
+AllyBattlesprite59:
+                incbin "data/graphics/battles/battlesprites/allies/AllyBattlesprite59.bin"
 				
