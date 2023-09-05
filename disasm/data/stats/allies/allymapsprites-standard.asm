@@ -97,7 +97,7 @@ tbl_AllyMapSprites:
 ; 17: WENDY
                 mapSprite WENDY_BASE
                 mapSprite WENDY_PROMO
-                mapSprite WENDY_SPECIAL
+                mapSprite DEFAULT
                 
 ; 18: Janet
                 mapSprite JANET_BASE

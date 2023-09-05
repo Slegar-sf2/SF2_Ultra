@@ -3,7 +3,7 @@
 ; 0x1EE782..0x1EE7AD : Ally stats 27
 AllyStats27:    forClass  MONK ;CRAY
                 hpGrowth  40, 100, LINEAR
-                mpGrowth  30, 60, LINEAR
+                mpGrowth  30, 70, LINEAR
                 attGrowth 66, 130, LINEAR
                 defGrowth 40, 90, MIDDLE
                 agiGrowth 27, 58, LINEAR

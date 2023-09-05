@@ -57,11 +57,11 @@ tbl_AllyStartDefs:
                 startLevel 7
                 startItems &
                     SHORT_KNIFE|EQUIPPED, &
-                    NOTHING, &
+                    ARSON, &
                     HEALING_DROP, &
                     NOTHING
                 
-                startClass MAGE         ; 6: NATASHA
+                startClass MAGG         ; 6: NATASHA
                 startLevel 9
                 startItems &
                     SHORT_ROD|EQUIPPED, &
@@ -149,7 +149,7 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass MAGE         ; 17: WENDY
+                startClass MAGG         ; 17: WENDY
                 startLevel 25
                 startItems &
                     POWER_STICK|EQUIPPED, &

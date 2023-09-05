@@ -40,8 +40,8 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 6: NATASHA
-                allyBattleSprAndPlt MAGE, 36, 2
-                allyBattleSprAndPlt WIZ, 37, 2
+                allyBattleSprAndPlt MAGG, 36, 2
+                allyBattleSprAndPlt WIZZ, 37, 2
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 7: PETER
@@ -95,8 +95,8 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt BRN, BRN, 2
                 
 ; 17: WENDY
-                allyBattleSprAndPlt MAGE, 36, 0
-                allyBattleSprAndPlt WIZ, 37, 0
+                allyBattleSprAndPlt MAGG, 36, 0
+                allyBattleSprAndPlt WIZZ, 37, 0
                 allyBattleSprAndPlt SORC, SORC_MALE, 1
                 
 ; 18: JANET

@@ -42,4 +42,6 @@ tbl_FullClassNames:
                 className "Monk"
                 className "Archer"
                 className "Sniper"
+                className "Mage"
+                className "Wizard"
 				

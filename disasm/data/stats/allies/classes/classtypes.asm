@@ -43,10 +43,10 @@ tbl_ClassTypes:
                 classType BASE          ; 35: KENT
                 classType PROMO         ; 36: PALA
                 classType PROMO         ; 37: MONK
-                classType PROMO         ; 38: 
-                classType PROMO         ; 39: 
-                classType PROMO         ; 40: 
-                classType PROMO         ; 41: 
+                classType BASE          ; 38: ACHH
+                classType PROMO         ; 39: SNIP
+                classType BASE          ; 40: MAGG
+                classType PROMO         ; 41: WIZZ
                 classType PROMO         ; 42: 
                 classType PROMO         ; 43: 
                 classType PROMO         ; 44: 

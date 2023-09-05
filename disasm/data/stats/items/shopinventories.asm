@@ -314,6 +314,7 @@ tbl_ShopInventories:
 				
                 ; SHOP_INDEX: 30  $1E GUARDIANA
                 shopInventory BLIZZARD, &
+                              ARSON, &
                               HELMET
                               
 			

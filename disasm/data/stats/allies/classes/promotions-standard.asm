@@ -5,10 +5,10 @@ tbl_Promotions:
 ; Syntax        promotionSection [CLASS_]enum,..[CLASS_]enum
                 
                 promotionSection &      ; 00: Regular base classes
-                    SDMN, KNTE, WARR, MAGE, PRST, ACHR, BDMN, WFMN, RNGR, PHNK, THIF, TORT, SWOR, KENT, ACHH
+                    SDMN, KNTE, WARR, MAGE, PRST, ACHR, BDMN, WFMN, RNGR, PHNK, THIF, TORT, SWOR, KENT, ACHH, MAGG
                 
                 promotionSection &      ; 01: Regular promoted classes
-                    HERO, PLDN, GLDT, WIZ, VICR, SNIP, BDBT, WFBR, BWNT, PHNX, NINJ, MNST, STAR, PALA, SNII
+                    HERO, PLDN, GLDT, WIZ, VICR, SNIP, BDBT, WFBR, BWNT, PHNX, NINJ, MNST, STAR, PALA, SNII, WIZZ
                 
                 promotionSection &      ; 02: Pegasus Wing base classes
                     KNTE
@@ -42,8 +42,7 @@ tbl_Promotions:
                 
                 
 tbl_PromotionItems:
-                ; Item, base classes section, promoted classes section                
-                dc.b ITEM_PEGASUS_WING, 2, 3
+                ; Item, base classes section, promoted classes section
                 dc.b ITEM_WARRIORS_PRIDE, 4, 5
                 dc.b ITEM_SECRET_BOOK, 6, 7
                 dc.b ITEM_VIGOR_BALL, 8, 9
