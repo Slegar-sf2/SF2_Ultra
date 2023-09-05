@@ -75,9 +75,9 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 13: ELRIC
-                allyBattleSprAndPlt ACHR, ACHR, 1
-                allyBattleSprAndPlt SNIP, SNIP, 0
-                allyBattleSprAndPlt BRGN, BRGN, 0
+                allyBattleSprAndPlt ACHH, ACHR, 1
+                allyBattleSprAndPlt SNII, SNIP, 0
+                allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 14: APIS
                 allyBattleSprAndPlt KENT, KENT, 3
@@ -162,8 +162,8 @@ tbl_AllyBattlesprites:
                 ; Additional entries to be defined with force members expansion patch
             if (STANDARD_BUILD&EXPANDED_FORCE_MEMBERS=1)
 ; 30: SHADE
-                allyBattleSprAndPlt ACHR, 32, 0
-                allyBattleSprAndPlt SNIP, 33, 0
+                allyBattleSprAndPlt ACHH, 32, 0
+                allyBattleSprAndPlt SNII, 33, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 31: ASTRAL
