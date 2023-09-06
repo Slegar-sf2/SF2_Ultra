@@ -1041,7 +1041,7 @@ tbl_ItemDefs:
                 equipFlags   WIZ|SORC|VICR
                 equipFlags2  WIZZ
                 range        1, 2
-                price        3200
+                price        7500
                 itemType     WEAPON|CURSED|BREAKABLE
                 useSpell     SPOIT
                 equipEffects INCREASE_ATT, 25, &
@@ -1625,12 +1625,12 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  WOLF|WLBR
                 range        1, 1
-                price        1300
-                itemType     WEAPON
+                price        16000
+                itemType     WEAPON|RARE
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 7, &
                              DECREASE_MOV, 1, &
-                             NONE, 0
+                             DECREASE_DEF, 9
                 
                 ; 146: 
                 equipFlags   NONE

@@ -66,174 +66,174 @@ tbl_ClassDefs:
                 resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_NONE|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   STEALTH
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
-                
-                mov 6                   ; 12: HERO
-                resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_WEAKNESS|STATUS_NONE
-                moveType   REGULAR
-                prowess    CRITICAL125_1IN16|DOUBLE_1IN16|COUNTER_1IN8
-                
-                mov 7                   ; 13: PLDN
+                    
+                mov 7                   ; 12: KENT
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   CENTAUR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 7                   ; 14: PGNT
+                mov 5                   ; 13: ACHH
+                resistance WIND_WEAKNESS|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                moveType   ARCHER
+                prowess    CRITICAL125_1IN16|DOUBLE_1IN16|COUNTER_1IN8
+                
+                mov 5                   ; 14: MAGG
+                resistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|NEUTRAL_WEAKNESS|STATUS_NONE
+                moveType   MAGE
+                prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
+                
+                mov 6                   ; 15: WOLF
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
+                moveType   STEALTH
+                prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
+                
+                mov 5                   ; 16: WARU
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
+                moveType   REGULAR
+                prowess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN16
+                                                                                                    
+                mov 6                   ; 17: HERO
+                resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_WEAKNESS|STATUS_NONE
+                moveType   REGULAR
+                prowess    CRITICAL125_1IN16|DOUBLE_1IN16|COUNTER_1IN8
+                
+                mov 7                   ; 18: PLDN
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
+                moveType   CENTAUR
+                prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
+                
+                mov 7                   ; 19: PGNT
                 resistance WIND_MAJOR|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   FLYING
                 prowess    CRITICAL_SLOW|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 4                   ; 15: GLDT
+                mov 4                   ; 20: GLDT
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 5                   ; 16: BRN
+                mov 5                   ; 21: BRN
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 5                   ; 17: WIZ
+                mov 5                   ; 22: WIZ
                 resistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   MAGE
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 5                   ; 18: SORC
+                mov 5                   ; 23: SORC
                 resistance WIND_WEAKNESS|LIGHTNING_NONE|ICE_MAJOR|FIRE_MAJOR|NEUTRAL_NONE|STATUS_NONE
                 moveType   MAGE
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 5                   ; 19: VICR
+                mov 5                   ; 24: VICR
                 resistance WIND_MINOR|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   HEALER
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 5                   ; 20: MMNK
+                mov 5                   ; 25: MMNK
                 resistance WIND_MINOR|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN8
                 
-                mov 6                   ; 21: SNIP
+                mov 6                   ; 26: SNIP
                 resistance WIND_WEAKNESS|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   ARCHER
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN8|COUNTER_1IN4
                 
-                mov 5                   ; 22: BRGN
+                mov 5                   ; 27: BRGN
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   BRASS_GUNNER
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 6                   ; 23: BDBT
+                mov 6                   ; 28: BDBT
                 resistance WIND_MAJOR|LIGHTNING_WEAKNESS|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   FLYING
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 5                   ; 24: WFBR
+                mov 5                   ; 29: WFBR
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   STEALTH
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN8
                 
-                mov 6                   ; 25: BWNT
+                mov 6                   ; 30: BWNT
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   CENTAUR_ARCHER
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 7                   ; 26: PHNX
+                mov 7                   ; 31: PHNX
                 resistance WIND_MINOR|LIGHTNING_WEAKNESS|ICE_WEAKNESS|FIRE_MAJOR|NEUTRAL_NONE|STATUS_MAJOR
                 moveType   FLYING
                 prowess    CRITICAL150_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 8                   ; 27: NINJ
+                mov 8                   ; 32: NINJ
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_MINOR|NEUTRAL_MINOR|STATUS_NONE
                 moveType   STEALTH
                 prowess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN4
                 
-                mov 7                   ; 28: MNST
+                mov 7                   ; 33: MNST
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_MAJOR|STATUS_MAJOR
                 moveType   HOVERING
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 4                   ; 29: RBT
+                mov 4                   ; 34: RBT
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_WEAKNESS|FIRE_NONE|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 3                   ; 30: GLM
+                mov 3                   ; 35: GLM
                 resistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_WEAKNESS|FIRE_MAJOR|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 5                   ; 31: RDBN
+                mov 5                   ; 36: RDBN
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_MINOR|STATUS_MINOR
                 moveType   REGULAR
                 prowess    CRITICAL150_1IN8|DOUBLE_1IN16|COUNTER_1IN8
                 
             if (STANDARD_BUILD&EXPANDED_CLASSES=1)
                     
-                mov 5                   ; 32: TORT 
+                mov 5                   ; 37: TORT 
                 resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL150_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                     
-                mov 6                   ; 33: STAR
+                mov 6                   ; 38: STAR
                 resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_NONE|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
                     
-                mov 6                   ; 34: BRSK
+                mov 6                   ; 39: BRSK
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_MINOR
                 moveType   REGULAR
                 prowess    CRITICAL_STUN|DOUBLE_1IN32|COUNTER_1IN16
-                    
-                mov 7                   ; 35: KENT
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
-                moveType   CENTAUR
-                prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
-                    
-                mov 7                   ; 36: PALA
+
+                mov 7                   ; 40: PALA
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   CENTAUR
                 prowess    CRITICAL125_1IN8|DOUBLE_1IN16|COUNTER_1IN16
                     
-                mov 6                   ; 37: MONK
+                mov 6                   ; 41: MONK
                 resistance WIND_MINOR|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_IMMUNITY
                 moveType   REGULAR
                 prowess    CRITICAL_SLEEP|DOUBLE_1IN32|COUNTER_1IN8
-                
-                mov 5                   ; 38: ACHH
-                resistance WIND_WEAKNESS|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
-                moveType   ARCHER
-                prowess    CRITICAL125_1IN16|DOUBLE_1IN16|COUNTER_1IN8
-                
-                mov 6                   ; 39: SNII
+
+                mov 6                   ; 42: SNII
                 resistance WIND_WEAKNESS|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   ARCHER
                 prowess    CRITICAL150_1IN16|DOUBLE_1IN8|COUNTER_1IN8
-                
-                mov 5                   ; 40: MAGG
-                resistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|NEUTRAL_WEAKNESS|STATUS_NONE
-                moveType   MAGE
-                prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
-                
-                mov 5                   ; 41: WIZZ
+
+                mov 5                   ; 43: WIZZ
                 resistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   MAGE
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
-                
-                mov 6                   ; 42: WOLF
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
-                moveType   STEALTH
-                prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
-                
-                mov 6                   ; 43: WLBR
+
+                mov 6                   ; 44: WLBR
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   STEALTH
                 prowess    CRITICAL150_1IN16|DOUBLE_1IN8|COUNTER_1IN16
-                
-                mov 5                   ; 44: WARU
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
-                moveType   REGULAR
-                prowess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN16
-                
+
                 mov 4                   ; 45: GLDD
                 resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR

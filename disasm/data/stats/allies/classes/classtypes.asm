@@ -16,40 +16,40 @@ tbl_ClassTypes:
                 classType BASE          ; 9: PHNK
                 classType BASE          ; 10: THIF
                 classType BASE          ; 11: SWOR
-                classType PROMO         ; 12: HERO
-                classType PROMO         ; 13: PLDN
-                classType SPECIAL       ; 14: PGNT
-                classType PROMO         ; 15: GLDT
-                classType SPECIAL       ; 16: BRN
-                classType PROMO         ; 17: WIZ
-                classType SPECIAL       ; 18: SORC
-                classType PROMO         ; 19: VICR
-                classType SPECIAL       ; 20: MMNK
-                classType PROMO         ; 21: SNIP
-                classType SPECIAL       ; 22: BRGN
-                classType PROMO         ; 23: BDBT
-                classType PROMO         ; 24: WFBR
-                classType PROMO         ; 25: BWNT
-                classType PROMO         ; 26: PHNX
-                classType PROMO         ; 27: NINJ
-                classType PROMO         ; 28: MNST
-                classType PROMO         ; 29: RBT
-                classType PROMO         ; 30: GLM
-                classType REDBARON      ; 31: RDBN               
+                classType BASE          ; 12: KENT
+                classType BASE          ; 13: ACHH
+                classType BASE          ; 14: MAGG
+                classType BASE          ; 15: WOLF
+                classType BASE          ; 16: WARU
+                classType PROMO         ; 17: HERO
+                classType PROMO         ; 18: PLDN
+                classType SPECIAL       ; 19: PGNT
+                classType PROMO         ; 20: GLDT
+                classType SPECIAL       ; 21: BRN
+                classType PROMO         ; 22: WIZ
+                classType SPECIAL       ; 23: SORC
+                classType PROMO         ; 24: VICR
+                classType SPECIAL       ; 25: MMNK
+                classType PROMO         ; 26: SNIP
+                classType SPECIAL       ; 27: BRGN
+                classType PROMO         ; 28: BDBT
+                classType PROMO         ; 29: WFBR
+                classType PROMO         ; 30: BWNT
+                classType PROMO         ; 31: PHNX
+                classType PROMO         ; 32: NINJ
+                classType PROMO         ; 33: MNST
+                classType PROMO         ; 34: RBT
+                classType PROMO         ; 35: GLM
+                classType REDBARON      ; 36: RDBN               
             if (STANDARD_BUILD&EXPANDED_CLASSES=1)
-                classType BASE          ; 32: TORT
-                classType PROMO         ; 33: STAR
-                classType PROMO         ; 34: BRSK
-                classType BASE          ; 35: KENT
-                classType PROMO         ; 36: PALA
-                classType PROMO         ; 37: MONK
-                classType BASE          ; 38: ACHH
-                classType PROMO         ; 39: SNIP
-                classType BASE          ; 40: MAGG
-                classType PROMO         ; 41: WIZZ
-                classType BASE          ; 42: WOLF
-                classType PROMO         ; 43: WLBR
-                classType BASE          ; 44: WARU 
+                classType PROMO         ; 37: TORT
+                classType PROMO         ; 38: STAR
+                classType PROMO         ; 39: BRSK
+                classType PROMO         ; 40: PALA
+                classType PROMO         ; 41: MONK
+                classType PROMO         ; 42: SNIP
+                classType PROMO         ; 43: WIZZ
+                classType PROMO         ; 44: WLBR 
                 classType PROMO         ; 45: GLDD
                 classType PROMO         ; 46: 
                 classType PROMO         ; 47: 
