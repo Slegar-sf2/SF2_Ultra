@@ -61,7 +61,9 @@ tbl_SpellcastAnimationsForEnemies:
 
 ; Classes that use a special animation when using items.
 tbl_UseItemAnimationsForClasses:
-                
+
+                dc.w CLASS_WOLF, ALLYBATTLEANIMATION_SPECIAL_WOLF
+                dc.w CLASS_WLBR, ALLYBATTLEANIMATION_SPECIAL_WOLF_PROMO
                 tableEnd
 
 

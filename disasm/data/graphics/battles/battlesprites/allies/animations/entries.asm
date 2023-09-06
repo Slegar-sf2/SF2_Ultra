@@ -132,6 +132,8 @@ pt_AllyAnimations:
                 dc.l AllyAnimation127
                 dc.l AllyAnimation128
                 dc.l AllyAnimation129
+                dc.l AllyAnimation130
+                dc.l AllyAnimation131
 AllyAnimation000:
                 incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation000.bin"
 AllyAnimation001:
@@ -391,4 +393,8 @@ AllyAnimation127:
 AllyAnimation128:
                 incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation128.bin"	
 AllyAnimation129:
-                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation129.bin"	
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation129.bin"
+AllyAnimation130:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation130.bin"
+AllyAnimation131:
+                incbin "data/graphics/battles/battlesprites/allies/animations/allybattlespriteanimation131.bin"
