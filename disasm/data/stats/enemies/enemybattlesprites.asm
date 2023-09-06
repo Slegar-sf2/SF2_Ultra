@@ -134,4 +134,4 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 73, 0 ; 123 DOMINGO
                 enemyBattleSprAndPlt 75, 0 ; 124 BIRDMAN
                 enemyBattleSprAndPlt 81, 1 ; 125 SILVER DRAGON
-                enemyBattleSprAndPlt 81, 1 ; 126 KING DAKU
+                enemyBattleSprAndPlt 105, 0 ; 126 KING DAKU

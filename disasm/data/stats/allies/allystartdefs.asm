@@ -261,11 +261,11 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass WIZ        ; 31 ASTRAL
-                startLevel 3
+                startClass GRDR       ; 31 BLEU
+                startLevel 8
                 startItems &
-                    HOLY_STAFF|EQUIPPED, &
-                    ELIXIR, &
-                    ELIXIR, &
-                    STRIKE
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
                 

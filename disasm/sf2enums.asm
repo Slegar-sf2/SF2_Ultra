@@ -3670,7 +3670,7 @@ ALLY_CRAY: equ $1B
 ALLY_LEMON: equ $1C
 ALLY_CLAUDE: equ $1D
 ALLY_SHADE: equ $1E
-ALLY_ASTRAL: equ $1F
+ALLY_BLEU: equ $1F
 
 ; ---------------------------------------------------------------------------
 

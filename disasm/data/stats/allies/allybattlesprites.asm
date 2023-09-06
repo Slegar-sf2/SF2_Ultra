@@ -166,8 +166,8 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt SNII, 33, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 
-; 31: ASTRAL
-                allyBattleSprAndPlt WIZ, 38, 0
+; 31: Bleu
+                allyBattleSprAndPlt GRDR, 52, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 

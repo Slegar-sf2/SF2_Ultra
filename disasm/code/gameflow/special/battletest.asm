@@ -29,7 +29,7 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
 				moveq   #ALLY_CRAY,d0
                 bsr.w   j_JoinForce
-				moveq   #ALLY_LEMON,d0
+				moveq   #ALLY_BLEU,d0
                 bsr.w   j_JoinForce
 				
 				
