@@ -190,7 +190,7 @@ ExecuteIndividualTurn:
 @LoadNATASHAFlameBreathSpellEntry:
                 
                 lsl.w   #6,d0
-                ori.w   #SPELL_NATASHA,d0
+                ori.w   #SPELL_DRAGON,d0
                 move.w  d0,((BATTLEACTION_ITEM_OR_SPELL-$1000000)).w
 @CheckFairyWoodsBattle:
                 

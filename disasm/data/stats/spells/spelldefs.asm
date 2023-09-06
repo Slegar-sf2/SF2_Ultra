@@ -872,7 +872,7 @@ tbl_SpellDefs:
                 radius     1
                 power      41
                 
-                entry      NATASHA         ; KIWI 1
+                entry      DRAGON         ; KIWI 1
                 mpCost     0
                 animation  FLAME_BREATH|VARIATION3
                 properties TYPE_ATTACK
@@ -880,7 +880,7 @@ tbl_SpellDefs:
                 radius     0
                 power      28
                 
-                entry      NATASHA|LV2     ; KIWI 2
+                entry      DRAGON|LV2     ; KIWI 2
                 mpCost     0
                 animation  FLAME_BREATH|VARIATION3
                 properties TYPE_ATTACK
@@ -888,7 +888,7 @@ tbl_SpellDefs:
                 radius     0
                 power      36
                 
-                entry      NATASHA|LV3     ; KIWI 3
+                entry      DRAGON|LV3     ; KIWI 3
                 mpCost     0
                 animation  FLAME_BREATH|VARIATION3
                 properties TYPE_ATTACK
@@ -896,7 +896,7 @@ tbl_SpellDefs:
                 radius     0
                 power      45
                 
-                entry      NATASHA|LV4     ; KIWI 4
+                entry      DRAGON|LV4     ; KIWI 4
                 mpCost     0
                 animation  FLAME_BREATH|VARIATION3
                 properties TYPE_ATTACK
@@ -985,7 +985,7 @@ tbl_SpellDefs:
                 range      1, 7
                 radius     0
                 power      40
-				
+
                 entry      TORNADO               ; TORNADO
                 mpCost     16
                 animation  BLAST|VARIATION4

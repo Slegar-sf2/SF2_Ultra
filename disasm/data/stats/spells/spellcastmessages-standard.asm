@@ -6,7 +6,7 @@ tbl_SpellcastMessagesForIndexes:
                 
                 dc.w SPELL_SPOIT, MESSAGE_SPELLCAST_PUT_ON_A_DEMON_SMILE    ; {NAME} put on{N}a demon's smile.
                 dc.w SPELL_FLAME, MESSAGE_SPELLCAST_BELCHED_OUT_FLAMES      ; {NAME} belched{N}out flames!
-                dc.w SPELL_NATASHA, MESSAGE_SPELLCAST_BELCHED_OUT_FLAMES       ; {NAME} belched{N}out flames!
+                dc.w SPELL_DRAGON, MESSAGE_SPELLCAST_BELCHED_OUT_FLAMES       ; {NAME} belched{N}out flames!
                 dc.w SPELL_SNOW, MESSAGE_SPELLCAST_BLEW_OUT_A_SNOWSTORM     ; {NAME} blew out{N}a snowstorm!
                 dc.w SPELL_DEMON, MESSAGE_SPELLCAST_CAST_DEMON_BREATH       ; {NAME} cast{N}demon breath!
                 dc.w SPELL_ODDEYE, MESSAGE_SPELLCAST_ODD_EYE_BEAM           ; Odd-eye beam!

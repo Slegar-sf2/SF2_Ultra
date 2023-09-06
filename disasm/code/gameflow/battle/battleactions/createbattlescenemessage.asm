@@ -44,7 +44,7 @@ CreateBattlesceneMessage:
                 move.w  #MESSAGE_SPELLCAST_BELCHED_OUT_FLAMES,d1 ; {NAME} belched{N}out flames!
                 cmpi.w  #SPELL_FLAME,d2
                 beq.w   @SpellcastMessage
-                cmpi.w  #SPELL_NATASHA,d2
+                cmpi.w  #SPELL_DRAGON,d2
                 beq.w   @SpellcastMessage
                 move.w  #MESSAGE_SPELLCAST_BLEW_OUT_A_SNOWSTORM,d1 ; {NAME} blew out{N}a snowstorm!
                 cmpi.w  #SPELL_SNOW,d2

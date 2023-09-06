@@ -18,7 +18,7 @@ tbl_AiExcludedAttackSpells:
                 dc.b SPELL_ICE
                 dc.b SPELL_THUNDR
                 dc.b SPELL_AQUA
-                dc.b SPELL_NATASHA
+                dc.b SPELL_DRAGON
                 dc.b SPELL_ODDEYE
                 
                 tableEnd.b
@@ -43,7 +43,7 @@ tbl_AiExcludedItemUseAttackSpells:
                 dc.b SPELL_ICE
                 dc.b SPELL_THUNDR
                 dc.b SPELL_AQUA
-                dc.b SPELL_NATASHA
+                dc.b SPELL_DRAGON
                 dc.b SPELL_ODDEYE
                 
                 tableEnd.b
