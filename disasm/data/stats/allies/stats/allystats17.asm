@@ -2,8 +2,8 @@
 ; ASM FILE data\stats\allies\stats\allystats17.asm :
 ; 0x1EE628..0x1EE685 : Ally stats 17
 AllyStats17:    forClass  MAGG   ; WENDY
-                hpGrowth  10, 56, LINEAR
-                mpGrowth  7, 36, EARLY
+                hpGrowth  10, 42, LINEAR
+                mpGrowth  7, 65, EARLY
                 attGrowth 4, 29, LINEAR
                 defGrowth 4, 30, LINEAR
                 agiGrowth 5, 40, LINEAR
@@ -24,8 +24,8 @@ AllyStats17:    forClass  MAGG   ; WENDY
                     59, KATON|LV4
                 
                 forClass  WIZZ
-                hpGrowth  56, 115, LINEAR
-                mpGrowth  36, 80, LINEAR
+                hpGrowth  42, 95, LINEAR
+                mpGrowth  65, 135, LINEAR
                 attGrowth 29, 55, EARLYANDLATE
                 defGrowth 30, 59, EARLY
                 agiGrowth 40, 76, LINEAR
