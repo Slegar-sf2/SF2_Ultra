@@ -130,7 +130,8 @@ tbl_EnemyMapSprites:
                 mapSprite DARKSOL        ; 122 DARSOL
                 mapSprite DOMINGO        ; 123 DOMINGO
                 mapSprite BIRDMAN        ; 124 BIRDMAN
-                mapSprite SILVER_DRAGON	 ; 125 SILVER DRAGON			
+                mapSprite SILVER_DRAGON	 ; 125 SILVER DRAGON
+                mapSprite KING_DAKU	     ; 126 KING DAKU
                 mapSprite NPC_ROHDE    
                 mapSprite FLAME1
                 mapSprite ORB

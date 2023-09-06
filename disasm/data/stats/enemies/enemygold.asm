@@ -127,7 +127,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 2555               ; DOMINGO
                 dc.w 1150               ; BIRDMAN
                 dc.w 1240               ; SILVER DRAGON
-                dc.w 2304
+                dc.w 2000               ; KING DAKU
                 dc.w 0
                 dc.w 0
                 dc.w 0

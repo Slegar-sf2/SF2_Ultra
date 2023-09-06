@@ -2912,7 +2912,7 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 115 WARDERER
                 spellPower ENHANCED
                 level    70
-                maxHp    220
+                maxHp    256
                 maxMp    64
                 baseAtt  120
                 baseDef  122
@@ -3087,7 +3087,7 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 122 DARKSOL
                 spellPower ENHANCED
                 level    70
-                maxHp    390
+                maxHp    490
                 maxMp    200
                 baseAtt  153
                 baseDef  130
@@ -3182,4 +3182,29 @@ tbl_EnemyDefs:
                     NOTHING
                 initialStatus NONE
                 moveType      FLYING
+                unknownWord   0
+                    
+                unknownByte 0           ; 126: KING DAKU
+                spellPower ENHANCED
+                level    70
+                maxHp    280
+                maxMp    0
+                baseAtt  104
+                baseDef  125
+                baseAgi  177
+                baseMov  4
+                baseResistance WIND_MINOR|LIGHTNING_MAJOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
+                baseProwess    CRITICAL_STUN|DOUBLE_1IN32|COUNTER_1IN4
+                items &
+                    BATTLE_AXE|EQUIPPED, &
+                    BOMB, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    ODDEYE, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      REGULAR
                 unknownWord   0

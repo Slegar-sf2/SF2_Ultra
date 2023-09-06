@@ -23,6 +23,12 @@ GetAllyAnimation:
                 cmpi.w  #ALLYBATTLESPRITE_PLDN,((BATTLESCENE_ALLYBATTLEANIMATION-$1000000)).w
                 beq.w   @CheckSpearWeaponsprites
                 addq.w  #1,d2
+                cmpi.w  #ALLYBATTLESPRITE_KENT,((BATTLESCENE_ALLYBATTLEANIMATION-$1000000)).w
+                beq.w   @CheckSpearWeaponsprites
+                addq.w  #1,d2
+                cmpi.w  #ALLYBATTLESPRITE_PALA,((BATTLESCENE_ALLYBATTLEANIMATION-$1000000)).w
+                beq.w   @CheckSpearWeaponsprites
+                addq.w  #1,d2
                 cmpi.w  #ALLYBATTLESPRITE_PGNT,((BATTLESCENE_ALLYBATTLEANIMATION-$1000000)).w
                 bne.w   @CheckSpecialAnimation
 @CheckSpearWeaponsprites:

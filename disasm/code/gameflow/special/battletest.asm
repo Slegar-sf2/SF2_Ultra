@@ -21,7 +21,7 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
                 moveq   #ALLY_ZYNK,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_TAYA,d0
+                moveq   #ALLY_DAWN,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_SKREECH,d0
                 bsr.w   j_JoinForce
