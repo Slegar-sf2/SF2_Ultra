@@ -1,7 +1,7 @@
 
 ; ASM FILE data\stats\allies\stats\allystats01.asm :
 ; 0x1EE31C..0x1EE36B : Ally stats 31
-AllyStats31:    forClass  WIZ   ; ASTRAL
+AllyStats31:    forClass  GRDR   ; BLEU
                 hpGrowth  50, 135, LINEAR
                 mpGrowth  40, 100, EARLY
                 attGrowth 32, 65, LINEAR

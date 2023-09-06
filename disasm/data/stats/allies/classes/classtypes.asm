@@ -51,7 +51,7 @@ tbl_ClassTypes:
                 classType PROMO         ; 43: WIZZ
                 classType PROMO         ; 44: WLBR 
                 classType PROMO         ; 45: GLDD
-                classType PROMO         ; 46: 
+                classType PROMO         ; 46: GRDR
                 classType PROMO         ; 47: 
                 classType PROMO         ; 48: 
                 classType PROMO         ; 49: 

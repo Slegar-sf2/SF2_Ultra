@@ -15,7 +15,6 @@ AllyStats17:    forClass  MAGG   ; WENDY
                     5, FREEZE, &
                     15, FREEZE|LV2, &
                     37, FREEZE|LV3, &
-                    48, FREEZE|LV4, &
                     34, BOLT|LV2, &
                     54, BOLT|LV3, &
                     60, BOLT|LV4, &
