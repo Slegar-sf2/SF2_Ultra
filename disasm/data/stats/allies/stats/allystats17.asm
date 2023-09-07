@@ -10,8 +10,8 @@ AllyStats17:    forClass  MAGG   ; WENDY
                 spellList &
                      1, BLAZE, &
                     11, BLAZE|LV2, &
-                    41, BLAZE|LV3, &
-                    24, BLAZE|LV4, &
+                    20, BLAZE|LV3, &
+                    50, BLAZE|LV4, &
                     5, FREEZE, &
                     15, FREEZE|LV2, &
                     37, FREEZE|LV3, &

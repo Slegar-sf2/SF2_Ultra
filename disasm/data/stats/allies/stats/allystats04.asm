@@ -3,7 +3,7 @@
 ; 0x1EE3D1..0x1EE426 : Ally stats 04
 AllyStats04:    forClass  MAGE   ; KAZIN
                 hpGrowth  10, 59, LINEAR
-                mpGrowth  7, 38, EARLY
+                mpGrowth  7, 32, EARLY
                 attGrowth 4, 18, LINEAR
                 defGrowth 4, 28, LINEAR
                 agiGrowth 6, 40, LINEAR
@@ -23,16 +23,16 @@ AllyStats04:    forClass  MAGE   ; KAZIN
                     50, DISPEL
                     
                 forClass  WIZ
-                hpGrowth  59, 97, LATE
-                mpGrowth  38, 70, LINEAR
+                hpGrowth  59, 109, LATE
+                mpGrowth  32, 70, LINEAR
                 attGrowth 18, 50, LINEAR
                 defGrowth 28, 70, LINEAR
                 agiGrowth 40, 86, EARLYANDLATE
                 useFirstSpellList
                     
                 forClass  SORC
-                hpGrowth  59, 107, LATE
-                mpGrowth  38, 75, LINEAR
+                hpGrowth  59, 88, LATE
+                mpGrowth  32, 115, LINEAR
                 attGrowth 18, 50, LINEAR
                 defGrowth 28, 66, LINEAR
                 agiGrowth 40, 70, EARLYANDLATE
