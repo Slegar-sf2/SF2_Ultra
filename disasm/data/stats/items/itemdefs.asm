@@ -1632,16 +1632,16 @@ tbl_ItemDefs:
                              DECREASE_MOV, 1, &
                              DECREASE_DEF, 9
                 
-                ; 146: 
-                equipFlags   NONE
+                ; 146: HYPER_JAHA
+                equipFlags   WARR|GLDT|BRN
                 equipFlags2  NONE
                 range        0, 0
-                price        0
-                itemType     NONE
+                price        13500
+                itemType     RING|RARE
                 useSpell     NOTHING
-                equipEffects NONE, 0, &
-                             NONE, 0, &
-                             NONE, 0
+                equipEffects INCREASE_ATT, 5, &
+                             INCREASE_DEF, 8, &
+                             INCREASE_MOV, 2
                 
                 ; 147: 
                 equipFlags   NONE

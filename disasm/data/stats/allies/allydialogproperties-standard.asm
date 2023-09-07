@@ -166,12 +166,12 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx CLAUDE, DIALOG_BLEEP_7
                 
             if (EXPANDED_FORCE_MEMBERS=1)
-; 30: 
+; 30: SHADE
                 allyPortraitAndSfx SHADE, DIALOG_BLEEP_5
                 allyPortraitAndSfx SHADE, DIALOG_BLEEP_5
                 allyPortraitAndSfx SHADE, DIALOG_BLEEP_5
                 
-; 31: 
+; 31: BLEU
                 allyPortraitAndSfx BLEU_PROMO, DIALOG_BLEEP_6
                 allyPortraitAndSfx BLEU_PROMO, DIALOG_BLEEP_6
                 allyPortraitAndSfx BLEU_PROMO, DIALOG_BLEEP_6
