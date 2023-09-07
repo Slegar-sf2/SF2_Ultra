@@ -518,7 +518,7 @@ tbl_EnemyDefs:
                 baseDef  64
                 baseAgi  38
                 baseMov  6
-                baseResistance ICE_WEAKNESS|FIRE_MINOR|STATUS_IMMUNITY
+                baseResistance ICE_WEAKNESS|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN32|COUNTER_1IN16
                 items &
                     LARGE_AXE|EQUIPPED, &

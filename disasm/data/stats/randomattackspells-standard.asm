@@ -5,12 +5,12 @@
 tbl_RandomAttackSpellsForClasses:
                 
                 ; Class index, n/256 chance to cast, upgrade levels 1, 2, 3, spell index
-                dc.b CLASS_GRDR, 192, 0, 128, 0, SPELL_DRAGON
+                dc.b CLASS_GRDR, 64, 32, 40, 50, SPELL_DRAGON
                 
                 tableEnd.b
 
 
 ; Same as above, but for enemies.
 tbl_RandomAttackSpellsForEnemies:
-                ;dc.b ENEMY_RUSEPHINE, 192, 0, 128, 0, SPELL_BLACK_MAGIC
+                dc.b ENEMY_LIZARDMAN, 64, 32, 64, 32, SPELL_BLAZE
                 tableEnd.b

@@ -123,7 +123,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
                 mov 5                   ; 23: SORC
-                resistance WIND_WEAKNESS|LIGHTNING_NONE|ICE_MAJOR|FIRE_MAJOR|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_WEAKNESS|LIGHTNING_NONE|ICE_MAJOR|FIRE_MINOR|NEUTRAL_NONE|STATUS_NONE
                 moveType   MAGE
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
