@@ -87,7 +87,7 @@ tbl_ClassDefs:
                 moveType   STEALTH
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 5                   ; 16: WARU
+                mov 4                   ; 16: WARU
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN16

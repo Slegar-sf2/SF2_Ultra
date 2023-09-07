@@ -11,15 +11,15 @@ AllyStats17:    forClass  MAGG   ; WENDY
                      1, BLAZE, &
                     11, BLAZE|LV2, &
                     41, BLAZE|LV3, &
-                    56, BLAZE|LV4, &
+                    24, BLAZE|LV4, &
                     5, FREEZE, &
                     15, FREEZE|LV2, &
                     37, FREEZE|LV3, &
-                    34, BOLT|LV2, &
-                    54, BOLT|LV3, &
-                    60, BOLT|LV4, &
+                    29, ATTACK, &
+                    32, ATTACK|LV2, &
                     23, KATON, &
                     35, KATON|LV2, &
+                    33, SLEEP, &
                     45, KATON|LV3, &
                     59, KATON|LV4
                 

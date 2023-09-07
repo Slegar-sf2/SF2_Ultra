@@ -251,7 +251,7 @@ tbl_SpellDefs:
                 mpCost     4
                 animation  DEBUFF1
                 properties TYPE_SUPPORT|AFFECTEDBYSILENCE
-                range      1, 2
+                range      1, 1
                 radius     1
                 power      0
                 
