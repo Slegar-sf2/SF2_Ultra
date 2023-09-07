@@ -22,4 +22,12 @@
                   sbcSource 63, 63
                   sbcSize   1, 1
                   sbcDest   25, 26
+                sbc 24, 17
+                  sbcSource 63, 63
+                  sbcSize   1, 1
+                  sbcDest   24, 17
+                sbc 25, 17
+                  sbcSource 63, 63
+                  sbcSize   1, 1
+                  sbcDest   25, 17
                 endWord

@@ -40,6 +40,7 @@ tbl_SpellcastAnimationsForClasses:
                 
                 dc.w CLASS_MNST, ALLYBATTLEANIMATION_SPECIAL_MNST
 				dc.w CLASS_MONK, ALLYBATTLEANIMATION_SPECIAL_MONK
+                dc.w CLASS_GRDR, ALLYBATTLEANIMATION_SPECIAL_GRDR
                 
                 tableEnd
 

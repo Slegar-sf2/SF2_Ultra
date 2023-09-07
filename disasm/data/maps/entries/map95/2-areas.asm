@@ -9,7 +9,7 @@
                     mainLayerAutoscroll 0, 0
                     scndLayerAutoscroll 0, 0
                     mainLayerType    0
-                    areaDefaultMusic 8
+                    areaDefaultMusic 42
                 
                     mainLayerStart      0, 52
                     mainLayerEnd        10, 62
@@ -20,7 +20,7 @@
                     mainLayerAutoscroll 0, 0
                     scndLayerAutoscroll 0, 0
                     mainLayerType    0
-                    areaDefaultMusic 8
+                    areaDefaultMusic 42
                 
                     mainLayerStart      12, 49
                     mainLayerEnd        26, 63
@@ -31,5 +31,16 @@
                     mainLayerAutoscroll 0, 0
                     scndLayerAutoscroll 0, 0
                     mainLayerType    0
-                    areaDefaultMusic 8
+                    areaDefaultMusic 42
+                
+                    mainLayerStart      26, 49
+                    mainLayerEnd        38, 63
+                    scndLayerFgndStart  0, 0
+                    scndLayerBgndStart  0, 0
+                    mainLayerParallax   256, 256
+                    scndLayerParallax   256, 256
+                    mainLayerAutoscroll 0, 0
+                    scndLayerAutoscroll 0, 0
+                    mainLayerType    0
+                    areaDefaultMusic 42
                 endWord
