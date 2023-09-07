@@ -166,7 +166,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass PALA         ; 19: DAWN
-                startLevel 6
+                startLevel 5
                 startItems &
                     JAVELIN|EQUIPPED, &
                     HELMET, &
@@ -262,7 +262,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass GRDR       ; 31 BLEU
-                startLevel 8
+                startLevel 6
                 startItems &
                     NOTHING, &
                     NOTHING, &

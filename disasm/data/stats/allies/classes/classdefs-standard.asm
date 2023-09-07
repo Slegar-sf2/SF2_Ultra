@@ -8,7 +8,7 @@ tbl_ClassDefs:
 ;               prowess    [PROWESS_]bitfield
                 
                 mov 5                   ; 0: SDMN
-                resistance WIND_WEAKNESS|LIGHTNING_MINOR|ICE_WEAKNESS|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_NONE|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL125_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 
@@ -62,7 +62,7 @@ tbl_ClassDefs:
                 moveType   REGULAR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN16|COUNTER_1IN32
                 
-                mov 5                   ; 11: SWOR
+                mov 6                   ; 11: SWOR
                 resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_NONE|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   STEALTH
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
@@ -93,7 +93,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN16
                                                                                                     
                 mov 6                   ; 17: HERO
-                resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_WEAKNESS|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_NONE|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN16|COUNTER_1IN8
                 
@@ -235,12 +235,12 @@ tbl_ClassDefs:
                 prowess    CRITICAL150_1IN16|DOUBLE_1IN8|COUNTER_1IN16
 
                 mov 4                   ; 45: GLDD
-                resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_MINOR
                 moveType   REGULAR
                 prowess    CRITICAL150_1IN32|DOUBLE_1IN8|COUNTER_1IN16
                 
                 mov 6                   ; 46: GRDR
-                resistance WIND_MAJOR|LIGHTNING_NONE|ICE_WEAKNESS|FIRE_MAJOR|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_WEAKNESS|FIRE_MAJOR|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   FLYING
                 prowess    CRITICAL_MUDDLE|DOUBLE_1IN16|COUNTER_1IN4
                     
