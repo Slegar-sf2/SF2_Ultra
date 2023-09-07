@@ -46,9 +46,9 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx SLADE_PROMO, DIALOG_BLEEP_6
                 
 ; 6: NATASHA
-                allyPortraitAndSfx NATASHA_PROMO,  DIALOG_BLEEP_3
-                allyPortraitAndSfx NATASHA_PROMO, DIALOG_BLEEP_3
-                allyPortraitAndSfx NATASHA_PROMO,  DIALOG_BLEEP_3
+                allyPortraitAndSfx 55,  DIALOG_BLEEP_3
+                allyPortraitAndSfx 55, DIALOG_BLEEP_3
+                allyPortraitAndSfx 55,  DIALOG_BLEEP_3
                 
 ; 7: Peter
                 allyPortraitAndSfx PETER_BASE,  DIALOG_BLEEP_4
@@ -111,9 +111,9 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx JANET, DIALOG_BLEEP_4
                 
 ; 19: Dawn
-                allyPortraitAndSfx DAWN, DIALOG_BLEEP_6
-                allyPortraitAndSfx DAWN, DIALOG_BLEEP_6
-                allyPortraitAndSfx DAWN, DIALOG_BLEEP_6
+                allyPortraitAndSfx DAWN, DIALOG_BLEEP_3
+                allyPortraitAndSfx DAWN, DIALOG_BLEEP_3
+                allyPortraitAndSfx DAWN, DIALOG_BLEEP_3
                 
 ; 20: Skreech
                 allyPortraitAndSfx SKREECH, DIALOG_BLEEP_5
@@ -151,9 +151,9 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx ZYNK, 112
                 
 ; 27: CRAY
-                allyPortraitAndSfx CRAY, DIALOG_BLEEP_2
-                allyPortraitAndSfx CRAY, DIALOG_BLEEP_2
-                allyPortraitAndSfx CRAY, DIALOG_BLEEP_2
+                allyPortraitAndSfx CRAY, DIALOG_BLEEP_6
+                allyPortraitAndSfx CRAY, DIALOG_BLEEP_6
+                allyPortraitAndSfx CRAY, DIALOG_BLEEP_6
                 
 ; 28: Lemon
                 allyPortraitAndSfx LEMON, DIALOG_BLEEP_6
@@ -172,8 +172,8 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx SHADE, DIALOG_BLEEP_5
                 
 ; 31: 
-                allyPortraitAndSfx ASTRAL, DIALOG_BLEEP_6
-                allyPortraitAndSfx ASTRAL, DIALOG_BLEEP_6
-                allyPortraitAndSfx ASTRAL, DIALOG_BLEEP_6
+                allyPortraitAndSfx BLEU_PROMO, DIALOG_BLEEP_6
+                allyPortraitAndSfx BLEU_PROMO, DIALOG_BLEEP_6
+                allyPortraitAndSfx BLEU_PROMO, DIALOG_BLEEP_6
                 
             endif

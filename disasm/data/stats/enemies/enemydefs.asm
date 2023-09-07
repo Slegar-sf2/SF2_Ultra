@@ -2063,13 +2063,13 @@ tbl_EnemyDefs:
                 spellPower ENHANCED
                 level    28
                 maxHp    64
-                maxMp    60
+                maxMp    70
                 baseAtt  35
                 baseDef  53
                 baseAgi  34
                 baseMov  5
                 baseResistance WIND_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
+                baseProwess    CRITICAL150_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 items &
                     INDRA_STAFF|EQUIPPED, &
                     NOTHING, &
@@ -3207,4 +3207,29 @@ tbl_EnemyDefs:
                     NOTHING
                 initialStatus NONE
                 moveType      REGULAR
+                unknownWord   0
+                    
+                unknownByte 0          ; 127 Ghost
+                spellPower ENHANCED
+                level    34
+                maxHp    90
+                maxMp    32
+                baseAtt  66
+                baseDef  36
+                baseAgi  39
+                baseMov  6
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
+                baseProwess    CRITICAL_MUDDLE|DOUBLE_1IN32|COUNTER_1IN16
+                items &
+                    SNOWFLAKE, &
+                    BOMB, &
+                    ATTACK_RING|EQUIPPED, &
+                    NOTHING
+                spells &
+                    DESOUL, &
+                    AURA|lV3, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      FLYING
                 unknownWord   0

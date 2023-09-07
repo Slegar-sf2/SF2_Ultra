@@ -664,6 +664,7 @@ ENEMY_DOMINGO: equ $7B
 ENEMY_EVIL_BIRDMAN: equ $7C
 ENEMY_SILVER_DRAGON: equ $7D
 ENEMY_KING_DAKU: equ $7E
+ENEMY_GHOST: equ $7F
 
 ; ---------------------------------------------------------------------------
 
@@ -3467,7 +3468,7 @@ MAPSPRITE_GESHP: equ $9F
 MAPSPRITE_ODD_EYE: equ $A0
 MAPSPRITE_DAVA: equ $A1
 MAPSPRITE_WOLF: equ $A2
-MAPSPRITE_GALAM_ZEON: equ $A3
+MAPSPRITE_GHOST: equ $A3
 MAPSPRITE_GALAM_EVIL: equ $A4
 MAPSPRITE_INCUBUS: equ $A5
 MAPSPRITE_MAGE:    equ $A6
