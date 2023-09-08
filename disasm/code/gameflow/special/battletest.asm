@@ -68,7 +68,7 @@ byte_77DE:
                 txt     456             ; "Battle number?{D1}"
                 clr.w   d0
                 clr.w   d1
-                move.w  #59,d2
+                move.w  #70,d2
                 jsr     j_NumberPrompt
                 clsTxt
                 tst.w   d0

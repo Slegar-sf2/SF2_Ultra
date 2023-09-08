@@ -62,3 +62,5 @@ rpt_BeforeBattleCutscenes:
                 dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF ;battle 56
                 dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF ;battle 57
                 dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF ;battle 58
+                dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF ;battle 59
+                dc.w (ms_Empty-rpt_BeforeBattleCutscenes) & $FFFF ;battle 60
