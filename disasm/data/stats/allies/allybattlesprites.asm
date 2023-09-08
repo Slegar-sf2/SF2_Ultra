@@ -79,7 +79,7 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt WLBR, 51, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 
-; 14: APIS
+; 14: MARILL
                 allyBattleSprAndPlt KENT, KENT, 3
                 allyBattleSprAndPlt PALA, PALA, 3
                 allyBattleSprAndPlt NONE, NONE, 2

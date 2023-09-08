@@ -268,8 +268,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 22: Running Ring
-                equipFlags   ALL
-                equipFlags2  NONE
+                equipFlags   WARR|GLDT|BRN
+                equipFlags2  MOUS
                 range        0, 0
                 price        3000
                 itemType     RING|RARE

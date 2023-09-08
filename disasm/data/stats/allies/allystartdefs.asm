@@ -125,11 +125,11 @@ tbl_AllyStartDefs:
                     BRAVE_APPLE, &
                     NOTHING
                 
-                startClass KENT         ; 14: APIS
-                startLevel 30
+                startClass MOUS         ; 14: MARILL
+                startLevel 1
                 startItems &
-                    SPEAR|EQUIPPED, &
-                    HEALING_BERRIES, &
+                    NOTHING, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING
                 

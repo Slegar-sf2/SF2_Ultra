@@ -553,7 +553,7 @@ cs_5B466:       textCursor 1932
                 setPos ALLY_PETER,15,22,UP
                 setPos FOLLOWER_B,16,22,UP
                 setPos 130,16,23,UP
-                hide ALLY_APIS
+                hide ALLY_MARILL
                 hide ALLY_GRAHAM
                 setCameraEntity 129
                 entityActionsWait 129

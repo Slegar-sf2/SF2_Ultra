@@ -15,7 +15,7 @@ pt_AllyStats:   dc.l AllyStats00        ; BOWIE
                 dc.l AllyStats11        ; ROHDE
                 dc.l AllyStats12        ; DEANNA
                 dc.l AllyStats13        ; ZYLO
-                dc.l AllyStats14        ; APIS
+                dc.l AllyStats14        ; MARILL
                 dc.l AllyStats15        ; GRAHAM
                 dc.l AllyStats16        ; RUCE
                 dc.l AllyStats17        ; WENDY

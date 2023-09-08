@@ -244,10 +244,10 @@ tbl_ClassDefs:
                 moveType   FLYING
                 prowess    CRITICAL_MUDDLE|DOUBLE_1IN16|COUNTER_1IN4
                     
-                mov 6                   ; 47: 
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
-                moveType   REGULAR
-                prowess    CRITICAL_NONE|DOUBLE_1IN32|COUNTER_1IN32
+                mov 5                   ; 47: MOUS
+                resistance WIND_NONE|LIGHTNING_WEAKNESS|ICE_MAJOR|FIRE_MINOR|NEUTRAL_NONE|STATUS_NONE
+                moveType   STEALTH
+                prowess    CRITICAL125_1IN16|DOUBLE_1IN16|COUNTER_1IN16|DOUBLE_1IN16|COUNTER_1IN16
                     
                 mov 6                   ; 48: 
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE

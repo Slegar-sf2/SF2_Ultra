@@ -79,9 +79,9 @@ tbl_AllyMapSprites:
                 mapSprite ZYLO_PROMO
                 mapSprite DEFAULT
                 
-; 14: APIS
-                mapSprite APIS_BASE
-                mapSprite APIS_PROMO
+; 14: MARILL
+                mapSprite MARILL_BASE
+                mapSprite MARILL_BASE
                 mapSprite DEFAULT
                 
 ; 15: GRAHAM

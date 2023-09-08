@@ -49,4 +49,5 @@ tbl_FullClassNames:
                 className "Wolf", 13, "Baron"
                 className "Gladiator"
                 className "Great", 13, "Dragon"
+                className "Aqua", 13, "Mouse"
 				
