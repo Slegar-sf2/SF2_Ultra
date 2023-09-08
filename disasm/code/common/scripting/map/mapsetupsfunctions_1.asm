@@ -381,7 +381,7 @@ GetCurrentMapSetup:
                 movem.l d0-d1/a1,-(sp)
                 clr.w   d0
                 getSavedByte CURRENT_MAP, d0
-                lea     MapSetups(pc), a1
+                lea     MapSetups, a1
 loc_477AC:
                 
                 cmpi.w  #$FFFF,(a1)
