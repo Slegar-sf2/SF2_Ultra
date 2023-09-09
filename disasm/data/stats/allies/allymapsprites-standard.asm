@@ -80,8 +80,8 @@ tbl_AllyMapSprites:
                 mapSprite DEFAULT
                 
 ; 14: MARILL
-                mapSprite MARILL_BASE
-                mapSprite MARILL_BASE
+                mapSprite DEFAULT
+                mapSprite MARILL_PROMO
                 mapSprite DEFAULT
                 
 ; 15: GRAHAM

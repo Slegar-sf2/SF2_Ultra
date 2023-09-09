@@ -537,10 +537,10 @@ tbl_EnemyDefs:
                 unknownByte 20          ; 20: WORM
                 spellPower ENHANCED
                 level    33
-                maxHp    55
+                maxHp    59
                 maxMp    0
                 baseAtt  80
-                baseDef  70
+                baseDef  76
                 baseAgi  34
                 baseMov  5
                 baseResistance FIRE_WEAKNESS
@@ -2763,16 +2763,16 @@ tbl_EnemyDefs:
                 spellPower ENHANCED
                 level    37
                 maxHp    135
-                maxMp    70
-                baseAtt  70
-                baseDef  75
+                maxMp    45
+                baseAtt  72
+                baseDef  77
                 baseAgi  160
                 baseMov  6
-                baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
+                baseResistance WIND_MINOR|LIGHTNING_MAJOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_SILENCE|DOUBLE_1IN8|COUNTER_1IN4
                 items &
                     BATTLE_AXE|EQUIPPED, &
-                    NOTHING, &
+                    SNOWFLAKE, &
                     NOTHING, &
                     NOTHING
                 spells &

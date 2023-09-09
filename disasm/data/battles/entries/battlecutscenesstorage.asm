@@ -12,7 +12,7 @@
 				include "data\battles\entries\battle46\cs_afterbattle.asm"    ; Cutscene after battle 46
                 include "data\battles\entries\battle08\cs_beforebattle.asm"    ; Cutscene before battle 8
                 include "data\battles\entries\battle08\cs_afterbattle.asm"    ; Cutscene after battle 8
-                include "data\battles\entries\battle11\cs_beforebattle.asm"    ; Cutscene before battle 11
+                ;include "data\battles\entries\battle11\cs_beforebattle.asm"    ; Cutscene before battle 11
                 include "data\battles\entries\battle12\cs_battleend.asm"    ; Enemy defeated cutscene for battle 12
                 include "data\battles\entries\battle12\cs_afterbattle.asm"    ; Cutscene after battle 12
                 include "data\battles\entries\battle13\cs_afterbattle.asm"    ; Cutscene after battle 13
