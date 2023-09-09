@@ -295,14 +295,12 @@ byte_B350:
                 bsr.w   AddStatusEffectSpellExp
 WriteBattlesceneScript_SlowMessage:
                 
-                jsr     GetBaseDef            
-                mulu.w  #3,d1
-                lsr.l   #3,d1            
+                jsr     GetBaseDef                                      
+                move.w  #20,d1
                 displayMessage #MESSAGE_BATTLE_DEFENSE_DECREASED_BY,d0,#0,d1 
                                                         ; Message, Combatant, Item or Spell, Number
 	            jsr     GetBaseAtt            
-                mulu.w  #3,d1
-                lsr.l   #3,d1 
+                move.w  #35,d1
 				displayMessage #MESSAGE_BATTLE_BOOST_SPELL_ATT_DECREASE,d0,#0,d1
 				
                 rts

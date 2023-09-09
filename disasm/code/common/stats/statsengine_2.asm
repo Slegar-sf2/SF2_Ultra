@@ -999,15 +999,18 @@ ApplyStatusEffectsOnStats:
                 bsr.w   IncreaseCurrentDef     ;In: d1=amount to increase current defense
                 @NoBoost:
                 andi.w  #STATUSEFFECT_SLOW,d2
-                rol.w   #6,d2
-                bsr.w   GetBaseDef
-                mulu.w  d2,d1
-                lsr.l   #3,d1
+                move.w  d3,d2
+                tst.w   d2
+                beq.s   @DecreaseDefente
+                move.w  #20,d1 				
                 bsr.w   DecreaseCurrentDef
-                bsr.w   GetBaseAtt
-                mulu.w  d2,d1
-                lsr.l   #3,d1
+				@DecreaseDefente:
+                move.w  d3,d2
+                tst.w   d2
+                beq.s   @DecreaseAttacku
+                move.w  #35,d1 				
                 bsr.w   DecreaseCurrentAtt
+				@DecreaseAttacku:
                 btst    #STATUSEFFECT_BIT_STUN,d3
                 beq.s   @Return
                 moveq   #1,d1
