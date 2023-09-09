@@ -53,7 +53,7 @@ tbl_CustomBackgrounds:
                 background 38           ; 43: Versus Zeon
                 background FOREST       ; 44: Fairy Woods
 				background TOWN          ; 45: Battle
-                background 32            ; 46: Battle
+                background 32            ; 46: Battle битва на корабле
                 background OVERWORLD     ; 47: Battle
 				background 35            ; 48: Battle
 				background 37            ; 49: Battle
