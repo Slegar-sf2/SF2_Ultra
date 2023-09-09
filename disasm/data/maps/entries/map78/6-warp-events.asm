@@ -11,11 +11,6 @@
                   warpMap    MAP_PACALON
                   warpDest   21, 30
                   warpFacing UP
-                mWarp 22, 15
-                  warpNoScroll
-                  warpMap    MAP_PACALON
-                  warpDest   21, 30
-                  warpFacing UP
                 mWarp 255, 0
                   warpScroll UP
                   warpMap    MAP_OVERWORLD_MOUN_AND_MITULA
