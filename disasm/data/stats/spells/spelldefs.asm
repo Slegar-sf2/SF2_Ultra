@@ -1032,8 +1032,39 @@ tbl_SpellDefs:
                 properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      0, 1
                 radius     0
-                power      55
-				
+                power      55				
+                
+                entry      HYPER_HEAL       ; HYPER_HEAL 1
+                mpCost     0
+                animation  HEALING_FAIRY|VARIATION4
+                properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
+                range      1, 1
+                radius     2
+                power      1
+
+                entry      HYPER_HEAL|LV2     ; HYPER_HEAL 2
+                mpCost     10
+                animation  HEALING_FAIRY|VARIATION4
+                properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
+                range      1, 1
+                radius     3
+                power      9
+                
+                entry      HYPER_HEAL|LV3     ; HYPER_HEAL 3
+                mpCost     15
+                animation  HEALING_FAIRY|VARIATION4
+                properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
+                range      1, 1
+                radius     3
+                power      15
+                
+                entry      HYPER_HEAL|LV4     ; HYPER_HEAL 4
+                mpCost     22
+                animation  HEALING_FAIRY|VARIATION4
+                properties TYPE_HEAL|TARGET_TEAMMATES|AFFECTEDBYSILENCE
+                range      1, 1
+                radius     3
+                power      28
 				
                 ; Fill out table with dummy entries
                 dcb.b (SPELLDEF_ENTRY_SIZE*252)-(*-tbl_SpellDefs),0

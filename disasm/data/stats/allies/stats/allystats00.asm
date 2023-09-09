@@ -27,7 +27,7 @@ AllyStats00:
                 defGrowth 4, 35, LINEAR
                 agiGrowth 4, 32, EARLY
                 spellList &				    
-                    17, BOLT, &
+                    1, HYPER_HEAL, &
                     25, BOLT|LV2, &					
                     42, BOLT|LV3, &
                     51, BOLT|LV4, &

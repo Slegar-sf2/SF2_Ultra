@@ -245,7 +245,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL_MUDDLE|DOUBLE_1IN16|COUNTER_1IN4
                     
                 mov 5                   ; 47: MOUS
-                resistance WIND_NONE|LIGHTNING_WEAKNESS|ICE_MAJOR|FIRE_MINOR|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_WEAKNESS|LIGHTNING_WEAKNESS|ICE_MAJOR|FIRE_MINOR|NEUTRAL_NONE|STATUS_NONE
                 moveType   STEALTH
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN16|COUNTER_1IN16|DOUBLE_1IN16|COUNTER_1IN16
                     

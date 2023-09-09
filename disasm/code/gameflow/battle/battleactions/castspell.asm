@@ -71,7 +71,7 @@ rjt_SpellEffects:
                 dc.w SpellEffect_Freeze-rjt_SpellEffects    ; BLACK_MAGIC
                 dc.w SpellEffect_Blast-rjt_SpellEffects       ; TORNADO
                 dc.w SpellEffect_Heal-rjt_SpellEffects       ; FAIRY
-                dc.w SpellEffect_None-rjt_SpellEffects       ; spell48
+                dc.w SpellEffect_Heal-rjt_SpellEffects       ; HYPER_HEAL
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell49
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell50
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell51
