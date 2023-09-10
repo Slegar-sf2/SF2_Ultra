@@ -16,7 +16,7 @@ tbl_AllyStartDefs:
                 startClass SDMN         ; 0: BOWIE
                 startLevel 1
                 startItems &
-                    LONG_SWORD|EQUIPPED, &
+                    WOODEN_SWORD|EQUIPPED, &
                     MEDICAL_HERB, &
                     ANGEL_WING, &
                     NOTHING

@@ -14,14 +14,15 @@ tbl_AfterTurnHpRecoveryForWeapons:
 
 tbl_AfterTurnHpRecoveryForRings:
                 
-                tableEnd.b
+                dc.b ITEM_QUICK_RING, 1
+				dc.b ITEM_LIFE_RING, 7
                 
                 tableEnd.b
 
 
 tbl_AfterTurnMpRecoveryForWeapons:
                 
-                dc.b ITEM_MYSTERY_STAFF, 2
+                dc.b ITEM_MYSTERY_STAFF, 3
                 
                 tableEnd.b
 
