@@ -178,12 +178,13 @@ ApplyAfterTurnRecovery:
                 
                 movem.l d1-d6/a0,-(sp)
                 move.w  d0,((TEXT_NAME_INDEX_1-$1000000)).w
-                moveq   #1,d2
                 clr.w   d5                  ; d5.w = recovery amount
                 jsr     GetEquippedRing
                 move.w  d1,d4               ; d4.w = copy of equipped ring
                 jsr     GetEquippedWeapon
                 move.w  d1,d3               ; d3.w = copy of equipped weapon
+                moveq   #1,d2
+
                 
                 ; Check HP recovery for weapon
                 bmi.s   @CheckRingHp        ; skip if no equipped weapon
@@ -219,7 +220,7 @@ ApplyAfterTurnRecovery:
                 move.w  d3,d1
                 bmi.s   @CheckRingMp        ; skip if no equipped weapon
                 lea     tbl_AfterTurnMpRecoveryForWeapons(pc), a0
-                jsr     (FindSpecialPropertyBytesAddressForObject2).w
+                jsr     (FindSpecialPropertyBytesAddressForObject).w
                 bcs.s   @CheckRingMp
                 clr.w   d1
                 move.b  (a0),d1
@@ -228,7 +229,7 @@ ApplyAfterTurnRecovery:
 @CheckRingMp:   move.w  d4,d1
                 bmi.s   @RecoverMp          ; skip if no equipped ring
                 lea     tbl_AfterTurnMpRecoveryForRings(pc), a0
-                jsr     (FindSpecialPropertyBytesAddressForObject2).w
+                jsr     (FindSpecialPropertyBytesAddressForObject).w
                 bcs.s   @RecoverMp
                 clr.w   d1
                 move.b  (a0),d1

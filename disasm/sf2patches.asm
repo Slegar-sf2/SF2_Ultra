@@ -53,6 +53,7 @@ DIFFICULTY_FACTORS:                 equ 1       ; Allow 4 distinct difficulties.
 LEARN_SPELL_AT_PROMOTION:           equ 0       ; Allow learning 1 spell immediately upon promotion.
 PER_LEVEL_CHURCH_COST:              equ 0       ; Raise/Cure cost based on ally level (double cost per promo level.)
 ADDITIONAL_EQUIPEFFECTS:            equ 1       ; Add new equipeffects to offer more options (Set ATT, Increase Resistance, Decrease Double...)
+EXPANDED_MAPTILESETS:               equ 1       ;
 
 ; AI enhancements
 HEALER_AI_ENHANCEMENTS:             equ 0       ; See SF2_AI_Healing_Rewrite.txt for more details.
