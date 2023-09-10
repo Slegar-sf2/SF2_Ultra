@@ -2097,7 +2097,7 @@ tbl_EnemyDefs:
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN16
                 items &
                     MUDDLE_GLOVE|EQUIPPED, &
-                    NOTHING, &
+                    LIFE_RING|EQUIPPED, &
                     NOTHING, &
                     NOTHING
                 spells &

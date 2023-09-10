@@ -7,6 +7,8 @@ tbl_AfterTurnHpRecoveryForWeapons:
                 
                 dc.b ITEM_HOLY_STAFF, 5
                 dc.b ITEM_TAROS_SWORD, 3
+                dc.b ITEM_BISHOP_ROD, 15
+                dc.b ITEM_SUPER_STAFF, 7
 				
                 
                 tableEnd.b
@@ -23,6 +25,7 @@ tbl_AfterTurnHpRecoveryForRings:
 tbl_AfterTurnMpRecoveryForWeapons:
                 
                 dc.b ITEM_MYSTERY_STAFF, 3
+                dc.b ITEM_BISHOP_ROD, 10
                 
                 tableEnd.b
 
