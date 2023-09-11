@@ -4296,3 +4296,5 @@
 10C7=Our son is just dying to see{N}the circus.{W1}
 10C8={LEADER} Pidar !!!{N}ha ha ha{W1}
 10C9={NAME}'s attack{N}decrease by {#}.
+10CA={NAME} absorbed{N}{#} HP points.
+10CB={NAME}'s HP was{N}drained by {#}.

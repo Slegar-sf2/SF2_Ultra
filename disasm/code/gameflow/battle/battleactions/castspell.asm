@@ -72,7 +72,7 @@ rjt_SpellEffects:
                 dc.w SpellEffect_Blast-rjt_SpellEffects       ; TORNADO
                 dc.w SpellEffect_Heal-rjt_SpellEffects       ; FAIRY
                 dc.w SpellEffect_Heal-rjt_SpellEffects       ; HYPER_HEAL
-                dc.w SpellEffect_None-rjt_SpellEffects       ; spell49
+                dc.w SpellEffect_DrainHp-rjt_SpellEffects     ; HP_DRAIN			
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell50
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell51
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell52
@@ -592,7 +592,65 @@ byte_B66C:
                 modend
 
 ; =============== S U B R O U T I N E =======================================
+SpellEffect_DrainHp:
+                
+                module
+                move.b  (a5),d0
+                jsr     GetCurrentHp
+                moveq   #25,d0
+                jsr     (GenerateRandomOrDebugNumber).w
+                addq.w  #2,d0
+                cmp.b   d0,d1
+                bcc.s   @TargetReaction
+                move.w  d1,d0           ; clamp random value to target's current MP
+@TargetReaction:
+                
+                move.w  d0,d2
+                move.w  d0,d3
+                neg.w   d3
+                move.b  (a5),d0
+                jsr     GetStatusEffects
+                btst    #COMBATANT_BIT_ENEMY,d0
+                bne.s   @EnemyTarget    
+                executeAllyReaction  d3,#0,d1,#1 ; HP change (signed), MP change (signed), Status Effects, Flags
+                bra.s   @ActorReaction
+@EnemyTarget:
+                
+                executeEnemyReaction d3,#0,d1,#1 ; HP change (signed), MP change (signed), Status Effects, Flags
+@ActorReaction:
+                
+                move.b  (a4),d0
+                jsr     GetStatusEffects
+                btst    #COMBATANT_BIT_ENEMY,d0
+                bne.s   byte_B6422       
+                executeAllyReaction d2,#0,d1,#2 ; HP change (signed), MP change (signed), Status Effects, Flags
+                bra.s   @DetermineMessage
+byte_B6422:
+                
+                executeEnemyReaction d2,#0,d1,#2 ; HP change (signed), MP change (signed), Status Effects, Flags
+@DetermineMessage:
+                
+                bsr.w   AddStatusEffectSpellExp
+                bscHideTextBox
+                btst    #COMBATANT_BIT_ENEMY,d0
+                bne.s   @EnemyMessage
+                move.w  #MESSAGE_BATTLE_ABSORBED_HP_POINTS,d1 ; ally message
+                bra.s   byte_B66C9       
+@EnemyMessage:
+                
+                move.b  (a5),d0
+                move.w  #MESSAGE_BATTLE_HP_WAS_DRAINED_BY,d1
+byte_B66C9:
+                
+                displayMessage d1,d0,#0,d2 ; Message, Combatant, Item or Spell, Number
+				bra.w   CalculateSpellDamage
+                rts
 
+    ; End of function SpellEffect_DrainHp
+
+                modend
+				
+; =============== S U B R O U T I N E =======================================
 
 SpellEffect_PowerWater:
                 

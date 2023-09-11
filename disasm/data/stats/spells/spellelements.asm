@@ -55,7 +55,7 @@ tbl_SpellElements:
                 spellElement WIND       ; 46: TORNADO
                 spellElement NEUTRAL    ; 47: FAIRY
                 spellElement NEUTRAL    ; 48: HYPER_HEAL
-                spellElement NEUTRAL    ; 49: 
+                spellElement NEUTRAL    ; 49: HP_DRAIN
                 spellElement NEUTRAL    ; 50: 
                 spellElement NEUTRAL    ; 51: 
                 spellElement NEUTRAL    ; 52: 

@@ -218,6 +218,7 @@ pt_InflictAilmentFunctions:
                 dc.l WriteBattlesceneScript_InflictMuddle
                 dc.l WriteBattlesceneScript_InflictSlow
                 dc.l WriteBattlesceneScript_DrainMp
+                dc.l WriteBattlesceneScript_DrainHp
                 dc.l WriteBattlesceneScript_InflictSilence
 WriteBattlesceneScript_InflictPoison:
                 displayMessageWithNoWait #MESSAGE_BATTLE_IS_POISONED,d0,#0,#0 
@@ -275,6 +276,22 @@ WriteBattlesceneScript_DrainMp:
 
 ; =============== S U B R O U T I N E =======================================
 
+WriteBattlesceneScript_DrainHp:
+                
+                movem.l d0-d1,-(sp)
+                jsr     GetCurrentHp
+                tst.w   d1
+                beq.s   @Skip           ; skip if target has no HP
+                bsr.w   SpellEffect_DrainHp
+@Skip:
+                
+                movem.l (sp)+,d0-d1
+                rts
+
+    ; End of function WriteBattlesceneScript_DrainHp
+
+
+; =============== S U B R O U T I N E =======================================
 
 WriteBattlesceneScript_InflictSilence:
                 

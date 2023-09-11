@@ -1065,6 +1065,14 @@ tbl_SpellDefs:
                 range      1, 1
                 radius     3
                 power      28
+                
+                entry      HP_DRAIN        ; HP_DRAIN 1
+                mpCost     0
+                animation  ABSORB
+                properties TYPE_SPECIAL
+                range      1, 2
+                radius     0
+                power      5
 				
                 ; Fill out table with dummy entries
                 dcb.b (SPELLDEF_ENTRY_SIZE*252)-(*-tbl_SpellDefs),0

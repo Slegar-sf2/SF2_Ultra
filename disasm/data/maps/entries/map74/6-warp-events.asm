@@ -32,7 +32,7 @@
                   warpDest   255, 1
                   warpFacing DOWN
                 mWarp 0, 255
-                  warpScroll LEFT
+                  warpNoScroll LEFT
                   warpMap    MAP_OVERWORLD_GRANS_NORTH_SHORE
                   warpDest   62, 255
                   warpFacing LEFT
