@@ -1627,7 +1627,7 @@ tbl_ItemDefs:
                 range        1, 1
                 price        16000
                 itemType     WEAPON|RARE
-                useSpell     NOTHING
+                useSpell     HP_DRAIN
                 equipEffects INCREASE_ATT, 7, &
                              DECREASE_MOV, 1, &
                              DECREASE_DEF, 9
