@@ -7,3 +7,5 @@ RaftResetMapCoordinates:
                 raftResetMapCoords MAP_POLCA, MAP_OVERWORLD_NORTH_SOUTH_PARMECIA_JUNCTION, 43, 48
                 raftResetMapCoords MAP_MOUNT_VOLCANON, MAP_OVERWORLD_NORTH_SOUTH_PARMECIA_JUNCTION, 43, 48
                 raftResetMapCoords MAP_NONE, MAP_OVERWORLD_PATH_TO_RIBBLE, 42, 15
+                ;raftResetMapCoords MAP_NONE, 74, 41, 48
+                ;raftResetMapCoords 97, 74, 41, 48
