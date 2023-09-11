@@ -6,4 +6,4 @@
                 mapTileset2 203
                 mapTileset3 204
                 mapTileset4 255
-                mapTileset5 255
+                mapTileset5 205
