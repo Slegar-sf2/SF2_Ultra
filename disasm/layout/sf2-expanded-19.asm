@@ -34,13 +34,14 @@
        include "data\stats\enemies\enemynames.asm"    ; Enemy names
   endif
         ; Graphics Battle
+        include "data\graphics\battles\weapons\entries.asm"                 ; Battlescene Weapons
+        align
+        include "data\graphics\battles\weapons\palettes\entries.asm"        ; Battlescene Weapon Palettes
+        align
         include "data\graphics\battles\battlesprites\enemies\entries.asm"   ; Enemy battlesprites
         align
         include "data\graphics\battles\battlesprites\allies\entries.asm"    ; Ally battlesprites
         align
-        include "data\graphics\battles\weapons\entries.asm"                 ; Battlescene Weapons
-        align
-        include "data\graphics\battles\weapons\palettes\entries.asm"        ; Battlescene Weapon Palettes
-        align		
+		
         objendIfExtendedSsf
         alignIfExtendedSsf $600000, $400000

@@ -129,7 +129,7 @@ rjt_SpellAnimation:
                 dc.w sa17_SnowBreath-rjt_SpellAnimation
                 dc.w sa18_CutOff-rjt_SpellAnimation
                 dc.w sa19_Buff2-rjt_SpellAnimation
-                dc.w sa1A_AttackSpell-rjt_SpellAnimation ; SFCD's ATTACK spell (unused)
+                dc.w sa1A_Attack-rjt_SpellAnimation ; SFCD's ATTACK spell (unused)
                 dc.w sa1B_Debuff2-rjt_SpellAnimation
                 dc.w sa1C_Debuff3-rjt_SpellAnimation
                 dc.w sa1D_PhoenixAttack-rjt_SpellAnimation
@@ -3237,14 +3237,14 @@ word_1B608:     dc.w $138
 ; =============== S U B R O U T I N E =======================================
 
 
-sa1A_AttackSpell:
+sa1A_Attack:
                 
                  
                 sndCom  SFX_SPELL_CAST
                 move.w  #ATTACK_SPELL_FLASH_COLOR,d0
                 bsr.w   ExecuteSpellAnimationFlash
                 bsr.w   ClearSpellAnimationProperties
-                moveq   #SPELLGRAPHICS_DETOX,d0
+                moveq   #SPELLGRAPHICS_ATTACK,d0
                 bsr.w   LoadSpellGraphics
                 moveq   #1,d0
                 bsr.w   sub_1A2F6
@@ -3253,12 +3253,12 @@ sa1A_AttackSpell:
                 moveq   #$26,d0 
                 bsr.w   sub_19F5E
                 move.w  #$FFFF,((byte_FFB404-$1000000)).w
-                move.b  #SPELLANIMATION_ATTACK_SPELL,((CURRENT_SPELLANIMATION-$1000000)).w
+                move.b  #SPELLANIMATION_Attack,((CURRENT_SPELLANIMATION-$1000000)).w
                 move.b  #1,((byte_FFB585-$1000000)).w
                 move.b  #1,((byte_FFB584-$1000000)).w
                 bra.w   sub_1A028
 
-    ; End of function sa1A_AttackSpell
+    ; End of function sa1A_Attack
 
 
 ; =============== S U B R O U T I N E =======================================
@@ -3480,7 +3480,7 @@ rjt_SpellAnimationUpdates:
                 dc.w UpdateSpellAnimation_SnowBreath-rjt_SpellAnimationUpdates
                 dc.w UpdateSpellAnimation_Absorb-rjt_SpellAnimationUpdates
                 dc.w UpdateSpellAnimation_Buff-rjt_SpellAnimationUpdates
-                dc.w UpdateSpellAnimation_AttackSpell-rjt_SpellAnimationUpdates 
+                dc.w UpdateSpellAnimation_Attack-rjt_SpellAnimationUpdates 
                                                         ; SFCD's ATTACK spell (unused)
                 dc.w UpdateSpellAnimation_Debuff-rjt_SpellAnimationUpdates
                 dc.w UpdateSpellAnimation_Debuff-rjt_SpellAnimationUpdates
@@ -9411,7 +9411,7 @@ byte_1E8F2:     dc.b 0
 ; =============== S U B R O U T I N E =======================================
 
 
-UpdateSpellAnimation_AttackSpell:
+UpdateSpellAnimation_Attack:
                 
                 lea     ((byte_FFB406-$1000000)).w,a5
                 lea     ((SPRITE_38-$1000000)).w,a4
@@ -9479,7 +9479,7 @@ loc_1E9E2:
                 move.w  d2,(a4)
                 bra.w   loc_1CD10
 
-    ; End of function UpdateSpellAnimation_AttackSpell
+    ; End of function UpdateSpellAnimation_Attack
 
 
 ; =============== S U B R O U T I N E =======================================

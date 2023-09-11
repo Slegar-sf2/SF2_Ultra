@@ -26,4 +26,9 @@
                   warpMap    MAP_OVERWORLD_AROUND_ELVEN_VILLAGE
                   warpDest   1, 255
                   warpFacing RIGHT
+                mWarp 23, 20
+                  warpNoScroll
+                  warpMap    MAP_HARPY_POOL
+                  warpDest   10, 24
+                  warpFacing UP
                 endWord

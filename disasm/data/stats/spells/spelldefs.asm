@@ -160,7 +160,7 @@ tbl_SpellDefs:
                 
                 entry      ATTACK           ; ATTACK 1
                 mpCost     16
-                animation  BUFF1
+                animation  ATTACK
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      1, 1
                 radius     0
@@ -168,7 +168,7 @@ tbl_SpellDefs:
 				
                 entry      ATTACK|LV2       ; ATTACK 2
                 mpCost     32
-                animation  BUFF1
+                animation  ATTACK
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      1, 1
                 radius     1
@@ -177,10 +177,10 @@ tbl_SpellDefs:
 				
                 entry      ATTACK|LV3      ; ATTACK 3
                 mpCost     60
-                animation  BUFF1
-                properties TYPE_HEAL
-                range      0, 1
-                radius     3
+                animation  ATTACK
+                properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
+                range      1, 1
+                radius     2
                 power      15
 								
                 entry      DISPEL           ; DISPEL 1
