@@ -14,7 +14,7 @@ Map63_ItemEvent0:
                 chkFlg  29              ; Claude joined
                 bne.s   loc_5CA4C
                 moveq   #$75,d0 ; Golem Arm
-                jsr     RemoveItemFromInventory
+                ;jsr     RemoveItemFromInventory
                 script  cs_5CBB4
                 move.w  #$FFFF,d6
                 bra.s   Map63_DefaultItemEvent1

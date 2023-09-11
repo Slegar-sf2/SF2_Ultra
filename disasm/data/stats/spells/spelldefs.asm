@@ -159,7 +159,7 @@ tbl_SpellDefs:
                 power      15
                 
                 entry      ATTACK           ; ATTACK 1
-                mpCost     16
+                mpCost     32
                 animation  ATTACK
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      1, 1
@@ -167,7 +167,7 @@ tbl_SpellDefs:
                 power      15
 				
                 entry      ATTACK|LV2       ; ATTACK 2
-                mpCost     32
+                mpCost     45
                 animation  ATTACK
                 properties TYPE_SUPPORT|TARGET_TEAMMATES|AFFECTEDBYSILENCE
                 range      1, 1

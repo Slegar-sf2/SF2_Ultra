@@ -206,7 +206,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass BRSK         ; 24: GYAN
-                startLevel 24
+                startLevel 20
                 startItems &
                     BOMB, &
                     NOTHING, &
@@ -246,7 +246,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass GLM          ; 29: CLAUDE
-                startLevel 28
+                startLevel 24
                 startItems &
                     BOMB, &
                     STRIKE, &

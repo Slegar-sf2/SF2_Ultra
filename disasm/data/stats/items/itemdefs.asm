@@ -1318,10 +1318,10 @@ tbl_ItemDefs:
                 range        1, 1
                 price        0
                 itemType     WEAPON|RARE|UNSELLABLE
-                useSpell     NOTHING
-                equipEffects INCREASE_ATT, 12, &
+                useSpell     ATLAS
+                equipEffects INCREASE_ATT, 8, &
                              INCREASE_MOV, 3, &
-                             NONE, 0
+                             DECREASE_DEF, 5
                 
                 ; 118: Pegasus Wing
                 equipFlags   PGNT
@@ -1579,7 +1579,7 @@ tbl_ItemDefs:
                 
                 ; 141: ATTACK_RING
                 equipFlags   SDMN|HERO|KNTE|WARR|BDMN|WFMN|PHNK|THIF|PLDN|PHNX|BDBT|GLDT|BRN|SWOR|KENT
-                equipFlags2  STAR|PALA|MONK|BRSK|WLBR|NINJ|RBT
+                equipFlags2  STAR|PALA|MONK|WLBR|NINJ|RBT
                 range        0, 0
                 price        1500
                 itemType     RING|RARE

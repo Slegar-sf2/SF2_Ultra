@@ -142,7 +142,7 @@ tbl_ClassDefs:
                 moveType   ARCHER
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN8|COUNTER_1IN4
                 
-                mov 5                   ; 27: BRGN
+                mov 4                   ; 27: BRGN
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   BRASS_GUNNER
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
@@ -199,12 +199,12 @@ tbl_ClassDefs:
                 moveType   REGULAR
                 prowess    CRITICAL150_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                     
-                mov 6                   ; 38: STAR
+                mov 5                   ; 38: STAR
                 resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_NONE|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
                     
-                mov 6                   ; 39: BRSK
+                mov 4                   ; 39: BRSK
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_MINOR
                 moveType   REGULAR
                 prowess    CRITICAL_STUN|DOUBLE_1IN32|COUNTER_1IN16

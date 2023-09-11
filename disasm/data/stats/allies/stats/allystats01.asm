@@ -19,7 +19,7 @@ AllyStats01:    forClass  PRST
                     6, BLAST, &                                                           
                     17, BLAST|LV2, &
                     26, BLAST|LV3, &                    
-                    37, BLAST|LV4, &
+                    45, BLAST|LV4, &
                     12, AURA, &
                     28, AURA|LV2
                     

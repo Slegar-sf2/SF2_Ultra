@@ -587,7 +587,7 @@ tbl_EnemyDefs:
                 unknownByte 22          ; 22: LIZARD
                 spellPower ENHANCED
                 level    36
-                maxHp    79
+                maxHp    89
                 maxMp    48
                 baseAtt  62
                 baseDef  72
@@ -612,7 +612,7 @@ tbl_EnemyDefs:
                 unknownByte 23          ; 23: SKELET
                 spellPower ENHANCED
                 level    40
-                maxHp    71
+                maxHp    81
                 maxMp    0
                 baseAtt  76
                 baseDef  74
@@ -687,7 +687,7 @@ tbl_EnemyDefs:
                 unknownByte 26          ; 26: KOMAINU
                 spellPower ENHANCED
                 level    46
-                maxHp    75
+                maxHp    88
                 maxMp    0
                 baseAtt  108
                 baseDef  83
@@ -1362,10 +1362,10 @@ tbl_EnemyDefs:
                 unknownByte 53          ; 53: BEEDRILL
                 spellPower ENHANCED
                 level    44
-                maxHp    88
+                maxHp    108
                 maxMp    36
-                baseAtt  99
-                baseDef  77
+                baseAtt  106
+                baseDef  79
                 baseAgi  58
                 baseMov  7
                 baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_WEAKNESS
@@ -2312,7 +2312,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 91: ZALBARD
                 spellPower ENHANCED
                 level    45
-                maxHp    144
+                maxHp    200
                 maxMp    72
                 baseAtt  96
                 baseDef  80
@@ -2337,7 +2337,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 92: CAMEELA
                 spellPower ENHANCED
                 level    50
-                maxHp    169
+                maxHp    189
                 maxMp    0
                 baseAtt  72
                 baseDef  85
