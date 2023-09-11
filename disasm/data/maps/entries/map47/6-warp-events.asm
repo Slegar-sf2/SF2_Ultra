@@ -9,6 +9,6 @@
                 mWarp 0, 255
                   warpNoScroll
                   warpMap    MAP_OVERWORLD_MOUN_AND_MITULA
-                  warpDest   49, 31
+                  warpDest   50, 32
                   warpFacing DOWN
                 endWord

@@ -1,12 +1,12 @@
 
-                mWarp 10, 27
+                mWarp 255, 19
                   warpNoScroll
-                  warpMap    28
-                  warpDest   15, 16
-                  warpFacing DOWN
-                mWarp 11, 27
+                  warpMap    74
+                  warpDest   47, 33
+                  warpFacing LEFT
+                mWarp 47, 8
                   warpNoScroll
-                  warpMap    28
-                  warpDest   16, 16
-                  warpFacing DOWN
+                  warpMap    74
+                  warpDest   50, 32
+                  warpFacing UP
                 endWord
