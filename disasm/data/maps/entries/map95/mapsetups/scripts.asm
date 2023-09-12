@@ -2,18 +2,17 @@
 ; ASM FILE data\maps\entries\map95\mapsetups\scripts.asm :
 ;
 
-cs_BLEU4040:    textCursor 535
-                nextSingleText $0,ALLY_BLEU
-                entityActionsWait ALLY_BLEU
+				
+cs_BLEU4040:    entityActionsWait ALLY_BLEU
                  moveUp 1
                  moveRight 2
                  moveUp 1
-                endActions
-				csc_end
-cs_BLEU4042:    textCursor 538
-                nextSingleText $0,ALLY_BLEU
-                entityActionsWait ALLY_BLEU
+				endActions
+                setActscriptWait ALLY_BLEU,eas_Init
+                csc_end
+cs_BLEU4042:    entityActionsWait ALLY_BLEU
                  moveUp 1
                  moveLeft 1
-                endActions
+				endActions
+                setActscriptWait ALLY_BLEU,eas_Init
                 csc_end

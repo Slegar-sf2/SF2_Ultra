@@ -24,7 +24,7 @@ tbl_UnarmedAttackAnimationsForClasses:
                 
                 ; Class index, spell animation index, ally animation index
                 dc.w CLASS_BRGN, SPELLANIMATION_NONE, ALLYBATTLEANIMATION_SPECIAL_BRGN
-                
+               
                 tableEnd
 
 
@@ -41,7 +41,9 @@ tbl_SpellcastAnimationsForClasses:
                 dc.w CLASS_MNST, ALLYBATTLEANIMATION_SPECIAL_MNST
 				dc.w CLASS_MONK, ALLYBATTLEANIMATION_SPECIAL_MONK
                 dc.w CLASS_GRDR, ALLYBATTLEANIMATION_SPECIAL_GRDR
-                
+                dc.w CLASS_WOLF, ALLYBATTLEANIMATION_SPECIAL_WOLF
+                dc.w CLASS_WLBR, ALLYBATTLEANIMATION_SPECIAL_WOLF_PROMO
+				
                 tableEnd
 
 
@@ -63,8 +65,7 @@ tbl_SpellcastAnimationsForEnemies:
 ; Classes that use a special animation when using items.
 tbl_UseItemAnimationsForClasses:
 
-                dc.w CLASS_WOLF, ALLYBATTLEANIMATION_SPECIAL_WOLF
-                dc.w CLASS_WLBR, ALLYBATTLEANIMATION_SPECIAL_WOLF_PROMO
+
                 tableEnd
 
 

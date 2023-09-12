@@ -184,7 +184,7 @@ tbl_ClassDefs:
                 moveType   REGULAR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
-                mov 3                   ; 35: GLM
+                mov 2                   ; 35: GLM
                 resistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_WEAKNESS|FIRE_MAJOR|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
