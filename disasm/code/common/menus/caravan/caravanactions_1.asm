@@ -308,7 +308,7 @@ CaravanDepotSubmenu_Look:
                 bra.s   @HasSpecialDescription
 @AstralIsFollower:
                 
-                moveq   #PORTRAIT_ASTRAL,d0
+                moveq   #PORTRAIT_MAYFAIR,d0
 @HasSpecialDescription:
                 
                 moveq   #0,d1

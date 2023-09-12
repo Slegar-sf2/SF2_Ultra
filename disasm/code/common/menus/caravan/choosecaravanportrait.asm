@@ -17,7 +17,7 @@ DisplayCaravanMessageWithPortrait:
                 bra.s   loc_228BA
 loc_228B8:
                 
-                moveq   #PORTRAIT_ASTRAL,d0
+                moveq   #PORTRAIT_MAYFAIR,d0
 loc_228BA:
                 
                 moveq   #0,d1
