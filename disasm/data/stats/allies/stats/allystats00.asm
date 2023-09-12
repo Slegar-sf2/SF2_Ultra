@@ -28,7 +28,7 @@ AllyStats00:
                 agiGrowth 4, 32, EARLY
                 spellList &				    
                     1, BOLT|LV3, &
-                    25, BOLT|LV2, &					
+                    25, BOLT|LV2, &
                     42, BOLT|LV3, &
                     51, BOLT|LV4, &
 					15, EGRESS

@@ -618,7 +618,7 @@ tbl_SpellDefs:
                 
                 entry      RAIJIN       ; RAIJIN 1
                 mpCost     7
-                animation  BOLT|VARIATION2
+                animation  RAIJIN
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 3
                 radius     0
@@ -626,7 +626,7 @@ tbl_SpellDefs:
                 
                 entry      RAIJIN|LV2   ; RAIJIN 2
                 mpCost     13
-                animation  BOLT|VARIATION3
+                animation  RAIJIN|VARIATION2
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 3
                 radius     1
@@ -634,7 +634,7 @@ tbl_SpellDefs:
                 
                 entry      RAIJIN|LV3   ; RAIJIN 3
                 mpCost     20
-                animation  BOLT|VARIATION4
+                animation  RAIJIN|VARIATION3
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 3
                 radius     2
@@ -642,7 +642,7 @@ tbl_SpellDefs:
 				
                 entry      RAIJIN|LV4   ; RAIJIN 4
                 mpCost     24
-                animation  BOLT|VARIATION4
+                animation  RAIJIN|VARIATION4
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 3
                 radius     2
