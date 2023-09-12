@@ -6,6 +6,11 @@
 
 
 ms_Map95_InitFunction:
+
+
+
+                
+;return_MAP95END:
                 
                 rts
 

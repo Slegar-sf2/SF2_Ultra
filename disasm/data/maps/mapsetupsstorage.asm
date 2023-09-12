@@ -760,4 +760,5 @@
                 include "data\maps\entries\Map95\mapsetups\s3_zoneevents.asm"    ; 
                 include "data\maps\entries\Map95\mapsetups\s4_descriptions.asm"    ; 
                 include "data\maps\entries\Map95\mapsetups\s5_itemevents.asm"    ; 
-                include "data\maps\entries\Map95\mapsetups\s6_initfunction.asm"    ; 
+                include "data\maps\entries\Map95\mapsetups\s6_initfunction.asm"    ;
+                include "data\maps\entries\map95\mapsetups\scripts.asm"    ;				
