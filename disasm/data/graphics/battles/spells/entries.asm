@@ -27,6 +27,7 @@ pt_SpellGraphics:
                 dc.l SpellGraphics22
                 dc.l SpellGraphics23
                 dc.l SpellGraphics24
+                dc.l SpellGraphics25
 SpellGraphics00:incbin "data/graphics/battles/spells/spellgraphics00.bin"
 SpellGraphics01:incbin "data/graphics/battles/spells/spellgraphics01.bin"
 SpellGraphics02:incbin "data/graphics/battles/spells/spellgraphics02.bin"
@@ -52,3 +53,4 @@ SpellGraphics21:incbin "data/graphics/battles/spells/spellgraphics21.bin"
 SpellGraphics22:incbin "data/graphics/battles/spells/spellgraphics22.bin"
 SpellGraphics23:incbin "data/graphics/battles/spells/spellgraphics23.bin"
 SpellGraphics24:incbin "data/graphics/battles/spells/spellgraphics24.bin"
+SpellGraphics25:incbin "data/graphics/battles/spells/spellgraphics25.bin"

@@ -826,7 +826,7 @@ tbl_SpellDefs:
 				
                 entry      THUNDER       ; THUNDER 1
                 mpCost     4
-                animation  BOLT
+                animation  THUNDER
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     0
@@ -834,7 +834,7 @@ tbl_SpellDefs:
 				
                 entry      THUNDER|LV2       ; THUNDER 2
                 mpCost     8
-                animation  BOLT|VARIATION2
+                animation  THUNDER|VARIATION2
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     0
@@ -842,7 +842,7 @@ tbl_SpellDefs:
 				
                 entry      THUNDER|LV3       ; THUNDER 3
                 mpCost     16
-                animation  BOLT|VARIATION3
+                animation  THUNDER|VARIATION3
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     0
@@ -850,7 +850,7 @@ tbl_SpellDefs:
 				
                 entry      THUNDER|LV4      ; THUNDER 4
                 mpCost     32
-                animation  BOLT|VARIATION4
+                animation  THUNDER|VARIATION4
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     1

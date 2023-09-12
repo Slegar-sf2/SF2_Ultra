@@ -131,7 +131,7 @@ rjt_SpellAnimation:
                 dc.w sa19_Buff2-rjt_SpellAnimation
                 dc.w sa1A_Attack-rjt_SpellAnimation ; SFCD's ATTACK spell (unused)
                 dc.w sa1B_Raijin-rjt_SpellAnimation
-                dc.w sa1C_Debuff3-rjt_SpellAnimation
+                dc.w sa1C_Thunder-rjt_SpellAnimation
                 dc.w sa1D_PhoenixAttack-rjt_SpellAnimation
                 dc.w sa1E_BurstRockExplosion-rjt_SpellAnimation
                 dc.w sa1F_OddEyeBeam-rjt_SpellAnimation
@@ -2188,11 +2188,155 @@ byte_1AB5ERAIJIN:     dc.b 0
 ; =============== S U B R O U T I N E =======================================
 
 
-sa1C_Debuff3:
+sa1C_Thunder:
                 
-                lea     byte_1ACD2(pc), a0
+                bsr.w   nullsub_1A476
+                move.w  d1,-(sp)
+                sndCom  SFX_SPELL_CAST
+                move.w  #BOLT_FLASH_COLOR,d0
+                bsr.w   ExecuteSpellAnimationFlash
+                bsr.w   ClearSpellAnimationProperties
+                moveq   #SPELLGRAPHICS_THUNDER,d0
+                bsr.w   LoadSpellGraphics
+                move.w  (sp)+,d1
+                lea     loc_1AB4ATHUNDER(pc), a1
+                andi.w  #7,d1
+                lsl.w   #2,d1
+                adda.w  d1,a1
+                move.l  (a1),((byte_FFB532-$1000000)).w
+                moveq   #$10,d0
+                btst    #SPELLANIMATION_BIT_MIRRORED,((SPELLANIMATION_VARIATION_AND_MIRRORED_BIT-$1000000)).w
+                beq.s   loc_1AACCTHUNDER
+                addi.w  #$80,d0 
+loc_1AACCTHUNDER:
+                
+                move.w  d0,((dword_FFB536-$1000000)).w
+                move.w  (a1),d1
+                subq.w  #1,d1
+loc_1AAD4THUNDER:
+                
+                moveq   #1,d0
+                bsr.w   sub_1A2F6
+                moveq   #$20,d6 
+                jsr     (GenerateRandomNumber).w
+                addq.w  #1,d7
+                move.w  d7,4(a0)
+                dbf     d1,loc_1AAD4THUNDER
+                move.w  2(a1),d1
+                beq.s   loc_1AB2CTHUNDER
+                subq.w  #1,d1
+                move.w  (a1),d0
+                mulu.w  #5,d0
+                addi.w  #$26,d0 
+                lea     byte_1AB5ETHUNDER(pc), a0
+                btst    #SPELLANIMATION_BIT_MIRRORED,((SPELLANIMATION_VARIATION_AND_MIRRORED_BIT-$1000000)).w
+                beq.s   loc_1AB0CTHUNDER
+                lea     $20(a0),a0
+loc_1AB0CTHUNDER:
+                
+                movem.l d0/a0,-(sp)
+                moveq   #1,d0
+                bsr.w   sub_1A2F6
+                moveq   #8,d6
+                jsr     (GenerateRandomNumber).w
+                move.w  d7,2(a0)
+                movem.l (sp)+,d0/a0
+                bsr.w   sub_19F5E
+                dbf     d1,loc_1AB0CTHUNDER
+loc_1AB2CTHUNDER:
+                
+                move.w  #$FFFF,((byte_FFB404-$1000000)).w
+                move.b  #SPELLANIMATION_THUNDER,((CURRENT_SPELLANIMATION-$1000000)).w
+                move.b  #1,((byte_FFB585-$1000000)).w
+                move.b  1(a1),((byte_FFB584-$1000000)).w
+                move.b  #1,((byte_FFB588-$1000000)).w
+loc_1AB4ATHUNDER:
+                
+                bra.w   sub_1A028
+                dc.b 0
+                dc.b 1
+                dc.b 0
+                dc.b 0
+                dc.b 0
+                dc.b 2
+                dc.b 0
+                dc.b 1
+                dc.b 0
+                dc.b 3
+                dc.b 0
+                dc.b 2
+                dc.b 0
+                dc.b 4
+                dc.b 0
+                dc.b 4
+byte_1AB5ETHUNDER:     dc.b 0
+                dc.b $C8
+                dc.b 0
+                dc.b $C0
+                dc.b 5
+                dc.b $B3
+                dc.b $F
+                dc.b $20
+                dc.b 0
+                dc.b $98
+                dc.b 0
+                dc.b $D8
+                dc.b 5
+                dc.b $C3
+                dc.b $F
+                dc.b $20
+                dc.b 0
+                dc.b $F8
+                dc.b 0
+                dc.b $C8
+                dc.b 5
+                dc.b $B3
+                dc.b $F
+                dc.b $20
+                dc.b 1
+                dc.b $30
+                dc.b 0
+                dc.b $B8
+                dc.b 5
+                dc.b $C3
+                dc.b $F
+                dc.b $20
+                dc.b 0
+                dc.b $F8
+                dc.b 0
+                dc.b $C8
+                dc.b 5
+                dc.b $B3
+                dc.b $F
+                dc.b $20
+                dc.b 1
+                dc.b $30
+                dc.b 0
+                dc.b $B8
+                dc.b 5
+                dc.b $C3
+                dc.b $F
+                dc.b $20
+                dc.b 0
+                dc.b $C8
+                dc.b 0
+                dc.b $C0
+                dc.b 5
+                dc.b $B3
+                dc.b $F
+                dc.b $20
+                dc.b 0
+                dc.b $98
+                dc.b 0
+                dc.b $D8
+                dc.b 5
+                dc.b $C3
+                dc.b $F
+                dc.b $20
+    ; End of function sa1C_Thunder
 
-    ; End of function sa1C_Debuff3
+
+; =============== S U B R O U T I N E =======================================
 
 
 ; START OF FUNCTION CHUNK FOR sa09_Debuff1
@@ -3623,7 +3767,7 @@ rjt_SpellAnimationUpdates:
                 dc.w UpdateSpellAnimation_Attack-rjt_SpellAnimationUpdates 
                                                         ; SFCD's ATTACK spell (unused)
                 dc.w UpdateSpellAnimation_Raijin-rjt_SpellAnimationUpdates
-                dc.w UpdateSpellAnimation_Debuff-rjt_SpellAnimationUpdates
+                dc.w UpdateSpellAnimation_Thunder-rjt_SpellAnimationUpdates
                 dc.w UpdateSpellAnimation_PhoenixAttack-rjt_SpellAnimationUpdates
                 dc.w UpdateSpellAnimation_BurstRockExplosion-rjt_SpellAnimationUpdates
                 dc.w UpdateSpellAnimation_OddEyeBeam-rjt_SpellAnimationUpdates
@@ -9722,9 +9866,190 @@ loc_1CFEARAIJIN:
                 lea     word_1CFF6RAIJIN(pc), a0
                 bra.w   sub_1B8B2
 
-    ; End of function UpdateSpellAnimation_Bolt
+    ; End of function UpdateSpellAnimation_Raijin
 
 word_1CFF6RAIJIN:     dc.w $EAA
+                dc.w $E
+                dc.w 1
+				
+; =============== S U B R O U T I N E =======================================
+
+
+UpdateSpellAnimation_Thunder:
+                
+                lea     ((byte_FFB406-$1000000)).w,a5
+                lea     ((SPRITE_38-$1000000)).w,a4
+                lea     ((byte_FFB532-$1000000)).w,a3
+                moveq   #$26,d0 
+                move.w  (a3),d1
+                subq.w  #1,d1
+loc_1CE62THUNDER:
+                
+                movem.w d0-d1,-(sp)
+                tst.w   (a5)
+                beq.w   loc_1CF84THUNDER
+                addq.w  #1,(a5)
+                subq.w  #1,4(a5)
+                bne.w   loc_1CF84THUNDER
+                move.w  2(a5),d1
+                cmpi.w  #6,d1
+                bcc.w   loc_1CEEETHUNDER
+                tst.w   d1
+                bne.s   loc_1CEA0THUNDER
+loc_1CE86THUNDER:
+                
+                move.w  #$60,d6 
+                jsr     (GenerateRandomNumber).w
+                add.w   4(a3),d7
+                move.w  d7,6(a5)
+                moveq   #2,d6
+                jsr     (GenerateRandomNumber).w
+                move.b  d7,8(a5)
+loc_1CEA0THUNDER:
+                
+                cmpi.w  #2,d1
+                bne.s   loc_1CEAATHUNDER
+                sndCom  SFX_BOLT_SPELL
+loc_1CEAATHUNDER:
+                
+                tst.b   8(a5)
+                bne.s   loc_1CEB8THUNDER
+                movea.l (p_BoltAnimData_A).l,a0
+                bra.s   loc_1CEBETHUNDER
+loc_1CEB8THUNDER:
+                
+                movea.l (p_BoltAnimData_B).l,a0
+loc_1CEBETHUNDER:
+                
+                lsl.w   #3,d1
+                move.w  d1,d2
+                lsl.w   #2,d1
+                add.w   d2,d1
+                adda.w  d1,a0
+                moveq   #5,d1
+                move.w  6(a5),d2
+                btst    #SPELLANIMATION_BIT_MIRRORED,((SPELLANIMATION_VARIATION_AND_MIRRORED_BIT-$1000000)).w
+                bne.s   loc_1CEDATHUNDER
+                clr.w   d3
+                bra.s   loc_1CEDCTHUNDER
+loc_1CEDATHUNDER:
+                
+                moveq   #8,d3
+loc_1CEDCTHUNDER:
+                
+                bsr.w   sub_19FAA       
+                addq.w  #1,2(a5)
+                move.w  #2,4(a5)
+                bra.w   loc_1CF84THUNDER
+loc_1CEEETHUNDER:
+                
+                bne.w   loc_1CF28THUNDER
+                move.l  a4,-(sp)
+                moveq   #4,d1
+loc_1CEF6THUNDER:
+                
+                move.w  #1,(a4)
+                move.w  #1,VDPSPRITE_OFFSET_X(a4)
+                addq.w  #8,a4
+                dbf     d1,loc_1CEF6THUNDER
+                movea.l (sp)+,a4
+                clr.b   ((byte_FFB588-$1000000)).w
+                move.b  ((SPELLANIMATION_VARIATION_AND_MIRRORED_BIT-$1000000)).w,d6
+                andi.w  #7,d6
+                add.w   d6,d6
+                jsr     (GenerateRandomNumber).w
+                addq.w  #2,d7
+                addq.w  #1,2(a5)
+                move.w  d7,4(a5)
+                bra.w   loc_1CF84THUNDER
+loc_1CF28THUNDER:
+                
+                cmpi.w  #$C,d1
+                bcc.w   loc_1CF42THUNDER
+                subq.w  #1,d1
+                cmpi.w  #6,d1
+                bne.w   loc_1CEAATHUNDER
+                sndCom  SFX_BOLT_SPELL
+                bra.w   loc_1CE86THUNDER
+loc_1CF42THUNDER:
+                
+                move.l  a4,-(sp)
+                moveq   #4,d1
+loc_1CF46THUNDER:
+                
+                move.w  #1,(a4)
+                move.w  #1,VDPSPRITE_OFFSET_X(a4)
+                addq.w  #8,a4
+                dbf     d1,loc_1CF46THUNDER
+                movea.l (sp)+,a4
+                tst.w   ((byte_FFB404-$1000000)).w
+                bne.s   loc_1CF68THUNDER
+                clr.w   (a5)
+                subq.b  #1,((byte_FFB584-$1000000)).w
+                bra.w   loc_1CF84THUNDER
+loc_1CF68THUNDER:
+                
+                move.b  ((SPELLANIMATION_VARIATION_AND_MIRRORED_BIT-$1000000)).w,d6
+                andi.w  #7,d6
+                lsl.w   #2,d6
+                jsr     (GenerateRandomNumber).w
+                addq.w  #2,d7
+                clr.w   2(a5)
+                move.w  d7,4(a5)
+                bsr.w   sub_1B8FE
+loc_1CF84THUNDER:
+                
+                movem.w (sp)+,d0-d1
+                addq.w  #5,d0
+                lea     $28(a4),a4
+                lea     $C(a5),a5
+                dbf     d1,loc_1CE62THUNDER
+                tst.b   ((byte_FFB584-$1000000)).w
+                beq.w   sub_1B82A
+                move.w  2(a3),d1
+                beq.w   loc_1CFEATHUNDER
+                subq.w  #1,d1
+loc_1CFA8THUNDER:
+                
+                tst.w   (a5)
+                beq.w   loc_1CFDETHUNDER
+                addq.w  #1,(a5)
+                move.w  2(a5),d2
+                addq.w  #1,d2
+                andi.w  #7,d2
+                move.w  d2,2(a5)
+                move.w  #$C5B3,d3
+                lsr.w   #1,d2
+                bcc.s   loc_1CFCATHUNDER
+                bset    #$B,d3
+loc_1CFCATHUNDER:
+                
+                lsr.w   #1,d2
+                bcc.s   loc_1CFD2THUNDER
+                addi.w  #$10,d3
+loc_1CFD2THUNDER:
+                
+                lsr.w   #1,d2
+                bcc.s   loc_1CFDATHUNDER
+                bset    #$C,d3
+loc_1CFDATHUNDER:
+                
+                move.w  d3,VDPSPRITE_OFFSET_TILE(a4)
+loc_1CFDETHUNDER:
+                
+                addq.w  #1,d0
+                addq.w  #8,a4
+                lea     $C(a5),a5
+                dbf     d1,loc_1CFA8THUNDER
+loc_1CFEATHUNDER:
+                
+                bsr.w   sub_1B90C
+                lea     word_1CFF6THUNDER(pc), a0
+                bra.w   sub_1B8B2
+
+    ; End of function UpdateSpellAnimation_Thunder
+
+word_1CFF6THUNDER:     dc.w $EAA
                 dc.w $E
                 dc.w 1
 				
