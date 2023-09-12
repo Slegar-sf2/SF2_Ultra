@@ -846,7 +846,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     0
-                power      30
+                power      35
 				
                 entry      THUNDER|LV4      ; THUNDER 4
                 mpCost     32
@@ -854,7 +854,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 2
                 radius     1
-                power      50
+                power      55
                 
                 entry      AQUA         ; AQUA 1
                 mpCost     0

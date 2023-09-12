@@ -105,7 +105,7 @@ tbl_ClassDefs:
                 mov 7                   ; 19: PGNT
                 resistance WIND_MAJOR|LIGHTNING_WEAKNESS|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
                 moveType   FLYING
-                prowess    CRITICAL_SLOW|DOUBLE_1IN32|COUNTER_1IN16
+                prowess    CRITICAL150_1IN8|DOUBLE_1IN32|COUNTER_1IN16
                 
                 mov 4                   ; 20: GLDT
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
