@@ -50,7 +50,7 @@ byte_50F84:
                 txt     502             ; "What's wrong with you?{N}Your seat is next to{N}{NAME;2}!{W1}"
 loc_50F88:
 
-                 bra.s   return_50F96
+                bra.s   return_50F96
 byte_50F8A:
                 
                 chkFlg  66

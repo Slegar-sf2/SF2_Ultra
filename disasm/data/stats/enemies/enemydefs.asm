@@ -487,7 +487,7 @@ tbl_EnemyDefs:
                 unknownByte 18          ; 18: DARK SOLDIER
                 spellPower ENHANCED
                 level    31
-                maxHp    48
+                maxHp    52
                 maxMp    0
                 baseAtt  50
                 baseDef  66
@@ -562,7 +562,7 @@ tbl_EnemyDefs:
                 unknownByte 21          ; 21: DARK KNIGHT
                 spellPower ENHANCED
                 level    35
-                maxHp    76
+                maxHp    80
                 maxMp    0
                 baseAtt  54
                 baseDef  63
@@ -637,7 +637,7 @@ tbl_EnemyDefs:
                 unknownByte 24          ; 24: CERBERUS
                 spellPower ENHANCED
                 level    41
-                maxHp    73
+                maxHp    79
                 maxMp    0
                 baseAtt  95
                 baseDef  76
@@ -662,7 +662,7 @@ tbl_EnemyDefs:
                 unknownByte 25          ; 25: MUD MAN
                 spellPower ENHANCED
                 level    43
-                maxHp    68
+                maxHp    72
                 maxMp    0
                 baseAtt  102
                 baseDef  86
@@ -687,7 +687,7 @@ tbl_EnemyDefs:
                 unknownByte 26          ; 26: KOMAINU
                 spellPower ENHANCED
                 level    46
-                maxHp    88
+                maxHp    98
                 maxMp    0
                 baseAtt  108
                 baseDef  83
@@ -712,7 +712,7 @@ tbl_EnemyDefs:
                 unknownByte 27          ; 27: GREEN WORM
                 spellPower ENHANCED
                 level    45
-                maxHp    98
+                maxHp    113
                 maxMp    0
                 baseAtt  100
                 baseDef  90
@@ -812,7 +812,7 @@ tbl_EnemyDefs:
                 unknownByte 31          ; 31: CYCLOPS
                 spellPower ENHANCED
                 level    53
-                maxHp    87
+                maxHp    102
                 maxMp    0
                 baseAtt  122
                 baseDef  102
@@ -912,7 +912,7 @@ tbl_EnemyDefs:
                 unknownByte 35          ; 35: REAPER
                 spellPower ENHANCED
                 level    60
-                maxHp    108
+                maxHp    138
                 maxMp    31
                 baseAtt  95
                 baseDef  100
@@ -1187,7 +1187,7 @@ tbl_EnemyDefs:
                 unknownByte 46          ; 46: WYVERN
                 spellPower ENHANCED
                 level    33
-                maxHp    56
+                maxHp    66
                 maxMp    0
                 baseAtt  74
                 baseDef  59

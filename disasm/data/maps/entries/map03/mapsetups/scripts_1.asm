@@ -19,6 +19,7 @@ cs_51406:       textCursor 535
                 setFacing ALLY_CHESTER,LEFT
                 nextSingleText $0,ALLY_CHESTER ; "What?  {LEADER}, are you{N}going?  I'm going too!{W1}"
                 setF 600                ; Set after agreeing to try getting into the castle
+                setF 66                 ; Sarah + Chester + Jaha are followers
                 followEntity ALLY_SARAH,ALLY_BOWIE,2
                 followEntity ALLY_CHESTER,ALLY_SARAH,2
 				followEntity ALLY_JAHA,ALLY_CHESTER,2
@@ -174,7 +175,7 @@ cs_51614:       textCursor 535
                 setFacing ALLY_CHESTER,LEFT
                 nextSingleText $0,ALLY_CHESTER ; "What?  {LEADER}, are you{N}going?  I'm going too!{W1}"
                 setF 600                ; Set after agreeing to try getting into the castle
-                setF 66                 ; Sarah + Chester are followers
+                setF 66                 ; Sarah + Chester + Jaha are followers
                 join 1
 				join 2
 				join 3
@@ -182,7 +183,7 @@ cs_51614:       textCursor 535
                 followEntity ALLY_CHESTER,ALLY_SARAH,2
 				followEntity ALLY_JAHA,ALLY_CHESTER,2
                 setPos 138,27,3,DOWN
-                setPos 139,31,3,DOWN
+                setPos 139,31,3,DOWN                
 cs_51650:       csc_end
 cs_51652:       textCursor 537
                 entityActions 138

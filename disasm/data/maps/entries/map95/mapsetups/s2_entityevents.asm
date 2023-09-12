@@ -10,11 +10,14 @@ ms_Map95_EntityEvents:
 ; =============== S U B R O U T I N E =======================================
                 
 Map95_EntityEvent0:
-
-                txt     480
+                
                 script  cs_BLEU4040
+				bra.s   return_BLEUEND00
+				script  cs_BLEU4042
+                
+return_BLEUEND00:
+                
                 rts
-
 ; =============== S U B R O U T I N E =======================================
 				
 
