@@ -44,7 +44,7 @@ tbl_SpellElements:
                 spellElement NEUTRAL    ; 36: BRAVE
                 spellElement FIRE       ; 37: F.BALL
                 spellElement ICE        ; 38: ICE
-                spellElement LIGHTNING  ; 39: THUNDR
+                spellElement LIGHTNING  ; 39: THUNDER
                 spellElement ICE        ; 40: AQUA
                 spellElement FIRE       ; 41: KIWI
                 spellElement NEUTRAL    ; 42: ATOM

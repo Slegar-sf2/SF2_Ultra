@@ -824,7 +824,7 @@ tbl_SpellDefs:
                 radius     0
                 power      40
 				
-                entry      THUNDR       ; THUNDR 1
+                entry      THUNDER       ; THUNDER 1
                 mpCost     4
                 animation  BOLT
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
@@ -832,7 +832,7 @@ tbl_SpellDefs:
                 radius     0
                 power      8
 				
-                entry      THUNDR|LV2       ; THUNDR 2
+                entry      THUNDER|LV2       ; THUNDER 2
                 mpCost     8
                 animation  BOLT|VARIATION2
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
@@ -840,7 +840,7 @@ tbl_SpellDefs:
                 radius     0
                 power      15
 				
-                entry      THUNDR|LV3       ; THUNDR 3
+                entry      THUNDER|LV3       ; THUNDER 3
                 mpCost     16
                 animation  BOLT|VARIATION3
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
@@ -848,7 +848,7 @@ tbl_SpellDefs:
                 radius     0
                 power      30
 				
-                entry      THUNDR|LV4      ; THUNDR 4
+                entry      THUNDER|LV4      ; THUNDER 4
                 mpCost     32
                 animation  BOLT|VARIATION4
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE

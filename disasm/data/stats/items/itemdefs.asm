@@ -306,7 +306,7 @@ tbl_ItemDefs:
                 range        0, 0
                 price        5000
                 itemType     RING|RARE|CURSED|BREAKABLE
-                useSpell     THUNDR|LV2
+                useSpell     THUNDER|LV2
                 equipEffects INCREASE_ATT, 15, &
                              NONE, 0, &
                              NONE, 0
@@ -999,7 +999,7 @@ tbl_ItemDefs:
                 range        1, 1
                 price        560
                 itemType     WEAPON|BREAKABLE
-                useSpell     THUNDR 
+                useSpell     THUNDER 
                 equipEffects INCREASE_ATT, 12, &
                              NONE, 0, &
                              NONE, 0

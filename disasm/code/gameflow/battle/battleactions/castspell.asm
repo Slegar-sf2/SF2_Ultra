@@ -61,7 +61,7 @@ rjt_SpellEffects:
                 dc.w SpellEffect_BraveApple-rjt_SpellEffects ; BRAVE
                 dc.w SpellEffect_Blaze-rjt_SpellEffects ; F.BALL
                 dc.w SpellEffect_Freeze-rjt_SpellEffects ; BREZAD
-                dc.w SpellEffect_Bolt-rjt_SpellEffects ; THUNDR
+                dc.w SpellEffect_Bolt-rjt_SpellEffects ; THUNDER
                 dc.w SpellEffect_BubbleBreath-rjt_SpellEffects ; AQUA
                 dc.w SpellEffect_FlameBreath-rjt_SpellEffects ; NATASHA
                 dc.w SpellEffect_Blaze-rjt_SpellEffects ; ATOM

@@ -8,6 +8,6 @@ AllyStats31:    forClass  GRDR   ; BLEU
                 defGrowth 46, 83, LINEAR
                 agiGrowth 55, 90, LINEAR
                 spellList & 
-                    2, THUNDR|LV2, &
-                    55, THUNDR|LV3
+                    2, THUNDER|LV2, &
+                    55, THUNDER|LV3
                     

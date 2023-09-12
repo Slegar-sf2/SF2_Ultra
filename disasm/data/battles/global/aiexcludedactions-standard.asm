@@ -16,7 +16,7 @@ tbl_AiExcludedAttackSpells:
                 dc.b SPELL_ATLAS
                 dc.b SPELL_FBALL
                 dc.b SPELL_ICE
-                dc.b SPELL_THUNDR
+                dc.b SPELL_THUNDER
                 dc.b SPELL_AQUA
                 dc.b SPELL_DRAGON
                 dc.b SPELL_ODDEYE
@@ -41,7 +41,7 @@ tbl_AiExcludedItemUseAttackSpells:
                 dc.b SPELL_ATLAS
                 dc.b SPELL_FBALL
                 dc.b SPELL_ICE
-                dc.b SPELL_THUNDR
+                dc.b SPELL_THUNDER
                 dc.b SPELL_AQUA
                 dc.b SPELL_DRAGON
                 dc.b SPELL_ODDEYE

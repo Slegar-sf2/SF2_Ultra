@@ -2176,7 +2176,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    THUNDR|LV3, &
+                    THUNDER|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2326,7 +2326,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    THUNDR|LV3, &
+                    THUNDER|LV3, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2926,7 +2926,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    THUNDR|LV4, &
+                    THUNDER|LV4, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -2951,7 +2951,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    THUNDR|LV4, &
+                    THUNDER|LV4, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
