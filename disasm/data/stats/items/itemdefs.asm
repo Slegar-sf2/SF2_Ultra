@@ -240,8 +240,8 @@ tbl_ItemDefs:
                 range        0, 0
                 price        3000
                 itemType     RING|RARE|BREAKABLE
-                useSpell     ATTACK
-                equipEffects INCREASE_ATT, 5, &
+                useSpell     NOTHING
+                equipEffects INCREASE_ATT, 6, &
                              NONE, 0, &
                              NONE, 0
                 
@@ -257,8 +257,8 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 21: Quick Ring
-                equipFlags   PHNK|PHNX|WARR|GLDT
-                equipFlags2  NONE
+                equipFlags   PHNK|PHNX|WARR|GLDT|BRN
+                equipFlags2  WITC
                 range        0, 0
                 price        3000
                 itemType     RING|RARE|BREAKABLE
@@ -271,7 +271,7 @@ tbl_ItemDefs:
                 equipFlags   WARR|GLDT|BRN
                 equipFlags2  MOUS
                 range        0, 0
-                price        3000
+                price        3800
                 itemType     RING|RARE
                 useSpell     NOTHING
                 equipEffects INCREASE_MOV, 2, &
@@ -1369,12 +1369,12 @@ tbl_ItemDefs:
                 
                 ; 122: Vigor Ball
                 equipFlags   NONE
-                equipFlags2  NONE
+                equipFlags2  WITC
                 range        0, 0
-                price        1400
-                itemType     RARE
-                useSpell     NOTHING
-                equipEffects NONE, 0, &
+                price        7450
+                itemType     RING|RARE|BREAKABLE
+                useSpell     THUNDER|LV3
+                equipEffects INCREASE_AGI, 10, &
                              NONE, 0, &
                              NONE, 0
                 
@@ -1391,7 +1391,7 @@ tbl_ItemDefs:
                 
                 ; 124: Life Ring
                 equipFlags   HERO|PLDN|PGNT|GLDT|BRN|WIZ|SORC|VICR|MMNK|SNIP|BRGN|BDBT|WFBR|BWNT|PHNX|SWOR|ACHH
-                equipFlags2  STAR|MONK|BRSK|SNII|NINJ|MNST|RBT|RDBN
+                equipFlags2  STAR|MONK|BRSK|SNII|NINJ|MNST|RBT|RDBN|WITC
                 range        0, 0
                 price        5000
                 itemType     RING|RARE
@@ -1413,7 +1413,7 @@ tbl_ItemDefs:
                 
                 ; 126: Chirrup Sandals
                 equipFlags   SDMN|HERO|MAGE|PRST|WIZ|SORC|VICR|BRN|ACHR|SNIP|WFMN|WFBR|RNGR|BWNT|THIF|SWOR|ACHH|MAGG
-                equipFlags2  STAR|MONK|BRSK|SNII|WIZZ|WLBR|NINJ|RBT|RDBN
+                equipFlags2  STAR|MONK|BRSK|SNII|WIZZ|WLBR|NINJ|RBT|RDBN|WITC
                 range        0, 0
                 price        550
                 itemType     RING|RARE

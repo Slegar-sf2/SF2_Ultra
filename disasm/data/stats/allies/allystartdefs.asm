@@ -150,7 +150,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass WITC         ; 17: ANRI
-                startLevel 25
+                startLevel 1
                 startItems &
                     POWER_STICK|EQUIPPED, &
                     ELIXIR, &
