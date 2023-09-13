@@ -9,8 +9,8 @@ cs_BLEU4040:    entityActionsWait ALLY_BLEU
                  moveUp 1
 				endActions
                 setActscriptWait ALLY_BLEU,eas_Init
-                csc_end
-cs_BLEU4042:    entityActionsWait ALLY_BLEU
+				endActions 
+                entityActionsWait ALLY_BLEU
                  moveUp 1
                  moveLeft 1
 				endActions

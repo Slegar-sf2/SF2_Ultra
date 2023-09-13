@@ -1,7 +1,7 @@
 
 ; ASM FILE data\maps\entries\map74\00-tilesets.asm :
 ; 0xC362E..0xC3634 : 
-                mapPalette  0
+                mapPalette  36
                 mapTileset1 202
                 mapTileset2 203
                 mapTileset3 204

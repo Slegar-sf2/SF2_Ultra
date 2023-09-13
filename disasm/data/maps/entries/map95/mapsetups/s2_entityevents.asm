@@ -11,17 +11,9 @@ ms_Map95_EntityEvents:
                 
 Map95_EntityEvent0:
 
-                txt     1450
-				
-                script  cs_BLEU4040                			                
-				bra.s   return_BLEUEND00
-				script  cs_BLEU4042                			                
-				bra.s   return_BLEUEND00
-                rts
-                
-return_BLEUEND00:
-                
-                rts
+                chkFlg  31               ; Bleu joined
+                script  cs_BLEUJOIN
+                rts                
 ; =============== S U B R O U T I N E =======================================
 				
 
@@ -33,4 +25,16 @@ Map95_EntityEvent1:
 ; =============== S U B R O U T I N E =======================================
 Map95_DefaultEntityEvent:
                 
-                rts				
+                rts
+				
+; =============== S U B R O U T I N E =======================================
+				
+cs_BLEUJOIN:    setActscriptWait ALLY_BLEU,eas_Init
+                setActscriptWait ALLY_BLEU,eas_StopMoving
+                faceEntity ALLY_BLEU,ALLY_BOWIE
+                textCursor 4300
+                nextSingleText $0,ALLY_BLEU ; I'm not very confiden yet
+                nextSingleText $0,ALLY_BLEU ; but I'll try my best! 
+                join ALLY_BLEU
+                addNewFollower ALLY_BLEU
+                csc_end				

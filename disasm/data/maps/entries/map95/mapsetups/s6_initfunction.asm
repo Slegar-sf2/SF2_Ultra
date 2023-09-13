@@ -5,12 +5,14 @@
 ; =============== S U B R O U T I N E =======================================
 
 
-ms_Map95_InitFunction:
-
-
-
+ms_map95_InitFunction:
                 
-;return_MAP95END:
+                 
+                chkFlg  31               ; BLEU joined
+                beq.s   return_BLEU00
+                moveq   #ALLY_BLEU,d0
+                jsr     MoveEntityOutOfMap
+return_BLEU00:
                 
                 rts
 

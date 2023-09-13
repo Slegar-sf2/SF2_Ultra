@@ -4298,3 +4298,5 @@
 10C9={NAME}'s attack{N}decrease by {#}.
 10CA={NAME} absorbed{N}{#} HP points.
 10CB={NAME}'s HP was{N}drained by {#}.
+10CC=I'm not very confiden yet.{W1}
+10CD=but I'll try my best!{W1}
