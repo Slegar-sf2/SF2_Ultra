@@ -1766,13 +1766,12 @@ PER_ACTION_EXP_CAP: equ $3B
 
 chanceToDodgeForMuddledAttacker = 2     ; 1/2
 chanceToDodgeForAirborneTarget = 8      ; 1/8
-chanceToDodgeForAirborneRoyal = 2
 chanceToDodgeDefault = 32               ; 1/32
     if (STANDARD_BUILD=1)
-chanceToDodgeForMuddledAttacker = 32   ; n/256
-chanceToDodgeForAirborneTarget = 32     ;64=4 , 128=2
-chanceToDodgeForAirborneRoyal = 128
-chanceToDodgeDefault = 8                ; 
+chanceToDodgeForMuddledAttacker = 32   ; n/256 
+chanceToDodgeForAirborneTarget = 32     ;64=4 ; 128=2 FLYNING
+chanceToDodgeDefault = 8                ; 8=32
+chanceToDodgeForRoyal = 128
     endif
 
 CHANCE_TO_DODGE_FOR_MUDDLED_ATTACKER: equ chanceToDodgeForMuddledAttacker
@@ -1782,7 +1781,7 @@ CHANCE_TO_PERFORM_NATASHA_FLAME_BREATH: equ $6
 INACTION_CHANCE_CURSE: equ $4
 INACTION_CHANCE_STUN: equ $4
 CHANCE_TO_DODGE_FOR_AIRBORNE_TARGET: equ chanceToDodgeForAirborneTarget
-CHANCE_TO_DODGE_FOR_AIRBORNE_ROYAL: equ chanceToDodgeForAirborneRoyal
+CHANCE_TO_DODGE_FOR_ROYAL: equ chanceToDodgeForRoyal
 CHANCE_TO_DODGE_DEFAULT: equ chanceToDodgeDefault
 NATASHA_FLAME_BREATH_UPGRADE_LEVEL1: equ $20
 NATASHA_FLAME_BREATH_UPGRADE_LEVEL2: equ $28
