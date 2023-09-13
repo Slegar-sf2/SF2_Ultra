@@ -166,7 +166,7 @@ ExecuteIndividualTurn:
                 bne.s   @CheckFairyWoodsBattle
                 tst.w   ((CURRENT_BATTLEACTION-$1000000)).w
                 bne.s   @CheckFairyWoodsBattle
-                moveq   #CHANCE_TO_PERFORM_NATASHA_FLAME_BREATH,d6 ; 1/4 chance to perform NATASHA's Flame Breath
+                moveq   #CHANCE_TO_PERFORM_DRAGON_FLAME_BREATH,d6 ; 1/4 chance to perform NATASHA's Flame Breath
                 jsr     (GenerateRandomNumber).w
                 tst.w   d7
                 bne.s   @CheckFairyWoodsBattle
@@ -174,17 +174,17 @@ ExecuteIndividualTurn:
                 move.w  #BATTLEACTION_CAST_SPELL,((CURRENT_BATTLEACTION-$1000000)).w
                 jsr     j_GetCurrentLevel
                 clr.w   d0
-                cmpi.w  #NATASHA_FLAME_BREATH_UPGRADE_LEVEL1,d1
+                cmpi.w  #DRAGON_FLAME_BREATH_UPGRADE_LEVEL1,d1
                 blt.s   @CheckUpgradeLevel2
                 addq.w  #1,d0
 @CheckUpgradeLevel2:
                 
-                cmpi.w  #NATASHA_FLAME_BREATH_UPGRADE_LEVEL2,d1
+                cmpi.w  #DRAGON_FLAME_BREATH_UPGRADE_LEVEL2,d1
                 blt.s   @CheckUpgradeLevel3
                 addq.w  #1,d0
 @CheckUpgradeLevel3:
                 
-                cmpi.w  #NATASHA_FLAME_BREATH_UPGRADE_LEVEL3,d1
+                cmpi.w  #DRAGON_FLAME_BREATH_UPGRADE_LEVEL3,d1
                 blt.s   @LoadNATASHAFlameBreathSpellEntry
                 addq.w  #1,d0
 @LoadNATASHAFlameBreathSpellEntry:
