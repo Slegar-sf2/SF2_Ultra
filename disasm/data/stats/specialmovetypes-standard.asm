@@ -7,7 +7,6 @@ tbl_AirborneMovetypes:
                 
                 dc.b MOVETYPE_LOWER_FLYING
                 dc.b MOVETYPE_LOWER_HOVERING
-                dc.b MOVETYPE_LOWER_ROYAL
 				
                 tableEnd.b
 				
@@ -21,6 +20,6 @@ tbl_ArcherMovetypes:
                 
                 tableEnd.b
 
-tbl_AirborneMovetypes2:
+tbl_RoyalMovetypes:
                 
                 dc.b MOVETYPE_LOWER_ROYAL

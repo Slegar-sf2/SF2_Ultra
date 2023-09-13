@@ -51,7 +51,7 @@
                   warpMap    97
                   warpDest   7, 17
                   warpFacing UP
-                mWarp 50, 33
+                mWarp 49, 33
                   warpNoScroll
                   warpMap    97
                   warpDest   46, 8

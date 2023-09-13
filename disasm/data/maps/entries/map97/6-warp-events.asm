@@ -7,6 +7,6 @@
                 mWarp 47, 8
                   warpNoScroll
                   warpMap    74
-                  warpDest   50, 32
-                  warpFacing UP
+                  warpDest   50, 33
+                  warpFacing RIGHT
                 endWord
