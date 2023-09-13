@@ -28,7 +28,7 @@
                   warpFacing RIGHT
                 mWarp 23, 20
                   warpNoScroll
-                  warpMap    MAP_HARPY_POOL
-                  warpDest   10, 24
+                  warpMap    98
+                  warpDest   19, 22
                   warpFacing UP
                 endWord
