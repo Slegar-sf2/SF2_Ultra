@@ -14,8 +14,6 @@ tbl_CannotBeCounteredEnemies:
                 
                 dc.b ENEMY_BURST_ROCK
                 dc.b ENEMY_KRAKEN_HEAD
-                dc.b ENEMY_PRISM_FLOWER
-                dc.b ENEMY_ZEON_GUARD
                 dc.b ENEMY_DANTOM
                 dc.b ENEMY_DAVA
                 dc.b ENEMY_CHU_RAO

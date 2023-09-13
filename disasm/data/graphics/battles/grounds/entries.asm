@@ -100,8 +100,8 @@ Ground27:       incbin "data/graphics/battles/grounds/groundpalette27.bin"
 bsg27_rpbase:   dc.w GroundTiles26-bsg27_rpbase
 Ground28:       incbin "data/graphics/battles/grounds/groundpalette28.bin"
 bsg28_rpbase:   dc.w GroundTiles03-bsg28_rpbase
-Ground29:       incbin "data/graphics/battles/grounds/groundpalette26.bin"
-bsg29_rpbase:   dc.w GroundTiles03-bsg29_rpbase
+Ground29:       incbin "data/graphics/battles/grounds/groundpalette00.bin"
+bsg29_rpbase:   dc.w GroundTiles29-bsg29_rpbase
 Ground30:       incbin "data/graphics/battles/grounds/groundpalette26.bin"
 bsg30_rpbase:   dc.w GroundTiles03-bsg30_rpbase
 Ground31:       incbin "data/graphics/battles/grounds/groundpalette20.bin"
@@ -144,3 +144,4 @@ GroundTiles25:  incbin "data/graphics/battles/grounds/groundtiles25.bin"
 GroundTiles26:  incbin "data/graphics/battles/grounds/groundtiles26.bin"
 GroundTiles27:  incbin "data/graphics/battles/grounds/groundtiles27.bin"
 GroundTiles28:  incbin "data/graphics/battles/grounds/groundtiles28.bin"
+GroundTiles29:  incbin "data/graphics/battles/grounds/groundtiles29.bin"

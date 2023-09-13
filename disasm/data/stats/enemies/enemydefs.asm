@@ -989,7 +989,7 @@ tbl_EnemyDefs:
                 level    55
                 maxHp    130
                 maxMp    0
-                baseAtt  5
+                baseAtt  150
                 baseDef  106
                 baseAgi  68
                 baseMov  0
@@ -2364,12 +2364,12 @@ tbl_EnemyDefs:
                 level    48
                 maxHp    77
                 maxMp    0
-                baseAtt  5
+                baseAtt  140
                 baseDef  85
                 baseAgi  84
                 baseMov  0
                 baseResistance FIRE_WEAKNESS|STATUS_IMMUNITY
-                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN32
+                baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN4
                 items &
                     NOTHING, &
                     NOTHING, &
