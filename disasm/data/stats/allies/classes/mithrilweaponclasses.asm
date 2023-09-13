@@ -10,7 +10,7 @@ tbl_MithrilWeaponClasses:
                 classes HERO, BDBT
                 classes PLDN, PGNT, PLDN2
                 classes GLDT, GLDD
-                classes WIZ, SORC, WIZZ
+                classes WIZ, SORC, WIZZ, WITC
                 classes VICR
                 classes SNIP, BRGN, BWNT, SNII
                 classes NINJ

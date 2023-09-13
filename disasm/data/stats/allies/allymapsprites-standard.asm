@@ -95,7 +95,7 @@ tbl_AllyMapSprites:
                 mapSprite DEFAULT
                 
 ; 17: ANRI
-                mapSprite ANRI_BASE
+                mapSprite DEFAULT
                 mapSprite ANRI_PROMO
                 mapSprite DEFAULT
                 

@@ -149,7 +149,7 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass MAGG         ; 17: ANRI
+                startClass WITC         ; 17: ANRI
                 startLevel 25
                 startItems &
                     POWER_STICK|EQUIPPED, &

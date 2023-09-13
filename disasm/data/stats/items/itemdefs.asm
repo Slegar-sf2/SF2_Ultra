@@ -962,7 +962,7 @@ tbl_ItemDefs:
                 
                 ; 85: Wooden Rod
                 equipFlags   MAGE|PRST|WIZ|SORC|VICR|MAGG
-                equipFlags2  WIZZ
+                equipFlags2  WIZZ|WITC
                 range        1, 1
                 price        60
                 itemType     WEAPON
@@ -973,7 +973,7 @@ tbl_ItemDefs:
                 
                 ; 86: Short Rod
                 equipFlags   MAGE|PRST|WIZ|SORC|VICR|MAGG
-                equipFlags2  WIZZ
+                equipFlags2  WIZZ|WITC
                 range        1, 1
                 price        130
                 itemType     WEAPON|BREAKABLE
@@ -984,7 +984,7 @@ tbl_ItemDefs:
                 
                 ; 87: Bronze Rod
                 equipFlags   MAGE|PRST|WIZ|SORC|VICR|MAGG
-                equipFlags2  WIZZ
+                equipFlags2  WIZZ|WITC
                 range        1, 1
                 price        360
                 itemType     WEAPON|BREAKABLE
@@ -995,7 +995,7 @@ tbl_ItemDefs:
                 
                 ; 88: Iron Rod
                 equipFlags   MAGE|PRST|WIZ|SORC|VICR|MAGG
-                equipFlags2  WIZZ
+                equipFlags2  WIZZ|WITC
                 range        1, 1
                 price        560
                 itemType     WEAPON|BREAKABLE
@@ -1028,7 +1028,7 @@ tbl_ItemDefs:
                 
                 ; 91: Guardian Staff
                 equipFlags   WIZ|SORC|VICR|MAGG
-                equipFlags2  WIZZ
+                equipFlags2  WIZZ|WITC
                 range        1, 1
                 price        2380
                 itemType     WEAPON|BREAKABLE
@@ -1039,7 +1039,7 @@ tbl_ItemDefs:
                 
                 ; 92: Indra Staff
                 equipFlags   WIZ|SORC|VICR
-                equipFlags2  WIZZ
+                equipFlags2  WIZZ|WITC
                 range        1, 2
                 price        7500
                 itemType     WEAPON|CURSED|BREAKABLE
@@ -1050,7 +1050,7 @@ tbl_ItemDefs:
                 
                 ; 93: Mage Staff
                 equipFlags   WIZ|SORC
-                equipFlags2  WIZZ
+                equipFlags2  WIZZ|WITC
                 range        1, 1
                 price        6300
                 itemType     WEAPON|RARE|BREAKABLE
@@ -1061,7 +1061,7 @@ tbl_ItemDefs:
                 
                 ; 94: Wish Staff
                 equipFlags   VICR
-                equipFlags2  WIZZ
+                equipFlags2  WIZZ|WITC
                 range        1, 1
                 price        6100
                 itemType     WEAPON|RARE|BREAKABLE
@@ -1072,7 +1072,7 @@ tbl_ItemDefs:
                 
                 ; 95: Great Rod
                 equipFlags   WIZ|SORC|VICR
-                equipFlags2  WIZZ
+                equipFlags2  WIZZ|WITC
                 range        1, 1
                 price        7900
                 itemType     WEAPON|RARE|BREAKABLE
@@ -1083,7 +1083,7 @@ tbl_ItemDefs:
                 
                 ; 96: Supply Staff
                 equipFlags   WIZ|SORC
-                equipFlags2  WIZZ
+                equipFlags2  WIZZ|WITC
                 range        1, 1
                 price        8500
                 itemType     WEAPON|RARE|BREAKABLE
@@ -1094,7 +1094,7 @@ tbl_ItemDefs:
                 
                 ; 97: Holy Staff
                 equipFlags   VICR
-                equipFlags2  NONE
+                equipFlags2  WITC
                 range        1, 1
                 price        9000
                 itemType     WEAPON|RARE|BREAKABLE
@@ -1105,7 +1105,7 @@ tbl_ItemDefs:
                 
                 ; 98: Freeze Staff
                 equipFlags   WIZ|SORC
-                equipFlags2  WIZZ
+                equipFlags2  WIZZ|WITC
                 range        1, 1
                 price        9500
                 itemType     WEAPON|RARE|BREAKABLE
@@ -1116,7 +1116,7 @@ tbl_ItemDefs:
                 
                 ; 99: Goddess Staff
                 equipFlags   VICR
-                equipFlags2  WIZZ
+                equipFlags2  WIZZ|WITC
                 range        1, 1
                 price        9700
                 itemType     WEAPON|RARE|BREAKABLE
@@ -1127,7 +1127,7 @@ tbl_ItemDefs:
                 
                 ; 100: Mystery Staff
                 equipFlags   WIZ|SORC|VICR
-                equipFlags2  WIZZ
+                equipFlags2  WIZZ|WITC
                 range        1, 1
                 price        10000
                 itemType     WEAPON|RARE|BREAKABLE
@@ -1138,7 +1138,7 @@ tbl_ItemDefs:
                 
                 ; 101: Demon Rod
                 equipFlags   WIZ|SORC|VICR
-                equipFlags2  WIZZ
+                equipFlags2  WIZZ|WITC
                 range        1, 1
                 price        12500
                 itemType     WEAPON|RARE|CURSED|BREAKABLE
