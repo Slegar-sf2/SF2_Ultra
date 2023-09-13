@@ -36,7 +36,7 @@ pt_Portraits:   dc.l Portrait00
                 dc.l Portrait32
                 dc.l Portrait33
                 dc.l Portrait34
-                dc.l Portrait33
+                dc.l Portrait35
                 dc.l Portrait36
                 dc.l Portrait37
                 dc.l Portrait38
@@ -100,6 +100,7 @@ Portrait31:     incbin "data/graphics/portraits/portrait31.bin"
 Portrait32:     incbin "data/graphics/portraits/portrait32.bin"
 Portrait33:     incbin "data/graphics/portraits/portrait33.bin"
 Portrait34:     incbin "data/graphics/portraits/portrait34.bin"
+Portrait35:     incbin "data/graphics/portraits/portrait35.bin"
 Portrait36:     incbin "data/graphics/portraits/portrait36.bin"
 Portrait37:     incbin "data/graphics/portraits/portrait37.bin"
 Portrait38:     incbin "data/graphics/portraits/portrait38.bin"

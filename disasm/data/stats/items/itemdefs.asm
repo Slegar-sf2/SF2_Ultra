@@ -704,7 +704,7 @@ tbl_ItemDefs:
                 itemType     WEAPON|RARE|CURSED
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 20, &
-                             NONE, 0, &
+                             INCREASE_DEF, 2, &
                              NONE, 0
                 
                 ; 62: Broad Sword
@@ -1419,8 +1419,8 @@ tbl_ItemDefs:
                 itemType     RING|RARE
                 useSpell     NOTHING
                 equipEffects INCREASE_MOV, 1, &
-                             INCREASE_DEF, 3, &
-                             NONE, 0
+                             INCREASE_DEF, 1, &
+                             INCREASE_ATT, 1
                 
                 ; 127: Empty
                 equipFlags   NONE
