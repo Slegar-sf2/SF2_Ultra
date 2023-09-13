@@ -4,6 +4,7 @@
 ms_Map95_EntityEvents:
                 msEntityEvent 31, DOWN, Map95_EntityEvent0-ms_Map95_EntityEvents
 				msEntityEvent 128, DOWN, Map95_EntityEvent1-ms_Map95_EntityEvents
+				msEntityEvent 129, DOWN, Map95_EntityEvent2-ms_Map95_EntityEvents
 				msDefaultEntityEvent Map95_DefaultEntityEvent-ms_Map95_EntityEvents
 				               
 				
@@ -20,6 +21,15 @@ Map95_EntityEvent0:
 Map95_EntityEvent1:
                                  
                 jmp     j_ChurchMenuActions
+                rts
+				
+; =============== S U B R O U T I N E =======================================
+				
+
+Map95_EntityEvent2:
+                
+                move.b  #20,((CURRENT_SHOP_INDEX-$1000000)).w
+                jsr     j_ShopMenuActions
                 rts
                 
 ; =============== S U B R O U T I N E =======================================
