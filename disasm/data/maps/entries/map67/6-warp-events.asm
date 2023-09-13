@@ -1,11 +1,6 @@
 
 ; ASM FILE data\maps\entries\map67\6-warp-events.asm :
 ; 0xBD262..0xBD28C : 
-                mWarp 26, 22
-                  warpNoScroll
-                  warpMap    MAP_CREED_MANSION
-                  warpDest   15, 30
-                  warpFacing UP
                 mWarp 51, 22
                   warpNoScroll
                   warpMap    MAP_UNDERGROUND_PATH_1

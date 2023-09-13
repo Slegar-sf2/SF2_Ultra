@@ -100,6 +100,7 @@ pt_MapData:     dc.l Map00
                 dc.l Map96
                 dc.l Map97
                 dc.l Map98
+                dc.l Map99
 Map00:          include "data\maps\entries\map00\00-tilesets.asm"    ; 
                 dc.l Map00s0_Blocks
                 dc.l Map00s1_Layout
@@ -2121,3 +2122,23 @@ Map98s7_ChestItems:include "data\maps\entries\Map98\7-chest-items.asm"    ;
 Map98s8_OtherItems:include "data\maps\entries\Map98\8-other-items.asm"    ; 
 Map98s0_Blocks: incbin "data/maps/entries/Map98/0-blocks.bin"
 Map98s1_Layout: incbin "data/maps/entries/Map98/1-layout.bin"
+Map99:          include "data\maps\entries\Map99\00-tilesets.asm"    ; 
+                dc.l Map99s0_Blocks
+                dc.l Map99s1_Layout
+                dc.l Map99s2_Areas
+                dc.l Map99s3_FlagEvents
+                dc.l Map99s4_StepEvents
+                dc.l Map99s5_RoofEvents
+                dc.l Map99s6_WarpEvents
+                dc.l Map99s7_ChestItems
+                dc.l Map99s8_OtherItems
+                dc.l $FFFFFFFF
+Map99s2_Areas:  include "data\maps\entries\Map99\2-areas.asm"    ; 
+Map99s3_FlagEvents:include "data\maps\entries\Map99\3-flag-events.asm"    ; 
+Map99s4_StepEvents:include "data\maps\entries\Map99\4-step-events.asm"    ; 
+Map99s5_RoofEvents:include "data\maps\entries\Map99\5-roof-events.asm"    ; 
+Map99s6_WarpEvents:include "data\maps\entries\Map99\6-warp-events.asm"    ; 
+Map99s7_ChestItems:include "data\maps\entries\Map99\7-chest-items.asm"    ; 
+Map99s8_OtherItems:include "data\maps\entries\Map99\8-other-items.asm"    ; 
+Map99s0_Blocks: incbin "data/maps/entries/Map99/0-blocks.bin"
+Map99s1_Layout: incbin "data/maps/entries/Map99/1-layout.bin"

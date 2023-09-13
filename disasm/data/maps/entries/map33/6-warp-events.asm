@@ -8,7 +8,7 @@
                   warpFacing LEFT
                 mWarp 255, 31
                   warpNoScroll
-                  warpMap    MAP_OVERWORLD_DEVILS_TAIL
-                  warpDest   26, 23
-                  warpFacing UP
+                  warpMap    99
+                  warpDest   7, 5
+                  warpFacing DOWN
                 endWord

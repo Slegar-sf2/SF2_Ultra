@@ -7,7 +7,7 @@
                   warpFacing DOWN
                 mWarp 3, 3
                   warpNoScroll
-                  warpMap    67
-                  warpDest   50, 33
-                  warpFacing RIGHT
+                  warpMap    99
+                  warpDest   22, 22
+                  warpFacing LEFT
                 endWord
