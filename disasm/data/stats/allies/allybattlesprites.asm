@@ -94,10 +94,10 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt GLDD, 35, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 
-; 17: WENDY
-                allyBattleSprAndPlt MAGG, 36, 0
-                allyBattleSprAndPlt WIZZ, 37, 0
-                allyBattleSprAndPlt SORC, SORC_MALE, 1
+; 17: ANRI
+                allyBattleSprAndPlt NONE, NONE, 0
+                allyBattleSprAndPlt WITC, 58, 0
+                allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 18: JANET
                 allyBattleSprAndPlt ACHR, ACHR, 0

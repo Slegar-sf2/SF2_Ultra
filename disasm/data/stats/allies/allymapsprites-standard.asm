@@ -94,9 +94,9 @@ tbl_AllyMapSprites:
                 mapSprite RUCE_PROMO
                 mapSprite DEFAULT
                 
-; 17: WENDY
-                mapSprite WENDY_BASE
-                mapSprite WENDY_PROMO
+; 17: ANRI
+                mapSprite ANRI_BASE
+                mapSprite ANRI_PROMO
                 mapSprite DEFAULT
                 
 ; 18: Janet

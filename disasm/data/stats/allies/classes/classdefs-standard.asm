@@ -123,7 +123,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
                 mov 5                   ; 23: SORC
-                resistance WIND_WEAKNESS|LIGHTNING_NONE|ICE_MAJOR|FIRE_MINOR|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_MINOR|FIRE_MINOR|NEUTRAL_NONE|STATUS_NONE
                 moveType   MAGE
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
@@ -248,12 +248,12 @@ tbl_ClassDefs:
                 resistance WIND_WEAKNESS|LIGHTNING_WEAKNESS|ICE_MAJOR|FIRE_MINOR|NEUTRAL_NONE|STATUS_NONE
                 moveType   STEALTH
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN16|COUNTER_1IN16|DOUBLE_1IN16|COUNTER_1IN16
-                    
-                mov 6                   ; 48: 
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
-                moveType   REGULAR
-                prowess    CRITICAL_NONE|DOUBLE_1IN32|COUNTER_1IN32
-                    
+                
+                mov 5                   ; 48: WITC
+                resistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|NEUTRAL_WEAKNESS|STATUS_NONE
+                moveType   MAGE
+                prowess    CRITICAL125_1IN32|DOUBLE_1IN16|COUNTER_1IN16
+                
                 mov 6                   ; 49: 
                 resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_NONE|STATUS_NONE
                 moveType   REGULAR

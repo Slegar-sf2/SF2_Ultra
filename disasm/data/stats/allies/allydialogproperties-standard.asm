@@ -100,10 +100,10 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx RUCE, DIALOG_BLEEP_6
                 allyPortraitAndSfx RUCE, DIALOG_BLEEP_6
                 
-; 17: WENDY
-                allyPortraitAndSfx WENDY, DIALOG_BLEEP_3
-                allyPortraitAndSfx WENDY, DIALOG_BLEEP_3
-                allyPortraitAndSfx WENDY, DIALOG_BLEEP_3
+; 17: ANRI
+                allyPortraitAndSfx ANRI, DIALOG_BLEEP_3
+                allyPortraitAndSfx ANRI, DIALOG_BLEEP_3
+                allyPortraitAndSfx ANRI, DIALOG_BLEEP_3
                 
 ; 18: Janet
                 allyPortraitAndSfx JANET, DIALOG_BLEEP_4

@@ -15,7 +15,7 @@
 0014=Eric joined
 0015=Graham joined
 0016=Ranfolf joined
-0017=WENDY joined
+0017=ANRI joined
 0018=Janet joined
 0019=Higins joined
 0020=Skreech joined
@@ -47,7 +47,7 @@
 0046=Eric in active party
 0047=Graham in active party
 0048=Ranfolf in active party
-0049=WENDY in active party
+0049=ANRI in active party
 0050=Janet in active party
 0051=Higins in active party
 0052=Skreech in active party

@@ -1,7 +1,7 @@
 
 ; ASM FILE data\stats\allies\stats\allystats17.asm :
 ; 0x1EE628..0x1EE685 : Ally stats 17
-AllyStats17:    forClass  MAGG   ; WENDY
+AllyStats17:    forClass  MAGG   ; ANRI
                 hpGrowth  10, 42, LINEAR
                 mpGrowth  7, 65, EARLY
                 attGrowth 4, 29, LINEAR

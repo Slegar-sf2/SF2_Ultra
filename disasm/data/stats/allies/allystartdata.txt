@@ -27,7 +27,7 @@ ZYLO, 13
 MARILL, 14
 Graham, 15
 RUCE, 16
-WENDY, 17
+ANRI, 17
 Janet, 18
 Higins, 19
 Skreech, 20

@@ -18,7 +18,7 @@ pt_AllyStats:   dc.l AllyStats00        ; BOWIE
                 dc.l AllyStats14        ; MARILL
                 dc.l AllyStats15        ; GRAHAM
                 dc.l AllyStats16        ; RUCE
-                dc.l AllyStats17        ; WENDY
+                dc.l AllyStats17        ; ANRI
                 dc.l AllyStats18        ; JANET
                 dc.l AllyStats19        ; HIGINS
                 dc.l AllyStats20        ; SKREECH
