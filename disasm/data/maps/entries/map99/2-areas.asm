@@ -9,5 +9,5 @@
                     mainLayerAutoscroll 0, 0
                     scndLayerAutoscroll 0, 0
                     mainLayerType    255
-                    areaDefaultMusic 36
+                    areaDefaultMusic 33
                 endWord
