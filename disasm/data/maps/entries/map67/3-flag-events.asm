@@ -5,4 +5,8 @@
                   fbcSource 0, 0
                   fbcSize   3, 2
                   fbcDest   56, 22
+               fbcFlag 523             ; 
+                  fbcSource 0, 2
+                  fbcSize   1, 1
+                  fbcDest   44, 10				  
                 endWord

@@ -8,6 +8,6 @@
                     scndLayerParallax   256, 256
                     mainLayerAutoscroll 0, 0
                     scndLayerAutoscroll 0, 0
-                    mainLayerType    -1
-                    areaDefaultMusic 3
+                    mainLayerType    255
+                    areaDefaultMusic 40
                 endWord

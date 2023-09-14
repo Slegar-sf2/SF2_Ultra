@@ -63,4 +63,8 @@ rpt_BattleStartCutscenes:
                 dc.w (ms_Empty-rpt_BattleStartCutscenes) & $FFFF ;57
                 dc.w (ms_Empty-rpt_BattleStartCutscenes) & $FFFF ;58
                 dc.w (ms_Empty-rpt_BattleStartCutscenes) & $FFFF ;59
-                dc.w (ms_Empty-rpt_BattleStartCutscenes) & $FFFF ;60				
+                dc.w (ms_Empty-rpt_BattleStartCutscenes) & $FFFF ;60
+                dc.w (ms_Empty-rpt_BattleStartCutscenes) & $FFFF ;61
+                dc.w (ms_Empty-rpt_BattleStartCutscenes) & $FFFF ;62
+                dc.w (ms_Empty-rpt_BattleStartCutscenes) & $FFFF ;63
+                dc.w (ms_Empty-rpt_BattleStartCutscenes) & $FFFF ;64

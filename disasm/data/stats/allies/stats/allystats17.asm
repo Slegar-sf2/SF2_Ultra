@@ -8,13 +8,13 @@ AllyStats17:    forClass  WITC   ; ANRI
                 defGrowth 31, 50, LINEAR
                 agiGrowth 33, 45, LINEAR
                 spellList &
-                     1, BLAZE, &
-                    11, BLAZE|LV2, &
-                    20, BLAZE|LV3, &
-                    50, BLAZE|LV4, &
-                    5, FREEZE, &
-                    15, FREEZE|LV2, &
-                    37, FREEZE|LV3, &
+                     1, BOLT, &
+                    11, BOLT|LV2, &
+                    20, BOLT|LV3, &
+                    50, BOLT|LV4, &
+                    5, RAIJIN, &
+                    15, RAIJIN|LV2, &
+                    37, RAIJIN|LV3, &
                     29, ATTACK, &
                     32, ATTACK|LV2, &
                     23, KATON, &

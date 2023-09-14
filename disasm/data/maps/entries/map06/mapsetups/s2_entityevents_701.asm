@@ -509,7 +509,7 @@ byte_54C8E:
                 script  cs_54CC6
                 txt     1120            ; "Sir Astral said it was OK!{N}Here is the explosive.{W1}"
                 clsTxt
-                move.w  #ITEM_DYNAMITE,d0
+                move.w  #ITEM_BOMB,d0
                 moveq   #0,d1
                 bsr.w   ReceiveMandatoryItem
                 btst    #0,d0

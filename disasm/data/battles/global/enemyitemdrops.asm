@@ -158,15 +158,20 @@ tbl_EnemyItemDrops:
                 item        POWER_WATER
                 droppedFlag 29
                 
+                battle      62
+                enemyEntity 0
+                item        DYNAMITE
+                droppedFlag 30
+                                
                 tableEnd
 
 
 ; Items that have a random chance to drop (x/256)
 tbl_RandomItemDrops:
             if (STANDARD_BUILD=1)
-                dc.b ITEM_TAROS_SWORD,128
-                dc.b ITEM_IRON_BALL,8
-                dc.b ITEM_COUNTER_SWORD,8
+                ;dc.b ITEM_TAROS_SWORD,8
+                ;dc.b ITEM_IRON_BALL,8
+                ;dc.b ITEM_COUNTER_SWORD,8
                     
                 tableEnd.b
             endif

@@ -46,6 +46,7 @@ pt_Grounds:     dc.l Ground00
                 dc.l Ground42
                 dc.l Ground43
                 dc.l Ground44
+                dc.l Ground45
 Ground00:       incbin "data/graphics/battles/grounds/groundpalette00.bin"
 bsg00_rpbase:   dc.w GroundTiles00-bsg00_rpbase
 Ground01:       incbin "data/graphics/battles/grounds/groundpalette01.bin"
@@ -132,6 +133,8 @@ Ground43:       incbin "data/graphics/battles/grounds/groundpalette13.bin"
 bsg43_rpbase:   dc.w GroundTiles09-bsg43_rpbase
 Ground44:       incbin "data/graphics/battles/grounds/groundpalette00.bin"
 bsg44_rpbase:   dc.w GroundTiles27-bsg44_rpbase
+Ground45:       incbin "data/graphics/battles/grounds/groundpalette00.bin"
+bsg45_rpbase:   dc.w GroundTiles28-bsg45_rpbase
 GroundTiles00:  incbin "data/graphics/battles/grounds/groundtiles00.bin"
 GroundTiles01:  incbin "data/graphics/battles/grounds/groundtiles01.bin"
 GroundTiles05:  incbin "data/graphics/battles/grounds/groundtiles05.bin"
