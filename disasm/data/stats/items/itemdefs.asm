@@ -1643,38 +1643,38 @@ tbl_ItemDefs:
                              INCREASE_DEF, 8, &
                              INCREASE_MOV, 2
                 
-                ; 147: 
+                ; 147: MAGIC POWER 
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
+                range        0, 1
+                price        1000
+                itemType     CONSUMABLE
+                useSpell     G_TEAR|LV3
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
                 
-                ; 148: 
-                equipFlags   NONE
+                ; 148: BIKINI
+                equipFlags   MMNK
                 equipFlags2  NONE
                 range        0, 0
-                price        0
-                itemType     NONE
+                price        3500
+                itemType     RING|RARE
                 useSpell     NOTHING
-                equipEffects NONE, 0, &
-                             NONE, 0, &
-                             NONE, 0
+                equipEffects INCREASE_MOV, 1, &
+                             INCREASE_DEF, 5, &
+                             INCREASE_AGI, 15
                 
-                ; 149: 
-                equipFlags   NONE
+                ; 149: EGG
+                equipFlags   PHNK|PHNX
                 equipFlags2  NONE
                 range        0, 0
-                price        0
-                itemType     NONE
+                price        7000
+                itemType     RING|RARE
                 useSpell     NOTHING
-                equipEffects NONE, 0, &
-                             NONE, 0, &
-                             NONE, 0
+                equipEffects INCREASE_DEF, 16, &
+                             DECREASE_MOV, 25, &
+                             DECREASE_ATT, 200
                 
                 ; 150: 
                 equipFlags   NONE

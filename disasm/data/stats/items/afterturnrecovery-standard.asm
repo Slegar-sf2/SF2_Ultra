@@ -18,6 +18,8 @@ tbl_AfterTurnHpRecoveryForRings:
                 
                 dc.b ITEM_QUICK_RING, 1
 				dc.b ITEM_LIFE_RING, 7
+				dc.b ITEM_EGG, 1
+				dc.b ITEM_SECRET_BOOK, 2
                 
                 tableEnd.b
 

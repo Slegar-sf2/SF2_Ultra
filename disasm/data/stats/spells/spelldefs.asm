@@ -768,6 +768,14 @@ tbl_SpellDefs:
                 radius     0
                 power      30
                 
+                entry      G_TEAR|LV3   ; G.TEAR 3
+                mpCost     0
+                animation  NONE
+                properties TYPE_HEAL|TARGET_TEAMMATES
+                range      0, 1
+                radius     0
+                power      40
+                
                 entry      HANNY        ; HANNY 1
                 mpCost     0
                 animation  NONE
@@ -1073,7 +1081,70 @@ tbl_SpellDefs:
                 range      1, 2
                 radius     0
                 power      5
-				
+                
+                entry      FUOCO        ; FUOCO 1
+                mpCost     3
+                animation  BLAZE
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
+                range      1, 2
+                radius     0
+                power      8
+                
+                entry      FUOCO|LV2    ; FUOCO 2
+                mpCost     6
+                animation  BLAZE|VARIATION2
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
+                range      1, 2
+                radius     1
+                power      18
+                
+                entry      FUOCO|LV3    ; FUOCO 3
+                mpCost     14
+                animation  BLAZE|VARIATION3
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
+                range      1, 2
+                radius     1
+                power      33
+                
+                entry      FUOCO|LV4    ; FUOCO 4
+                mpCost     25
+                animation  BLAZE|VARIATION4
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
+                range      1, 3
+                radius     1
+                power      46
+                
+                entry      PYTHON        ; PYTHON 1
+                mpCost     5
+                animation  HEALING_FAIRY
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
+                range      1, 7
+                radius     0
+                power      15
+                
+                entry      PYTHON|LV2    ; PYTHON 2
+                mpCost     10
+                animation  HEALING_FAIRY|VARIATION2
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
+                range      1, 7
+                radius     1
+                power      25
+                
+                entry      PYTHON|LV3    ; PYTHON 3
+                mpCost     15
+                animation  HEALING_FAIRY|VARIATION3
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
+                range      1, 7
+                radius     1
+                power      35
+                
+                entry      PYTHON|LV4    ; PYTHON 4
+                mpCost     30
+                animation  HEALING_FAIRY|VARIATION4
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
+                range      1, 7
+                radius     1
+                power      45                	
                 ; Fill out table with dummy entries
                 dcb.b (SPELLDEF_ENTRY_SIZE*252)-(*-tbl_SpellDefs),0
             endif				

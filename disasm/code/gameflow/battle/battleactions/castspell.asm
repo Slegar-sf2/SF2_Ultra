@@ -73,8 +73,8 @@ rjt_SpellEffects:
                 dc.w SpellEffect_Heal-rjt_SpellEffects       ; FAIRY
                 dc.w SpellEffect_Heal-rjt_SpellEffects       ; HYPER_HEAL
                 dc.w SpellEffect_DrainHp-rjt_SpellEffects     ; HP_DRAIN			
-                dc.w SpellEffect_None-rjt_SpellEffects       ; spell50
-                dc.w SpellEffect_None-rjt_SpellEffects       ; spell51
+                dc.w SpellEffect_Blaze-rjt_SpellEffects      ; FUOCO
+                dc.w SpellEffect_DemonBreath-rjt_SpellEffects  ; PYTHON
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell52
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell53
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell54

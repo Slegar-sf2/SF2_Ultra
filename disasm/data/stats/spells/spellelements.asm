@@ -56,8 +56,8 @@ tbl_SpellElements:
                 spellElement NEUTRAL    ; 47: FAIRY
                 spellElement NEUTRAL    ; 48: HYPER_HEAL
                 spellElement NEUTRAL    ; 49: HP_DRAIN
-                spellElement NEUTRAL    ; 50: 
-                spellElement NEUTRAL    ; 51: 
+                spellElement FIRE       ; 50: FUOCO
+                spellElement NEUTRAL    ; 51: PYTHON
                 spellElement NEUTRAL    ; 52: 
                 spellElement NEUTRAL    ; 53: 
                 spellElement NEUTRAL    ; 54: 
