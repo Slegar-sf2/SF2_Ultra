@@ -1239,11 +1239,11 @@ tbl_ItemDefs:
                 equipFlags   SDMN|HERO
                 equipFlags2  STAR
                 range        1, 2
-                price        10000
+                price        11000
                 itemType     WEAPON|RARE|BREAKABLE
                 useSpell     BOLT|LV2
-                equipEffects INCREASE_ATT, 24, &
-                             NONE, 0, &
+                equipEffects INCREASE_ATT, 25, &
+                             INCREASE_DEF, 1, &
                              NONE, 0
                 
                 ; 111: ATOM ROD                

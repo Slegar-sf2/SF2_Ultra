@@ -45,7 +45,7 @@ DIAGONAL_LASERS:                    equ 1       ; Allows laser based enemies to 
 EXPANDED_RANGES:                    equ 1       ; Weapons/spells can have ranges up to 7 and spell radius up to 4.
 PERCENT_POISON_DAMAGE:              equ 30       ; 1-100 = n% of max HP
 PLAYER_DEFEAT_IS_GAME_OVER:         equ 0       ; On player defeat, rather than halve the gold and return to town, reset the game.
-SEND_DESTROYED_ITEMS_TO_DEALS:      equ 0       ; Add item that was destroyed upon usage to shop deals if rare and if not a consumable.
+SEND_DESTROYED_ITEMS_TO_DEALS:      equ 1       ; Add item that was destroyed upon usage to shop deals if rare and if not a consumable.
 SEND_DROPPED_ITEMS_TO_CARAVAN:      equ 0       ; If character inventory is full, add dropped item to the Caravan instead of shop deals, regardless of rarity. If the Caravan itself is full, then drops follow the usual routine: go to deals if rare, or become lost completely if not rare.
 SOUND_TEST_RESTORATION:             equ 1       ; Reimplement Sound Test functions that are missing in the US version. Based on Earl's patch.
 TRAP_DAMAGE_RAISES_WITH_DIFFICULTY: equ 0       ; Increase Laser/Burst Rock damage with difficulty.   Normal:100%  Hard:125%  Super: 150%  Ouch: 175%
