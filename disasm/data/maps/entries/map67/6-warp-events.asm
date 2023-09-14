@@ -26,4 +26,9 @@
                   warpMap    98
                   warpDest   19, 22
                   warpFacing UP
+                mWarp 45, 10
+                  warpNoScroll
+                  warpMap    98
+                  warpDest   19, 22
+                  warpFacing UP
                 endWord

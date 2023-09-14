@@ -1065,7 +1065,7 @@ tbl_ItemDefs:
                 range        1, 1
                 price        6100
                 itemType     WEAPON|RARE|BREAKABLE
-                useSpell     ATTACK
+                useSpell     AURA
                 equipEffects INCREASE_ATT, 26, &
                              NONE, 0, &
                              NONE, 0
