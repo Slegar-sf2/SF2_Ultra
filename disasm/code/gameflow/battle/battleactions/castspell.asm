@@ -341,6 +341,7 @@ byte_B3E2:
                 lsr.l   #3,d1            
                 displayMessage #MESSAGE_BATTLE_ATTACK_SPELL_EFFECT,d0,#0,d1 
                                                         ; Message, Combatant, Item or Spell, Number
+                bra.w   CalculateSpellDamage														
                 rts
 
     ; End of function SpellEffect_Attack

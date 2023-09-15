@@ -27,10 +27,10 @@ AllyStats00:
                 defGrowth 4, 35, LINEAR
                 agiGrowth 4, 32, EARLY
                 spellList &				    
-                    1, PYTHON|LV4, &
+                    1, BOOST, &
                     1, AURA|LV4, &
-                    42, BOLT|LV3, &
-                    51, BOLT|LV4, &
+                    1, SLOW, &
+                    1, ATTACK, &
 					15, EGRESS
                 forClass  HERO
                 hpGrowth  55, 120, LINEAR

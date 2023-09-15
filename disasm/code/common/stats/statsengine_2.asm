@@ -998,19 +998,17 @@ ApplyStatusEffectsOnStats:
                 move.w  #10,d1                 ;Move 15 into d1 to increase defense by a static 15
                 bsr.w   IncreaseCurrentDef     ;In: d1=amount to increase current defense
                 @NoBoost:
+                move.w  d3,d2				
                 andi.w  #STATUSEFFECT_SLOW,d2
-                move.w  d3,d2
                 tst.w   d2
-                beq.s   @DecreaseDefente
+                beq.s   @NoSlow
                 move.w  #20,d1 				
                 bsr.w   DecreaseCurrentDef
-				@DecreaseDefente:
-                move.w  d3,d2
-                tst.w   d2
-                beq.s   @DecreaseAttacku
-                move.w  #35,d1 				
+                move.w  #35,d1
                 bsr.w   DecreaseCurrentAtt
-				@DecreaseAttacku:
+                move.w  #10,d1
+                bsr.w   DecreaseCurrentMP
+				@NoSlow:     
                 btst    #STATUSEFFECT_BIT_STUN,d3
                 beq.s   @Return
                 moveq   #1,d1
