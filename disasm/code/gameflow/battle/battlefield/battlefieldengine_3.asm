@@ -514,6 +514,8 @@ PopulateTargetableGrid:
                 move.w  #0,((TARGETS_LIST_LENGTH-$1000000)).w
                 jsr     FindSpellDefAddress
                 cmpi.b  #SPELL_AURA|SPELL_LV4,d1
+                beq.w   @ChooseTargets				
+                cmpi.b  #SPELL_PYTHON|SPELL_LV4,d1
                 beq.w   @ChooseTargets
                 
                 moveq   #0,d2
