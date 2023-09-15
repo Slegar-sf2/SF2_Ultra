@@ -1063,11 +1063,11 @@ tbl_ItemDefs:
                 equipFlags   VICR
                 equipFlags2  WIZZ|WITC
                 range        1, 1
-                price        6100
+                price        8900
                 itemType     WEAPON|RARE|BREAKABLE
-                useSpell     AURA
+                useSpell     FUOCO|LV3
                 equipEffects INCREASE_ATT, 26, &
-                             NONE, 0, &
+                             DECREASE_MOV, 1, &
                              NONE, 0
                 
                 ; 95: Great Rod
@@ -1151,9 +1151,9 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        1, 1
-                price        3800
+                price        4800
                 itemType     WEAPON|RARE|CURSED|BREAKABLE
-                useSpell     BLAZE|LV3
+                useSpell     FUOCO|LV3
                 equipEffects INCREASE_ATT, 44, &
                              NONE, 0, &
                              NONE, 0

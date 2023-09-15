@@ -2412,7 +2412,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 95: GESHP
                 spellPower ENHANCED
                 level    60
-                maxHp    220
+                maxHp    250
                 maxMp    120
                 baseAtt  120
                 baseDef  100
@@ -2587,7 +2587,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 102: MUTSUKI
                 spellPower ENHANCED
                 level    55
-                maxHp    109
+                maxHp    189
                 maxMp    40
                 baseAtt  77
                 baseDef  105
@@ -2812,7 +2812,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 111: DOLL
                 spellPower REGULAR
                 level    63
-                maxHp    107
+                maxHp    127
                 maxMp    50
                 baseAtt  147
                 baseDef  120
@@ -2912,7 +2912,7 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 115 WARDERER
                 spellPower ENHANCED
                 level    70
-                maxHp    256
+                maxHp    296
                 maxMp    64
                 baseAtt  120
                 baseDef  122
@@ -3037,7 +3037,7 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 120: SORCERER
                 spellPower ENHANCED
                 level    60
-                maxHp    150
+                maxHp    350
                 maxMp    130
                 baseAtt  87
                 baseDef  90
@@ -3051,7 +3051,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    BOLT|LV4, &
+                    FUOCO|LV4, &
                     HEALIN|LV4, &
                     NOTHING, &
                     NOTHING
@@ -3162,7 +3162,7 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 125: SILVER DRAGON
                 spellPower ENHANCED
                 level    66
-                maxHp    143
+                maxHp    163
                 maxMp    0
                 baseAtt  139
                 baseDef  112
