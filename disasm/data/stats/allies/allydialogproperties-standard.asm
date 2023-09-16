@@ -86,9 +86,9 @@ tbl_AllyDialogProperties:
                 allyPortraitAndSfx ZYLO, DIALOG_BLEEP_5
                 
 ; 14: MARILL
-                allyPortraitAndSfx MARILL, DIALOG_BLEEP_1
-                allyPortraitAndSfx MARILL, DIALOG_BLEEP_1
-                allyPortraitAndSfx MARILL, DIALOG_BLEEP_1
+                allyPortraitAndSfx 255, DIALOG_BLEEP_1
+                allyPortraitAndSfx 255, DIALOG_BLEEP_1
+                allyPortraitAndSfx 255, DIALOG_BLEEP_1
                 
 ; 15: GRAHAM
                 allyPortraitAndSfx GRAHAM, DIALOG_BLEEP_5

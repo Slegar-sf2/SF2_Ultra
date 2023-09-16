@@ -168,7 +168,7 @@ loc_27C2C:
                 move    #$2700,sr
                 movea.l (InitStack).w,sp
                 movea.l (p_Start).w,a0  
-                jmp     (a0)            ; reset
+                ;jmp     (a0)            ; reset
 
     ; End of function EndGame
 
