@@ -80,8 +80,8 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 14: MARILL
-                allyBattleSprAndPlt KENT, KENT, 3
-                allyBattleSprAndPlt PALA, PALA, 3
+                allyBattleSprAndPlt NONE, NONE, 3
+                allyBattleSprAndPlt MOUS, 27, 0
                 allyBattleSprAndPlt NONE, NONE, 2
                 
 ; 15: GRAHAM
