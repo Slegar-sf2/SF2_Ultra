@@ -43,6 +43,7 @@ tbl_SpellcastAnimationsForClasses:
                 dc.w CLASS_GRDR, ALLYBATTLEANIMATION_SPECIAL_GRDR
                 dc.w CLASS_WOLF, ALLYBATTLEANIMATION_SPECIAL_WOLF
                 dc.w CLASS_WLBR, ALLYBATTLEANIMATION_SPECIAL_WOLF_PROMO
+                dc.w CLASS_MOUS, ALLYBATTLEANIMATION_SPECIAL_MOUS
 				
                 tableEnd
 

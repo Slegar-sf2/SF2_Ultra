@@ -6,6 +6,7 @@ tbl_RandomAttackSpellsForClasses:
                 
                 ; Class index, n/256 chance to cast, upgrade levels 1, 2, 3, spell index
                 dc.b CLASS_GRDR, 32, 32, 40, 50, SPELL_DRAGON
+                dc.b CLASS_MOUS, 128, 32, 64, 32, SPELL_SNOW
                 
                 tableEnd.b
 
