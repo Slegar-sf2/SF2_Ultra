@@ -65,7 +65,7 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt NONE, NONE, 0
                 
 ; 11: NICK
-                allyBattleSprAndPlt HERO, 59, 0
+                allyBattleSprAndPlt HERR, 59, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 

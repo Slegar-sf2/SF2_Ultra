@@ -101,12 +101,12 @@ tbl_AllyStartDefs:
                     BOMB, &
                     NOTHING
                 
-                startClass BRGN         ; 11: NICK
-                startLevel 2
+                startClass HERR         ; 11: NICK
+                startLevel 1
                 startItems &
-                    ASSAULT_SHELL|EQUIPPED, &
-                    BOMB, &
-                    BOMB, &
+                    BROAD_SWORD|EQUIPPED, &
+                    HEALING_DROP, &
+                    ARSON, &
                     NOTHING
                 
                 startClass SWOR         ; 12: DEANNA

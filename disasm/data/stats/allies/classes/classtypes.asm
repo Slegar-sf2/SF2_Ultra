@@ -54,7 +54,7 @@ tbl_ClassTypes:
                 classType PROMO         ; 46: GRDR
                 classType PROMO         ; 47: MOUS
                 classType PROMO         ; 48: WITC
-                classType PROMO         ; 49: 
+                classType SPECIAL       ; 49: HERR 
                 classType PROMO         ; 50: 
                 classType PROMO         ; 51: 
                 classType PROMO         ; 52: 

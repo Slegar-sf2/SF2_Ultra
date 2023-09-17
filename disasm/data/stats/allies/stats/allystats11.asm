@@ -1,11 +1,13 @@
 
 ; ASM FILE data\stats\allies\stats\allystats11.asm :
 ; 0x1EE4FE..0x1EE50F : Ally stats 11
-AllyStats11:    forClass  BRGN ; NICK
-                hpGrowth  40, 85, EARLY
-                mpGrowth  0, 0, NONE
-                attGrowth 50, 88, LATE
-                defGrowth 48, 115, LINEAR
-                agiGrowth 30, 56, EARLY
-                spellList 
-                
+AllyStats11:    forClass  HERR ; NICK
+                hpGrowth  60, 110, LINEAR
+                mpGrowth  16, 32, LATE
+                attGrowth 50, 82, LINEAR
+                defGrowth 45, 69, LINEAR
+                agiGrowth 40, 49, EARLYANDLATE
+                spellList &
+                    1, BOLT, &				
+                    1, EGRESS, &                
+                    35, BOLT|LV2

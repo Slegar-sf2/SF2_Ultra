@@ -51,4 +51,4 @@ tbl_FullClassNames:
                 className "Great", 13, "Dragon"
                 className "Aqua", 13, "Mouse"
                 className "Witch"
-				
+                className "Legenda", 13, "SFCD"				
