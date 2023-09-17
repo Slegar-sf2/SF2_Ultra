@@ -4300,3 +4300,12 @@
 10CB={NAME}'s HP was{N}drained by {#}.
 10CC=I'm not very confiden yet.{W1}
 10CD=but I'll try my best!{W1}
+10CE=Stop!!{W1}
+10CF=Let me through.{N}I need to see Creed.{W1}
+10D0=No! King Daku ordered no one{N}to enter the castle.{W1}
+10D1=The traitor Creed will{N}be punished soon!{W1}
+10D2=Get out of here !!{W1}
+10D3=Look, look, we have more guests!{W1}
+10D4=And there are many of them!{N}urgently prepare for battle.{W1}
+10D5=Is this the legendary{N}Shining Force ?{W1}
+10D6=Let's go!{W1}
