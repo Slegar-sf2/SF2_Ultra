@@ -1643,7 +1643,18 @@ tbl_ItemDefs:
                              INCREASE_DEF, 8, &
                              INCREASE_MOV, 2
                 
-                ; 147: MAGIC POWER 
+                ; 147: BRONZE SWORD
+                equipFlags   SDMN|HERO|SWOR
+                equipFlags2  STAR
+                range        1, 1
+                price        15000
+                itemType     WEAPON|RARE|BREAKABLE
+                useSpell     FUOCO
+                equipEffects INCREASE_ATT, 26, &
+                             DECREASE_MOV, 2, &
+                             DECREASE_AGI, 10
+                                
+                ; 148: MAGIC POWER 
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
@@ -1654,7 +1665,7 @@ tbl_ItemDefs:
                              NONE, 0, &
                              NONE, 0
                 
-                ; 148: BIKINI
+                ; 149: BIKINI
                 equipFlags   MMNK
                 equipFlags2  NONE
                 range        0, 0
@@ -1665,7 +1676,7 @@ tbl_ItemDefs:
                              INCREASE_DEF, 5, &
                              INCREASE_AGI, 15
                 
-                ; 149: EGG
+                ; 150: EGG
                 equipFlags   PHNK|PHNX
                 equipFlags2  NONE
                 range        0, 0
@@ -1675,17 +1686,6 @@ tbl_ItemDefs:
                 equipEffects INCREASE_DEF, 16, &
                              DECREASE_MOV, 25, &
                              DECREASE_ATT, 200
-                
-                ; 150: 
-                equipFlags   NONE
-                equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
-                equipEffects NONE, 0, &
-                             NONE, 0, &
-                             NONE, 0
                 
                 ; 151: 
                 equipFlags   NONE

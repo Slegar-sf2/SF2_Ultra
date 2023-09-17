@@ -30,7 +30,7 @@ tbl_EnemyItemDrops:
                 
                 battle      TO_THE_EAST
                 enemyEntity 1
-                item        POWER_RING
+                item        BRONZE_ROD
                 droppedFlag 4
                 
                 battle      SOUTHEAST_DESERT
@@ -44,13 +44,13 @@ tbl_EnemyItemDrops:
                 droppedFlag 6
                 
                 battle      DEVIL_TAIL
-                enemyEntity 7
-                item        BROAD_SWORD
+                enemyEntity 0
+                item        BRONZE_SWORD
                 droppedFlag 7
                 
                 battle      DEVIL_TAIL
                 enemyEntity 1
-                item        PROTECT_RING
+                item        BROAD_SWORD
                 droppedFlag 8
                 
                 battle      TO_NORTH_PARMECIA

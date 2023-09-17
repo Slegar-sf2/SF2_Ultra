@@ -4,6 +4,6 @@
                 mapItem 4, 5, 224, VICR_RING
                 mapItem 13, 7, 225, MANA
                 mapItem 11, 19, 226, SNOWFLAKE
-                mapItem 17, 19, 227, ARSON
+                mapItem 17, 19, 227, EGG
                 mapItem 24, 3, 228, BRAVE_APPLE
                 endWord
