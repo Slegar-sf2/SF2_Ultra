@@ -52,7 +52,7 @@ return_62D04:
 
     ; End of function ms_map19_flag543_InitFunction
 
-cs_62D06:       setSprite ALLY_ROHDE,MAPSPRITE_NPC_ROHDE
+cs_62D06:       setSprite ALLY_NICK,MAPSPRITE_NPC_NICK
                 csc_end
 cs_62D0E:       textCursor 3967
                 setCameraEntity 129
@@ -115,7 +115,7 @@ cs_62D0E:       textCursor 3967
                 setFacing ALLY_SHEELA,UP
                 setFacing ALLY_MAY,UP
                 setFacing ALLY_DAWN,UP
-                setFacing ALLY_ROHDE,UP
+                setFacing ALLY_NICK,UP
                 setFacing ALLY_ZYNK,UP
                 setFacing ALLY_CRAY,UP
                 csWait 10
@@ -172,7 +172,7 @@ cs_62D0E:       textCursor 3967
                 setFacing ALLY_SHEELA,DOWN
                 setFacing ALLY_MAY,DOWN
                 setFacing ALLY_DAWN,DOWN
-                setFacing ALLY_ROHDE,UP
+                setFacing ALLY_NICK,UP
                 setFacing ALLY_BOWIE,DOWN
                 csWait 40
                 setCamDest 24,7
@@ -192,7 +192,7 @@ cs_62D0E:       textCursor 3967
                 setFacing ALLY_SHEELA,RIGHT
                 setFacing ALLY_MAY,RIGHT
                 setFacing ALLY_DAWN,LEFT
-                setFacing ALLY_ROHDE,RIGHT
+                setFacing ALLY_NICK,RIGHT
                 setFacing ALLY_ZYNK,RIGHT
                 setFacing ALLY_CRAY,LEFT
                 setFacing ALLY_BOWIE,DOWN
@@ -327,13 +327,13 @@ cs_62FB0:       textCursor 3987
                 hide ALLY_KAZIN
                 csWait 30
                 nextSingleText $0,ALLY_CHESTER ; "What does he mean?{N}I don't understand!{W1}"
-                entityActionsWait ALLY_ROHDE
+                entityActionsWait ALLY_NICK
                  moveRight 2
                  moveDown 1
                  moveRight 2
                  faceDown 1
                 endActions
-                nextSingleText $80,ALLY_ROHDE ; "They remind me of when I{N}was young.{W1}"
+                nextSingleText $80,ALLY_NICK ; "They remind me of when I{N}was young.{W1}"
                 entityActionsWait ALLY_ZYNK
                  moveRight 3
                  moveDown 1
@@ -341,10 +341,10 @@ cs_62FB0:       textCursor 3987
                 endActions
                 nextSingleText $0,ALLY_ZYNK ; "{NAME;11}, you were young{N}once?{W1}"
                 shiver ALLY_ZYNK
-                setFacing ALLY_ROHDE,LEFT
-                setActscriptWait ALLY_ROHDE,eas_Jump
-                setActscriptWait ALLY_ROHDE,eas_Jump
-                nextSingleText $80,ALLY_ROHDE ; "Be quiet, you bucket of bolts!{W1}"
+                setFacing ALLY_NICK,LEFT
+                setActscriptWait ALLY_NICK,eas_Jump
+                setActscriptWait ALLY_NICK,eas_Jump
+                nextSingleText $80,ALLY_NICK ; "Be quiet, you bucket of bolts!{W1}"
                 setCamDest 24,5
                 entityActionsWait ALLY_LUKE
                  moveUp 1
@@ -355,7 +355,7 @@ cs_62FB0:       textCursor 3987
                 setFacing ALLY_PETER,UP
                 setFacing ALLY_CHESTER,UP
                 setFacing ALLY_LUKE,UP
-                setFacing ALLY_ROHDE,UP
+                setFacing ALLY_NICK,UP
                 setFacing ALLY_ZYNK,UP
                 setFacing ALLY_DAWN,UP
                 setFacing ALLY_BOWIE,UP

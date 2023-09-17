@@ -38,11 +38,11 @@ ROM:000449F0 ; -----------------------------------------------------------------
 ROM:000449F0
 ROM:000449F0 loc_449F0:                              ; CODE XREF: GetCharacterSpriteIdx+16j
 ROM:000449F0                                         ; GetCharacterSpriteIdx+20j
-ROM:000449F0                 cmpi.b  #$B,d0          ; Rhode !
+ROM:000449F0                 cmpi.b  #$B,d0          ; NICK !
 ROM:000449F4                 bne.s   loc_44A04
 ROM:000449F6                 trap    #TRAP_CHECKFLAG
 ROM:000449F6 ; ---------------------------------------------------------------------------
-ROM:000449F8                 dc.w $B                 ; if Rhode joined the force
+ROM:000449F8                 dc.w $B                 ; if NICK joined the force
 ROM:000449FA ; ---------------------------------------------------------------------------
 ROM:000449FA                 bne.s   loc_44A04
 ROM:000449FC                 move.w  #$AA,d4 ; '¬'

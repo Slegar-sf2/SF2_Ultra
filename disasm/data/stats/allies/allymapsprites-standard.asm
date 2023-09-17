@@ -64,10 +64,10 @@ tbl_AllyMapSprites:
                 mapSprite LUKE_PROMO
                 mapSprite DEFAULT
                 
-; 11: Rohde
+; 11: NICK
                 mapSprite DEFAULT
                 mapSprite DEFAULT
-                mapSprite ROHDE_SPECIAL
+                mapSprite NICK_SPECIAL
                 
 ; 12: DEANNA
                 mapSprite DEANNA_BASE
@@ -176,6 +176,6 @@ tbl_AllyMapSprites:
 ; Allies who use a different mapsprite before joining the Force.
 tbl_AllyMapSpritesIfNotJoined:
                 
-                dc.b ALLY_ROHDE, MAPSPRITE_NPC_ROHDE
+                dc.b ALLY_NICK, MAPSPRITE_NPC_NICK
                 
                 tableEnd.b

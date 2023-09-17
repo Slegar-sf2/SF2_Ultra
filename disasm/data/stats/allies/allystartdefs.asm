@@ -101,7 +101,7 @@ tbl_AllyStartDefs:
                     BOMB, &
                     NOTHING
                 
-                startClass BRGN         ; 11: ROHDE
+                startClass BRGN         ; 11: NICK
                 startLevel 2
                 startItems &
                     ASSAULT_SHELL|EQUIPPED, &

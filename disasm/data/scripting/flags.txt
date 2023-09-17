@@ -9,7 +9,7 @@
 0008=May joined
 0009=Gerhalt joined
 0010=Luke joined
-0011=Rohde joined
+0011=NICK joined
 0012=DEANNA joined
 0013=ZYLO joined
 0014=Eric joined
@@ -41,7 +41,7 @@
 0040=May in active party
 0041=Gerhalt in active party
 0042=Luke in active party
-0043=Rohde in active party
+0043=NICK in active party
 0044=DEANNA in active party
 0045=ZYLO in active party
 0046=Eric in active party
@@ -82,7 +82,7 @@
 0081=
 0082=Frayja is a follower
 0083=King + Minister are followers
-0084=Rohde is a follower
+0084=NICK is a follower
 0085=
 0086=
 0087=
@@ -723,9 +723,9 @@
 0722=Set after speaking with Volcanon
 0723=Set after the hatchling in Bedoe shows you he can almost fly
 0724=Set after the scene where Skreech falls in Bedoe
-0725=Set after telling Rohde that you're going to get the Caravan
+0725=Set after telling NICK that you're going to get the Caravan
 0726=Set after talking to the priest in upstairs Hassan
-0727=Set after presenting the Achilles Sword to Rohde (yes/no to the Caravan regardless)
+0727=Set after presenting the Achilles Sword to NICK (yes/no to the Caravan regardless)
 0728=???
 0729=???
 0730=Set after the old man opens the door to the Woodel Panel shrine interior
@@ -748,7 +748,7 @@
 0747=
 0748=
 0749=
-0750=Set after Rohde clears the blockage at the North Cliff cave
+0750=Set after NICK clears the blockage at the North Cliff cave
 0751=Set after ZYLO opens the passage to Devil's Tail
 0752=
 0753=
@@ -796,7 +796,7 @@
 0795=
 0796=
 0797=
-0798=Set after talking to Rohde in Hassan if you DON'T have the Achilles Sword?
+0798=Set after talking to NICK in Hassan if you DON'T have the Achilles Sword?
 0799=Set after you agree to kill Zeon in Bedoe (King's yes/no dialog)
 0800=Set after the merchant in Ketto runs to his store
 0801=Set after Zalbard taunts you in the scene outside the Mitula Shrine

@@ -65,10 +65,10 @@ cs_569BC:       textCursor 1382
                 setDest ALLY_PETER,15,57
                 setFacing ALLY_PETER,DOWN
                 setFacing ALLY_BOWIE,DOWN
-                nextText $C0,ALLY_ROHDE ; "(Sniff)...(sniff)...I smell{N}something old....{W1}"
-                setFacing ALLY_ROHDE,UP
-                nextSingleText $C0,ALLY_ROHDE ; "That sword must be really{N}old.  Oh, my!{N}It's the Achilles Sword!{W2}"
-                customActscriptWait ALLY_ROHDE
+                nextText $C0,ALLY_NICK ; "(Sniff)...(sniff)...I smell{N}something old....{W1}"
+                setFacing ALLY_NICK,UP
+                nextSingleText $C0,ALLY_NICK ; "That sword must be really{N}old.  Oh, my!{N}It's the Achilles Sword!{W2}"
+                customActscriptWait ALLY_NICK
                  ac_setSpeed 40,40      ;   
                  ac_jump eas_Idle       ;   
                 ac_end
@@ -77,58 +77,58 @@ cs_569BC:       textCursor 1382
                  ac_jump eas_Idle       ;   
                 ac_end
                 setActscriptWait ALLY_BOWIE,eas_DeactivateAutoFacing
-                entityActions ALLY_ROHDE
+                entityActions ALLY_NICK
                  moveUp 1
                 endActions
                 csWait 3
                 entityActionsWait ALLY_BOWIE
                  moveUp 1
                 endActions
-                nextText $C0,ALLY_ROHDE ; "You're an adventurer, right?{N}Don't you need a vehicle?{N}Huh?{W2}"
-                nextSingleText $C0,ALLY_ROHDE ; "You can get the Ancient{N}Caravan with that sword!{W1}"
+                nextText $C0,ALLY_NICK ; "You're an adventurer, right?{N}Don't you need a vehicle?{N}Huh?{W2}"
+                nextSingleText $C0,ALLY_NICK ; "You can get the Ancient{N}Caravan with that sword!{W1}"
                 setDest ALLY_PETER,15,58
                 setFacing ALLY_PETER,RIGHT
                 nextSingleText $0,ALLY_PETER ; "You wouldn't listen to us{N}just a short time ago!{W1}"
-                setFacing ALLY_ROHDE,LEFT
-                nextText $C0,ALLY_ROHDE ; "I was busy and...{W1}"
-                setFacing ALLY_ROHDE,UP
-                nextText $C0,ALLY_ROHDE ; "Let me join you!{W2}"
-                nextText $C0,ALLY_ROHDE ; "I'm the only one who can{N}drive it!{W2}"
-                nextText $C0,ALLY_ROHDE ; "You are going to get the{N}Caravan, aren't you?!{W1}"
+                setFacing ALLY_NICK,LEFT
+                nextText $C0,ALLY_NICK ; "I was busy and...{W1}"
+                setFacing ALLY_NICK,UP
+                nextText $C0,ALLY_NICK ; "Let me join you!{W2}"
+                nextText $C0,ALLY_NICK ; "I'm the only one who can{N}drive it!{W2}"
+                nextText $C0,ALLY_NICK ; "You are going to get the{N}Caravan, aren't you?!{W1}"
                 yesNo
                 jumpIfFlagSet 89,cs_56A82 ; YES/NO prompt answer
-                customActscriptWait ALLY_ROHDE
+                customActscriptWait ALLY_NICK
                  ac_setSpeed 10,10      ;   
                  ac_jump eas_Idle       ;   
                 ac_end
-                setActscriptWait ALLY_ROHDE,eas_DeactivateAutoFacing
-                entityActionsWait ALLY_ROHDE
+                setActscriptWait ALLY_NICK,eas_DeactivateAutoFacing
+                entityActionsWait ALLY_NICK
                  moveDown 1
                 endActions
 cs_56A70:       textCursor 1391
-                nextSingleText $C0,ALLY_ROHDE ; "You don't know what you'll{N}be missing!{W1}"
-                setFacing ALLY_ROHDE,DOWN
+                nextSingleText $C0,ALLY_NICK ; "You don't know what you'll{N}be missing!{W1}"
+                setFacing ALLY_NICK,DOWN
                 jump cs_56AD4
 cs_56A82:       textCursor 1394
-                nextSingleText $C0,ALLY_ROHDE ; "Great!  Good lad!{W1}"
+                nextSingleText $C0,ALLY_NICK ; "Great!  Good lad!{W1}"
                 nextSingleText $FF,255  ; "{CLEAR}{LEADER} decides to take{N}Dr. {NAME;11} with him.{W1}{CLEAR}"
-                setActscriptWait ALLY_ROHDE,eas_Init
-                setPriority ALLY_ROHDE,$FFFF
+                setActscriptWait ALLY_NICK,eas_Init
+                setPriority ALLY_NICK,$FFFF
                 setPriority ALLY_BOWIE,$0
-                setActscriptWait ALLY_ROHDE,eas_Jump
-                setActscript ALLY_ROHDE,eas_Jump
-                nextSingleText $C0,ALLY_ROHDE ; "Let's go!{W1}"
+                setActscriptWait ALLY_NICK,eas_Jump
+                setActscript ALLY_NICK,eas_Jump
+                nextSingleText $C0,ALLY_NICK ; "Let's go!{W1}"
                 setPriority ALLY_BOWIE,$FFFF
-                setF 725                ; Set after telling Rohde that you're going to get the Caravan
-                setF 84                 ; Rohde is a follower
+                setF 725                ; Set after telling NICK that you're going to get the Caravan
+                setF 84                 ; NICK is a follower
                 setStoryFlag 48         ; Battle 48 unlocked               
-                followEntity ALLY_ROHDE,FOLLOWER_B,2
+                followEntity ALLY_NICK,FOLLOWER_B,2
 cs_56AD4:       setActscriptWait ALLY_BOWIE,eas_Init
                 followEntity ALLY_PETER,ALLY_BOWIE,2
                 csc_end
 cs_56AE6:       textCursor 1392
-                nextText $C0,ALLY_ROHDE ; "You again?!{W1}"
-                nextText $C0,ALLY_ROHDE ; "You changed your mind?{N}Hmmm....{W1}"
+                nextText $C0,ALLY_NICK ; "You again?!{W1}"
+                nextText $C0,ALLY_NICK ; "You changed your mind?{N}Hmmm....{W1}"
                 yesNo
                 jumpIfFlagSet 89,cs_56A82 ; YES/NO prompt answer
                 jump cs_56A70

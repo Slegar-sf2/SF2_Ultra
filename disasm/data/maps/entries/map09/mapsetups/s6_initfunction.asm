@@ -17,7 +17,7 @@ byte_568D4:
                                
                 chkFlg  65              ; Caravan is unlocked
                 beq.s   byte_568E4      
-                move.w  #ALLY_ROHDE,d0
+                move.w  #ALLY_NICK,d0
                 jsr     MoveEntityOutOfMap
 byte_568E4:
                 

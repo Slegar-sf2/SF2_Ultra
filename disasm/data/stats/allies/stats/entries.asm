@@ -12,7 +12,7 @@ pt_AllyStats:   dc.l AllyStats00        ; BOWIE
                 dc.l AllyStats08        ; MAY
                 dc.l AllyStats09        ; GERHALT
                 dc.l AllyStats10        ; LUKE
-                dc.l AllyStats11        ; ROHDE
+                dc.l AllyStats11        ; NICK
                 dc.l AllyStats12        ; DEANNA
                 dc.l AllyStats13        ; ZYLO
                 dc.l AllyStats14        ; MARILL

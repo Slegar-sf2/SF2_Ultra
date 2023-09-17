@@ -31,7 +31,7 @@ Map72_ZoneEvent0:
 Map72_ZoneEvent3:
                 
                  
-                chkFlg  750             ; Set after Rohde clears the blockage at the North Cliff cave
+                chkFlg  750             ; Set after NICK clears the blockage at the North Cliff cave
                 bne.s   return_4FF04
                 chkFlg  805             ; Set after coming back to New Granseal after Creed's Mansion,when Astral joins
                 beq.s   return_4FF04
@@ -51,7 +51,7 @@ Map72_ZoneEvent3:
                 moveq   #ITEM_DYNAMITE,d0 
                 jsr     RemoveItemFromInventory
                 script  cs_4FFDA
-                setFlg  750             ; Set after Rohde clears the blockage at the North Cliff cave
+                setFlg  750             ; Set after NICK clears the blockage at the North Cliff cave
                 bra.s   loc_4FEF2
 loc_4FEE6:
                 

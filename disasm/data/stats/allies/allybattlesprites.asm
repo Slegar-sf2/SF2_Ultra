@@ -64,8 +64,8 @@ tbl_AllyBattlesprites:
                 allyBattleSprAndPlt BDBT, BDBT, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 
-; 11: ROHDE
-                allyBattleSprAndPlt BRGN, BRGN, 1
+; 11: NICK
+                allyBattleSprAndPlt HERO, 59, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 allyBattleSprAndPlt NONE, NONE, 0
                 

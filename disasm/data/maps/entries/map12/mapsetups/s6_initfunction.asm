@@ -8,7 +8,7 @@
 ms_map12_InitFunction:
                 
                  
-                chkFlg  725             ; Set after telling Rohde that you're going to get the Caravan
+                chkFlg  725             ; Set after telling NICK that you're going to get the Caravan
                 bne.s   byte_57D10      
                 script  cs_57D22
 byte_57D10:

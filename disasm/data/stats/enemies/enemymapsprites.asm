@@ -133,7 +133,7 @@ tbl_EnemyMapSprites:
                 mapSprite SILVER_DRAGON	 ; 125 SILVER DRAGON
                 mapSprite KING_DAKU	     ; 126 KING DAKU
                 mapSprite GHOST	         ; 127 GHOST				
-                mapSprite NPC_ROHDE    
+                mapSprite NPC_NICK    
                 mapSprite FLAME1
                 mapSprite ORB
                 mapSprite OBJECT1

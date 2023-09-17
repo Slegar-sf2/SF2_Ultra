@@ -27,7 +27,7 @@ Several entries can use the same flag.
 004D=Old man is a follower
 0052=Frayja is a follower
 0053=King + Minister are followers
-0054=Rohde is a follower
+0054=NICK is a follower
 
 - Portrait ID : 
 If ID is inside the Force Member index range (00-$1E), 

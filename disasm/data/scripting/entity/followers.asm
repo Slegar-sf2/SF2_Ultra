@@ -22,6 +22,6 @@ tbl_Followers:  follower 66, ALLY_SARAH, $FF, 1
                 follower 82, ALLY_FRAYJA, $FF, 1
                 follower 83, FOLLOWER_A, MAPSPRITE_GRANSEAL_KING, 1
                 follower 83, FOLLOWER_D, MAPSPRITE_MINISTER, 1
-                follower 84, ALLY_ROHDE, $FF, 1
+                follower 84, ALLY_NICK, $FF, 1
                 
                 tableEnd

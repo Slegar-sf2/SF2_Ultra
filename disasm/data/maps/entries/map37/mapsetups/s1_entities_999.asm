@@ -12,7 +12,7 @@ ms_map37_flag999_Entities:
                 msFixedEntity 21, 6, DOWN, ALLY_MAY, eas_Init
                 msFixedEntity 23, 6, DOWN, ALLY_GERHALT, eas_Init
                 msFixedEntity 19, 9, DOWN, ALLY_LUKE, eas_Init
-                msFixedEntity 21, 12, UP, ALLY_ROHDE, eas_Init
+                msFixedEntity 21, 12, UP, ALLY_NICK, eas_Init
                 msFixedEntity 21, 8, DOWN, ALLY_DEANNA, eas_Init
                 msFixedEntity 22, 8, DOWN, ALLY_ZYLO, eas_Init
                 msFixedEntity 23, 9, DOWN, ALLY_MARILL, eas_Init

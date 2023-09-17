@@ -2,7 +2,7 @@
 ; ASM FILE data\maps\entries\map72\mapsetups\scripts.asm :
 ; 0x4FFDA..0x50312 : 
 cs_4FFDA:       textCursor 3341
-                newEntity ALLY_ROHDE,63,63,UP,ALLY_ROHDE
+                newEntity ALLY_NICK,63,63,UP,ALLY_NICK
                 newEntity 128,63,63,LEFT,MAPSPRITE_OBJECT4
                 newEntity 129,63,63,LEFT,MAPSPRITE_EFFECT3
                 setActscriptWait ALLY_PETER,eas_Init
@@ -25,31 +25,31 @@ cs_4FFDA:       textCursor 3341
                 csWait 50
                 setFacing FOLLOWER_B,DOWN
                 nextSingleText $0,FOLLOWER_B ; "{NAME;11}, {NAME;11}!{W1}"
-                nextSingleText $0,ALLY_ROHDE ; "Yes?{W1}"
-                setPos ALLY_ROHDE,27,39,RIGHT
-                setActscriptWait ALLY_ROHDE,eas_4536C
+                nextSingleText $0,ALLY_NICK ; "Yes?{W1}"
+                setPos ALLY_NICK,27,39,RIGHT
+                setActscriptWait ALLY_NICK,eas_4536C
                 csWait 3
-                setFacing ALLY_ROHDE,UP
+                setFacing ALLY_NICK,UP
                 nextText $0,FOLLOWER_B  ; "You know about devices like{N}this, right?{W2}"
                 nextSingleText $0,FOLLOWER_B ; "{LEADER} has a cannon and{N}some dynamite here.  Can you{N}remove those rocks?{W1}"
-                nextSingleText $0,ALLY_ROHDE ; "Ah...OK, let me try.{W1}"
-                entityActionsWait ALLY_ROHDE
+                nextSingleText $0,ALLY_NICK ; "Ah...OK, let me try.{W1}"
+                entityActionsWait ALLY_NICK
                  moveUp 1
                  moveLeft 2
                 endActions
                 setFacing ALLY_BOWIE,DOWN
                 setFacing ALLY_PETER,DOWN
-                setFacing ALLY_ROHDE,UP
+                setFacing ALLY_NICK,UP
                 nod ALLY_BOWIE
                 nextSingleText $FF,255  ; "{NAME;11} gets the dynamite{N}from {LEADER}.{W1}"
-                entityActionsWait ALLY_ROHDE
+                entityActionsWait ALLY_NICK
                  moveRight 1
                  moveUp 1
                 endActions
                 setFacing ALLY_BOWIE,UP
                 setFacing ALLY_PETER,UP
                 setFacing FOLLOWER_B,UP
-                nextSingleText $0,ALLY_ROHDE ; "Stand back.  Ready?{W1}"
+                nextSingleText $0,ALLY_NICK ; "Stand back.  Ready?{W1}"
                 setCamDest 21,32
                 setActscriptWait 128,eas_BumpDown
                 setPos 129,27,35,LEFT
@@ -75,45 +75,45 @@ cs_4FFDA:       textCursor 3341
                 endActions
                 nextSingleText $0,FOLLOWER_B ; "Perfect!  We can now go to{N}North Parmecia.{W1}"
                 csWait 40
-                setActscriptWait ALLY_ROHDE,eas_Jump
-                nextSingleText $0,ALLY_ROHDE ; "Wow!  This cannon is great!{W1}"
+                setActscriptWait ALLY_NICK,eas_Jump
+                nextSingleText $0,ALLY_NICK ; "Wow!  This cannon is great!{W1}"
                 setFacing ALLY_PETER,RIGHT
                 setFacing ALLY_BOWIE,RIGHT
                 setFacing FOLLOWER_B,LEFT
                 setActscript ALLY_PETER,eas_JumpLeft
                 setActscript ALLY_BOWIE,eas_JumpLeft
                 setActscriptWait FOLLOWER_B,eas_JumpRight
-                setPos ALLY_ROHDE,26,36,RIGHT
+                setPos ALLY_NICK,26,36,RIGHT
                 csWait 25
-                setPos ALLY_ROHDE,27,37,UP
+                setPos ALLY_NICK,27,37,UP
                 csWait 25
-                setPos ALLY_ROHDE,28,36,LEFT
+                setPos ALLY_NICK,28,36,LEFT
                 csWait 25
-                setPos ALLY_ROHDE,27,37,UP
+                setPos ALLY_NICK,27,37,UP
                 csWait 25
-                setPos ALLY_ROHDE,26,36,RIGHT
+                setPos ALLY_NICK,26,36,RIGHT
                 csWait 25
-                setPos ALLY_ROHDE,27,37,UP
+                setPos ALLY_NICK,27,37,UP
                 csWait 25
-                nextSingleText $0,ALLY_ROHDE ; "I can attend the battles{N}with this weapon.{W1}"
-                setFacing ALLY_ROHDE,LEFT
-                nextText $0,ALLY_ROHDE  ; "{LEADER}, do you need{N}this any more?{W2}"
-                nextText $0,ALLY_ROHDE  ; "May I use it?  Huh?{W2}"
-                nextSingleText $0,ALLY_ROHDE ; "Wow, now I can fight along{N}side you!{W1}"
-                join ALLY_ROHDE
-                nextSingleText $0,ALLY_ROHDE ; "Please call me when you{N}need my help.{W1}"
+                nextSingleText $0,ALLY_NICK ; "I can attend the battles{N}with this weapon.{W1}"
+                setFacing ALLY_NICK,LEFT
+                nextText $0,ALLY_NICK  ; "{LEADER}, do you need{N}this any more?{W2}"
+                nextText $0,ALLY_NICK  ; "May I use it?  Huh?{W2}"
+                nextSingleText $0,ALLY_NICK ; "Wow, now I can fight along{N}side you!{W1}"
+                join ALLY_NICK
+                nextSingleText $0,ALLY_NICK ; "Please call me when you{N}need my help.{W1}"
                 setActscriptWait 128,eas_DeactivateAutoFacing
                 entityActions 128
                  moveDown 2
                 endActions
-                entityActionsWait ALLY_ROHDE
+                entityActionsWait ALLY_NICK
                  moveDown 1
                 endActions
-                entityActions ALLY_ROHDE
+                entityActions ALLY_NICK
                  moveDown 1
                 endActions
                 csWait 3
-                setActscript ALLY_ROHDE,eas_452BA
+                setActscript ALLY_NICK,eas_452BA
                 csWait 3
                 entityActions 128
                  moveDown 1
@@ -121,7 +121,7 @@ cs_4FFDA:       textCursor 3341
                 csWait 3
                 setActscript 128,eas_452BA
                 csWait 3
-                hide ALLY_ROHDE
+                hide ALLY_NICK
                 hide 128
                 entityActionsWait FOLLOWER_B
                  moveDown 1

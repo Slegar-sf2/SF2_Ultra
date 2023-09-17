@@ -24,7 +24,7 @@ EndCutscene:    mapLoad MAP_GRANSEAL_CASTLE_1F,19,33
                  ac_setSpeed 20,20      ;   
                  ac_jump eas_Idle       ;   
                 ac_end
-                setSprite ALLY_ROHDE,MAPSPRITE_NPC_ROHDE
+                setSprite ALLY_NICK,MAPSPRITE_NPC_NICK
                 fadeInB
                 csWait 60
                 setPos ALLY_BOWIE,25,35,RIGHT
@@ -112,8 +112,8 @@ EndCutscene:    mapLoad MAP_GRANSEAL_CASTLE_1F,19,33
                  moveUp 1
                 endActions
                 setFacing 130,DOWN
-                setPos ALLY_ROHDE,23,37,DOWN
-                entityActions ALLY_ROHDE
+                setPos ALLY_NICK,23,37,DOWN
+                entityActions ALLY_NICK
                  moveDown 1
                  moveLeft 2
                  moveDown 2
@@ -142,7 +142,7 @@ EndCutscene:    mapLoad MAP_GRANSEAL_CASTLE_1F,19,33
                 entityActions ALLY_PETER
                  moveDown 1
                 endActions
-                setFacing ALLY_ROHDE,RIGHT
+                setFacing ALLY_NICK,RIGHT
                 csWait 10
                 setFacing ALLY_CHESTER,RIGHT
                 csWait 10
@@ -158,7 +158,7 @@ EndCutscene:    mapLoad MAP_GRANSEAL_CASTLE_1F,19,33
                 setFacing ALLY_BOWIE,UP
                 setFacing 131,UP
                 csWait 40
-                setActscript ALLY_ROHDE,eas_Jump
+                setActscript ALLY_NICK,eas_Jump
                 setActscript ALLY_CHESTER,eas_Jump
                 setActscript ALLY_LUKE,eas_Jump
                 setActscript ALLY_JAHA,eas_Jump
@@ -168,7 +168,7 @@ EndCutscene:    mapLoad MAP_GRANSEAL_CASTLE_1F,19,33
                 setFacing ALLY_BOWIE,LEFT
                 csWait 50
                 nod ALLY_BOWIE
-                setActscript ALLY_ROHDE,eas_Jump
+                setActscript ALLY_NICK,eas_Jump
                 setActscript ALLY_CHESTER,eas_Jump
                 setActscript ALLY_LUKE,eas_Jump
                 setActscript ALLY_JAHA,eas_Jump
@@ -176,7 +176,7 @@ EndCutscene:    mapLoad MAP_GRANSEAL_CASTLE_1F,19,33
                 fadeOutB
                 csc_end
 ce_492CC:       mainEntity 63,63,DOWN
-                entity 63,63,DOWN,ALLY_ROHDE,eas_Init
+                entity 63,63,DOWN,ALLY_NICK,eas_Init
                 entity 63,63,DOWN,ALLY_CHESTER,eas_Init
                 entity 63,63,DOWN,ALLY_LUKE,eas_Init
                 entity 63,63,DOWN,ALLY_JAHA,eas_Init

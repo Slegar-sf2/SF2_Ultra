@@ -20,8 +20,6 @@ abcs_battle21:  textCursor 2583
                 csWait 120
                 entityActionsWait FOLLOWER_B
                  moveLeft 3
-                 moveDown 1
-                 moveLeft 1
                 endActions
                 csWait 40
                 setFacing FOLLOWER_B,RIGHT

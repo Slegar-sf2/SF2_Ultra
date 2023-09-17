@@ -2,7 +2,7 @@
 ; ASM FILE data\maps\entries\map09\mapsetups\s1_entities_518.asm :
 ; 0x566C0..0x56722 : 
 ms_map9_flag518_Entities:
-                msFixedEntity 16, 59, DOWN, ALLY_ROHDE, eas_Init
+                msFixedEntity 16, 59, DOWN, ALLY_NICK, eas_Init
                 msFixedEntity 12, 3, RIGHT, ALLY_DEANNA, eas_Init
                 msWalkingEntity 13, 12, DOWN, MAPSPRITE_VIKING, 13, 12, 3
                 msWalkingEntity 20, 41, DOWN, MAPSPRITE_MAN1, 20, 41, 2

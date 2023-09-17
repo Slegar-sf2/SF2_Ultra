@@ -7,51 +7,51 @@ abcs_battle18:  textCursor 2528
                 setActscriptWait ALLY_BOWIE,eas_Init
                 setActscriptWait ALLY_PETER,eas_Init
                 setActscriptWait FOLLOWER_B,eas_Init
-                setActscriptWait ALLY_ROHDE,eas_Init
+                setActscriptWait ALLY_NICK,eas_Init
                 setPos ALLY_PETER,13,9,UP
                 setPos FOLLOWER_B,14,9,UP
-                setPos ALLY_ROHDE,5,9,RIGHT
+                setPos ALLY_NICK,5,9,RIGHT
                 stopEntity 128
                 fadeInB
                 csWait 60
-                nextSingleText $0,ALLY_ROHDE ; "{LEADER}, you're much{N}stronger than I thought.{W1}"
+                nextSingleText $0,ALLY_NICK ; "{LEADER}, you're much{N}stronger than I thought.{W1}"
                 setFacing ALLY_BOWIE,LEFT
                 setFacing ALLY_PETER,LEFT
                 setFacing FOLLOWER_B,LEFT
                 csWait 30
-                setCameraEntity ALLY_ROHDE
+                setCameraEntity ALLY_NICK
                 csWait 120
-                entityActionsWait ALLY_ROHDE
+                entityActionsWait ALLY_NICK
                  moveRight 6
                 endActions
                 setFacing ALLY_BOWIE,UP
                 setFacing ALLY_PETER,UP
                 setFacing FOLLOWER_B,UP
-                entityActionsWait ALLY_ROHDE
+                entityActionsWait ALLY_NICK
                  moveUp 4
                 endActions
-                setFacing ALLY_ROHDE,RIGHT
+                setFacing ALLY_NICK,RIGHT
                 setCameraEntity 65535
                 setCamDest 7,1
                 csWait 30
-                setPos ALLY_ROHDE,12,6,UP
+                setPos ALLY_NICK,12,6,UP
                 csWait 20
-                setPos ALLY_ROHDE,13,5,LEFT
+                setPos ALLY_NICK,13,5,LEFT
                 csWait 20
-                setPos ALLY_ROHDE,12,6,UP
+                setPos ALLY_NICK,12,6,UP
                 csWait 20
-                setPos ALLY_ROHDE,11,5,RIGHT
+                setPos ALLY_NICK,11,5,RIGHT
                 csWait 20
-                setPos ALLY_ROHDE,12,6,UP
+                setPos ALLY_NICK,12,6,UP
                 csWait 20
-                setPos ALLY_ROHDE,13,5,LEFT
+                setPos ALLY_NICK,13,5,LEFT
                 csWait 20
-                nextSingleText $0,ALLY_ROHDE ; "It's so small.  I'll just{N}try to...get inside....{W1}"
-                entityActions ALLY_ROHDE
+                nextSingleText $0,ALLY_NICK ; "It's so small.  I'll just{N}try to...get inside....{W1}"
+                entityActions ALLY_NICK
                  moveLeft 1
                 endActions
                 csWait 3
-                setActscript ALLY_ROHDE,eas_452BA
+                setActscript ALLY_NICK,eas_452BA
                 csWait 3
                 csWait 60
                 startEntity 128
@@ -77,7 +77,7 @@ abcs_battle18:  textCursor 2528
                 setFacing 128,DOWN
                 setActscript 128,eas_Jump
                 csWait 10
-                setPos ALLY_ROHDE,63,63,DOWN
+                setPos ALLY_NICK,63,63,DOWN
                 customActscriptWait 128
                  ac_setSpeed 48,48      ;   
                  ac_jump eas_Idle       ;   
@@ -169,8 +169,8 @@ abcs_battle18:  textCursor 2528
                 setActscriptWait FOLLOWER_B,eas_BumpLeft
                 setActscriptWait FOLLOWER_B,eas_BumpLeft
                 csWait 30
-                setPos ALLY_ROHDE,12,5,RIGHT
-                setActscriptWait ALLY_ROHDE,eas_4536C
+                setPos ALLY_NICK,12,5,RIGHT
+                setActscriptWait ALLY_NICK,eas_4536C
                 csWait 3
                 setActscriptWait ALLY_BOWIE,eas_Init
                 setActscriptWait ALLY_PETER,eas_Init
@@ -179,25 +179,25 @@ abcs_battle18:  textCursor 2528
                 setFacing FOLLOWER_B,UP
                 startEntity ALLY_BOWIE
                 startEntity ALLY_PETER
-                entityActionsWait ALLY_ROHDE
+                entityActionsWait ALLY_NICK
                  moveDown 3
                 endActions
-                nextSingleText $0,ALLY_ROHDE ; "I never lie!{W1}"
-                entityActionsWait ALLY_ROHDE
+                nextSingleText $0,ALLY_NICK ; "I never lie!{W1}"
+                entityActionsWait ALLY_NICK
                  moveLeft 2
                 endActions
-                setFacing ALLY_ROHDE,DOWN
-                nextSingleText $0,ALLY_ROHDE ; "The Ancients were...how{N}should I say this...great!{W1}"
-                entityActionsWait ALLY_ROHDE
+                setFacing ALLY_NICK,DOWN
+                nextSingleText $0,ALLY_NICK ; "The Ancients were...how{N}should I say this...great!{W1}"
+                entityActionsWait ALLY_NICK
                  moveRight 1
                 endActions
-                setFacing ALLY_ROHDE,UP
-                nextSingleText $0,ALLY_ROHDE ; "No wonder the Caravan is so{N}small.  It carries miniaturized{N}people and items.{W2}"
-                entityActionsWait ALLY_ROHDE
+                setFacing ALLY_NICK,UP
+                nextSingleText $0,ALLY_NICK ; "No wonder the Caravan is so{N}small.  It carries miniaturized{N}people and items.{W2}"
+                entityActionsWait ALLY_NICK
                  moveUp 2
                 endActions
-                setFacing ALLY_ROHDE,DOWN
-                nextSingleText $0,ALLY_ROHDE ; "I can drive this excellent{N}vehicle.  May I go with you{N}as a driver?{W1}"
+                setFacing ALLY_NICK,DOWN
+                nextSingleText $0,ALLY_NICK ; "I can drive this excellent{N}vehicle.  May I go with you{N}as a driver?{W1}"
                 csWait 30
                 nextSingleText $FF,255  ; "{NAME;11} the historian{N}tags along with the force.{W1}"
                 entityActionsWait ALLY_PETER
@@ -211,39 +211,39 @@ abcs_battle18:  textCursor 2528
                 setFacing ALLY_BOWIE,RIGHT
                 setFacing FOLLOWER_B,LEFT
                 nextSingleText $0,ALLY_PETER ; "Well, at least we can bring{N}a lot of soldiers with us.{W1}"
-                entityActionsWait ALLY_ROHDE
+                entityActionsWait ALLY_NICK
                  moveDown 1
                 endActions
                 setFacing ALLY_BOWIE,UP
                 setFacing ALLY_PETER,UP
                 setFacing FOLLOWER_B,UP
-                nextSingleText $0,ALLY_ROHDE ; "But soldiers in the Caravan{N}cannot enter battle 'cause{N}they've been miniaturized.{W1}"
+                nextSingleText $0,ALLY_NICK ; "But soldiers in the Caravan{N}cannot enter battle 'cause{N}they've been miniaturized.{W1}"
                 nextSingleText $0,ALLY_PETER ; "We'll just have to see.{W1}"
                 setFacing ALLY_BOWIE,RIGHT
                 setFacing ALLY_PETER,LEFT
                 setFacing FOLLOWER_B,LEFT
                 nextSingleText $0,ALLY_PETER ; "Humph.  I don't like this guy.{W1}"
-                entityActionsWait ALLY_ROHDE
+                entityActionsWait ALLY_NICK
                  moveUp 1
                 endActions
-                setFacing ALLY_ROHDE,DOWN
+                setFacing ALLY_NICK,DOWN
                 csWait 20
-                setActscriptWait ALLY_ROHDE,eas_Jump
-                setActscriptWait ALLY_ROHDE,eas_Jump
+                setActscriptWait ALLY_NICK,eas_Jump
+                setActscriptWait ALLY_NICK,eas_Jump
                 setFacing ALLY_BOWIE,UP
                 setFacing ALLY_PETER,UP
                 setFacing FOLLOWER_B,UP
-                nextSingleText $0,ALLY_ROHDE ; "I wonder what adventures{N}we'll find with this Caravan!{W1}"
+                nextSingleText $0,ALLY_NICK ; "I wonder what adventures{N}we'll find with this Caravan!{W1}"
                 csWait 30
-                entityActions ALLY_ROHDE
+                entityActions ALLY_NICK
                  moveUp 1
                 endActions
                 csWait 3
-                setActscript ALLY_ROHDE,eas_452BA
+                setActscript ALLY_NICK,eas_452BA
                 csWait 3
                 csWait 60
                 startEntity 128
-                setPos ALLY_ROHDE,63,63,DOWN
+                setPos ALLY_NICK,63,63,DOWN
                 csWait 60
                 setActscriptWait 128,eas_Init
                 entityActions 128
@@ -259,7 +259,7 @@ abcs_battle18:  textCursor 2528
                 setFacing FOLLOWER_B,DOWN
                 csWait 180
                 setF 65                 ; Caravan is unlocked
-                clearF 84               ; Rohde is a follower
+                clearF 84               ; NICK is a follower
                 csc_end
 ce_4B6BE:       mainEntity 12,9,UP
                 entity 12,5,DOWN,MAPSPRITE_CARAVAN,eas_Init

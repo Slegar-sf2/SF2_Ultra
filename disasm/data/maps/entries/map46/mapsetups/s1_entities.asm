@@ -12,7 +12,7 @@ ms_map46_Entities:
                 msFixedEntity 12, 8, DOWN, ALLY_MAY, eas_Init
                 msFixedEntity 10, 9, RIGHT, ALLY_GERHALT, eas_Init
                 msFixedEntity 10, 10, RIGHT, ALLY_LUKE, eas_Init
-                msWalkingEntity 11, 6, DOWN, ALLY_ROHDE, 11, 6, 1
+                msWalkingEntity 11, 6, DOWN, ALLY_NICK, 11, 6, 1
                 msFixedEntity 12, 11, UP, ALLY_DEANNA, eas_Init
                 msFixedEntity 4, 11, DOWN, ALLY_ZYLO, eas_Init
                 msWalkingEntity 12, 13, RIGHT, ALLY_MARILL, 12, 13, 1

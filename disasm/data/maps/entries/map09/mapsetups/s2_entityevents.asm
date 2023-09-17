@@ -93,7 +93,7 @@ Map9_EntityEvent7:
 Map9_EntityEvent8:
                 
                  
-                chkFlg  725             ; Set after telling Rohde that you're going to get the Caravan
+                chkFlg  725             ; Set after telling NICK that you're going to get the Caravan
                 bne.s   byte_567C2      
                 txt     1365            ; "Dr. {NAME;11} lives in the{N}house over there.{W2}"
                 move.w  #$86,d0 
@@ -161,18 +161,18 @@ Map9_EntityEvent11:
 Map9_EntityEvent0:
                 
                  
-                chkFlg  727             ; Set after presenting the Achilles Sword to Rohde (yes/no to the Caravan regardless)
+                chkFlg  727             ; Set after presenting the Achilles Sword to NICK (yes/no to the Caravan regardless)
                 bne.s   byte_5682A      
                 moveq   #ITEM_ACHILLES_SWORD,d1
                 jsr     j_GetItemInventoryLocation
                 cmpi.w  #-1,d0
                 bne.s   byte_56804      
                 txt     1371            ; "Yes, I'm {NAME;11}.{N}I'm really busy now.{W2}{N}Time is dear to me.{N}Please don't bother me.{W1}"
-                setFlg  798             ; Set after talking to Rohde in Hassan if you DON'T have the Achilles Sword?
+                setFlg  798             ; Set after talking to NICK in Hassan if you DON'T have the Achilles Sword?
                 bra.s   loc_56828
 byte_56804:
                 
-                chkFlg  798             ; Set after talking to Rohde in Hassan if you DON'T have the Achilles Sword?
+                chkFlg  798             ; Set after talking to NICK in Hassan if you DON'T have the Achilles Sword?
                 bne.s   byte_5681E
                 txt     1371            ; "Yes, I'm {NAME;11}.{N}I'm really busy now.{W2}{N}Time is dear to me.{N}Please don't bother me.{W1}"
                 jsr     j_RemovePortraitWindow
@@ -182,13 +182,13 @@ byte_56804:
 byte_5681E:
                 
                 script  cs_569BC
-                setFlg  727             ; Set after presenting the Achilles Sword to Rohde (yes/no to the Caravan regardless)
+                setFlg  727             ; Set after presenting the Achilles Sword to NICK (yes/no to the Caravan regardless)
 loc_56828:
                 
                 bra.s   return_56840
 byte_5682A:
                 
-                chkFlg  725             ; Set after telling Rohde that you're going to get the Caravan
+                chkFlg  725             ; Set after telling NICK that you're going to get the Caravan
                 bne.s   return_56840
                 move.w  #$B,d0
                 jsr     sub_47832       

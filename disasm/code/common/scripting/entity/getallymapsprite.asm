@@ -27,12 +27,12 @@ GetAllyMapSprite:
                 bra.w   @Done           ; return blue flame sprite if ally is not alive, and we're not currently in battle
 @CheckNpcSprite:
                 
-                cmpi.b  #ALLY_ROHDE,d0  ; Rhode !
+                cmpi.b  #ALLY_NICK,d0  ; NICK !
                 bne.s   @GetMapSpriteForClass
-                chkFlg  11              ; Rohde joined
+                chkFlg  11              ; NICK joined
                 bne.s   @GetMapSpriteForClass
-                move.w  #MAPSPRITE_NPC_ROHDE,d4
-                bra.w   @Done           ; Rhode hasn't joined yet, so use his NPC sprite
+                move.w  #MAPSPRITE_NPC_NICK,d4
+                bra.w   @Done           ; NICK hasn't joined yet, so use his NPC sprite
 @GetMapSpriteForClass:
                 
                 move.w  d0,d4           ; start handling sprites based on class
