@@ -30,6 +30,9 @@
                 include "data\battles\entries\battle26\cs_beforebattle.asm"    ; Cutscene before battle 26
                 include "data\battles\entries\battle26\cs_afterbattle.asm"    ; Cutscene after battle 26
                 include "data\battles\entries\battle27\cs_battlestart.asm"    ; Start cutscene for battle 27
+                include "data\battles\entries\battle27\cs_beforebattle.asm"    ; Cutscene before battle 27
+                include "data\battles\entries\battle58\cs_beforebattle.asm"    ; Cutscene before battle 58
+                include "data\battles\entries\battle59\cs_beforebattle.asm"    ; Cutscene before battle 59				
                 include "data\battles\entries\battle28\cs_beforebattle.asm"    ; Cutscene before battle 28
                 include "data\battles\entries\battle28\cs_afterbattle.asm"    ; Cutscene after battle 28
                 include "data\battles\entries\battle29\cs_beforebattle.asm"    ; Cutscene before battle 29
