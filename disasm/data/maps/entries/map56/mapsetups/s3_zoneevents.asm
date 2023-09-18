@@ -21,8 +21,6 @@ byte_614F4:
                 
                 setFlg  441             ; Battle 41 unlocked - BATTLE_OUTSIDE_ANCIENT_TOWER     
                 setFlg  904             ; Will be set with the 0387, but only if the event isn't triggered by speaking
-                setFlg  452             ; Battle 52
-                setFlg  453             ; Battle 53
 Map56_DefaultZoneEvent:
                 
                 rts

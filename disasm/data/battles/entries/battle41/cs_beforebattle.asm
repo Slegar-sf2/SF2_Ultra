@@ -21,6 +21,8 @@ cs_4ED48:       playSound MUSIC_BATTLE_THEME_3
                 endActions                               
 				textCursor 4296
 				nextSingleText $0,128
+                setStoryFlag 52         ; Battle 52 unlocked
+                setStoryFlag 53	        ; Battle 53 unlocked			
                 setStoryFlag 54         ; Battle 54 unlocked
                 csc_end
 ce_4ED76:       mainEntity 17,24,RIGHT

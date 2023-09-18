@@ -654,7 +654,7 @@ tbl_ItemDefs:
                 
                 ; 57: Short Sword
                 equipFlags   SDMN|BDMN|HERO|BRN|BDBT|SWOR
-                equipFlags2  STAR|NINJ|RDBN
+                equipFlags2  STAR|NINJ|RDBN|HERR
                 range        1, 1
                 price        140
                 itemType     WEAPON
@@ -665,7 +665,7 @@ tbl_ItemDefs:
                 
                 ; 58: Middle Sword
                 equipFlags   SDMN|BDMN|HERO|BRN|BDBT|SWOR
-                equipFlags2  STAR|NINJ|RDBN
+                equipFlags2  STAR|NINJ|RDBN|HERR
                 range        1, 1
                 price        340
                 itemType     WEAPON
@@ -676,7 +676,7 @@ tbl_ItemDefs:
                 
                 ; 59: Long Sword
                 equipFlags   SDMN|BDMN|HERO|BRN|BDBT|SWOR
-                equipFlags2  STAR|NINJ|RDBN
+                equipFlags2  STAR|NINJ|RDBN|HERR
                 range        1, 1
                 price        620
                 itemType     WEAPON
@@ -687,7 +687,7 @@ tbl_ItemDefs:
                 
                 ; 60: Steel Sword
                 equipFlags   SDMN|BDMN|HERO|BRN|BDBT|SWOR
-                equipFlags2  STAR|NINJ|RDBN
+                equipFlags2  STAR|NINJ|RDBN|HERR
                 range        1, 1
                 price        1100
                 itemType     WEAPON
@@ -698,7 +698,7 @@ tbl_ItemDefs:
                 
                 ; 61: Achilles Sword
                 equipFlags   SDMN|HERO|WARU
-                equipFlags2  GLDD
+                equipFlags2  GLDD|HERR
                 range        1, 1
                 price        1550
                 itemType     WEAPON|RARE|CURSED
@@ -709,7 +709,7 @@ tbl_ItemDefs:
                 
                 ; 62: Broad Sword
                 equipFlags   SDMN|HERO|BRN|BDMN|BDBT|SWOR|THIF
-                equipFlags2  STAR|NINJ|RDBN
+                equipFlags2  STAR|NINJ|RDBN|HERR
                 range        1, 1
                 price        1900
                 itemType     WEAPON
@@ -720,7 +720,7 @@ tbl_ItemDefs:
                 
                 ; 63: Buster Sword
                 equipFlags   SDMN|HERO|BRN|BDMN|BDBT|SWOR|THIF
-                equipFlags2  STAR|NINJ|RDBN
+                equipFlags2  STAR|NINJ|RDBN|HERR
                 range        1, 1
                 price        2600
                 itemType     WEAPON
@@ -731,7 +731,7 @@ tbl_ItemDefs:
                 
                 ; 64: Great Sword
                 equipFlags   HERO|BRN|BDBT|THIF
-                equipFlags2  STAR|NINJ|RDBN
+                equipFlags2  STAR|NINJ|RDBN|HERR
                 range        1, 1
                 price        5100
                 itemType     WEAPON
@@ -742,7 +742,7 @@ tbl_ItemDefs:
                 
                 ; 65: Critical Sword
                 equipFlags   HERO|BRN|BDBT
-                equipFlags2  STAR|NINJ|RDBN
+                equipFlags2  STAR|NINJ|RDBN|HERR
                 range        1, 1
                 price        7200
                 itemType     WEAPON|RARE
@@ -753,7 +753,7 @@ tbl_ItemDefs:
                 
                 ; 66: Battle Sword
                 equipFlags   HERO|BRN|BDBT
-                equipFlags2  STAR|RDBN
+                equipFlags2  STAR|RDBN|HERR
                 range        1, 1
                 price        9200
                 itemType     WEAPON|RARE
@@ -764,7 +764,7 @@ tbl_ItemDefs:
                 
                 ; 67: Force Sword
                 equipFlags   HERO
-                equipFlags2  STAR
+                equipFlags2  STAR|HERR
                 range        1, 1
                 price        10000
                 itemType     WEAPON|RARE|UNSELLABLE
@@ -775,7 +775,7 @@ tbl_ItemDefs:
                 
                 ; 68: Counter Sword
                 equipFlags   HERO|BRN|BDBT
-                equipFlags2  STAR|RDBN
+                equipFlags2  STAR|RDBN|HERR
                 range        1, 1
                 price        13000
                 itemType     WEAPON|RARE
@@ -786,7 +786,7 @@ tbl_ItemDefs:
                 
                 ; 69: Levanter
                 equipFlags   HERO
-                equipFlags2  STAR
+                equipFlags2  STAR|HERR
                 range        1, 1
                 price        14000
                 itemType     WEAPON|RARE|BREAKABLE
@@ -808,7 +808,7 @@ tbl_ItemDefs:
                 
                 ; 71: Wooden Sword
                 equipFlags   SDMN|BDMN|HERO|BRN|BDBT
-                equipFlags2  STAR|RDBN
+                equipFlags2  STAR|RDBN|HERR
                 range        1, 1
                 price        60
                 itemType     WEAPON
