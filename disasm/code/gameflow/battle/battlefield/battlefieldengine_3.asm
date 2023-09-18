@@ -306,6 +306,7 @@ pt_SpellRanges: dc.l SpellRange0
                 dc.l SpellRange5
                 dc.l SpellRange6
                 dc.l SpellRange7
+                ;dc.l SpellRange8
             endif
             
 SpellRange0:    dc.b 1
@@ -437,6 +438,37 @@ SpellRange7:    dc.b 28
                 dc.b  3, -4
                 dc.b  2, -5
                 dc.b  1, -6
+				
+;SpellRange8:    dc.b 28
+                ;dc.b  0, -13
+                ;dc.b  0, -12
+                ;dc.b  0, -11
+                ;dc.b  0, -10
+                ;dc.b  0, -9
+                ;dc.b  0, -8
+                ;dc.b  0, -7
+                ;dc.b  0, -6
+                ;dc.b  0, -5
+                ;dc.b  0, -4
+                ;dc.b  0, -3
+                ;dc.b  0, -2
+                ;dc.b  0, -1
+                ;dc.b -1, 0				
+                ;dc.b 1,  0				
+                ;dc.b 0,  1
+                ;dc.b 0,  2
+                ;dc.b 0,  3
+                ;dc.b 0,  4
+                ;dc.b 0,  5
+                ;dc.b 0,  6
+                ;dc.b 0,  7
+                ;dc.b 0,  8
+                ;dc.b 0,  9
+                ;dc.b 0, 10
+                ;dc.b 0, 11
+                ;dc.b 0, 12
+                ;dc.b 0, 13					
+				
             endif
 
 ; =============== S U B R O U T I N E =======================================
@@ -515,7 +547,7 @@ PopulateTargetableGrid:
                 jsr     FindSpellDefAddress
                 cmpi.b  #SPELL_AURA|SPELL_LV4,d1
                 beq.w   @ChooseTargets				
-                cmpi.b  #SPELL_PYTHON|SPELL_LV4,d1
+                cmpi.b  #SPELL_PYTHON|SPELL_LV3,d1
                 beq.w   @ChooseTargets
                 
                 moveq   #0,d2

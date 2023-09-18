@@ -22,12 +22,12 @@ AllyStats00:
                 
                 forClass  SDMN           ; BOWIE
                 hpGrowth  12, 55, LINEAR
-                mpGrowth  50, 16, EARLY
+                mpGrowth  90, 16, EARLY
                 attGrowth 6, 45, LINEAR
                 defGrowth 4, 35, LINEAR
                 agiGrowth 4, 32, EARLY
                 spellList &				    
-                    1, BOOST, &
+                    1, PYTHON|LV3, &
                     1, AURA|LV4, &
                     1, SLOW, &
                     1, ATTACK, &

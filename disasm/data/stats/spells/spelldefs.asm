@@ -1115,36 +1115,29 @@ tbl_SpellDefs:
                 power      46
                 
                 entry      PYTHON        ; PYTHON 1
-                mpCost     5
+                mpCost     15
                 animation  HEALING_FAIRY
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 7
                 radius     0
-                power      15
+                power      35
                 
                 entry      PYTHON|LV2    ; PYTHON 2
-                mpCost     10
+                mpCost     30
                 animation  HEALING_FAIRY|VARIATION2
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 7
-                radius     1
-                power      25
+                radius     0
+                power      45
                 
                 entry      PYTHON|LV3    ; PYTHON 3
-                mpCost     15
+                mpCost     50
                 animation  HEALING_FAIRY|VARIATION3
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 7
-                radius     1
-                power      35
-                
-                entry      PYTHON|LV4    ; PYTHON 4
-                mpCost     30
-                animation  HEALING_FAIRY|VARIATION4
-                properties TYPE_ATTACK|AFFECTEDBYSILENCE
-                range      1, 7
-                radius     1
-                power      45                	
+                radius     0
+                power      25
+             	
                 ; Fill out table with dummy entries
                 dcb.b (SPELLDEF_ENTRY_SIZE*252)-(*-tbl_SpellDefs),0
             endif				
