@@ -19,8 +19,7 @@ ms_map59_InitFunction:
                 setSavedByte #MAP_DOJO, EGRESS_MAP
                 setFlg  436             ; Battle 36 unlocked - BATTLE_VERSUS_PRISM_FLOWERS      
                 setFlg  440             ; Battle 40 unlocked - BATTLE_VERSUS_ODD_EYE            
-                setFlg  442             ; Battle 42 unlocked - BATTLE_VERSUS_GALAM              
-                setFlg  443             ; Battle 43 unlocked - BATTLE_VERSUS_ZEON               
+                setFlg  442             ; Battle 42 unlocked - BATTLE_VERSUS_GALAM
                 rts
 byte_5EB18:
                 
