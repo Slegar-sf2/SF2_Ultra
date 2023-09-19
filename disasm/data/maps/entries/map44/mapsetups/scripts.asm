@@ -66,6 +66,7 @@ Map21_DefaultZoneEvent:
                  moveUp 1
                  moveLeft 2
                 endActions
+				setStoryFlag 46 ; battle 46 на коробле unlocked
                 setCamDest 11,12
                 nextSingleText $C0,FOLLOWER_B ; "It's too dangerous to stay{N}here.{N}Weigh anchor right now!{W1}"
                 clearF 74               ; Astral + King are followers

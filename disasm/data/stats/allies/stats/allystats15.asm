@@ -1,7 +1,7 @@
 
 ; ASM FILE data\stats\allies\stats\allystats15.asm :
 ; 0x1EE5A8..0x1EE5F5 : Ally stats 15
-AllyStats15:    forClass  RNGR ;GRAHAM
+AllyStats15:    forClass  RNGR ; GRAHAM
                 hpGrowth  9, 54, LINEAR
                 mpGrowth  0, 0, NONE
                 attGrowth 8, 52, LINEAR
@@ -10,7 +10,7 @@ AllyStats15:    forClass  RNGR ;GRAHAM
                 spellList 
                     
                 forClass  BWNT
-                hpGrowth  54, 104, LINEAR
+                hpGrowth  54, 114, LINEAR
                 mpGrowth  0, 0, NONE
                 attGrowth 52, 98, LINEAR
                 defGrowth 33, 84, LINEAR

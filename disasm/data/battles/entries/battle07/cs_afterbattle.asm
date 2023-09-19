@@ -641,7 +641,6 @@ abcs_battle07:  textCursor 2385
                 followEntity 134,133,2
                 setF 74                 ; Astral + King are followers
                 setF 640                ; Set after the end of battle 7's long sequence, cleared at docks?
-				setStoryFlag 46 ; battle 46 на коробле unlocked
                 csc_end
 ce_4A912:       mainEntity 13,23,UP
                 entity 63,63,RIGHT,MAPSPRITE_EFFECT3,eas_Init
