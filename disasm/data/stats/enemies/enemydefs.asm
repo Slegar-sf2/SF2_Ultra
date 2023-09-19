@@ -1706,7 +1706,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
-                moveType      REGULAR
+                moveType      ROYAL
                 unknownWord   8208
                     
                 unknownByte 67          ; 67: GALAM DWARF
@@ -1981,7 +1981,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
-                moveType      HEALER
+                moveType      ROYAL
                 unknownWord   12288
                     
                 unknownByte 78          ; 78:PRIEST 
@@ -2606,7 +2606,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
-                moveType      REGULAR
+                moveType      ROYAL
                 unknownWord   12288
 				
                 unknownByte 0          ; 103: ARTILERY

@@ -88,8 +88,10 @@ AiCommandset09:
                              ATTACK3, &
                              HEAL2, &
                              DEBUFF, &
-                             SPECIAL_MOVE4, &
+                             SPECIAL_MOVE, &
                              MOVE2, &
+                             ATTACK, &
+                             HEAL, &
                              STAY							 
 							 
 AiCommandset10: 

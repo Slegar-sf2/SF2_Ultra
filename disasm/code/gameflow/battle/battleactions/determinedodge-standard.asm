@@ -53,7 +53,7 @@ WriteBattlesceneScript_DetermineDodge:
                 moveq   #0,d2       ; zero property bytes
                 
                 ; Is target airborne? (i.e., either flying or hovering)
-                lea     tbl_AirborneMovetypes(pc), a0
+                lea     tbl_RoyalMovetypes(pc), a0
                 move.b  (a5),d0
                 bsr.w   GetMoveType
                 jsr     (FindSpecialPropertyBytesAddressForObject).w
@@ -66,7 +66,7 @@ WriteBattlesceneScript_DetermineDodge:
                 jsr     (FindSpecialPropertyBytesAddressForObject).w
                 bcc.s   @DefaultChance
                 
-                moveq   #CHANCE_TO_DODGE_FOR_AIRBORNE_TARGET,d2 ; 1/8 chance to dodge if target is airborne and attacker is not an archer
+                moveq   #CHANCE_TO_DODGE_FOR_ROYAL,d2 ; 1/8 chance to dodge if target is airborne and attacker is not an archer
                 bra.s   @Done
                 
 @DefaultChance: moveq   #CHANCE_TO_DODGE_DEFAULT,d2             ; 1/32 chance to dodge otherwise
