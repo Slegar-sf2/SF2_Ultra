@@ -51,4 +51,9 @@
                   warpMap    MAP_OVERWORLD_GRANS_AROUND_DWARF_VILLAGE
                   warpDest   255, 62
                   warpFacing UP
+                mWarp 36, 26
+                  warpNoScroll
+                  warpMap    101
+                  warpDest   38, 34
+                  warpFacing LEFT				  
                 endWord

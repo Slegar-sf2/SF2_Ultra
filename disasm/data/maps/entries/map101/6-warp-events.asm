@@ -1,8 +1,8 @@
 
 
-                mWarp 255, 31
+                mWarp 40, 255
                   warpNoScroll
-                  warpMap    67
-                  warpDest   45, 11
+                  warpMap    66
+                  warpDest   36, 27
                   warpFacing DOWN
                 endWord
