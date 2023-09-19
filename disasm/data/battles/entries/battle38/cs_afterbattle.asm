@@ -311,6 +311,7 @@ cs_4DF00:       setActscriptWait 128,eas_DeactivateAutoFacing
                 followEntity FOLLOWER_A,ALLY_BOWIE,2
                 followEntity ALLY_PETER,FOLLOWER_A,1
                 followEntity FOLLOWER_B,FOLLOWER_A,3
+                setStoryFlag 63     ; Battle 63
                 csc_end
 ce_4E372:       mainEntity 8,23,DOWN
                 entity 5,25,RIGHT,ALLY_PETER,eas_Init

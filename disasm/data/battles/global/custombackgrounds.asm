@@ -70,5 +70,5 @@ tbl_CustomBackgrounds:
                 background 44            ; 60: Battle 
                 background 39            ; 61: Battle 
                 background 45            ; 62: Battle 
-                background 40            ; 63: Battle
+                background 46            ; 63: Battle
                 background 41            ; 64: Battle 
