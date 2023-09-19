@@ -48,6 +48,7 @@ cs_4E41A:       fadeInB
                 endActions
                 setFacing 128,UP
                 nextSingleText $0,128   ; "Excellent!{N}Welcome to your graveyard!{W1}"
+                setStoryFlag 57     ; Battle 57
                 csc_end
 ce_4E4AC:       mainEntity 8,9,DOWN
                 entity 8,19,DOWN,MAPSPRITE_GEPPEL,eas_Init
