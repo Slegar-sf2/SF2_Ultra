@@ -3,8 +3,8 @@
 ; 0xBABFE..0xBAC10 : 
                 mWarp 5, 6
                   warpNoScroll
-                  warpMap    MAP_ACHILLES_SHRINES
-                  warpDest   14, 22
+                  warpMap    102
+                  warpDest   27, 19
                   warpFacing UP
                 mWarp 5, 16
                   warpNoScroll
