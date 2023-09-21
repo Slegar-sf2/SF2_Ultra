@@ -137,3 +137,4 @@ tbl_EnemyBattlesprites:
                 enemyBattleSprAndPlt 105, 0 ; 126 KING DAKU
                 enemyBattleSprAndPlt 92, 0 ; 127 GHOST
                 enemyBattleSprAndPlt 94, 0 ; 128 AZUMARILL
+                enemyBattleSprAndPlt 88, 0 ; 129: MASTER BISHOP

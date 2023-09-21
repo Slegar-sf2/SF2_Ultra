@@ -130,7 +130,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 2000               ; KING DAKU
                 dc.w 400                ; GHOST
                 dc.w 425                ; AZUMARILL
-                dc.w 0
+                dc.w 1300               ; MASTER BISHOP
                 dc.w 0
                 dc.w 0
                 dc.w 0

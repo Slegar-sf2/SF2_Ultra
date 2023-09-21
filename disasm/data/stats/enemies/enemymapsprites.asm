@@ -133,7 +133,8 @@ tbl_EnemyMapSprites:
                 mapSprite SILVER_DRAGON	 ; 125 SILVER DRAGON
                 mapSprite KING_DAKU	     ; 126 KING DAKU
                 mapSprite GHOST	         ; 127 GHOST
-                mapSprite AZUMARILL	     ; 128 AZUMARILL				
+                mapSprite AZUMARILL	     ; 128 AZUMARILL
+                mapSprite MASTER_BISHOP	 ; 129 MASTER_BISHOP
                 mapSprite NPC_NICK    
                 mapSprite FLAME1
                 mapSprite ORB
@@ -180,5 +181,3 @@ tbl_EnemyMapSprites:
                 mapSprite MITULA
                 mapSprite POSE6
                 mapSprite POSE7
-                mapSprite DUCK
-                mapSprite FAIRY

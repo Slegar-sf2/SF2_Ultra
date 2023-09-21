@@ -3259,3 +3259,28 @@ tbl_EnemyDefs:
                 moveType      STEALTH
                 unknownWord   0
                     
+                unknownByte 0           ; 129: MASTER BISHOP
+                spellPower ENHANCED
+                level    62
+                maxHp    195
+                maxMp    200
+                baseAtt  98
+                baseDef  88
+                baseAgi  175
+                baseMov  5
+                baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
+                baseProwess    CRITICAL_SLOW|DOUBLE_1IN32|COUNTER_1IN32
+                items &
+                    BISHOP_ROD|EQUIPPED, &
+                    ELIXIR, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    HEAL|LV4, &
+                    PYTHON|LV3, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      ROYAL
+                unknownWord   12288
+                                        

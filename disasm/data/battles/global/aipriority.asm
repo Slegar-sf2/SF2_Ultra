@@ -19,12 +19,6 @@ tbl_HealPriorityMoveTypes:
 tbl_AttackPriority_Regular:
                 dc.b CLASS_SDMN
                 dc.b CLASS_HERO
-                dc.b CLASS_MAGE
-                dc.b CLASS_SORC
-                dc.b CLASS_WIZ
-                dc.b CLASS_PRST
-                dc.b CLASS_VICR
-                dc.b CLASS_MMNK
                 dc.b CLASS_BDMN
                 dc.b CLASS_PHNK
                 dc.b CLASS_BDBT
@@ -35,6 +29,12 @@ tbl_AttackPriority_Regular:
                 dc.b CLASS_ACHR
                 dc.b CLASS_RNGR
                 dc.b CLASS_SNIP
+                dc.b CLASS_MAGE
+                dc.b CLASS_SORC
+                dc.b CLASS_WIZ
+                dc.b CLASS_PRST
+                dc.b CLASS_VICR
+                dc.b CLASS_MMNK
                 dc.b CLASS_BWNT
                 dc.b CLASS_BRGN
                 dc.b CLASS_WFMN
@@ -49,6 +49,25 @@ tbl_AttackPriority_Regular:
                 dc.b CLASS_GLM
                 dc.b CLASS_TORT
                 dc.b CLASS_MNST
+                dc.b CLASS_SWOR
+                dc.b CLASS_KENT
+                dc.b CLASS_ACHH
+                dc.b CLASS_MAGG
+                dc.b CLASS_WOLF
+                dc.b CLASS_WARU
+                dc.b CLASS_STAR
+                dc.b CLASS_BRSK
+                dc.b CLASS_PALA
+                dc.b CLASS_MONK
+                dc.b CLASS_SNII
+                dc.b CLASS_WIZZ
+                dc.b CLASS_WLBR
+                dc.b CLASS_GLDD
+                dc.b CLASS_GRDR
+                dc.b CLASS_MOUS
+                dc.b CLASS_WITC
+                dc.b CLASS_HERR
+
                 
 tbl_AttackPriority_Mage:
                 dc.b CLASS_SDMN
@@ -83,6 +102,24 @@ tbl_AttackPriority_Mage:
                 dc.b CLASS_PHNX
                 dc.b CLASS_PGNT
                 dc.b CLASS_BDBT
+                dc.b CLASS_SWOR
+                dc.b CLASS_KENT
+                dc.b CLASS_ACHH
+                dc.b CLASS_MAGG
+                dc.b CLASS_WOLF
+                dc.b CLASS_WARU
+                dc.b CLASS_STAR
+                dc.b CLASS_BRSK
+                dc.b CLASS_PALA
+                dc.b CLASS_MONK
+                dc.b CLASS_SNII
+                dc.b CLASS_WIZZ
+                dc.b CLASS_WLBR
+                dc.b CLASS_GLDD
+                dc.b CLASS_GRDR
+                dc.b CLASS_MOUS
+                dc.b CLASS_WITC
+                dc.b CLASS_HERR
                 
 tbl_AttackPriority_Archer:
                 dc.b CLASS_BDMN
@@ -117,6 +154,24 @@ tbl_AttackPriority_Archer:
                 dc.b CLASS_GLM
                 dc.b CLASS_TORT
                 dc.b CLASS_MNST
+                dc.b CLASS_SWOR
+                dc.b CLASS_KENT
+                dc.b CLASS_ACHH
+                dc.b CLASS_MAGG
+                dc.b CLASS_WOLF
+                dc.b CLASS_WARU
+                dc.b CLASS_STAR
+                dc.b CLASS_BRSK
+                dc.b CLASS_PALA
+                dc.b CLASS_MONK
+                dc.b CLASS_SNII
+                dc.b CLASS_WIZZ
+                dc.b CLASS_WLBR
+                dc.b CLASS_GLDD
+                dc.b CLASS_GRDR
+                dc.b CLASS_MOUS
+                dc.b CLASS_WITC
+                dc.b CLASS_HERR
                 
 tbl_AttackPriority_Flying:
                 dc.b CLASS_SDMN
@@ -151,7 +206,24 @@ tbl_AttackPriority_Flying:
                 dc.b CLASS_SNIP
                 dc.b CLASS_BWNT
                 dc.b CLASS_BRGN
-                dc.b CLASS_NONE
+                dc.b CLASS_SWOR
+                dc.b CLASS_KENT
+                dc.b CLASS_ACHH
+                dc.b CLASS_MAGG
+                dc.b CLASS_WOLF
+                dc.b CLASS_WARU
+                dc.b CLASS_STAR
+                dc.b CLASS_BRSK
+                dc.b CLASS_PALA
+                dc.b CLASS_MONK
+                dc.b CLASS_SNII
+                dc.b CLASS_WIZZ
+                dc.b CLASS_WLBR
+                dc.b CLASS_GLDD
+                dc.b CLASS_GRDR
+                dc.b CLASS_MOUS
+                dc.b CLASS_WITC
+                dc.b CLASS_HERR
                 
 pt_AttackPriorityForMoveType:
                 dc.l tbl_AttackPriority_Regular ; moveType None
