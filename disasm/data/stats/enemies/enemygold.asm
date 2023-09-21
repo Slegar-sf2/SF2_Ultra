@@ -34,7 +34,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 660                ; MINOTAUR
                 dc.w 700                ; CYCLOPS
                 dc.w 200                ; BURST ROCK
-                dc.w 1200               ; CHU_RAO
+                dc.w 1800               ; CHU_RAO
                 dc.w 840                ; CHAOS WARRIOR
                 dc.w 900                ; REAPER
                 dc.w 1050               ; EVIL BEAST
@@ -55,7 +55,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 720                ; WHITE DRAGON
                 dc.w 770                ; DEMON
                 dc.w 500                ; BEEDRILL
-                dc.w 1120               ; DEVIL GRIFFIN
+                dc.w 1020               ; DEVIL GRIFFIN
                 dc.w 200                ; TENTACRUEL
                 dc.w 80                 ; GALAM ARCHER
                 dc.w 90                 ; HUNTER GOBLIN
@@ -112,11 +112,11 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 425                ; BAZOO
                 dc.w 600                ; FRABELL
                 dc.w 3000               ; DAVA
-                dc.w 1100               ; DOLL
+                dc.w 1010               ; DOLL
                 dc.w 55                 ; GALAM SOLDIER2
                 dc.w 100                ; EVIL_PIXY
                 dc.w 2500               ; BULLDOR
-                dc.w 1500               ; WARDERER
+                dc.w 2200               ; WARDERER
                 dc.w 1700               ; SOLO
                 dc.w 110                ; GOBLIN PUPIL
                 dc.w 150                ; Farfetch
@@ -129,7 +129,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 1240               ; SILVER DRAGON
                 dc.w 2000               ; KING DAKU
                 dc.w 400                ; GHOST
-                dc.w 0
+                dc.w 425                ; AZUMARILL
                 dc.w 0
                 dc.w 0
                 dc.w 0

@@ -18,4 +18,5 @@ tbl_CannotBeCounteredEnemies:
                 dc.b ENEMY_DAVA
                 dc.b ENEMY_CHU_RAO
                 dc.b ENEMY_RUSEPHINE
+
                 tableEnd.b

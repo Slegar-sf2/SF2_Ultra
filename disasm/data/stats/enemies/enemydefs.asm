@@ -3233,3 +3233,29 @@ tbl_EnemyDefs:
                 initialStatus NONE
                 moveType      FLYING
                 unknownWord   0
+                    
+                unknownByte 0          ; 128: AZUMARILL
+                spellPower REGULAR
+                level    29
+                maxHp    75
+                maxMp    0
+                baseAtt  75
+                baseDef  65
+                baseAgi  55
+                baseMov  5
+                baseResistance LIGHTNING_WEAKNESS|ICE_MAJOR|FIRE_MINOR|STATUS_IMMUNITY
+                baseProwess    CRITICAL_SILENCE|DOUBLE_1IN4|COUNTER_1IN8
+                items &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                spells &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING
+                initialStatus NONE
+                moveType      STEALTH
+                unknownWord   0
+                    
