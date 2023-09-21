@@ -10,7 +10,7 @@ AllyStats15:    forClass  RNGR ; GRAHAM
                 spellList 
                     
                 forClass  BWNT
-                hpGrowth  54, 114, LINEAR
+                hpGrowth  54, 118, LINEAR
                 mpGrowth  0, 0, NONE
                 attGrowth 52, 98, LINEAR
                 defGrowth 33, 84, LINEAR

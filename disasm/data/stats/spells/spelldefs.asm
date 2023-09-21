@@ -1115,23 +1115,23 @@ tbl_SpellDefs:
                 power      46
                 
                 entry      PYTHON        ; PYTHON 1
-                mpCost     15
+                mpCost     2
                 animation  HEALING_FAIRY
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
-                range      1, 7
+                range      1, 5
                 radius     0
                 power      35
                 
                 entry      PYTHON|LV2    ; PYTHON 2
-                mpCost     30
+                mpCost     6
                 animation  HEALING_FAIRY|VARIATION2
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
-                range      1, 7
+                range      1, 6
                 radius     0
                 power      45
                 
                 entry      PYTHON|LV3    ; PYTHON 3
-                mpCost     50
+                mpCost     60
                 animation  HEALING_FAIRY|VARIATION3
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 7

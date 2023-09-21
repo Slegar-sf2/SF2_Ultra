@@ -25,18 +25,16 @@ AllyStats00:
                 mpGrowth  0, 16, EARLY
                 attGrowth 6, 45, LINEAR
                 defGrowth 4, 35, LINEAR
-                agiGrowth 4, 32, EARLY
+                agiGrowth 4, 22, EARLY
                 spellList &				    
-                    16, BOLT, &
-                    18, EGRESS, &
-                    1, SLOW, &
-                    1, ATTACK, &
+                    19, BOLT, &
+                    29, BOLT|LV2, &
 					15, EGRESS
                 forClass  HERO
-                hpGrowth  55, 110, LINEAR
+                hpGrowth  55, 107, LINEAR
                 mpGrowth  16, 37, EARLY
                 attGrowth 45, 95, LINEAR
-                defGrowth 35, 80, LINEAR
-                agiGrowth 32, 57, EARLYANDLATE
+                defGrowth 35, 76, LINEAR
+                agiGrowth 22, 52, EARLYANDLATE
                 useFirstSpellList
                 

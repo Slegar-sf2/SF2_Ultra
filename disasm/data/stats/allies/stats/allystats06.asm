@@ -15,9 +15,8 @@ AllyStats06:    forClass  MAGG ;NATASHA
                     18, BLAST|LV2, &
                     19, BOLT|LV2, &
                     31, BOLT|LV3, &
-                    33, FREEZE|LV3, &
+                    33, SLEEP, &
                     37, BLAST|LV3, &
-                    47, FREEZE|LV4, &
                     49, BOLT|LV4, &
                     51, BLAST|LV4
                     

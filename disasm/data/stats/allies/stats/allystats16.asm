@@ -1,7 +1,7 @@
 
 ; ASM FILE data\stats\allies\stats\allystats16.asm :
 ; 0x1EE5F5..0x1EE628 : Ally stats 16
-AllyStats16:    forClass  WARU ;RUCE
+AllyStats16:    forClass  WARU ; RUCE
                 hpGrowth  12, 36, LINEAR
                 mpGrowth  0, 0, NONE
                 attGrowth 8, 49, LINEAR
