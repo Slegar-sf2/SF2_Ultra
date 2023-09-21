@@ -67,4 +67,4 @@ BattleMapCoordinates:
                 battleMapCoords 99, 0, 0, 24, 32, 255, 255
                 battleMapCoords 100, 0, 0, 24, 32, 255, 255
                 battleMapCoords 101, 0, 0, 41, 33, 255, 255
-                battleMapCoords 123, 0, 0, 24, 32, 255, 255
+                battleMapCoords 3, 0, 0, 48, 32, 255, 255

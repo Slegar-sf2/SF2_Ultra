@@ -8,7 +8,7 @@ tbl_ClassDefs:
 ;               prowess    [PROWESS_]bitfield
                 
                 mov 5                   ; 0: SDMN
-                resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_NONE|NEUTRAL_WEAKNESS|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_MINOR|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL125_1IN32|DOUBLE_1IN32|COUNTER_1IN32
                 

@@ -224,6 +224,7 @@ tbl_AttackPriority_Flying:
                 dc.b CLASS_MOUS
                 dc.b CLASS_WITC
                 dc.b CLASS_HERR
+                dc.b CLASS_NONE
                 
 pt_AttackPriorityForMoveType:
                 dc.l tbl_AttackPriority_Regular ; moveType None

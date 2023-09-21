@@ -55,6 +55,7 @@ bbcs_06:        textCursor 2342
                 nextSingleText $0,128   ; "Hey, these are the Granseal{N}spies!{W1}"
                 nextSingleText $C0,ALLY_SLADE ; "Oops!  That didn't work!{W1}"                				
 				setStoryFlag 7     ; Battle 7 unlocked - BATTLE_VERSUS_DARK_SMOKES
+				setStoryFlag 64	   ; Battle 64 unlocked 		
                 csc_end
 ce_49CBA:       mainEntity 30,9,DOWN
                 entity 29,8,DOWN,ALLY_SLADE,eas_Init
