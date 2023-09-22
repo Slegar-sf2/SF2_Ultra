@@ -206,7 +206,7 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        0, 1
                 price        1000
-                itemType     RARE|CONSUMABLE
+                itemType     CONSUMABLE
                 useSpell     FBALL
                 equipEffects NONE, 0, &
                              NONE, 0, &

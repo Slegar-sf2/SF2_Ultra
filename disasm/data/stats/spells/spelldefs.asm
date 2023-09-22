@@ -797,9 +797,17 @@ tbl_SpellDefs:
                 animation  BLAZE|VARIATION3
                 properties TYPE_ATTACK
                 range      1, 1
-                radius     0
-                power      20
+                radius     1
+                power      25
                 
+                entry      FBALL|LV2      ; F.BALL 2
+                mpCost     0
+                animation  BLAZE|VARIATION4
+                properties TYPE_ATTACK
+                range      1, 1
+                radius     1
+                power      40
+                                
                 entry      ICE       ; ICE 1
                 mpCost     5
                 animation  FREEZE
