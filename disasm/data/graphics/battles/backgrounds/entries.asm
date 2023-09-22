@@ -48,6 +48,7 @@ pt_Backgrounds: dc.l Background00
                 dc.l Background44
                 dc.l Background45
                 dc.l Background46
+                dc.l Background47
 Background00:   incbin "data/graphics/battles/backgrounds/background00.bin"
 Background01:   incbin "data/graphics/battles/backgrounds/background01.bin"
 Background02:   incbin "data/graphics/battles/backgrounds/background02.bin"
@@ -93,4 +94,5 @@ Background43:   incbin "data/graphics/battles/backgrounds/background43.bin"
 Background44:   incbin "data/graphics/battles/backgrounds/background44.bin"
 Background45:   incbin "data/graphics/battles/backgrounds/background45.bin"
 Background46:   incbin "data/graphics/battles/backgrounds/background46.bin"
+Background47:   incbin "data/graphics/battles/backgrounds/background47.bin"
 

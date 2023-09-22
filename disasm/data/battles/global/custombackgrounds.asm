@@ -72,7 +72,7 @@ tbl_CustomBackgrounds:
                 background 45            ; 62: Battle 
                 background 46            ; 63: Battle
                 background TOWN          ; 64: Battle
-                background 39            ; 65: Battle 
+                background 47            ; 65: Battle подземелье перед битвой с кракеном 
                 background 45            ; 66: Battle 
                 background 46            ; 67: Battle
                 background TOWN          ; 68: Battle

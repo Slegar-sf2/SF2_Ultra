@@ -70,7 +70,7 @@ tbl_EnemyLeaderPresence:
 				dc.b 255                ; 62
 				dc.b 0                  ; 63 
 				dc.b 0                  ; 64
-				dc.b 0                  ; 65 
+				dc.b 255                ; 65 Solo 
 				dc.b 0                  ; 66
 				dc.b 0                  ; 67 
 				dc.b 0                  ; 68
