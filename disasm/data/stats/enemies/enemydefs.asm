@@ -2936,22 +2936,22 @@ tbl_EnemyDefs:
                     
                 unknownByte 0          ; 116 SOLO
                 spellPower ENHANCED
-                level    70
-                maxHp    313
+                level    24
+                maxHp    90
                 maxMp    96
-                baseAtt  138
-                baseDef  103
-                baseAgi  190
-                baseMov  6
+                baseAtt  58
+                baseDef  40
+                baseAgi  180
+                baseMov  5
                 baseResistance LIGHTNING_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN4|DOUBLE_1IN8|COUNTER_1IN4
                 items &
-                    NOTHING, &
-                    NOTHING, &
-                    NOTHING, &
+                    STORM, &
+                    BOMB, &
+                    BLIZZARD, &
                     NOTHING
                 spells &
-                    THUNDER|LV4, &
+                    RAIJIN|LV2, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

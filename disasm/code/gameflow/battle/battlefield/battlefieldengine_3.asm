@@ -1419,12 +1419,12 @@ GetSpellPowerAdjustedForResistance:
                 
                 cmpi.b  #RESISTANCESETTING_MAJOR,d2
                 bne.s   @CheckWeakness
-                lsr.w   #1,d6           ; -50% spell power
+                lsr.w   #2,d6           ; -75% spell power
 @CheckWeakness:
                 
                 cmpi.b  #RESISTANCESETTING_WEAKNESS,d2
                 bne.s   @Done
-                add.w   d3,d6           ; +25% spell power
+                mulu.w  #2,d6           ; +75% damage if target is weak
 @Done:
                 
                 movem.l (sp)+,d0-d5/d7-a0
