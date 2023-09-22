@@ -240,7 +240,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL150_1IN32|DOUBLE_1IN8|COUNTER_1IN16
                 
                 mov 6                   ; 46: GRDR
-                resistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_WEAKNESS|FIRE_MAJOR|NEUTRAL_WEAKNESS|STATUS_NONE
+                resistance WIND_MINOR|LIGHTNING_MINOR|ICE_WEAKNESS|FIRE_MAJOR|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   FLYING
                 prowess    CRITICAL_MUDDLE|DOUBLE_1IN16|COUNTER_1IN4
                     

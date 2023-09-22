@@ -1698,13 +1698,13 @@ tbl_ItemDefs:
                              NONE, 0, &
                              NONE, 0
                 
-                ; 152: 
+                ; 152: ELECTRO
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
+                price        490
+                itemType     CONSUMABLE
+                useSpell     BOLT
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
