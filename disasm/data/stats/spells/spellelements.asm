@@ -58,7 +58,7 @@ tbl_SpellElements:
                 spellElement NEUTRAL    ; 49: HP_DRAIN
                 spellElement FIRE       ; 50: FUOCO
                 spellElement NEUTRAL    ; 51: PYTHON
-                spellElement NEUTRAL    ; 52: 
+                spellElement NEUTRAL    ; 52: BEAM
                 spellElement NEUTRAL    ; 53: 
                 spellElement NEUTRAL    ; 54: 
                 spellElement NEUTRAL    ; 55: 

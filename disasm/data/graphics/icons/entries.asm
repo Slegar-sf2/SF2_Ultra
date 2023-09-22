@@ -227,8 +227,9 @@ Icon199:        incbin "data/graphics/icons/icon199.bin"
 Icon200:        incbin "data/graphics/icons/icon200.bin"
 Icon201:        incbin "data/graphics/icons/icon201.bin"
 Icon202:        incbin "data/graphics/icons/icon202.bin"
-Icon203:        incbin "data/graphics/icons/icon203.bin"				
-                    rept 11
+Icon203:        incbin "data/graphics/icons/icon203.bin"
+Icon209:        incbin "data/graphics/icons/icon209.bin"				
+                    rept 10
                         incbin "data/graphics/icons/icon145.bin"
                     endr
                     incbin "data/graphics/icons/icon146.bin"    ; Jewel of Light

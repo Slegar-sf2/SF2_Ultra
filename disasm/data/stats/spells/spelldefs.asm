@@ -1137,7 +1137,39 @@ tbl_SpellDefs:
                 range      1, 7
                 radius     0
                 power      25
-             	
+                
+                entry      BEAM    ; BEAM
+                mpCost     5
+                animation  CANNON_PROJECTILE
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
+                range      1, 3
+                radius     0
+                power      10
+                
+                entry      BEAM|LV2    ; BEAM 2
+                mpCost     10
+                animation  CANNON_PROJECTILE|VARIATION2
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
+                range      1, 3
+                radius     0
+                power      17
+                
+                entry      BEAM|LV3    ; BEAM 3
+                mpCost     15
+                animation  CANNON_PROJECTILE|VARIATION3
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
+                range      1, 3
+                radius     0
+                power      25
+                
+                entry      BEAM|LV4    ; BEAM 4
+                mpCost     30
+                animation  CANNON_PROJECTILE|VARIATION4
+                properties TYPE_ATTACK|AFFECTEDBYSILENCE
+                range      1, 3
+                radius     0
+                power      45
+                                             	
                 ; Fill out table with dummy entries
                 dcb.b (SPELLDEF_ENTRY_SIZE*252)-(*-tbl_SpellDefs),0
             endif				

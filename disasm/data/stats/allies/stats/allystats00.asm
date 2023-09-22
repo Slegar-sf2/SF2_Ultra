@@ -27,7 +27,7 @@ AllyStats00:
                 defGrowth 4, 35, LINEAR
                 agiGrowth 4, 22, EARLY
                 spellList &				    
-                    19, BOLT, &
+                    17, BOLT, &
                     29, BOLT|LV2, &
 					15, EGRESS
                 forClass  HERO

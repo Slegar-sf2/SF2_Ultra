@@ -75,7 +75,7 @@ rjt_SpellEffects:
                 dc.w SpellEffect_DrainHp-rjt_SpellEffects     ; HP_DRAIN			
                 dc.w SpellEffect_Blaze-rjt_SpellEffects      ; FUOCO
                 dc.w SpellEffect_DemonBreath-rjt_SpellEffects  ; PYTHON
-                dc.w SpellEffect_None-rjt_SpellEffects       ; spell52
+                dc.w SpellEffect_Bolt-rjt_SpellEffects       ; BEAM
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell53
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell54
                 dc.w SpellEffect_None-rjt_SpellEffects       ; spell55
