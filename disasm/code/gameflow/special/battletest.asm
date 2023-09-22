@@ -15,7 +15,7 @@ DebugModeBattleTest:
                 bsr.w   j_JoinForce
                 moveq   #ALLY_ZYLO,d0
                 bsr.w   j_JoinForce
-                moveq   #ALLY_JARO,d0
+                moveq   #ALLY_NATASHA,d0
                 bsr.w   j_JoinForce
                 moveq   #ALLY_ANRI,d0
                 bsr.w   j_JoinForce

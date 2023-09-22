@@ -15,11 +15,12 @@ AllyStats17:    forClass  WITC   ; ANRI
                     5, RAIJIN, &
                     15, RAIJIN|LV2, &
                     37, RAIJIN|LV3, &
-                    29, ATTACK, &
-                    32, ATTACK|LV2, &
-                    23, BOLT, &
-                    35, BOLT|LV2, &
+                    29, BEAM, &
+                    32, BEAM|LV2, &
+                    23, APOLLO, &
+                    35, APOLLO|LV2, &
                     33, SLEEP, &
-                    45, BOLT|LV3, &
-                    59, BOLT|LV4
+                    44, BEAM|LV3, &
+                    45, APOLLO|LV3, &
+                    60, BEAM|LV4					
                 
