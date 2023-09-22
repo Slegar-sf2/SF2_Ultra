@@ -324,7 +324,7 @@ tbl_SpellDefs:
                 mpCost     14
                 animation  FREEZE|VARIATION3
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
-                range      1, 3
+                range      1, 2
                 radius     0
                 power      30
                 
@@ -332,7 +332,7 @@ tbl_SpellDefs:
                 mpCost     20
                 animation  FREEZE|VARIATION4
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
-                range      1, 3
+                range      1, 2
                 radius     1
                 power      37
                 
@@ -812,7 +812,7 @@ tbl_SpellDefs:
                 mpCost     9
                 animation  FREEZE|VARIATION2
                 properties TYPE_ATTACK
-                range      1, 2
+                range      1, 3
                 radius     0
                 power      17
 				
@@ -820,7 +820,7 @@ tbl_SpellDefs:
                 mpCost     18
                 animation  FREEZE|VARIATION3
                 properties TYPE_ATTACK
-                range      1, 2
+                range      1, 3
                 radius     0
                 power      35
 				
