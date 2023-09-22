@@ -40,7 +40,6 @@ cs_51454:       moveNextToPlayer 139,UP
                 csc_end
 cs_5145C:       setActscriptWait 128,eas_Init
                 entityActionsWait 128
-                 moveUp 2
                  faceLeft 20
                 endActions
                 textCursor 510

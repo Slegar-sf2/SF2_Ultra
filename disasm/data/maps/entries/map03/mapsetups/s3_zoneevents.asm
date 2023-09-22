@@ -8,7 +8,7 @@ ms_map3_ZoneEvents:
                 msZoneEvent 29, 5, Map3_ZoneEvent1-ms_map3_ZoneEvents
                 msZoneEvent 30, 5, Map3_ZoneEvent4-ms_map3_ZoneEvents
                 msZoneEvent 31, 5, Map3_ZoneEvent4-ms_map3_ZoneEvents
-                msZoneEvent 4, 4, Map3_ZoneEvent6-ms_map3_ZoneEvents
+                msZoneEvent 4, 6, Map3_ZoneEvent6-ms_map3_ZoneEvents
                 msZoneEvent 58, 13, Map3_ZoneEvent7-ms_map3_ZoneEvents
                 msZoneEvent 43, 10, Map3_ZoneEvent8-ms_map3_ZoneEvents
                 msDefaultZoneEvent Map3_DefaultZoneEvent-ms_map3_ZoneEvents

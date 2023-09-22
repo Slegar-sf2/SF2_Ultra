@@ -145,7 +145,8 @@ tbl_ShopInventories:
                               GREAT_AXE, &
                               ASSAULT_SHELL, &
                               NAZCA_CANNON, &
-                              GUARDIAN_STAFF, &                              
+                              GUARDIAN_STAFF, &
+                              DRUID_STAFF, &                              
                               BRASS_KNUCKLES, &
                               IRON_KNUCKLES, &
                               HELMET
@@ -158,6 +159,7 @@ tbl_ShopInventories:
                               HEAT_AXE, &
                               NAZCA_CANNON, &                             
                               GUARDIAN_STAFF, &
+                              DRUID_STAFF, &							  
                               WISH_STAFF, &                              
                               IRON_KNUCKLES							  
                 
@@ -170,6 +172,7 @@ tbl_ShopInventories:
                               GUARDIAN_STAFF, &
                               INDRA_STAFF, & 
                               MAGE_STAFF, &
+                              DRUID_STAFF, &
                               IRON_KNUCKLES
 				
                 ; Item shop  SHOP_INDEX: 15

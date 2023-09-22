@@ -82,7 +82,9 @@ tbl_WeaponGraphics:
                 weaponGraphics KATANA, KATANA, KATANA                           ; 107: Katana
                 weaponGraphics NINJA_KATANA, KATANA, KATANA                     ; 108: Ninja Katana
                 weaponGraphics GISARME, KATANA, KATANA                          ; 109: Gisarme
-                weaponGraphics TAROS_SWORD, 7, 18
+                weaponGraphics TAROS_SWORD, 7, 18                               ; 110 TOROS
+                weaponGraphics BRONZE_SWORD, 6, 22
+                weaponGraphics DRUID_STAFF, 29, 37  
                 				
                 tableEnd.b
 

@@ -1687,14 +1687,14 @@ tbl_ItemDefs:
                              DECREASE_MOV, 25, &
                              DECREASE_ATT, 200
                 
-                ; 151: 
-                equipFlags   NONE
-                equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
-                equipEffects NONE, 0, &
+                ; 151: Druid Staff
+                equipFlags   WIZ|SORC|VICR|MAGG
+                equipFlags2  WIZZ|WITC
+                range        1, 1
+                price        5500
+                itemType     WEAPON|BREAKABLE
+                useSpell     RAIJIN|LV2
+                equipEffects INCREASE_ATT, 20, &
                              NONE, 0, &
                              NONE, 0
                 
