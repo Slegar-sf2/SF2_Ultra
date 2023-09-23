@@ -289,7 +289,7 @@ ce_5072E:       mainEntity 0,0,UP
                 entity 19,32,DOWN,MAPSPRITE_WOMAN2,eas_Init
                 entity 23,34,DOWN,MAPSPRITE_BOY,eas_Init
                 entity 24,34,DOWN,MAPSPRITE_GIRL,eas_Init
-                entity 27,29,DOWN,MAPSPRITE_MAN1,eas_Init
+                entity 27,29,DOWN,MAPSPRITE_MAN4,eas_Init
                 entity 27,30,LEFT,MAPSPRITE_SAILOR,eas_Init
                 entity 26,31,UP,MAPSPRITE_MAN1,eas_Init
                 entity 24,26,UP,MAPSPRITE_WOMAN2,eas_Init

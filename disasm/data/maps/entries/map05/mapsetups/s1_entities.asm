@@ -7,7 +7,7 @@ ms_map5_Entities:
                 msWalkingEntity 20, 28, DOWN, MAPSPRITE_MAN2, 20, 28, 1
                 msFixedEntity 20, 16, RIGHT, MAPSPRITE_MAN3, eas_Init
                 msFixedEntity 22, 16, LEFT, MAPSPRITE_WOMAN1, eas_Init
-                msFixedEntity 19, 12, DOWN, MAPSPRITE_MAN1, eas_Init
+                msFixedEntity 19, 12, DOWN, MAPSPRITE_MAN4, eas_Init
                 msWalkingEntity 21, 21, DOWN, MAPSPRITE_HEN, 21, 21, 2
                 msWalkingEntity 22, 21, DOWN, MAPSPRITE_HEN, 22, 21, 2
                 msFixedEntity 25, 19, DOWN, MAPSPRITE_BOY, eas_Init

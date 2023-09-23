@@ -12,7 +12,7 @@ ms_map44_flag507_Entities:
                 msFixedEntity 13, 11, UP, MAPSPRITE_MAN2, eas_Init
                 msFixedEntity 14, 11, UP, MAPSPRITE_WOMAN2, eas_Init
                 msFixedEntity 20, 12, DOWN, MAPSPRITE_WORKER, eas_Init
-                msFixedEntity 10, 14, RIGHT, MAPSPRITE_MAN3, eas_Init
+                msFixedEntity 10, 14, RIGHT, MAPSPRITE_MAN4, eas_Init
                 msFixedEntity 8, 23, DOWN, MAPSPRITE_SOLDIER1, eas_Init
                 msFixedEntity 14, 23, DOWN, MAPSPRITE_SOLDIER1, eas_Init
 				msFixedEntity 11, 12, DOWN, MAPSPRITE_PRIEST,eas_Init
