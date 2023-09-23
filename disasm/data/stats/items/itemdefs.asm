@@ -1065,7 +1065,7 @@ tbl_ItemDefs:
                 range        1, 1
                 price        8900
                 itemType     WEAPON|RARE|BREAKABLE
-                useSpell     FUOCO|LV3
+                useSpell     BEAM|LV2
                 equipEffects INCREASE_ATT, 26, &
                              DECREASE_MOV, 1, &
                              NONE, 0

@@ -73,8 +73,8 @@ ce_4ABBE55:
  				entity 17,24,UP,ALLY_PETER,eas_Init
 				entity 19,24,UP,ALLY_JAHA,eas_Init
 				entity 14,5,LEFT,ALLY_ANRI,eas_Init				
-				entity 10,5,RIGHT,MAPSPRITE_SKELET,eas_Init
-				entity 9,4,RIGHT,MAPSPRITE_SKELETON,eas_Init
+				entity 10,5,RIGHT,MAPSPRITE_SKELETON,eas_Init
+				entity 9,4,RIGHT,MAPSPRITE_ORC,eas_Init
 				entity 9,6,RIGHT,MAPSPRITE_HARPY,eas_Init
                 entity 63,63,LEFT,MAPSPRITE_EFFECT3,eas_Init
                 dc.w $FFFF

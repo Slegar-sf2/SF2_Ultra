@@ -2062,16 +2062,16 @@ tbl_EnemyDefs:
                 unknownByte 81          ; 81: DARK BISHOP
                 spellPower ENHANCED
                 level    28
-                maxHp    64
+                maxHp    68
                 maxMp    70
                 baseAtt  35
                 baseDef  53
                 baseAgi  34
-                baseMov  5
+                baseMov  4
                 baseResistance WIND_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
-                baseProwess    CRITICAL150_1IN16|DOUBLE_1IN32|COUNTER_1IN32
+                baseProwess    CRITICAL_MAGIC_DRAIN|DOUBLE_1IN32|COUNTER_1IN32
                 items &
-                    INDRA_STAFF|EQUIPPED, &
+                    WISH_STAFF|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING

@@ -66,13 +66,13 @@ tbl_CustomBackgrounds:
                 background 42            ; 56: Battle
                 background 43            ; 57: Battle KING DAKU
                 background 44            ; 58: Battle DRAGONIA
-                background MOUNTAIN            ; 59: Battle Laser SF1
-                background 44            ; 60: Battle 
-                background 39            ; 61: Battle 
+                background MOUNTAIN      ; 59: Battle Laser SF1
+                background 29            ; 60: Battle 
+                background MOUNTAIN      ; 61: Battle перед кридом
                 background 45            ; 62: Battle 
                 background 46            ; 63: Battle
                 background TOWN          ; 64: Battle
                 background 47            ; 65: Battle подземелье перед битвой с кракеном 
-                background 45            ; 66: Battle 
+                background MOUNTAIN      ; 66: Battle 
                 background 46            ; 67: Battle
                 background TOWN          ; 68: Battle
