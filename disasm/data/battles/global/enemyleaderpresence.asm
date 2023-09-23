@@ -64,7 +64,7 @@ tbl_EnemyLeaderPresence:
 				dc.b 255                ; 56 DOMONGO
 				dc.b 255                ; 57 
 				dc.b 0                  ; 58 DRAGONIA
-				dc.b 255                ; 59 
+				dc.b 255                ; 59 MOST SF1
 				dc.b 0                  ; 60
 				dc.b 0                  ; 61 
 				dc.b 255                ; 62

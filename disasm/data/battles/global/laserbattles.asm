@@ -90,9 +90,9 @@ tbl_LaserEnemyFacingForBattle_VersusDava:
 				enemyFacing NONE
 				enemyFacing NONE
 tbl_LaserEnemyFacingForBattle_MostSF1:
-                enemyFacing LEFT
-                enemyFacing LEFT
                 enemyFacing NONE
+                enemyFacing LEFT
+                enemyFacing LEFT
                 enemyFacing NONE
                 enemyFacing NONE
                 enemyFacing NONE

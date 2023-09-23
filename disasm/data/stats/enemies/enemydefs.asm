@@ -2088,7 +2088,7 @@ tbl_EnemyDefs:
                 spellPower ENHANCED
                 level    36
                 maxHp    70
-                maxMp    39
+                maxMp    59
                 baseAtt  53
                 baseDef  57
                 baseAgi  31
@@ -2101,7 +2101,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    HEALIN|LV3, &
+                    HYPER_HEAL|LV4, &
                     SLOW|LV2, &
                     NOTHING, &
                     NOTHING
@@ -2361,7 +2361,7 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 93: PRISM FLOWER
                 spellPower ENHANCED
-                level    48
+                level    35
                 maxHp    77
                 maxMp    0
                 baseAtt  140
