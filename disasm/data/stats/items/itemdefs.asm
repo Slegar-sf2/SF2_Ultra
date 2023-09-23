@@ -1709,13 +1709,13 @@ tbl_ItemDefs:
                              NONE, 0, &
                              NONE, 0
                 
-                ; 153: 
+                ; 153: Bread
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
+                range        0, 3
+                price        950
+                itemType     CONSUMABLE
+                useSpell     HEAL|LV3
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0
