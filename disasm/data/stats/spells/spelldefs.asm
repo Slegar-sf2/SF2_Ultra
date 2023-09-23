@@ -494,7 +494,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK
                 range      1, 1
                 radius     0
-                power      70
+                power      60
                 
                 entry      DEMON        ; DEMON 1
                 mpCost     0
@@ -508,7 +508,7 @@ tbl_SpellDefs:
                 mpCost     0
                 animation  DEMON_BREATH|VARIATION2
                 properties TYPE_ATTACK
-                range      1, 3
+                range      1, 4
                 radius     2
                 power      40
                 
@@ -888,7 +888,7 @@ tbl_SpellDefs:
                 radius     1
                 power      41
                 
-                entry      DRAGON         ; KIWI 1
+                entry      DRAGON         ; DRAGON 1
                 mpCost     0
                 animation  FLAME_BREATH|VARIATION3
                 properties TYPE_ATTACK
@@ -896,7 +896,7 @@ tbl_SpellDefs:
                 radius     0
                 power      28
                 
-                entry      DRAGON|LV2     ; KIWI 2
+                entry      DRAGON|LV2     ; DRAGON 2
                 mpCost     0
                 animation  FLAME_BREATH|VARIATION3
                 properties TYPE_ATTACK
@@ -904,7 +904,7 @@ tbl_SpellDefs:
                 radius     0
                 power      36
                 
-                entry      DRAGON|LV3     ; KIWI 3
+                entry      DRAGON|LV3     ; DRAGON 3
                 mpCost     0
                 animation  FLAME_BREATH|VARIATION3
                 properties TYPE_ATTACK
@@ -912,7 +912,7 @@ tbl_SpellDefs:
                 radius     0
                 power      45
                 
-                entry      DRAGON|LV4     ; KIWI 4
+                entry      DRAGON|LV4     ; DRAGON 4
                 mpCost     0
                 animation  FLAME_BREATH|VARIATION3
                 properties TYPE_ATTACK
@@ -1177,7 +1177,31 @@ tbl_SpellDefs:
                 range      1, 3
                 radius     0
                 power      45
-                                             	
+                
+                entry      ICY_BREATH         ; ICY BREATH 1
+                mpCost     0
+                animation  SNOW_BREATH|VARIATION2
+                properties TYPE_ATTACK
+                range      1, 1
+                radius     0
+                power      25
+                
+                entry      ICY_BREATH|LV2     ; ICY BREATH 2
+                mpCost     0
+                animation  FREEZE|VARIATION4
+                properties TYPE_ATTACK
+                range      1, 1
+                radius     0
+                power      30
+                
+                entry      ICY_BREATH|LV3     ; ICY BREATH 3
+                mpCost     0
+                animation  SNOW_BREATH|VARIATION4
+                properties TYPE_ATTACK
+                range      1, 1
+                radius     0
+                power      35
+                                                             	
                 ; Fill out table with dummy entries
                 dcb.b (SPELLDEF_ENTRY_SIZE*252)-(*-tbl_SpellDefs),0
             endif				

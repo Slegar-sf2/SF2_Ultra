@@ -59,7 +59,7 @@ tbl_SpellElements:
                 spellElement FIRE       ; 50: FUOCO
                 spellElement NEUTRAL    ; 51: PYTHON
                 spellElement NEUTRAL    ; 52: BEAM
-                spellElement NEUTRAL    ; 53: 
+                spellElement ICE        ; 53: ICY BREATH
                 spellElement NEUTRAL    ; 54: 
                 spellElement NEUTRAL    ; 55: 
                 spellElement NEUTRAL    ; 56: 

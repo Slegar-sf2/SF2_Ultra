@@ -63,7 +63,7 @@ tbl_EnemyLeaderPresence:
 				dc.b 255                ; 55 DARKSOL
 				dc.b 255                ; 56 DOMONGO
 				dc.b 255                ; 57 
-				dc.b 255                ; 58
+				dc.b 0                  ; 58 DRAGONIA
 				dc.b 255                ; 59 
 				dc.b 0                  ; 60
 				dc.b 0                  ; 61 

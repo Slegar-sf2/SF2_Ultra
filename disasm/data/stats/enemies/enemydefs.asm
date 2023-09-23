@@ -3236,8 +3236,8 @@ tbl_EnemyDefs:
                     
                 unknownByte 0          ; 128: AZUMARILL
                 spellPower REGULAR
-                level    29
-                maxHp    75
+                level    34
+                maxHp    80
                 maxMp    0
                 baseAtt  75
                 baseDef  65
