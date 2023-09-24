@@ -2931,7 +2931,7 @@ VDPTILE_PALETTES_MASK: equ $6000
 
 ; enum Gold
 GOLD_STARTING_AMOUNT: equ $3C
-GOLD_GIFT: equ $64
+GOLD_GIFT: equ $5DC
 
 ; ---------------------------------------------------------------------------
 
