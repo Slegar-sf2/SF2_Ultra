@@ -92,12 +92,12 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 450                ; TAROS
                 dc.w 500                ; KING
                 dc.w 550                ; WILLARD
-                dc.w 900                ; ZALBARD
-                dc.w 950                ; CAMEELA
+                dc.w 1000               ; ZALBARD
+                dc.w 1050               ; CAMEELA
                 dc.w 500                ; PRISM FLOWER
-                dc.w 1500               ; RED BARON
-                dc.w 1700               ; GESHP
-                dc.w 2000               ; ODD EYE
+                dc.w 1900               ; RED BARON
+                dc.w 2500               ; GESHP
+                dc.w 3000               ; ODD EYE
                 dc.w 4500               ; GALAM
                 dc.w 8000               ; ZEON
                 dc.w 500                ; JAR
@@ -109,28 +109,28 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 360                ; WOLF
                 dc.w 1800               ; GEPPEL
                 dc.w 800                ; GORDON
-                dc.w 425                ; BAZOO
-                dc.w 600                ; FRABELL
-                dc.w 3000               ; DAVA
+                dc.w 525                ; BAZOO
+                dc.w 800                ; FRABELL
+                dc.w 6000               ; DAVA
                 dc.w 1010               ; DOLL
                 dc.w 55                 ; GALAM SOLDIER2
                 dc.w 100                ; EVIL_PIXY
                 dc.w 2500               ; BULLDOR
-                dc.w 2200               ; WARDERER
-                dc.w 1700               ; SOLO
+                dc.w 4000               ; WARDERER
+                dc.w 500                ; SOLO
                 dc.w 110                ; GOBLIN PUPIL
                 dc.w 150                ; Farfetch
                 dc.w 400                ; DARK PRIEST
                 dc.w 890                ; SORCERER
                 dc.w 7000               ; RUSEPHINE
-                dc.w 2300               ; DARKSOL
-                dc.w 2555               ; DOMINGO
+                dc.w 6600               ; DARKSOL
+                dc.w 3555               ; DOMINGO
                 dc.w 1150               ; BIRDMAN
                 dc.w 1240               ; SILVER DRAGON
-                dc.w 2000               ; KING DAKU
-                dc.w 400                ; GHOST
+                dc.w 5000               ; KING DAKU
+                dc.w 990                ; GHOST
                 dc.w 425                ; AZUMARILL
-                dc.w 1300               ; MASTER BISHOP
+                dc.w 1500               ; MASTER BISHOP
                 dc.w 0
                 dc.w 0
                 dc.w 0

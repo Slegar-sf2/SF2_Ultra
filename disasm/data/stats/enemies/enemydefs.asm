@@ -862,7 +862,7 @@ tbl_EnemyDefs:
                 unknownByte 33          ; 33: CHU_RAO
                 spellPower ENHANCED
                 level    70
-                maxHp    260
+                maxHp    280
                 maxMp    0
                 baseAtt  150
                 baseDef  126
@@ -2462,7 +2462,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 97: GALAM
                 spellPower ENHANCED
                 level    80
-                maxHp    400
+                maxHp    500
                 maxMp    0
                 baseAtt  110
                 baseDef  113
@@ -2812,7 +2812,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 111: DOLL
                 spellPower REGULAR
                 level    63
-                maxHp    170
+                maxHp    210
                 maxMp    50
                 baseAtt  147
                 baseDef  120
@@ -2912,7 +2912,7 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 115 WARDERER
                 spellPower ENHANCED
                 level    70
-                maxHp    370
+                maxHp    358
                 maxMp    64
                 baseAtt  130
                 baseDef  122
@@ -3087,7 +3087,7 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 122 DARKSOL
                 spellPower ENHANCED
                 level    70
-                maxHp    490
+                maxHp    520
                 maxMp    200
                 baseAtt  153
                 baseDef  130
@@ -3162,7 +3162,7 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 125: SILVER DRAGON
                 spellPower ENHANCED
                 level    66
-                maxHp    163
+                maxHp    184
                 maxMp    0
                 baseAtt  139
                 baseDef  112
@@ -3187,10 +3187,10 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 126: KING DAKU
                 spellPower ENHANCED
                 level    70
-                maxHp    280
-                maxMp    0
-                baseAtt  104
-                baseDef  125
+                maxHp    380
+                maxMp    68
+                baseAtt  128
+                baseDef  120
                 baseAgi  177
                 baseMov  4
                 baseResistance WIND_MINOR|LIGHTNING_MAJOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
@@ -3201,7 +3201,7 @@ tbl_EnemyDefs:
                     NOTHING, &
                     NOTHING
                 spells &
-                    ODDEYE, &
+                    RAIJIN|LV4, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -3211,27 +3211,27 @@ tbl_EnemyDefs:
                     
                 unknownByte 0          ; 127 Ghost
                 spellPower ENHANCED
-                level    34
-                maxHp    90
-                maxMp    32
-                baseAtt  66
-                baseDef  36
+                level    60
+                maxHp    205
+                maxMp    26
+                baseAtt  139
+                baseDef  90
                 baseAgi  39
                 baseMov  6
                 baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_MUDDLE|DOUBLE_1IN32|COUNTER_1IN16
                 items &
-                    SNOWFLAKE, &
-                    BOMB, &
-                    ATTACK_RING|EQUIPPED, &
+                    NOTHING, &
+                    NOTHING, &
+                    NOTHING, &
                     NOTHING
                 spells &
-                    DESOUL, &
-                    AURA|lV3, &
+                    DESOUL|LV2, &
+                    NOTHING, &
                     NOTHING, &
                     NOTHING
                 initialStatus NONE
-                moveType      FLYING
+                moveType      ROYAL
                 unknownWord   0
                     
                 unknownByte 0          ; 128: AZUMARILL
