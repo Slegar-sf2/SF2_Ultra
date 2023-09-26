@@ -1720,13 +1720,13 @@ tbl_ItemDefs:
                              NONE, 0, &
                              NONE, 0
                 
-                ; 154: 
+                ; 154: CR7
                 equipFlags   NONE
                 equipFlags2  NONE
-                range        0, 0
-                price        0
-                itemType     NONE
-                useSpell     NOTHING
+                range        1, 7
+                price        2000
+                itemType     CONSUMABLE
+                useSpell     PYTHON|LV3
                 equipEffects NONE, 0, &
                              NONE, 0, &
                              NONE, 0

@@ -8,5 +8,9 @@
                fbcFlag 786             ; 
                   fbcSource 0, 2
                   fbcSize   2, 1
-                  fbcDest   44, 10				  
+                  fbcDest   44, 10
+               fbcFlag 568             ; battle 68 completed
+                  fbcSource 2, 2
+                  fbcSize   1, 1
+                  fbcDest   23, 20				  
                 endWord

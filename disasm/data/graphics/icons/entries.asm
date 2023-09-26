@@ -156,7 +156,8 @@ Icon207:        incbin "data/graphics/icons/icon207.bin"
 Icon208:        incbin "data/graphics/icons/icon208.bin"
 Icon210:        incbin "data/graphics/icons/icon210.bin"
 Icon211:        incbin "data/graphics/icons/icon211.bin"
-              rept 102
+Icon212:        incbin "data/graphics/icons/icon212.bin"
+              rept 101
                 incbin "data/graphics/icons/icon145.bin"
               endr
             endif
