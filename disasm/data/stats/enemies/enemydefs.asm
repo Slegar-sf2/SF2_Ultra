@@ -762,7 +762,7 @@ tbl_EnemyDefs:
                 unknownByte 29          ; 29: SENTINEL
                 spellPower ENHANCED
                 level    49
-                maxHp    107
+                maxHp    127
                 maxMp    0
                 baseAtt  88
                 baseDef  95
@@ -787,7 +787,7 @@ tbl_EnemyDefs:
                 unknownByte 30          ; 30: MINOTAUR
                 spellPower ENHANCED
                 level    48
-                maxHp    104
+                maxHp    132
                 maxMp    0
                 baseAtt  71
                 baseDef  88
@@ -812,10 +812,10 @@ tbl_EnemyDefs:
                 unknownByte 31          ; 31: CYCLOPS
                 spellPower ENHANCED
                 level    53
-                maxHp    132
+                maxHp    138
                 maxMp    0
-                baseAtt  122
-                baseDef  102
+                baseAtt  124
+                baseDef  106
                 baseAgi  60
                 baseMov  4
                 baseResistance NONE
@@ -964,7 +964,7 @@ tbl_EnemyDefs:
                 level    55
                 maxHp    166
                 maxMp    0
-                baseAtt  125
+                baseAtt  130
                 baseDef  90
                 baseAgi  65
                 baseMov  4
@@ -1337,10 +1337,10 @@ tbl_EnemyDefs:
                 unknownByte 52          ; 52: DEMON
                 spellPower ENHANCED
                 level    57
-                maxHp    133
+                maxHp    193
                 maxMp    40
-                baseAtt  119
-                baseDef  99
+                baseAtt  121
+                baseDef  98
                 baseAgi  79
                 baseMov  7
                 baseResistance WIND_MINOR|LIGHTNING_MINOR|FIRE_MINOR|STATUS_MAJOR
@@ -1662,7 +1662,7 @@ tbl_EnemyDefs:
                 unknownByte 65          ; 65: DARK GUNNER
                 spellPower ENHANCED
                 level    54
-                maxHp    120
+                maxHp    140
                 maxMp    0
                 baseAtt  83
                 baseDef  95
@@ -1687,7 +1687,7 @@ tbl_EnemyDefs:
                 unknownByte 66          ; 66: DANTOM
                 spellPower ENHANCED
                 level    70
-                maxHp    276
+                maxHp    370
                 maxMp    0
                 baseAtt  123
                 baseDef  124
@@ -1697,7 +1697,7 @@ tbl_EnemyDefs:
                 baseProwess    CRITICAL_SILENCE|DOUBLE_1IN32|COUNTER_1IN4
                 items &
                     ACHILLES_SWORD|EQUIPPED, &
-                    NOTHING, &
+                    ELECTRO, &
                     NOTHING, &
                     NOTHING
                 spells &
@@ -1912,8 +1912,8 @@ tbl_EnemyDefs:
                 unknownByte 75          ; 75: DEMON MASTER
                 spellPower ENHANCED
                 level    59
-                maxHp    125
-                maxMp    94
+                maxHp    170
+                maxMp    250
                 baseAtt  81
                 baseDef  95
                 baseAgi  80
@@ -2162,7 +2162,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 85: DULAHAN
                 spellPower ENHANCED
                 level    59
-                maxHp    160
+                maxHp    200
                 maxMp    40
                 baseAtt  96
                 baseDef  104
@@ -2387,7 +2387,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 94: RED BARON
                 spellPower ENHANCED
                 level    58
-                maxHp    270
+                maxHp    300
                 maxMp    32
                 baseAtt  72
                 baseDef  110
@@ -2412,8 +2412,8 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 95: GESHP
                 spellPower ENHANCED
                 level    60
-                maxHp    300
-                maxMp    120
+                maxHp    366
+                maxMp    220
                 baseAtt  120
                 baseDef  100
                 baseAgi  190
@@ -2437,7 +2437,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 96: ODD EYE
                 spellPower ENHANCED
                 level    70
-                maxHp    390
+                maxHp    400
                 maxMp    0
                 baseAtt  104
                 baseDef  110
@@ -2587,11 +2587,11 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 102: MUTSUKI
                 spellPower ENHANCED
                 level    55
-                maxHp    149
+                maxHp    190
                 maxMp    40
-                baseAtt  77
-                baseDef  105
-                baseAgi  180
+                baseAtt  83
+                baseDef  85
+                baseAgi  80
                 baseMov  10
                 baseResistance WIND_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_SILENCE|DOUBLE_1IN4|COUNTER_1IN32
@@ -2687,7 +2687,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 106: GEPPEL
                 spellPower REGULAR
                 level    62
-                maxHp    280
+                maxHp    340
                 maxMp    0
                 baseAtt  100
                 baseDef  110

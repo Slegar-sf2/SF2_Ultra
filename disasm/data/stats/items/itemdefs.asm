@@ -480,9 +480,9 @@ tbl_ItemDefs:
                 equipFlags   GLDT|BRN|BDBT
                 equipFlags2  STAR|GLDD|RDBN
                 range        1, 1
-                price        9600
+                price        11000
                 itemType     WEAPON|RARE|BREAKABLE
-                useSpell     BLAZE|LV3
+                useSpell     FBALL|LV2
                 equipEffects INCREASE_ATT, 35, &
                              NONE, 0, &
                              NONE, 0
