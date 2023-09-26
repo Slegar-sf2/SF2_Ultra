@@ -2,7 +2,7 @@
 ; ASM FILE data\stats\allies\stats\allystats17.asm :
 ; 0x1EE628..0x1EE685 : Ally stats 17
 AllyStats17:    forClass  WITC   ; ANRI
-                hpGrowth  40, 80, LINEAR
+                hpGrowth  40, 90, LINEAR
                 mpGrowth  50, 100, EARLY
                 attGrowth 30, 70, LINEAR
                 defGrowth 31, 50, LINEAR

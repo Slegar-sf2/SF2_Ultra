@@ -21,7 +21,7 @@ AllyStats06:    forClass  MAGG ;NATASHA
                     51, BLAST|LV4
                     
                 forClass  WIZZ
-                hpGrowth  35, 110, LATE
+                hpGrowth  35, 93, LATE
                 mpGrowth  40, 95, LINEAR
                 attGrowth 24, 48, LINEAR
                 defGrowth 24, 62, LINEAR

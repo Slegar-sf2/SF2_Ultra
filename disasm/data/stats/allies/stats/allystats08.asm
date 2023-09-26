@@ -10,7 +10,7 @@ AllyStats08:    forClass  RNGR ;MAY
                 spellList 
                     
                 forClass  BWNT
-                hpGrowth  52, 113, LINEAR
+                hpGrowth  52, 133, LINEAR
                 mpGrowth  0, 0, NONE
                 attGrowth 47, 87, LINEAR
                 defGrowth 31, 77, LINEAR

@@ -11,9 +11,9 @@ AllyStats05:    forClass  THIF    ; SLADE
                     1,EGRESS
                     
                 forClass  NINJ
-                hpGrowth  48, 117, LATE
+                hpGrowth  48, 127, LATE
                 mpGrowth  0, 50, LINEAR
-                attGrowth 45, 87, LATE
+                attGrowth 45, 90, LATE
                 defGrowth 33, 80, LATE
                 agiGrowth 55, 90, LATE
                 spellList &

@@ -27,7 +27,7 @@ AllyStats01:    forClass  PRST
                 hpGrowth  52, 115, LINEAR
                 mpGrowth  24, 70, LINEAR
                 attGrowth 26, 56, LINEAR
-                defGrowth 25, 70, LINEAR
+                defGrowth 25, 60, LINEAR
                 agiGrowth 31, 61, MIDDLE
                 useFirstSpellList
                     
@@ -35,7 +35,7 @@ AllyStats01:    forClass  PRST
                 hpGrowth  52, 105, LINEAR
                 mpGrowth  24, 50, LINEAR
                 attGrowth 40, 80, LINEAR
-                defGrowth 25, 80, LATE
+                defGrowth 25, 70, LATE
                 agiGrowth 31, 61, MIDDLE
                 useFirstSpellList
                     

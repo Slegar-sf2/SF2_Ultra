@@ -10,7 +10,7 @@ AllyStats30:    forClass  ACHH ; SHADE
                 spellList 
                     
                 forClass  SNII
-                hpGrowth  44, 99, LATE
+                hpGrowth  44, 109, LATE
                 mpGrowth  0, 0, NONE
                 attGrowth 46, 100, LINEAR
                 defGrowth 26, 70, LINEAR

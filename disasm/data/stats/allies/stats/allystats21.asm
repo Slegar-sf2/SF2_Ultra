@@ -2,7 +2,7 @@
 ; ASM FILE data\stats\allies\stats\allystats21.asm :
 ; 0x1EE6DA..0x1EE6FB : Ally stats 21
 AllyStats21:    forClass  SORC ;TAYA
-                hpGrowth  55, 115, LINEAR
+                hpGrowth  55, 105, LINEAR
                 mpGrowth  35, 75, LINEAR
                 attGrowth 35, 59, EARLYANDLATE
                 defGrowth 30, 58, EARLY

@@ -2,8 +2,8 @@
 ; ASM FILE data\stats\allies\stats\allystats22.asm :
 ; 0x1EE6FB..0x1EE726 : Ally stats 22
 AllyStats22:    forClass  VICR ; FRAYA
-                hpGrowth  50, 103, LINEAR
-                mpGrowth  30, 70, LINEAR
+                hpGrowth  50, 83, LINEAR
+                mpGrowth  30, 90, LINEAR
                 attGrowth 35, 55, LINEAR
                 defGrowth 28, 56, LINEAR
                 agiGrowth 16, 44, LATE

@@ -10,7 +10,7 @@ AllyStats18:    forClass  ACHR ; JANET
                 spellList 
                     
                 forClass  SNIP
-                hpGrowth  44, 103, LATE
+                hpGrowth  44, 113, LATE
                 mpGrowth  0, 0, NONE
                 attGrowth 47, 89, LINEAR
                 defGrowth 35, 72, LINEAR
@@ -18,7 +18,7 @@ AllyStats18:    forClass  ACHR ; JANET
                 spellList
                 
                 forClass  BRGN
-                hpGrowth  44, 90, LINEAR
+                hpGrowth  44, 98, LINEAR
                 mpGrowth  0, 0, NONE
                 attGrowth 47, 81, LINEAR
                 defGrowth 35, 104, LINEAR

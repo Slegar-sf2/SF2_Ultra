@@ -10,7 +10,7 @@ AllyStats09:    forClass  WFMN ;GERHALT
                 spellList 
                     
                 forClass  WFBR
-                hpGrowth  41, 101, LINEAR
+                hpGrowth  41, 121, LINEAR
                 mpGrowth  0, 0, NONE
                 attGrowth 70, 123, LINEAR
                 defGrowth 43, 97, LINEAR
