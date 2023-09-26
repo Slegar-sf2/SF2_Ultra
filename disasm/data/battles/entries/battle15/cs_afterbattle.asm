@@ -81,6 +81,7 @@ abcs_battle15:  textCursor 2506
                 followEntity ALLY_PETER,ALLY_BOWIE,2
                 followEntity FOLLOWER_B,ALLY_PETER,2
                 warp MAP_ACHILLES_SHRINES,27,11,UP
+                setStoryFlag 66
                 csc_end
 ce_4AFB6:       mainEntity 14,5,DOWN
                 dc.w $FFFF

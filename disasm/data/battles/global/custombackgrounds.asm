@@ -70,9 +70,9 @@ tbl_CustomBackgrounds:
                 background 29            ; 60: Battle 
                 background MOUNTAIN      ; 61: Battle перед кридом
                 background 45            ; 62: Battle 
-                background 46            ; 63: Battle
+                background 46            ; 63: Battle футбольное поле
                 background TOWN          ; 64: Battle
                 background 47            ; 65: Battle подземелье перед битвой с кракеном 
-                background MOUNTAIN      ; 66: Battle 
+                background UNDERGROUND_SHRINE          ; 66: Battle в пещере где меч ахилеса
                 background 46            ; 67: Battle
                 background TOWN          ; 68: Battle
