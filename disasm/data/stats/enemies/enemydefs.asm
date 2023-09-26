@@ -3013,7 +3013,7 @@ tbl_EnemyDefs:
                 spellPower ENHANCED
                 level    56
                 maxHp    185
-                maxMp    120
+                maxMp    180
                 baseAtt  100
                 baseDef  86
                 baseAgi  77
@@ -3021,7 +3021,7 @@ tbl_EnemyDefs:
                 baseResistance WIND_MAJOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_MUDDLE|DOUBLE_1IN32|COUNTER_1IN16
                 items &
-                    INDRA_STAFF|EQUIPPED, &
+                    FREEZE_STAFF|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
@@ -3062,7 +3062,7 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 121 Rusephine
                 spellPower ENHANCED
                 level    70
-                maxHp    900
+                maxHp    1900
                 maxMp    0
                 baseAtt  135
                 baseDef  81

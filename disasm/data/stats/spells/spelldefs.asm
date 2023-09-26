@@ -984,7 +984,7 @@ tbl_SpellDefs:
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
                 range      1, 3
                 radius     1
-                power      38
+                power      45
                 
                 entry      BLACK_MAGIC           ; BLACK_MAGIC
                 mpCost     20
