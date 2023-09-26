@@ -7,6 +7,6 @@
                   fbcDest   56, 22
                fbcFlag 786             ; 
                   fbcSource 0, 2
-                  fbcSize   1, 1
+                  fbcSize   2, 1
                   fbcDest   44, 10				  
                 endWord
