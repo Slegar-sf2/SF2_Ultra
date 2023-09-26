@@ -4309,3 +4309,10 @@
 10D4=And there are many of them!{N}urgently prepare for battle.{W1}
 10D5=Is this the legendary{N}Shining Force ?{W1}
 10D6=Let's go!{W1}
+10D7=Traitor! You've betrayed King{N}Daku!{W1}
+10D8=I owe no allegiance to you or{N}him,foul fien that he is!{W1}
+10D9=You are only a mercenary. You{N}do what we pay you to do!{W1}
+10DA=Here, I return your gold. I{N}shall no longer follow your{N}orders toad!{W1}
+10DB=If you are not with us, then{N}you are against us!{W1}
+10DC=I will have the pleasure of{N}killing tou myself!{W1}
+10DD=Ha,ha! Thus fall all who{N}dare to oppose the will of{N}Darksol!{W1}
