@@ -19,7 +19,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 300                ; RAT
                 dc.w 390                ; CHIMERA
                 dc.w 360                ; SKELETON
-                dc.w 410                ; MINOTAURO
+                dc.w 400                ; DARK SOLDIER
                 dc.w 430                ; LIZARDMAN
                 dc.w 440                ; WORM
                 dc.w 500                ; DARK KNIGHT
@@ -63,7 +63,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 240                ; KRAKEN ARM
                 dc.w 290                ; ARROW LAUNCHER
                 dc.w 320                ; ROOK
-                dc.w 380                ; DARK SNIPER
+                dc.w 380                ; MINOTAURO
                 dc.w 550                ; ASSASSIN
                 dc.w 610                ; BOW RIDER
                 dc.w 680                ; DARK GUNNER

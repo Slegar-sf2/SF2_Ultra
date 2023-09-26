@@ -74,5 +74,5 @@ tbl_CustomBackgrounds:
                 background TOWN          ; 64: Battle
                 background 47            ; 65: Battle подземелье перед битвой с кракеном 
                 background UNDERGROUND_SHRINE          ; 66: Battle в пещере где меч ахилеса
-                background 46            ; 67: Battle
-                background TOWN          ; 68: Battle
+                background TOWN          ; 67: Battle
+                background CAVE          ; 68: Battle

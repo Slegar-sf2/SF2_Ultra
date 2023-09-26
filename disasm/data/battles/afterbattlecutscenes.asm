@@ -28,7 +28,7 @@ rpt_AfterBattleCutscenes:
                 dc.w (ms_Empty-rpt_AfterBattleCutscenes) & $FFFF
                 dc.w abcs_battle23-rpt_AfterBattleCutscenes
                 dc.w (ms_Empty-rpt_AfterBattleCutscenes) & $FFFF
-                dc.w (ms_Empty-rpt_AfterBattleCutscenes) & $FFFF
+                dc.w abcs_battle25-rpt_AfterBattleCutscenes
                 dc.w abcs_battle26-rpt_AfterBattleCutscenes
                 dc.w (ms_Empty-rpt_AfterBattleCutscenes) & $FFFF
                 dc.w abcs_battle28-rpt_AfterBattleCutscenes
