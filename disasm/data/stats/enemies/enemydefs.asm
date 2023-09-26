@@ -737,7 +737,7 @@ tbl_EnemyDefs:
                 unknownByte 28          ; 28: EXECUTIONER
                 spellPower ENHANCED
                 level    48
-                maxHp    102
+                maxHp    108
                 maxMp    0
                 baseAtt  88
                 baseDef  82
@@ -1637,7 +1637,7 @@ tbl_EnemyDefs:
                 unknownByte 64          ; 64: BOW RIDER
                 spellPower ENHANCED
                 level    45
-                maxHp    90
+                maxHp    120
                 maxMp    0
                 baseAtt  64
                 baseDef  80
@@ -1886,9 +1886,9 @@ tbl_EnemyDefs:
                     
                 unknownByte 74          ; 74: CHAOS WIZARD
                 spellPower ENHANCED
-                level    49
-                maxHp    100
-                maxMp    72
+                level    50
+                maxHp    115
+                maxMp    140
                 baseAtt  77
                 baseDef  74
                 baseAgi  68
@@ -2337,12 +2337,12 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 92: CAMEELA
                 spellPower ENHANCED
                 level    50
-                maxHp    230
+                maxHp    255
                 maxMp    0
-                baseAtt  72
+                baseAtt  77
                 baseDef  85
                 baseAgi  186
-                baseMov  5
+                baseMov  4
                 baseResistance WIND_MINOR|LIGHTNING_MINOR|ICE_MINOR|FIRE_MINOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN4|COUNTER_1IN4
                 items &
