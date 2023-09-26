@@ -462,7 +462,7 @@ tbl_EnemyDefs:
                 unknownByte 17          ; 17: SKELETON
                 spellPower ENHANCED
                 level    23
-                maxHp    51
+                maxHp    79
                 maxMp    0
                 baseAtt  41
                 baseDef  49
@@ -512,7 +512,7 @@ tbl_EnemyDefs:
                 unknownByte 19          ; 19: LIZARDMAN
                 spellPower ENHANCED
                 level    32
-                maxHp    60
+                maxHp    64
                 maxMp    0
                 baseAtt  54
                 baseDef  64
@@ -637,7 +637,7 @@ tbl_EnemyDefs:
                 unknownByte 24          ; 24: CERBERUS
                 spellPower ENHANCED
                 level    41
-                maxHp    79
+                maxHp    88
                 maxMp    0
                 baseAtt  95
                 baseDef  76
@@ -1213,7 +1213,7 @@ tbl_EnemyDefs:
                 spellPower ENHANCED
                 level    38
                 maxHp    88
-                maxMp    10
+                maxMp    0
                 baseAtt  59
                 baseDef  71
                 baseAgi  45
@@ -1612,7 +1612,7 @@ tbl_EnemyDefs:
                 unknownByte 63          ; 63: ASSASSIN
                 spellPower ENHANCED
                 level    42
-                maxHp    80
+                maxHp    96
                 maxMp    0
                 baseAtt  70
                 baseDef  80
@@ -1862,8 +1862,8 @@ tbl_EnemyDefs:
                 unknownByte 73          ; 73: NECROMANCER
                 spellPower ENHANCED
                 level    40
-                maxHp    79
-                maxMp    81
+                maxHp    83
+                maxMp    101
                 baseAtt  35
                 baseDef  62
                 baseAgi  51
@@ -2087,7 +2087,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 82: MASTER MONK
                 spellPower ENHANCED
                 level    36
-                maxHp    70
+                maxHp    84
                 maxMp    59
                 baseAtt  53
                 baseDef  57
@@ -2112,8 +2112,8 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 83: SHAMAN
                 spellPower ENHANCED
                 level    45
-                maxHp    99
-                maxMp    70
+                maxHp    90
+                maxMp    100
                 baseAtt  55
                 baseDef  68
                 baseAgi  40
@@ -2709,15 +2709,15 @@ tbl_EnemyDefs:
                 moveType      REGULAR
                 unknownWord   0
 				
-                unknownByte 0           ; 107: G0RDON
+                unknownByte 0           ; 107: GORDON
                 spellPower REGULAR
-                level    45
-                maxHp    150
-                maxMp    60
+                level    46
+                maxHp    200
+                maxMp    90
                 baseAtt  70
                 baseDef  82
                 baseAgi  169
-                baseMov  6
+                baseMov  5
                 baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_SLEEP|DOUBLE_1IN16|COUNTER_1IN16
                 items &
@@ -2937,8 +2937,8 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 116 SOLO
                 spellPower ENHANCED
                 level    24
-                maxHp    90
-                maxMp    96
+                maxHp    89
+                maxMp    19
                 baseAtt  58
                 baseDef  40
                 baseAgi  180
