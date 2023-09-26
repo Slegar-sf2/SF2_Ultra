@@ -260,6 +260,7 @@ abcs_battle18:  textCursor 2528
                 csWait 180
                 setF 65                 ; Caravan is unlocked
                 clearF 84               ; NICK is a follower
+                setStoryFlag 68         ; Battle 68 unlocked  
                 csc_end
 ce_4B6BE:       mainEntity 12,9,UP
                 entity 12,5,DOWN,MAPSPRITE_CARAVAN,eas_Init
