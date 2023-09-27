@@ -359,3 +359,12 @@ tbl_ShopInventories:
                               BOMB, &
                               MEDICAL_HERB, &
                               ARSON
+                ; SHOP_INDEX: 36  $24 map56 БАШНЯ
+                shopInventory HEALING_SEED, &
+                              HEALING_BERRIES, &
+                              HEALING_DROP, &
+                              BLIZZARD, &
+                              ELIXIR, &
+                              MAGIC_POWER, &
+                              SHINING_BALL, &
+                              MANA

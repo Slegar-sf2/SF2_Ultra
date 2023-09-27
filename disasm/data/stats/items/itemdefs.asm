@@ -205,7 +205,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        1000
+                price        1700
                 itemType     CONSUMABLE
                 useSpell     FBALL
                 equipEffects NONE, 0, &

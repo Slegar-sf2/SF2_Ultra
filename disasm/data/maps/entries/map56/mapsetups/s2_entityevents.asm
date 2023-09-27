@@ -6,6 +6,7 @@ ms_map56_EntityEvents:
             if (STANDARD_BUILD&CARAVAN_IN_TOWER=1)
                 msEntityEvent 129, LEFT, Map56_EntityEvent1-ms_map56_EntityEvents
             endif
+                msEntityEvent 130, DOWN, Map56_EntityEvent2-ms_map56_EntityEvents
                 msDefaultEntityEvent Map56_DefaultEntityEvent-ms_map56_EntityEvents
 
 ; =============== S U B R O U T I N E =======================================
@@ -29,6 +30,14 @@ Map56_EntityEvent1:
             if (STANDARD_BUILD&CARAVAN_IN_TOWER=1)
                 jmp     CaravanMenuActions
             endif
+; =============== S U B R O U T I N E =======================================
+				
+Map56_EntityEvent2:
+                
+                move.b  #$24,((CURRENT_SHOP_INDEX-$1000000)).w
+                jsr     j_ShopMenuActions
+                rts
+; =============== S U B R O U T I N E =======================================
 Map56_DefaultEntityEvent:
                 
                 rts
