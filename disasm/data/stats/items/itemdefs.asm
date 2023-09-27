@@ -1526,7 +1526,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        1050
+                price        1200
                 itemType     CONSUMABLE
                 useSpell     TORNADO
                 equipEffects NONE, 0, &
@@ -1603,7 +1603,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 1
-                price        700
+                price        1000
                 itemType     CONSUMABLE
                 useSpell     ICE|LV2
                 equipEffects NONE, 0, &
@@ -1702,7 +1702,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        490
+                price        900
                 itemType     CONSUMABLE
                 useSpell     BOLT
                 equipEffects NONE, 0, &

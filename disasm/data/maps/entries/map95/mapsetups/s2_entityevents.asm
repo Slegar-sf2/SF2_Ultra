@@ -28,7 +28,7 @@ Map95_EntityEvent1:
 
 Map95_EntityEvent2:
                 
-                move.b  #20,((CURRENT_SHOP_INDEX-$1000000)).w
+                move.b  #$23,((CURRENT_SHOP_INDEX-$1000000)).w
                 jsr     j_ShopMenuActions
                 rts
                 

@@ -285,6 +285,7 @@ tbl_ShopInventories:
                               HEALING_DROP, &
                               HEALING_BERRIES, &
                               ANTIDOTE, &
+                              MAGIC_POWER, &
                               FAIRY_POWDER, &
                               ANGEL_WING, &
                               ELIXIR, &
@@ -300,6 +301,7 @@ tbl_ShopInventories:
                               ANGEL_WING, &
                               BOMB, &
                               ELIXIR, &
+                              MAGIC_POWER, &
                               MANA
                 
                ; SHOP_INDEX: 29
@@ -318,6 +320,8 @@ tbl_ShopInventories:
                 ; SHOP_INDEX: 30  $1E GUARDIANA
                 shopInventory BLIZZARD, &
                               ARSON, &
+                              MEDICAL_HERB, &
+                              ELECTRO, &
                               HELMET
                               
 			
@@ -333,5 +337,25 @@ tbl_ShopInventories:
 							  
                 ; SHOP_INDEX: 33  $21 RINDO 3
                 shopInventory MANA, &
+                              HEALING_SEED, &
+                              HEALING_DROP, &
                               ELIXIR
-                              			  
+							  
+                ; SHOP_INDEX: 34  $22 map91
+                shopInventory HEALING_WATER, &
+                              HEALING_BERRIES, &
+                              HEALING_DROP, &
+                              STORM, &
+                              POKEMON, &
+                              BOMB, &
+                              BLIZZARD, &
+                              ELIXIR, &
+                              MAGIC_POWER, &
+                              MANA
+                ; SHOP_INDEX: 35  $23 DRAGONIA
+                shopInventory HEALING_SEED, &
+                              MANA, &
+                              ELECTRO, &
+                              BOMB, &
+                              MEDICAL_HERB, &
+                              ARSON
