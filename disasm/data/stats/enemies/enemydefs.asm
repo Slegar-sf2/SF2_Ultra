@@ -1040,7 +1040,7 @@ tbl_EnemyDefs:
                 maxHp    15
                 maxMp    4
                 baseAtt  15
-                baseDef  8
+                baseDef  9
                 baseAgi  8
                 baseMov  6
                 baseResistance NONE

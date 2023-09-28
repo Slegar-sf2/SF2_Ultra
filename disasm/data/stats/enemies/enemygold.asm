@@ -2,7 +2,7 @@
 ; ASM FILE data\stats\enemies\enemygold.asm :
 ; 0xBECC..0xC024 : Enemy gold amounts
 tbl_EnemyGold:  dc.w 15                 ; OOZE
-                dc.w 20                 ; HUGE RAT
+                dc.w 35                 ; HUGE RAT
                 dc.w 50                 ; GALAM SOLDIER
                 dc.w 70                 ; GALAM KNIGHT
                 dc.w 100                ; GOBLIN
@@ -41,7 +41,7 @@ tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 1000               ; PYROHYDRA
                 dc.w 1050               ; ZEON GUARD
                 dc.w 20                 ; GIZMO
-                dc.w 30                 ; HUGE BAT
+                dc.w 40                 ; HUGE BAT
                 dc.w 125                ; VAMPIRE BAT
                 dc.w 170                ; BELIAL
                 dc.w 250                ; GARGOYLE

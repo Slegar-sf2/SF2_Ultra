@@ -31,7 +31,7 @@ AllyStats00:
                     29, BOLT|LV2, &
 					15, EGRESS
                 forClass  HERO
-                hpGrowth  55, 107, LINEAR
+                hpGrowth  55, 118, LINEAR
                 mpGrowth  16, 37, EARLY
                 attGrowth 45, 95, LINEAR
                 defGrowth 35, 76, LINEAR

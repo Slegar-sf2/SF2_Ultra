@@ -7,6 +7,6 @@ tbl_ImmortalAllies:
                 dc.b ALLY_PETER
                 dc.b ALLY_LEMON
                 dc.b ALLY_BLEU
-                dc.b ALLY_CRAY
+                dc.b ALLY_MARILL
                 
                 tableEnd.b

@@ -18,7 +18,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 
                 mov 4                   ; 2: WARR
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 
@@ -28,7 +28,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 
                 mov 5                   ; 4: PRST
-                resistance WIND_MINOR|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_MINOR|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   HEALER
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN32
                 
@@ -88,7 +88,7 @@ tbl_ClassDefs:
                 prowess    CRITICAL125_1IN16|DOUBLE_1IN32|COUNTER_1IN16
                 
                 mov 4                   ; 16: WARU
-                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_WEAKNESS|NEUTRAL_NONE|STATUS_NONE
+                resistance WIND_NONE|LIGHTNING_NONE|ICE_NONE|FIRE_NONE|NEUTRAL_WEAKNESS|STATUS_NONE
                 moveType   REGULAR
                 prowess    CRITICAL150_1IN32|DOUBLE_1IN16|COUNTER_1IN16
                                                                                                     
