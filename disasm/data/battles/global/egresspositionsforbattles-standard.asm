@@ -15,5 +15,7 @@ tbl_EgressPositionsForBattles:
 				dc.b 46, 44
 				dc.b 54, 91
 				dc.b 55, 92
+				dc.b 6, 16
+				dc.b 64, 16
                 
                 tableEnd.b
