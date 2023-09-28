@@ -3,8 +3,8 @@
 ; 0xBECC..0xC024 : Enemy gold amounts
 tbl_EnemyGold:  dc.w 15                 ; OOZE
                 dc.w 35                 ; HUGE RAT
-                dc.w 50                 ; GALAM SOLDIER
-                dc.w 70                 ; GALAM KNIGHT
+                dc.w 60                 ; GALAM SOLDIER
+                dc.w 85                 ; GALAM KNIGHT
                 dc.w 100                ; GOBLIN
                 dc.w 150                ; Charmeleon
                 dc.w 130                ; DARK DWARF

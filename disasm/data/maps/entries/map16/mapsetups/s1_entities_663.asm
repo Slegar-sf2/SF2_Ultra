@@ -7,7 +7,7 @@ ms_map16_flag663_Entities:
                 msWalkingEntity 41, 36, LEFT, MAPSPRITE_SOLDIER1, 41, 36, 1
                 msFixedEntity 63, 63, DOWN, MAPSPRITE_PRIEST, eas_Init
                 msWalkingEntity 24, 27, LEFT, MAPSPRITE_MAN2, 24, 27, 2
-                msFixedEntity 45, 24, DOWN, MAPSPRITE_GALAM_SOLDIER, eas_Init
+                msFixedEntity 45, 24, DOWN, MAPSPRITE_MAN4, eas_Init
                 msWalkingEntity 33, 19, RIGHT, MAPSPRITE_MAN3, 33, 19, 1
                 msFixedEntity 39, 24, DOWN, MAPSPRITE_SAILOR, eas_Init
                 msWalkingEntity 42, 13, DOWN, MAPSPRITE_BOY, 42, 13, 1

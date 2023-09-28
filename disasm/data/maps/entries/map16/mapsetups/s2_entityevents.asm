@@ -74,7 +74,7 @@ Map16_297_EntityEvent4:
 Map16_297_EntityEvent5:
                 
                  
-                txt     847             ; "Are you tourists?{N}From Granseal!  They say{N}it's a nice place.{W1}"
+                jsr     j_ChurchMenuActions
                 rts
 
     ; End of function Map16_297_EntityEvent5

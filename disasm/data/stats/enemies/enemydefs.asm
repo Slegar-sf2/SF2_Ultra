@@ -89,7 +89,7 @@ tbl_EnemyDefs:
                 level    2
                 maxHp    18
                 maxMp    0
-                baseAtt  10
+                baseAtt  11
                 baseDef  12
                 baseAgi  8
                 baseMov  5

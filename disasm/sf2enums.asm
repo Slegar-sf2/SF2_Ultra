@@ -1960,7 +1960,7 @@ NOT_CURRENTLY_IN_BATTLE: equ $FF
 ; ---------------------------------------------------------------------------
 
 ; enum BattlesProperties
-BATTLES_MAX_NUMBER: equ $3F
+BATTLES_MAX_NUMBER: equ $46
 
 ; ---------------------------------------------------------------------------
 
