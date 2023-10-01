@@ -347,7 +347,7 @@ loc_2046C:
                 jsr     j_GetItemDefAddress
                 move.w  ITEMDEF_OFFSET_PRICE(a0),itemPrice(a6)
                 move.w  itemPrice(a6),d0
-                lsr.w   #2,d0
+                lsr.w   #1,d0
                 move.w  d0,itemPrice(a6)
                 move.w  member(a6),d0
                 jsr     j_GetCombatantEntryAddress

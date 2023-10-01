@@ -4,6 +4,6 @@
                 fbcFlag 446             ; Battle 46 unlocked           
                   fbcSource 63, 62
                   fbcSize   1, 2
-                  fbcDest   0, 57
+                  fbcDest   1, 57
  
                 endWord
