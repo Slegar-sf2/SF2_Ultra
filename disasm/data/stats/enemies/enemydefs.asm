@@ -137,7 +137,7 @@ tbl_EnemyDefs:
                 unknownByte 4           ; 4: GOBLIN
                 spellPower REGULAR
                 level    5
-                maxHp    20
+                maxHp    21
                 maxMp    0
                 baseAtt  20
                 baseDef  15
@@ -162,7 +162,7 @@ tbl_EnemyDefs:
                 unknownByte 5           ; 5: CHARMELEON
                 spellPower REGULAR
                 level    6
-                maxHp    24
+                maxHp    26
                 maxMp    27
                 baseAtt  27
                 baseDef  20
