@@ -1961,9 +1961,9 @@ tbl_EnemyDefs:
                     
                 unknownByte 77          ; 77: DEATH MONK
                 spellPower REGULAR
-                level    9
+                level    10
                 maxHp    45
-                maxMp    30
+                maxMp    40
                 baseAtt  8
                 baseDef  20
                 baseAgi  30
