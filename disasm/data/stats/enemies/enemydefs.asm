@@ -2861,7 +2861,7 @@ tbl_EnemyDefs:
 
                 unknownByte 0           ; 113: EVIL PIXY
                 spellPower REGULAR
-                level    6
+                level    8
                 maxHp    31
                 maxMp    24
                 baseAtt  21
@@ -2961,7 +2961,7 @@ tbl_EnemyDefs:
                     
                 unknownByte 0           ; 117: GOBLIN PUPIL
                 spellPower REGULAR
-                level    8
+                level    9
                 maxHp    33
                 maxMp    0
                 baseAtt  23
