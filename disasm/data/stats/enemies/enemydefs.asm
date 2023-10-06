@@ -1037,7 +1037,7 @@ tbl_EnemyDefs:
                 unknownByte 40          ; 40: HUGE BAT
                 spellPower REGULAR
                 level    1
-                maxHp    15
+                maxHp    17
                 maxMp    4
                 baseAtt  15
                 baseDef  9
