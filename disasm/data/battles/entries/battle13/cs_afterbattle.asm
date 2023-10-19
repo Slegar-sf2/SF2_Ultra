@@ -42,6 +42,7 @@ abcs_battle13:  textCursor 2495
                 warp MAP_POLCA,16,12,DOWN
 				setStoryFlag 14         ; Battle 14 unlocked
 				setStoryFlag 65         ; Battle 65 unlocked
+				setStoryFlag 15         ; Battle 15 unlocked - BATTLE_SHRINE_SOUTH_OF_RIBBLE
                 csc_end
 ce_4AD96:       mainEntity 16,12,DOWN
                 entity 16,13,DOWN,ALLY_LUKE,eas_Init

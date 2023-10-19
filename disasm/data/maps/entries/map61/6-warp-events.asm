@@ -5,7 +5,7 @@
                   warpNoScroll
                   warpMap    102
                   warpDest   27, 19
-                  warpFacing UP
+                  warpFacing DOWN
                 mWarp 5, 16
                   warpNoScroll
                   warpMap    MAP_OVERWORLD_PATH_TO_RIBBLE
