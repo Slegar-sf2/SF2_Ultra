@@ -32,5 +32,6 @@ SavepointMapCoordinates:
                 savePointMapCoords 91, 9, 5, UP
                 savePointMapCoords 92, 13, 12, RIGHT
                 savePointMapCoords 16, 45, 26, UP
-				
+                savePointMapCoords 95, 19, 58, UP
+                savePointMapCoords 96, 10, 16, DOWN				
                 tableEnd.b
