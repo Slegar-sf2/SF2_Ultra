@@ -39,8 +39,7 @@ abcs_battle21:  textCursor 2583
                 followEntity FOLLOWER_A,ALLY_BOWIE,2
                 followEntity ALLY_PETER,FOLLOWER_A,1
                 followEntity FOLLOWER_B,FOLLOWER_A,3
-                setStoryFlag 60 ; Battle 60 unlocked
-                setStoryFlag 61 ; Battle 61 unlocked
+                setFlg  460 ; Battle 60 unlocked
                 csc_end
 ce_4B948:       mainEntity 10,22,LEFT
                 entity 11,23,LEFT,ALLY_PETER,eas_Init

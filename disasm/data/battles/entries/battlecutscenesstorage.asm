@@ -26,6 +26,7 @@
                 include "data\battles\entries\battle20\cs_afterbattle.asm"    ; Cutscene after battle 20
                 include "data\battles\entries\battle21\cs_beforebattle.asm"    ; Cutscene before battle 21
                 include "data\battles\entries\battle21\cs_afterbattle.asm"    ; Cutscene after battle 21
+                include "data\battles\entries\battle60\cs_afterbattle.asm"    ; Cutscene after battle 60				
                 include "data\battles\entries\battle61\cs_beforebattle.asm"    ; Cutscene before battle 61
                 include "data\battles\entries\battle23\cs_afterbattle.asm"    ; Cutscene after battle 23
                 include "data\battles\entries\battle25\cs_afterbattle.asm"    ; Cutscene after battle 25
