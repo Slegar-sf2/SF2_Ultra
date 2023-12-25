@@ -1240,7 +1240,7 @@ tbl_ItemDefs:
                 equipFlags2  STAR
                 range        1, 2
                 price        11000
-                itemType     WEAPON|RARE|BREAKABLE
+                itemType     WEAPON|RARE|CURSED|BREAKABLE
                 useSpell     BOLT|LV2
                 equipEffects INCREASE_ATT, 25, &
                              INCREASE_DEF, 1, &
