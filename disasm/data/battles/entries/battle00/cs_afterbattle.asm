@@ -6,4 +6,5 @@ abcs_battle00:  textCursor 466
                 nextSingleText $FF,255  ; "Game over!{W1}"
                 hideText
                 warp 86,11,24,UP
+                setStoryFlag 65         ; Battle 65 unlocked
                 csc_end
