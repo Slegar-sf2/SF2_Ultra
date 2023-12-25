@@ -49,7 +49,7 @@ return_59C9C:
                 rts
 cs_StartSpecialBattle:
                 
-                setStoryFlag 44         ; Battle 44 unlocked - BATTLE_FAIRY_WOODS               
+                setStoryFlag 94         ; Battle 44 unlocked - BATTLE_FAIRY_WOODS  
                 warp MAP_SECRET_MONK_FOREST_BATTLEFIELD,1,24,LEFT
                 csc_end
 cs_LeaveSpecialBattle:

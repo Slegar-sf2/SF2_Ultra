@@ -9,8 +9,8 @@
                   fbcSource 0, 2
                   fbcSize   2, 1
                   fbcDest   44, 10
-               fbcFlag 568             ; battle 68 completed
+               fbcFlag 521             ; battle 21 completed
                   fbcSource 2, 2
                   fbcSize   1, 1
-                  fbcDest   23, 20				  
+                  fbcDest   23, 19				  
                 endWord
