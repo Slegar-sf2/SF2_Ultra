@@ -11,10 +11,10 @@ AllyStats12:    forClass  SWOR ; DEANNA
                     1, THUNDER, &
                     29, THUNDER|LV2, &
                     49, THUNDER|LV3
-                
+                55,THUNDER|LV4
                 forClass  STAR
                 hpGrowth  46, 130, LINEAR
-                mpGrowth  16, 36, EARLY
+                mpGrowth  16, 56, EARLY
                 attGrowth 47, 90, LINEAR
                 defGrowth 42, 93, LINEAR
                 agiGrowth 34, 62, EARLYANDLATE
