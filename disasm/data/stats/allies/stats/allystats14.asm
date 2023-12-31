@@ -4,7 +4,7 @@
 AllyStats14:    forClass  MOUS ; MARILL
                 hpGrowth  50, 109, LATE
                 mpGrowth  0, 0, NONE
-                attGrowth 70, 125, LINEAR
-                defGrowth 36, 73, EARLYANDLATE
-                agiGrowth 33, 49, LINEAR
+                attGrowth 70,175, LINEAR
+                defGrowth 36, 95, EARLYANDLATE
+                agiGrowth 33,55, LINEAR
                 spellList
