@@ -21,8 +21,9 @@ AllyStats01:    forClass  PRST
                     26, ATOM|LV3, &                    
                     45, ATOM|LV4, &
                     12, AURA, &
-                    28, AURA|LV2
-                    &29,AURA|LV3,& 30 AURA|LV4
+                    28, AURA|LV2, &
+                    29,AURA|LV3,&
+					30 AURA|LV4
                 forClass  VICR
                 hpGrowth  52, 115, LINEAR
                 mpGrowth  24, 70, LINEAR
