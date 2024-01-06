@@ -4,11 +4,14 @@
 AllyStats30:    forClass  ACHH ; SHADE
                 hpGrowth  8, 44, LATE
                 mpGrowth  0, 0, NONE
-                attGrowth 6, 46, LINEAR
-                defGrowth 5, 26, LATE
-                agiGrowth 6, 30, EARLY
+                attGrowth 6, 56, LINEAR
+                defGrowth 5, 36, LATE
+                agiGrowth 6, 36, EARLY
                 spellList 
-                    
+                  3,LV1 BEAM,&
+LV10 BEAM|LV2|,&
+LV20 BEAM|LV3|,&
+LV30 BEAM|LV4|
                 forClass  SNII
                 hpGrowth  44, 109, LATE
                 mpGrowth  0, 0, NONE
