@@ -437,7 +437,7 @@ tbl_EnemyDefs:
                 unknownByte 16          ; 16: CHIMERA
                 spellPower REGULAR
                 level    28
-                maxHp    52
+                maxHp    63
                 maxMp    0
                 baseAtt  69
                 baseDef  60
@@ -487,7 +487,7 @@ tbl_EnemyDefs:
                 unknownByte 18          ; 18: DARK SOLDIER
                 spellPower ENHANCED
                 level    31
-                maxHp    52
+                maxHp    62
                 maxMp    0
                 baseAtt  50
                 baseDef  66
@@ -587,7 +587,7 @@ tbl_EnemyDefs:
                 unknownByte 22          ; 22: LIZARD
                 spellPower ENHANCED
                 level    36
-                maxHp    89
+                maxHp    91
                 maxMp    48
                 baseAtt  62
                 baseDef  72
@@ -612,7 +612,7 @@ tbl_EnemyDefs:
                 unknownByte 23          ; 23: SKELET
                 spellPower ENHANCED
                 level    40
-                maxHp    81
+                maxHp    88
                 maxMp    0
                 baseAtt  76
                 baseDef  74
@@ -637,7 +637,7 @@ tbl_EnemyDefs:
                 unknownByte 24          ; 24: CERBERUS
                 spellPower ENHANCED
                 level    41
-                maxHp    88
+                maxHp    90
                 maxMp    0
                 baseAtt  95
                 baseDef  76
@@ -1137,7 +1137,7 @@ tbl_EnemyDefs:
                 unknownByte 44          ; 44: HARPY
                 spellPower REGULAR
                 level    23
-                maxHp    49
+                maxHp    55
                 maxMp    22
                 baseAtt  59
                 baseDef  48
