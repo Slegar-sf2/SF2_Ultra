@@ -11,7 +11,7 @@ AllyStats10:    forClass  BDMN ; luke
                     1, HYPER_HEAL, &
                     10,HYPER_HEAL|LV2|,&
                    20,HYPER_HEAL|LV3|,&
-                   30,HYPER_HEAL|LV4|
+                   30,HYPER_HEAL|LV4|,&
                    40,AQUA|LV2|
                     15, BLAST, &
                     22, BLAST|LV2, &                    
