@@ -2662,7 +2662,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 105: WOLF
                 spellPower REGULAR
                 level    22
-                maxHp    38
+                maxHp    36
                 maxMp    0
                 baseAtt  56
                 baseDef  46
