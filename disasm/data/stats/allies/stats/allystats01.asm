@@ -4,9 +4,9 @@
 AllyStats01:    forClass  PRST
                 hpGrowth  12, 52, LINEAR
                 mpGrowth  0, 45, EARLY
-                attGrowth 6, 26, LINEAR
-                defGrowth 4, 25, LINEAR
-                agiGrowth 5, 31, LINEAR
+                attGrowth 6, 46, LINEAR
+                defGrowth 4, 40, LINEAR
+                agiGrowth 5, 40, LINEAR
                 spellList &
                     2, HEAL, &
                     10, HEAL|LV2, &
