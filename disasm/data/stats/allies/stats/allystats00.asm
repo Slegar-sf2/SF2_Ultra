@@ -31,7 +31,11 @@ AllyStats00:
                     3,EGRESS,&
                     7,RAIJIN|LV2,&
                     14,RAIJIN|LV3,&
-                    25,RAIJIN|LV4
+                    25,RAIJIN|LV4,&
+                     2,ATOM,&
+                    10,ATOM|LV2,&
+                    15,ATOM|LV3,&
+                    20,ATOM|LV4
                     
                     
                     
