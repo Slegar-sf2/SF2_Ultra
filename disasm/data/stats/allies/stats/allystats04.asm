@@ -3,24 +3,24 @@
 ; 0x1EE3D1..0x1EE426 : Ally stats 04
 AllyStats04:    forClass  MAGE   ; KAZIN
                 hpGrowth  10, 59, LINEAR
-                mpGrowth  7, 32, EARLY
-                attGrowth 4, 18, LINEAR
-                defGrowth 4, 28, LINEAR
+                mpGrowth  7, 60, EARLY
+                attGrowth 4, 32, LINEAR
+                defGrowth 4, 40, LINEAR
                 agiGrowth 6, 40, LINEAR
                 spellList &
                     1, BLAZE, &
-                    6, BLAZE|LV2, &					
-                    36, BLAZE|LV3, &                             
-                    45, BLAZE|LV4, &
-                    10, RAIJIN, &
+                    5, BLAZE|LV2, &					
+                    10, BLAZE|LV3, &                             
+                    25, BLAZE|LV4, &
+                    7, RAIJIN, &
                     15, RAIJIN|LV2, &
                     29, RAIJIN|LV3, &
-                    50, RAIJIN|LV4, &
+                    35, RAIJIN|LV4, &
                     11, ICE, &
-                    21, ICE|LV2, &
+                    17, ICE|LV2, &
                     33, ICE|LV3, &
-                    53, ICE|LV4, &
-                    50, DISPEL
+                    40, ICE|LV4, &
+                    45, MUDDLE|LV3
                     
                 forClass  WIZ
                 hpGrowth  59, 109, LATE
