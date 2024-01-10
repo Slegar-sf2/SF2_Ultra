@@ -2,11 +2,11 @@
 ; ASM FILE data\stats\allies\stats\allystats01.asm :
 ; 0x1EE31C..0x1EE36B : Ally stats 30
 AllyStats30:    forClass  ACHH ; SHADE
-                hpGrowth  8, 44, LATE
+                hpGrowth  8, 54, EARLY
                 mpGrowth  0, 0, NONE
-                attGrowth 6, 46, LINEAR
-                defGrowth 5, 26, LATE
-                agiGrowth 6, 30, EARLY
+                attGrowth 6, 56, LINEAR
+                defGrowth 5, 46, EARLY
+                agiGrowth 6, 46, EARLY
                 spellList 
                     
                 forClass  SNII
