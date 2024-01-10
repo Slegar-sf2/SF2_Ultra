@@ -4,7 +4,7 @@
 AllyStats03:    forClass  WARR
                 hpGrowth  10, 32, EARLY
                 mpGrowth  0, 0, NONE
-                attGrowth 7, 48, LINEAR
+                attGrowth 9, 48, LINEAR
                 defGrowth 5, 49, LINEAR
                 agiGrowth 4, 20, LINEAR
                 spellList 
