@@ -27,8 +27,10 @@ AllyStats00:
                 defGrowth 4, 45, LINEAR
                 agiGrowth 4, 45, EARLY
                 spellList &
-                    1
-                    3,EGRESS
+                    1,RAIJIN,&
+                    3,EGRESS,&
+                    7,RAIJIN|LV2,&
+                    14,RAIJIN|LV3
                     
                     
                     
@@ -39,7 +41,7 @@ AllyStats00:
                     
 		    
                 forClass  HERO
-                hpGrowth  55, 118, LINEAR
+                hpGrowth  55, 195, LINEAR
                 mpGrowth  16, 95, EARLY
                 attGrowth 42, 95, LINEAR
                 defGrowth 35, 73, LINEAR
