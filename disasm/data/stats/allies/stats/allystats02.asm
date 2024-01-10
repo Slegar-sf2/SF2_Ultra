@@ -4,7 +4,7 @@
 AllyStats02:    forClass  KNTE ;CHESTER
                 hpGrowth  14, 50, LATE
                 mpGrowth  0, 0, NONE
-                attGrowth 6, 44, LINEAR
+                attGrowth 9, 44, LINEAR
                 defGrowth 5, 38, EARLYANDLATE
                 agiGrowth 7, 35, LINEAR
                 spellList 
