@@ -35,7 +35,7 @@ AllyStats00:
                     7, BOLT, &
                     17, BOLT|LV2, &
                     25,BOLT|LV3, &
-                    29,BOLT|LV4
+                    29,BOLT|LV4,&
 					3, EGRESS
                 forClass  HERO
                 hpGrowth  55, 118, LINEAR
