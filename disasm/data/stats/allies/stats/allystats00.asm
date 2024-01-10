@@ -33,10 +33,10 @@ AllyStats00:
                     15,ATOM|LV3,&
                     20,ATOM|LV4,&
                  
-                    7, BOLT, &
-                    17, BOLT|LV2, &
-                    25,BOLT|LV3, &
-                    29,BOLT|LV4,&
+                    7, ODDEYE, &
+                    17,ODDEYE|LV2, &
+                    
+                    
 		    
                 forClass  HERO
                 hpGrowth  55, 118, LINEAR
