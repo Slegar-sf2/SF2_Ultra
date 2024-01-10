@@ -3,25 +3,25 @@
 ; 0x1EE31C..0x1EE36B : Ally stats 01
 AllyStats01:    forClass  PRST
                 hpGrowth  12, 52, LINEAR
-                mpGrowth  0, 24, EARLY
-                attGrowth 6, 26, LINEAR
-                defGrowth 4, 25, LINEAR
-                agiGrowth 5, 31, LINEAR
+                mpGrowth  7, 65, EARLY
+                attGrowth 6, 50, LINEAR
+                defGrowth 4, 45, LINEAR
+                agiGrowth 5, 45, LINEAR
                 spellList &
-                    2, HEAL, &
-                    10, HEAL|LV2, &
-                    23, HEAL|LV3, &
-                    42, HEAL|LV4, &
+                    2, AURA, &
+                    10, AURA|LV2, &
+                    15, AURA|LV3, &
+                    20, AURA|LV4, &
                     4, DETOX, &
                     14, DETOX|LV2, &
                     34, DETOX|LV3, &
                     44, DETOX|LV4, &
-                    6, BLAST, &                                                           
-                    17, BLAST|LV2, &
-                    26, BLAST|LV3, &                    
-                    45, BLAST|LV4, &
-                    12, AURA, &
-                    28, AURA|LV2
+                    6, ATOM, &                                                           
+                    17, ATOM|LV2, &
+                    26, ATOM|LV3, &                    
+                    45, ATOM|LV4, &
+                    12, SLOW, &
+                    28, SLOW|LV2
                     
                 forClass  VICR
                 hpGrowth  52, 115, LINEAR
