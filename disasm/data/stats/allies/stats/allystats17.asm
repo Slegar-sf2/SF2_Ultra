@@ -11,16 +11,16 @@ AllyStats17:    forClass  WITC   ; ANRI
                      1, FREEZE, &
                     11, FREEZE|LV2, &
                     20, FREEZE|LV3, &
-                    50, FREEZE|LV4, &
+                    30, FREEZE|LV4, &
                     5, RAIJIN, &
                     15, RAIJIN|LV2, &
                     37, RAIJIN|LV3, &
-                    29, BEAM, &
-                    32, BEAM|LV2, &
+                    10, BEAM, &
+                    25, BEAM|LV2, &
                     23, APOLLO, &
                     35, APOLLO|LV2, &
                     33, SLEEP, &
-                    44, BEAM|LV3, &
+                    28, BEAM|LV3, &
                     45, APOLLO|LV3, &
-                    60, BEAM|LV4					
+                    35, BEAM|LV4					
                 
