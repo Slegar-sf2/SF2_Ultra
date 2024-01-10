@@ -3,13 +3,15 @@
 ; 0x1EE454..0x1EE476 : Ally stats 06
 AllyStats06:    forClass  MAGG ;NATASHA
                 hpGrowth  15, 35, LATE
-                mpGrowth  7, 40, EARLY
+                mpGrowth  7, 50, EARLY
                 attGrowth 4, 24, LINEAR
-                defGrowth 4, 24, LINEAR
+                defGrowth 4, 42, LINEAR
                 agiGrowth 6, 42, LINEAR
                 spellList &
                     1, FREEZE, &
                     9, FREEZE|LV2, &
+                    15,FREEZE|LV3,&
+                    20,FREEZE|LV4,&
                     11, BLAST, &
                     14, BOLT, &
                     18, BLAST|LV2, &
