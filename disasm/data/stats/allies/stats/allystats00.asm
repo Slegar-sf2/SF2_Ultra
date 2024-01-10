@@ -22,19 +22,17 @@ AllyStats00:
                 
                 forClass  SDMN           ; BOWIE
                 hpGrowth  12, 55, LINEAR
-                mpGrowth  4, 46, EARLY
+                mpGrowth  7, 46, EARLY
                 attGrowth 6, 60, LINEAR
                 defGrowth 4, 45, LINEAR
                 agiGrowth 4, 45, EARLY
                 spellList &
-                    2,ATOM,&
+                    1
                     3,EGRESS
-                    10,ATOM|LV2,&
-                    15,ATOM|LV3,&
-                    20,ATOM|LV4,&
-                    1,THUNDER,&
-                    7,THUNDER|LV2,&
-                    44,THUNDER|LV3
+                    
+                    
+                    
+                    
                     
 
                     
@@ -42,7 +40,7 @@ AllyStats00:
 		    
                 forClass  HERO
                 hpGrowth  55, 118, LINEAR
-                mpGrowth  16, 37, EARLY
+                mpGrowth  16, 95, EARLY
                 attGrowth 42, 95, LINEAR
                 defGrowth 35, 73, LINEAR
                 agiGrowth 22, 52, EARLYANDLATE
