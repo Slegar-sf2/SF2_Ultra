@@ -28,6 +28,8 @@ AllyStats00:
                 agiGrowth 4, 45, EARLY
                 spellList &
                     1,RAIJIN,&
+                    2,ODDEYE,&
+                     5,ODDEYE|LV2,&
                     3,EGRESS,&
                     7,RAIJIN|LV2,&
                     14,RAIJIN|LV3,&
