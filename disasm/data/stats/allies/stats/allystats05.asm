@@ -10,7 +10,7 @@ AllyStats05:    forClass  THIF    ; SLADE
                 spellList &
                     1,EGRESS,&
                     2,RIPSAW,&
-                    5,RIPSAW|LV2
+                    5,RIPSAW|LV2,&
                     15,RIPSAW|LV3,&
                     7, THUNDER,&
                     10, THUNDER|LV2,&
