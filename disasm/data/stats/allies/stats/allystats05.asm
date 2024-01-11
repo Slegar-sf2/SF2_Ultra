@@ -9,6 +9,9 @@ AllyStats05:    forClass  THIF    ; SLADE
                 agiGrowth 10, 55, LINEAR
                 spellList &
                     1,EGRESS,&
+                    2,RIPSAW,&
+                    5,RIPSAW|LV2
+                    15,RIPSAW|LV3,&
                     7, THUNDER,&
                     10, THUNDER|LV2,&
                     20, THUNDER|LV3
