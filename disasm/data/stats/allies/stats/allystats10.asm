@@ -15,6 +15,7 @@ AllyStats10:    forClass  BDMN ; luke
                     2, BLAST, &
                     10, BLAST|LV2, &                    
                     15, BLAST|LV3, &
+                    20,RIPSAW,&
                     25, BLAST|LV4
                     
                 forClass  BDBT
