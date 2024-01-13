@@ -4,7 +4,7 @@
 AllyStats05:    forClass  THIF    ; SLADE
                 hpGrowth  8, 48, LATE
                 mpGrowth  8, 36, EARLY
-                attGrowth 5, 45, LINEAR
+                attGrowth 5, 55, LINEAR
                 defGrowth 8, 50, LATE
                 agiGrowth 10, 55, LINEAR
                 spellList &
