@@ -18,5 +18,6 @@ AllyStats31:    forClass  GRDR   ; BLEU
                     32,DEMON|LV2,&
                     37,DEMON|LV3,&
                     2, THUNDER|LV2, &
-                    20, THUNDER|LV3
+                    20, THUNDER|LV3,&
+                    30,THUNDER|LV4
                     
