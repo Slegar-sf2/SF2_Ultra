@@ -724,24 +724,24 @@ tbl_SpellDefs:
                 mpCost     8
                 animation  ATLAS
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
-                range      1, 1
-                radius     0
+                range      1, 2
+                radius     3
                 power      20
                 
                 entry      ATLAS|LV2    ; ATLAS 2
                 mpCost     15
                 animation  ATLAS|VARIATION2
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
-                range      1, 1
-                radius     0
+                range      1, 2
+                radius     3
                 power      40
                 
                 entry      ATLAS|LV3    ; ATLAS 3
                 mpCost     30
                 animation  ATLAS|VARIATION2
                 properties TYPE_ATTACK|AFFECTEDBYSILENCE
-                range      1, 1
-                radius     0
+                range      1, 2
+                radius     3
                 power      70
 				
                 entry      POWDER       ; POWDER 1
