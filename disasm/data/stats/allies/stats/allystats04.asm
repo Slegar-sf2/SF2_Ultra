@@ -39,14 +39,16 @@ AllyStats04:    forClass  MAGE   ; KAZIN
                 spellList &
                     29, DAO, &
                     30, DAO|LV2, &
-                    47, DAO|LV3, &
+                    40, DAO|LV3, &
                     32, APOLLO, &                                        
-                    45, APOLLO|LV2, &
+                    41, APOLLO|LV2, &
                     52, APOLLO|LV3, &
                     33, NEPTUN, &
-                    48, NEPTUN|LV2, &
-                    49, NEPTUN|LV3,&
-                    34,
+                    38, NEPTUN|LV2, &
+                    42, NEPTUN|LV3,&
+                    34, ATLAS,&
+                    37,ATLAS|LV2,&
+                    39,ATLAS|LV3
 					
                     
                     
