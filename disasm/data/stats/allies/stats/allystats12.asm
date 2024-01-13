@@ -10,7 +10,8 @@ AllyStats12:    forClass  SWOR ; DEANNA
                 spellList &                    
                     1, THUNDER, &
                     10, THUNDER|LV2, &
-                    25, THUNDER|LV3
+                    25, THUNDER|LV3,&
+                   30,THUNDER|LV4
                 
                 forClass  STAR
                 hpGrowth  46, 130, LINEAR
