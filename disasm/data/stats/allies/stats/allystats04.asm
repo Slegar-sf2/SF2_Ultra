@@ -38,14 +38,15 @@ AllyStats04:    forClass  MAGE   ; KAZIN
                 agiGrowth 40, 70, EARLYANDLATE
                 spellList &
                     29, DAO, &
-                    42, DAO|LV2, &
+                    30, DAO|LV2, &
                     47, DAO|LV3, &
-                    34, APOLLO, &                                        
+                    32, APOLLO, &                                        
                     45, APOLLO|LV2, &
                     52, APOLLO|LV3, &
-                    37, NEPTUN, &
+                    33, NEPTUN, &
                     48, NEPTUN|LV2, &
-                    49, NEPTUN|LV3
+                    49, NEPTUN|LV3,&
+                    34,
 					
                     
                     
