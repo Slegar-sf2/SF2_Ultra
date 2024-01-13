@@ -14,7 +14,8 @@ AllyStats05:    forClass  THIF    ; SLADE
                     15,RIPSAW|LV3,&
                     7, THUNDER,&
                     10, THUNDER|LV2,&
-                    20, THUNDER|LV3
+                    20, THUNDER|LV3,&
+                    25,THUNDER|LV4
                     
                 forClass  NINJ
                 hpGrowth  48, 127, LATE
