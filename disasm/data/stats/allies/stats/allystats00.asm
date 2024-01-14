@@ -50,8 +50,8 @@ AllyStats00:
                 forClass  HERO
                 hpGrowth  55, 195, LINEAR
                 mpGrowth  16, 95, EARLY
-                attGrowth 42, 95, LINEAR
-                defGrowth 35, 73, LINEAR
-                agiGrowth 22, 52, EARLYANDLATE
+                attGrowth 42, 195, LINEAR
+                defGrowth 35, 173, LINEAR
+                agiGrowth 22, 152, EARLYANDLATE
                 useFirstSpellList
                 
