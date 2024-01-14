@@ -8,10 +8,10 @@ AllyStats10:    forClass  BDMN ; luke
                 defGrowth 6, 50, LINEAR
                 agiGrowth 7, 50, LINEAR
                 spellList &
-                    1, HYPER_HEAL, &
-                    5,HYPER_HEAL|LV2,&
-                    20,HYPER_HEAL|LV3,&
-                    27,HYPER_HEAL|LV4,&
+                    1, HEALIN, &
+                    5,HEALIN|LV2,&
+                    20,HEALIN|LV3,&
+                    27,HEALIN|LV4,&
                     3,TORNADO,&
                     18,TORNADO|LV2,&
                     2, BLAST, &
@@ -23,8 +23,8 @@ AllyStats10:    forClass  BDMN ; luke
                     25, BLAST|LV4
                     
                 forClass  BDBT
-                hpGrowth  48, 150, LATE
-                mpGrowth  6, 75, EARLY
+                hpGrowth  48, 150, LINEAR
+                mpGrowth  6, 175, EARLY
                 attGrowth 44, 84, LINEAR
                 defGrowth 35, 70, LINEAR
                 agiGrowth 50, 87, LINEAR
