@@ -1673,10 +1673,10 @@ tbl_ItemDefs:
                 price        3500
                 itemType     RING|RARE
                 useSpell     MUDDLE|LV3
-                equipEffects INCREASE_MOV,2 , &
-                             INCREASE_DEF,5 , &
-                             INCREASE_AGI,5,&
-                             REGAIN_MP
+                equipEffects INCREASE_MOV,2,&
+                             INCREASE_DEF,15,&
+                             INCREASE_AGI,15,&
+                             REGAIN_MP,30
                 
                 ; 150: EGG
                 equipFlags   PHNK|PHNX
