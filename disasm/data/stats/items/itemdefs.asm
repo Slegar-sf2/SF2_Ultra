@@ -1648,8 +1648,8 @@ tbl_ItemDefs:
                 equipFlags   SDMN|HERO|SWOR
                 equipFlags2  STAR
                 range        1, 1
-                price        15000
-                itemType     WEAPON|RARE|BREAKABLE
+                price        150
+                itemType     WEAPON|RARE
                 useSpell     FUOCO
                 equipEffects INCREASE_ATT, 26, &
                              DECREASE_MOV, 2, &
