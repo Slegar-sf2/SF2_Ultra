@@ -701,7 +701,7 @@ tbl_ItemDefs:
                 equipFlags2  GLDD|HERR
                 range        1, 1
                 price        1550
-                itemType     WEAPON|RARE|CURSED
+                itemType     WEAPON|RARE
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 20, &
                              INCREASE_DEF, 2, &
@@ -1240,7 +1240,7 @@ tbl_ItemDefs:
                 equipFlags2  STAR
                 range        1, 2
                 price        11000
-                itemType     WEAPON|RARE|CURSED|BREAKABLE
+                itemType     WEAPON|RARE|BREAKABLE
                 useSpell     BOLT|LV2
                 equipEffects INCREASE_ATT, 25, &
                              INCREASE_DEF, 1, &
@@ -1336,7 +1336,7 @@ tbl_ItemDefs:
                 
                 ; 119: Warrior Pride
                 equipFlags   WARR|GLDT|BRN|WARU
-                equipFlags2  GLDD|RDBN
+                equipFlags2  GLDD|RDBN|
                 range        0, 0
                 price        1000
                 itemType     RING|RARE
