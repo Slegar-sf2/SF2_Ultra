@@ -9,6 +9,7 @@ tbl_ShopInventories:
                 
                 ; Weapon shop 0
                 shopInventory SHORT_SWORD, &
+                              BRONZE SWORD,&
                               SHORT_SPEAR, &
                               SHORT_AXE, &
                               WOODEN_ROD, &
