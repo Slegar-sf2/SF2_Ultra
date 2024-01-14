@@ -9,14 +9,15 @@ AllyStats05:    forClass  THIF    ; SLADE
                 agiGrowth 10, 55, LINEAR
                 spellList &
                     1,EGRESS,&
-                    
-                    
                     3,BLACK_MAGIC,&
-                    15,BLACK_MAGIC|LV2
-                    7, THUNDER,&
-                    10, THUNDER|LV2,&
-                    20, THUNDER|LV3,&
-                    25,THUNDER|LV4
+                   15,BLACK_MAGIC|LV2,&
+                    7,THUNDER,&
+                   10,THUNDER|LV2,&
+                   20,THUNDER|LV3,&
+                   25,THUNDER|LV4
+                   
+                    
+                    
                     
                 forClass  NINJ
                 hpGrowth  48, 127, LATE
