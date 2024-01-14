@@ -1341,9 +1341,9 @@ tbl_ItemDefs:
                 price        1000
                 itemType     RING|RARE
                 useSpell     NOTHING
-                equipEffects INCREASE_ATT, 2, &
-                             INCREASE_DEF, 2, &
-                             INCREASE_MOV, 1
+                equipEffects INCREASE_ATT, 10, &
+                             INCREASE_DEF, 10, &
+                             INCREASE_MOV, 2
                 
                 ; 120: Silver Tank
                 equipFlags   BRGN
@@ -1364,7 +1364,7 @@ tbl_ItemDefs:
                 itemType     RING|RARE|BREAKABLE
                 useSpell     BOOST|LV2
                 equipEffects INCREASE_DEF, 3, &
-                             INCREASE_MOV, 1, &
+                             INCREASE_MOV, 2, &
                              NONE, 0
                 
                 ; 122: Vigor Ball
@@ -1373,9 +1373,9 @@ tbl_ItemDefs:
                 range        0, 0
                 price        7450
                 itemType     RING|RARE|BREAKABLE
-                useSpell     THUNDER|LV3
+                useSpell     THUNDER|LV4
                 equipEffects INCREASE_AGI, 10, &
-                             NONE, 0, &
+                             INCREASE_MOV, 2, &
                              NONE, 0
                 
                 ; 123: Mithril
@@ -1418,9 +1418,9 @@ tbl_ItemDefs:
                 price        550
                 itemType     RING|RARE
                 useSpell     NOTHING
-                equipEffects INCREASE_MOV, 1, &
-                             INCREASE_DEF, 1, &
-                             INCREASE_ATT, 1
+                equipEffects INCREASE_MOV, 2, &
+                             INCREASE_DEF, 2, &
+                             INCREASE_ATT, 2
                 
                 ; 127: Empty
                 equipFlags   NONE
@@ -1567,7 +1567,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 140: VICR RING
-                equipFlags   PRST|VICR
+                equipFlags   PRST|VICR|MMNK
                 equipFlags2  NONE
                 range        0, 0
                 price        755
@@ -1575,7 +1575,8 @@ tbl_ItemDefs:
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 1, &
                              INCREASE_DEF, 2, &
-                             NONE, 0
+                             INCREASE_MOV, 2,&
+                             REGAIN_MP,15
                 
                 ; 141: ATTACK_RING
                 equipFlags   SDMN|HERO|KNTE|WARR|BDMN|WFMN|PHNK|THIF|PLDN|PHNX|BDBT|GLDT|BRN|SWOR|KENT
@@ -1671,10 +1672,11 @@ tbl_ItemDefs:
                 range        0, 0
                 price        3500
                 itemType     RING|RARE
-                useSpell     NOTHING
-                equipEffects INCREASE_MOV, 1, &
-                             INCREASE_DEF, 5, &
-                             INCREASE_AGI, 15
+                useSpell     MUDDLE|LV3
+                equipEffects INCREASE_MOV,2 , &
+                             INCREASE_DEF,15 , &
+                             INCREASE_AGI, 15,&
+                             REGAIN_MP,30
                 
                 ; 150: EGG
                 equipFlags   PHNK|PHNX
