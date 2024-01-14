@@ -1335,8 +1335,8 @@ tbl_ItemDefs:
                              INCREASE_AGI, 5
                 
                 ; 119: Warrior Pride
-                equipFlags   WARR|GLDT|BRN|WARU
-                equipFlags2  GLDD|RDBN|
+                equipFlags   WARR|GLDT|BRN|WARU|SWOR
+                equipFlags2  GLDD|RDBN|STAR
                 range        0, 0
                 price        1000
                 itemType     RING|RARE
