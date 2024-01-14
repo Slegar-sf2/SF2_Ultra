@@ -250,11 +250,11 @@ tbl_ItemDefs:
                 equipFlags2  ALL
                 range        0, 0
                 price        3000
-                itemType     RING|RARE|BREAKABLE
-                useSpell     BOOST
+                itemType     RING|RARE
+                useSpell     BOOST|LV2
                 equipEffects INCREASE_DEF, 5, &
-                             NONE, 0, &
-                             NONE, 0
+                             INCREASE_AGI, 15, &
+                             INCREASE_MOV, 2
                 
                 ; 21: Quick Ring
                 equipFlags   PHNK|PHNX|WARR|GLDT|BRN
