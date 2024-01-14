@@ -412,33 +412,33 @@ tbl_SpellDefs:
                 mpCost     5
                 animation  HEALING_FAIRY
                 properties TYPE_HEAL|TARGET_TEAMMATES
-                range      0, 1
-                radius     0
-                power      15
+                range      0, 3
+                radius     1
+                power      30
                 
                 entry      HEALIN|LV2   ; HEALIN 2
                 mpCost     10
                 animation  HEALING_FAIRY|VARIATION2
                 properties TYPE_HEAL|TARGET_TEAMMATES
-                range      0, 1
-                radius     0
-                power      30
+                range      0, 3
+                radius     2
+                power      60
                 
                 entry      HEALIN|LV3   ; HEALIN 3
                 mpCost     15
                 animation  HEALING_FAIRY|VARIATION3
                 properties TYPE_HEAL|TARGET_TEAMMATES
-                range      0, 1
-                radius     0
-                power      50
+                range      0, 3
+                radius     2
+                power      80
 				
                 entry      HEALIN|LV4   ; HEALIN 4
                 mpCost     25
                 animation  HEALING_FAIRY|VARIATION4
                 properties TYPE_HEAL|TARGET_TEAMMATES
-                range      0, 1
-                radius     1
-                power      50
+                range      0, 3
+                radius     2
+                power      150
                 
                 entry      FLAME        ; FLAME 1
                 mpCost     0
