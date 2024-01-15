@@ -1652,7 +1652,7 @@ tbl_ItemDefs:
                 itemType     WEAPON|RARE
                 useSpell     FUOCO
                 equipEffects INCREASE_ATT, 26, &
-                             DECREASE_MOV, 2, &
+                             INCREASE_MOV, 2, &
                              DECREASE_AGI, 10
                                 
                 ; 148: MAGIC POWER 
