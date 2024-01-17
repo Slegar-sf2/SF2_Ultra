@@ -3,7 +3,7 @@
 ; 0x1EE628..0x1EE685 : Ally stats 17
 AllyStats17:    forClass  WITC   ; ANRI
                 hpGrowth  40, 190, LINEAR
-                mpGrowth  50, 300, EARLY
+                mpGrowth  50, 200, EARLY
                 attGrowth 30, 170, LINEAR
                 defGrowth 31, 150, LINEAR
                 agiGrowth 33, 145, LINEAR
