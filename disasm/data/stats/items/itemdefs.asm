@@ -770,8 +770,8 @@ tbl_ItemDefs:
                 itemType     WEAPON|RARE|UNSELLABLE
                 useSpell     PYTHON|LV3
                 equipEffects INCREASE_ATT, 60, &
-                             NONE, 0, &
-                             NONE, 0
+                             INCREASE_MOV, 2, &
+                            INCREASE_DEF, 20
                 
                 ; 68: Counter Sword
                 equipFlags   HERO|BRN|BDBT
