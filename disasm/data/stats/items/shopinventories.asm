@@ -180,7 +180,9 @@ tbl_ShopInventories:
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               ANTIDOTE, &
-                              ANGEL_WING
+                              ANGEL_ WING, &
+                             CHIRRUP_SANDLES
+                              
                 
                 ; SHOP_INDEX: 16
                 shopInventory MEDICAL_HERB, &
