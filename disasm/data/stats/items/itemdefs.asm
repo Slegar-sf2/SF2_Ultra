@@ -161,7 +161,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        1500
+                price        15
                 itemType     CONSUMABLE
                 useSpell     IDATEN
                 equipEffects NONE, 0, &
@@ -194,7 +194,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        800
+                price        50
                 itemType     CONSUMABLE
                 useSpell     BRAVE
                 equipEffects NONE, 0, &
