@@ -181,20 +181,24 @@ tbl_ShopInventories:
                               HEALING_SEED, &
                               ANTIDOTE, &
                               ANGEL_ WING, &
-                             CHIRRUP_SANDLES
+                              LIFE_RING,&
+                              BRAVE_APPLE
                               
                 
                 ; SHOP_INDEX: 16
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               ANTIDOTE, &
-                              ANGEL_WING
+                              ANGEL_WING,&
+                              LIFE_RING,&
+                             BRAVE_APPLE
                 
                 ; SHOP_INDEX: 17
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               ANTIDOTE, &
-                              ANGEL_WING
+                              ANGEL_WING,&
+                              BRAVE_APPLE
                 
                 ; SHOP_INDEX: 18 ; МЕЙ 
                 shopInventory MANA, &
@@ -203,7 +207,8 @@ tbl_ShopInventories:
                               HEALING_DROP, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
-                              ANGEL_WING
+                              ANGEL_WING,&
+                              BRAVE_APPLE
                 
                 ; SHOP_INDEX: 19
                 shopInventory MANA, &
@@ -213,7 +218,8 @@ tbl_ShopInventories:
                               HEALING_BERRIES, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
-                              ANGEL_WING
+                              ANGEL_WING,&
+                              BRAVE_APPLE
                 
                 ; SHOP_INDEX: 20
                 shopInventory MEDICAL_HERB, &
