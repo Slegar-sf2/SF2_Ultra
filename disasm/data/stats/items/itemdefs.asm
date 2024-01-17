@@ -1396,9 +1396,10 @@ tbl_ItemDefs:
                 price        5000
                 itemType     RING|RARE
                 useSpell     NOTHING
-                equipEffects UNDEFINED1, 5, &
-                             NONE, 0, &
-                             NONE, 0
+                equipEffects UNDEFINED1, 15, &
+                             INCREASE_ATT,10, &
+                             INCREASE_DEF, 10,&
+                             INCREASE_MOV,2
                 
                 ; 125: Cotton Balloon
                 equipFlags   NONE
