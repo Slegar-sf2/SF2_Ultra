@@ -182,7 +182,8 @@ tbl_ShopInventories:
                               ANTIDOTE, &
                               ANGEL_ WING, &
                               LIFE_RING,&
-                              BRAVE_APPLE
+                              BRAVE_APPLE,&
+                             RUNNING_PIMENTO
                               
                 
                 ; SHOP_INDEX: 16
@@ -191,14 +192,16 @@ tbl_ShopInventories:
                               ANTIDOTE, &
                               ANGEL_WING,&
                               LIFE_RING,&
-                             BRAVE_APPLE
+                             BRAVE_APPLE,&
+                             RUNNING_PIMENTO
                 
                 ; SHOP_INDEX: 17
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               ANTIDOTE, &
                               ANGEL_WING,&
-                              BRAVE_APPLE
+                              BRAVE_APPLE,&
+                              RUNNING_PIMENTO
                 
                 ; SHOP_INDEX: 18 ; МЕЙ 
                 shopInventory MANA, &
@@ -219,7 +222,8 @@ tbl_ShopInventories:
                               ANTIDOTE, &
                               FAIRY_POWDER, &
                               ANGEL_WING,&
-                              BRAVE_APPLE
+                              BRAVE_APPLE,&
+                              RUNNING_PIMENTO
                 
                 ; SHOP_INDEX: 20
                 shopInventory MEDICAL_HERB, &
