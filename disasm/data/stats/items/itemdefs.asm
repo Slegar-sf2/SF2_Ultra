@@ -768,8 +768,8 @@ tbl_ItemDefs:
                 range        1, 1
                 price        10000
                 itemType     WEAPON|RARE|UNSELLABLE
-                useSpell     NOTHING
-                equipEffects INCREASE_ATT, 46, &
+                useSpell     PYTHON|LV3
+                equipEffects INCREASE_ATT, 60, &
                              NONE, 0, &
                              NONE, 0
                 
@@ -800,10 +800,10 @@ tbl_ItemDefs:
                 equipFlags2  STAR|NINJ|RDBN
                 range        1, 1
                 price        16000
-                itemType     WEAPON|RARE|CURSED|BREAKABLE
+                itemType     WEAPON|RARE
                 useSpell     TORNADO
                 equipEffects INCREASE_ATT, 50, &
-                             DECREASE_DEF, 5, &
+                             INCREASE_DEF, 5, &
                              NONE, 0
                 
                 ; 71: Wooden Sword
@@ -1240,9 +1240,9 @@ tbl_ItemDefs:
                 equipFlags2  STAR
                 range        1, 2
                 price        11000
-                itemType     WEAPON|RARE|BREAKABLE
+                itemType     WEAPON|RARE
                 useSpell     BOLT|LV2
-                equipEffects INCREASE_ATT, 25, &
+                equipEffects INCREASE_ATT, 30, &
                              INCREASE_DEF, 1, &
                              NONE, 0
                 
@@ -1695,8 +1695,8 @@ tbl_ItemDefs:
                 equipFlags2  WIZZ|WITC
                 range        1, 1
                 price        5500
-                itemType     WEAPON|BREAKABLE
-                useSpell     RAIJIN|LV2
+                itemType     WEAPON
+                useSpell     PYTHON|LV3
                 equipEffects INCREASE_ATT, 20, &
                              NONE, 0, &
                              NONE, 0
