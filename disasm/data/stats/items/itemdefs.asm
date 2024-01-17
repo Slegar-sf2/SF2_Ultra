@@ -1393,7 +1393,7 @@ tbl_ItemDefs:
                 equipFlags   HERO|PLDN|PGNT|GLDT|BRN|WIZ|SORC|VICR|MMNK|SNIP|BRGN|BDBT|WFBR|BWNT|PHNX|SWOR|ACHH
                 equipFlags2  STAR|MONK|BRSK|SNII|NINJ|MNST|RBT|RDBN|WITC
                 range        0, 0
-                price        5000
+                price        500
                 itemType     RING|RARE
                 useSpell     NOTHING
                 equipEffects UNDEFINED1, 15, &
@@ -1587,7 +1587,7 @@ tbl_ItemDefs:
                 itemType     RING|RARE
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 10, &
-                             DECREASE_DEF, 10, &
+                             INCREASE_DEF, 10, &
 							 NONE, 0
                 
                 ; 142: HUMMER
