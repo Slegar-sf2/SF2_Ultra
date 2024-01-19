@@ -49,7 +49,7 @@ tbl_AllyStartDefs:
                 startLevel 5
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
-                    SECERT_BOOK|EQUIPPED, &
+                    SECRET_BOOK|EQUIPPED, &
                     BRIGHT_HONEY, &
                     MYSTERY_STAFF
                 
