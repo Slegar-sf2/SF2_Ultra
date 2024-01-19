@@ -1132,7 +1132,7 @@ tbl_ItemDefs:
                 price        10000
                 itemType     WEAPON|RARE
                 useSpell     ICE|LV4
-                equipEffects INCREASE_ATT, 35, &
+                equipEffects INCREASE_ATT, 45, &
                              UNDEFINED2, 20, &
                              UNDEFINED1, 20
                 
@@ -1233,7 +1233,7 @@ tbl_ItemDefs:
                 useSpell     DEMON|LV3
                 equipEffects INCREASE_ATT, 58, &
                              INCREASE_DEF, 20, &
-                             INCREASE|AGI, 20
+                             INCREASE_AGI, 20
                 
                 ; 110: Taros Sword
                 equipFlags   SDMN|HERO
