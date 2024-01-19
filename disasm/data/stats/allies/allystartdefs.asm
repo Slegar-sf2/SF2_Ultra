@@ -77,7 +77,7 @@ tbl_AllyStartDefs:
                     NOTHING, &
                     NOTHING
                 
-                startClass RNGR         ; 8: MAY
+                startClass RNGR         ; 8:MAY
                 startLevel 12
                 startItems &
                     WOODEN_ARROW|EQUIPPED, &
