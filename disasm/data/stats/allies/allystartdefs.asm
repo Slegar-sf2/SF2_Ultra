@@ -51,7 +51,7 @@ tbl_AllyStartDefs:
                     WOODEN_ROD|EQUIPPED, &
                     HEALING_SEED, &
                     FAIRY_POWDER, &
-                    NOTHING
+                    MYSTERY_STAFF
                 
                 startClass THIF         ; 5: SLADE
                 startLevel 7
@@ -67,7 +67,7 @@ tbl_AllyStartDefs:
                     SHORT_ROD|EQUIPPED, &
                     MANA, &
                     BRAVE_APPLE, &
-                    NOTHING
+                    MYSTERY_STAFF
                 
                 startClass PHNK         ; 7: PETER
                 startLevel 11
@@ -82,7 +82,7 @@ tbl_AllyStartDefs:
                 startItems &
                     WOODEN_ARROW|EQUIPPED, &
                     MEDICAL_HERB, &
-                    NOTHING, &
+                    GRAND_CANNON, &
                     NOTHING
                 
                 startClass WFMN         ; 9: GERHALT
@@ -97,9 +97,9 @@ tbl_AllyStartDefs:
                 startLevel 17
                 startItems &
                     LONG_SWORD|EQUIPPED, &
-                    BLIZZARD, &
-                    BOMB, &
-                    NOTHING
+                    BRIGHT_HONEY, &
+                    BRIGHT_HONEY, &
+                    COUNTER_SWORD
                 
                 startClass HERR         ; 11: NICK
                 startLevel 1
@@ -113,17 +113,17 @@ tbl_AllyStartDefs:
                 startLevel 24
                 startItems &
                     STEEL_SWORD|EQUIPPED, &
-                    POWER_AXE, &
+                    COUNTER_SWORD, &
                     HELMET|EQUIPPED, &
                     HEALING_BERRIES
                 
                 startClass WOLF         ; 13: ZYLO
                 startLevel 27
                 startItems &
-                    BLIZZARD, &
+                    BRAVE_APPLE, &
                     HELMET|EQUIPPED, &
                     BRAVE_APPLE, &
-                    NOTHING
+                    BRAVE_APPLE
                 
                 startClass MOUS         ; 14: MARILL
                 startLevel 1
@@ -152,7 +152,7 @@ tbl_AllyStartDefs:
                 startClass WITC         ; 17: ANRI
                 startLevel 1
                 startItems &
-                    BRONZE_ROD|EQUIPPED, &
+                    MYSTERY_STAFF|EQUIPPED, &
                     ELIXIR, &
                     MANA, &
                     NOTHING
@@ -176,7 +176,7 @@ tbl_AllyStartDefs:
                 startClass BDBT         ; 20: SKREECH
                 startLevel 13
                 startItems &
-                    GREAT_SWORD|EQUIPPED, &
+                    BATTLE_SWORD|EQUIPPED, &
                     MEDICAL_HERB, &
                     HEALING_SEED, &
                     NOTHING
@@ -184,7 +184,7 @@ tbl_AllyStartDefs:
                 startClass SORC         ; 21: TAYA
                 startLevel 12
                 startItems &
-                    INDRA_STAFF|EQUIPPED, &
+                    MYSTERY_STAFF|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
