@@ -49,7 +49,7 @@ tbl_AllyStartDefs:
                 startLevel 5
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
-                    KAZIN_BOOK|EQUIPPED, &
+                    SECERT_BOOK|EQUIPPED, &
                     BRIGHT_HONEY, &
                     MYSTERY_STAFF
                 
@@ -264,7 +264,7 @@ tbl_AllyStartDefs:
                 startClass GRDR       ; 31 BLEU
                 startLevel 6
                 startItems &
-                    NOTHING, &
+                    PROTECT_RING|EQUIPPED, &
                     NOTHING, &
                     NOTHING, &
                     NOTHING
