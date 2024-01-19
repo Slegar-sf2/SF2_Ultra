@@ -30,7 +30,7 @@ tbl_AllyStartDefs:
                     GIANT_KNUCKLES
                 
                 startClass KNTE         ; 2: CHESTER
-                startLevel 1
+                startLevel 8
                 startItems &
                     WOODEN_STICK|EQUIPPED, &
                     MEDICAL_HERB, &
@@ -38,7 +38,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass WARR         ; 3: JAHA
-                startLevel 1
+                startLevel 8
                 startItems &
                     BATON|EQUIPPED, &
                     MEDICAL_HERB, &
@@ -46,15 +46,15 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass MAGE         ; 4: KAZIN
-                startLevel 5
+                startLevel 8
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
-                    SECRET_BOOK|EQUIPPED, &
+                    SECRET_BOOK, &
                     BRIGHT_HONEY, &
                     MYSTERY_STAFF
                 
                 startClass THIF         ; 5: SLADE
-                startLevel 7
+                startLevel 8
                 startItems &
                     SHORT_KNIFE|EQUIPPED, &
                     ARSON, &
