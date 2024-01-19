@@ -49,8 +49,8 @@ tbl_AllyStartDefs:
                 startLevel 8
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
-                    SECRET_BOOK, &
-                    BRIGHT_HONEY, &
+                    SECRET_BOOK|EQUIPED, &
+                    NOTHING, &
                     MYSTERY_STAFF
                 
                 startClass THIF         ; 5: SLADE
@@ -254,7 +254,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass ACHH        ; 30 SHADE
-                startLevel 2
+                startLevel 8
                 startItems &
                     WOODEN_ARROW|EQUIPPED, &
                     HEALING_SEED, &
