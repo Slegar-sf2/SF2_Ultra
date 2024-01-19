@@ -27,7 +27,7 @@ tbl_AllyStartDefs:
                     WOODEN_ROD|EQUIPPED, &
                     MEDICAL_HERB, &
                     PROTECT_MILK, &
-                    GIANT_KNUNKLES
+                    GIANT_KNUCKLES
                 
                 startClass KNTE         ; 2: CHESTER
                 startLevel 1
