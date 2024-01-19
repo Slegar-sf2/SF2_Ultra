@@ -1134,7 +1134,7 @@ tbl_ItemDefs:
                 useSpell     ICE|LV4
                 equipEffects INCREASE_ATT, 35, &
                              UNDEFINED2, 20, &
-                             NONE, 0
+                             UNDEFINED1, 20
                 
                 ; 101: Demon Rod
                 equipFlags   WIZ|SORC|VICR
@@ -1230,7 +1230,7 @@ tbl_ItemDefs:
                 range        1, 1
                 price        15000
                 itemType     WEAPON|RARE
-                useSpell     DEMON_BREATH|LV3
+                useSpell     DEMON|LV3
                 equipEffects INCREASE_ATT, 58, &
                              INCREASE_DEF, 20, &
                              INCREASE|AGI, 20
@@ -1376,7 +1376,7 @@ tbl_ItemDefs:
                 useSpell     THUNDER|LV4
                 equipEffects INCREASE_AGI, 10, &
                              INCREASE_MOV, 2, &
-                             NONE, 0
+                             UNDEFINED2,20
                 
                 ; 123: Mithril
                 equipFlags   NONE
@@ -1577,7 +1577,8 @@ tbl_ItemDefs:
                 equipEffects INCREASE_ATT, 1, &
                              INCREASE_DEF, 2, &
                              INCREASE_MOV, 2,&
-                             REGAIN_MP,15
+                             UNDEFINED1,15,&
+                             UNDEFINED2,15
                 
                 ; 141: ATTACK_RING
                 equipFlags   SDMN|HERO|KNTE|WARR|BDMN|WFMN|PHNK|THIF|PLDN|PHNX|BDBT|GLDT|BRN|SWOR|KENT
@@ -1677,7 +1678,8 @@ tbl_ItemDefs:
                 equipEffects INCREASE_MOV,2,&
                              INCREASE_DEF,15,&
                              INCREASE_AGI,15,&
-                             REGAIN_MP,30
+                             UNDEFINED1,30,&
+                             UNDEFINED2,30
                 
                 ; 150: EGG
                 equipFlags   PHNK|PHNX
