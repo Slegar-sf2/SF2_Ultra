@@ -371,8 +371,8 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        1, 1
                 price        7500
-                itemType     WEAPON|RARE|BREAKABLE
-                useSpell     MUDDLE
+                itemType     WEAPON|RARE
+                useSpell     MUDDLE|LV3
                 equipEffects INCREASE_ATT, 55, &
                              NONE, 0, &
                              NONE, 0
@@ -624,8 +624,8 @@ tbl_ItemDefs:
                 equipFlags2  SNII
                 range        2, 3
                 price        9800
-                itemType     WEAPON|RARE|BREAKABLE
-                useSpell     DISPEL
+                itemType     WEAPON|RARE
+                useSpell     DISPEL|LV3
                 equipEffects INCREASE_ATT, 43, &
                              NONE, 0, &
                              NONE, 0
@@ -789,8 +789,8 @@ tbl_ItemDefs:
                 equipFlags2  STAR|HERR
                 range        1, 1
                 price        14000
-                itemType     WEAPON|RARE|BREAKABLE
-                useSpell     BOLT|LV3
+                itemType     WEAPON|RARE
+                useSpell     KATON|LV4
                 equipEffects INCREASE_ATT, 42, &
                              NONE, 0, &
                              NONE, 0
@@ -1130,10 +1130,10 @@ tbl_ItemDefs:
                 equipFlags2  WIZZ|WITC
                 range        1, 1
                 price        10000
-                itemType     WEAPON|RARE|BREAKABLE
-                useSpell     ICE|LV3
+                itemType     WEAPON|RARE
+                useSpell     ICE|LV4
                 equipEffects INCREASE_ATT, 35, &
-                             UNDEFINED2, 2, &
+                             UNDEFINED2, 20, &
                              NONE, 0
                 
                 ; 101: Demon Rod
@@ -1230,10 +1230,10 @@ tbl_ItemDefs:
                 range        1, 1
                 price        15000
                 itemType     WEAPON|RARE
-                useSpell     NOTHING
-                equipEffects INCREASE_ATT, 48, &
-                             INCREASE_DEF, 5, &
-                             NONE, 0
+                useSpell     DEMON_BREATH|LV3
+                equipEffects INCREASE_ATT, 58, &
+                             INCREASE_DEF, 20, &
+                             INCREASE|AGI, 20
                 
                 ; 110: Taros Sword
                 equipFlags   SDMN|HERO
