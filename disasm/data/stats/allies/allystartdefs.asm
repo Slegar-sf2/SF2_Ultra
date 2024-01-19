@@ -65,7 +65,7 @@ tbl_AllyStartDefs:
                 startLevel 9
                 startItems &
                     SHORT_ROD|EQUIPPED, &
-                    BRAVE_APPLE , &
+                    BRAVE_APPLE, &
                     BRAVE_APPLE, &
                     MYSTERY_STAFF
                 
