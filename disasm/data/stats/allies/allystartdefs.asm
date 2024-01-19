@@ -83,7 +83,7 @@ tbl_AllyStartDefs:
                     WOODEN_ARROW|EQUIPPED, &
                     MEDICAL_HERB, &
                     GRAND_CANNON, &
-                    NOTHING
+                    PROTECT_RING|EQUIPPED
                 
                 startClass WFMN         ; 9: GERHALT
                 startLevel 16
