@@ -25,7 +25,7 @@ tbl_AllyStartDefs:
                 startLevel 1
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
-                    MEDICAL_HERB, &
+                    BIKINI, &
                     PROTECT_MILK, &
                     GIANT_KNUCKLES
                 
