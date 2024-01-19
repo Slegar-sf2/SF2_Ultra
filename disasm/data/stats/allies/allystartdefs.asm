@@ -17,17 +17,17 @@ tbl_AllyStartDefs:
                 startLevel 1
                 startItems &
                     WOODEN_SWORD|EQUIPPED, &
-                    MEDICAL_HERB, &
+                    POWER_WATER, &
                     ANGEL_WING, &
-                    NOTHING
+                    LEVANTER
                 
                 startClass PRST         ; 1: SARAH
                 startLevel 1
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
                     MEDICAL_HERB, &
-                    NOTHING, &
-                    NOTHING
+                    PROTECT_MILK, &
+                    GIANT_KNUNKLES
                 
                 startClass KNTE         ; 2: CHESTER
                 startLevel 1
@@ -49,8 +49,8 @@ tbl_AllyStartDefs:
                 startLevel 5
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
-                    HEALING_SEED, &
-                    FAIRY_POWDER, &
+                    KAZIN_BOOK|EQUIPPED, &
+                    BRIGHT_HONEY, &
                     MYSTERY_STAFF
                 
                 startClass THIF         ; 5: SLADE
@@ -59,13 +59,13 @@ tbl_AllyStartDefs:
                     SHORT_KNIFE|EQUIPPED, &
                     ARSON, &
                     HEALING_DROP, &
-                    NOTHING
+                    GISARME
                 
                 startClass MAGG         ; 6: NATASHA
                 startLevel 9
                 startItems &
                     SHORT_ROD|EQUIPPED, &
-                    MANA, &
+                    , &
                     BRAVE_APPLE, &
                     MYSTERY_STAFF
                 
