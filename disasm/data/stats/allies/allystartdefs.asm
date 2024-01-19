@@ -49,8 +49,8 @@ tbl_AllyStartDefs:
                 startLevel 8
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
-                    SECRET_BOOK|EQUIPED, &
-                    NOTHING, &
+                    SECRET_BOOK|EQUIPPED, &
+                    BRIGHT_HONEY, &
                     MYSTERY_STAFF
                 
                 startClass THIF         ; 5: SLADE
@@ -65,7 +65,7 @@ tbl_AllyStartDefs:
                 startLevel 9
                 startItems &
                     SHORT_ROD|EQUIPPED, &
-                    , &
+                    BRAVE_APPLE , &
                     BRAVE_APPLE, &
                     MYSTERY_STAFF
                 
