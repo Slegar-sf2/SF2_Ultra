@@ -9,7 +9,7 @@ tbl_ShopInventories:
                 
                 ; Weapon shop 0
                 shopInventory SHORT_SWORD, &
-                              BRONZE_SWORD,&
+                              
                               SHORT_SPEAR, &
                               SHORT_AXE, &
                               WOODEN_ROD, &
@@ -181,7 +181,7 @@ tbl_ShopInventories:
                               HEALING_SEED, &
                               ANTIDOTE, &
                               ANGEL_WING, &
-                              LIFE_RING,&
+                              POWER_RING,&
                               BRAVE_APPLE
                              
                               
@@ -191,7 +191,7 @@ tbl_ShopInventories:
                               HEALING_SEED, &
                               ANTIDOTE, &
                               ANGEL_WING,&
-                              LIFE_RING,&
+                              PROTECT_MILK,&
                              BRAVE_APPLE
                              
                 
