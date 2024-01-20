@@ -251,7 +251,7 @@ tbl_ItemDefs:
                 range        0, 0
                 price        3000
                 itemType     RING|RARE
-                useSpell     BOOST|LV2
+                useSpell     BOOST|LV3
                 equipEffects INCREASE_DEF, 5, &
                              INCREASE_AGI, 15, &
                              INCREASE_MOV, 2
@@ -279,7 +279,7 @@ tbl_ItemDefs:
                              NONE, 0
                 
                 ; 23: White Ring
-                equipFlags   VICR
+                equipFlags   VICR|HERO
                 equipFlags2  MONK
                 range        0, 0
                 price        4000
@@ -287,7 +287,7 @@ tbl_ItemDefs:
                 useSpell     AURA|LV4
                 equipEffects INCREASE_DEF, 20, &
                              INCREASE_AGI, 20, &
-                             NONE, 0
+                             INCREASE_MOV, 2
                 
                 ; 24: Black Ring
                 equipFlags   WIZ|SORC
