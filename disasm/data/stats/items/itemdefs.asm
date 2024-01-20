@@ -283,10 +283,10 @@ tbl_ItemDefs:
                 equipFlags2  MONK
                 range        0, 0
                 price        4000
-                itemType     RING|RARE|BREAKABLE
-                useSpell     AURA|LV2
-                equipEffects INCREASE_DEF, 10, &
-                             NONE, 0, &
+                itemType     RING|RARE
+                useSpell     AURA|LV4
+                equipEffects INCREASE_DEF, 20, &
+                             INCREASE_AGI, 20, &
                              NONE, 0
                 
                 ; 24: Black Ring
