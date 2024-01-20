@@ -286,8 +286,8 @@ tbl_ItemDefs:
                 itemType     RING|RARE
                 useSpell     AURA|LV4
                 equipEffects INCREASE_DEF, 20, &
-                             INCREASE_AGI, 20, &
-                             INCREASE_MOV, 2
+                             INCREASE_AGI,20,&
+                             INCREASE_MOV,2
                 
                 ; 24: Black Ring
                 equipFlags   WIZ|SORC
@@ -374,7 +374,7 @@ tbl_ItemDefs:
                 itemType     WEAPON|RARE
                 useSpell     MUDDLE|LV3
                 equipEffects INCREASE_ATT, 55, &
-                             NONE, 0, &
+                             NONE,0, &
                              NONE,0
                 
                 ; 32: Evil Knuckles
@@ -626,9 +626,9 @@ tbl_ItemDefs:
                 price        9800
                 itemType     WEAPON|RARE
                 useSpell     DISPEL|LV3
-                equipEffects INCREASE_ATT, 43, &
-                             NONE, 0, &
-                             NONE, 0
+                equipEffects INCREASE_ATT,53, &
+                             NONE,0, &
+                             NONE,0
                 
                 ; 55: Evil Shot
                 equipFlags   BRGN|BWNT|SNIP
@@ -781,8 +781,8 @@ tbl_ItemDefs:
                 itemType     WEAPON|RARE
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 39, &
-                             INCREASE_COUNTER, 1, &
-                             NONE, 0
+                             INCREASE_COUNTER, 1,&
+                             NONE,0
                 
                 ; 69: Levanter
                 equipFlags   HERO
@@ -791,8 +791,8 @@ tbl_ItemDefs:
                 price        14000
                 itemType     WEAPON|RARE
                 useSpell     BLAZE|LV4
-                equipEffects INCREASE_ATT, 42, &
-                             INCREASE MOV, 2, &
+                equipEffects INCREASE_ATT, 42,&
+                             INCREASE MOV, 2,&
                              NONE,0
                 
                 ; 70: Dark Sword
@@ -804,7 +804,7 @@ tbl_ItemDefs:
                 useSpell     TORNADO
                 equipEffects INCREASE_ATT, 50, &
                              INCREASE_DEF, 5, &
-                             NONE, 0
+                             NONE,0
                 
                 ; 71: Wooden Sword
                 equipFlags   SDMN|BDMN|HERO|BRN|BDBT
@@ -1101,7 +1101,7 @@ tbl_ItemDefs:
                 useSpell     HEAl|LV3
                 equipEffects INCREASE_ATT, 29, &
                              UNDEFINED1, 3, &
-                             NONE, 0
+                             NONE,0
                 
                 ; 98: Freeze Staff
                 equipFlags   WIZ|SORC
@@ -1245,7 +1245,7 @@ tbl_ItemDefs:
                 useSpell     BOLT|LV2
                 equipEffects INCREASE_ATT, 30, &
                              INCREASE_DEF, 1, &
-                             NONE, 0
+                             NONE,0
                 
                 ; 111: ATOM ROD                
                 equipFlags   NONE
@@ -1590,7 +1590,7 @@ tbl_ItemDefs:
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 10, &
                              INCREASE_DEF, 10, &
-							 NONE, 0
+			     NONE,0
                 
                 ; 142: HUMMER
                 equipFlags   NONE
