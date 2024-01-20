@@ -374,7 +374,7 @@ tbl_ItemDefs:
                 itemType     WEAPON|RARE
                 useSpell     MUDDLE|LV3
                 equipEffects INCREASE_ATT, 55, &
-                             NONE,0, &
+                             NONE,0,&
                              NONE,0
                 
                 ; 32: Evil Knuckles
@@ -627,7 +627,7 @@ tbl_ItemDefs:
                 itemType     WEAPON|RARE
                 useSpell     DISPEL|LV3
                 equipEffects INCREASE_ATT,53, &
-                             NONE,0, &
+                             NONE,0,&
                              NONE,0
                 
                 ; 55: Evil Shot
@@ -770,8 +770,8 @@ tbl_ItemDefs:
                 itemType     WEAPON|RARE|UNSELLABLE
                 useSpell     PYTHON|LV3
                 equipEffects INCREASE_ATT, 60, &
-                             INCREASE_MOV, 2, &
-                            INCREASE_DEF, 20
+                             INCREASE_MOV,2, &
+                            INCREASE_DEF,20
                 
                 ; 68: Counter Sword
                 equipFlags   HERO|BRN|BDBT
@@ -791,8 +791,8 @@ tbl_ItemDefs:
                 price        14000
                 itemType     WEAPON|RARE
                 useSpell     BLAZE|LV4
-                equipEffects INCREASE_ATT, 42,&
-                             INCREASE MOV, 2,&
+                equipEffects INCREASE_ATT,42,&
+                             INCREASE MOV,2,&
                              NONE,0
                 
                 ; 70: Dark Sword
@@ -1100,7 +1100,7 @@ tbl_ItemDefs:
                 itemType     WEAPON|RARE|BREAKABLE
                 useSpell     HEAl|LV3
                 equipEffects INCREASE_ATT, 29, &
-                             UNDEFINED1, 3, &
+                             UNDEFINED1,3,&
                              NONE,0
                 
                 ; 98: Freeze Staff
@@ -1134,7 +1134,7 @@ tbl_ItemDefs:
                 useSpell     PYTHON|LV3
                 equipEffects INCREASE_ATT, 45, &
                              UNDEFINED2, 20, &
-                             UNDEFINED1, 20
+                             UNDEFINED1,20
                 
                 ; 101: Demon Rod
                 equipFlags   WIZ|SORC|VICR
@@ -1366,7 +1366,7 @@ tbl_ItemDefs:
                 useSpell     BOOST|LV2
                 equipEffects INCREASE_DEF, 3, &
                              INCREASE_MOV, 2, &
-                             NONE, 0
+                             NONE,0
                 
                 ; 122: Vigor Ball
                 equipFlags   NONE
@@ -1700,8 +1700,8 @@ tbl_ItemDefs:
                 price        5500
                 itemType     WEAPON
                 useSpell     PYTHON|LV3
-                equipEffects INCREASE_ATT, 20, &
-                             NONE, 0, &
+                equipEffects INCREASE_ATT, 20,&
+                             NONE,0,&
                              NONE, 0
                 
                 ; 152: ELECTRO
