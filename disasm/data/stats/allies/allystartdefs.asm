@@ -26,7 +26,7 @@ tbl_AllyStartDefs:
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
                     BIKINI, &
-                    PROTECT_MILK, &
+                    PROTECT_RING|EQUIPPED, &
                     GIANT_KNUCKLES
                 
                 startClass KNTE         ; 2: CHESTER
@@ -65,7 +65,7 @@ tbl_AllyStartDefs:
                 startLevel 9
                 startItems &
                     SHORT_ROD|EQUIPPED, &
-                    BRAVE_APPLE, &
+                    PROTECT_RING|EQUIPPED, &
                     BRAVE_APPLE, &
                     MYSTERY_STAFF
                 
