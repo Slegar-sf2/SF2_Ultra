@@ -792,8 +792,8 @@ tbl_ItemDefs:
                 itemType     WEAPON|RARE
                 useSpell     BLAZE|LV4
                 equipEffects INCREASE_ATT,42,&
-                             INCREASE MOV,2,&
-                             NONE,0
+                             INCREASE MOV,2
+                             
                 
                 ; 70: Dark Sword
                 equipFlags   HERO|BRN|BDBT
@@ -1244,8 +1244,8 @@ tbl_ItemDefs:
                 itemType     WEAPON|RARE
                 useSpell     BOLT|LV2
                 equipEffects INCREASE_ATT, 30, &
-                             INCREASE_DEF, 1, &
-                             NONE,0
+                             INCREASE_DEF, 1
+                             
                 
                 ; 111: ATOM ROD                
                 equipFlags   NONE
@@ -1363,10 +1363,10 @@ tbl_ItemDefs:
                 range        0, 0
                 price        2000
                 itemType     RING|RARE|BREAKABLE
-                useSpell     BOOST|LV2
+                useSpell     BOOST|LV3
                 equipEffects INCREASE_DEF, 3, &
-                             INCREASE_MOV, 2, &
-                             NONE,0
+                             INCREASE_MOV, 2
+                             
                 
                 ; 122: Vigor Ball
                 equipFlags   NONE
@@ -1377,7 +1377,7 @@ tbl_ItemDefs:
                 useSpell     THUNDER|LV4
                 equipEffects INCREASE_AGI, 10, &
                              INCREASE_MOV, 2, &
-                             UNDEFINED2,20
+                             UNDEFINED2,2
                 
                 ; 123: Mithril
                 equipFlags   NONE
@@ -1399,8 +1399,8 @@ tbl_ItemDefs:
                 useSpell     NOTHING
                 equipEffects UNDEFINED1, 15, &
                              INCREASE_ATT,10, &
-                             INCREASE_DEF, 10,&
-                             INCREASE_MOV,2
+                             INCREASE_DEF, 10
+                             
                 
                 ; 125: Cotton Balloon
                 equipFlags   NONE
@@ -1455,9 +1455,9 @@ tbl_ItemDefs:
                 price        1200
                 itemType     WEAPON|RARE|BREAKABLE
                 useSpell     ICE|LV4
-                equipEffects INCREASE_ATT, 10, &
-                             NONE, 0, &
-                             NONE, 0
+                equipEffects INCREASE_ATT, 10
+                             
+                             
                 ; 130: SUPER_STAFF
                 equipFlags   NONE
                 equipFlags2  NONE
