@@ -375,7 +375,7 @@ tbl_ItemDefs:
                 useSpell     MUDDLE|LV3
                 equipEffects INCREASE_ATT, 55, &
                              NONE, 0, &
-                             NONE, 0
+                             NONE,0
                 
                 ; 32: Evil Knuckles
                 equipFlags   MMNK
@@ -793,7 +793,7 @@ tbl_ItemDefs:
                 useSpell     BLAZE|LV4
                 equipEffects INCREASE_ATT, 42, &
                              INCREASE MOV, 2, &
-                             NONE, 0
+                             NONE,0
                 
                 ; 70: Dark Sword
                 equipFlags   HERO|BRN|BDBT
