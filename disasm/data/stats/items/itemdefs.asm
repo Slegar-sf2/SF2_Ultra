@@ -790,9 +790,9 @@ tbl_ItemDefs:
                 range        1, 1
                 price        14000
                 itemType     WEAPON|RARE
-                useSpell     KATON|LV4
+                useSpell     BLAZE|LV4
                 equipEffects INCREASE_ATT, 42, &
-                             NONE, 0, &
+                             INCREASE MOV, 2, &
                              NONE, 0
                 
                 ; 70: Dark Sword
@@ -1131,7 +1131,7 @@ tbl_ItemDefs:
                 range        1, 1
                 price        10000
                 itemType     WEAPON|RARE
-                useSpell     ICE|LV4
+                useSpell     PYTHON|LV3
                 equipEffects INCREASE_ATT, 45, &
                              UNDEFINED2, 20, &
                              UNDEFINED1, 20
@@ -1233,7 +1233,8 @@ tbl_ItemDefs:
                 useSpell     DEMON|LV3
                 equipEffects INCREASE_ATT, 58, &
                              INCREASE_DEF, 20, &
-                             INCREASE_AGI, 20
+                             INCREASE_AGI, 20,&
+                             INCREASE_MOV,2
                 
                 ; 110: Taros Sword
                 equipFlags   SDMN|HERO
