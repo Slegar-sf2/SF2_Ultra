@@ -262,7 +262,7 @@ tbl_EnemyDefs:
                 unknownByte 9           ; 9: GOLEM
                 spellPower REGULAR
                 level    13
-                maxHp    28
+                maxHp    32
                 maxMp    0
                 baseAtt  43
                 baseDef  32
@@ -437,7 +437,7 @@ tbl_EnemyDefs:
                 unknownByte 16          ; 16: CHIMERA
                 spellPower REGULAR
                 level    28
-                maxHp    63
+                maxHp    88
                 maxMp    0
                 baseAtt  69
                 baseDef  60
@@ -487,7 +487,7 @@ tbl_EnemyDefs:
                 unknownByte 18          ; 18: DARK SOLDIER
                 spellPower ENHANCED
                 level    31
-                maxHp    62
+                maxHp    75
                 maxMp    0
                 baseAtt  50
                 baseDef  66
@@ -512,7 +512,7 @@ tbl_EnemyDefs:
                 unknownByte 19          ; 19: LIZARDMAN
                 spellPower ENHANCED
                 level    32
-                maxHp    64
+                maxHp    98
                 maxMp    0
                 baseAtt  54
                 baseDef  64
@@ -537,7 +537,7 @@ tbl_EnemyDefs:
                 unknownByte 20          ; 20: WORM
                 spellPower ENHANCED
                 level    33
-                maxHp    59
+                maxHp    79
                 maxMp    0
                 baseAtt  80
                 baseDef  76
@@ -587,7 +587,7 @@ tbl_EnemyDefs:
                 unknownByte 22          ; 22: LIZARD
                 spellPower ENHANCED
                 level    36
-                maxHp    91
+                maxHp    130
                 maxMp    48
                 baseAtt  62
                 baseDef  72
@@ -612,7 +612,7 @@ tbl_EnemyDefs:
                 unknownByte 23          ; 23: SKELET
                 spellPower ENHANCED
                 level    40
-                maxHp    88
+                maxHp    99
                 maxMp    0
                 baseAtt  76
                 baseDef  74
@@ -637,7 +637,7 @@ tbl_EnemyDefs:
                 unknownByte 24          ; 24: CERBERUS
                 spellPower ENHANCED
                 level    41
-                maxHp    90
+                maxHp    91
                 maxMp    0
                 baseAtt  95
                 baseDef  76
@@ -662,7 +662,7 @@ tbl_EnemyDefs:
                 unknownByte 25          ; 25: MUD MAN
                 spellPower ENHANCED
                 level    43
-                maxHp    72
+                maxHp    82
                 maxMp    0
                 baseAtt  102
                 baseDef  86
@@ -1062,7 +1062,7 @@ tbl_EnemyDefs:
                 unknownByte 41          ; 41: VAMPIRE BAT
                 spellPower REGULAR
                 level    5
-                maxHp    30
+                maxHp    33
                 maxMp    8
                 baseAtt  28
                 baseDef  17
@@ -1087,7 +1087,7 @@ tbl_EnemyDefs:
                 unknownByte 42          ; 42: BELIAL
                 spellPower REGULAR
                 level    11
-                maxHp    37
+                maxHp    57
                 maxMp    18
                 baseAtt  34
                 baseDef  23
@@ -1112,7 +1112,7 @@ tbl_EnemyDefs:
                 unknownByte 43          ; 43: GARGOYLE
                 spellPower REGULAR
                 level    15
-                maxHp    44
+                maxHp    77
                 maxMp    0
                 baseAtt  45
                 baseDef  32
@@ -1137,7 +1137,7 @@ tbl_EnemyDefs:
                 unknownByte 44          ; 44: HARPY
                 spellPower REGULAR
                 level    23
-                maxHp    55
+                maxHp    65
                 maxMp    22
                 baseAtt  59
                 baseDef  48
@@ -1162,7 +1162,7 @@ tbl_EnemyDefs:
                 unknownByte 45          ; 45: DRAGON
                 spellPower ENHANCED
                 level    30
-                maxHp    59
+                maxHp    89
                 maxMp    21
                 baseAtt  73
                 baseDef  56
@@ -1187,7 +1187,7 @@ tbl_EnemyDefs:
                 unknownByte 46          ; 46: WYVERN
                 spellPower ENHANCED
                 level    33
-                maxHp    66
+                maxHp    96
                 maxMp    0
                 baseAtt  74
                 baseDef  59
@@ -1237,7 +1237,7 @@ tbl_EnemyDefs:
                 unknownByte 48          ; 48: PEGASUS KNIGHT
                 spellPower ENHANCED
                 level    44
-                maxHp    90
+                maxHp    97
                 maxMp    0
                 baseAtt  66
                 baseDef  77
@@ -1362,7 +1362,7 @@ tbl_EnemyDefs:
                 unknownByte 53          ; 53: BEEDRILL
                 spellPower ENHANCED
                 level    44
-                maxHp    108
+                maxHp    118
                 maxMp    36
                 baseAtt  106
                 baseDef  79
@@ -1412,7 +1412,7 @@ tbl_EnemyDefs:
                 unknownByte 55          ; 55: TENTACRUEL
                 spellPower REGULAR
                 level    12
-                maxHp    40
+                maxHp    50
                 maxMp    20
                 baseAtt  39
                 baseDef  30
@@ -1462,7 +1462,7 @@ tbl_EnemyDefs:
                 unknownByte 57          ; 57: HUNTER GOBLIN
                 spellPower REGULAR
                 level    6
-                maxHp    25
+                maxHp    29
                 maxMp    0
                 baseAtt  18
                 baseDef  12
@@ -1487,7 +1487,7 @@ tbl_EnemyDefs:
                 unknownByte 58          ; 58: DEATH ARCHER
                 spellPower REGULAR
                 level    11
-                maxHp    45
+                maxHp    49
                 maxMp    0
                 baseAtt  29
                 baseDef  22
@@ -1762,8 +1762,8 @@ tbl_EnemyDefs:
                 unknownByte 69          ; 69: MASTER MAGE
                 spellPower REGULAR
                 level    15
-                maxHp    57
-                maxMp    35
+                maxHp    67
+                maxMp    55
                 baseAtt  20
                 baseDef  25
                 baseAgi  40
@@ -1787,8 +1787,8 @@ tbl_EnemyDefs:
                 unknownByte 70          ; 70: DARK MADAM
                 spellPower REGULAR
                 level    22
-                maxHp    55
-                maxMp    41
+                maxHp    85
+                maxMp    61
                 baseAtt  33
                 baseDef  39
                 baseAgi  34
@@ -1837,8 +1837,8 @@ tbl_EnemyDefs:
                 unknownByte 72          ; 72: WIZARD
                 spellPower ENHANCED
                 level    31
-                maxHp    77
-                maxMp    60
+                maxHp    97
+                maxMp    100
                 baseAtt  34
                 baseDef  56
                 baseAgi  44
@@ -1862,8 +1862,8 @@ tbl_EnemyDefs:
                 unknownByte 73          ; 73: NECROMANCER
                 spellPower ENHANCED
                 level    40
-                maxHp    83
-                maxMp    101
+                maxHp    103
+                maxMp    121
                 baseAtt  35
                 baseDef  62
                 baseAgi  51
@@ -2012,7 +2012,7 @@ tbl_EnemyDefs:
                 unknownByte 79          ; 79: HIGH PRIEST
                 spellPower REGULAR
                 level    20
-                maxHp    60
+                maxHp    66
                 maxMp    42
                 baseAtt  23
                 baseDef  33
@@ -2062,8 +2062,8 @@ tbl_EnemyDefs:
                 unknownByte 81          ; 81: DARK BISHOP
                 spellPower ENHANCED
                 level    28
-                maxHp    68
-                maxMp    70
+                maxHp    78
+                maxMp    90
                 baseAtt  35
                 baseDef  53
                 baseAgi  34
@@ -2087,8 +2087,8 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 82: MASTER MONK
                 spellPower ENHANCED
                 level    36
-                maxHp    84
-                maxMp    59
+                maxHp    104
+                maxMp    79
                 baseAtt  53
                 baseDef  57
                 baseAgi  31
@@ -2112,7 +2112,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 83: SHAMAN
                 spellPower ENHANCED
                 level    45
-                maxHp    90
+                maxHp    109
                 maxMp    100
                 baseAtt  55
                 baseDef  68
@@ -2187,7 +2187,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 86: SCAVENGER
                 spellPower REGULAR
                 level    6
-                maxHp    22
+                maxHp    24
                 maxMp    0
                 baseAtt  18
                 baseDef  17
@@ -2212,7 +2212,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 87: KRAKEN HEAD
                 spellPower REGULAR
                 level    24
-                maxHp    100
+                maxHp    110
                 maxMp    0
                 baseAtt  60
                 baseDef  42
@@ -2237,7 +2237,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 88: TAROS
                 spellPower REGULAR
                 level    25
-                maxHp    92
+                maxHp    122
                 maxMp    0
                 baseAtt  40
                 baseDef  38
@@ -2262,12 +2262,12 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 89: KING
                 spellPower ENHANCED
                 level    28
-                maxHp    110
+                maxHp    130
                 maxMp    60
                 baseAtt  40
                 baseDef  56
                 baseAgi  165
-                baseMov  2
+                baseMov  3
                 baseResistance WIND_MINOR|LIGHTNING_MINOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL125_1IN4|DOUBLE_1IN8|COUNTER_1IN4
                 items &
@@ -2562,7 +2562,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 101: MAGE
                 spellPower REGULAR
                 level    12
-                maxHp    50
+                maxHp    55
                 maxMp    28
                 baseAtt  3
                 baseDef  18
@@ -2612,7 +2612,7 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 103: ARTILERY
                 spellPower ENHANCED
                 level    8
-                maxHp    34
+                maxHp    37
                 maxMp    0
                 baseAtt  25
                 baseDef  18
@@ -2637,7 +2637,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 104: GHOUL
                 spellPower REGULAR
                 level    19
-                maxHp    42
+                maxHp    49
                 maxMp    0
                 baseAtt  53
                 baseDef  40
@@ -2662,7 +2662,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 105: WOLF
                 spellPower REGULAR
                 level    22
-                maxHp    36
+                maxHp    47
                 maxMp    0
                 baseAtt  56
                 baseDef  46
@@ -2737,7 +2737,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 108: BAZ00
                 spellPower ENHANCED
                 level    24
-                maxHp    90
+                maxHp    109
                 maxMp    55
                 baseAtt  67
                 baseDef  41
@@ -2762,9 +2762,9 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 109: FRABELL
                 spellPower ENHANCED
                 level    37
-                maxHp    135
+                maxHp    155
                 maxMp    45
-                baseAtt  72
+                baseAtt  74
                 baseDef  77
                 baseAgi  160
                 baseMov  6
@@ -2862,7 +2862,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 113: EVIL PIXY
                 spellPower REGULAR
                 level    8
-                maxHp    31
+                maxHp    37
                 maxMp    24
                 baseAtt  21
                 baseDef  20
@@ -2912,7 +2912,7 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 115 WARDERER
                 spellPower ENHANCED
                 level    70
-                maxHp    358
+                maxHp    558
                 maxMp    64
                 baseAtt  130
                 baseDef  122
@@ -2962,7 +2962,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 117: GOBLIN PUPIL
                 spellPower REGULAR
                 level    9
-                maxHp    33
+                maxHp    40
                 maxMp    0
                 baseAtt  23
                 baseDef  21
@@ -2987,7 +2987,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 118 Farfetch
                 spellPower REGULAR
                 level    10
-                maxHp    37
+                maxHp    52
                 maxMp    20
                 baseAtt  35
                 baseDef  25
@@ -3237,7 +3237,7 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 128: AZUMARILL
                 spellPower REGULAR
                 level    34
-                maxHp    80
+                maxHp    100
                 maxMp    0
                 baseAtt  75
                 baseDef  65
