@@ -55,5 +55,4 @@ cs_4FF5A:       textCursor 1556
                  moveDown 1
                 endActions
                 hide ALLY_LUKE
-                setStoryFlag 16         ; Battle 16 unlocked - BATTLE_VERSUS_KRAKEN             
                 csc_end
