@@ -2487,7 +2487,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 98: ZEON
                 spellPower ENHANCED
                 level    99
-                maxHp    660
+                maxHp    960
                 maxMp    100
                 baseAtt  166
                 baseDef  122
@@ -2787,7 +2787,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 110: DAVA
                 spellPower ENHANCED
                 level    80
-                maxHp    555
+                maxHp    777
                 maxMp    80
                 baseAtt  115
                 baseDef  113
@@ -3041,7 +3041,7 @@ tbl_EnemyDefs:
                 maxMp    130
                 baseAtt  87
                 baseDef  90
-                baseAgi  90
+                baseAgi  170
                 baseMov  7
                 baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL150_1IN32|DOUBLE_1IN32|COUNTER_1IN16
@@ -3062,16 +3062,16 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 121 Rusephine
                 spellPower ENHANCED
                 level    70
-                maxHp    1900
+                maxHp    3900
                 maxMp    0
-                baseAtt  135
-                baseDef  81
+                baseAtt  145
+                baseDef  87
                 baseAgi  175
                 baseMov  5
                 baseResistance WIND_MAJOR|LIGHTNING_MAJOR|ICE_MAJOR|FIRE_MAJOR|STATUS_IMMUNITY
                 baseProwess    CRITICAL_SLOW|DOUBLE_1IN16|COUNTER_1IN4
                 items &
-                    HELMET|EQUIPPED, &
+                    LIFE_RING|EQUIPPED, &
                     POWER_RING|EQUIPPED, &
                     ATTACK_RING|EQUIPPED, &
                     QUICK_RING|EQUIPPED
@@ -3087,7 +3087,7 @@ tbl_EnemyDefs:
                 unknownByte 0          ; 122 DARKSOL
                 spellPower ENHANCED
                 level    70
-                maxHp    590
+                maxHp    1200
                 maxMp    200
                 baseAtt  153
                 baseDef  130
@@ -3112,7 +3112,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 123 DOMINGO
                 spellPower ENHANCED
                 level    72
-                maxHp    322
+                maxHp    700
                 maxMp    250
                 baseAtt  135
                 baseDef  88
@@ -3187,7 +3187,7 @@ tbl_EnemyDefs:
                 unknownByte 0           ; 126: KING DAKU
                 spellPower ENHANCED
                 level    70
-                maxHp    380
+                maxHp    440
                 maxMp    68
                 baseAtt  128
                 baseDef  120

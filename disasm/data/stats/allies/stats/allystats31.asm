@@ -4,8 +4,8 @@
 AllyStats31:    forClass  GRDR   ; BLEU
                 hpGrowth  26, 132, LATE
                 mpGrowth  8, 16, LINEAR
-                attGrowth 69, 131, LATE
-                defGrowth 46, 83, LINEAR
+                attGrowth 69, 149, LATE
+                defGrowth 46, 90, LINEAR
                 agiGrowth 55, 90, LINEAR
                 spellList & 
                     2, THUNDER|LV2, &
